@@ -328,8 +328,9 @@ document.addEventListener('DOMContentLoaded', () => {
       opts.innerHTML = '<input type="text" id="txtAns" placeholder="请输入答案…"/>';
     } else {
       const letters = Array.from({length:MAX_OPTS}, (_,i)=>String.fromCharCode(65+i));
-      const avail = letters.filter(l => q[l]); // 选项列 A,B,C...
-      shuffle(avail).forEach(l=>{
+      const avail = letters.filter(l => q[l]); // A,B,C...
+      // === 这里改为“保持 ABCD 顺序”，不再 shuffle ===
+      avail.forEach(l=>{
         const inp = document.createElement('input');
         inp.type = (qType==='checkbox')?'checkbox':'radio';
         inp.name = 'opt'; inp.value = l; inp.id = 'opt_'+l;
