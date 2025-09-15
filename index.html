@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>纪老师 SPM SC 超强训练器</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; max-width:700px; margin:auto; text-align:center; }
+    #welcome,#menu,#quiz,#finish { margin:20px; }
+    #menu,#quiz,#finish { display:none; }
+    #menu button,#controls button { margin:5px; padding:8px 12px; }
+    .question { text-align:left; margin:15px 0; padding-left:20px; }
+    .option-label { display:block; margin:5px 0; cursor:pointer; }
+    .feedback { font-weight:bold; margin:10px 0; }
+    progress { width:100%; height:20px; }
+    input[type="text"], input[type="password"] { width:100%; padding:6px; margin:5px 0; }
+    input[type="radio"],input[type="checkbox"] { transform:scale(1.2); margin-right:8px; }
+    img { max-width:100%; margin:10px 0; border:2px solid #ccc; }
+    #login-info { font-size: 0.9em; color:#555; }
+    #uwp-badge { display:none; font-size:0.9em; color:#0a7; margin-top:6px; }
+  </style>
+</head>
+<body>
+
+  <!-- 1. 欢迎 & 姓名+密码 -->
+  <div id="welcome">
+    <h2>请输入姓名与密码 / Enter Your Name & Password</h2>
+    <input type="text" id="username" placeholder="姓名 / Name"/>
+    <input type="password" id="password" placeholder="密码 / Password"/>
+    <button id="startBtn" type="button">登录 / Log In</button>
+    <div id="login-info">提示：万用密码也可用（5分钟有效）。</div>
+    <div id="uwp-badge">已使用万用密码，剩余 <span id="uwp-remaining"></span></div>
+  </div>
+
+  <!-- 2. 章节选择 -->
+  <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
+
+  <!-- 3. 测验区域 -->
+  <div id="quiz">
+    <h3 id="quiz-title"></h3>
+    <div id="score">得分: 0</div>
+    <div id="remaining">剩余题目: 0</div>
+    <progress id="progress" value="0" max="0"></progress>
+    <div id="question-area"></div>
+  </div>
+
+  <!-- 4. 本节完成 & 上传成绩 -->
+  <div id="finish">
+    <h3 id="finish-msg"></h3>
+    <p id="stats"></p>
+    <div id="controls"></div>
+  </div>
+
+  <!-- 隐藏表单用于把成绩传到 Google Apps Script -->
+  <iframe name="postFrame" style="display:none;"></iframe>
+  <form id="postForm"
+        action="https://script.google.com/macros/s/AKfycbx9A1jZ8oqSKExIfVCKnNiFmvPy407QqZBnZTRalU0IL4DSuOp9Nb4izaynd_4C54j3/exec"
+        method="post" target="postFrame" style="display:none;">
+    <input name="quizId"/><input name="name"/><input name="score"/>
+    <input name="correct"/><input name="wrong"/><input name="time"/>
+  </form>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // === 登录相关状态 ===
+  let user = '', usedUniversal = false;
+  const UWP_WINDOW_MS = 5 * 60 * 1000; // 万用密码 5 分钟有效窗口
+
+  // 登录控制：在 localStorage 里记录万用密码开始时间
+  function setUniversalStart(ts) { localStorage.setItem('uwpStart', String(ts)); }
+  function getUniversalStart() { const v = localStorage.getItem('uwpStart'); return v? Number(v): 0; }
+  function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
+
+  function universalRemainingMs() {
+    const start = getUniversalStart();
+    if (!start) return 0;
+    const remain = UWP_WINDOW_MS - (Date.now() - start);
+    return remain > 0 ? remain : 0;
+  }
+
+  function showUwpBadge() {
+    const rem = universalRemainingMs();
+    const badge = document.getElementById('uwp-badge');
+    if (rem > 0) {
+      const mm = Math.floor(rem/60000);
+      const ss = Math.floor((rem%60000)/1000).toString().padStart(2,'0');
+      document.getElementById('uwp-remaining').textContent = `${mm}:${ss}`;
+      badge.style.display = 'block';
+    } else {
+      badge.style.display = 'none';
+    }
+  }
+  setInterval(showUwpBadge, 500); // 半秒刷新一次显示
+
+  // === 题库相关状态 ===
+  let chapters = [], grouped = {};
+  let chapterKey, sectionKey, labelKey, sheetKey;
+  let currentChapter = '', sectionList = [], secIndex = 0;
+  let qs = [], queue = [], score = 0, correct = 0, wrong = 0;
+  let chapterStart = 0;
+  const MAX_OPTS = 15;
+
+  // ===== 登录流程 =====
+  // Passwords.csv: name,password
+  const PASSWORDS_CSV = 'Passwords.csv';
+
+  document.getElementById('startBtn').onclick = () => {
+    attemptLogin();
+  };
+
+  function attemptLogin() {
+    const nm = document.getElementById('username').value.trim();
+    const pw = document.getElementById('password').value;
+
+    if (!nm || !pw) return alert('请输入姓名与密码 / Please enter both name and password.');
+
+    Papa.parse(PASSWORDS_CSV, { download: true, header: true, skipEmptyLines: true,
+      complete: (res) => {
+        const rows = res.data.map(r => {
+          const obj = {};
+          Object.entries(r).forEach(([k,v])=>{
+            obj[k.trim().toLowerCase()] = (typeof v === 'string') ? v.trim() : v;
+          });
+          return obj;
+        });
+
+        const nameKey = Object.keys(rows[0] || {}).find(k => k === 'name') || 'name';
+        const passKey = Object.keys(rows[0] || {}).find(k => k === 'password') || 'password';
+
+        // 查找“万用密码”行（name === '*'）
+        const uwpRow = rows.find(r => (r[nameKey] === '*'));
+        const uwpPassword = uwpRow ? (uwpRow[passKey] || '') : '';
+
+        // 先检查是否是万用密码
+        if (uwpPassword && pw === uwpPassword) {
+          // 万用密码：检查剩余时间；如无启动则启动计时
+          let remain = universalRemainingMs();
+          if (remain <= 0) {
+            setUniversalStart(Date.now());
+            remain = UWP_WINDOW_MS;
+          }
+          usedUniversal = true;
+          user = nm;
+          document.getElementById('welcome').style.display = 'none';
+          loadChapters();
+          return;
+        }
+
+        // 否则校验姓名+专属密码（姓名全匹配，密码精确匹配；姓名大小写不敏感）
+        const match = rows.find(r =>
+          (String(r[nameKey] || '').toLowerCase() === nm.toLowerCase()) &&
+          (String(r[passKey] || '') === pw)
+        );
+        if (!match) {
+          alert('姓名或密码不正确 / Name or password incorrect.');
+          return;
+        }
+
+        // 个人密码登录成功：清除万用密码状态
+        clearUniversalStart();
+        usedUniversal = false;
+        user = nm;
+        document.getElementById('welcome').style.display = 'none';
+        loadChapters();
+      },
+      error: () => alert('无法读取 Passwords.csv，请确认文件存在且可公开访问')
+    });
+  }
+
+  // 在用户停留菜单页时，如果此前用过万用密码且已过期，则阻止开启新章节
+  function guardUniversalWindowOrThrow() {
+    if (!usedUniversal) return;
+    const remain = universalRemainingMs();
+    if (remain <= 0) {
+      alert('万用密码已过期（5分钟）。请重新登录。');
+      location.reload();
+      throw new Error('Universal password expired');
+    }
+  }
+
+  // ===== 加载章节列表 =====
+  function loadChapters() {
+    Papa.parse('Chapters.csv',{download:true,header:true,skipEmptyLines:true,
+      complete(res) {
+        guardUniversalWindowOrThrow();
+
+        chapters = res.data.map(raw => {
+          const r = {};
+          Object.entries(raw).forEach(([k,v])=>{
+            r[k.trim()] = typeof v==='string'? v.trim(): v;
+          });
+          return r;
+        });
+        if (!chapters.length) return alert('请检查 Chapters.csv');
+
+        const keys = Object.keys(chapters[0]);
+        chapterKey = keys.find(k=>k.toLowerCase()==='chapter');
+        sectionKey = keys.find(k=>k.toLowerCase()==='section');
+        labelKey   = keys.find(k=>k.toLowerCase()==='label');
+        sheetKey   = keys.find(k=>k.toLowerCase()==='sheet');
+        if (!chapterKey||!sectionKey||!labelKey||!sheetKey)
+          return alert('Chapters.csv 需要列: chapter, section, label, sheet');
+
+        grouped = {};
+        chapters.forEach(r=>{
+          const c = r[chapterKey];
+          (grouped[c]||(grouped[c]=[])).push(r);
+        });
+
+        const menu = document.getElementById('menu');
+        menu.innerHTML = '<h2>请选择章节 / Select Chapter</h2>';
+        menu.style.display = 'block';
+        Object.keys(grouped).forEach(chap => {
+          const btn = document.createElement('button');
+          btn.textContent = chap;
+          btn.onclick = () => { guardUniversalWindowOrThrow(); startChapter(chap); };
+          menu.appendChild(btn);
+        });
+
+        // 显示万用密码剩余时间徽章
+        showUwpBadge();
+      }
+    });
+  }
+
+  // ===== 选章节 =====
+  function startChapter(chap) {
+    guardUniversalWindowOrThrow();
+    currentChapter = chap;
+    sectionList = grouped[chap].sort((a,b)=>
+      a[sectionKey].localeCompare(b[sectionKey])
+    );
+    secIndex = 0;
+    document.getElementById('menu').style.display = 'none';
+    loadSection();
+  }
+
+  // ===== 解析某个 URL 的目录（用于图片与 CSV 同目录拼接）=====
+  function getBaseDir(url) {
+    try {
+      // 兼容相对路径：借助当前页面的 location
+      const u = new URL(url, window.location.href);
+      const s = u.toString();
+      const i = s.lastIndexOf('/');
+      return i >= 0 ? s.slice(0, i+1) : s;
+    } catch {
+      // 兜底：简单按最后一个斜杠切
+      const i = url.lastIndexOf('/');
+      return i >= 0 ? url.slice(0, i+1) : '';
+    }
+  }
+
+  // ===== 加载节库 =====
+  function loadSection() {
+    guardUniversalWindowOrThrow();
+
+    const sec = sectionList[secIndex];
+    const sheetUrl = sec[sheetKey];
+    const baseDir = getBaseDir(sheetUrl); // 用于图片相对路径
+
+    document.getElementById('quiz-title').textContent =
+      `${currentChapter} – ${sec[sectionKey]}: ${sec[labelKey]}`;
+    score = correct = wrong = 0;
+    chapterStart = Date.now();
+
+    Papa.parse(sheetUrl,{download:true,header:true,skipEmptyLines:true,
+      complete(r) {
+        // 为每个题附加 attempt 与 baseDir（用于图片拼接）
+        qs = r.data.map(q=>({
+          ...q,
+          attempt: 0,
+          __baseDir: baseDir
+        }));
+        queue = shuffle([...qs]);
+        document.getElementById('quiz').style.display='block';
+        document.getElementById('finish').style.display='none';
+        updateUI(0);
+        nextQ();
+      },
+      error() {
+        alert('无法读取题库 CSV，请检查链接与访问权限');
+        document.getElementById('menu').style.display = 'block';
+      }
+    });
+  }
+
+  // ===== 更新状态栏 =====
+  function updateUI(delta) {
+    document.getElementById('score').textContent =
+      `得分: ${score} (${delta>0?'+':''}${delta})`;
+    document.getElementById('remaining').textContent =
+      `剩余题目: ${queue.length}`;
+    const pg = document.getElementById('progress');
+    pg.max = qs.length; pg.value = qs.length - queue.length;
+  }
+
+  // ===== 出下一题 =====
+  function nextQ() {
+    guardUniversalWindowOrThrow();
+
+    const qa = document.getElementById('question-area');
+    qa.innerHTML = ''; updateUI(0);
+    if (queue.length===0) return finishSection();
+
+    const q = queue.shift();
+    const div = document.createElement('div');
+    div.className = 'question';
+    const safeQ = (q.question || '').toString().replace(/\r?\n/g,'<br/>');
+    div.innerHTML = `<p><strong>${safeQ}</strong></p>`;
+
+    // 图片：若 image 字段是相对路径（不以 http(s) 或 data: 开头），与 CSV 同目录拼接
+    if (q.image) {
+      let src = (q.image || '').toString().trim();
+      if (!/^https?:\/\//i.test(src) && !/^data:/i.test(src)) {
+        src = (q.__baseDir || '') + src.replace(/^\.\//,'');
+      }
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = 'question image';
+      div.appendChild(img);
+    }
+
+    const opts = document.createElement('div');
+    opts.className = 'options';
+    const qType = (q.type || '').toString().toLowerCase();
+    if (qType === 'text') {
+      opts.innerHTML = '<input type="text" id="txtAns" placeholder="请输入答案…"/>';
+    } else {
+      const letters = Array.from({length:MAX_OPTS}, (_,i)=>String.fromCharCode(65+i));
+      const avail = letters.filter(l => q[l]); // 选项列 A,B,C...
+      shuffle(avail).forEach(l=>{
+        const inp = document.createElement('input');
+        inp.type = (qType==='checkbox')?'checkbox':'radio';
+        inp.name = 'opt'; inp.value = l; inp.id = 'opt_'+l;
+        const lbl = document.createElement('label');
+        lbl.className = 'option-label'; lbl.htmlFor = 'opt_'+l;
+        lbl.appendChild(inp);
+        let raw = q[l];
+        if (typeof raw === 'string' && /^-?\d+\.0$/.test(raw)) raw = String(parseInt(raw));
+        lbl.append(' '+raw);
+        opts.appendChild(lbl);
+      });
+    }
+    div.appendChild(opts);
+
+    const fb = document.createElement('div');
+    fb.className = 'feedback'; div.appendChild(fb);
+
+    const sb = document.createElement('button');
+    sb.textContent = '提交';
+    sb.onclick = () => {
+      guardUniversalWindowOrThrow();
+
+      let ua = [];
+      if ((q.type || '').toString().toLowerCase()==='text') {
+        ua = document.getElementById('txtAns').value
+               .split(',').map(s=>s.trim()).filter(s=>s);
+      } else {
+        ua = Array.from(div.querySelectorAll('input[name="opt"]:checked'))
+             .map(i=>i.value);
+      }
+      if (!ua.length) return alert('请选择或输入答案');
+
+      let isC=false;
+      const ansStr = (q.answer || '').toString();
+      if ((q.type || '').toString().toLowerCase()==='text') {
+        const lows = ua.map(s=>s.toLowerCase());
+        const ansList = ansStr.split(',').map(s=>s.trim().toLowerCase());
+        isC = lows.some(v=>ansList.includes(v));
+      } else {
+        const uaA = ua.map(s=>s.toUpperCase()).sort().join(',');
+        const caA = ansStr.split(',').map(s=>s.trim().toUpperCase()).sort().join(',');
+        isC = uaA===caA;
+      }
+
+      const delta = isC ? (q.attempt?1:2) : (q.attempt?-2:-1);
+      score+=delta; if(isC) correct++; else wrong++;
+      let ansTxt='';
+      if (!isC) {
+        ansTxt = ansStr.split(',').map(letter => q[letter] || letter).join(' / ');
+      }
+      fb.textContent = isC?`正确! +${delta}`:`错误! ${delta} 正确答案: ${ansTxt}`;
+      updateUI(delta);
+      sb.disabled = true;
+
+      const nb = document.createElement('button');
+      nb.textContent = '下一题'; nb.onclick = nextQ;
+      div.appendChild(nb);
+
+      // 错题回炉：再塞两次
+      if (!isC) {
+        q.attempt++;
+        for (let i=0; i<2; i++) {
+          queue.splice(Math.floor(Math.random()*(queue.length+1)),0,{...q});
+        }
+      }
+    };
+    div.appendChild(sb);
+    qa.appendChild(div);
+  }
+
+  // ===== 本节结束 =====
+  function finishSection() {
+    document.getElementById('quiz').style.display='none';
+    document.getElementById('finish').style.display='block';
+    document.getElementById('finish-msg').textContent =
+      `恭喜 ${user}，你学会这个章节了！`;
+    document.getElementById('stats').textContent =
+      `得分: ${score}，答对 ${correct} 题，答错 ${wrong} 题`;
+
+    // 上传成绩
+    const form = document.getElementById('postForm');
+    form.quizId.value  = currentChapter + '_' + sectionList[secIndex][sectionKey];
+    form.name.value    = user;
+    form.score.value   = score;
+    form.correct.value = correct;
+    form.wrong.value   = wrong;
+    form.time.value    = Math.floor((Date.now()-chapterStart)/1000);
+    form.submit();
+
+    // 下一步按钮
+    const ctrl = document.getElementById('controls');
+    ctrl.innerHTML = '';
+    const btn = document.createElement('button');
+    btn.textContent = secIndex < sectionList.length-1 ? '下一节' : '返回章节选择';
+    btn.onclick = () => {
+      if (secIndex < sectionList.length-1) {
+        guardUniversalWindowOrThrow();
+        document.getElementById('finish').style.display = 'none';
+        secIndex++; loadSection();
+      } else {
+        document.getElementById('finish').style.display = 'none';
+        // 回章节列表前再检查万用密码是否过期
+        guardUniversalWindowOrThrow();
+        document.getElementById('menu').style.display = 'block';
+      }
+    };
+    ctrl.appendChild(btn);
+  }
+
+  // ===== 工具：洗牌 =====
+  function shuffle(arr) {
+    for (let i = arr.length-1; i > 0; i--) {
+      const j = Math.floor(Math.random()*(i+1));
+      [arr[i],arr[j]]=[arr[j],arr[i]];
+    }
+    return arr;
+  }
+});
+</script>
+</body>
+</html>
