@@ -17,8 +17,7 @@
     input[type="text"], input[type="password"] { width:100%; padding:6px; margin:5px 0; }
     input[type="radio"],input[type="checkbox"] { transform:scale(1.2); margin-right:8px; }
     img { max-width:100%; margin:10px 0; border:2px solid #ccc; }
-    #login-info { font-size: 0.9em; color:#555; }
-    #uwp-badge { display:none; font-size:0.9em; color:#0a7; margin-top:6px; }
+    .help { font-size: 0.95em; color:#444; margin-top:8px; }
   </style>
 </head>
 <body>
@@ -29,8 +28,7 @@
     <input type="text" id="username" placeholder="姓名 / Name"/>
     <input type="password" id="password" placeholder="密码 / Password"/>
     <button id="startBtn" type="button">登录 / Log In</button>
-    <div id="login-info">提示：万用密码也可用（5分钟有效）。</div>
-    <div id="uwp-badge">已使用万用密码，剩余 <span id="uwp-remaining"></span></div>
+    <div class="help">购买密码请联系纪老师 016-7312519</div>
   </div>
 
   <!-- 2. 章节选择 -->
@@ -65,9 +63,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   // === 登录相关状态 ===
   let user = '', usedUniversal = false;
-  const UWP_WINDOW_MS = 5 * 60 * 1000; // 万用密码 5 分钟有效窗口
+  const UWP_WINDOW_MS = 5 * 60 * 1000; // 万用密码(通行证) 5 分钟有效窗口 —— 前端不显示，仅后台控制
 
-  // 登录控制：在 localStorage 里记录万用密码开始时间
+  // 本地存储万用密码开始时间（不对外显示）
   function setUniversalStart(ts) { localStorage.setItem('uwpStart', String(ts)); }
   function getUniversalStart() { const v = localStorage.getItem('uwpStart'); return v? Number(v): 0; }
   function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
@@ -78,20 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const remain = UWP_WINDOW_MS - (Date.now() - start);
     return remain > 0 ? remain : 0;
   }
-
-  function showUwpBadge() {
-    const rem = universalRemainingMs();
-    const badge = document.getElementById('uwp-badge');
-    if (rem > 0) {
-      const mm = Math.floor(rem/60000);
-      const ss = Math.floor((rem%60000)/1000).toString().padStart(2,'0');
-      document.getElementById('uwp-remaining').textContent = `${mm}:${ss}`;
-      badge.style.display = 'block';
-    } else {
-      badge.style.display = 'none';
-    }
-  }
-  setInterval(showUwpBadge, 500); // 半秒刷新一次显示
 
   // === 题库相关状态 ===
   let chapters = [], grouped = {};
@@ -128,16 +112,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const nameKey = Object.keys(rows[0] || {}).find(k => k === 'name') || 'name';
         const passKey = Object.keys(rows[0] || {}).find(k => k === 'password') || 'password';
 
-        // 查找“万用密码”行（name === '*'）
+        // 查找“通行证密码”（内部用，name === '*'）
         const uwpRow = rows.find(r => (r[nameKey] === '*'));
         const uwpPassword = uwpRow ? (uwpRow[passKey] || '') : '';
 
-        // 先检查是否是万用密码
+        // 若输入的是通行证密码（内部逻辑，前端不提示）
         if (uwpPassword && pw === uwpPassword) {
-          // 万用密码：检查剩余时间；如无启动则启动计时
           let remain = universalRemainingMs();
           if (remain <= 0) {
-            setUniversalStart(Date.now());
+            setUniversalStart(Date.now()); // 立即开始计时，无需刷新
             remain = UWP_WINDOW_MS;
           }
           usedUniversal = true;
@@ -147,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
         }
 
-        // 否则校验姓名+专属密码（姓名全匹配，密码精确匹配；姓名大小写不敏感）
+        // 否则校验姓名+专属密码（姓名大小写不敏感）
         const match = rows.find(r =>
           (String(r[nameKey] || '').toLowerCase() === nm.toLowerCase()) &&
           (String(r[passKey] || '') === pw)
@@ -157,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
         }
 
-        // 个人密码登录成功：清除万用密码状态
+        // 个人密码登录成功：清除通行证状态
         clearUniversalStart();
         usedUniversal = false;
         user = nm;
@@ -168,14 +151,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 在用户停留菜单页时，如果此前用过万用密码且已过期，则阻止开启新章节
+  // 菜单/章节开始前的通行证有效性校验（不显示倒计时）
   function guardUniversalWindowOrThrow() {
     if (!usedUniversal) return;
     const remain = universalRemainingMs();
     if (remain <= 0) {
-      alert('万用密码已过期（5分钟）。请重新登录。');
+      alert('会话已到期，请重新登录。'); // 不提“万用密码”
       location.reload();
-      throw new Error('Universal password expired');
+      throw new Error('Session expired');
     }
   }
 
@@ -217,9 +200,6 @@ document.addEventListener('DOMContentLoaded', () => {
           btn.onclick = () => { guardUniversalWindowOrThrow(); startChapter(chap); };
           menu.appendChild(btn);
         });
-
-        // 显示万用密码剩余时间徽章
-        showUwpBadge();
       }
     });
   }
@@ -239,13 +219,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // ===== 解析某个 URL 的目录（用于图片与 CSV 同目录拼接）=====
   function getBaseDir(url) {
     try {
-      // 兼容相对路径：借助当前页面的 location
       const u = new URL(url, window.location.href);
       const s = u.toString();
       const i = s.lastIndexOf('/');
       return i >= 0 ? s.slice(0, i+1) : s;
     } catch {
-      // 兜底：简单按最后一个斜杠切
       const i = url.lastIndexOf('/');
       return i >= 0 ? url.slice(0, i+1) : '';
     }
@@ -329,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       const letters = Array.from({length:MAX_OPTS}, (_,i)=>String.fromCharCode(65+i));
       const avail = letters.filter(l => q[l]); // A,B,C...
-      // === 这里改为“保持 ABCD 顺序”，不再 shuffle ===
+      // 固定 ABCD 顺序
       avail.forEach(l=>{
         const inp = document.createElement('input');
         inp.type = (qType==='checkbox')?'checkbox':'radio';
@@ -432,7 +410,6 @@ document.addEventListener('DOMContentLoaded', () => {
         secIndex++; loadSection();
       } else {
         document.getElementById('finish').style.display = 'none';
-        // 回章节列表前再检查万用密码是否过期
         guardUniversalWindowOrThrow();
         document.getElementById('menu').style.display = 'block';
       }
