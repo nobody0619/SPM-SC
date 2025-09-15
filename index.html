@@ -10,17 +10,46 @@
     #welcome,#menu,#quiz,#finish { margin:20px; }
     #menu,#quiz,#finish { display:none; }
     #menu button,#controls button { margin:5px; padding:8px 12px; }
-    .question { text-align:left; margin:15px 0; padding-left:20px; }
-    .option-label { display:block; margin:5px 0; cursor:pointer; }
-    .feedback { font-weight:bold; margin:10px 0; }
+    .question { text-align:left; margin:15px 0; padding:16px 20px; border:2px solid #ddd; border-radius:14px; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+    .option-label { display:block; margin:6px 0; cursor:pointer; }
+    .feedback { font-weight:bold; margin:10px 0; min-height:1.2em; }
     progress { width:100%; height:20px; }
-    input[type="text"], input[type="password"] { width:100%; padding:6px; margin:5px 0; }
+    input[type="text"], input[type="password"] { width:100%; padding:10px; margin:6px 0; border-radius:10px; border:1px solid #ccc; }
     input[type="radio"],input[type="checkbox"] { transform:scale(1.2); margin-right:8px; }
-    img { max-width:100%; margin:10px 0; border:2px solid #ccc; }
+    img { max-width:100%; margin:10px 0; border:2px solid #ccc; border-radius:10px; }
     .help { font-size: 0.95em; color:#444; margin-top:8px; }
+
+    /* 会话倒计时徽章（只有使用通行证登录时显示，不提“万用密码”） */
+    #session-timer {
+      position: fixed; top: 12px; right: 12px;
+      background: #111; color:#fff; padding:8px 12px; border-radius:999px;
+      font-size: 12px; letter-spacing:.5px; opacity:.9; display:none; z-index: 9999;
+      box-shadow: 0 4px 10px rgba(0,0,0,.25);
+    }
+
+    /* 交互动画 */
+    .correct-glow { border-color:#23c55e !important; box-shadow: 0 0 0 4px rgba(34,197,94,.15); transform: scale(1.01); }
+    .wrong-shake { border-color:#ef4444 !important; animation: shake .28s ease-in-out 0s 1, flashRed .9s ease 0s 1; }
+    @keyframes shake { 10%, 90% { transform: translateX(-1px); } 20%, 80% { transform: translateX(2px); } 30%, 50%, 70% { transform: translateX(-3px);} 40%,60% { transform: translateX(3px);} }
+    @keyframes flashRed { 0% { box-shadow:0 0 0 0 rgba(239,68,68,.35);} 100% { box-shadow:0 0 0 10px rgba(239,68,68,0);} }
+    .score-bubble {
+      position:absolute; right:10px; top:-6px; font-weight:700;
+      padding:2px 8px; border-radius:999px; font-size:12px;
+      animation: popUp 900ms ease forwards; pointer-events:none;
+    }
+    .score-bubble.plus { background: rgba(34,197,94,.15); color:#16a34a; }
+    .score-bubble.minus { background: rgba(239,68,68,.15); color:#dc2626; }
+    @keyframes popUp { 0%{ transform: translateY(0); opacity:0; } 15%{ opacity:1; } 100%{ transform: translateY(-24px); opacity:0; } }
+
+    /* “提交”“下一题”按钮简单风格 */
+    button { border:0; background:#111; color:#fff; padding:10px 14px; border-radius:10px; cursor:pointer; }
+    button:disabled { opacity:.6; cursor:not-allowed; }
   </style>
 </head>
 <body>
+
+  <!-- 顶部会话倒计时（仅通行证登录时显示） -->
+  <div id="session-timer">会话剩余 <span id="session-remaining">05:00</span></div>
 
   <!-- 1. 欢迎 & 姓名+密码 -->
   <div id="welcome">
@@ -40,7 +69,7 @@
     <div id="score">得分: 0</div>
     <div id="remaining">剩余题目: 0</div>
     <progress id="progress" value="0" max="0"></progress>
-    <div id="question-area"></div>
+    <div id="question-area" style="position:relative;"></div>
   </div>
 
   <!-- 4. 本节完成 & 上传成绩 -->
@@ -63,9 +92,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   // === 登录相关状态 ===
   let user = '', usedUniversal = false;
-  const UWP_WINDOW_MS = 5 * 60 * 1000; // 万用密码(通行证) 5 分钟有效窗口 —— 前端不显示，仅后台控制
+  const UWP_WINDOW_MS = 5 * 60 * 1000; // 5 分钟有效窗口（仅会话控制）
 
-  // 本地存储万用密码开始时间（不对外显示）
+  // 本地存储通行证开始时间
   function setUniversalStart(ts) { localStorage.setItem('uwpStart', String(ts)); }
   function getUniversalStart() { const v = localStorage.getItem('uwpStart'); return v? Number(v): 0; }
   function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
@@ -77,6 +106,27 @@ document.addEventListener('DOMContentLoaded', () => {
     return remain > 0 ? remain : 0;
   }
 
+  // 会话倒计时UI（仅 usedUniversal 时显示）
+  function showSessionTimer(show) {
+    const el = document.getElementById('session-timer');
+    el.style.display = show ? 'block' : 'none';
+  }
+  function updateSessionTimer() {
+    if (!usedUniversal) { showSessionTimer(false); return; }
+    const rem = universalRemainingMs();
+    if (rem <= 0) {
+      showSessionTimer(false);
+      alert('会话已到期，请重新登录。');
+      location.reload();
+      return;
+    }
+    const mm = Math.floor(rem/60000);
+    const ss = Math.floor((rem%60000)/1000).toString().padStart(2,'0');
+    document.getElementById('session-remaining').textContent = `${mm}:${ss}`;
+    showSessionTimer(true);
+  }
+  setInterval(updateSessionTimer, 500);
+
   // === 题库相关状态 ===
   let chapters = [], grouped = {};
   let chapterKey, sectionKey, labelKey, sheetKey;
@@ -86,7 +136,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const MAX_OPTS = 15;
 
   // ===== 登录流程 =====
-  // Passwords.csv: name,password
   const PASSWORDS_CSV = 'Passwords.csv';
 
   document.getElementById('startBtn').onclick = () => {
@@ -112,25 +161,25 @@ document.addEventListener('DOMContentLoaded', () => {
         const nameKey = Object.keys(rows[0] || {}).find(k => k === 'name') || 'name';
         const passKey = Object.keys(rows[0] || {}).find(k => k === 'password') || 'password';
 
-        // 查找“通行证密码”（内部用，name === '*'）
+        // 内部通行证（name === '*'）
         const uwpRow = rows.find(r => (r[nameKey] === '*'));
         const uwpPassword = uwpRow ? (uwpRow[passKey] || '') : '';
 
-        // 若输入的是通行证密码（内部逻辑，前端不提示）
+        // 输入的是通行证
         if (uwpPassword && pw === uwpPassword) {
           let remain = universalRemainingMs();
           if (remain <= 0) {
-            setUniversalStart(Date.now()); // 立即开始计时，无需刷新
-            remain = UWP_WINDOW_MS;
+            setUniversalStart(Date.now()); // 立即开始计时
           }
           usedUniversal = true;
+          updateSessionTimer(); // 立刻显示倒计时
           user = nm;
           document.getElementById('welcome').style.display = 'none';
           loadChapters();
           return;
         }
 
-        // 否则校验姓名+专属密码（姓名大小写不敏感）
+        // 个人密码
         const match = rows.find(r =>
           (String(r[nameKey] || '').toLowerCase() === nm.toLowerCase()) &&
           (String(r[passKey] || '') === pw)
@@ -140,9 +189,11 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
         }
 
-        // 个人密码登录成功：清除通行证状态
+        // 个人密码登录成功：清除通行证状态/计时UI
         clearUniversalStart();
         usedUniversal = false;
+        showSessionTimer(false);
+
         user = nm;
         document.getElementById('welcome').style.display = 'none';
         loadChapters();
@@ -151,12 +202,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 菜单/章节开始前的通行证有效性校验（不显示倒计时）
   function guardUniversalWindowOrThrow() {
     if (!usedUniversal) return;
     const remain = universalRemainingMs();
     if (remain <= 0) {
-      alert('会话已到期，请重新登录。'); // 不提“万用密码”
+      alert('会话已到期，请重新登录。');
       location.reload();
       throw new Error('Session expired');
     }
@@ -287,7 +337,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const safeQ = (q.question || '').toString().replace(/\r?\n/g,'<br/>');
     div.innerHTML = `<p><strong>${safeQ}</strong></p>`;
 
-    // 图片：若 image 字段是相对路径（不以 http(s) 或 data: 开头），与 CSV 同目录拼接
+    // 图片处理：与 CSV 同目录拼接
     if (q.image) {
       let src = (q.image || '').toString().trim();
       if (!/^https?:\/\//i.test(src) && !/^data:/i.test(src)) {
@@ -363,16 +413,34 @@ document.addEventListener('DOMContentLoaded', () => {
       updateUI(delta);
       sb.disabled = true;
 
+      // --- 动效：题卡反馈 + 漂浮分数泡泡 ---
+      div.classList.remove('correct-glow','wrong-shake');
+      const bubble = document.createElement('div');
+      bubble.className = 'score-bubble ' + (delta>0 ? 'plus' : 'minus');
+      bubble.textContent = (delta>0?'+':'') + String(delta);
+      div.style.position = 'relative';
+      div.appendChild(bubble);
+
+      if (isC) {
+        div.classList.add('correct-glow');
+        setTimeout(()=>div.classList.remove('correct-glow'), 900);
+      } else {
+        div.classList.add('wrong-shake');
+        setTimeout(()=>div.classList.remove('wrong-shake'), 900);
+      }
+      // 清理泡泡
+      setTimeout(()=> bubble.remove(), 1000);
+
       const nb = document.createElement('button');
-      nb.textContent = '下一题'; nb.onclick = nextQ;
+      nb.style.marginLeft = '8px';
+      nb.textContent = '下一题';
+      nb.onclick = nextQ;
       div.appendChild(nb);
 
-      // 错题回炉：再塞两次
+      // 错题回炉：在“后面随机出现两次”（避免紧接着出现）
       if (!isC) {
         q.attempt++;
-        for (let i=0; i<2; i++) {
-          queue.splice(Math.floor(Math.random()*(queue.length+1)),0,{...q});
-        }
+        insertWrongTwiceLater(q, queue);
       }
     };
     div.appendChild(sb);
@@ -424,6 +492,22 @@ document.addEventListener('DOMContentLoaded', () => {
       [arr[i],arr[j]]=[arr[j],arr[i]];
     }
     return arr;
+  }
+
+  // 把错题在“后面随机出现两次”——至少不在 index 0，尽量靠后
+  function insertWrongTwiceLater(q, queue) {
+    const len = queue.length;
+    let start = Math.min(1, len); // 避免紧接着下一题
+    let end1  = len;
+    let idx1  = (len <= start) ? start : (start + Math.floor(Math.random() * (end1 - start + 1)));
+    queue.splice(idx1, 0, { ...q });
+
+    const len2  = queue.length;
+    const start2 = Math.min(1, len2);
+    const end2  = len2;
+    let idx2  = (len2 <= start2) ? start2 : (start2 + Math.floor(Math.random() * (end2 - start2 + 1)));
+    if (Math.abs(idx2 - idx1) <= 1 && len2 >= 4) idx2 = Math.min(idx2 + 2, len2);
+    queue.splice(idx2, 0, { ...q });
   }
 });
 </script>
