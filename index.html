@@ -9,23 +9,38 @@
     body { font-family: Arial, sans-serif; max-width:700px; margin:auto; text-align:center; }
     #welcome,#menu,#quiz,#finish { margin:20px; }
     #menu,#quiz,#finish { display:none; }
+    #topbar { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:12px 0; }
     #menu button,#controls button { margin:5px; padding:8px 12px; }
     .question { text-align:left; margin:15px 0; padding:16px 20px; border:2px solid #ddd; border-radius:14px; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
     .option-label { display:block; margin:6px 0; cursor:pointer; }
     .feedback { font-weight:bold; margin:10px 0; min-height:1.2em; }
-    progress { width:100%; height:20px; }
     input[type="text"], input[type="password"] { width:100%; padding:10px; margin:6px 0; border-radius:10px; border:1px solid #ccc; }
     input[type="radio"],input[type="checkbox"] { transform:scale(1.2); margin-right:8px; }
     img { max-width:100%; margin:10px 0; border:2px solid #ccc; border-radius:10px; }
     .help { font-size: 0.95em; color:#444; margin-top:8px; }
 
-    /* 会话倒计时徽章（只有使用通行证登录时显示，不提“万用密码”） */
+    /* 顶部控件 */
     #session-timer {
-      position: fixed; top: 12px; right: 12px;
       background: #111; color:#fff; padding:8px 12px; border-radius:999px;
       font-size: 12px; letter-spacing:.5px; opacity:.9; display:none; z-index: 9999;
       box-shadow: 0 4px 10px rgba(0,0,0,.25);
     }
+    #sound-toggle { border:0; background:#111; color:#fff; padding:8px 12px; border-radius:10px; cursor:pointer; }
+    #sound-toggle.muted { background:#555; }
+
+    /* 进度条容器 + 动态高亮 */
+    .progress-wrap { width:100%; margin-top:6px; border-radius:12px; padding:6px; transition: box-shadow .25s ease; }
+    .progress-wrap.flash-green { box-shadow: 0 0 0 4px rgba(34,197,94,.25); }
+    .progress-wrap.flash-red   { box-shadow: 0 0 0 4px rgba(239,68,68,.25); }
+    progress { width:100%; height:20px; }
+    progress::-webkit-progress-bar { background-color:#eee; border-radius:10px; }
+    progress::-webkit-progress-value { background-color:#111; border-radius:10px; }
+    progress::-moz-progress-bar { background:#111; border-radius:10px; }
+
+    /* streak 徽章 */
+    #streak { margin-top:6px; font-size:13px; color:#555; min-height:1.2em; }
+    .streak-good { color:#16a34a; }
+    .streak-bad  { color:#dc2626; }
 
     /* 交互动画 */
     .correct-glow { border-color:#23c55e !important; box-shadow: 0 0 0 4px rgba(34,197,94,.15); transform: scale(1.01); }
@@ -41,15 +56,30 @@
     .score-bubble.minus { background: rgba(239,68,68,.15); color:#dc2626; }
     @keyframes popUp { 0%{ transform: translateY(0); opacity:0; } 15%{ opacity:1; } 100%{ transform: translateY(-24px); opacity:0; } }
 
-    /* “提交”“下一题”按钮简单风格 */
+    /* 通用按钮 */
     button { border:0; background:#111; color:#fff; padding:10px 14px; border-radius:10px; cursor:pointer; }
     button:disabled { opacity:.6; cursor:not-allowed; }
+
+    /* 彩带容器 */
+    #confetti { position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:9998; }
+    .confetti-piece {
+      position:absolute; width:10px; height:16px; opacity:0.9; border-radius:3px;
+      animation: fall linear forwards;
+    }
+    @keyframes fall {
+      0% { transform: translateY(-120%) rotate(0deg); }
+      100% { transform: translateY(120vh) rotate(720deg); }
+    }
   </style>
 </head>
 <body>
 
-  <!-- 顶部会话倒计时（仅通行证登录时显示） -->
-  <div id="session-timer">会话剩余 <span id="session-remaining">05:00</span></div>
+  <!-- 顶部条：会话倒计时 + 静音开关 -->
+  <div id="topbar">
+    <div id="session-timer">会话剩余 <span id="session-remaining">05:00</span></div>
+    <button id="sound-toggle" title="开关音效">🔊 音效已开</button>
+  </div>
+  <div id="confetti"></div>
 
   <!-- 1. 欢迎 & 姓名+密码 -->
   <div id="welcome">
@@ -68,7 +98,13 @@
     <h3 id="quiz-title"></h3>
     <div id="score">得分: 0</div>
     <div id="remaining">剩余题目: 0</div>
-    <progress id="progress" value="0" max="0"></progress>
+
+    <div id="streak"></div>
+
+    <div id="progressWrap" class="progress-wrap">
+      <progress id="progress" value="0" max="0"></progress>
+    </div>
+
     <div id="question-area" style="position:relative;"></div>
   </div>
 
@@ -79,7 +115,7 @@
     <div id="controls"></div>
   </div>
 
-  <!-- 隐藏表单用于把成绩传到 Google Apps Script -->
+  <!-- 成绩上报 -->
   <iframe name="postFrame" style="display:none;"></iframe>
   <form id="postForm"
         action="https://script.google.com/macros/s/AKfycbx9A1jZ8oqSKExIfVCKnNiFmvPy407QqZBnZTRalU0IL4DSuOp9Nb4izaynd_4C54j3/exec"
@@ -90,11 +126,10 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // === 登录相关状态 ===
+  // === 登录/会话 ===
   let user = '', usedUniversal = false;
-  const UWP_WINDOW_MS = 5 * 60 * 1000; // 5 分钟有效窗口（仅会话控制）
+  const UWP_WINDOW_MS = 5 * 60 * 1000; // 5 分钟可用窗口
 
-  // 本地存储通行证开始时间
   function setUniversalStart(ts) { localStorage.setItem('uwpStart', String(ts)); }
   function getUniversalStart() { const v = localStorage.getItem('uwpStart'); return v? Number(v): 0; }
   function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
@@ -106,11 +141,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return remain > 0 ? remain : 0;
   }
 
-  // 会话倒计时UI（仅 usedUniversal 时显示）
-  function showSessionTimer(show) {
-    const el = document.getElementById('session-timer');
-    el.style.display = show ? 'block' : 'none';
-  }
+  const timerEl = document.getElementById('session-timer');
+  function showSessionTimer(show) { timerEl.style.display = show ? 'block' : 'none'; }
   function updateSessionTimer() {
     if (!usedUniversal) { showSessionTimer(false); return; }
     const rem = universalRemainingMs();
@@ -127,7 +159,42 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   setInterval(updateSessionTimer, 500);
 
-  // === 题库相关状态 ===
+  // === 音效（Web Audio API） ===
+  let audioOn = true;
+  const sndBtn = document.getElementById('sound-toggle');
+  sndBtn.onclick = () => {
+    audioOn = !audioOn;
+    sndBtn.classList.toggle('muted', !audioOn);
+    sndBtn.textContent = audioOn ? '🔊 音效已开' : '🔈 音效已关';
+  };
+
+  let audioCtx;
+  function ensureCtx() {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  function beep(frequency=880, duration=0.14, type='sine', gain=0.06) {
+    if (!audioOn) return;
+    ensureCtx();
+    const osc = audioCtx.createOscillator();
+    const g = audioCtx.createGain();
+    osc.type = type;
+    osc.frequency.value = frequency;
+    g.gain.value = gain;
+    osc.connect(g).connect(audioCtx.destination);
+    osc.start();
+    g.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+    osc.stop(audioCtx.currentTime + duration + 0.02);
+  }
+  function playRight() {
+    beep(1100, 0.10, 'sine', 0.06);
+    setTimeout(()=>beep(1500, 0.12, 'sine', 0.05), 90); // “叮”
+  }
+  function playWrong() {
+    beep(220, 0.12, 'sawtooth', 0.05);
+    setTimeout(()=>beep(160, 0.14, 'square', 0.05), 100); // “噗”
+  }
+
+  // === 题库状态 ===
   let chapters = [], grouped = {};
   let chapterKey, sectionKey, labelKey, sheetKey;
   let currentChapter = '', sectionList = [], secIndex = 0;
@@ -135,17 +202,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let chapterStart = 0;
   const MAX_OPTS = 15;
 
-  // ===== 登录流程 =====
+  // streak 计数
+  let correctStreak = 0, wrongStreak = 0;
+
   const PASSWORDS_CSV = 'Passwords.csv';
 
-  document.getElementById('startBtn').onclick = () => {
-    attemptLogin();
-  };
+  document.getElementById('startBtn').onclick = attemptLogin;
 
   function attemptLogin() {
     const nm = document.getElementById('username').value.trim();
     const pw = document.getElementById('password').value;
-
     if (!nm || !pw) return alert('请输入姓名与密码 / Please enter both name and password.');
 
     Papa.parse(PASSWORDS_CSV, { download: true, header: true, skipEmptyLines: true,
@@ -161,16 +227,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const nameKey = Object.keys(rows[0] || {}).find(k => k === 'name') || 'name';
         const passKey = Object.keys(rows[0] || {}).find(k => k === 'password') || 'password';
 
-        // 内部通行证（name === '*'）
         const uwpRow = rows.find(r => (r[nameKey] === '*'));
         const uwpPassword = uwpRow ? (uwpRow[passKey] || '') : '';
 
-        // 输入的是通行证
         if (uwpPassword && pw === uwpPassword) {
-          let remain = universalRemainingMs();
-          if (remain <= 0) {
-            setUniversalStart(Date.now()); // 立即开始计时
-          }
+          if (universalRemainingMs() <= 0) setUniversalStart(Date.now());
           usedUniversal = true;
           updateSessionTimer(); // 立刻显示倒计时
           user = nm;
@@ -179,17 +240,12 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
         }
 
-        // 个人密码
         const match = rows.find(r =>
           (String(r[nameKey] || '').toLowerCase() === nm.toLowerCase()) &&
           (String(r[passKey] || '') === pw)
         );
-        if (!match) {
-          alert('姓名或密码不正确 / Name or password incorrect.');
-          return;
-        }
+        if (!match) return alert('姓名或密码不正确 / Name or password incorrect.');
 
-        // 个人密码登录成功：清除通行证状态/计时UI
         clearUniversalStart();
         usedUniversal = false;
         showSessionTimer(false);
@@ -212,17 +268,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ===== 加载章节列表 =====
   function loadChapters() {
     Papa.parse('Chapters.csv',{download:true,header:true,skipEmptyLines:true,
       complete(res) {
         guardUniversalWindowOrThrow();
-
         chapters = res.data.map(raw => {
           const r = {};
-          Object.entries(raw).forEach(([k,v])=>{
-            r[k.trim()] = typeof v==='string'? v.trim(): v;
-          });
+          Object.entries(raw).forEach(([k,v])=>{ r[k.trim()] = typeof v==='string'? v.trim(): v; });
           return r;
         });
         if (!chapters.length) return alert('请检查 Chapters.csv');
@@ -254,19 +306,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===== 选章节 =====
   function startChapter(chap) {
     guardUniversalWindowOrThrow();
     currentChapter = chap;
-    sectionList = grouped[chap].sort((a,b)=>
-      a[sectionKey].localeCompare(b[sectionKey])
-    );
+    sectionList = grouped[chap].sort((a,b)=> a[sectionKey].localeCompare(b[sectionKey]));
     secIndex = 0;
     document.getElementById('menu').style.display = 'none';
     loadSection();
   }
 
-  // ===== 解析某个 URL 的目录（用于图片与 CSV 同目录拼接）=====
   function getBaseDir(url) {
     try {
       const u = new URL(url, window.location.href);
@@ -279,27 +327,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ===== 加载节库 =====
   function loadSection() {
     guardUniversalWindowOrThrow();
 
     const sec = sectionList[secIndex];
     const sheetUrl = sec[sheetKey];
-    const baseDir = getBaseDir(sheetUrl); // 用于图片相对路径
+    const baseDir = getBaseDir(sheetUrl);
 
     document.getElementById('quiz-title').textContent =
       `${currentChapter} – ${sec[sectionKey]}: ${sec[labelKey]}`;
     score = correct = wrong = 0;
+    correctStreak = 0; wrongStreak = 0;
+    updateStreak();
     chapterStart = Date.now();
 
     Papa.parse(sheetUrl,{download:true,header:true,skipEmptyLines:true,
       complete(r) {
-        // 为每个题附加 attempt 与 baseDir（用于图片拼接）
-        qs = r.data.map(q=>({
-          ...q,
-          attempt: 0,
-          __baseDir: baseDir
-        }));
+        qs = r.data.map(q=>({ ...q, attempt: 0, __baseDir: baseDir }));
         queue = shuffle([...qs]);
         document.getElementById('quiz').style.display='block';
         document.getElementById('finish').style.display='none';
@@ -313,17 +357,33 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===== 更新状态栏 =====
   function updateUI(delta) {
     document.getElementById('score').textContent =
       `得分: ${score} (${delta>0?'+':''}${delta})`;
-    document.getElementById('remaining').textContent =
-      `剩余题目: ${queue.length}`;
+    document.getElementById('remaining').textContent = `剩余题目: ${queue.length}`;
     const pg = document.getElementById('progress');
     pg.max = qs.length; pg.value = qs.length - queue.length;
   }
 
-  // ===== 出下一题 =====
+  function flashProgress(isCorrect) {
+    const wrap = document.getElementById('progressWrap');
+    wrap.classList.remove('flash-green','flash-red');
+    void wrap.offsetWidth; // 触发重绘以便重复动画
+    wrap.classList.add(isCorrect ? 'flash-green' : 'flash-red');
+    setTimeout(()=>wrap.classList.remove('flash-green','flash-red'), 600);
+  }
+
+  function updateStreak() {
+    const el = document.getElementById('streak');
+    if (correctStreak > 0) {
+      el.innerHTML = `🔥 <span class="streak-good">连对 ${correctStreak}</span>`;
+    } else if (wrongStreak > 0) {
+      el.innerHTML = `😅 <span class="streak-bad">连错 ${wrongStreak}</span>`;
+    } else {
+      el.textContent = '';
+    }
+  }
+
   function nextQ() {
     guardUniversalWindowOrThrow();
 
@@ -337,15 +397,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const safeQ = (q.question || '').toString().replace(/\r?\n/g,'<br/>');
     div.innerHTML = `<p><strong>${safeQ}</strong></p>`;
 
-    // 图片处理：与 CSV 同目录拼接
     if (q.image) {
       let src = (q.image || '').toString().trim();
       if (!/^https?:\/\//i.test(src) && !/^data:/i.test(src)) {
         src = (q.__baseDir || '') + src.replace(/^\.\//,'');
       }
       const img = document.createElement('img');
-      img.src = src;
-      img.alt = 'question image';
+      img.src = src; img.alt = 'question image';
       div.appendChild(img);
     }
 
@@ -373,27 +431,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     div.appendChild(opts);
 
-    const fb = document.createElement('div');
-    fb.className = 'feedback'; div.appendChild(fb);
+    const fb = document.createElement('div'); fb.className = 'feedback'; div.appendChild(fb);
 
-    const sb = document.createElement('button');
-    sb.textContent = '提交';
+    const sb = document.createElement('button'); sb.textContent = '提交';
     sb.onclick = () => {
       guardUniversalWindowOrThrow();
 
       let ua = [];
-      if ((q.type || '').toString().toLowerCase()==='text') {
-        ua = document.getElementById('txtAns').value
-               .split(',').map(s=>s.trim()).filter(s=>s);
+      if (qType==='text') {
+        ua = document.getElementById('txtAns').value.split(',').map(s=>s.trim()).filter(s=>s);
       } else {
-        ua = Array.from(div.querySelectorAll('input[name="opt"]:checked'))
-             .map(i=>i.value);
+        ua = Array.from(div.querySelectorAll('input[name="opt"]:checked')).map(i=>i.value);
       }
       if (!ua.length) return alert('请选择或输入答案');
 
       let isC=false;
       const ansStr = (q.answer || '').toString();
-      if ((q.type || '').toString().toLowerCase()==='text') {
+      if (qType==='text') {
         const lows = ua.map(s=>s.toLowerCase());
         const ansList = ansStr.split(',').map(s=>s.trim().toLowerCase());
         isC = lows.some(v=>ansList.includes(v));
@@ -404,31 +458,25 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const delta = isC ? (q.attempt?1:2) : (q.attempt?-2:-1);
-      score+=delta; if(isC) correct++; else wrong++;
+      score+=delta; if(isC) { correct++; correctStreak++; wrongStreak=0; } else { wrong++; wrongStreak++; correctStreak=0; }
+      updateStreak();
+
       let ansTxt='';
-      if (!isC) {
-        ansTxt = ansStr.split(',').map(letter => q[letter] || letter).join(' / ');
-      }
+      if (!isC) ansTxt = ansStr.split(',').map(letter => q[letter] || letter).join(' / ');
       fb.textContent = isC?`正确! +${delta}`:`错误! ${delta} 正确答案: ${ansTxt}`;
       updateUI(delta);
+      flashProgress(isC); // 进度条颜色闪烁
       sb.disabled = true;
 
-      // --- 动效：题卡反馈 + 漂浮分数泡泡 ---
+      // 动效 + 音效
       div.classList.remove('correct-glow','wrong-shake');
       const bubble = document.createElement('div');
       bubble.className = 'score-bubble ' + (delta>0 ? 'plus' : 'minus');
       bubble.textContent = (delta>0?'+':'') + String(delta);
       div.style.position = 'relative';
       div.appendChild(bubble);
-
-      if (isC) {
-        div.classList.add('correct-glow');
-        setTimeout(()=>div.classList.remove('correct-glow'), 900);
-      } else {
-        div.classList.add('wrong-shake');
-        setTimeout(()=>div.classList.remove('wrong-shake'), 900);
-      }
-      // 清理泡泡
+      if (isC) { div.classList.add('correct-glow'); playRight(); setTimeout(()=>div.classList.remove('correct-glow'), 900); }
+      else { div.classList.add('wrong-shake'); playWrong(); setTimeout(()=>div.classList.remove('wrong-shake'), 900); }
       setTimeout(()=> bubble.remove(), 1000);
 
       const nb = document.createElement('button');
@@ -437,26 +485,20 @@ document.addEventListener('DOMContentLoaded', () => {
       nb.onclick = nextQ;
       div.appendChild(nb);
 
-      // 错题回炉：在“后面随机出现两次”（避免紧接着出现）
-      if (!isC) {
-        q.attempt++;
-        insertWrongTwiceLater(q, queue);
-      }
+      // 错题回炉：在“后面随机出现两次”
+      if (!isC) { q.attempt++; insertWrongTwiceLater(q, queue); }
     };
     div.appendChild(sb);
-    qa.appendChild(div);
+    document.getElementById('question-area').appendChild(div);
   }
 
-  // ===== 本节结束 =====
   function finishSection() {
     document.getElementById('quiz').style.display='none';
     document.getElementById('finish').style.display='block';
-    document.getElementById('finish-msg').textContent =
-      `恭喜 ${user}，你学会这个章节了！`;
-    document.getElementById('stats').textContent =
-      `得分: ${score}，答对 ${correct} 题，答错 ${wrong} 题`;
+    document.getElementById('finish-msg').textContent = `恭喜 ${user}，你学会这个章节了！`;
+    document.getElementById('stats').textContent = `得分: ${score}，答对 ${correct} 题，答错 ${wrong} 题`;
 
-    // 上传成绩
+    // 成绩上报
     const form = document.getElementById('postForm');
     form.quizId.value  = currentChapter + '_' + sectionList[secIndex][sectionKey];
     form.name.value    = user;
@@ -466,7 +508,9 @@ document.addEventListener('DOMContentLoaded', () => {
     form.time.value    = Math.floor((Date.now()-chapterStart)/1000);
     form.submit();
 
-    // 下一步按钮
+    // 彩带庆祝 1 秒
+    launchConfetti(120, 1000);
+
     const ctrl = document.getElementById('controls');
     ctrl.innerHTML = '';
     const btn = document.createElement('button');
@@ -485,16 +529,12 @@ document.addEventListener('DOMContentLoaded', () => {
     ctrl.appendChild(btn);
   }
 
-  // ===== 工具：洗牌 =====
+  // ===== 工具 =====
   function shuffle(arr) {
-    for (let i = arr.length-1; i > 0; i--) {
-      const j = Math.floor(Math.random()*(i+1));
-      [arr[i],arr[j]]=[arr[j],arr[i]];
-    }
+    for (let i = arr.length-1; i > 0; i--) { const j = Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; }
     return arr;
   }
-
-  // 把错题在“后面随机出现两次”——至少不在 index 0，尽量靠后
+  // 错题在“后面随机出现两次”
   function insertWrongTwiceLater(q, queue) {
     const len = queue.length;
     let start = Math.min(1, len); // 避免紧接着下一题
@@ -508,6 +548,25 @@ document.addEventListener('DOMContentLoaded', () => {
     let idx2  = (len2 <= start2) ? start2 : (start2 + Math.floor(Math.random() * (end2 - start2 + 1)));
     if (Math.abs(idx2 - idx1) <= 1 && len2 >= 4) idx2 = Math.min(idx2 + 2, len2);
     queue.splice(idx2, 0, { ...q });
+  }
+
+  // 简易彩带
+  function launchConfetti(count=100, duration=1000) {
+    const c = document.getElementById('confetti');
+    const colors = ['#22c55e','#3b82f6','#f59e0b','#ef4444','#a855f7','#14b8a6'];
+    for (let i=0; i<count; i++) {
+      const piece = document.createElement('div');
+      piece.className = 'confetti-piece';
+      piece.style.left = Math.random()*100 + 'vw';
+      piece.style.background = colors[i % colors.length];
+      piece.style.animationDuration = (0.8 + Math.random()*0.8) + 's';
+      piece.style.transform = `translateY(-120%) rotate(${Math.random()*360}deg)`;
+      piece.style.width = (8 + Math.random()*6) + 'px';
+      piece.style.height = (12 + Math.random()*10) + 'px';
+      c.appendChild(piece);
+      setTimeout(()=> piece.remove(), 2000);
+    }
+    setTimeout(()=> { c.innerHTML = ''; }, duration + 1200);
   }
 });
 </script>
