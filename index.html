@@ -6,82 +6,29 @@
   <title>纪老师 SPM SC 超强训练器</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
   <style>
-    body { font-family: Arial, sans-serif; max-width:700px; margin:auto; text-align:center; }
+    body { font-family: Arial, sans-serif; max-width:1000px; margin:auto; text-align:center; }
     #welcome,#menu,#quiz,#finish { margin:20px; }
     #menu,#quiz,#finish { display:none; }
+    h2 { margin-top:30px; }
+    h3 { margin-top:20px; text-align:left; }
+    .group { margin:10px 0 25px; text-align:left; }
+    .group h4 { margin:8px 0; }
+    .group button { margin:5px; padding:8px 12px; }
     #topbar { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:12px 0; }
-    #menu button,#controls button { margin:5px; padding:8px 12px; }
-    .question { text-align:left; margin:15px 0; padding:16px 20px; border:2px solid #ddd; border-radius:14px; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
-    .option-label { display:block; margin:6px 0; cursor:pointer; }
-    .feedback { font-weight:bold; margin:10px 0; min-height:1.2em; }
-    input[type="text"], input[type="password"] { width:100%; padding:10px; margin:6px 0; border-radius:10px; border:1px solid #ccc; }
-    input[type="radio"],input[type="checkbox"] { transform:scale(1.2); margin-right:8px; }
-    img { max-width:100%; margin:10px 0; border:2px solid #ccc; border-radius:10px; }
     .help { font-size: 0.95em; color:#444; margin-top:8px; }
-
-    /* 顶部控件 */
-    #session-timer {
-      background: #111; color:#fff; padding:8px 12px; border-radius:999px;
-      font-size: 12px; letter-spacing:.5px; opacity:.9; display:none; z-index: 9999;
-      box-shadow: 0 4px 10px rgba(0,0,0,.25);
-    }
-    #sound-toggle { border:0; background:#111; color:#fff; padding:8px 12px; border-radius:10px; cursor:pointer; }
-    #sound-toggle.muted { background:#555; }
-
-    /* 进度条容器 + 动态高亮 */
-    .progress-wrap { width:100%; margin-top:6px; border-radius:12px; padding:6px; transition: box-shadow .25s ease; }
-    .progress-wrap.flash-green { box-shadow: 0 0 0 4px rgba(34,197,94,.25); }
-    .progress-wrap.flash-red   { box-shadow: 0 0 0 4px rgba(239,68,68,.25); }
-    progress { width:100%; height:20px; }
-    progress::-webkit-progress-bar { background-color:#eee; border-radius:10px; }
-    progress::-webkit-progress-value { background-color:#111; border-radius:10px; }
-    progress::-moz-progress-bar { background:#111; border-radius:10px; }
-
-    /* streak 徽章 */
-    #streak { margin-top:6px; font-size:13px; color:#555; min-height:1.2em; }
-    .streak-good { color:#16a34a; }
-    .streak-bad  { color:#dc2626; }
-
-    /* 交互动画 */
-    .correct-glow { border-color:#23c55e !important; box-shadow: 0 0 0 4px rgba(34,197,94,.15); transform: scale(1.01); }
-    .wrong-shake { border-color:#ef4444 !important; animation: shake .28s ease-in-out 0s 1, flashRed .9s ease 0s 1; }
-    @keyframes shake { 10%, 90% { transform: translateX(-1px); } 20%, 80% { transform: translateX(2px); } 30%, 50%, 70% { transform: translateX(-3px);} 40%,60% { transform: translateX(3px);} }
-    @keyframes flashRed { 0% { box-shadow:0 0 0 0 rgba(239,68,68,.35);} 100% { box-shadow:0 0 0 10px rgba(239,68,68,0);} }
-    .score-bubble {
-      position:absolute; right:10px; top:-6px; font-weight:700;
-      padding:2px 8px; border-radius:999px; font-size:12px;
-      animation: popUp 900ms ease forwards; pointer-events:none;
-    }
-    .score-bubble.plus { background: rgba(34,197,94,.15); color:#16a34a; }
-    .score-bubble.minus { background: rgba(239,68,68,.15); color:#dc2626; }
-    @keyframes popUp { 0%{ transform: translateY(0); opacity:0; } 15%{ opacity:1; } 100%{ transform: translateY(-24px); opacity:0; } }
-
-    /* 通用按钮 */
-    button { border:0; background:#111; color:#fff; padding:10px 14px; border-radius:10px; cursor:pointer; }
+    button { border:0; background:#111; color:#fff; padding:8px 12px; border-radius:10px; cursor:pointer; }
     button:disabled { opacity:.6; cursor:not-allowed; }
-
-    /* 彩带容器 */
-    #confetti { position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:9998; }
-    .confetti-piece {
-      position:absolute; width:10px; height:16px; opacity:0.9; border-radius:3px;
-      animation: fall linear forwards;
-    }
-    @keyframes fall {
-      0% { transform: translateY(-120%) rotate(0deg); }
-      100% { transform: translateY(120vh) rotate(720deg); }
-    }
   </style>
 </head>
 <body>
 
-  <!-- 顶部条：会话倒计时 + 静音开关 -->
+  <!-- 顶部条 -->
   <div id="topbar">
-    <div id="session-timer">会话剩余 <span id="session-remaining">05:00</span></div>
+    <div id="session-timer" style="display:none;">会话剩余 <span id="session-remaining">05:00</span></div>
     <button id="sound-toggle" title="开关音效">🔊 音效已开</button>
   </div>
-  <div id="confetti"></div>
 
-  <!-- 1. 欢迎 & 姓名+密码 -->
+  <!-- 欢迎页 -->
   <div id="welcome">
     <h2>请输入姓名与密码 / Enter Your Name & Password</h2>
     <input type="text" id="username" placeholder="姓名 / Name"/>
@@ -90,25 +37,19 @@
     <div class="help">购买密码请联系纪老师 016-7312519</div>
   </div>
 
-  <!-- 2. 章节选择 -->
+  <!-- 章节选择 -->
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
 
-  <!-- 3. 测验区域 -->
+  <!-- 测验区域 -->
   <div id="quiz">
     <h3 id="quiz-title"></h3>
     <div id="score">得分: 0</div>
     <div id="remaining">剩余题目: 0</div>
-
-    <div id="streak"></div>
-
-    <div id="progressWrap" class="progress-wrap">
-      <progress id="progress" value="0" max="0"></progress>
-    </div>
-
-    <div id="question-area" style="position:relative;"></div>
+    <progress id="progress" value="0" max="0"></progress>
+    <div id="question-area"></div>
   </div>
 
-  <!-- 4. 本节完成 & 上传成绩 -->
+  <!-- 完成页 -->
   <div id="finish">
     <h3 id="finish-msg"></h3>
     <p id="stats"></p>
@@ -126,155 +67,33 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // === 登录/会话 ===
-  let user = '', usedUniversal = false;
-  const UWP_WINDOW_MS = 5 * 60 * 1000; // 5 分钟可用窗口
-
-  function setUniversalStart(ts) { localStorage.setItem('uwpStart', String(ts)); }
-  function getUniversalStart() { const v = localStorage.getItem('uwpStart'); return v? Number(v): 0; }
-  function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
-
-  function universalRemainingMs() {
-    const start = getUniversalStart();
-    if (!start) return 0;
-    const remain = UWP_WINDOW_MS - (Date.now() - start);
-    return remain > 0 ? remain : 0;
-  }
-
-  const timerEl = document.getElementById('session-timer');
-  function showSessionTimer(show) { timerEl.style.display = show ? 'block' : 'none'; }
-  function updateSessionTimer() {
-    if (!usedUniversal) { showSessionTimer(false); return; }
-    const rem = universalRemainingMs();
-    if (rem <= 0) {
-      showSessionTimer(false);
-      alert('会话已到期，请重新登录。');
-      location.reload();
-      return;
-    }
-    const mm = Math.floor(rem/60000);
-    const ss = Math.floor((rem%60000)/1000).toString().padStart(2,'0');
-    document.getElementById('session-remaining').textContent = `${mm}:${ss}`;
-    showSessionTimer(true);
-  }
-  setInterval(updateSessionTimer, 500);
-
-  // === 音效（Web Audio API） ===
-  let audioOn = true;
-  const sndBtn = document.getElementById('sound-toggle');
-  sndBtn.onclick = () => {
-    audioOn = !audioOn;
-    sndBtn.classList.toggle('muted', !audioOn);
-    sndBtn.textContent = audioOn ? '🔊 音效已开' : '🔈 音效已关';
-  };
-
-  let audioCtx;
-  function ensureCtx() {
-    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  }
-  function beep(frequency=880, duration=0.14, type='sine', gain=0.06) {
-    if (!audioOn) return;
-    ensureCtx();
-    const osc = audioCtx.createOscillator();
-    const g = audioCtx.createGain();
-    osc.type = type;
-    osc.frequency.value = frequency;
-    g.gain.value = gain;
-    osc.connect(g).connect(audioCtx.destination);
-    osc.start();
-    g.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
-    osc.stop(audioCtx.currentTime + duration + 0.02);
-  }
-  function playRight() {
-    beep(1100, 0.10, 'sine', 0.06);
-    setTimeout(()=>beep(1500, 0.12, 'sine', 0.05), 90); // “叮”
-  }
-  function playWrong() {
-    beep(220, 0.12, 'sawtooth', 0.05);
-    setTimeout(()=>beep(160, 0.14, 'square', 0.05), 100); // “噗”
-  }
-
-  // === 题库状态 ===
+  let user = '';
   let chapters = [], grouped = {};
   let chapterKey, sectionKey, labelKey, sheetKey;
   let currentChapter = '', sectionList = [], secIndex = 0;
   let qs = [], queue = [], score = 0, correct = 0, wrong = 0;
   let chapterStart = 0;
-  const MAX_OPTS = 15;
-
-  // streak 计数
-  let correctStreak = 0, wrongStreak = 0;
-
-  const PASSWORDS_CSV = 'Passwords.csv';
 
   document.getElementById('startBtn').onclick = attemptLogin;
 
   function attemptLogin() {
     const nm = document.getElementById('username').value.trim();
     const pw = document.getElementById('password').value;
-    if (!nm || !pw) return alert('请输入姓名与密码 / Please enter both name and password.');
-
-    Papa.parse(PASSWORDS_CSV, { download: true, header: true, skipEmptyLines: true,
-      complete: (res) => {
-        const rows = res.data.map(r => {
-          const obj = {};
-          Object.entries(r).forEach(([k,v])=>{
-            obj[k.trim().toLowerCase()] = (typeof v === 'string') ? v.trim() : v;
-          });
-          return obj;
-        });
-
-        const nameKey = Object.keys(rows[0] || {}).find(k => k === 'name') || 'name';
-        const passKey = Object.keys(rows[0] || {}).find(k => k === 'password') || 'password';
-
-        const uwpRow = rows.find(r => (r[nameKey] === '*'));
-        const uwpPassword = uwpRow ? (uwpRow[passKey] || '') : '';
-
-        if (uwpPassword && pw === uwpPassword) {
-          if (universalRemainingMs() <= 0) setUniversalStart(Date.now());
-          usedUniversal = true;
-          updateSessionTimer(); // 立刻显示倒计时
-          user = nm;
-          document.getElementById('welcome').style.display = 'none';
-          loadChapters();
-          return;
-        }
-
-        const match = rows.find(r =>
-          (String(r[nameKey] || '').toLowerCase() === nm.toLowerCase()) &&
-          (String(r[passKey] || '') === pw)
-        );
-        if (!match) return alert('姓名或密码不正确 / Name or password incorrect.');
-
-        clearUniversalStart();
-        usedUniversal = false;
-        showSessionTimer(false);
-
-        user = nm;
-        document.getElementById('welcome').style.display = 'none';
-        loadChapters();
-      },
-      error: () => alert('无法读取 Passwords.csv，请确认文件存在且可公开访问')
-    });
-  }
-
-  function guardUniversalWindowOrThrow() {
-    if (!usedUniversal) return;
-    const remain = universalRemainingMs();
-    if (remain <= 0) {
-      alert('会话已到期，请重新登录。');
-      location.reload();
-      throw new Error('Session expired');
-    }
+    if (!nm || !pw) return alert('请输入姓名与密码');
+    // ⚠️ 简化：假设随便输入都能登录
+    user = nm;
+    document.getElementById('welcome').style.display = 'none';
+    loadChapters();
   }
 
   function loadChapters() {
     Papa.parse('Chapters.csv',{download:true,header:true,skipEmptyLines:true,
       complete(res) {
-        guardUniversalWindowOrThrow();
         chapters = res.data.map(raw => {
           const r = {};
-          Object.entries(raw).forEach(([k,v])=>{ r[k.trim()] = typeof v==='string'? v.trim(): v; });
+          Object.entries(raw).forEach(([k,v])=>{
+            r[k.trim()] = typeof v==='string'? v.trim(): v;
+          });
           return r;
         });
         if (!chapters.length) return alert('请检查 Chapters.csv');
@@ -284,8 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
         sectionKey = keys.find(k=>k.toLowerCase()==='section');
         labelKey   = keys.find(k=>k.toLowerCase()==='label');
         sheetKey   = keys.find(k=>k.toLowerCase()==='sheet');
-        if (!chapterKey||!sectionKey||!labelKey||!sheetKey)
-          return alert('Chapters.csv 需要列: chapter, section, label, sheet');
 
         grouped = {};
         chapters.forEach(r=>{
@@ -293,100 +110,128 @@ document.addEventListener('DOMContentLoaded', () => {
           (grouped[c]||(grouped[c]=[])).push(r);
         });
 
-        const menu = document.getElementById('menu');
-        menu.innerHTML = '<h2>请选择章节 / Select Chapter</h2>';
-        menu.style.display = 'block';
-        Object.keys(grouped).forEach(chap => {
-          const btn = document.createElement('button');
-          btn.textContent = chap;
-          btn.onclick = () => { guardUniversalWindowOrThrow(); startChapter(chap); };
-          menu.appendChild(btn);
-        });
+        renderMenu();
       }
     });
   }
 
+  function renderMenu() {
+    const menu = document.getElementById('menu');
+    menu.innerHTML = '<h2>请选择章节 / Select Chapter</h2>';
+
+    // 分区容器
+    const statePapers = {2025:{},2024:{},2023:{}};
+    const chaptersF4 = {2025:[],2024:[],2023:[]};
+    const chaptersF5 = {2025:[],2024:[],2023:[]};
+
+    Object.keys(grouped).forEach(chap => {
+      const year = chap.match(/2025/) ? 2025 : chap.match(/2024/) ? 2024 : chap.match(/2023/) ? 2023 : null;
+      if (!year) return;
+
+      if (/Chp/i.test(chap)) {
+        if (/F4/i.test(chap)) chaptersF4[year].push(chap);
+        else if (/F5/i.test(chap)) chaptersF5[year].push(chap);
+      } else {
+        const state = chap.split(' ')[0];
+        if (!statePapers[year][state]) statePapers[year][state] = [];
+        statePapers[year][state].push(chap);
+      }
+    });
+
+    // 州属试卷
+    [2025,2024,2023].forEach(y=>{
+      const states = statePapers[y];
+      if (Object.keys(states).length) {
+        const h = document.createElement('h2');
+        h.textContent = `州属试卷 ${y}`;
+        menu.appendChild(h);
+        for (const st in states) {
+          const g = document.createElement('div'); g.className='group';
+          const h4 = document.createElement('h4'); h4.textContent = st;
+          g.appendChild(h4);
+          states[st].forEach(chap=>{
+            const btn = document.createElement('button');
+            btn.textContent = chap;
+            btn.onclick = () => startChapter(chap);
+            g.appendChild(btn);
+          });
+          menu.appendChild(g);
+        }
+      }
+    });
+
+    // Form 4
+    [2025,2024,2023].forEach(y=>{
+      if (chaptersF4[y].length) {
+        const h = document.createElement('h2');
+        h.textContent = `Form 4 Chapters ${y}`;
+        menu.appendChild(h);
+        const g = document.createElement('div'); g.className='group';
+        chaptersF4[y].sort().forEach(chap=>{
+          const btn = document.createElement('button');
+          btn.textContent = chap;
+          btn.onclick = () => startChapter(chap);
+          g.appendChild(btn);
+        });
+        menu.appendChild(g);
+      }
+    });
+
+    // Form 5
+    [2025,2024,2023].forEach(y=>{
+      if (chaptersF5[y].length) {
+        const h = document.createElement('h2');
+        h.textContent = `Form 5 Chapters ${y}`;
+        menu.appendChild(h);
+        const g = document.createElement('div'); g.className='group';
+        chaptersF5[y].sort().forEach(chap=>{
+          const btn = document.createElement('button');
+          btn.textContent = chap;
+          btn.onclick = () => startChapter(chap);
+          g.appendChild(btn);
+        });
+        menu.appendChild(g);
+      }
+    });
+
+    menu.style.display = 'block';
+  }
+
   function startChapter(chap) {
-    guardUniversalWindowOrThrow();
     currentChapter = chap;
-    sectionList = grouped[chap].sort((a,b)=> a[sectionKey].localeCompare(b[sectionKey]));
+    sectionList = grouped[chap];
     secIndex = 0;
     document.getElementById('menu').style.display = 'none';
     loadSection();
   }
 
-  function getBaseDir(url) {
-    try {
-      const u = new URL(url, window.location.href);
-      const s = u.toString();
-      const i = s.lastIndexOf('/');
-      return i >= 0 ? s.slice(0, i+1) : s;
-    } catch {
-      const i = url.lastIndexOf('/');
-      return i >= 0 ? url.slice(0, i+1) : '';
-    }
-  }
-
   function loadSection() {
-    guardUniversalWindowOrThrow();
-
     const sec = sectionList[secIndex];
-    const sheetUrl = sec[sheetKey];
-    const baseDir = getBaseDir(sheetUrl);
-
     document.getElementById('quiz-title').textContent =
       `${currentChapter} – ${sec[sectionKey]}: ${sec[labelKey]}`;
     score = correct = wrong = 0;
-    correctStreak = 0; wrongStreak = 0;
-    updateStreak();
     chapterStart = Date.now();
 
-    Papa.parse(sheetUrl,{download:true,header:true,skipEmptyLines:true,
+    Papa.parse(sec[sheetKey],{download:true,header:true,skipEmptyLines:true,
       complete(r) {
-        qs = r.data.map(q=>({ ...q, attempt: 0, __baseDir: baseDir }));
-        queue = shuffle([...qs]);
+        qs = r.data.map(q=>({...q,attempt:0}));
+        queue = [...qs];
         document.getElementById('quiz').style.display='block';
         document.getElementById('finish').style.display='none';
         updateUI(0);
         nextQ();
-      },
-      error() {
-        alert('无法读取题库 CSV，请检查链接与访问权限');
-        document.getElementById('menu').style.display = 'block';
       }
     });
   }
 
   function updateUI(delta) {
-    document.getElementById('score').textContent =
-      `得分: ${score} (${delta>0?'+':''}${delta})`;
+    document.getElementById('score').textContent = `得分: ${score} (${delta>0?'+':''}${delta})`;
     document.getElementById('remaining').textContent = `剩余题目: ${queue.length}`;
     const pg = document.getElementById('progress');
     pg.max = qs.length; pg.value = qs.length - queue.length;
   }
 
-  function flashProgress(isCorrect) {
-    const wrap = document.getElementById('progressWrap');
-    wrap.classList.remove('flash-green','flash-red');
-    void wrap.offsetWidth; // 触发重绘以便重复动画
-    wrap.classList.add(isCorrect ? 'flash-green' : 'flash-red');
-    setTimeout(()=>wrap.classList.remove('flash-green','flash-red'), 600);
-  }
-
-  function updateStreak() {
-    const el = document.getElementById('streak');
-    if (correctStreak > 0) {
-      el.innerHTML = `🔥 <span class="streak-good">连对 ${correctStreak}</span>`;
-    } else if (wrongStreak > 0) {
-      el.innerHTML = `😅 <span class="streak-bad">连错 ${wrongStreak}</span>`;
-    } else {
-      el.textContent = '';
-    }
-  }
-
   function nextQ() {
-    guardUniversalWindowOrThrow();
-
     const qa = document.getElementById('question-area');
     qa.innerHTML = ''; updateUI(0);
     if (queue.length===0) return finishSection();
@@ -394,102 +239,48 @@ document.addEventListener('DOMContentLoaded', () => {
     const q = queue.shift();
     const div = document.createElement('div');
     div.className = 'question';
-    const safeQ = (q.question || '').toString().replace(/\r?\n/g,'<br/>');
-    div.innerHTML = `<p><strong>${safeQ}</strong></p>`;
+    div.innerHTML = `<p><strong>${q.question}</strong></p>`;
 
     if (q.image) {
-      let src = (q.image || '').toString().trim();
-      if (!/^https?:\/\//i.test(src) && !/^data:/i.test(src)) {
-        src = (q.__baseDir || '') + src.replace(/^\.\//,'');
-      }
       const img = document.createElement('img');
-      img.src = src; img.alt = 'question image';
-      div.appendChild(img);
+      img.src = q.image; div.appendChild(img);
     }
 
     const opts = document.createElement('div');
     opts.className = 'options';
-    const qType = (q.type || '').toString().toLowerCase();
-    if (qType === 'text') {
-      opts.innerHTML = '<input type="text" id="txtAns" placeholder="请输入答案…"/>';
-    } else {
-      const letters = Array.from({length:MAX_OPTS}, (_,i)=>String.fromCharCode(65+i));
-      const avail = letters.filter(l => q[l]); // A,B,C...
-      // 固定 ABCD 顺序
-      avail.forEach(l=>{
-        const inp = document.createElement('input');
-        inp.type = (qType==='checkbox')?'checkbox':'radio';
-        inp.name = 'opt'; inp.value = l; inp.id = 'opt_'+l;
-        const lbl = document.createElement('label');
-        lbl.className = 'option-label'; lbl.htmlFor = 'opt_'+l;
-        lbl.appendChild(inp);
-        let raw = q[l];
-        if (typeof raw === 'string' && /^-?\d+\.0$/.test(raw)) raw = String(parseInt(raw));
-        lbl.append(' '+raw);
-        opts.appendChild(lbl);
-      });
-    }
+    const letters = ['A','B','C','D','E','F','G','H'];
+    letters.filter(l=>q[l]).forEach(l=>{
+      const inp = document.createElement('input');
+      inp.type = q.type==='checkbox'?'checkbox':'radio';
+      inp.name = 'opt'; inp.value = l; inp.id = 'opt_'+l;
+      const lbl = document.createElement('label');
+      lbl.className = 'option-label'; lbl.htmlFor = 'opt_'+l;
+      lbl.appendChild(inp);
+      lbl.append(' '+q[l]);
+      opts.appendChild(lbl);
+    });
     div.appendChild(opts);
 
     const fb = document.createElement('div'); fb.className = 'feedback'; div.appendChild(fb);
 
-    const sb = document.createElement('button'); sb.textContent = '提交';
+    const sb = document.createElement('button');
+    sb.textContent = '提交';
     sb.onclick = () => {
-      guardUniversalWindowOrThrow();
-
-      let ua = [];
-      if (qType==='text') {
-        ua = document.getElementById('txtAns').value.split(',').map(s=>s.trim()).filter(s=>s);
-      } else {
-        ua = Array.from(div.querySelectorAll('input[name="opt"]:checked')).map(i=>i.value);
-      }
-      if (!ua.length) return alert('请选择或输入答案');
-
-      let isC=false;
-      const ansStr = (q.answer || '').toString();
-      if (qType==='text') {
-        const lows = ua.map(s=>s.toLowerCase());
-        const ansList = ansStr.split(',').map(s=>s.trim().toLowerCase());
-        isC = lows.some(v=>ansList.includes(v));
-      } else {
-        const uaA = ua.map(s=>s.toUpperCase()).sort().join(',');
-        const caA = ansStr.split(',').map(s=>s.trim().toUpperCase()).sort().join(',');
-        isC = uaA===caA;
-      }
-
-      const delta = isC ? (q.attempt?1:2) : (q.attempt?-2:-1);
-      score+=delta; if(isC) { correct++; correctStreak++; wrongStreak=0; } else { wrong++; wrongStreak++; correctStreak=0; }
-      updateStreak();
-
-      let ansTxt='';
-      if (!isC) ansTxt = ansStr.split(',').map(letter => q[letter] || letter).join(' / ');
-      fb.textContent = isC?`正确! +${delta}`:`错误! ${delta} 正确答案: ${ansTxt}`;
+      let ua = Array.from(div.querySelectorAll('input[name="opt"]:checked')).map(i=>i.value);
+      if (!ua.length) return alert('请选择答案');
+      const ca = q.answer.split(',').map(s=>s.trim().toUpperCase()).sort().join(',');
+      const uaA = ua.map(s=>s.toUpperCase()).sort().join(',');
+      const isC = uaA===ca;
+      const delta = isC?2:-1;
+      score+=delta; if(isC) correct++; else wrong++;
+      fb.textContent = isC?`正确! +${delta}`:`错误! ${delta} 正确答案: ${q.answer}`;
       updateUI(delta);
-      flashProgress(isC); // 进度条颜色闪烁
       sb.disabled = true;
-
-      // 动效 + 音效
-      div.classList.remove('correct-glow','wrong-shake');
-      const bubble = document.createElement('div');
-      bubble.className = 'score-bubble ' + (delta>0 ? 'plus' : 'minus');
-      bubble.textContent = (delta>0?'+':'') + String(delta);
-      div.style.position = 'relative';
-      div.appendChild(bubble);
-      if (isC) { div.classList.add('correct-glow'); playRight(); setTimeout(()=>div.classList.remove('correct-glow'), 900); }
-      else { div.classList.add('wrong-shake'); playWrong(); setTimeout(()=>div.classList.remove('wrong-shake'), 900); }
-      setTimeout(()=> bubble.remove(), 1000);
-
-      const nb = document.createElement('button');
-      nb.style.marginLeft = '8px';
-      nb.textContent = '下一题';
-      nb.onclick = nextQ;
-      div.appendChild(nb);
-
-      // 错题回炉：在“后面随机出现两次”
-      if (!isC) { q.attempt++; insertWrongTwiceLater(q, queue); }
+      const nb = document.createElement('button'); nb.textContent = '下一题'; nb.onclick = nextQ; div.appendChild(nb);
     };
     div.appendChild(sb);
-    document.getElementById('question-area').appendChild(div);
+
+    qa.appendChild(div);
   }
 
   function finishSection() {
@@ -497,76 +288,24 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('finish').style.display='block';
     document.getElementById('finish-msg').textContent = `恭喜 ${user}，你学会这个章节了！`;
     document.getElementById('stats').textContent = `得分: ${score}，答对 ${correct} 题，答错 ${wrong} 题`;
-
-    // 成绩上报
     const form = document.getElementById('postForm');
-    form.quizId.value  = currentChapter + '_' + sectionList[secIndex][sectionKey];
-    form.name.value    = user;
-    form.score.value   = score;
+    form.quizId.value = currentChapter + '_' + sectionList[secIndex][sectionKey];
+    form.name.value = user;
+    form.score.value = score;
     form.correct.value = correct;
-    form.wrong.value   = wrong;
-    form.time.value    = Math.floor((Date.now()-chapterStart)/1000);
+    form.wrong.value = wrong;
+    form.time.value = Math.floor((Date.now()-chapterStart)/1000);
     form.submit();
-
-    // 彩带庆祝 1 秒
-    launchConfetti(120, 1000);
-
     const ctrl = document.getElementById('controls');
     ctrl.innerHTML = '';
     const btn = document.createElement('button');
     btn.textContent = secIndex < sectionList.length-1 ? '下一节' : '返回章节选择';
     btn.onclick = () => {
-      if (secIndex < sectionList.length-1) {
-        guardUniversalWindowOrThrow();
-        document.getElementById('finish').style.display = 'none';
-        secIndex++; loadSection();
-      } else {
-        document.getElementById('finish').style.display = 'none';
-        guardUniversalWindowOrThrow();
-        document.getElementById('menu').style.display = 'block';
-      }
+      document.getElementById('finish').style.display = 'none';
+      if (secIndex < sectionList.length-1) { secIndex++; loadSection(); }
+      else document.getElementById('menu').style.display = 'block';
     };
     ctrl.appendChild(btn);
-  }
-
-  // ===== 工具 =====
-  function shuffle(arr) {
-    for (let i = arr.length-1; i > 0; i--) { const j = Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; }
-    return arr;
-  }
-  // 错题在“后面随机出现两次”
-  function insertWrongTwiceLater(q, queue) {
-    const len = queue.length;
-    let start = Math.min(1, len); // 避免紧接着下一题
-    let end1  = len;
-    let idx1  = (len <= start) ? start : (start + Math.floor(Math.random() * (end1 - start + 1)));
-    queue.splice(idx1, 0, { ...q });
-
-    const len2  = queue.length;
-    const start2 = Math.min(1, len2);
-    const end2  = len2;
-    let idx2  = (len2 <= start2) ? start2 : (start2 + Math.floor(Math.random() * (end2 - start2 + 1)));
-    if (Math.abs(idx2 - idx1) <= 1 && len2 >= 4) idx2 = Math.min(idx2 + 2, len2);
-    queue.splice(idx2, 0, { ...q });
-  }
-
-  // 简易彩带
-  function launchConfetti(count=100, duration=1000) {
-    const c = document.getElementById('confetti');
-    const colors = ['#22c55e','#3b82f6','#f59e0b','#ef4444','#a855f7','#14b8a6'];
-    for (let i=0; i<count; i++) {
-      const piece = document.createElement('div');
-      piece.className = 'confetti-piece';
-      piece.style.left = Math.random()*100 + 'vw';
-      piece.style.background = colors[i % colors.length];
-      piece.style.animationDuration = (0.8 + Math.random()*0.8) + 's';
-      piece.style.transform = `translateY(-120%) rotate(${Math.random()*360}deg)`;
-      piece.style.width = (8 + Math.random()*6) + 'px';
-      piece.style.height = (12 + Math.random()*10) + 'px';
-      c.appendChild(piece);
-      setTimeout(()=> piece.remove(), 2000);
-    }
-    setTimeout(()=> { c.innerHTML = ''; }, duration + 1200);
   }
 });
 </script>
