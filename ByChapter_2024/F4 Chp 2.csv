@@ -1,18 +1,47 @@
 ﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 2,radio,Kedah_Q02,A,B,C,D,A,ByChapter_2024/Kedah 2024/Picture2.png
-F4 Chp 2,radio,Melaka_Q02,A,B,C,D,C,ByChapter_2024/Melaka 2024/Picture2.png
-F4 Chp 2,radio,NegeriSembilan_Q02,A,B,C,D,B,ByChapter_2024/Negeri Sembilan 2024/Picture2.png
-F4 Chp 2,radio,Pahang_Q02,A,B,C,D,A,ByChapter_2024/Pahang 2024/Picture2.png
-F4 Chp 2,radio,Kelantan_Q03,A,B,C,D,A,ByChapter_2024/Kelantan 2024/Picture3.png
-F4 Chp 2,radio,KelantanYik_Q03,A,B,C,D,A,ByChapter_2024/Kelantan YIK 2024/Picture3.png
-F4 Chp 2,radio,Pahang_Q03,A,B,C,D,D,ByChapter_2024/Pahang 2024/Picture3.png
-F4 Chp 2,radio,PenangSet_Q03,A,B,C,D,C,ByChapter_2024/Penang Set 1 2024/Picture3.png
-F4 Chp 2,radio,PenangSet_Q03,A,B,C,D,C,ByChapter_2024/Penang Set 2 2024/Picture3.png
-F4 Chp 2,radio,Perak_Q03,A,B,C,D,D,ByChapter_2024/Perak 2024/Picture3.png
-F4 Chp 2,radio,SelangorSet_Q03,A,B,C,D,C,ByChapter_2024/Selangor Set 1 2024/Picture3.png
-F4 Chp 2,radio,SelangorSet_Q03,A,B,C,D,C,ByChapter_2024/Selangor Set 2 2024/Picture3.png
-F4 Chp 2,radio,Smka_Q03,A,B,C,D,D,ByChapter_2024/SMKA 2024/Picture3.png
-F4 Chp 2,radio,Kelantan_Q04,A,B,C,D,C,ByChapter_2024/Kelantan 2024/Picture4.png
-F4 Chp 2,radio,KelantanYik_Q04,A,B,C,D,A,ByChapter_2024/Kelantan YIK 2024/Picture4.png
-F4 Chp 2,radio,PenangSet_Q04,A,B,C,D,C,ByChapter_2024/Penang Set 1 2024/Picture4.png
-F4 Chp 2,radio,PenangSet_Q04,A,B,C,D,C,ByChapter_2024/Penang Set 2 2024/Picture4.png
+F4 Chp 2,radio,Kedah_Q02,A,B,C,D,A,SC-SPM/Kedah 2024/Picture2.png
+F4 Chp 2,radio,Kedah_Q02,A,B,C,D,A,SC-SPM/Kedah 2024/Picture2.png
+F4 Chp 2,radio,Melaka_Q02,A,B,C,D,C,SC-SPM/Melaka 2024/Picture2.png
+F4 Chp 2,radio,Melaka_Q02,A,B,C,D,C,SC-SPM/Melaka 2024/Picture2.png
+F4 Chp 2,radio,NegeriSembilan_Q02,A,B,C,D,B,SC-SPM/Negeri Sembilan 2024/Picture2.png
+F4 Chp 2,radio,NegeriSembilan_Q02,A,B,C,D,B,SC-SPM/Negeri Sembilan 2024/Picture2.png
+F4 Chp 2,radio,Pahang_Q02,A,B,C,D,A,SC-SPM/Pahang 2024/Picture2.png
+F4 Chp 2,radio,Pahang_Q02,A,B,C,D,A,SC-SPM/Pahang 2024/Picture2.png
+F4 Chp 2,radio,Kelantan_Q03,A,B,C,D,A,SC-SPM/Kelantan 2024/Picture3.png
+F4 Chp 2,radio,Kelantan_Q03,A,B,C,D,A,SC-SPM/Kelantan 2024/Picture3.png
+F4 Chp 2,radio,KelantanYik_Q03,A,B,C,D,A,SC-SPM/Kelantan YIK 2024/Picture3.png
+F4 Chp 2,radio,KelantanYik_Q03,A,B,C,D,A,SC-SPM/Kelantan YIK 2024/Picture3.png
+F4 Chp 2,radio,Pahang_Q03,A,B,C,D,D,SC-SPM/Pahang 2024/Picture3.png
+F4 Chp 2,radio,Pahang_Q03,A,B,C,D,D,SC-SPM/Pahang 2024/Picture3.png
+F4 Chp 2,radio,PenangSet_Q03,A,B,C,D,C,SC-SPM/Penang Set 1 2024/Picture3.png
+F4 Chp 2,radio,PenangSet_Q03,A,B,C,D,C,SC-SPM/Penang Set 1 2024/Picture3.png
+F4 Chp 2,radio,PenangSet_Q03,A,B,C,D,C,SC-SPM/Penang Set 2 2024/Picture3.png
+F4 Chp 2,radio,PenangSet_Q03,A,B,C,D,C,SC-SPM/Penang Set 2 2024/Picture3.png
+F4 Chp 2,radio,Perak_Q03,A,B,C,D,D,SC-SPM/Perak 2024/Picture3.png
+F4 Chp 2,radio,Perak_Q03,A,B,C,D,D,SC-SPM/Perak 2024/Picture3.png
+F4 Chp 2,radio,SelangorSet_Q03,A,B,C,D,C,SC-SPM/Selangor Set 1 2024/Picture3.png
+F4 Chp 2,radio,SelangorSet_Q03,A,B,C,D,C,SC-SPM/Selangor Set 1 2024/Picture3.png
+F4 Chp 2,radio,SelangorSet_Q03,A,B,C,D,C,SC-SPM/Selangor Set 2 2024/Picture3.png
+F4 Chp 2,radio,SelangorSet_Q03,A,B,C,D,C,SC-SPM/Selangor Set 2 2024/Picture3.png
+F4 Chp 2,radio,Smka_Q03,A,B,C,D,D,SC-SPM/SMKA 2024/Picture3.png
+F4 Chp 2,radio,Smka_Q03,A,B,C,D,D,SC-SPM/SMKA 2024/Picture3.png
+F4 Chp 2,radio,Kelantan_Q04,A,B,C,D,C,SC-SPM/Kelantan 2024/Picture4.png
+F4 Chp 2,radio,Kelantan_Q04,A,B,C,D,C,SC-SPM/Kelantan 2024/Picture4.png
+F4 Chp 2,radio,KelantanYik_Q04,A,B,C,D,A,SC-SPM/Kelantan YIK 2024/Picture4.png
+F4 Chp 2,radio,KelantanYik_Q04,A,B,C,D,A,SC-SPM/Kelantan YIK 2024/Picture4.png
+F4 Chp 2,radio,PenangSet_Q04,A,B,C,D,C,SC-SPM/Penang Set 1 2024/Picture4.png
+F4 Chp 2,radio,PenangSet_Q04,A,B,C,D,C,SC-SPM/Penang Set 1 2024/Picture4.png
+F4 Chp 2,radio,PenangSet_Q04,A,B,C,D,C,SC-SPM/Penang Set 2 2024/Picture4.png
+F4 Chp 2,radio,PenangSet_Q04,A,B,C,D,C,SC-SPM/Penang Set 2 2024/Picture4.png
+F4 Chp 2,radio,SelangorSet_Q24,A,B,C,D,A,SC-SPM/Selangor Set 1 2024/Picture24.png
+F4 Chp 2,radio,SelangorSet_Q24,A,B,C,D,A,SC-SPM/Selangor Set 1 2024/Picture24.png
+F4 Chp 2,radio,SelangorSet_Q24,A,B,C,D,A,SC-SPM/Selangor Set 2 2024/Picture24.png
+F4 Chp 2,radio,SelangorSet_Q24,A,B,C,D,A,SC-SPM/Selangor Set 2 2024/Picture24.png
+F4 Chp 2,radio,SelangorSet_Q25,A,B,C,D,C,SC-SPM/Selangor Set 1 2024/Picture25.png
+F4 Chp 2,radio,SelangorSet_Q25,A,B,C,D,C,SC-SPM/Selangor Set 1 2024/Picture25.png
+F4 Chp 2,radio,SelangorSet_Q25,A,B,C,D,C,SC-SPM/Selangor Set 2 2024/Picture25.png
+F4 Chp 2,radio,SelangorSet_Q25,A,B,C,D,C,SC-SPM/Selangor Set 2 2024/Picture25.png
+F4 Chp 2,radio,SelangorSet_Q26,A,B,C,D,B,SC-SPM/Selangor Set 1 2024/Picture26.png
+F4 Chp 2,radio,SelangorSet_Q26,A,B,C,D,B,SC-SPM/Selangor Set 1 2024/Picture26.png
+F4 Chp 2,radio,SelangorSet_Q26,A,B,C,D,B,SC-SPM/Selangor Set 2 2024/Picture26.png
+F4 Chp 2,radio,SelangorSet_Q26,A,B,C,D,B,SC-SPM/Selangor Set 2 2024/Picture26.png
