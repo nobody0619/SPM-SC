@@ -368,7 +368,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (chaptersF4[y].length) {
         const h = document.createElement('h2'); h.textContent = `Form 4 Chapters ${y}`; menu.appendChild(h);
         const g = document.createElement('div'); g.className='group';
-        chaptersF4[y].sort().forEach(ch=> g.appendChild(makeChapterButton(ch)) );
+        chaptersF4[y].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'}))
+             .forEach(ch=> g.appendChild(makeChapterButton(ch)) );
         menu.appendChild(g);
       }
     });
@@ -376,7 +377,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (chaptersF5[y].length) {
         const h = document.createElement('h2'); h.textContent = `Form 5 Chapters ${y}`; menu.appendChild(h);
         const g = document.createElement('div'); g.className='group';
-        chaptersF5[y].sort().forEach(ch=> g.appendChild(makeChapterButton(ch)) );
+        chaptersF5[y].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'}))
+             .forEach(ch=> g.appendChild(makeChapterButton(ch)) );
         menu.appendChild(g);
       }
     });
