@@ -6,18 +6,64 @@
   <title>纪老师 SPM SC Paper 1 超强训练器</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
   <style>
-    body { font-family: Arial, sans-serif; max-width:1100px; margin:auto; text-align:center; }
+    :root{
+      --black:#111; --fg:#111; --bg:#fff; --muted:#555;
+      --green:#16a34a; --green-2:#22c55e; --border:#eee;
+      --shadow:0 6px 20px rgba(0,0,0,.06);
+    }
+    html,body{ background:#fff; }
+    body { font-family: Arial, sans-serif; max-width:1100px; margin:auto; text-align:center; color:var(--fg); }
+    /* 背景装饰 */
+    body::before{
+      content:""; position:fixed; inset:-10% -10% auto -10%;
+      height:68vh; pointer-events:none; z-index:-2;
+      background:
+        radial-gradient(600px 240px at 10% 0%,   rgba(34,197,94,.06),  rgba(255,255,255,0) 60%),
+        radial-gradient(520px 220px at 90% 12%,  rgba(59,130,246,.06), rgba(255,255,255,0) 60%),
+        radial-gradient(420px 200px at 50% -8%,  rgba(168,85,247,.05), rgba(255,255,255,0) 60%);
+    }
+    body::after{
+      content:""; position:fixed; inset:0; pointer-events:none; z-index:-3;
+      background-image:
+        radial-gradient(rgba(0,0,0,.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0,0,0,.015), rgba(0,0,0,0));
+      background-size: 12px 12px, 100% 100%;
+      background-position: 0 0, 0 0;
+    }
+
     #welcome,#menu,#quiz,#finish,#results { margin:20px; }
     #menu,#quiz,#finish,#results { display:none; }
 
-    #topbar { display:flex; align-items:center; justify-content:space-between; gap:12px; margin:12px 0; }
+    /* 顶栏 */
+    #topbar { position:sticky; top:8px; z-index:50; display:flex; align-items:center; justify-content:space-between; gap:12px; margin:12px 0; }
     .nav-left, .nav-right { display:flex; align-items:center; gap:8px; }
-    .help { font-size: 0.95em; color:#444; margin-top:8px; }
+    .pill-btn{ border:0; background:#111; color:#fff; padding:10px 14px; border-radius:999px; cursor:pointer; box-shadow:var(--shadow); }
+    .pill-btn.light{ background:#222; }
+    .pill-btn.primary{ background:#0ea5e9; }
+    .pill-btn:disabled{ opacity:.6; cursor:not-allowed; }
+    #session-timer { background:#111; color:#fff; padding:8px 12px; border-radius:999px; font-size:12px; letter-spacing:.5px; opacity:.9; display:none; box-shadow:0 4px 10px rgba(0,0,0,.25); }
+    #sound-toggle.muted { background:#555; }
+    #my-results-btn, #back-to-chapters-btn { display:none; }
 
-    button { border:0; background:#111; color:#fff; padding:10px 14px; border-radius:10px; cursor:pointer; }
-    button:disabled { opacity:.6; cursor:not-allowed; }
-    .btn-light { background:#222; }
+    /* Hero */
+    .hero{
+      margin: 28px auto; padding: 32px 28px; border-radius:22px; max-width: 950px;
+      background:
+        radial-gradient(1200px 420px at -10% -10%, #e7f8ff 0%, rgba(255,255,255,0) 60%),
+        radial-gradient(900px 320px at 110% 20%, #eef9f1 0%, rgba(255,255,255,0) 55%),
+        linear-gradient(135deg,#fff,#fafafa);
+      border:1px solid var(--border); box-shadow:var(--shadow); text-align:center;
+    }
+    .brand{ display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap; }
+    .brand-icon{ width:56px; height:56px; border-radius:16px; background:#111; color:#fff; display:grid; place-items:center; font-weight:800; letter-spacing:.5px; box-shadow:var(--shadow); }
+    .brand-title{ margin:0; font-size:30px; line-height:1.15; }
+    .brand-sub{ margin:6px 0 0; color:#555; }
+    .tag-row{ margin-top:12px; display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+    .tag{ font-size:12px; padding:6px 12px; border-radius:999px; border:1px solid #e5e7eb; background:#fff; color:#111; }
+    .tag.hot{ border-color:var(--green); color:var(--green); background:#f0fff5; }
+    .tag.dark{ background:#111; color:#fff; border-color:#111; }
 
+    /* 菜单/题目 */
     h2 { margin-top:26px; }
     h3 { margin-top:18px; text-align:left; }
     .group { margin:6px 0 18px; text-align:left; }
@@ -53,11 +99,6 @@
     .streak-good { color:#16a34a; }
     .streak-bad  { color:#dc2626; }
 
-    #session-timer { background: #111; color:#fff; padding:8px 12px; border-radius:999px; font-size: 12px; letter-spacing:.5px; opacity:.9; display:none; box-shadow: 0 4px 10px rgba(0,0,0,.25); }
-    #sound-toggle { border:0; background:#111; color:#fff; padding:8px 12px; border-radius:10px; cursor:pointer; }
-    #sound-toggle.muted { background:#555; }
-    #my-results-btn { display:none; }
-
     table { border-collapse: collapse; width:100%; }
     th, td { border:1px solid #e5e7eb; padding:8px; text-align:left; }
     th { background:#f3f4f6; }
@@ -66,31 +107,64 @@
     #confetti { position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:9998; }
     .confetti-piece { position:absolute; width:10px; height:16px; opacity:0.9; border-radius:3px; animation: fall linear forwards; }
     @keyframes fall { 0% { transform: translateY(-120%) rotate(0deg);} 100% { transform: translateY(120vh) rotate(720deg);} }
+
+    /* WhatsApp 浮动按钮与页脚 */
+    .wa-fab{
+      position:fixed; right:18px; bottom:18px; z-index:60;
+      background:#25D366; color:#fff; padding:12px 16px; border-radius:999px;
+      box-shadow: var(--shadow); text-decoration:none; font-weight:700;
+    }
+    .wa-fab:hover{ filter:brightness(1.05); }
+    footer{ margin:40px auto 24px; color:#444; font-size:14px; }
+    footer a{ color:#0ea5e9; text-decoration:none; }
+    footer a:hover{ text-decoration:underline; }
   </style>
 </head>
 <body>
 
+  <!-- 顶栏 -->
   <div id="topbar">
     <div class="nav-left">
+      <button id="back-to-chapters-btn" class="pill-btn primary">🏠 回到章节选择</button>
       <div id="session-timer">会话剩余 <span id="session-remaining">05:00</span></div>
     </div>
     <div class="nav-right">
-      <button id="my-results-btn" class="btn-light">📊 我的成绩</button>
-      <button id="sound-toggle" title="开关音效">🔊 音效已开</button>
+      <button id="my-results-btn" class="pill-btn light">📊 我的成绩</button>
+      <button id="sound-toggle" class="pill-btn" title="开关音效">🔊 音效已开</button>
     </div>
   </div>
   <div id="confetti"></div>
 
+  <!-- Hero / 品牌区 -->
+  <section class="hero">
+    <div class="brand">
+      <div class="brand-icon">SC</div>
+      <div>
+        <h1 class="brand-title">SPM SC Paper 1 超强训练器 / <span style="font-weight:700;">SC P1 Booster</span></h1>
+        <p class="brand-sub">按章节精练 × 州属试卷实战 × 错题二次回刷 × 自动成绩上传</p>
+        <div class="tag-row">
+          <span class="tag hot">Form 4 / Form 5</span>
+          <span class="tag hot">Chapter &amp; State Papers</span>
+          <span class="tag hot">Repeat wrong twice</span>
+          <span class="tag hot">Leaderboard Ready</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 登录 -->
   <div id="welcome">
     <h2>请输入姓名与密码 / Enter Your Name & Password</h2>
     <input type="text" id="username" placeholder="姓名 / Name"/>
     <input type="password" id="password" placeholder="密码 / Password"/>
-    <button id="startBtn" type="button">登录 / Log In</button>
-    <div class="help">免费试用密码:testing(5分钟) ；一个ID只需RM10，就可无限做超过1000题考题！ 购买密码请联系纪老师 016-7312519</div>
+    <button id="startBtn" type="button" class="pill-btn">登录 / Log In</button>
+    <div class="muted" style="margin-top:8px;">免费试用密码：<b>testing</b>（5分钟）；一个ID只需RM10，就可无限做超过1000题考题！购买密码请联系纪老师 016-7312519</div>
   </div>
 
+  <!-- 菜单 -->
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
 
+  <!-- 测验 -->
   <div id="quiz">
     <h3 id="quiz-title"></h3>
     <div id="score">得分: 0</div>
@@ -102,21 +176,24 @@
     <div id="question-area" style="position:relative;"></div>
   </div>
 
+  <!-- 完成 -->
   <div id="finish">
     <h3 id="finish-msg"></h3>
     <p id="stats"></p>
     <div id="controls"></div>
   </div>
 
+  <!-- 我的成绩 -->
   <div id="results">
     <h2>📊 我的成绩 / My Results</h2>
     <div id="results-summary" class="muted"></div>
     <div id="results-table-wrap"></div>
     <div style="margin-top:12px;">
-      <button class="btn-light" id="back-to-menu">返回章节列表</button>
+      <button class="pill-btn light" id="back-to-menu">返回章节列表</button>
     </div>
   </div>
 
+  <!-- 成绩提交表单（保持你的原地址不变） -->
   <iframe name="postFrame" style="display:none;"></iframe>
   <form id="postForm"
         action="https://script.google.com/macros/s/AKfycbx9A1jZ8oqSKExIfVCKnNiFmvPy407QqZBnZTRalU0IL4DSuOp9Nb4izaynd_4C54j3/exec"
@@ -125,14 +202,23 @@
     <input name="correct"/><input name="wrong"/><input name="time"/>
   </form>
 
+  <!-- WhatsApp 一键联系 -->
+  <a class="wa-fab" href="https://wa.me/60167312519?text=Hi%20Mr%20Kee%2C%20I%27d%20like%20to%20ask%20about%20SC%20P1%20Booster." target="_blank" rel="noopener">💬 WhatsApp</a>
+
+  <!-- 页脚 -->
+  <footer>
+    如有任何疑问，请联系纪老师 016-7312519 ，或直接
+    <a href="https://wa.me/60167312519?text=Hi%20Mr%20Kee%2C%20I%27d%20like%20to%20ask%20about%20SC%20P1%20Booster." target="_blank" rel="noopener">一键打开 WhatsApp</a>。
+  </footer>
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  /* ======= 成绩表 CSV（保持你的设置） ======= */
+  /* ======= 成绩表 CSV（保留你的设置） ======= */
   const SHEET_ID = '1bUFFiucc1p_z2eFWq6AEdIvdHVZ8gIn_trDJ8PDT_s8';
   const SHEET_GID = '0';
   const RESULTS_CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${SHEET_GID}`;
 
-  // ======= 登录/会话（通行证 5 分钟） =======
+  // ======= 登录/会话（试用 5 分钟） =======
   let user = '', usedUniversal = false;
   const UWP_WINDOW_MS = 5 * 60 * 1000;
   function setUniversalStart(ts) { localStorage.setItem('uwpStart', String(ts)); }
@@ -174,455 +260,362 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ======= 成绩存取 =======
   const LS_KEY = (name)=>`results_${name.toLowerCase()}`;
-  let cloudResults = [];
-  let localResults = [];
-  function loadLocalResults() {
-    try { localResults = JSON.parse(localStorage.getItem(LS_KEY(user))||'[]'); }
-    catch { localResults = []; }
-  }
-  function saveLocalResult(rec) {
-    loadLocalResults();
-    localResults.push(rec);
-    localStorage.setItem(LS_KEY(user), JSON.stringify(localResults));
-  }
-  function mergeResults() { return [...cloudResults, ...localResults]; }
-  function buildBestScoreMap() {
-    const all = mergeResults();
-    const best = {};
-    all.forEach(r=>{
-      const qid = String(r.quizId||'').trim();
-      const sc = Number(r.score||0);
-      if (!qid) return;
-      if (!(qid in best) || sc > best[qid]) best[qid] = sc;
-    });
+  let cloudResults = []; let localResults = [];
+  function loadLocalResults(){ try{ localResults = JSON.parse(localStorage.getItem(LS_KEY(user))||'[]'); } catch { localResults=[]; } }
+  function saveLocalResult(rec){ loadLocalResults(); localResults.push(rec); localStorage.setItem(LS_KEY(user), JSON.stringify(localResults)); }
+  function mergeResults(){ return [...cloudResults, ...localResults]; }
+  function buildBestScoreMap(){
+    const all = mergeResults(); const best = {};
+    all.forEach(r=>{ const qid=String(r.quizId||'').trim(); const sc=Number(r.score||0);
+      if(!qid) return; if(!(qid in best) || sc>best[qid]) best[qid]=sc; });
     return best;
   }
   function bestScoreForChapter(chap, bestMap){
     let candidate = (bestMap[chap] != null) ? bestMap[chap] : null;
-    // 兼容旧数据：chap_section 形式
-    for (const [k,v] of Object.entries(bestMap)){
-      if (k.startsWith(chap + '_')) candidate = Math.max(candidate ?? -Infinity, v);
-    }
+    for (const [k,v] of Object.entries(bestMap)){ if (k.startsWith(chap + '_')) candidate = Math.max(candidate ?? -Infinity, v); }
     return candidate;
   }
-  function fetchCloudResultsFor(name) {
-    return new Promise((resolve) => {
-      Papa.parse(RESULTS_CSV_URL, {
+  function fetchCloudResultsFor(name){
+    return new Promise((resolve)=>{
+      Papa.parse(RESULTS_CSV_URL,{
         download:true, header:true, skipEmptyLines:true,
-        complete: (res) => {
-          const rows = (res.data||[]).map(r=>{
+        complete:(res)=>{
+          const rows=(res.data||[]).map(r=>{
             const o={}; Object.entries(r).forEach(([k,v])=>{ o[k.trim().toLowerCase()] = typeof v==='string'? v.trim(): v; });
-            return {
-              quizId: o.quizid || o.quiz_id || '',
-              name: o.name || '',
-              score: o.score || '',
-              correct: o.correct || '',
-              wrong: o.wrong || '',
-              time: o.time || '',
-              timestamp: o.timestamp || ''
-            };
+            return { quizId:o.quizid||o.quiz_id||'', name:o.name||'', score:o.score||'', correct:o.correct||'', wrong:o.wrong||'', time:o.time||'', timestamp:o.timestamp||'' };
           }).filter(r=>String(r.name||'').toLowerCase()===name.toLowerCase());
-          cloudResults = rows;
-          resolve(rows);
+          cloudResults = rows; resolve(rows);
         },
-        error: ()=>{ cloudResults=[]; resolve([]); }
+        error:()=>{ cloudResults=[]; resolve([]); }
       });
     });
   }
 
-  // ======= 题库/菜单数据（去掉 section 概念） =======
-  let chapters = [], grouped = {};
-  let chapterKey, sectionKey, labelKey, sheetKey; // 仍会从 CSV 里探测到，但 UI 不再展示 section
-  let currentChapter = '';
+  // ======= 题库/菜单数据 =======
+  let chapters=[], grouped={}; let chapterKey, sectionKey, labelKey, sheetKey; let currentChapter='';
 
   // ======= 测验状态 =======
-  let qs = [], queue = [], score = 0, correct = 0, wrong = 0;
-  let chapterStart = 0;
-  let correctStreak = 0, wrongStreak = 0;
-  const MAX_OPTS = 15;
+  let qs=[], queue=[], score=0, correct=0, wrong=0;
+  let chapterStart=0; let correctStreak=0, wrongStreak=0; const MAX_OPTS=15;
 
   const PASSWORDS_CSV = 'Passwords.csv';
   document.getElementById('startBtn').onclick = attemptLogin;
   document.getElementById('my-results-btn').onclick = openResults;
-  document.getElementById('back-to-menu').onclick = () => { document.getElementById('results').style.display='none'; document.getElementById('menu').style.display='block'; };
+  document.getElementById('back-to-menu').onclick = backToMenu;
+  document.getElementById('back-to-chapters-btn').onclick = backToMenu;
 
-  function attemptLogin() {
-    const nm = document.getElementById('username').value.trim();
-    const pw = document.getElementById('password').value;
-    if (!nm || !pw) return alert('请输入姓名与密码 / Please enter both name and password.');
+  function backToMenu(){
+    document.getElementById('results').style.display='none';
+    document.getElementById('quiz').style.display='none';
+    document.getElementById('finish').style.display='none';
+    document.getElementById('menu').style.display='block';
+    document.getElementById('menu').scrollIntoView({behavior:'smooth', block:'start'});
+  }
 
-    Papa.parse(PASSWORDS_CSV, { download:true, header:true, skipEmptyLines:true,
-      complete: async (res) => {
-        const rows = (res.data||[]).map(r => {
-          const o={}; Object.entries(r).forEach(([k,v])=>{ o[k.trim().toLowerCase()] = typeof v==='string'? v.trim(): v; });
-          return o;
-        });
-        const nameKey = 'name', passKey='password';
-        const uwpRow = rows.find(r=>r[nameKey]==='*');
-        const uwpPassword = uwpRow ? (uwpRow[passKey]||'') : '';
+  function attemptLogin(){
+    const nm=document.getElementById('username').value.trim();
+    const pw=document.getElementById('password').value;
+    if(!nm||!pw) return alert('请输入姓名与密码 / Please enter both name and password.');
 
-        if (uwpPassword && pw===uwpPassword) {
-          if (universalRemainingMs()<=0) setUniversalStart(Date.now());
-          usedUniversal = true; updateSessionTimer();
-          user = nm; afterLogin(); return;
+    Papa.parse(PASSWORDS_CSV,{download:true,header:true,skipEmptyLines:true,
+      complete: async (res)=>{
+        const rows=(res.data||[]).map(r=>{ const o={}; Object.entries(r).forEach(([k,v])=>{ o[k.trim().toLowerCase()]=typeof v==='string'? v.trim(): v; }); return o; });
+        const nameKey='name', passKey='password';
+        const uwpRow=rows.find(r=>r[nameKey]==='*'); const uwpPassword=uwpRow?(uwpRow[passKey]||''):'';
+
+        if(uwpPassword && pw===uwpPassword){
+          if(universalRemainingMs()<=0) setUniversalStart(Date.now());
+          usedUniversal=true; updateSessionTimer(); user=nm; afterLogin(); return;
         }
-        const match = rows.find(r => String(r[nameKey]||'').toLowerCase()===nm.toLowerCase() && String(r[passKey]||'')===pw);
-        if (!match) return alert('姓名或密码不正确 / Name or password incorrect.');
+        const match=rows.find(r=>String(r[nameKey]||'').toLowerCase()===nm.toLowerCase() && String(r[passKey]||'')===pw);
+        if(!match) return alert('姓名或密码不正确 / Name or password incorrect.');
 
         clearUniversalStart(); usedUniversal=false; showSessionTimer(false);
-        user = nm; afterLogin();
+        user=nm; afterLogin();
       },
-      error: ()=> alert('无法读取 Passwords.csv，请确认文件存在且可公开访问')
+      error:()=> alert('无法读取 Passwords.csv，请确认文件存在且可公开访问')
     });
   }
 
-  async function afterLogin() {
+  async function afterLogin(){
     await fetchCloudResultsFor(user);
     loadLocalResults();
-    document.getElementById('my-results-btn').style.display = 'inline-block';
+    document.getElementById('my-results-btn').style.display='inline-block';
+    document.getElementById('back-to-chapters-btn').style.display='inline-block';
     document.getElementById('welcome').style.display='none';
     loadChapters();
+    setTimeout(()=>document.getElementById('menu').scrollIntoView({behavior:'smooth'}), 50);
   }
 
-  function guardUniversalWindowOrThrow() {
-    if (!usedUniversal) return;
-    if (universalRemainingMs() <= 0) { alert('会话已到期，请重新登录。'); location.reload(); throw new Error('Session expired'); }
+  function guardUniversalWindowOrThrow(){
+    if(!usedUniversal) return;
+    if(universalRemainingMs()<=0){ alert('会话已到期，请重新登录。'); location.reload(); throw new Error('Session expired'); }
   }
 
-  function loadChapters() {
+  function loadChapters(){
     Papa.parse('Chapters.csv',{download:true,header:true,skipEmptyLines:true,
-      complete(res) {
+      complete(res){
         guardUniversalWindowOrThrow();
-        chapters = (res.data||[]).map(raw => {
-          const r={}; Object.entries(raw).forEach(([k,v])=>{ r[k.trim()] = typeof v==='string'? v.trim(): v; }); return r;
-        });
-        if (!chapters.length) return alert('请检查 Chapters.csv');
+        chapters=(res.data||[]).map(raw=>{ const r={}; Object.entries(raw).forEach(([k,v])=>{ r[k.trim()]=typeof v==='string'? v.trim(): v; }); return r; });
+        if(!chapters.length) return alert('请检查 Chapters.csv');
 
-        const keys = Object.keys(chapters[0]);
-        chapterKey = keys.find(k=>k.toLowerCase()==='chapter');
-        sectionKey = keys.find(k=>k.toLowerCase()==='section'); // 仍可存在，但不再用于导航
-        labelKey   = keys.find(k=>k.toLowerCase()==='label');
-        sheetKey   = keys.find(k=>k.toLowerCase()==='sheet');
+        const keys=Object.keys(chapters[0]);
+        chapterKey=keys.find(k=>k.toLowerCase()==='chapter');
+        sectionKey=keys.find(k=>k.toLowerCase()==='section');
+        labelKey  =keys.find(k=>k.toLowerCase()==='label');
+        sheetKey  =keys.find(k=>k.toLowerCase()==='sheet');
 
-        grouped = {};
-        chapters.forEach(r => { const c=r[chapterKey]; (grouped[c]||(grouped[c]=[])).push(r); });
+        grouped={};
+        chapters.forEach(r=>{ const c=r[chapterKey]; (grouped[c]||(grouped[c]=[])).push(r); });
 
         renderMenu();
       }
     });
   }
 
-  function renderMenu() {
-    const menu = document.getElementById('menu');
-    menu.innerHTML = '<h2>请选择章节 / Select Chapter</h2>';
+  function renderMenu(){
+    const menu=document.getElementById('menu');
+    menu.innerHTML='<h2>请选择章节 / Select Chapter</h2>';
 
-    const bestMap = buildBestScoreMap();
+    const bestMap=buildBestScoreMap();
+    const statePapers={2025:{},2024:{},2023:{}}; const chaptersF4={2025:[],2024:[],2023:[]}; const chaptersF5={2025:[],2024:[],2023:[]};
 
-    // 预分类容器（按年 & F4/F5 & 州属）
-    const statePapers = {2025:{},2024:{},2023:{}};
-    const chaptersF4 = {2025:[],2024:[],2023:[]};
-    const chaptersF5 = {2025:[],2024:[],2023:[]};
-
-    Object.keys(grouped).forEach(chap => {
+    Object.keys(grouped).forEach(chap=>{
       const year = chap.match(/2025/)?2025 : chap.match(/2024/)?2024 : chap.match(/2023/)?2023 : null;
-      if (!year) return;
-      if (/Chp/i.test(chap)) {
-        if (/F4/i.test(chap)) chaptersF4[year].push(chap);
-        else if (/F5/i.test(chap)) chaptersF5[year].push(chap);
+      if(!year) return;
+      if(/Chp/i.test(chap)){
+        if(/F4/i.test(chap)) chaptersF4[year].push(chap);
+        else if(/F5/i.test(chap)) chaptersF5[year].push(chap);
       } else {
         const state = chap.split(' ')[0];
-        if (!statePapers[year][state]) statePapers[year][state] = [];
-        statePapers[year][state].push(chap);
+        (statePapers[year][state] ||= []).push(chap);
       }
     });
 
-    const makeChapterButton = (chap) => {
-      const btn = document.createElement('button');
-      btn.className = 'pill';
-      btn.textContent = chap;
-      const badge = document.createElement('span');
-      const best = bestScoreForChapter(chap, bestMap);
-      if (best != null) { badge.className='badge badge-green'; badge.textContent = `最高 ${best}`; }
-      else { badge.className='badge badge-gray'; badge.textContent = '未做'; }
+    const makeChapterButton=(chap)=>{
+      const btn=document.createElement('button'); btn.className='pill'; btn.textContent=chap;
+      const badge=document.createElement('span'); const best=bestScoreForChapter(chap,bestMap);
+      if(best!=null){ badge.className='badge badge-green'; badge.textContent=`最高 ${best}`; } else { badge.className='badge badge-gray'; badge.textContent='未做'; }
       btn.appendChild(badge);
-      btn.onclick = () => { guardUniversalWindowOrThrow(); startChapter(chap); };
+      btn.onclick=()=>{ guardUniversalWindowOrThrow(); startChapter(chap); };
       return btn;
     };
 
-    // 州属试卷（2025→2024→2023）
     [2025,2024,2023].forEach(y=>{
-      const states = statePapers[y];
-      if (Object.keys(states).length) {
-        const h = document.createElement('h2'); h.textContent = `州属试卷 ${y}`; menu.appendChild(h);
-        for (const st of Object.keys(states).sort()) {
-          const g = document.createElement('div'); g.className='group';
-          const h4 = document.createElement('h4'); h4.textContent = st; g.appendChild(h4);
+      const states=statePapers[y];
+      if(Object.keys(states).length){
+        const h=document.createElement('h2'); h.textContent=`州属试卷 ${y}`; menu.appendChild(h);
+        for(const st of Object.keys(states).sort()){
+          const g=document.createElement('div'); g.className='group';
+          const h4=document.createElement('h4'); h4.textContent=st; g.appendChild(h4);
           states[st].sort().forEach(ch=> g.appendChild(makeChapterButton(ch)) );
           menu.appendChild(g);
         }
       }
     });
 
-    // Form 4 & Form 5（按年）
     [2025,2024,2023].forEach(y=>{
-      if (chaptersF4[y].length) {
-        const h = document.createElement('h2'); h.textContent = `Form 4 Chapters ${y}`; menu.appendChild(h);
-        const g = document.createElement('div'); g.className='group';
-        chaptersF4[y].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'}))
-             .forEach(ch=> g.appendChild(makeChapterButton(ch)) );
+      if(chaptersF4[y].length){
+        const h=document.createElement('h2'); h.textContent=`Form 4 Chapters ${y}`; menu.appendChild(h);
+        const g=document.createElement('div'); g.className='group';
+        chaptersF4[y].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'})).forEach(ch=> g.appendChild(makeChapterButton(ch)));
         menu.appendChild(g);
       }
     });
     [2025,2024,2023].forEach(y=>{
-      if (chaptersF5[y].length) {
-        const h = document.createElement('h2'); h.textContent = `Form 5 Chapters ${y}`; menu.appendChild(h);
-        const g = document.createElement('div'); g.className='group';
-        chaptersF5[y].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'}))
-             .forEach(ch=> g.appendChild(makeChapterButton(ch)) );
+      if(chaptersF5[y].length){
+        const h=document.createElement('h2'); h.textContent=`Form 5 Chapters ${y}`; menu.appendChild(h);
+        const g=document.createElement('div'); g.className='group';
+        chaptersF5[y].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'})).forEach(ch=> g.appendChild(makeChapterButton(ch)));
         menu.appendChild(g);
       }
     });
 
-    menu.style.display = 'block';
+    menu.style.display='block';
   }
 
-  function startChapter(chap) {
-    currentChapter = chap;
-    score = 0; correct = 0; wrong = 0; correctStreak = 0; wrongStreak = 0; updateStreak();
-    chapterStart = Date.now();
-    document.getElementById('menu').style.display = 'none';
-    document.getElementById('quiz-title').textContent = `${currentChapter}`;
+  function startChapter(chap){
+    currentChapter=chap;
+    score=0; correct=0; wrong=0; correctStreak=0; wrongStreak=0; updateStreak();
+    chapterStart=Date.now();
+    document.getElementById('menu').style.display='none';
+    document.getElementById('quiz-title').textContent=`${currentChapter}`;
     loadChapterAllSectionsAndStart();
   }
 
-  // 读取该 chapter 下所有行（每行原本是一节）的 CSV，并合并为一个题库
-  function getBaseDir(url) {
-    try { const u = new URL(url, window.location.href); const s=u.toString(); const i=s.lastIndexOf('/'); return i>=0 ? s.slice(0,i+1) : s; }
-    catch { const i=url.lastIndexOf('/'); return i>=0 ? url.slice(0,i+1) : ''; }
+  function getBaseDir(url){
+    try{ const u=new URL(url, window.location.href); const s=u.toString(); const i=s.lastIndexOf('/'); return i>=0 ? s.slice(0,i+1) : s; }
+    catch{ const i=url.lastIndexOf('/'); return i>=0 ? url.slice(0,i+1) : ''; }
   }
 
   function loadChapterAllSectionsAndStart(){
-    const secList = grouped[currentChapter] || [];
-    if (!secList.length) { alert('该章节没有配置 CSV。'); renderMenu(); return; }
+    const secList=grouped[currentChapter] || [];
+    if(!secList.length){ alert('该章节没有配置 CSV。'); renderMenu(); return; }
 
-    const tasks = secList.map(sec => new Promise((resolve)=>{
-      const sheetUrl = sec[sheetKey];
-      const baseDir = getBaseDir(sheetUrl);
+    const tasks=secList.map(sec=>new Promise((resolve)=>{
+      const sheetUrl=sec[sheetKey]; const baseDir=getBaseDir(sheetUrl);
       Papa.parse(sheetUrl,{download:true,header:true,skipEmptyLines:true,
-        complete(r){
-          const rows = (r.data||[]).map(q => ({ ...q, attempt:0, __baseDir:baseDir }));
-          resolve(rows);
-        },
+        complete(r){ const rows=(r.data||[]).map(q=>({ ...q, attempt:0, __baseDir:baseDir })); resolve(rows); },
         error(){ resolve([]); }
       });
     }));
 
-    Promise.all(tasks).then(list => {
-      qs = list.flat();
-      if (!qs.length){ alert('无法读取题库 CSV，请检查链接与访问权限'); renderMenu(); return; }
-      queue = shuffle([...qs]);
+    Promise.all(tasks).then(list=>{
+      qs=list.flat();
+      if(!qs.length){ alert('无法读取题库 CSV，请检查链接与访问权限'); renderMenu(); return; }
+      queue=shuffle([...qs]);
       document.getElementById('quiz').style.display='block';
       document.getElementById('finish').style.display='none';
-      updateUI(0);
-      nextQ();
+      updateUI(0); nextQ();
     });
   }
 
-  function updateUI(delta) {
-    document.getElementById('score').textContent = `得分: ${score} (${delta>0?'+':''}${delta})`;
-    document.getElementById('remaining').textContent = `剩余题目: ${queue.length}`;
-    const pg = document.getElementById('progress'); pg.max = qs.length; pg.value = qs.length - queue.length;
+  function updateUI(delta){
+    document.getElementById('score').textContent=`得分: ${score} (${delta>0?'+':''}${delta})`;
+    document.getElementById('remaining').textContent=`剩余题目: ${queue.length}`;
+    const pg=document.getElementById('progress'); pg.max=qs.length; pg.value=qs.length - queue.length;
   }
-  function flashProgress(isCorrect) {
-    const wrap = document.getElementById('progressWrap');
+  function flashProgress(isCorrect){
+    const wrap=document.getElementById('progressWrap');
     wrap.classList.remove('flash-green','flash-red'); void wrap.offsetWidth;
     wrap.classList.add(isCorrect ? 'flash-green' : 'flash-red');
     setTimeout(()=>wrap.classList.remove('flash-green','flash-red'), 600);
   }
-  function updateStreak() {
-    const el = document.getElementById('streak');
-    if (correctStreak>0) el.innerHTML = `🔥 <span class="streak-good">连对 ${correctStreak}</span>`;
-    else if (wrongStreak>0) el.innerHTML = `😅 <span class="streak-bad">连错 ${wrongStreak}</span>`;
-    else el.textContent = '';
+  function updateStreak(){
+    const el=document.getElementById('streak');
+    if(correctStreak>0) el.innerHTML=`🔥 <span class="streak-good">连对 ${correctStreak}</span>`;
+    else if(wrongStreak>0) el.innerHTML=`😅 <span class="streak-bad">连错 ${wrongStreak}</span>`;
+    else el.textContent='';
   }
 
-  function nextQ() {
+  function nextQ(){
     guardUniversalWindowOrThrow();
 
-    const qa = document.getElementById('question-area');
-    qa.innerHTML = ''; updateUI(0);
-    if (queue.length===0) return finishChapter();
+    const qa=document.getElementById('question-area');
+    qa.innerHTML=''; updateUI(0);
+    if(queue.length===0) return finishChapter();
 
-    const q = queue.shift();
-    const div = document.createElement('div'); div.className='question';
-    const safeQ = (q.question||'').toString().replace(/\r?\n/g,'<br/>');
-    div.innerHTML = `<p><strong>${safeQ}</strong></p>`;
+    const q=queue.shift();
+    const div=document.createElement('div'); div.className='question';
+    const safeQ=(q.question||'').toString().replace(/\r?\n/g,'<br/>');
+    div.innerHTML=`<p><strong>${safeQ}</strong></p>`;
 
-    if (q.image) {
-      let src = (q.image || '').toString().trim();
-      if (!/^https?:\/\//i.test(src) && !/^data:/i.test(src)) src = (q.__baseDir||'') + src.replace(/^\.\//,'');
-      const img = document.createElement('img'); img.src=src; img.alt='question image'; div.appendChild(img);
+    if(q.image){
+      let src=(q.image||'').toString().trim();
+      if(!/^https?:\/\//i.test(src) && !/^data:/i.test(src)) src=(q.__baseDir||'') + src.replace(/^\.\//,'');
+      const img=document.createElement('img'); img.src=src; img.alt='question image'; div.appendChild(img);
     }
 
-    const qType = (q.type||'').toString().toLowerCase();
-    const opts = document.createElement('div'); opts.className='options';
-    if (qType==='text') {
-      opts.innerHTML = '<input type="text" id="txtAns" placeholder="请输入答案…"/>';
-    } else {
-      const letters = Array.from({length:MAX_OPTS},(_,i)=>String.fromCharCode(65+i));
-      const avail = letters.filter(l=>q[l]);
+    const qType=(q.type||'').toString().toLowerCase();
+    const opts=document.createElement('div'); opts.className='options';
+    if(qType==='text'){ opts.innerHTML='<input type="text" id="txtAns" placeholder="请输入答案…"/>'; }
+    else{
+      const letters=Array.from({length:15},(_,i)=>String.fromCharCode(65+i));
+      const avail=letters.filter(l=>q[l]);
       avail.forEach(l=>{
-        const inp = document.createElement('input');
-        inp.type = (qType==='checkbox')?'checkbox':'radio';
-        inp.name = 'opt'; inp.value = l; inp.id = 'opt_'+l;
-        const lbl = document.createElement('label'); lbl.className='option-label'; lbl.htmlFor='opt_'+l;
+        const inp=document.createElement('input');
+        inp.type=(qType==='checkbox')?'checkbox':'radio';
+        inp.name='opt'; inp.value=l; inp.id='opt_'+l;
+        const lbl=document.createElement('label'); lbl.className='option-label'; lbl.htmlFor='opt_'+l;
         lbl.appendChild(inp);
-        let raw=q[l]; if (typeof raw==='string' && /^-?\d+\.0$/.test(raw)) raw=String(parseInt(raw));
+        let raw=q[l]; if(typeof raw==='string' && /^-?\d+\.0$/.test(raw)) raw=String(parseInt(raw));
         lbl.append(' '+raw); opts.appendChild(lbl);
       });
     }
     div.appendChild(opts);
 
-    const fb = document.createElement('div'); fb.className='feedback'; div.appendChild(fb);
+    const fb=document.createElement('div'); fb.className='feedback'; div.appendChild(fb);
 
-    const sb = document.createElement('button'); sb.textContent='提交';
-    sb.onclick = () => {
+    const sb=document.createElement('button'); sb.className='pill-btn'; sb.textContent='提交';
+    sb.onclick=()=>{
       guardUniversalWindowOrThrow();
 
-      let ua = [];
-      if (qType==='text') { ua = document.getElementById('txtAns').value.split(',').map(s=>s.trim()).filter(s=>s); }
-      else { ua = Array.from(div.querySelectorAll('input[name="opt"]:checked')).map(i=>i.value); }
-      if (!ua.length) return alert('请选择或输入答案');
+      let ua=[];
+      if(qType==='text'){ ua=document.getElementById('txtAns').value.split(',').map(s=>s.trim()).filter(s=>s); }
+      else{ ua=Array.from(div.querySelectorAll('input[name="opt"]:checked')).map(i=>i.value); }
+      if(!ua.length) return alert('请选择或输入答案');
 
       let isC=false; const ansStr=(q.answer||'').toString();
-      if (qType==='text') {
-        const lows=ua.map(s=>s.toLowerCase()); const ansList=ansStr.split(',').map(s=>s.trim().toLowerCase()); isC = lows.some(v=>ansList.includes(v));
-      } else {
-        const uaA = ua.map(s=>s.toUpperCase()).sort().join(','); const caA = ansStr.split(',').map(s=>s.trim().toUpperCase()).sort().join(','); isC = uaA===caA;
+      if(qType==='text'){
+        const lows=ua.map(s=>s.toLowerCase()); const ansList=ansStr.split(',').map(s=>s.trim().toLowerCase()); isC=lows.some(v=>ansList.includes(v));
+      }else{
+        const uaA=ua.map(s=>s.toUpperCase()).sort().join(','); const caA=ansStr.split(',').map(s=>s.trim().toUpperCase()).sort().join(','); isC=uaA===caA;
       }
 
-      const delta = isC ? (q.attempt?1:2) : (q.attempt?-2:-1);
-      score += delta;
-      if (isC){ correct++; correctStreak++; wrongStreak=0; } else { wrong++; wrongStreak++; correctStreak=0; }
+      const delta=isC ? (q.attempt?1:2) : (q.attempt?-2:-1);
+      score+=delta; if(isC){ correct++; correctStreak++; wrongStreak=0; } else { wrong++; wrongStreak++; correctStreak=0; }
       updateStreak();
 
-      let ansTxt=''; if (!isC) ansTxt = ansStr.split(',').map(letter=>q[letter]||letter).join(' / ');
-      fb.textContent = isC?`正确! +${delta}`:`错误! ${delta} 正确答案: ${ansTxt}`;
+      let ansTxt=''; if(!isC) ansTxt=ansStr.split(',').map(letter=>q[letter]||letter).join(' / ');
+      fb.textContent=isC?`正确! +${delta}`:`错误! ${delta} 正确答案: ${ansTxt}`;
       updateUI(delta); flashProgress(isC); sb.disabled=true;
 
-      div.classList.remove('correct-glow','wrong-shake');
-      const bubble=document.createElement('div'); bubble.className='score-bubble ' + (delta>0?'plus':'minus'); bubble.textContent=(delta>0?'+':'')+String(delta); div.appendChild(bubble);
-      if (isC){ div.classList.add('correct-glow'); playRight(); setTimeout(()=>div.classList.remove('correct-glow'),900); }
-      else { div.classList.add('wrong-shake'); playWrong(); setTimeout(()=>div.classList.remove('wrong-shake'),900); }
+      const bubble=document.createElement('div'); bubble.className='score-bubble '+(delta>0?'plus':'minus'); bubble.textContent=(delta>0?'+':'')+String(delta); div.appendChild(bubble);
+      if(isC){ playRight(); div.classList.add('correct-glow'); setTimeout(()=>div.classList.remove('correct-glow'),900); }
+      else { playWrong(); div.classList.add('wrong-shake'); setTimeout(()=>div.classList.remove('wrong-shake'),900); }
       setTimeout(()=>bubble.remove(),1000);
 
-      const nb=document.createElement('button'); nb.style.marginLeft='8px'; nb.textContent='下一题'; nb.onclick=nextQ; div.appendChild(nb);
+      const nb=document.createElement('button'); nb.className='pill-btn light'; nb.style.marginLeft='8px'; nb.textContent='下一题'; nb.onclick=nextQ; div.appendChild(nb);
 
-      if (!isC){ q.attempt++; insertWrongTwiceLater(q, queue); }
+      if(!isC){ q.attempt++; insertWrongTwiceLater(q, queue); }
     };
     div.appendChild(sb);
     document.getElementById('question-area').appendChild(div);
   }
 
-  function finishChapter() {
+  function finishChapter(){
     document.getElementById('quiz').style.display='none';
     document.getElementById('finish').style.display='block';
-    document.getElementById('finish-msg').textContent = `恭喜 ${user}，你学会这个章节了！`;
-    document.getElementById('stats').textContent = `得分: ${score}，答对 ${correct} 题，答错 ${wrong} 题`;
+    document.getElementById('finish-msg').textContent=`恭喜 ${user}，你学会这个章节了！`;
+    document.getElementById('stats').textContent=`得分: ${score}，答对 ${correct} 题，答错 ${wrong} 题`;
 
-    const form = document.getElementById('postForm');
-    form.quizId.value  = currentChapter; // 不再包含 section
-    form.name.value    = user;
-    form.score.value   = score;
-    form.correct.value = correct;
-    form.wrong.value   = wrong;
-    form.time.value    = Math.floor((Date.now()-chapterStart)/1000);
+    const form=document.getElementById('postForm');
+    form.quizId.value=currentChapter; form.name.value=user; form.score.value=score; form.correct.value=correct; form.wrong.value=wrong; form.time.value=Math.floor((Date.now()-chapterStart)/1000);
     form.submit();
 
-    saveLocalResult({ quizId: form.quizId.value, name: user, score, correct, wrong, time: form.time.value, timestamp: new Date().toISOString() });
+    saveLocalResult({ quizId: form.quizId.value, name:user, score, correct, wrong, time: form.time.value, timestamp:new Date().toISOString() });
 
     launchConfetti(120, 1000);
 
-    const ctrl = document.getElementById('controls');
-    ctrl.innerHTML='';
-    const btn = document.createElement('button');
-    btn.textContent = '返回章节选择';
-    btn.onclick = () => { document.getElementById('finish').style.display='none'; guardUniversalWindowOrThrow(); renderMenu(); document.getElementById('menu').style.display='block'; };
-    ctrl.appendChild(btn);
+    const ctrl=document.getElementById('controls'); ctrl.innerHTML='';
+    const btn=document.createElement('button'); btn.className='pill-btn'; btn.textContent='返回章节选择'; btn.onclick=backToMenu; ctrl.appendChild(btn);
   }
 
-  function openResults() {
+  function openResults(){
     guardUniversalWindowOrThrow();
     fetchCloudResultsFor(user).then(()=>{
-      const all = mergeResults();
-      const wrap = document.getElementById('results-table-wrap');
-      wrap.innerHTML = '';
-      if (!all.length) {
-        wrap.innerHTML = '<p class="muted">暂时没有记录。</p>';
-      } else {
-        all.sort((a,b)=>{
-          const ta = new Date(a.timestamp||0).getTime() || 0;
-          const tb = new Date(b.timestamp||0).getTime() || 0;
-          if (tb!==ta) return tb-ta;
-          return String(a.quizId).localeCompare(String(b.quizId));
-        });
-        const table = document.createElement('table');
-        table.innerHTML = `
-          <thead><tr>
-            <th>测验</th><th>分数</th><th>正确/错误</th><th>用时(秒)</th><th>时间</th>
-          </tr></thead>
-          <tbody></tbody>`;
-        const tbody = table.querySelector('tbody');
-        all.forEach(r=>{
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
-            <td>${escapeHtml(r.quizId||'')}</td>
-            <td>${escapeHtml(r.score||'')}</td>
-            <td>${escapeHtml(r.correct||'')}/${escapeHtml(r.wrong||'')}</td>
-            <td>${escapeHtml(r.time||'')}</td>
-            <td>${escapeHtml(r.timestamp||'')}</td>`;
-          tbody.appendChild(tr);
-        });
+      const all=mergeResults();
+      const wrap=document.getElementById('results-table-wrap'); wrap.innerHTML='';
+      if(!all.length){ wrap.innerHTML='<p class="muted">暂时没有记录。</p>'; }
+      else{
+        all.sort((a,b)=>{ const ta=new Date(a.timestamp||0).getTime()||0; const tb=new Date(b.timestamp||0).getTime()||0; if(tb!==ta) return tb-ta; return String(a.quizId).localeCompare(String(b.quizId)); });
+        const table=document.createElement('table');
+        table.innerHTML=`<thead><tr><th>测验</th><th>分数</th><th>正确/错误</th><th>用时(秒)</th><th>时间</th></tr></thead><tbody></tbody>`;
+        const tbody=table.querySelector('tbody');
+        all.forEach(r=>{ const tr=document.createElement('tr'); tr.innerHTML=`<td>${escapeHtml(r.quizId||'')}</td><td>${escapeHtml(r.score||'')}</td><td>${escapeHtml(r.correct||'')}/${escapeHtml(r.wrong||'')}</td><td>${escapeHtml(r.time||'')}</td><td>${escapeHtml(r.timestamp||'')}</td>`; tbody.appendChild(tr); });
         wrap.appendChild(table);
       }
-      document.getElementById('results-summary').textContent = `当前用户：${user}（云端 ${cloudResults.length} 条，本地 ${localResults.length} 条）`;
+      document.getElementById('results-summary').textContent=`当前用户：${user}（云端 ${cloudResults.length} 条，本地 ${localResults.length} 条）`;
       document.getElementById('menu').style.display='none';
       document.getElementById('results').style.display='block';
     });
   }
 
   function escapeHtml(s){ return String(s).replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m])); }
-
-  function shuffle(arr){ for (let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; }
-  function insertWrongTwiceLater(q, queue) {
-    const len = queue.length;
-    let start = Math.min(1, len);
-    let end1  = len;
-    let idx1  = (len <= start) ? start : (start + Math.floor(Math.random() * (end1 - start + 1)));
-    queue.splice(idx1, 0, { ...q });
-
-    const len2  = queue.length;
-    const start2 = Math.min(1, len2);
-    const end2  = len2;
-    let idx2  = (len2 <= start2) ? start2 : (start2 + Math.floor(Math.random() * (end2 - start2 + 1)));
-    if (Math.abs(idx2 - idx1) <= 1 && len2 >= 4) idx2 = Math.min(idx2 + 2, len2);
-    queue.splice(idx2, 0, { ...q });
+  function shuffle(arr){ for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; }
+  function insertWrongTwiceLater(q, queue){
+    const len=queue.length; let start=Math.min(1,len); let end1=len;
+    let idx1=(len<=start)?start:(start+Math.floor(Math.random()*(end1-start+1)));
+    queue.splice(idx1,0,{...q});
+    const len2=queue.length; const start2=Math.min(1,len2); const end2=len2;
+    let idx2=(len2<=start2)?start2:(start2+Math.floor(Math.random()*(end2-start2+1)));
+    if(Math.abs(idx2-idx1)<=1 && len2>=4) idx2=Math.min(idx2+2,len2);
+    queue.splice(idx2,0,{...q});
   }
-  function launchConfetti(count=100, duration=1000) {
-    const c = document.getElementById('confetti');
-    const colors = ['#22c55e','#3b82f6','#f59e0b','#ef4444','#a855f7','#14b8a6'];
-    for (let i=0;i<count;i++){
-      const piece = document.createElement('div');
-      piece.className='confetti-piece';
-      piece.style.left = Math.random()*100 + 'vw';
-      piece.style.background = colors[i % colors.length];
-      piece.style.animationDuration = (0.8 + Math.random()*0.8) + 's';
-      piece.style.transform = `translateY(-120%) rotate(${Math.random()*360}deg)`;
-      piece.style.width = (8 + Math.random()*6) + 'px';
-      piece.style.height = (12 + Math.random()*10) + 'px';
-      c.appendChild(piece); setTimeout(()=>piece.remove(), 2000);
-    }
-    setTimeout(()=>{ c.innerHTML=''; }, duration + 1200);
+  function launchConfetti(count=100, duration=1000){
+    const c=document.getElementById('confetti'); const colors=['#22c55e','#3b82f6','#f59e0b','#ef4444','#a855f7','#14b8a6'];
+    for(let i=0;i<count;i++){ const piece=document.createElement('div'); piece.className='confetti-piece'; piece.style.left=Math.random()*100+'vw'; piece.style.background=colors[i%colors.length]; piece.style.animationDuration=(0.8+Math.random()*0.8)+'s'; piece.style.transform=`translateY(-120%) rotate(${Math.random()*360}deg)`; piece.style.width=(8+Math.random()*6)+'px'; piece.style.height=(12+Math.random()*10)+'px'; c.appendChild(piece); setTimeout(()=>piece.remove(),2000); }
+    setTimeout(()=>{ c.innerHTML=''; }, duration+1200);
   }
 });
 </script>
