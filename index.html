@@ -259,7 +259,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function playWrong(){ beep(220, .12, 'sawtooth', .05); setTimeout(()=>beep(160,.14,'square',.05),100); }
 
   // ======= 成绩存取 =======
-  const LS_KEY = (name)=>`results_${name.toLowerCase()}`;
+    // 👉 区分科目前缀，防止不同科成绩混在一起
+  const SUBJECT_PREFIX = 'SC';  // 改成 ACC / SC / SEJ 视科目而定
+  const LS_KEY = (name)=>`results_${SUBJECT_PREFIX}_${name.toLowerCase()}`;
   let cloudResults = []; let localResults = [];
   function loadLocalResults(){ try{ localResults = JSON.parse(localStorage.getItem(LS_KEY(user))||'[]'); } catch { localResults=[]; } }
   function saveLocalResult(rec){ loadLocalResults(); localResults.push(rec); localStorage.setItem(LS_KEY(user), JSON.stringify(localResults)); }
