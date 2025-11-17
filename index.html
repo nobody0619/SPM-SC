@@ -3,134 +3,329 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>纪老师 SPM P1 超强训练器</title>
+  <title>纪老师 SPM P1 超强训练器 / SPM P1 Booster</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
   <style>
-    :root{ --black:#111; --fg:#111; --bg:#fff; --muted:#555; --green:#16a34a; --green-2:#22c55e; --border:#eee; --shadow:0 6px 20px rgba(0,0,0,.06); }
+    :root{
+      --black:#111; --fg:#111; --bg:#fff; --muted:#555;
+      --green:#16a34a; --green-2:#22c55e;
+      --border:#eee; --shadow:0 6px 20px rgba(0,0,0,.06);
+    }
     html,body{ background:#fff; }
-    body{ font-family: Arial, sans-serif; max-width:1100px; margin:auto; text-align:center; color:var(--fg); }
-    body::before{ content:""; position:fixed; inset:-10% -10% auto -10%; height:68vh; pointer-events:none; z-index:-2;
-      background: radial-gradient(600px 240px at 10% 0%,rgba(34,197,94,.06),rgba(255,255,255,0) 60%),
-                 radial-gradient(520px 220px at 90% 12%, rgba(59,130,246,.06),rgba(255,255,255,0) 60%),
-                 radial-gradient(420px 200px at 50% -8%, rgba(168,85,247,.05), rgba(255,255,255,0) 60%); }
-    body::after{ content:""; position:fixed; inset:0; pointer-events:none; z-index:-3;
-      background-image: radial-gradient(rgba(0,0,0,.035) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,0,0,.015), rgba(0,0,0,0));
-      background-size: 12px 12px, 100% 100%; background-position: 0 0, 0 0; }
+    body{
+      font-family: Arial, sans-serif;
+      max-width:1100px; margin:auto;
+      text-align:center; color:var(--fg);
+    }
+    body::before{
+      content:""; position:fixed; inset:-10% -10% auto -10%;
+      height:68vh; pointer-events:none; z-index:-2;
+      background:
+        radial-gradient(600px 240px at 10% 0%,rgba(34,197,94,.06),rgba(255,255,255,0) 60%),
+        radial-gradient(520px 220px at 90% 12%, rgba(59,130,246,.06),rgba(255,255,255,0) 60%),
+        radial-gradient(420px 200px at 50% -8%, rgba(168,85,247,.05), rgba(255,255,255,0) 60%);
+    }
+    body::after{
+      content:""; position:fixed; inset:0;
+      pointer-events:none; z-index:-3;
+      background-image:
+        radial-gradient(rgba(0,0,0,.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0,0,0,.015), rgba(0,0,0,0));
+      background-size: 12px 12px, 100% 100%;
+      background-position: 0 0, 0 0;
+    }
     #welcome,#menu,#quiz,#finish,#results{ margin:20px; }
     #menu,#quiz,#finish,#results{ display:none; }
-    #topbar{ position:sticky; top:8px; z-index:50; display:flex; align-items:center; justify-content:space-between; gap:12px; margin:12px 0; }
-    .nav-left,.nav-right{ display:flex; align-items:center; gap:8px; }
-    .pill-btn{ border:0; background:#111; color:#fff; padding:10px 14px; border-radius:999px; cursor:pointer; box-shadow:var(--shadow); }
+
+    #topbar{
+      position:sticky; top:8px; z-index:50;
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px; margin:12px 0;
+    }
+    .nav-left,.nav-right{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .pill-btn{
+      border:0; background:#111; color:#fff;
+      padding:8px 12px; border-radius:999px;
+      cursor:pointer; box-shadow:var(--shadow);
+      font-size:13px;
+    }
     .pill-btn.light{ background:#222; }
     .pill-btn.primary{ background:#0ea5e9; }
     .pill-btn:disabled{ opacity:.6; cursor:not-allowed; }
-    #session-timer{ background:#111; color:#fff; padding:8px 12px; border-radius:999px; font-size:12px; opacity:.9; display:none; box-shadow:0 4px 10px rgba(0,0,0,.25); }
+
+    #session-timer{
+      background:#111; color:#fff;
+      padding:6px 10px; border-radius:999px;
+      font-size:11px; opacity:.9; display:none;
+      box-shadow:0 4px 10px rgba(0,0,0,.25);
+    }
     #sound-toggle.muted{ background:#555; }
     #my-results-btn,#back-to-chapters-btn{ display:none; }
-    .hero{ margin:28px auto; padding:32px 28px; border-radius:22px; max-width:950px;
-      background: radial-gradient(1200px 420px at -10% -10%, #e7f8ff 0%, rgba(255,255,255,0) 60%),
-                 radial-gradient(900px 320px at 110% 20%, #eef9f1 0%, rgba(255,255,255,0) 55%),
-                 linear-gradient(135deg,#fff,#fafafa);
-      border:1px solid var(--border); box-shadow:var(--shadow); text-align:center; }
-    .brand{ display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap; }
-    .brand-icon{ width:56px; height:56px; border-radius:16px; background:#111; color:#fff; display:grid; place-items:center; font-weight:800; }
+
+    #wallet-display{
+      font-size:12px; color:#111;
+      padding:4px 10px; border-radius:999px;
+      background:#f4f4f5;
+    }
+
+    .hero{
+      margin:28px auto; padding:32px 28px;
+      border-radius:22px; max-width:950px;
+      background:
+        radial-gradient(1200px 420px at -10% -10%, #e7f8ff 0%, rgba(255,255,255,0) 60%),
+        radial-gradient(900px 320px at 110% 20%, #eef9f1 0%, rgba(255,255,255,0) 55%),
+        linear-gradient(135deg,#fff,#fafafa);
+      border:1px solid var(--border);
+      box-shadow:var(--shadow);
+      text-align:center;
+    }
+    .brand{
+      display:flex; align-items:center; justify-content:center;
+      gap:14px; flex-wrap:wrap;
+    }
+    .brand-icon{
+      width:56px; height:56px; border-radius:16px;
+      background:#111; color:#fff;
+      display:grid; place-items:center;
+      font-weight:800; letter-spacing:.5px;
+      box-shadow:var(--shadow);
+    }
     .brand-title{ margin:0; font-size:30px; line-height:1.15; }
-    .brand-sub{ margin:6px 0 0; color:#555; }
+    .brand-sub{ margin:6px 0 0; color:#555; font-size:14px; }
     .tag-row{ margin-top:12px; display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
-    .tag{ font-size:12px; padding:6px 12px; border-radius:999px; border:1px solid #e5e7eb; background:#fff; color:#111; }
+    .tag{
+      font-size:12px; padding:6px 12px;
+      border-radius:999px; border:1px solid #e5e7eb;
+      background:#fff; color:#111;
+    }
     .tag.hot{ border-color:var(--green); color:var(--green); background:#f0fff5; }
-    h2{ margin-top:26px; } h3{ margin-top:18px; text-align:left; }
-    .group{ margin:6px 0 18px; text-align:left; } .group h4{ margin:8px 0; }
-    .pill{ display:inline-flex; align-items:center; gap:8px; margin:6px; padding:8px 12px; border-radius:999px; background:#111; color:#fff; border:0; cursor:pointer; }
-    .badge{ background:#fff; color:#111; padding:2px 8px; border-radius:999px; font-size:12px; }
-    .badge-gray{ background:#e5e7eb; color:#111; } .badge-green{ background:#22c55e; color:#fff; }
-    .question{ text-align:left; margin:15px 0; padding:16px 20px; border:2px solid #ddd; border-radius:14px; transition:transform .18s, box-shadow .18s, border-color .18s; position:relative; }
+
+    h2{ margin-top:26px; }
+    h3{ margin-top:18px; text-align:left; }
+
+    .group{ margin:6px 0 18px; text-align:left; }
+    .group h4{ margin:8px 0; }
+
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      margin:6px; padding:8px 12px;
+      border-radius:999px; background:#111; color:#fff;
+      border:0; cursor:pointer; font-size:14px;
+    }
+    .badge{
+      background:#fff; color:#111;
+      padding:2px 8px; border-radius:999px;
+      font-size:12px;
+    }
+    .badge-gray{ background:#e5e7eb; color:#111; }
+    .badge-green{ background:#22c55e; color:#fff; }
+
+    .question{
+      text-align:left; margin:15px 0; padding:16px 20px;
+      border:2px solid #ddd; border-radius:14px;
+      transition:transform .18s, box-shadow .18s, border-color .18s;
+      position:relative;
+      background:#fff;
+    }
     .option-label{ display:block; margin:6px 0; cursor:pointer; }
     .feedback{ font-weight:bold; margin:10px 0; min-height:1.2em; }
+
     img{ max-width:100%; margin:10px 0; border:2px solid #ccc; border-radius:10px; }
-    .correct-glow{ border-color:#23c55e!important; box-shadow:0 0 0 4px rgba(34,197,94,.15); transform:scale(1.01); }
-    .wrong-shake{ border-color:#ef4444!important; animation:shake .28s ease-in-out 0s 1, flashRed .9s ease 0s 1; }
-    @keyframes shake{10%,90%{transform:translateX(-1px);}20%,80%{transform:translateX(2px);}30%,50%,70%{transform:translateX(-3px);}40%,60%{transform:translateX(3px);} }
-    @keyframes flashRed{0%{box-shadow:0 0 0 0 rgba(239,68,68,.35);}100%{box-shadow:0 0 0 10px rgba(239,68,68,0);} }
-    .score-bubble{ position:absolute; right:10px; top:-6px; font-weight:700; padding:2px 8px; border-radius:999px; font-size:12px; animation:popUp 900ms ease forwards; pointer-events:none; }
-    .score-bubble.plus{ background:rgba(34,197,94,.15); color:#16a34a; } .score-bubble.minus{ background:rgba(239,68,68,.15); color:#dc2626; }
-    @keyframes popUp{0%{transform:translateY(0);opacity:0;}15%{opacity:1;}100%{transform:translateY(-24px);opacity:0;} }
-    .progress-wrap{ width:100%; margin-top:6px; border-radius:12px; padding:6px; transition: box-shadow .25s; }
-    .progress-wrap.flash-green{ box-shadow:0 0 0 4px rgba(34,197,94,.25); } .progress-wrap.flash-red{ box-shadow:0 0 0 4px rgba(239,68,68,.25); }
-    progress{ width:100%; height:20px; } progress::-webkit-progress-bar{ background-color:#eee; border-radius:10px; } progress::-webkit-progress-value{ background-color:#111; border-radius:10px; } progress::-moz-progress-bar{ background:#111; border-radius:10px; }
-    #streak{ margin-top:6px; font-size:13px; color:#555; min-height:1.2em; } .streak-good{ color:#16a34a; } .streak-bad{ color:#dc2626; }
-    table{ border-collapse:collapse; width:100%; } th,td{ border:1px solid #e5e7eb; padding:8px; text-align:left; } th{ background:#f3f4f6; } .muted{ color:#666; font-size:12px; }
-    #confetti{ position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:9998; } .confetti-piece{ position:absolute; width:10px; height:16px; opacity:.9; border-radius:3px; animation:fall linear forwards; }
-    @keyframes fall{0%{transform:translateY(-120%) rotate(0deg);}100%{transform:translateY(120vh) rotate(720deg);} }
-    .wa-fab{ position:fixed; right:18px; bottom:18px; z-index:60; background:#25D366; color:#fff; padding:12px 16px; border-radius:999px; box-shadow:var(--shadow); text-decoration:none; font-weight:700; }
+
+    .correct-glow{
+      border-color:#23c55e!important;
+      box-shadow:0 0 0 4px rgba(34,197,94,.15);
+      transform:scale(1.01);
+    }
+    .wrong-shake{
+      border-color:#ef4444!important;
+      animation:shake .28s ease-in-out 0s 1, flashRed .9s ease 0s 1;
+    }
+    @keyframes shake{
+      10%,90%{transform:translateX(-1px);}
+      20%,80%{transform:translateX(2px);}
+      30%,50%,70%{transform:translateX(-3px);}
+      40%,60%{transform:translateX(3px);}
+    }
+    @keyframes flashRed{
+      0%{box-shadow:0 0 0 0 rgba(239,68,68,.35);}
+      100%{box-shadow:0 0 0 10px rgba(239,68,68,0);}
+    }
+
+    .score-bubble{
+      position:absolute; right:10px; top:-6px;
+      font-weight:700; padding:2px 8px;
+      border-radius:999px; font-size:12px;
+      animation:popUp 900ms ease forwards;
+      pointer-events:none;
+    }
+    .score-bubble.plus{
+      background:rgba(34,197,94,.15); color:#16a34a;
+    }
+    .score-bubble.minus{
+      background:rgba(239,68,68,.15); color:#dc2626;
+    }
+    @keyframes popUp{
+      0%{transform:translateY(0);opacity:0;}
+      15%{opacity:1;}
+      100%{transform:translateY(-24px);opacity:0;}
+    }
+
+    .progress-wrap{
+      width:100%; margin-top:6px;
+      border-radius:12px; padding:6px;
+      transition: box-shadow .25s;
+    }
+    .progress-wrap.flash-green{
+      box-shadow:0 0 0 4px rgba(34,197,94,.25);
+    }
+    .progress-wrap.flash-red{
+      box-shadow:0 0 0 4px rgba(239,68,68,.25);
+    }
+    progress{ width:100%; height:20px; }
+    progress::-webkit-progress-bar{ background-color:#eee; border-radius:10px; }
+    progress::-webkit-progress-value{ background-color:#111; border-radius:10px; }
+    progress::-moz-progress-bar{ background:#111; border-radius:10px; }
+
+    #streak{ margin-top:6px; font-size:13px; color:#555; min-height:1.2em; }
+    .streak-good{ color:#16a34a; }
+    .streak-bad{ color:#dc2626; }
+
+    table{ border-collapse:collapse; width:100%; }
+    th,td{ border:1px solid #e5e7eb; padding:8px; text-align:left; font-size:13px; }
+    th{ background:#f3f4f6; }
+    .muted{ color:#666; font-size:12px; }
+
+    #confetti{
+      position:fixed; inset:0; pointer-events:none;
+      overflow:hidden; z-index:9998;
+    }
+    .confetti-piece{
+      position:absolute; width:10px; height:16px;
+      opacity:.9; border-radius:3px;
+      animation:fall linear forwards;
+    }
+    @keyframes fall{
+      0%{transform:translateY(-120%) rotate(0deg);}
+      100%{transform:translateY(120vh) rotate(720deg);}
+    }
+
+    .wa-fab{
+      position:fixed; right:18px; bottom:18px; z-index:60;
+      background:#25D366; color:#fff;
+      padding:12px 16px; border-radius:999px;
+      box-shadow:var(--shadow); text-decoration:none;
+      font-weight:700; font-size:14px;
+    }
     .wa-fab:hover{ filter:brightness(1.05); }
-    footer{ margin:40px auto 24px; color:#444; font-size:14px; } footer a{ color:#0ea5e9; text-decoration:none; } footer a:hover{ text-decoration:underline; }
+
+    footer{ margin:40px auto 24px; color:#444; font-size:14px; }
+    footer a{ color:#0ea5e9; text-decoration:none; }
+    footer a:hover{ text-decoration:underline; }
+
+    .rules-box{
+      margin-top:10px; padding:10px 14px;
+      border-radius:12px; background:#f9fafb;
+      text-align:left; font-size:12px; color:#444;
+    }
+    .rules-box ul{ padding-left:18px; margin:4px 0; }
+    .rules-box li{ margin:2px 0; }
   </style>
 </head>
 <body>
-  <!-- 顶栏 -->
   <div id="topbar">
     <div class="nav-left">
-      <button id="back-to-chapters-btn" class="pill-btn primary">🏠 回到章节选择</button>
-      <div id="session-timer">会话剩余 <span id="session-remaining">05:00</span></div>
+      <button id="back-to-chapters-btn" class="pill-btn primary">🏠 回到章节选择 / Back to Chapters</button>
+      <div id="session-timer">会话剩余 / Session left: <span id="session-remaining">05:00</span></div>
     </div>
     <div class="nav-right">
-      <button id="my-results-btn" class="pill-btn light">📊 我的成绩</button>
-      <button id="sound-toggle" class="pill-btn" title="开关音效">🔊 音效已开</button>
+      <span id="wallet-display">碎片 Shards: 0 ｜ 复活 Revives: 0</span>
+      <button id="convert-revive-btn" class="pill-btn light" style="display:none;">
+        ✨ 50 碎片换 1 复活 / Convert 50 shards → 1 revive
+      </button>
+      <button id="my-results-btn" class="pill-btn light">📊 我的成绩 / My Results</button>
+      <button id="sound-toggle" class="pill-btn" title="开关音效 / Toggle sound">🔊 音效已开 / Sound ON</button>
     </div>
   </div>
   <div id="confetti"></div>
 
-  <!-- Hero / 品牌区 -->
   <section class="hero">
     <div class="brand">
       <div class="brand-icon" id="brand-icon">SUB</div>
       <div>
-        <h1 class="brand-title" id="brand-title">SPM P1 超强训练器 / <b id="brand-boost">P1 Booster</b></h1>
-        <p class="brand-sub">按章节精练 × 州属试卷实战 × 错题二次回刷 × 自动成绩上传</p>
+        <h1 class="brand-title" id="brand-title">
+          SPM P1 超强训练器 / <b id="brand-boost">P1 Booster</b>
+        </h1>
+        <p class="brand-sub">
+          按章节精练 × 州属试卷实战 × 错题二次回刷 × 成绩自动上传  
+          Chapter drilling × State papers × Wrong questions repeat twice × Auto result upload
+        </p>
         <div class="tag-row">
           <span class="tag hot">Form 4 / Form 5</span>
           <span class="tag hot">Chapter &amp; State Papers</span>
           <span class="tag hot">Repeat wrong twice</span>
           <span class="tag hot">Leaderboard Ready</span>
+          <span class="tag hot">Revive &amp; Shards System</span>
         </div>
       </div>
     </div>
+    <div class="rules-box">
+      <b>🎮 计分 &amp; 复活规则 Scoring &amp; Revive Rules</b>
+      <ul>
+        <li>第一次答对 First try correct：<b>+2 分 +1 碎片 shard</b></li>
+        <li>同一题再次答对 Correct on retry：<b>+1 分</b></li>
+        <li>第一次答错 First wrong：<b>-1 分</b>，题目会在后面再出现两次 Question will reappear twice later</li>
+        <li>再次答错 Wrong again：<b>-2 分</b></li>
+        <li>每连对 5 题 Every 5-correct combo：<b>额外 +2 碎片 extra shards</b></li>
+        <li>完成章节 Chapter completed：  
+          准确率 Accuracy ≥ 90%：+8 碎片；80–89%：+5；70–79%：+3</li>
+        <li>50 碎片 = 1 张复活卡。50 shards = 1 revive card.</li>
+        <li>每个章节最多使用 2 次复活卡。Max 2 revives per chapter.</li>
+        <li>使用复活卡时 This question will be counted as correct, but no extra shards or combo bonus.</li>
+      </ul>
+    </div>
   </section>
 
-  <!-- 登录 -->
   <div id="welcome">
-    <h2>请输入姓名与密码 / Enter Your Name & Password</h2>
+    <h2>请输入姓名与密码 / Enter Your Name &amp; Password</h2>
     <input type="text" id="username" placeholder="姓名 / Name"/>
     <input type="password" id="password" placeholder="密码 / Password"/>
     <button id="startBtn" type="button" class="pill-btn">登录 / Log In</button>
-    <div class="muted" style="margin-top:8px;">免费试用密码：<b>testing</b>（5分钟）；RM10 一次性开通，解锁「无限练习」。购买请联系：纪老师 016-7312519</div>
+    <div class="muted" style="margin-top:8px;">
+      免费试用密码：<b>testing</b>（5 分钟 5 minutes）；
+      RM10 一次性开通 Unlock unlimited practice once.  
+      购买请联系：纪老师 016-7312519。
+    </div>
   </div>
 
-  <!-- 菜单 -->
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
 
-  <!-- 测验 -->
   <div id="quiz">
     <h3 id="quiz-title"></h3>
-    <div id="score">得分: 0</div>
-    <div id="remaining">剩余题目: 0</div>
+    <div id="score">得分 Score: 0</div>
+    <div id="remaining">剩余题目 Remaining: 0</div>
     <div id="streak"></div>
-    <div id="progressWrap" class="progress-wrap"><progress id="progress" value="0" max="0"></progress></div>
+    <div id="progressWrap" class="progress-wrap">
+      <progress id="progress" value="0" max="0"></progress>
+    </div>
     <div id="question-area" style="position:relative;"></div>
   </div>
 
-  <!-- 完成 -->
   <div id="finish">
-    <h3 id="finish-msg"></h3><p id="stats"></p><div id="controls"></div>
+    <h3 id="finish-msg"></h3>
+    <p id="stats"></p>
+    <div id="controls"></div>
   </div>
 
-  <!-- 我的成绩 -->
   <div id="results">
     <h2>📊 我的成绩 / My Results</h2>
     <div id="results-summary" class="muted"></div>
     <div id="results-table-wrap"></div>
-    <div style="margin-top:12px;"><button class="pill-btn light" id="back-to-menu">返回章节列表</button></div>
+    <div style="margin-top:12px;">
+      <button class="pill-btn light" id="back-to-menu">
+        返回章节列表 / Back to chapter list
+      </button>
+    </div>
   </div>
 
   <!-- 成绩提交（表单 action 会按科目自动设置） -->
@@ -140,64 +335,91 @@
     <input name="correct"/><input name="wrong"/><input name="time"/>
   </form>
 
-  <!-- WhatsApp -->
-  <a class="wa-fab" id="wa-fab" href="https://wa.me/60167312519" target="_blank" rel="noopener">💬 WhatsApp</a>
-  <footer>如有任何疑问，请联系纪老师 016-7312519 ，或直接 <a id="wa-link" href="https://wa.me/60167312519" target="_blank" rel="noopener">一键打开 WhatsApp</a>。</footer>
+  <a class="wa-fab" id="wa-fab" href="https://wa.me/60167312519" target="_blank" rel="noopener">
+    💬 WhatsApp
+  </a>
+  <footer>
+    如有任何疑问，请联系纪老师 016-7312519，或直接
+    <a id="wa-link" href="https://wa.me/60167312519" target="_blank" rel="noopener">
+      一键打开 WhatsApp / Open WhatsApp
+    </a>。
+  </footer>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-
-  /* ===========================
-     只改这一行切换科目：'SEJ' | 'SC' | 'ACC'
-     =========================== */
+  /* ============================
+     只改这一行切换科目：
+     'SEJ' | 'SC' | 'ACC'
+     ============================ */
   const SUBJECT_PREFIX = 'SC';
 
-  /* 三科各自的成绩表（读云端 Sheet1） */
+  /* 三科各自的成绩表（读云端） */
   const SHEET_IDS = {
     SEJ: '1EBWtRvzy3f4i0m8bbvjHVeir4isT4QmLLQSLGwPkCOM',
     ACC: '16bvfhuPSsYt8jHApfhq4bqNXUXh2BRhgPgUCPE1oToM',
     SC:  '1bUFFiucc1p_z2eFWq6AEdIvdHVZ8gIn_trDJ8PDT_s8'
   };
 
-  /* 三科各自的 Apps Script（写云端） */
+  /* 三科各自的 Apps Script（写入云端 & 钱包） */
   const GAS_ENDPOINTS = {
     SEJ: 'https://script.google.com/macros/s/AKfycbxcXEdzviEERt2uqLfgIXLQ3LecB-O8oph_HIiWk8RWq0XjGSd-l9v2ejUf07jq2TA/exec',
     ACC: 'https://script.google.com/macros/s/AKfycbxMi-Xv5OWubnwx-tDS2XPsKhUpfGf1e-rMtgPFs4mwA4VvEL1L7gVEXiN_oFK9hyaLWQ/exec',
     SC:  'https://script.google.com/macros/s/AKfycbx9A1jZ8oqSKExIfVCKnNiFmvPy407QqZBnZTRalU0IL4DSuOp9Nb4izaynd_4C54j3/exec'
   };
 
-  /* 读取成绩 CSV（防缓存） */
   const SHEET_ID = SHEET_IDS[SUBJECT_PREFIX];
-  const RESULTS_CSV_URL =
-    `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet1&nocache=${Date.now()}`;
+  const SCRIPT_URL = GAS_ENDPOINTS[SUBJECT_PREFIX];
 
-  /* 绑定提交地址 */
+  /* 读取成绩用 CSV 地址（带防缓存） */
+  function makeResultsUrl(){
+    return `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet1&nocache=${Date.now()}`;
+  }
+
+  /* 提交成绩用的表单 action */
   const postForm = document.getElementById('postForm');
-  postForm.action = GAS_ENDPOINTS[SUBJECT_PREFIX];
+  postForm.action = SCRIPT_URL;
 
-  /* 文案与 WhatsApp */
-  const SUBJECT_MAP = { SEJ: ['SEJ','Sejarah'], SC:['SC','Science'], ACC:['ACC','Accounting'] };
+  /* 动态品牌文案 Brand text */
+  const SUBJECT_MAP = {
+    SEJ: ['SEJ','Sejarah'],
+    SC : ['SC','Science'],
+    ACC: ['ACC','Accounting']
+  };
   const [abbr, fullName] = SUBJECT_MAP[SUBJECT_PREFIX] || [SUBJECT_PREFIX, SUBJECT_PREFIX];
   document.getElementById('brand-icon').textContent = abbr;
   document.getElementById('brand-title').innerHTML =
     `SPM ${abbr} Paper 1 超强训练器 / <b id="brand-boost">${abbr} P1 Booster</b>`;
-  const wa = `https://wa.me/60167312519?text=Hi%20Mr%20Kee%2C%20I%27d%20like%20to%20ask%20about%20${encodeURIComponent(abbr)}%20P1%20Booster.`;
-  document.getElementById('wa-fab').href  = wa;
-  document.getElementById('wa-link').href = wa;
 
-  /* ===== 登录/会话（试用 5 分钟） ===== */
+  const waUrl =
+    `https://wa.me/60167312519?text=`+
+    encodeURIComponent(`Hi Mr Kee, I'd like to ask about ${abbr} P1 Booster.`);
+  document.getElementById('wa-fab').href = waUrl;
+  document.getElementById('wa-link').href = waUrl;
+
+  /* ===== 登录/会话（试用5分钟） ===== */
   let user = '', usedUniversal = false;
   const UWP_WINDOW_MS = 5 * 60 * 1000;
   function setUniversalStart(ts){ localStorage.setItem('uwpStart', String(ts)); }
   function getUniversalStart(){ const v=localStorage.getItem('uwpStart'); return v? Number(v):0; }
   function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
-  function universalRemainingMs(){ const s=getUniversalStart(); if(!s) return 0; const r=UWP_WINDOW_MS-(Date.now()-s); return r>0?r:0; }
-  function showSessionTimer(b){ document.getElementById('session-timer').style.display = b?'block':'none'; }
+  function universalRemainingMs(){
+    const s=getUniversalStart(); if(!s) return 0;
+    const r=UWP_WINDOW_MS-(Date.now()-s); return r>0?r:0;
+  }
+  function showSessionTimer(b){
+    document.getElementById('session-timer').style.display = b?'block':'none';
+  }
   function updateSessionTimer(){
     if(!usedUniversal){ showSessionTimer(false); return; }
     const rem=universalRemainingMs();
-    if(rem<=0){ showSessionTimer(false); alert('会话已到期，请重新登录。'); location.reload(); return; }
-    const mm=Math.floor(rem/60000), ss=Math.floor((rem%60000)/1000).toString().padStart(2,'0');
+    if(rem<=0){
+      showSessionTimer(false);
+      alert('会话已到期，请重新登录。\nSession expired, please log in again.');
+      location.reload();
+      return;
+    }
+    const mm=Math.floor(rem/60000);
+    const ss=Math.floor((rem%60000)/1000).toString().padStart(2,'0');
     document.getElementById('session-remaining').textContent=`${mm}:${ss}`;
     showSessionTimer(true);
   }
@@ -206,36 +428,123 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ===== 音效 ===== */
   let audioOn = true, audioCtx;
   const sndBtn = document.getElementById('sound-toggle');
-  sndBtn.onclick = () => { audioOn = !audioOn; sndBtn.classList.toggle('muted', !audioOn); sndBtn.textContent = audioOn ? '🔊 音效已开' : '🔈 音效已关'; };
+  sndBtn.onclick = () => {
+    audioOn = !audioOn;
+    sndBtn.classList.toggle('muted', !audioOn);
+    sndBtn.textContent = audioOn ? '🔊 音效已开 / Sound ON' : '🔈 音效已关 / Sound OFF';
+  };
   function ensureCtx(){ if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
-  function beep(freq=880, dur=0.14, type='sine', gain=0.06){ if(!audioOn) return; ensureCtx(); const o=audioCtx.createOscillator(), g=audioCtx.createGain(); o.type=type; o.frequency.value=freq; g.gain.value=gain; o.connect(g).connect(audioCtx.destination); o.start(); g.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime+dur); o.stop(audioCtx.currentTime+dur+0.02); }
+  function beep(freq=880, dur=0.14, type='sine', gain=0.06){
+    if(!audioOn) return;
+    ensureCtx();
+    const o=audioCtx.createOscillator(), g=audioCtx.createGain();
+    o.type=type; o.frequency.value=freq; g.gain.value=gain;
+    o.connect(g).connect(audioCtx.destination);
+    o.start();
+    g.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime+dur);
+    o.stop(audioCtx.currentTime+dur+0.02);
+  }
   function playRight(){ beep(1100,.10,'sine',.06); setTimeout(()=>beep(1500,.12,'sine',.05),90); }
   function playWrong(){ beep(220,.12,'sawtooth',.05); setTimeout(()=>beep(160,.14,'square',.05),100); }
 
-  /* ===== 成绩存取（本地 + 云端，按科目前缀隔离） ===== */
+  /* ===== 钱包 Wallet（云端 + 本地显示） ===== */
+  const walletDisplay = document.getElementById('wallet-display');
+  const convertBtn = document.getElementById('convert-revive-btn');
+  let wallet = { shards:0, revives:0 };
+  let sessionShardDelta = 0;        // 本次登录内碎片变化
+  let sessionRevivesUsed = 0;       // 本章节实际消耗复活张数（用于限制 + 回写）
+  let revivesUsedThisChapter = 0;
+  const REVIVE_COST = 50;
+  const MAX_REVIVES_PER_CHAPTER = 2;
+
+  function updateWalletUI(){
+    walletDisplay.textContent =
+      `碎片 Shards: ${wallet.shards} ｜ 复活 Revives: ${wallet.revives}`;
+    convertBtn.style.display = user ? 'inline-flex' : 'none';
+  }
+
+  async function loadWallet(){
+    if(!user) return;
+    try{
+      const url = `${SCRIPT_URL}?mode=wallet&name=${encodeURIComponent(user)}`;
+      const res = await fetch(url);
+      if(!res.ok) throw new Error('wallet http');
+      const data = await res.json();
+      wallet.shards = Number(data.shards || 0);
+      wallet.revives = Number(data.revives || 0);
+    }catch(e){
+      console.error('loadWallet error', e);
+      wallet = { shards:0, revives:0 };
+    }
+    updateWalletUI();
+  }
+
+  async function syncWalletToServer(){
+    if(!user) return;
+    if(!sessionShardDelta && !sessionRevivesUsed) return;
+    try{
+      const body = new URLSearchParams();
+      body.append('mode','wallet-update');
+      body.append('name', user);
+      body.append('deltaShards', String(sessionShardDelta));
+      body.append('revivesUsed', String(sessionRevivesUsed)); // 后端自己减少
+      await fetch(SCRIPT_URL,{ method:'post', body });
+      sessionShardDelta = 0;
+      sessionRevivesUsed = 0;
+    }catch(e){
+      console.error('syncWallet error', e);
+    }
+  }
+
+  convertBtn.onclick = () => {
+    if(!user) return alert('请先登录 / Please log in first.');
+    if(wallet.shards < REVIVE_COST){
+      alert(`碎片不足：需要 ${REVIVE_COST} 才能兑换 1 张复活卡。\nNot enough shards: need ${REVIVE_COST} to convert 1 revive.`);
+      return;
+    }
+    if(!confirm(`确定使用 ${REVIVE_COST} 碎片兑换 1 张复活卡吗？\nConvert ${REVIVE_COST} shards into 1 revive card?`)) return;
+    wallet.shards -= REVIVE_COST;
+    wallet.revives += 1;
+    sessionShardDelta -= REVIVE_COST; // 因为消耗了
+    updateWalletUI();
+    alert('兑换成功！已获得 1 张复活卡。\nConversion successful! You gained 1 revive card.');
+  };
+
+  /* ===== 成绩存取（本地 + 云端） ===== */
   const LS_KEY = (name)=>`results_${SUBJECT_PREFIX}_${name.toLowerCase()}`;
   let cloudResults=[], localResults=[];
-  function loadLocalResults(){ try{ localResults = JSON.parse(localStorage.getItem(LS_KEY(user))||'[]'); }catch{ localResults=[]; } }
-  function saveLocalResult(rec){ loadLocalResults(); localResults.push(rec); localStorage.setItem(LS_KEY(user), JSON.stringify(localResults)); }
+  function loadLocalResults(){
+    try{ localResults = JSON.parse(localStorage.getItem(LS_KEY(user))||'[]'); }
+    catch{ localResults=[]; }
+  }
+  function saveLocalResult(rec){
+    loadLocalResults();
+    localResults.push(rec);
+    localStorage.setItem(LS_KEY(user), JSON.stringify(localResults));
+  }
   function mergeResults(){ return [...cloudResults, ...localResults]; }
 
   function fetchCloudResultsFor(name){
     return new Promise((resolve)=>{
-      Papa.parse(RESULTS_CSV_URL,{
+      Papa.parse(makeResultsUrl(),{
         download:true, header:true, skipEmptyLines:true,
         complete:(res)=>{
           const rows=(res.data||[]).map(r=>{
-            const norm={}; Object.entries(r).forEach(([k,v])=>{ norm[String(k).trim().toLowerCase()] = typeof v==='string'? v.trim(): v; });
-            const rawId = norm.quizid || norm.quiz_id || ''; // 兼容不同表头
-            if(!new RegExp(`^${SUBJECT_PREFIX}\\|`, 'i').test(rawId)) return null; // 仅当前科目
+            const norm={};
+            Object.entries(r).forEach(([k,v])=>{
+              norm[String(k).trim().toLowerCase()] =
+                typeof v==='string'? v.trim(): v;
+            });
+            const rawId = norm.quizid || norm.quiz_id || '';
+            if(!new RegExp(`^${SUBJECT_PREFIX}\\|`, 'i').test(rawId)) return null;
             return {
-              quizId: rawId,
+              quizId   : rawId,
               quizIdPure: String(rawId).replace(/^.*?\|/, '').trim(),
-              name: norm.name || '',
-              score: Number(norm.score||0),
-              correct: Number(norm.correct||0),
-              wrong: Number(norm.wrong||0),
-              time: Number(norm.time||0),
+              name     : norm.name || '',
+              score    : Number(norm.score||0),
+              correct  : Number(norm.correct||0),
+              wrong    : Number(norm.wrong||0),
+              time     : Number(norm.time||0),
               timestamp: norm.timestamp || ''
             };
           }).filter(r=> r && String(r.name||'').toLowerCase()===name.toLowerCase());
@@ -247,48 +556,97 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ===== 题库/菜单 ===== */
-  let chapters=[], grouped={}; let chapterKey, sectionKey, labelKey, sheetKey; let currentChapter='';
-  let qs=[], queue=[], score=0, correct=0, wrong=0, chapterStart=0, correctStreak=0, wrongStreak=0;
+  function buildBestPercentMap(){
+    const all=mergeResults(), best={};
+    all.forEach(r=>{
+      const pure = (r.quizIdPure || String(r.quizId||'').replace(/^.*?\|/, '')).trim();
+      const c = Number(r.correct||0), w = Number(r.wrong||0), tot=c+w;
+      if(!pure || tot<=0) return;
+      const pct = Math.round((c/tot)*100);
+      if(!(pure in best) || pct>best[pure]) best[pure]=pct;
+    });
+    return best;
+  }
+  function bestPercentForChapter(chap, bestMap){
+    let candidate = (bestMap[chap] != null) ? bestMap[chap] : null;
+    for(const [k,v] of Object.entries(bestMap)){
+      if(k.startsWith(chap + '_')) candidate = Math.max(candidate ?? -Infinity, v);
+    }
+    return candidate;
+  }
+
+  /* ===== 题库/菜单 & 测验状态 ===== */
+  let chapters=[], grouped={};
+  let chapterKey, sectionKey, labelKey, sheetKey;
+  let currentChapter='';
+  let qs=[], queue=[], score=0, correct=0, wrong=0, chapterStart=0;
+  let correctStreak=0, wrongStreak=0;
   const MAX_OPTS=15;
 
   const PASSWORDS_CSV = 'Passwords.csv';
+
   document.getElementById('startBtn').onclick = attemptLogin;
   document.getElementById('my-results-btn').onclick = openResults;
   document.getElementById('back-to-menu').onclick = backToMenu;
   document.getElementById('back-to-chapters-btn').onclick = backToMenu;
 
-  function backToMenu(){ document.getElementById('results').style.display='none'; document.getElementById('quiz').style.display='none'; document.getElementById('finish').style.display='none'; document.getElementById('menu').style.display='block'; document.getElementById('menu').scrollIntoView({behavior:'smooth'}); }
+  function backToMenu(){
+    document.getElementById('results').style.display='none';
+    document.getElementById('quiz').style.display='none';
+    document.getElementById('finish').style.display='none';
+    document.getElementById('menu').style.display='block';
+    document.getElementById('menu').scrollIntoView({behavior:'smooth'});
+  }
 
   function attemptLogin(){
     const nm=document.getElementById('username').value.trim();
     const pw=document.getElementById('password').value;
-    if(!nm||!pw) return alert('请输入姓名与密码 / Please enter both name and password.');
-
-    Papa.parse(PASSWORDS_CSV,{download:true,header:true,skipEmptyLines:true,
+    if(!nm||!pw){
+      alert('请输入姓名与密码 / Please enter both name and password.');
+      return;
+    }
+    Papa.parse(PASSWORDS_CSV,{
+      download:true,header:true,skipEmptyLines:true,
       complete: async (res)=>{
-        const rows=(res.data||[]).map(r=>{ const o={}; Object.entries(r).forEach(([k,v])=>{ o[String(k).trim().toLowerCase()] = typeof v==='string'? v.trim(): v; }); return o; });
+        const rows=(res.data||[]).map(r=>{
+          const o={};
+          Object.entries(r).forEach(([k,v])=>{
+            o[String(k).trim().toLowerCase()] =
+              typeof v==='string'? v.trim(): v;
+          });
+          return o;
+        });
         const nameKey='name', passKey='password';
-
-        // 通用试用密码（* 行）
-        const uwpRow=rows.find(r=>r[nameKey]==='*'); const uwpPassword=uwpRow?(uwpRow[passKey]||''):'';
+        const uwpRow=rows.find(r=>r[nameKey]==='*');
+        const uwpPassword=uwpRow?(uwpRow[passKey]||''):'';
+        // 通用试用密码 Universal trial password
         if(uwpPassword && pw===uwpPassword){
           if(universalRemainingMs()<=0) setUniversalStart(Date.now());
-          usedUniversal=true; updateSessionTimer(); user=nm; afterLogin(); return;
+          usedUniversal=true; updateSessionTimer();
+          user=nm;
+          await afterLogin();
+          return;
         }
-
-        const match=rows.find(r=>String(r[nameKey]||'').toLowerCase()===nm.toLowerCase() && String(r[passKey]||'')===pw);
-        if(!match) return alert('姓名或密码不正确 / Name or password incorrect.');
-
-        clearUniversalStart(); usedUniversal=false; showSessionTimer(false); user=nm; afterLogin();
+        const match=rows.find(r=>
+          String(r[nameKey]||'').toLowerCase()===nm.toLowerCase()
+          && String(r[passKey]||'')===pw
+        );
+        if(!match){
+          alert('姓名或密码不正确 / Name or password incorrect.');
+          return;
+        }
+        clearUniversalStart(); usedUniversal=false; showSessionTimer(false);
+        user=nm;
+        await afterLogin();
       },
-      error:()=> alert('无法读取 Passwords.csv，请确认文件存在且可公开访问')
+      error:()=> alert('无法读取 Passwords.csv，请确认文件存在且可公开访问。\nCannot load Passwords.csv, please check access.')
     });
   }
 
   async function afterLogin(){
     await fetchCloudResultsFor(user);
     loadLocalResults();
+    await loadWallet();
     document.getElementById('my-results-btn').style.display='inline-block';
     document.getElementById('back-to-chapters-btn').style.display='inline-block';
     document.getElementById('welcome').style.display='none';
@@ -296,15 +654,31 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(()=>document.getElementById('menu').scrollIntoView({behavior:'smooth'}),50);
   }
 
-  function guardUniversalWindowOrThrow(){ if(!usedUniversal) return; if(universalRemainingMs()<=0){ alert('会话已到期，请重新登录。'); location.reload(); throw new Error('Session expired'); } }
+  function guardUniversalWindowOrThrow(){
+    if(!usedUniversal) return;
+    if(universalRemainingMs()<=0){
+      alert('会话已到期，请重新登录。\nSession expired, please log in again.');
+      location.reload();
+      throw new Error('Session expired');
+    }
+  }
 
   function loadChapters(){
-    Papa.parse('Chapters.csv',{download:true,header:true,skipEmptyLines:true,
+    Papa.parse('Chapters.csv',{
+      download:true,header:true,skipEmptyLines:true,
       complete(res){
         guardUniversalWindowOrThrow();
-        chapters=(res.data||[]).map(raw=>{ const r={}; Object.entries(raw).forEach(([k,v])=>{ r[String(k).trim()] = typeof v==='string'? v.trim(): v; }); return r; });
-        if(!chapters.length) return alert('请检查 Chapters.csv');
-
+        chapters=(res.data||[]).map(raw=>{
+          const r={};
+          Object.entries(raw).forEach(([k,v])=>{
+            r[String(k).trim()] = typeof v==='string'? v.trim(): v;
+          });
+          return r;
+        });
+        if(!chapters.length){
+          alert('请检查 Chapters.csv 是否存在内容。\nPlease check Chapters.csv.');
+          return;
+        }
         const keys=Object.keys(chapters[0]);
         chapterKey=keys.find(k=>k.toLowerCase()==='chapter');
         sectionKey=keys.find(k=>k.toLowerCase()==='section');
@@ -312,54 +686,78 @@ document.addEventListener('DOMContentLoaded', () => {
         sheetKey  =keys.find(k=>k.toLowerCase()==='sheet');
 
         grouped={};
-        chapters.forEach(r=>{ const c=r[chapterKey]; (grouped[c]||(grouped[c]=[])).push(r); });
-
+        chapters.forEach(r=>{
+          const c=r[chapterKey];
+          (grouped[c]||(grouped[c]=[])).push(r);
+        });
         renderMenu();
       }
     });
   }
 
   function renderMenu(){
-    const menu=document.getElementById('menu'); menu.innerHTML='<h2>请选择章节 / Select Chapter</h2>';
+    const menu=document.getElementById('menu');
+    menu.innerHTML='<h2>请选择章节 / Select Chapter</h2>';
 
-    const statePapers={2025:{},2024:{},2023:{}}; const chaptersF4={2025:[],2024:[],2023:[]}; const chaptersF5={2025:[],2024:[],2023:[]};
+    const statePapers={2025:{},2024:{},2023:{}}; 
+    const chaptersF4={2025:[],2024:[],2023:[]};
+    const chaptersF5={2025:[],2024:[],2023:[]};
 
     Object.keys(grouped).forEach(chap=>{
-      const year = chap.match(/2025/)?2025 : chap.match(/2024/)?2024 : chap.match(/2023/)?2023 : null;
+      const year = chap.match(/2025/)?2025 :
+                   chap.match(/2024/)?2024 :
+                   chap.match(/2023/)?2023 : null;
       if(!year) return;
       if(/(Chp|Bab)/i.test(chap)){
         if(/F4/i.test(chap)) chaptersF4[year].push(chap);
         else if(/F5/i.test(chap)) chaptersF5[year].push(chap);
       } else {
-        const state = chap.split(' ')[0]; (statePapers[year][state] ||= []).push(chap);
+        const state = chap.split(' ')[0];
+        (statePapers[year][state] ||= []).push(chap);
       }
     });
 
+    const bestPctMap = buildBestPercentMap();
+
     const makeChapterButton=(chap)=>{
-      const btn=document.createElement('button'); btn.className='pill'; btn.textContent=chap;
-      const badge=document.createElement('span'); badge.className='badge badge-gray'; badge.textContent='未做';
-      btn.appendChild(badge); btn.onclick=()=>{ guardUniversalWindowOrThrow(); startChapter(chap); };
+      const btn=document.createElement('button');
+      btn.className='pill';
+      btn.textContent=chap;
+      const badge=document.createElement('span');
+      const best=bestPercentForChapter(chap,bestPctMap);
+      if(best!=null){
+        badge.className='badge badge-green';
+        badge.textContent=`最高准确率 Best: ${best}%`;
+      }else{
+        badge.className='badge badge-gray';
+        badge.textContent='未做 / Not attempted';
+      }
+      btn.appendChild(badge);
+      btn.onclick=()=>{ guardUniversalWindowOrThrow(); startChapter(chap); };
       return btn;
     };
 
-    // 州属试卷
     [2025,2024,2023].forEach(y=>{
       const states=statePapers[y];
       if(Object.keys(states).length){
-        const h=document.createElement('h2'); h.textContent=`州属试卷 ${y}`; menu.appendChild(h);
+        const h=document.createElement('h2');
+        h.textContent=`州属试卷 State Papers ${y}`;
+        menu.appendChild(h);
         for(const st of Object.keys(states).sort()){
           const g=document.createElement('div'); g.className='group';
-          const h4=document.createElement('h4'); h4.textContent=st; g.appendChild(h4);
+          const h4=document.createElement('h4');
+          h4.textContent=`${st}`; g.appendChild(h4);
           states[st].sort().forEach(ch=> g.appendChild(makeChapterButton(ch)));
           menu.appendChild(g);
         }
       }
     });
 
-    // 数字排序：F4
     [2025,2024,2023].forEach(y=>{
       if(chaptersF4[y].length){
-        const h=document.createElement('h2'); h.textContent=`Form 4 Chapters ${y}`; menu.appendChild(h);
+        const h=document.createElement('h2');
+        h.textContent=`Form 4 Chapters ${y}`;
+        menu.appendChild(h);
         const g=document.createElement('div'); g.className='group';
         chaptersF4[y].sort((a,b)=>{
           const na=parseInt(a.match(/(Chp|Bab)\s*(\d+)/i)?.[2]||0);
@@ -370,10 +768,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // 数字排序：F5
     [2025,2024,2023].forEach(y=>{
       if(chaptersF5[y].length){
-        const h=document.createElement('h2'); h.textContent=`Form 5 Chapters ${y}`; menu.appendChild(h);
+        const h=document.createElement('h2');
+        h.textContent=`Form 5 Chapters ${y}`;
+        menu.appendChild(h);
         const g=document.createElement('div'); g.className='group';
         chaptersF5[y].sort((a,b)=>{
           const na=parseInt(a.match(/(Chp|Bab)\s*(\d+)/i)?.[2]||0);
@@ -384,39 +783,15 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // Badge：最高准确率 %
-    const bestPctMap = buildBestPercentMap();
-    for (const pill of menu.querySelectorAll('.pill')){
-      const chap = pill.firstChild.nodeValue.trim();
-      const badge = pill.querySelector('.badge');
-      const best = bestPercentForChapter(chap, bestPctMap);
-      if (best != null){ badge.className='badge badge-green'; badge.textContent = `最高 ${best}%`; }
-    }
-
     menu.style.display='block';
   }
 
-  // 计算：每章节历史“最高准确率(%)”
-  function buildBestPercentMap(){
-    const all=mergeResults(), best={};
-    all.forEach(r=>{
-      const pure = (r.quizIdPure || String(r.quizId||'').replace(/^.*?\|/, '')).trim();
-      const c = Number(r.correct||0), w = Number(r.wrong||0), tot=c+w;
-      if(!pure || tot<=0) return;
-      const pct = Math.round((c/tot)*100);
-      if(!(pure in best) || pct>best[pure]) best[pure]=pct;
-    }); return best;
-  }
-  function bestPercentForChapter(chap, bestMap){
-    let candidate = (bestMap[chap] != null) ? bestMap[chap] : null;
-    for(const [k,v] of Object.entries(bestMap)){ if(k.startsWith(chap + '_')) candidate = Math.max(candidate ?? -Infinity, v); }
-    return candidate;
-  }
-
-  /* ===== 测验流程 ===== */
   function startChapter(chap){
     currentChapter=chap;
-    score=0; correct=0; wrong=0; correctStreak=0; wrongStreak=0; updateStreak();
+    score=0; correct=0; wrong=0;
+    correctStreak=0; wrongStreak=0;
+    revivesUsedThisChapter=0;
+    updateStreak();
     chapterStart=Date.now();
     document.getElementById('menu').style.display='none';
     document.getElementById('quiz-title').textContent = chap;
@@ -424,106 +799,251 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function getBaseDir(url){
-    try{ const u=new URL(url, window.location.href); const s=u.toString(); const i=s.lastIndexOf('/'); return i>=0? s.slice(0,i+1): s; }
-    catch{ const i=url.lastIndexOf('/'); return i>=0? url.slice(0,i+1): ''; }
+    try{
+      const u=new URL(url, window.location.href);
+      const s=u.toString();
+      const i=s.lastIndexOf('/');
+      return i>=0? s.slice(0,i+1): s;
+    }catch{
+      const i=url.lastIndexOf('/');
+      return i>=0? url.slice(0,i+1): '';
+    }
   }
 
   function loadChapterAllSectionsAndStart(){
     const secList=grouped[currentChapter]||[];
-    if(!secList.length){ alert('该章节没有配置 CSV。'); renderMenu(); return; }
+    if(!secList.length){
+      alert('该章节没有配置 CSV。\nNo CSV configured for this chapter.');
+      renderMenu(); return;
+    }
     const tasks=secList.map(sec=>new Promise((resolve)=>{
       const sheetUrl=sec[sheetKey]; const baseDir=getBaseDir(sheetUrl);
-      Papa.parse(sheetUrl,{download:true,header:true,skipEmptyLines:true,
-        complete(r){ const rows=(r.data||[]).map(q=>({...q, attempt:0, __baseDir:baseDir })); resolve(rows); },
+      Papa.parse(sheetUrl,{
+        download:true,header:true,skipEmptyLines:true,
+        complete(r){
+          const rows=(r.data||[]).map(q=>({...q, attempt:0, __baseDir:baseDir }));
+          resolve(rows);
+        },
         error(){ resolve([]); }
       });
     }));
     Promise.all(tasks).then(list=>{
       qs=list.flat();
-      if(!qs.length){ alert('无法读取题库 CSV，请检查链接与访问权限'); renderMenu(); return; }
+      if(!qs.length){
+        alert('无法读取题库 CSV，请检查链接与访问权限。\nCannot load question CSV.');
+        renderMenu(); return;
+      }
       queue=shuffle([...qs]);
       document.getElementById('quiz').style.display='block';
       document.getElementById('finish').style.display='none';
-      updateUI(0); nextQ();
+      updateUI(0);
+      nextQ();
     });
   }
 
   function updateUI(delta){
-    document.getElementById('score').textContent=`得分: ${score} (${delta>0?'+':''}${delta})`;
-    document.getElementById('remaining').textContent=`剩余题目: ${queue.length}`;
-    const pg=document.getElementById('progress'); pg.max=qs.length; pg.value=qs.length - queue.length;
+    document.getElementById('score').textContent=
+      `得分 Score: ${score} ${delta?`(${delta>0?'+':''}${delta})`:''}`;
+    document.getElementById('remaining').textContent=
+      `剩余题目 Remaining: ${queue.length}`;
+    const pg=document.getElementById('progress');
+    pg.max=qs.length;
+    pg.value=qs.length - queue.length;
   }
-  function flashProgress(ok){ const w=document.getElementById('progressWrap'); w.classList.remove('flash-green','flash-red'); void w.offsetWidth; w.classList.add(ok?'flash-green':'flash-red'); setTimeout(()=>w.classList.remove('flash-green','flash-red'),600); }
-  function updateStreak(){ const el=document.getElementById('streak'); if(correctStreak>0) el.innerHTML=`🔥 <span class="streak-good">连对 ${correctStreak}</span>`; else if(wrongStreak>0) el.innerHTML=`😅 <span class="streak-bad">连错 ${wrongStreak}</span>`; else el.textContent=''; }
+  function flashProgress(ok){
+    const w=document.getElementById('progressWrap');
+    w.classList.remove('flash-green','flash-red');
+    void w.offsetWidth;
+    w.classList.add(ok?'flash-green':'flash-red');
+    setTimeout(()=>w.classList.remove('flash-green','flash-red'),600);
+  }
+  function updateStreak(){
+    const el=document.getElementById('streak');
+    if(correctStreak>0)
+      el.innerHTML=`🔥 连对 Streak: <span class="streak-good">${correctStreak}</span>`;
+    else if(wrongStreak>0)
+      el.innerHTML=`😅 连错 Wrong streak: <span class="streak-bad">${wrongStreak}</span>`;
+    else el.textContent='';
+  }
 
   function nextQ(){
     guardUniversalWindowOrThrow();
-
-    const qa=document.getElementById('question-area'); qa.innerHTML=''; updateUI(0);
-    if(queue.length===0) return finishChapter();
+    const qa=document.getElementById('question-area');
+    qa.innerHTML='';
+    updateUI(0);
+    if(queue.length===0){ finishChapter(); return; }
 
     const q=queue.shift();
-    const div=document.createElement('div'); div.className='question';
-    const safeQ=(q.question||'').toString().replace(/\r?\n/g,'<br/>'); div.innerHTML=`<p><strong>${safeQ}</strong></p>`;
+    const div=document.createElement('div');
+    div.className='question';
+
+    const safeQ=(q.question||'').toString().replace(/\r?\n/g,'<br/>');
+    div.innerHTML=`<p><strong>${safeQ}</strong></p>`;
 
     if(q.image){
       let src=(q.image||'').toString().trim();
-      if(!/^https?:\/\//i.test(src) && !/^data:/i.test(src)) src=(q.__baseDir||'')+src.replace(/^\.\//,'');
-      const img=document.createElement('img'); img.src=src; img.alt='question image'; div.appendChild(img);
+      if(!/^https?:\/\//i.test(src) && !/^data:/i.test(src))
+        src=(q.__baseDir||'')+src.replace(/^\.\//,'');
+      const img=document.createElement('img');
+      img.src=src; img.alt='question image';
+      div.appendChild(img);
     }
 
     const qType=(q.type||'').toString().toLowerCase();
-    const opts=document.createElement('div'); opts.className='options';
+    const opts=document.createElement('div');
+    opts.className='options';
 
-    if(qType==='text'){ opts.innerHTML='<input type="text" id="txtAns" placeholder="请输入答案…"/>'; }
-    else{
+    if(qType==='text'){
+      opts.innerHTML='<input type="text" id="txtAns" placeholder="请输入答案… / Type your answer..."/>';
+    }else{
       const letters=Array.from({length:MAX_OPTS},(_,i)=>String.fromCharCode(65+i));
       const avail=letters.filter(l=>q[l]);
       avail.forEach(l=>{
-        const inp=document.createElement('input'); inp.type=(qType==='checkbox')?'checkbox':'radio'; inp.name='opt'; inp.value=l; inp.id='opt_'+l;
-        const lbl=document.createElement('label'); lbl.className='option-label'; lbl.htmlFor='opt_'+l;
+        const inp=document.createElement('input');
+        inp.type=(qType==='checkbox')?'checkbox':'radio';
+        inp.name='opt'; inp.value=l; inp.id='opt_'+l;
+        const lbl=document.createElement('label');
+        lbl.className='option-label'; lbl.htmlFor='opt_'+l;
         lbl.appendChild(inp);
-        let raw=q[l]; if(typeof raw==='string' && /^-?\d+\.0$/.test(raw)) raw=String(parseInt(raw));
-        lbl.append(' '+raw); opts.appendChild(lbl);
+        let raw=q[l];
+        if(typeof raw==='string' && /^-?\d+\.0$/.test(raw)) raw=String(parseInt(raw));
+        lbl.append(' '+raw);
+        opts.appendChild(lbl);
       });
     }
     div.appendChild(opts);
 
-    const fb=document.createElement('div'); fb.className='feedback'; div.appendChild(fb);
+    const fb=document.createElement('div');
+    fb.className='feedback';
+    div.appendChild(fb);
 
-    const sb=document.createElement('button'); sb.className='pill-btn'; sb.textContent='提交';
+    const sb=document.createElement('button');
+    sb.className='pill-btn';
+    sb.textContent='提交 / Submit';
     sb.onclick=()=>{
       guardUniversalWindowOrThrow();
       let ua=[];
-      if(qType==='text'){ ua=document.getElementById('txtAns').value.split(',').map(s=>s.trim()).filter(s=>s); }
-      else{ ua=Array.from(div.querySelectorAll('input[name="opt"]:checked')).map(i=>i.value); }
-      if(!ua.length) return alert('请选择或输入答案');
-
-      let isC=false; const ansStr=(q.answer||'').toString();
       if(qType==='text'){
-        const lows=ua.map(s=>s.toLowerCase()); const ansList=ansStr.split(',').map(s=>s.trim().toLowerCase()); isC=lows.some(v=>ansList.includes(v));
+        ua=document.getElementById('txtAns').value.split(',')
+          .map(s=>s.trim()).filter(s=>s);
       }else{
-        const uaA=ua.map(s=>s.toUpperCase()).sort().join(','); const caA=ansStr.split(',').map(s=>s.trim().toUpperCase()).sort().join(','); isC=uaA===caA;
+        ua=Array.from(div.querySelectorAll('input[name="opt"]:checked'))
+          .map(i=>i.value);
+      }
+      if(!ua.length){
+        alert('请选择或输入答案 / Please select or type an answer.');
+        return;
       }
 
-      const delta=isC ? (q.attempt?1:2) : (q.attempt?-2:-1);
-      score+=delta;
-      if(isC){ correct++; correctStreak++; wrongStreak=0; } else { wrong++; wrongStreak++; correctStreak=0; }
+      let isC=false;
+      const ansStr=(q.answer||'').toString();
+      if(qType==='text'){
+        const lows=ua.map(s=>s.toLowerCase());
+        const ansList=ansStr.split(',').map(s=>s.trim().toLowerCase());
+        isC=lows.some(v=>ansList.includes(v));
+      }else{
+        const uaA=ua.map(s=>s.toUpperCase()).sort().join(',');
+        const caA=ansStr.split(',').map(s=>s.trim().toUpperCase()).sort().join(',');
+        isC = (uaA===caA);
+      }
+
+      // ==== 复活卡逻辑 Revive logic ====
+      let usedRevive = false;
+      if(!isC && wallet.revives>0 && revivesUsedThisChapter < MAX_REVIVES_PER_CHAPTER){
+        const msg =
+`你答错了，但你有复活卡 🃏
+是否使用 1 张复活卡把这题算作答对？
+Do you want to use 1 revive to count this question as correct?`;
+        if(confirm(msg)){
+          usedRevive = true;
+          isC = true;                 // 视为答对
+          wallet.revives -= 1;
+          sessionRevivesUsed += 1;
+          revivesUsedThisChapter += 1;
+          updateWalletUI();
+        }
+      }
+
+      // ===== 计分 & 碎片 =====
+      let delta=0;
+      let shardsEarned = 0;
+      let comboBonus = 0;
+
+      if(isC){
+        // 分数
+        delta = q.attempt ? 1 : 2;
+        score += delta;
+        // 正确/连对
+        correct++;
+        correctStreak++;
+        wrongStreak=0;
+
+        // 碎片：只有第一次真正答对才给，复活不送
+        if(q.attempt===0 && !usedRevive){
+          shardsEarned += 1;
+        }
+        // 每5连对送 +2 碎片（同一章节可多次触发）
+        if(!usedRevive && correctStreak>0 && correctStreak % 5 === 0){
+          comboBonus += 2;
+        }
+      }else{
+        // 答错且没有用复活卡
+        delta = q.attempt ? -2 : -1;
+        score += delta;
+        wrong++;
+        wrongStreak++;
+        correctStreak=0;
+      }
+
+      const shardThisAnswer = shardsEarned + comboBonus;
+      if(shardThisAnswer>0){
+        wallet.shards += shardThisAnswer;
+        sessionShardDelta += shardThisAnswer;
+        updateWalletUI();
+      }
+
       updateStreak();
 
-      let ansTxt=''; if(!isC) ansTxt=ansStr.split(',').map(letter=>q[letter]||letter).join(' / ');
-      fb.textContent=isC?`正确! +${delta}`:`错误! ${delta} 正确答案: ${ansTxt}`;
-      updateUI(delta); flashProgress(isC); sb.disabled=true;
+      let ansTxt='';
+      if(!isC && !usedRevive){
+        ansTxt=ansStr.split(',').map(letter=>q[letter]||letter).join(' / ');
+      }
 
-      const bubble=document.createElement('div'); bubble.className='score-bubble '+(delta>0?'plus':'minus'); bubble.textContent=(delta>0?'+':'')+String(delta); div.appendChild(bubble);
+      if(isC && usedRevive){
+        fb.textContent = '✅ 复活成功！这题算作答对（不加碎片）。Revive used, counted as correct (no shards).';
+      }else if(isC){
+        fb.textContent = `正确! Correct! 分数 +${delta}，碎片 +${shardThisAnswer}`;
+      }else{
+        fb.textContent = `错误! Wrong! 分数 ${delta}，正确答案 Correct answer: ${ansTxt}`;
+      }
+
+      updateUI(delta);
+      flashProgress(isC);
+      sb.disabled=true;
+
+      const bubble=document.createElement('div');
+      bubble.className='score-bubble '+(delta>0?'plus':'minus');
+      bubble.textContent=(delta>0?'+':'')+String(delta);
+      div.appendChild(bubble);
+
       if(isC){ playRight(); div.classList.add('correct-glow'); setTimeout(()=>div.classList.remove('correct-glow'),900); }
-      else { playWrong(); div.classList.add('wrong-shake'); setTimeout(()=>div.classList.remove('wrong-shake'),900); }
+      else{ playWrong(); div.classList.add('wrong-shake'); setTimeout(()=>div.classList.remove('wrong-shake'),900); }
       setTimeout(()=>bubble.remove(),1000);
 
-      const nb=document.createElement('button'); nb.className='pill-btn light'; nb.style.marginLeft='8px'; nb.textContent='下一题'; nb.onclick=nextQ; div.appendChild(nb);
+      const nb=document.createElement('button');
+      nb.className='pill-btn light';
+      nb.style.marginLeft='8px';
+      nb.textContent='下一题 / Next';
+      nb.onclick=nextQ;
+      div.appendChild(nb);
 
-      if(!isC){ q.attempt++; insertWrongTwiceLater(q, queue); }
+      // 错题重刷：只有真正错而且没用复活卡才排回去
+      if(!isC && !usedRevive){
+        q.attempt++;
+        insertWrongTwiceLater(q, queue);
+      }
     };
+
     div.appendChild(sb);
     document.getElementById('question-area').appendChild(div);
   }
@@ -535,9 +1055,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const total = correct + wrong;
     const percent = total>0 ? Math.round((correct/total)*100) : 0;
 
-    document.getElementById('finish-msg').textContent=`恭喜 ${user}，你学会这个章节了！`;
+    // 章节完成碎片奖励 Completion shards
+    let completionShards = 0;
+    if(percent >= 90) completionShards = 8;
+    else if(percent >= 80) completionShards = 5;
+    else if(percent >= 70) completionShards = 3;
+    if(completionShards>0){
+      wallet.shards += completionShards;
+      sessionShardDelta += completionShards;
+      updateWalletUI();
+    }
+
+    document.getElementById('finish-msg').textContent=
+      `恭喜 ${user}，你学会这个章节了！ / Well done, ${user}!`;
     document.getElementById('stats').innerHTML =
-      `准确率：<b>${percent}%</b>　|　分数：${score}　|　正确：${correct}　|　错误：${wrong}　|　用时：${Math.floor((Date.now()-chapterStart)/1000)} 秒`;
+      `准确率 Accuracy：<b>${percent}%</b>　|　`+
+      `分数 Score：${score}　|　`+
+      `正确 Correct：${correct}　|　错误 Wrong：${wrong}　|　`+
+      `用时 Time：${Math.floor((Date.now()-chapterStart)/1000)} 秒 seconds<br>`+
+      (completionShards>0
+        ? `章节奖励：+${completionShards} 碎片 shards for completion.`
+        : `本次章节没有额外碎片奖励 No extra shards for completion this time.`);
 
     const form=document.getElementById('postForm');
     form.quizId.value  = `${SUBJECT_PREFIX}|${currentChapter}`;
@@ -551,23 +1089,35 @@ document.addEventListener('DOMContentLoaded', () => {
     saveLocalResult({
       quizId: form.quizId.value,
       quizIdPure: currentChapter,
-      name:user, score, correct, wrong, time: form.time.value, timestamp: new Date().toISOString()
+      name:user,
+      score, correct, wrong,
+      time: form.time.value,
+      timestamp: new Date().toISOString()
     });
 
     launchConfetti(120,1000);
 
-    const ctrl=document.getElementById('controls'); ctrl.innerHTML='';
-    const btn=document.createElement('button'); btn.className='pill-btn'; btn.textContent='返回章节选择'; btn.onclick=backToMenu; ctrl.appendChild(btn);
+    const ctrl=document.getElementById('controls');
+    ctrl.innerHTML='';
+    const btn=document.createElement('button');
+    btn.className='pill-btn';
+    btn.textContent='返回章节选择 / Back to chapter list';
+    btn.onclick=backToMenu;
+    ctrl.appendChild(btn);
+
+    // 把本次碎片 & 复活使用同步到云端
+    syncWalletToServer();
   }
 
   function openResults(){
     guardUniversalWindowOrThrow();
     fetchCloudResultsFor(user).then(()=>{
       const all=mergeResults();
-      const wrap=document.getElementById('results-table-wrap'); wrap.innerHTML='';
+      const wrap=document.getElementById('results-table-wrap');
+      wrap.innerHTML='';
       if(!all.length){
-        wrap.innerHTML='<p class="muted">暂时没有记录。</p>';
-      } else {
+        wrap.innerHTML='<p class="muted">暂时没有记录。No records yet.</p>';
+      }else{
         all.sort((a,b)=>{
           const ta=new Date(a.timestamp||0).getTime()||0;
           const tb=new Date(b.timestamp||0).getTime()||0;
@@ -575,37 +1125,61 @@ document.addEventListener('DOMContentLoaded', () => {
           return String(a.quizId).localeCompare(String(b.quizId));
         });
         const table=document.createElement('table');
-        table.innerHTML=`<thead><tr><th>测验</th><th>准确率(%)</th><th>分数</th><th>正确/错误</th><th>用时(秒)</th><th>时间</th></tr></thead><tbody></tbody>`;
+        table.innerHTML=
+          `<thead>
+            <tr>
+              <th>测验 Quiz</th>
+              <th>准确率 Accuracy (%)</th>
+              <th>分数 Score</th>
+              <th>正确/错误 Correct/Wrong</th>
+              <th>用时(秒) Time(s)</th>
+              <th>时间 Timestamp</th>
+            </tr>
+          </thead><tbody></tbody>`;
         const tbody=table.querySelector('tbody');
         all.forEach(r=>{
           const tot=Number(r.correct||0)+Number(r.wrong||0);
           const pct= tot>0 ? Math.round((Number(r.correct||0)/tot)*100) : 0;
           const tr=document.createElement('tr');
-          tr.innerHTML = `
-            <td>${escapeHtml(r.quizIdPure || String(r.quizId||'').replace(/^.*?\|/, ''))}</td>
-            <td>${pct}</td>
-            <td>${escapeHtml(r.score||'')}</td>
-            <td>${escapeHtml(r.correct||'')}/${escapeHtml(r.wrong||'')}</td>
-            <td>${escapeHtml(r.time||'')}</td>
-            <td>${escapeHtml(r.timestamp||'')}</td>`;
+          tr.innerHTML =
+            `<td>${escapeHtml(r.quizIdPure || String(r.quizId||'').replace(/^.*?\|/, ''))}</td>
+             <td>${pct}</td>
+             <td>${escapeHtml(r.score||'')}</td>
+             <td>${escapeHtml(r.correct||'')}/${escapeHtml(r.wrong||'')}</td>
+             <td>${escapeHtml(r.time||'')}</td>
+             <td>${escapeHtml(r.timestamp||'')}</td>`;
           tbody.appendChild(tr);
         });
         wrap.appendChild(table);
       }
-      document.getElementById('results-summary').textContent=`当前用户：${user}（云端 ${cloudResults.length} 条，本地 ${localResults.length} 条）`;
+      document.getElementById('results-summary').textContent=
+        `当前用户 Current user：${user}（云端 Cloud ${cloudResults.length} 条，本地 Local ${localResults.length} 条）`;
       document.getElementById('menu').style.display='none';
       document.getElementById('results').style.display='block';
     });
   }
 
-  /* 工具函数 */
-  function escapeHtml(s){ return String(s).replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m])); }
-  function shuffle(arr){ for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; }
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, m=>({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[m]));
+  }
+  function shuffle(arr){
+    for(let i=arr.length-1;i>0;i--){
+      const j=Math.floor(Math.random()*(i+1));
+      [arr[i],arr[j]]=[arr[j],arr[i]];
+    }
+    return arr;
+  }
   function insertWrongTwiceLater(q, queue){
-    const len=queue.length; let start=Math.min(1,len); let end1=len;
+    const len=queue.length;
+    let start=Math.min(1,len);
+    let end1=len;
     let idx1=(len<=start)?start:(start+Math.floor(Math.random()*(end1-start+1)));
     queue.splice(idx1,0,{...q});
-    const len2=queue.length; const start2=Math.min(1,len2); const end2=len2;
+    const len2=queue.length;
+    const start2=Math.min(1,len2);
+    const end2=len2;
     let idx2=(len2<=start2)?start2:(start2+Math.floor(Math.random()*(end2-start2+1)));
     if(Math.abs(idx2-idx1)<=1 && len2>=4) idx2=Math.min(idx2+2,len2);
     queue.splice(idx2,0,{...q});
@@ -614,16 +1188,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const c=document.getElementById('confetti');
     const colors=['#22c55e','#3b82f6','#f59e0b','#ef4444','#a855f7','#14b8a6'];
     for(let i=0;i<count;i++){
-      const piece=document.createElement('div'); piece.className='confetti-piece';
-      piece.style.left=Math.random()*100+'vw'; piece.style.background=colors[i%colors.length];
+      const piece=document.createElement('div');
+      piece.className='confetti-piece';
+      piece.style.left=Math.random()*100+'vw';
+      piece.style.background=colors[i%colors.length];
       piece.style.animationDuration=(0.8+Math.random()*0.8)+'s';
       piece.style.transform=`translateY(-120%) rotate(${Math.random()*360}deg)`;
-      piece.style.width=(8+Math.random()*6)+'px'; piece.style.height=(12+Math.random()*10)+'px';
-      c.appendChild(piece); setTimeout(()=>piece.remove(),2000);
+      piece.style.width=(8+Math.random()*6)+'px';
+      piece.style.height=(12+Math.random()*10)+'px';
+      c.appendChild(piece);
+      setTimeout(()=>piece.remove(),2000);
     }
     setTimeout(()=>{ c.innerHTML=''; }, duration+1200);
   }
-
 });
 </script>
 </body>
