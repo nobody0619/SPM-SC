@@ -281,7 +281,8 @@
           准确率 Accuracy ≥ 90%：+8 碎片；80–89%：+5；70–79%：+3</li>
         <li>50 碎片 = 1 张复活卡。50 shards = 1 revive card.</li>
         <li>每个章节最多使用 2 次复活卡。Max 2 revives per chapter.</li>
-        <li>使用复活卡时 This question will be counted as correct, but no extra shards or combo bonus.</li>
+        <li>使用复活卡时：这题算作答对，但<b>不再额外送碎片或连对奖励</b>。  
+            When a revive is used, this question counts as correct, but <b>no extra shards or combo bonus</b>.</li>
       </ul>
     </div>
   </section>
@@ -367,7 +368,7 @@ document.addEventListener('DOMContentLoaded', () => {
     SC:  'https://script.google.com/macros/s/AKfycbx9A1jZ8oqSKExIfVCKnNiFmvPy407QqZBnZTRalU0IL4DSuOp9Nb4izaynd_4C54j3/exec'
   };
 
-  const SHEET_ID = SHEET_IDS[SUBJECT_PREFIX];
+  const SHEET_ID   = SHEET_IDS[SUBJECT_PREFIX];
   const SCRIPT_URL = GAS_ENDPOINTS[SUBJECT_PREFIX];
 
   /* 读取成绩用 CSV 地址（带防缓存） */
@@ -449,11 +450,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== 钱包 Wallet（云端 + 本地显示） ===== */
   const walletDisplay = document.getElementById('wallet-display');
-  const convertBtn = document.getElementById('convert-revive-btn');
+  const convertBtn    = document.getElementById('convert-revive-btn');
   let wallet = { shards:0, revives:0 };
-  let sessionShardDelta = 0;        // 本次登录内碎片变化
-  let sessionRevivesUsed = 0;       // 本章节实际消耗复活张数（用于限制 + 回写）
+
+  // 本次登录内的「碎片 / 复活卡」净变化（统一做增量同步）
+  let sessionShardDelta  = 0;   // + 表示新增碎片，- 表示消耗
+  let sessionReviveDelta = 0;   // + 新增复活卡（兑换），- 使用复活卡
   let revivesUsedThisChapter = 0;
+
   const REVIVE_COST = 50;
   const MAX_REVIVES_PER_CHAPTER = 2;
 
@@ -463,14 +467,15 @@ document.addEventListener('DOMContentLoaded', () => {
     convertBtn.style.display = user ? 'inline-flex' : 'none';
   }
 
+  // 读取钱包：对接 Apps Script 的 action=wallet-get
   async function loadWallet(){
     if(!user) return;
     try{
-      const url = `${SCRIPT_URL}?mode=wallet&name=${encodeURIComponent(user)}`;
+      const url = `${SCRIPT_URL}?action=wallet-get&name=${encodeURIComponent(user)}`;
       const res = await fetch(url);
       if(!res.ok) throw new Error('wallet http');
       const data = await res.json();
-      wallet.shards = Number(data.shards || 0);
+      wallet.shards  = Number(data.shards  || 0);
       wallet.revives = Number(data.revives || 0);
     }catch(e){
       console.error('loadWallet error', e);
@@ -479,23 +484,25 @@ document.addEventListener('DOMContentLoaded', () => {
     updateWalletUI();
   }
 
+  // 把本次 session 的增量写回云端：action=wallet-update
   async function syncWalletToServer(){
     if(!user) return;
-    if(!sessionShardDelta && !sessionRevivesUsed) return;
+    if(!sessionShardDelta && !sessionReviveDelta) return;
     try{
       const body = new URLSearchParams();
-      body.append('mode','wallet-update');
+      body.append('action','wallet-update');
       body.append('name', user);
-      body.append('deltaShards', String(sessionShardDelta));
-      body.append('revivesUsed', String(sessionRevivesUsed)); // 后端自己减少
+      if(sessionShardDelta)  body.append('shardsDelta',  String(sessionShardDelta));
+      if(sessionReviveDelta) body.append('revivesDelta', String(sessionReviveDelta));
       await fetch(SCRIPT_URL,{ method:'post', body });
-      sessionShardDelta = 0;
-      sessionRevivesUsed = 0;
+      sessionShardDelta  = 0;
+      sessionReviveDelta = 0;
     }catch(e){
       console.error('syncWallet error', e);
     }
   }
 
+  // 兑换复活卡：50 碎片 → 1 复活卡
   convertBtn.onclick = () => {
     if(!user) return alert('请先登录 / Please log in first.');
     if(wallet.shards < REVIVE_COST){
@@ -503,9 +510,10 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
     if(!confirm(`确定使用 ${REVIVE_COST} 碎片兑换 1 张复活卡吗？\nConvert ${REVIVE_COST} shards into 1 revive card?`)) return;
-    wallet.shards -= REVIVE_COST;
+    wallet.shards  -= REVIVE_COST;
     wallet.revives += 1;
-    sessionShardDelta -= REVIVE_COST; // 因为消耗了
+    sessionShardDelta  -= REVIVE_COST;
+    sessionReviveDelta += 1;
     updateWalletUI();
     alert('兑换成功！已获得 1 张复活卡。\nConversion successful! You gained 1 revive card.');
   };
@@ -958,7 +966,7 @@ Do you want to use 1 revive to count this question as correct?`;
           usedRevive = true;
           isC = true;                 // 视为答对
           wallet.revives -= 1;
-          sessionRevivesUsed += 1;
+          sessionReviveDelta -= 1;
           revivesUsedThisChapter += 1;
           updateWalletUI();
         }
@@ -1175,12 +1183,12 @@ Do you want to use 1 revive to count this question as correct?`;
     const len=queue.length;
     let start=Math.min(1,len);
     let end1=len;
-    let idx1=(len<=start)?start:(start+Math.floor(Math.random()*(end1-start+1)));
+    let idx1=(len<=start)?start:(start+Math.random()*(end1-start+1)|0);
     queue.splice(idx1,0,{...q});
     const len2=queue.length;
     const start2=Math.min(1,len2);
     const end2=len2;
-    let idx2=(len2<=start2)?start2:(start2+Math.floor(Math.random()*(end2-start2+1)));
+    let idx2=(len2<=start2)?start2:(start2+Math.random()*(end2-start2+1)|0);
     if(Math.abs(idx2-idx1)<=1 && len2>=4) idx2=Math.min(idx2+2,len2);
     queue.splice(idx2,0,{...q});
   }
