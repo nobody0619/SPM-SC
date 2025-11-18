@@ -272,10 +272,10 @@
     <div class="rules-box">
       <b>🎮 计分 &amp; 复活规则 Scoring &amp; Revive Rules</b>
       <ul>
-        <li>第一次答对 First try correct：<b>+2 分 / +2 points ＋ 1 碎片 shard</b></li>
-        <li>同一题再次答对 Correct on retry：<b>+1 分 / +1 point</b></li>
-        <li>第一次答错 First wrong：<b>-1 分 / -1 point</b>，题目会在后面再出现两次 Question will reappear twice later</li>
-        <li>再次答错 Wrong again：<b>-2 分 / -2 points</b></li>
+        <li>第一次答对 First try correct：<b>+2 分 +1 碎片 shard</b></li>
+        <li>同一题再次答对 Correct on retry：<b>+1 分</b></li>
+        <li>第一次答错 First wrong：<b>-1 分</b>，题目会在后面再出现两次 Question will reappear twice later</li>
+        <li>再次答错 Wrong again：<b>-2 分</b></li>
         <li>每连对 5 题 Every 5-correct combo：<b>额外 +2 碎片 extra shards</b></li>
         <li>完成章节 Chapter completed：  
           准确率 Accuracy ≥ 90%：+8 碎片；80–89%：+5；70–79%：+3</li>
@@ -502,8 +502,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // 兑换复活卡：50 碎片 → 1 复活卡（实时同步）
-  convertBtn.onclick = async () => {
+  // 兑换复活卡：50 碎片 → 1 复活卡
+  convertBtn.onclick = () => {
     if(!user) return alert('请先登录 / Please log in first.');
     if(wallet.shards < REVIVE_COST){
       alert(`碎片不足：需要 ${REVIVE_COST} 才能兑换 1 张复活卡。\nNot enough shards: need ${REVIVE_COST} to convert 1 revive.`);
@@ -515,7 +515,6 @@ document.addEventListener('DOMContentLoaded', () => {
     sessionShardDelta  -= REVIVE_COST;
     sessionReviveDelta += 1;
     updateWalletUI();
-    await syncWalletToServer();  // ⬅ 兑换后立刻写回 Apps Script
     alert('兑换成功！已获得 1 张复活卡。\nConversion successful! You gained 1 revive card.');
   };
 
@@ -614,7 +613,7 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('请输入姓名与密码 / Please enter both name and password.');
       return;
     }
-    Papa.parse(PASSWORDS_CSV + '?nocache=' + Date.now(),{
+    Papa.parse(PASSWORDS_CSV,{
       download:true,header:true,skipEmptyLines:true,
       complete: async (res)=>{
         const rows=(res.data||[]).map(r=>{
@@ -1046,11 +1045,21 @@ Do you want to use 1 revive to count this question as correct?`;
       nb.onclick=nextQ;
       div.appendChild(nb);
 
-      // 错题重刷：只有真正错而且没用复活卡才排回去
-      if(!isC && !usedRevive){
-        q.attempt++;
-        insertWrongTwiceLater(q, queue);
-      }
+// --- 错题重刷逻辑（加入复活卡重刷一次） ---
+
+if (!isC && !usedRevive) {
+    // 真正答错 → 重刷两次
+    q.attempt++;
+    insertWrongTwiceLater(q, queue);
+
+} else if (usedRevive) {
+    // 使用复活卡 → 重刷一次（让学生再次确认）
+    // 但不扣分、不给碎片、不影响 attempt
+    const copy = { ...q };
+    // 插入在后面随机一点的位置
+    const insertIndex = Math.floor(Math.random() * (queue.length + 1));
+    queue.splice(insertIndex, 0, copy);
+}
     };
 
     div.appendChild(sb);
