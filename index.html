@@ -272,10 +272,19 @@
     <div class="rules-box">
       <b>🎮 计分 &amp; 复活规则 Scoring &amp; Revive Rules</b>
       <ul>
-        <li>第一次答对 First try correct：<b>+2 分 +1 碎片 shard</b></li>
-        <li>同一题再次答对 Correct on retry：<b>+1 分</b></li>
-        <li>第一次答错 First wrong：<b>-1 分</b>，题目会在后面再出现两次 Question will reappear twice later</li>
-        <li>再次答错 Wrong again：<b>-2 分</b></li>
+<li>第一次答对 First try correct：
+  <b>+2 分 / +2 points ＋ 1 碎片 shard</b>
+</li>
+<li>同一题再次答对 Correct on retry：
+  <b>+1 分 / +1 point</b>
+</li>
+<li>第一次答错 First wrong：
+  <b>-1 分 / -1 point</b>，题目会在后面再出现两次 Question will reappear twice later
+</li>
+<li>再次答错 Wrong again：
+  <b>-2 分 / -2 points</b>
+</li>
+
         <li>每连对 5 题 Every 5-correct combo：<b>额外 +2 碎片 extra shards</b></li>
         <li>完成章节 Chapter completed：  
           准确率 Accuracy ≥ 90%：+8 碎片；80–89%：+5；70–79%：+3</li>
@@ -607,49 +616,85 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function attemptLogin(){
-    const nm=document.getElementById('username').value.trim();
-    const pw=document.getElementById('password').value;
-    if(!nm||!pw){
-      alert('请输入姓名与密码 / Please enter both name and password.');
-      return;
-    }
-    Papa.parse(PASSWORDS_CSV,{
-      download:true,header:true,skipEmptyLines:true,
-      complete: async (res)=>{
-        const rows=(res.data||[]).map(r=>{
-          const o={};
-          Object.entries(r).forEach(([k,v])=>{
-            o[String(k).trim().toLowerCase()] =
-              typeof v==='string'? v.trim(): v;
-          });
-          return o;
-        });
-        const nameKey='name', passKey='password';
-        const uwpRow=rows.find(r=>r[nameKey]==='*');
-        const uwpPassword=uwpRow?(uwpRow[passKey]||''):'';
-        // 通用试用密码 Universal trial password
-        if(uwpPassword && pw===uwpPassword){
-          if(universalRemainingMs()<=0) setUniversalStart(Date.now());
-          usedUniversal=true; updateSessionTimer();
-          user=nm;
-          await afterLogin();
-          return;
-        }
-        const match=rows.find(r=>
-          String(r[nameKey]||'').toLowerCase()===nm.toLowerCase()
-          && String(r[passKey]||'')===pw
-        );
-        if(!match){
-          alert('姓名或密码不正确 / Name or password incorrect.');
-          return;
-        }
-        clearUniversalStart(); usedUniversal=false; showSessionTimer(false);
-        user=nm;
-        await afterLogin();
-      },
-      error:()=> alert('无法读取 Passwords.csv，请确认文件存在且可公开访问。\nCannot load Passwords.csv, please check access.')
-    });
+  const nm = document.getElementById('username').value.trim();
+  const pw = document.getElementById('password').value;
+  if(!nm || !pw){
+    alert('请输入姓名与密码 / Please enter both name and password.');
+    return;
   }
+  // 把真正的读取逻辑交给带重试的函数
+  loadPasswordsAndLogin(nm, pw, 0);
+}
+// 尝试读取 Passwords.csv 并登入，最多重试 3 次
+function loadPasswordsAndLogin(nm, pw, attempt){
+  Papa.parse(PASSWORDS_CSV + '?nocache=' + Date.now(), {
+    download: true,
+    header: true,
+    skipEmptyLines: true,
+    complete: async (res) => {
+      const rowsRaw = res.data || [];
+      // 统一小写 key
+      const rows = rowsRaw.map(r => {
+        const o = {};
+        Object.entries(r).forEach(([k,v])=>{
+          o[String(k).trim().toLowerCase()] =
+            typeof v === 'string' ? v.trim() : v;
+        });
+        return o;
+      });
+
+      // 万一刚更新完 GitHub，读到空表，就再试几次
+      if(rows.length === 0 && attempt < 3){
+        console.warn('Passwords.csv 为空，1 秒后重试，第', attempt+1, '次');
+        setTimeout(() => loadPasswordsAndLogin(nm, pw, attempt + 1), 1000);
+        return;
+      }
+
+      const nameKey = 'name';
+      const passKey = 'password';
+
+      // 通用试用密码（* 那一行）
+      const uwpRow = rows.find(r => r[nameKey] === '*');
+      const uwpPassword = uwpRow ? (uwpRow[passKey] || '') : '';
+
+      // 通用密码：试用 5 分钟
+      if(uwpPassword && pw === uwpPassword){
+        if(universalRemainingMs() <= 0) setUniversalStart(Date.now());
+        usedUniversal = true;
+        updateSessionTimer();
+        user = nm;
+        await afterLogin();
+        return;
+      }
+
+      // 正常用户密码
+      const match = rows.find(r =>
+        String(r[nameKey] || '').toLowerCase() === nm.toLowerCase() &&
+        String(r[passKey] || '') === pw
+      );
+
+      if(!match){
+        alert('姓名或密码不正确 / Name or password incorrect.');
+        return;
+      }
+
+      clearUniversalStart();
+      usedUniversal = false;
+      showSessionTimer(false);
+      user = nm;
+      await afterLogin();
+    },
+    error: () => {
+      if (attempt < 3) {
+        console.warn('读取 Passwords.csv 出错，1 秒后重试，第', attempt+1, '次');
+        setTimeout(() => loadPasswordsAndLogin(nm, pw, attempt + 1), 1000);
+      } else {
+        alert('无法读取 Passwords.csv，请确认文件存在且可公开访问。\nCannot load Passwords.csv, please check access.');
+      }
+    }
+  });
+}
+
 
   async function afterLogin(){
     await fetchCloudResultsFor(user);
