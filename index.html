@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== 登录/会话（试用5分钟） ===== */
   let user = '', usedUniversal = false;
-  const UWP_WINDOW_MS = 5 * 60 * 1000;
+  const UWP_WINDOW_MS = 15 * 60 * 1000;
   function setUniversalStart(ts){ localStorage.setItem('uwpStart', String(ts)); }
   function getUniversalStart(){ const v=localStorage.getItem('uwpStart'); return v? Number(v):0; }
   function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
