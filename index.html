@@ -64,9 +64,22 @@
 
     #wallet-display{
       font-size:12px; color:#111;
-      padding:4px 10px; border-radius:999px;
-      background:#f4f4f5;
+      padding:6px 12px; border-radius:16px;
+      background:#f4f4f5; text-align:left; min-width:170px;
     }
+    #xp-bar-wrap{
+      width:150px; height:7px; background:#e5e7eb;
+      border-radius:999px; overflow:hidden; margin-bottom:4px;
+    }
+    #xp-bar{
+      width:0%; height:100%;
+      background:linear-gradient(90deg,#60a5fa,#a78bfa,#f472b6);
+      border-radius:999px;
+      transition:width .35s ease;
+    }
+    #xp-text{ font-size:11px; color:#555; margin-bottom:2px; }
+    #wallet-line{ white-space:nowrap; }
+    #expiry-line{ font-size:11px; color:#666; margin-top:2px; white-space:nowrap; }
 
     .hero{
       margin:28px auto; padding:32px 28px;
@@ -109,9 +122,13 @@
     .pill{
       display:inline-flex; align-items:center; gap:8px;
       margin:6px; padding:8px 12px;
-      border-radius:999px; background:#111; color:#fff;
-      border:0; cursor:pointer; font-size:14px;
+      border-radius:999px; background:#f3f4f6; color:#111;
+      border:1px solid #e5e7eb; cursor:pointer; font-size:14px;
     }
+    .pill-full{ background:#dbeafe; border-color:#93c5fd; }
+    .pill-f4{ background:#fce7f3; border-color:#f9a8d4; }
+    .pill-f5{ background:#ede9fe; border-color:#c4b5fd; }
+    .pill-done{ background:#dcfce7 !important; border-color:#86efac !important; }
     .badge{
       background:#fff; color:#111;
       padding:2px 8px; border-radius:999px;
@@ -230,6 +247,24 @@
     }
     .rules-box ul{ padding-left:18px; margin:4px 0; }
     .rules-box li{ margin:2px 0; }
+
+    .overlay{
+      position:fixed; inset:0; background:rgba(17,24,39,.35);
+      display:flex; align-items:center; justify-content:center; z-index:99999;
+      padding:20px;
+    }
+    .overlay-card{
+      background:#fff; border:1px solid #e5e7eb; border-radius:20px;
+      box-shadow:0 18px 40px rgba(0,0,0,.12); padding:22px; width:min(460px,95vw);
+      text-align:center;
+    }
+    .mode-actions{ display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:14px; }
+    .mode-btn{
+      border:0; border-radius:16px; padding:12px 16px; cursor:pointer;
+      background:#f3f4f6; color:#111; font-weight:700; box-shadow:var(--shadow);
+    }
+    .mode-btn:hover{ transform:translateY(-1px); }
+
   </style>
 </head>
 <body>
@@ -239,7 +274,12 @@
       <div id="session-timer">会话剩余 / Session left: <span id="session-remaining">05:00</span></div>
     </div>
     <div class="nav-right">
-      <span id="wallet-display">碎片 Shards: 0 ｜ 复活 Revives: 0</span>
+      <div id="wallet-display">
+        <div id="xp-bar-wrap"><div id="xp-bar"></div></div>
+        <div id="xp-text">Lv.1 • XP 0 / 50</div>
+        <div id="wallet-line">碎片 Shards: 0 ｜ 复活 Revives: 0</div>
+        <div id="expiry-line">截止 Expiry: 未登录 / Not logged in</div>
+      </div>
       <button id="convert-revive-btn" class="pill-btn light" style="display:none;">
         ✨ 50 碎片换 1 复活 / Convert 50 shards → 1 revive
       </button>
@@ -303,12 +343,23 @@
     <button id="startBtn" type="button" class="pill-btn">登录 / Log In</button>
     <div class="muted" style="margin-top:8px;">
       免费试用密码：<b>testing</b>（5 分钟 5 minutes）；
-      RM10 一次性开通 Unlock unlimited practice once.  
+      2000题练习每月只需 RM5 / 2000 practice questions monthly only RM5  /  5月将起价至每月RM10
       购买请联系：纪老师 016-7312519。
     </div>
   </div>
 
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
+
+  <div id="mode-picker" class="overlay" style="display:none;">
+    <div class="overlay-card">
+      <h3 id="mode-picker-title">请选择练习模式 / Select Practice Mode</h3>
+      <p id="mode-picker-total" class="muted">完整题数 Total questions: 0</p>
+      <div id="mode-picker-actions" class="mode-actions"></div>
+      <div style="margin-top:10px;">
+        <button id="mode-picker-cancel" class="pill-btn light">取消 / Cancel</button>
+      </div>
+    </div>
+  </div>
 
   <div id="quiz">
     <h3 id="quiz-title"></h3>
@@ -408,7 +459,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== 登录/会话（试用5分钟） ===== */
   let user = '', usedUniversal = false;
-  const UWP_WINDOW_MS = 15 * 60 * 1000;
+  const UWP_WINDOW_MS = 5 * 60 * 1000;
   function setUniversalStart(ts){ localStorage.setItem('uwpStart', String(ts)); }
   function getUniversalStart(){ const v=localStorage.getItem('uwpStart'); return v? Number(v):0; }
   function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
@@ -420,7 +471,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('session-timer').style.display = b?'block':'none';
   }
   function updateSessionTimer(){
-    if(!usedUniversal){ showSessionTimer(false); return; }
+    if(!usedUniversal){ showSessionTimer(false); updateWalletUI(); return; }
     const rem=universalRemainingMs();
     if(rem<=0){
       showSessionTimer(false);
@@ -432,6 +483,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ss=Math.floor((rem%60000)/1000).toString().padStart(2,'0');
     document.getElementById('session-remaining').textContent=`${mm}:${ss}`;
     showSessionTimer(true);
+    updateWalletUI();
   }
   setInterval(updateSessionTimer, 500);
 
@@ -460,7 +512,10 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ===== 钱包 Wallet（云端 + 本地显示） ===== */
   const walletDisplay = document.getElementById('wallet-display');
   const convertBtn    = document.getElementById('convert-revive-btn');
-  let wallet = { shards:0, revives:0 };
+  let wallet = { shards:0, revives:0, level:1, xp:0, totalXp:0 };
+  let accountExpiryRaw = '';
+  let accountExpiryDate = null;
+  let accountExpiryLabel = '未登录 / Not logged in';
 
   // 本次登录内的「碎片 / 复活卡」净变化（统一做增量同步）
   let sessionShardDelta  = 0;   // + 表示新增碎片，- 表示消耗
@@ -470,9 +525,39 @@ document.addEventListener('DOMContentLoaded', () => {
   const REVIVE_COST = 50;
   const MAX_REVIVES_PER_CHAPTER = 2;
 
+  function xpNeeded(level){
+    return 50 + (Math.max(1, Number(level)||1) - 1) * 10;
+  }
+
+  function pad2(n){ return String(n).padStart(2,'0'); }
+
+  function formatExpiryLine(){
+    if(usedUniversal){
+      const rem = universalRemainingMs();
+      if(rem <= 0) return '截止 Expiry: 已过期 / Expired';
+      const end = new Date(Date.now() + rem);
+      return `截止 Expiry: 试用到 ${pad2(end.getDate())}-${pad2(end.getMonth()+1)}-${end.getFullYear()} ${pad2(end.getHours())}:${pad2(end.getMinutes())}`;
+    }
+    if(!user) return '截止 Expiry: 未登录 / Not logged in';
+    if(accountExpiryDate){
+      return `截止 Expiry: ${accountExpiryRaw}`;
+    }
+    if(accountExpiryLabel){
+      return `截止 Expiry: ${accountExpiryLabel}`;
+    }
+    return '截止 Expiry: 未设置 / Not set';
+  }
+
   function updateWalletUI(){
-    walletDisplay.textContent =
+    const level = Math.max(1, Number(wallet.level || 1));
+    const xp = Math.max(0, Number(wallet.xp || 0));
+    const need = xpNeeded(level);
+    const pct = Math.max(0, Math.min(100, (xp / need) * 100));
+    document.getElementById('xp-text').textContent = `Lv.${level} • XP ${xp} / ${need}`;
+    document.getElementById('xp-bar').style.width = `${pct}%`;
+    document.getElementById('wallet-line').textContent =
       `碎片 Shards: ${wallet.shards} ｜ 复活 Revives: ${wallet.revives}`;
+    document.getElementById('expiry-line').textContent = formatExpiryLine();
     convertBtn.style.display = user ? 'inline-flex' : 'none';
   }
 
@@ -484,11 +569,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const res = await fetch(url);
       if(!res.ok) throw new Error('wallet http');
       const data = await res.json();
-      wallet.shards  = Number(data.shards  || 0);
-      wallet.revives = Number(data.revives || 0);
+      const w = data.data || data || {};
+      wallet.shards  = Number(w.shards  || 0);
+      wallet.revives = Number(w.revives || 0);
+      wallet.level   = Number(w.level   || 1);
+      wallet.xp      = Number(w.xp      || 0);
+      wallet.totalXp = Number(w.totalXp || 0);
     }catch(e){
       console.error('loadWallet error', e);
-      wallet = { shards:0, revives:0 };
+      wallet = { shards:0, revives:0, level:1, xp:0, totalXp:0 };
     }
     updateWalletUI();
   }
@@ -597,6 +686,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let chapterKey, sectionKey, labelKey, sheetKey;
   let currentChapter='';
   let qs=[], queue=[], score=0, correct=0, wrong=0, chapterStart=0;
+  let chapterQuestionCache = {};
+  let selectedQuestionMode = 'all';
+  let activeQuestionTotal = 0;
   let correctStreak=0, wrongStreak=0;
   const MAX_OPTS=15;
 
@@ -606,6 +698,10 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('my-results-btn').onclick = openResults;
   document.getElementById('back-to-menu').onclick = backToMenu;
   document.getElementById('back-to-chapters-btn').onclick = backToMenu;
+  document.getElementById('mode-picker-cancel').onclick = () => {
+    document.getElementById('mode-picker').style.display='none';
+    document.getElementById('menu').style.display='block';
+  };
 
   function backToMenu(){
     document.getElementById('results').style.display='none';
@@ -613,6 +709,24 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('finish').style.display='none';
     document.getElementById('menu').style.display='block';
     document.getElementById('menu').scrollIntoView({behavior:'smooth'});
+  }
+
+  function parseExpiryDate(str){
+    str = String(str || '').trim();
+    if(!str || /^forever$/i.test(str)) return null;
+    if(/^\d{2}-\d{2}-\d{4}$/.test(str)){
+      const [d,m,y] = str.split('-').map(Number);
+      return new Date(y, m-1, d, 23,59,59,999);
+    }
+    if(/^\d{4}-\d{2}-\d{2}$/.test(str)){
+      const [y,m,d] = str.split('-').map(Number);
+      return new Date(y, m-1, d, 23,59,59,999);
+    }
+    if(/^\d{4}-\d{2}$/.test(str)){
+      const [y,m] = str.split('-').map(Number);
+      return new Date(y, m, 0, 23,59,59,999);
+    }
+    return null;
   }
 
   function attemptLogin(){
@@ -661,6 +775,9 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       if(uwpPassword && pw === uwpPassword){
         if(universalRemainingMs() <= 0) setUniversalStart(Date.now());
         usedUniversal = true;
+        accountExpiryRaw = '';
+        accountExpiryDate = null;
+        accountExpiryLabel = '试用账号 / Trial';
         updateSessionTimer();
         user = nm;
         await afterLogin();
@@ -678,9 +795,19 @@ function loadPasswordsAndLogin(nm, pw, attempt){
         return;
       }
 
+      const expiryRaw = match['expires'] || match['expiry'] || match['end'] || match['enddate'] || match['validuntil'] || '';
+      const expiryDate = parseExpiryDate(expiryRaw);
+      if(expiryRaw && expiryDate && Date.now() > expiryDate.getTime()){
+        alert(`账号已过期 (${expiryRaw})\nAccount expired.`);
+        return;
+      }
+
       clearUniversalStart();
       usedUniversal = false;
       showSessionTimer(false);
+      accountExpiryRaw = expiryRaw || '';
+      accountExpiryDate = expiryDate || null;
+      accountExpiryLabel = expiryRaw ? expiryRaw : '永久 / Permanent';
       user = nm;
       await afterLogin();
     },
@@ -700,6 +827,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     await fetchCloudResultsFor(user);
     loadLocalResults();
     await loadWallet();
+    updateWalletUI();
     document.getElementById('my-results-btn').style.display='inline-block';
     document.getElementById('back-to-chapters-btn').style.display='inline-block';
     document.getElementById('welcome').style.display='none';
@@ -714,6 +842,38 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       location.reload();
       throw new Error('Session expired');
     }
+  }
+
+
+  function inferRowYear(r){
+    const vals = [
+      r?.displayChapter,
+      chapterKey ? r?.[chapterKey] : '',
+      labelKey ? r?.[labelKey] : '',
+      sheetKey ? r?.[sheetKey] : ''
+    ].map(v => String(v || ''));
+
+    for(const v of vals){
+      const m = v.match(/(20\d{2})/);
+      if(m) return Number(m[1]);
+    }
+    return null;
+  }
+
+  function normalizeChapterDisplay(r){
+    const rawChapter = String((chapterKey && r?.[chapterKey]) || '').trim();
+    const groupVal = String(r?.group || r?.Group || '').trim().toLowerCase();
+    const year = inferRowYear(r);
+    if(!rawChapter) return rawChapter;
+
+    if(groupVal === 'chapter' || /(bab|chp|chapter)/i.test(rawChapter)){
+      let s = rawChapter;
+      s = s.replace(/20\d{2}/g, '').replace(/\s+/g, ' ').trim();
+      if(year && !new RegExp('\b' + year + '\b').test(s)) s = `${s} ${year}`;
+      return s.trim();
+    }
+
+    return rawChapter;
   }
 
   function loadChapters(){
@@ -740,7 +900,9 @@ function loadPasswordsAndLogin(nm, pw, attempt){
 
         grouped={};
         chapters.forEach(r=>{
-          const c=r[chapterKey];
+          r.displayChapter = normalizeChapterDisplay(r);
+          r.displayYear = inferRowYear(r);
+          const c = r.displayChapter || r[chapterKey];
           (grouped[c]||(grouped[c]=[])).push(r);
         });
         renderMenu();
@@ -748,24 +910,63 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     });
   }
 
+  function getChapterTypeClass(chap){
+    if(/F4/i.test(chap)) return 'pill-f4';
+    if(/F5/i.test(chap)) return 'pill-f5';
+    return 'pill-full';
+  }
+
+  async function fetchChapterQuestionCount(chap){
+    if(chapterQuestionCache[chap] != null) return chapterQuestionCache[chap];
+    const secList = grouped[chap] || [];
+    const counts = await Promise.all(secList.map(sec => new Promise(resolve=>{
+      Papa.parse(sec[sheetKey],{
+        download:true, header:true, skipEmptyLines:true,
+        complete:r=>resolve((r.data||[]).length),
+        error:()=>resolve(0)
+      });
+    })));
+    const total = counts.reduce((a,b)=>a+b,0);
+    chapterQuestionCache[chap] = total;
+    return total;
+  }
+
+  function getChapterYear(chap){
+    const m = String(chap || '').match(/\b(20\d{2})\b/);
+    return m ? Number(m[1]) : null;
+  }
+
+  function getChapterNumber(chap){
+    return parseInt(String(chap).match(/(?:Chp|Bab)\s*(\d+(?:\.\d+)?)/i)?.[1] || '0', 10);
+  }
+
   function renderMenu(){
     const menu=document.getElementById('menu');
     menu.innerHTML='<h2>请选择章节 / Select Chapter</h2>';
 
-    const statePapers={2025:{},2024:{},2023:{}}; 
-    const chaptersF4={2025:[],2024:[],2023:[]};
-    const chaptersF5={2025:[],2024:[],2023:[]};
+    const years = Array.from(new Set(Object.keys(grouped)
+      .map(getChapterYear)
+      .filter(y => Number.isFinite(y))
+    )).sort((a,b)=>b-a);
+
+    const statePapers={};
+    const chaptersF4={};
+    const chaptersF5={};
+    years.forEach(y=>{
+      statePapers[y] = {};
+      chaptersF4[y] = [];
+      chaptersF5[y] = [];
+    });
 
     Object.keys(grouped).forEach(chap=>{
-      const year = chap.match(/2025/)?2025 :
-                   chap.match(/2024/)?2024 :
-                   chap.match(/2023/)?2023 : null;
+      const rows = grouped[chap] || [];
+      const year = rows[0]?.displayYear || getChapterYear(chap);
       if(!year) return;
       if(/(Chp|Bab)/i.test(chap)){
         if(/F4/i.test(chap)) chaptersF4[year].push(chap);
         else if(/F5/i.test(chap)) chaptersF5[year].push(chap);
       } else {
-        const state = chap.split(' ')[0];
+        const state = String(chap).replace(/\b20\d{2}\b.*$/, '').trim() || String(chap).split(' ')[0];
         (statePapers[year][state] ||= []).push(chap);
       }
     });
@@ -774,66 +975,73 @@ function loadPasswordsAndLogin(nm, pw, attempt){
 
     const makeChapterButton=(chap)=>{
       const btn=document.createElement('button');
-      btn.className='pill';
+      btn.className='pill ' + getChapterTypeClass(chap);
       btn.textContent=chap;
+
+      const countBadge=document.createElement('span');
+      countBadge.className='badge badge-gray';
+      countBadge.textContent='题数 ...';
+      btn.appendChild(countBadge);
+
       const badge=document.createElement('span');
       const best=bestPercentForChapter(chap,bestPctMap);
       if(best!=null){
         badge.className='badge badge-green';
         badge.textContent=`最高准确率 Best: ${best}%`;
+        if(best>=70) btn.classList.add('pill-done');
       }else{
         badge.className='badge badge-gray';
         badge.textContent='未做 / Not attempted';
       }
       btn.appendChild(badge);
+
+      fetchChapterQuestionCount(chap).then(total=>{
+        countBadge.textContent = `共 ${total} 题`;
+      });
+
       btn.onclick=()=>{ guardUniversalWindowOrThrow(); startChapter(chap); };
       return btn;
     };
 
-    [2025,2024,2023].forEach(y=>{
+    const appendChapterGroup = (title, items, isChapter=true) => {
+      if(!items.length) return;
+      const h=document.createElement('h2');
+      h.textContent=title;
+      menu.appendChild(h);
+      const g=document.createElement('div');
+      g.className='group';
+      items.forEach(ch=> g.appendChild(makeChapterButton(ch)));
+      menu.appendChild(g);
+    };
+
+    years.forEach(y=>{
+      const f4Sorted = chaptersF4[y].sort((a,b)=>{
+        const na=getChapterNumber(a), nb=getChapterNumber(b);
+        return (na-nb)||a.localeCompare(b);
+      });
+      appendChapterGroup(`Form 4 Chapters ${y}`, f4Sorted);
+
+      const f5Sorted = chaptersF5[y].sort((a,b)=>{
+        const na=getChapterNumber(a), nb=getChapterNumber(b);
+        return (na-nb)||a.localeCompare(b);
+      });
+      appendChapterGroup(`Form 5 Chapters ${y}`, f5Sorted);
+    });
+
+    years.forEach(y=>{
       const states=statePapers[y];
-      if(Object.keys(states).length){
-        const h=document.createElement('h2');
-        h.textContent=`州属试卷 State Papers ${y}`;
-        menu.appendChild(h);
-        for(const st of Object.keys(states).sort()){
-          const g=document.createElement('div'); g.className='group';
-          const h4=document.createElement('h4');
-          h4.textContent=`${st}`; g.appendChild(h4);
-          states[st].sort().forEach(ch=> g.appendChild(makeChapterButton(ch)));
-          menu.appendChild(g);
-        }
-      }
-    });
-
-    [2025,2024,2023].forEach(y=>{
-      if(chaptersF4[y].length){
-        const h=document.createElement('h2');
-        h.textContent=`Form 4 Chapters ${y}`;
-        menu.appendChild(h);
+      const stateNames=Object.keys(states).sort();
+      if(!stateNames.length) return;
+      const h=document.createElement('h2');
+      h.textContent=`州属试卷 State Papers ${y}`;
+      menu.appendChild(h);
+      stateNames.forEach(st=>{
         const g=document.createElement('div'); g.className='group';
-        chaptersF4[y].sort((a,b)=>{
-          const na=parseInt(a.match(/(Chp|Bab)\s*(\d+)/i)?.[2]||0);
-          const nb=parseInt(b.match(/(Chp|Bab)\s*(\d+)/i)?.[2]||0);
-          return (na-nb)||a.localeCompare(b);
-        }).forEach(ch=> g.appendChild(makeChapterButton(ch)));
+        const h4=document.createElement('h4');
+        h4.textContent=`${st}`; g.appendChild(h4);
+        states[st].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'})).forEach(ch=> g.appendChild(makeChapterButton(ch)));
         menu.appendChild(g);
-      }
-    });
-
-    [2025,2024,2023].forEach(y=>{
-      if(chaptersF5[y].length){
-        const h=document.createElement('h2');
-        h.textContent=`Form 5 Chapters ${y}`;
-        menu.appendChild(h);
-        const g=document.createElement('div'); g.className='group';
-        chaptersF5[y].sort((a,b)=>{
-          const na=parseInt(a.match(/(Chp|Bab)\s*(\d+)/i)?.[2]||0);
-          const nb=parseInt(b.match(/(Chp|Bab)\s*(\d+)/i)?.[2]||0);
-          return (na-nb)||a.localeCompare(b);
-        }).forEach(ch=> g.appendChild(makeChapterButton(ch)));
-        menu.appendChild(g);
-      }
+      });
     });
 
     menu.style.display='block';
@@ -863,6 +1071,58 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     }
   }
 
+  document.getElementById('mode-picker').addEventListener('click', (e) => {
+    if(e.target && e.target.id === 'mode-picker'){
+      document.getElementById('mode-picker').style.display='none';
+      document.getElementById('menu').style.display='block';
+    }
+  });
+
+  function openModePicker(total){
+    const overlay = document.getElementById('mode-picker');
+    const actions = document.getElementById('mode-picker-actions');
+    document.getElementById('mode-picker-title').textContent = currentChapter;
+    document.getElementById('mode-picker-total').textContent = `完整题数 Total questions: ${total}`;
+    actions.innerHTML = '';
+
+    const modes = [];
+    if(total >= 20){
+      modes.push({label:'随机 10 题 / Random 10', count:10});
+      modes.push({label:'随机 20 题 / Random 20', count:20});
+    }else if(total >= 10){
+      modes.push({label:'随机 10 题 / Random 10', count:10});
+    }
+    modes.push({label:`全部做完 / All ${total}`, count:'all'});
+
+    modes.forEach(m=>{
+      const btn=document.createElement('button');
+      btn.className='mode-btn';
+      btn.textContent=m.label;
+      btn.onclick=()=>chooseQuestionMode(m.count);
+      actions.appendChild(btn);
+    });
+
+    overlay.style.display='flex';
+  }
+
+  function chooseQuestionMode(count){
+    document.getElementById('mode-picker').style.display='none';
+    selectedQuestionMode = count === 'all' ? 'all' : String(count);
+    let selected = [...qs];
+    if(count !== 'all'){
+      selected = shuffle([...qs]).slice(0, Math.min(Number(count), qs.length));
+    }
+    activeQuestionTotal = selected.length;
+    qs = selected.map(q=> ({...q, attempt:0}));
+    queue = shuffle([...qs]);
+    document.getElementById('quiz-title').textContent =
+      `${currentChapter} ｜ ${count==='all' ? '全部做完' : `随机 ${count} 题`} / ${activeQuestionTotal}题`;
+    document.getElementById('quiz').style.display='block';
+    document.getElementById('finish').style.display='none';
+    updateUI(0);
+    nextQ();
+  }
+
   function loadChapterAllSectionsAndStart(){
     const secList=grouped[currentChapter]||[];
     if(!secList.length){
@@ -881,16 +1141,14 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       });
     }));
     Promise.all(tasks).then(list=>{
-      qs=list.flat();
-      if(!qs.length){
+      const allRows=list.flat();
+      if(!allRows.length){
         alert('无法读取题库 CSV，请检查链接与访问权限。\nCannot load question CSV.');
         renderMenu(); return;
       }
-      queue=shuffle([...qs]);
-      document.getElementById('quiz').style.display='block';
-      document.getElementById('finish').style.display='none';
-      updateUI(0);
-      nextQ();
+      qs=allRows;
+      chapterQuestionCache[currentChapter] = allRows.length;
+      openModePicker(allRows.length);
     });
   }
 
@@ -900,8 +1158,8 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     document.getElementById('remaining').textContent=
       `剩余题目 Remaining: ${queue.length}`;
     const pg=document.getElementById('progress');
-    pg.max=qs.length;
-    pg.value=qs.length - queue.length;
+    pg.max=activeQuestionTotal || qs.length;
+    pg.value=(activeQuestionTotal || qs.length) - queue.length;
   }
   function flashProgress(ok){
     const w=document.getElementById('progressWrap');
