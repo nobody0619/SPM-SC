@@ -62,6 +62,14 @@
       --dot-color:rgba(24,24,27,.035);
       --top-glow-1:rgba(113,113,122,.07); --top-glow-2:rgba(59,130,246,.05); --top-glow-3:rgba(34,197,94,.04);
     }
+    body.theme-dark{
+      --black:#f8fafc; --fg:#e5e7eb; --bg:#0f172a; --muted:#cbd5e1;
+      --border:#334155; --shadow:0 8px 26px rgba(0,0,0,.35);
+      --page-bg:#0f172a; --card-bg:#111827; --hero-bg:linear-gradient(135deg,#111827,#0f172a);
+      --soft-panel:#1f2937; --pill-bg:#1e293b; --input-bg:#0b1220;
+      --dot-color:rgba(255,255,255,.055);
+      --top-glow-1:rgba(34,197,94,.13); --top-glow-2:rgba(59,130,246,.14); --top-glow-3:rgba(168,85,247,.12);
+    }
     body{
       font-family: Arial, sans-serif;
       max-width:1100px; margin:auto;
@@ -338,6 +346,77 @@
     .question,.overlay-card{ background:var(--card-bg); }
     #wallet-display, th{ background:var(--pill-bg); }
 
+
+    /* 深色模式 / Dark Mode：只改变颜色，不改变原本功能 */
+    body.theme-dark{ color:var(--fg); }
+    body.theme-dark::after{
+      background-image:
+        radial-gradient(var(--dot-color) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,.025), rgba(255,255,255,0));
+    }
+    body.theme-dark .hero{
+      border-color:var(--border);
+      background:
+        radial-gradient(1200px 420px at -10% -10%, rgba(14,165,233,.13) 0%, rgba(17,24,39,0) 60%),
+        radial-gradient(900px 320px at 110% 20%, rgba(34,197,94,.10) 0%, rgba(17,24,39,0) 55%),
+        var(--hero-bg);
+    }
+    body.theme-dark .brand-sub,
+    body.theme-dark .muted,
+    body.theme-dark #streak,
+    body.theme-dark footer,
+    body.theme-dark #xp-text,
+    body.theme-dark #expiry-line{ color:var(--muted); }
+    body.theme-dark .theme-select-wrap,
+    body.theme-dark .rules-box,
+    body.theme-dark #wallet-display,
+    body.theme-dark th,
+    body.theme-dark .overlay-card,
+    body.theme-dark .question{
+      background:var(--card-bg);
+      color:var(--fg);
+      border-color:var(--border);
+    }
+    body.theme-dark .rules-box{ background:var(--soft-panel); }
+    body.theme-dark input,
+    body.theme-dark select{
+      background:var(--input-bg);
+      color:var(--fg);
+      border-color:#475569;
+    }
+    body.theme-dark input::placeholder{ color:#94a3b8; }
+    body.theme-dark table,
+    body.theme-dark th,
+    body.theme-dark td{ border-color:#334155; color:var(--fg); }
+    body.theme-dark th{ background:#1e293b; }
+    body.theme-dark .tag{
+      background:#0f172a;
+      color:var(--fg);
+      border-color:#334155;
+    }
+    body.theme-dark .tag.hot{
+      background:#052e1a;
+      color:#86efac;
+      border-color:#22c55e;
+    }
+    body.theme-dark .mode-btn{
+      background:#1e293b;
+      color:var(--fg);
+      border:1px solid #334155;
+    }
+    body.theme-dark .pill:not(.pill-f4):not(.pill-f5):not(.pill-full):not(.pill-done){
+      background:#1e293b;
+      color:var(--fg);
+      border-color:#334155;
+    }
+    body.theme-dark .badge-gray{ background:#334155; color:#f8fafc; }
+    body.theme-dark .badge-green{ background:#22c55e; color:#052e16; }
+    body.theme-dark progress::-webkit-progress-bar{ background-color:#334155; }
+    body.theme-dark progress::-webkit-progress-value{ background-color:#e5e7eb; }
+    body.theme-dark progress::-moz-progress-bar{ background:#e5e7eb; }
+    body.theme-dark img{ border-color:#475569; }
+
+
   </style>
 </head>
 <body>
@@ -356,6 +435,7 @@
           <option value="blue">淡蓝 Soft Blue</option>
           <option value="purple">淡紫 Soft Purple</option>
           <option value="gray">浅灰 Soft Gray</option>
+          <option value="dark">深色 Dark Mode</option>
         </select>
       </label>
       <div id="wallet-display">
@@ -494,7 +574,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   /* ===== 背景颜色选择 / Background Theme Selector ===== */
   const THEME_KEY = 'kee_quiz_bg_theme';
-  const THEME_LIST = ['white','cream','green','blue','purple','gray'];
+  const THEME_LIST = ['white','cream','green','blue','purple','gray','dark'];
   const themeSelect = document.getElementById('theme-select');
 
   function applyTheme(theme){
