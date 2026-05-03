@@ -10,8 +10,58 @@
       --black:#111; --fg:#111; --bg:#fff; --muted:#555;
       --green:#16a34a; --green-2:#22c55e;
       --border:#eee; --shadow:0 6px 20px rgba(0,0,0,.06);
+
+      /* 背景主题变量 / Background theme variables */
+      --page-bg:#fff;
+      --card-bg:#fff;
+      --hero-bg:linear-gradient(135deg,#fff,#fafafa);
+      --soft-panel:#f9fafb;
+      --pill-bg:#f3f4f6;
+      --input-bg:#fff;
+      --dot-color:rgba(0,0,0,.035);
+      --top-glow-1:rgba(34,197,94,.06);
+      --top-glow-2:rgba(59,130,246,.06);
+      --top-glow-3:rgba(168,85,247,.05);
     }
-    html,body{ background:#fff; }
+
+    html,body{ background:var(--page-bg); }
+
+    body.theme-white{
+      --page-bg:#fff; --card-bg:#fff; --hero-bg:linear-gradient(135deg,#fff,#fafafa);
+      --soft-panel:#f9fafb; --pill-bg:#f3f4f6; --input-bg:#fff;
+      --dot-color:rgba(0,0,0,.035);
+      --top-glow-1:rgba(34,197,94,.06); --top-glow-2:rgba(59,130,246,.06); --top-glow-3:rgba(168,85,247,.05);
+    }
+    body.theme-cream{
+      --page-bg:#fff7ed; --card-bg:#fffaf0; --hero-bg:linear-gradient(135deg,#fff7ed,#fffbeb);
+      --soft-panel:#fff3dc; --pill-bg:#ffedd5; --input-bg:#fffaf0;
+      --dot-color:rgba(120,53,15,.055);
+      --top-glow-1:rgba(245,158,11,.10); --top-glow-2:rgba(34,197,94,.06); --top-glow-3:rgba(251,146,60,.08);
+    }
+    body.theme-green{
+      --page-bg:#f0fdf4; --card-bg:#f7fff9; --hero-bg:linear-gradient(135deg,#ecfdf5,#f0fdf4);
+      --soft-panel:#e8f8ee; --pill-bg:#dcfce7; --input-bg:#f7fff9;
+      --dot-color:rgba(22,101,52,.05);
+      --top-glow-1:rgba(34,197,94,.13); --top-glow-2:rgba(20,184,166,.08); --top-glow-3:rgba(132,204,22,.07);
+    }
+    body.theme-blue{
+      --page-bg:#eff6ff; --card-bg:#f8fbff; --hero-bg:linear-gradient(135deg,#eff6ff,#f0f9ff);
+      --soft-panel:#eaf3ff; --pill-bg:#dbeafe; --input-bg:#f8fbff;
+      --dot-color:rgba(30,64,175,.045);
+      --top-glow-1:rgba(59,130,246,.13); --top-glow-2:rgba(14,165,233,.10); --top-glow-3:rgba(99,102,241,.08);
+    }
+    body.theme-purple{
+      --page-bg:#faf5ff; --card-bg:#fffbff; --hero-bg:linear-gradient(135deg,#faf5ff,#f5f3ff);
+      --soft-panel:#f4eaff; --pill-bg:#ede9fe; --input-bg:#fffbff;
+      --dot-color:rgba(88,28,135,.045);
+      --top-glow-1:rgba(168,85,247,.12); --top-glow-2:rgba(236,72,153,.07); --top-glow-3:rgba(99,102,241,.08);
+    }
+    body.theme-gray{
+      --page-bg:#f4f4f5; --card-bg:#fbfbfb; --hero-bg:linear-gradient(135deg,#fafafa,#f4f4f5);
+      --soft-panel:#eceff3; --pill-bg:#e5e7eb; --input-bg:#fbfbfb;
+      --dot-color:rgba(24,24,27,.035);
+      --top-glow-1:rgba(113,113,122,.07); --top-glow-2:rgba(59,130,246,.05); --top-glow-3:rgba(34,197,94,.04);
+    }
     body{
       font-family: Arial, sans-serif;
       max-width:1100px; margin:auto;
@@ -21,15 +71,15 @@
       content:""; position:fixed; inset:-10% -10% auto -10%;
       height:68vh; pointer-events:none; z-index:-2;
       background:
-        radial-gradient(600px 240px at 10% 0%,rgba(34,197,94,.06),rgba(255,255,255,0) 60%),
-        radial-gradient(520px 220px at 90% 12%, rgba(59,130,246,.06),rgba(255,255,255,0) 60%),
-        radial-gradient(420px 200px at 50% -8%, rgba(168,85,247,.05), rgba(255,255,255,0) 60%);
+        radial-gradient(600px 240px at 10% 0%,var(--top-glow-1),rgba(255,255,255,0) 60%),
+        radial-gradient(520px 220px at 90% 12%, var(--top-glow-2),rgba(255,255,255,0) 60%),
+        radial-gradient(420px 200px at 50% -8%, var(--top-glow-3), rgba(255,255,255,0) 60%);
     }
     body::after{
       content:""; position:fixed; inset:0;
       pointer-events:none; z-index:-3;
       background-image:
-        radial-gradient(rgba(0,0,0,.035) 1px, transparent 1px),
+        radial-gradient(var(--dot-color) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(0,0,0,.015), rgba(0,0,0,0));
       background-size: 12px 12px, 100% 100%;
       background-position: 0 0, 0 0;
@@ -87,7 +137,7 @@
       background:
         radial-gradient(1200px 420px at -10% -10%, #e7f8ff 0%, rgba(255,255,255,0) 60%),
         radial-gradient(900px 320px at 110% 20%, #eef9f1 0%, rgba(255,255,255,0) 55%),
-        linear-gradient(135deg,#fff,#fafafa);
+        var(--hero-bg);
       border:1px solid var(--border);
       box-shadow:var(--shadow);
       text-align:center;
@@ -109,12 +159,29 @@
     .tag{
       font-size:12px; padding:6px 12px;
       border-radius:999px; border:1px solid #e5e7eb;
-      background:#fff; color:#111;
+      background:var(--card-bg); color:#111;
     }
     .tag.hot{ border-color:var(--green); color:var(--green); background:#f0fff5; }
 
     h2{ margin-top:26px; }
     h3{ margin-top:18px; text-align:left; }
+
+    input,select{
+      background:var(--input-bg); color:var(--fg);
+      border:1px solid #d4d4d8; border-radius:10px;
+      padding:8px 10px; margin:4px;
+    }
+    .theme-select-wrap{
+      display:inline-flex; align-items:center; gap:6px;
+      padding:6px 10px; border-radius:999px;
+      background:var(--pill-bg); border:1px solid #e5e7eb;
+      box-shadow:var(--shadow); font-size:12px;
+      white-space:nowrap;
+    }
+    #theme-select{
+      margin:0; padding:5px 8px; border-radius:999px;
+      font-size:12px; max-width:130px;
+    }
 
     .group{ margin:6px 0 18px; text-align:left; }
     .group h4{ margin:8px 0; }
@@ -142,7 +209,7 @@
       border:2px solid #ddd; border-radius:14px;
       transition:transform .18s, box-shadow .18s, border-color .18s;
       position:relative;
-      background:#fff;
+      background:var(--card-bg);
     }
     .option-label{ display:block; margin:6px 0; cursor:pointer; }
     .feedback{ font-weight:bold; margin:10px 0; min-height:1.2em; }
@@ -242,7 +309,7 @@
 
     .rules-box{
       margin-top:10px; padding:10px 14px;
-      border-radius:12px; background:#f9fafb;
+      border-radius:12px; background:var(--soft-panel);
       text-align:left; font-size:12px; color:#444;
     }
     .rules-box ul{ padding-left:18px; margin:4px 0; }
@@ -254,16 +321,21 @@
       padding:20px;
     }
     .overlay-card{
-      background:#fff; border:1px solid #e5e7eb; border-radius:20px;
+      background:var(--card-bg); border:1px solid #e5e7eb; border-radius:20px;
       box-shadow:0 18px 40px rgba(0,0,0,.12); padding:22px; width:min(460px,95vw);
       text-align:center;
     }
     .mode-actions{ display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:14px; }
     .mode-btn{
       border:0; border-radius:16px; padding:12px 16px; cursor:pointer;
-      background:#f3f4f6; color:#111; font-weight:700; box-shadow:var(--shadow);
+      background:var(--pill-bg); color:#111; font-weight:700; box-shadow:var(--shadow);
     }
     .mode-btn:hover{ transform:translateY(-1px); }
+
+    /* 让新增背景颜色套用到主要卡片，不影响原本功能 */
+    .tag,.badge,.question,.overlay-card{ background:var(--card-bg); }
+    .pill{ background:var(--pill-bg); }
+    #wallet-display, th{ background:var(--pill-bg); }
 
   </style>
 </head>
@@ -274,6 +346,17 @@
       <div id="session-timer">会话剩余 / Session left: <span id="session-remaining">05:00</span></div>
     </div>
     <div class="nav-right">
+      <label class="theme-select-wrap" title="更换背景颜色 / Change background color">
+        🎨 背景
+        <select id="theme-select">
+          <option value="white">白色 White</option>
+          <option value="cream">米色 Cream</option>
+          <option value="green">淡绿 Soft Green</option>
+          <option value="blue">淡蓝 Soft Blue</option>
+          <option value="purple">淡紫 Soft Purple</option>
+          <option value="gray">浅灰 Soft Gray</option>
+        </select>
+      </label>
       <div id="wallet-display">
         <div id="xp-bar-wrap"><div id="xp-bar"></div></div>
         <div id="xp-text">Lv.1 • XP 0 / 50</div>
@@ -408,6 +491,24 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  /* ===== 背景颜色选择 / Background Theme Selector ===== */
+  const THEME_KEY = 'kee_quiz_bg_theme';
+  const THEME_LIST = ['white','cream','green','blue','purple','gray'];
+  const themeSelect = document.getElementById('theme-select');
+
+  function applyTheme(theme){
+    if(!THEME_LIST.includes(theme)) theme = 'white';
+    document.body.classList.remove(...THEME_LIST.map(t => 'theme-' + t));
+    document.body.classList.add('theme-' + theme);
+    localStorage.setItem(THEME_KEY, theme);
+    if(themeSelect) themeSelect.value = theme;
+  }
+
+  applyTheme(localStorage.getItem(THEME_KEY) || 'white');
+  if(themeSelect){
+    themeSelect.onchange = () => applyTheme(themeSelect.value);
+  }
+
   /* ============================
      只改这一行切换科目：
      'SEJ' | 'SC' | 'ACC'
@@ -1252,11 +1353,19 @@ function loadPasswordsAndLogin(nm, pw, attempt){
         const lows=ua.map(s=>s.toLowerCase());
         const ansList=ansStr.split(',').map(s=>s.trim().toLowerCase());
         isC=lows.some(v=>ansList.includes(v));
-      }else{
-        const uaA=ua.map(s=>s.toUpperCase()).sort().join(',');
-        const caA=ansStr.split(',').map(s=>s.trim().toUpperCase()).sort().join(',');
-        isC = (uaA===caA);
-      }
+}else{
+  const correctList = ansStr.split(',').map(s=>s.trim().toUpperCase());
+
+  if(qType === 'radio'){
+    // 只要选中其中一个就算对
+    isC = correctList.includes(ua[0].toUpperCase());
+  }else{
+    // checkbox 还是必须完全一样
+    const uaA = ua.map(s=>s.toUpperCase()).sort().join(',');
+    const caA = correctList.sort().join(',');
+    isC = (uaA === caA);
+  }
+}
 
       // ==== 复活卡逻辑 Revive logic ====
       let usedRevive = false;
