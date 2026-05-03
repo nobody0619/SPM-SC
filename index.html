@@ -332,9 +332,10 @@
     }
     .mode-btn:hover{ transform:translateY(-1px); }
 
-    /* 让新增背景颜色套用到主要卡片，不影响原本功能 */
-    .tag,.badge,.question,.overlay-card{ background:var(--card-bg); }
-    .pill{ background:var(--pill-bg); }
+    /* 让新增背景颜色套用到主要卡片，不影响原本功能
+       注意：不要覆盖 .badge-gray / .badge-green 和 .pill-f4 / .pill-f5 / .pill-done，
+       否则“最高准确率 / 未做”等文字会因为背景被改成白色而看不见。 */
+    .question,.overlay-card{ background:var(--card-bg); }
     #wallet-display, th{ background:var(--pill-bg); }
 
   </style>
