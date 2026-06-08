@@ -347,6 +347,35 @@
     #wallet-display, th{ background:var(--pill-bg); }
 
 
+    /* 错题本 Wrong Book */
+    .wrongbook-panel{
+      display:none;
+      margin:14px 20px 18px;
+      padding:14px 18px;
+      border-radius:18px;
+      background:var(--card-bg);
+      border:1px solid var(--border);
+      box-shadow:var(--shadow);
+      text-align:left;
+    }
+    .wrongbook-head{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:10px; flex-wrap:wrap;
+    }
+    .wrongbook-head h2{ margin:0; }
+    .wrongbook-actions{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    .wrongbook-list{ margin-top:10px; display:grid; gap:8px; }
+    .wrongbook-item{
+      padding:10px 12px; border-radius:14px;
+      border:1px solid var(--border);
+      background:var(--soft-panel);
+      font-size:13px; line-height:1.35;
+    }
+    .wrongbook-item b{ display:block; margin-bottom:4px; }
+    body.theme-dark .wrongbook-panel{ background:var(--card-bg); border-color:var(--border); color:var(--fg); }
+    body.theme-dark .wrongbook-item{ background:var(--soft-panel); border-color:#334155; color:var(--fg); }
+
+
     /* 深色模式 / Dark Mode：只改变颜色，不改变原本功能 */
     body.theme-dark{ color:var(--fg); }
     body.theme-dark::after{
@@ -448,6 +477,7 @@
         ✨ 50 碎片换 1 复活 / Convert 50 shards → 1 revive
       </button>
       <button id="my-results-btn" class="pill-btn light">📊 我的成绩 / My Results</button>
+      <button id="wrongbook-btn" class="pill-btn light" style="display:none;">📘 错题本 / Wrong Book (0)</button>
       <button id="sound-toggle" class="pill-btn" title="开关音效 / Toggle sound">🔊 音效已开 / Sound ON</button>
     </div>
   </div>
@@ -507,12 +537,26 @@
     <button id="startBtn" type="button" class="pill-btn">登录 / Log In</button>
     <div class="muted" style="margin-top:8px;">
       免费试用密码：<b>testing</b>（5 分钟 5 minutes）；
-      2000题练习每月只需 RM10 / 2000 practice questions monthly only RM10
+      2000题练习每月只需 RM5 / 2000 practice questions monthly only RM5  /  5月将起价至每月RM10
       购买请联系：纪老师 016-7312519。
     </div>
   </div>
 
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
+
+  <div id="wrongbook" class="wrongbook-panel">
+    <div class="wrongbook-head">
+      <div>
+        <h2>📘 错题本 / Wrong Book</h2>
+        <div id="wrongbook-summary" class="muted">做错过的题目会自动收进这里。Wrong questions will be saved here automatically.</div>
+      </div>
+      <div class="wrongbook-actions">
+        <button id="start-wrongbook-btn" class="pill-btn primary">开始复习错题 / Review Wrong Questions</button>
+        <button id="hide-wrongbook-btn" class="pill-btn light">收起 / Hide</button>
+      </div>
+    </div>
+    <div id="wrongbook-list" class="wrongbook-list"></div>
+  </div>
 
   <div id="mode-picker" class="overlay" style="display:none;">
     <div class="overlay-card">
@@ -871,6 +915,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let chapterQuestionCache = {};
   let selectedQuestionMode = 'all';
   let activeQuestionTotal = 0;
+  let isWrongBookPractice = false;
   let correctStreak=0, wrongStreak=0;
   const MAX_OPTS=15;
 
@@ -878,6 +923,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('startBtn').onclick = attemptLogin;
   document.getElementById('my-results-btn').onclick = openResults;
+  document.getElementById('wrongbook-btn').onclick = openWrongBook;
+  document.getElementById('start-wrongbook-btn').onclick = startWrongBookPractice;
+  document.getElementById('hide-wrongbook-btn').onclick = () => { document.getElementById('wrongbook').style.display='none'; };
   document.getElementById('back-to-menu').onclick = backToMenu;
   document.getElementById('back-to-chapters-btn').onclick = backToMenu;
   document.getElementById('mode-picker-cancel').onclick = () => {
@@ -910,6 +958,115 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     return null;
   }
+
+  /* ===== 错题本 Wrong Book（存在学生浏览器，不影响原本题库/成绩功能） ===== */
+  function wrongBookKey(){
+    return `wrongbook_${SUBJECT_PREFIX}_${String(user||'guest').toLowerCase()}`;
+  }
+  function makeWrongId(chap, q){
+    return btoa(unescape(encodeURIComponent(`${SUBJECT_PREFIX}|${chap}|${String(q.question||'').trim()}|${String(q.answer||'').trim()}`))).slice(0,80);
+  }
+  function loadWrongBook(){
+    try{ return JSON.parse(localStorage.getItem(wrongBookKey()) || '[]'); }
+    catch{ return []; }
+  }
+  function saveWrongBook(list){
+    localStorage.setItem(wrongBookKey(), JSON.stringify(list || []));
+    updateWrongBookUI();
+  }
+  function addWrongQuestion(q, chap){
+    if(!user) return;
+    const id = makeWrongId(chap, q);
+    const list = loadWrongBook();
+    const cleanQ = {...q};
+    delete cleanQ.attempt;
+    delete cleanQ.__fromWrongBook;
+    delete cleanQ.__wrongId;
+    const old = list.find(x => x.id === id);
+    if(old){
+      old.count = Number(old.count || 1) + 1;
+      old.lastWrongAt = new Date().toISOString();
+      old.q = cleanQ;
+    }else{
+      list.unshift({
+        id, chapter: chap, q: cleanQ, count:1,
+        firstWrongAt:new Date().toISOString(),
+        lastWrongAt:new Date().toISOString()
+      });
+    }
+    saveWrongBook(list.slice(0,300));
+  }
+  function removeWrongQuestionById(id){
+    if(!id || !user) return;
+    const list = loadWrongBook();
+    const next = list.filter(x => x.id !== id);
+    if(next.length !== list.length) saveWrongBook(next);
+  }
+  function removeWrongQuestion(q, chap){
+    removeWrongQuestionById(makeWrongId(chap, q));
+  }
+  function updateWrongBookUI(){
+    const btn = document.getElementById('wrongbook-btn');
+    const listEl = document.getElementById('wrongbook-list');
+    const summary = document.getElementById('wrongbook-summary');
+    const startBtn = document.getElementById('start-wrongbook-btn');
+    if(!btn || !listEl || !summary) return;
+    const list = user ? loadWrongBook() : [];
+    btn.textContent = `📘 错题本 / Wrong Book (${list.length})`;
+    btn.style.display = user ? 'inline-block' : 'none';
+    startBtn.disabled = list.length === 0;
+    summary.textContent = list.length
+      ? `目前有 ${list.length} 题错题。答对后会自动从错题本移除。You have ${list.length} wrong question(s). Correct answers will remove them automatically.`
+      : '暂时没有错题。做错过的题目会自动收进这里。No wrong questions yet.';
+    listEl.innerHTML = '';
+    list.slice(0,12).forEach((item, idx)=>{
+      const div=document.createElement('div');
+      div.className='wrongbook-item';
+      const qText = String(item.q?.question || '').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
+      div.innerHTML = `<b>${idx+1}. ${escapeHtml(item.chapter || '')}</b>${escapeHtml(qText.slice(0,180))}${qText.length>180?'...':''}<br><span class="muted">错过 Wrong: ${Number(item.count||1)} 次</span>`;
+      listEl.appendChild(div);
+    });
+    if(list.length>12){
+      const more=document.createElement('div');
+      more.className='muted';
+      more.textContent=`还有 ${list.length-12} 题，开始复习时会一起随机出现。`;
+      listEl.appendChild(more);
+    }
+  }
+  function openWrongBook(){
+    guardUniversalWindowOrThrow();
+    updateWrongBookUI();
+    document.getElementById('wrongbook').style.display='block';
+    document.getElementById('wrongbook').scrollIntoView({behavior:'smooth'});
+  }
+  function startWrongBookPractice(){
+    guardUniversalWindowOrThrow();
+    const list = loadWrongBook();
+    if(!list.length){
+      alert('暂时没有错题。No wrong questions yet.');
+      updateWrongBookUI();
+      return;
+    }
+    isWrongBookPractice = true;
+    currentChapter = '错题本 / Wrong Book';
+    score=0; correct=0; wrong=0;
+    correctStreak=0; wrongStreak=0;
+    revivesUsedThisChapter=0;
+    updateStreak();
+    chapterStart=Date.now();
+    qs = list.map(item => ({...item.q, attempt:0, __fromWrongBook:true, __wrongId:item.id, __wrongChapter:item.chapter}));
+    activeQuestionTotal = qs.length;
+    queue = shuffle([...qs]);
+    document.getElementById('menu').style.display='none';
+    document.getElementById('wrongbook').style.display='none';
+    document.getElementById('finish').style.display='none';
+    document.getElementById('results').style.display='none';
+    document.getElementById('quiz-title').textContent = `📘 错题本复习 / Wrong Book Review ｜ ${activeQuestionTotal} 题`;
+    document.getElementById('quiz').style.display='block';
+    updateUI(0);
+    nextQ();
+  }
+
 
   function attemptLogin(){
   const nm = document.getElementById('username').value.trim();
@@ -1010,6 +1167,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     loadLocalResults();
     await loadWallet();
     updateWalletUI();
+    updateWrongBookUI();
     document.getElementById('my-results-btn').style.display='inline-block';
     document.getElementById('back-to-chapters-btn').style.display='inline-block';
     document.getElementById('welcome').style.display='none';
@@ -1230,6 +1388,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
   }
 
   function startChapter(chap){
+    isWrongBookPractice = false;
     currentChapter=chap;
     score=0; correct=0; wrong=0;
     correctStreak=0; wrongStreak=0;
@@ -1480,11 +1639,11 @@ Do you want to use 1 revive to count this question as correct?`;
         wrongStreak=0;
 
         // 碎片：只有第一次真正答对才给，复活不送
-        if(q.attempt===0 && !usedRevive){
+        if(!isWrongBookPractice && q.attempt===0 && !usedRevive){
           shardsEarned += 1;
         }
-        // 每5连对送 +2 碎片（同一章节可多次触发）
-        if(!usedRevive && correctStreak>0 && correctStreak % 5 === 0){
+        // 每5连对送 +2 碎片（同一章节可多次触发）；错题本复习不送碎片，避免重复刷奖励
+        if(!isWrongBookPractice && !usedRevive && correctStreak>0 && correctStreak % 5 === 0){
           comboBonus += 2;
         }
       }else{
@@ -1501,6 +1660,14 @@ Do you want to use 1 revive to count this question as correct?`;
         wallet.shards += shardThisAnswer;
         sessionShardDelta += shardThisAnswer;
         updateWalletUI();
+      }
+
+      // 错题本：真正答错会加入；答对会自动移除，确保学生复习到会为止
+      if(isC){
+        if(q.__fromWrongBook && q.__wrongId) removeWrongQuestionById(q.__wrongId);
+        else removeWrongQuestion(q, currentChapter);
+      }else if(!usedRevive){
+        addWrongQuestion(q, q.__wrongChapter || currentChapter);
       }
 
       updateStreak();
@@ -1568,9 +1735,11 @@ if (!isC && !usedRevive) {
 
     // 章节完成碎片奖励 Completion shards
     let completionShards = 0;
-    if(percent >= 90) completionShards = 8;
-    else if(percent >= 80) completionShards = 5;
-    else if(percent >= 70) completionShards = 3;
+    if(!isWrongBookPractice){
+      if(percent >= 90) completionShards = 8;
+      else if(percent >= 80) completionShards = 5;
+      else if(percent >= 70) completionShards = 3;
+    }
     if(completionShards>0){
       wallet.shards += completionShards;
       sessionShardDelta += completionShards;
@@ -1606,6 +1775,7 @@ if (!isC && !usedRevive) {
       timestamp: new Date().toISOString()
     });
 
+    updateWrongBookUI();
     launchConfetti(120,1000);
 
     const ctrl=document.getElementById('controls');
