@@ -96,7 +96,7 @@
     #menu,#quiz,#finish,#results{ display:none; }
 
     #topbar{
-      position:sticky; top:8px; z-index:50;
+      position:relative; z-index:50;
       display:flex; align-items:center; justify-content:space-between;
       gap:12px; margin:12px 0;
     }
@@ -373,7 +373,9 @@
     }
     .wrongbook-item b{ display:block; margin-bottom:4px; }
     body.theme-dark .wrongbook-panel{ background:var(--card-bg); border-color:var(--border); color:var(--fg); }
-    body.theme-dark .wrongbook-item{ background:var(--soft-panel); border-color:#334155; color:var(--fg); }
+    body.theme-dark .wrongbook-item,
+    body.theme-dark .wrongbook-chapter-row{ background:var(--soft-panel); border-color:#334155; color:var(--fg); }
+    body.theme-dark .wrongbook-preview .wrongbook-item{ background:#0f172a; }
 
 
     /* 深色模式 / Dark Mode：只改变颜色，不改变原本功能 */
@@ -537,7 +539,7 @@
     <button id="startBtn" type="button" class="pill-btn">登录 / Log In</button>
     <div class="muted" style="margin-top:8px;">
       免费试用密码：<b>testing</b>（5 分钟 5 minutes）；
-      2000题练习每月只需 RM5 / 2000 practice questions monthly only RM5  /  5月将起价至每月RM10
+      2000题练习每月只需 RM10 / 2000 practice questions monthly only RM10
       购买请联系：纪老师 016-7312519。
     </div>
   </div>
@@ -551,7 +553,7 @@
         <div id="wrongbook-summary" class="muted">做错过的题目会自动收进这里。Wrong questions will be saved here automatically.</div>
       </div>
       <div class="wrongbook-actions">
-        <button id="start-wrongbook-btn" class="pill-btn primary">开始复习错题 / Review Wrong Questions</button>
+        <button id="start-wrongbook-btn" class="pill-btn primary">复习全部错题 / Review All Wrong Questions</button>
         <button id="hide-wrongbook-btn" class="pill-btn light">收起 / Hide</button>
       </div>
     </div>
@@ -959,21 +961,75 @@ document.addEventListener('DOMContentLoaded', () => {
     return null;
   }
 
-  /* ===== 错题本 Wrong Book（存在学生浏览器，不影响原本题库/成绩功能） ===== */
+  /* ===== 错题本 Wrong Book（云端 Google Sheet + 本地备用） ===== */
+  let wrongBookCache = [];
+  let wrongBookLoadedFromCloud = false;
+
   function wrongBookKey(){
     return `wrongbook_${SUBJECT_PREFIX}_${String(user||'guest').toLowerCase()}`;
   }
   function makeWrongId(chap, q){
     return btoa(unescape(encodeURIComponent(`${SUBJECT_PREFIX}|${chap}|${String(q.question||'').trim()}|${String(q.answer||'').trim()}`))).slice(0,80);
   }
-  function loadWrongBook(){
+  function getLocalWrongBook(){
     try{ return JSON.parse(localStorage.getItem(wrongBookKey()) || '[]'); }
     catch{ return []; }
   }
-  function saveWrongBook(list){
+  function setLocalWrongBook(list){
     localStorage.setItem(wrongBookKey(), JSON.stringify(list || []));
+  }
+  function loadWrongBook(){
+    return wrongBookLoadedFromCloud ? wrongBookCache : getLocalWrongBook();
+  }
+  function saveWrongBook(list){
+    wrongBookCache = list || [];
+    wrongBookLoadedFromCloud = true;
+    setLocalWrongBook(wrongBookCache);
     updateWrongBookUI();
   }
+
+  async function refreshWrongBookFromCloud(){
+    if(!user) return [];
+    try{
+      const url = `${SCRIPT_URL}?action=wrongbook-list&subject=${encodeURIComponent(SUBJECT_PREFIX)}&name=${encodeURIComponent(user)}&nocache=${Date.now()}`;
+      const res = await fetch(url);
+      if(!res.ok) throw new Error('wrongbook-list http');
+      const data = await res.json();
+      const list = (data.data || data.items || []).map(item => ({
+        id: item.id,
+        chapter: item.chapter || '未分类 / Others',
+        q: item.q || {},
+        count: Number(item.count || 1),
+        firstWrongAt: item.firstWrongAt || '',
+        lastWrongAt: item.lastWrongAt || '',
+        correctAt: item.correctAt || ''
+      })).filter(item => item.id && item.q && item.q.question);
+      saveWrongBook(list);
+      return list;
+    }catch(e){
+      console.warn('读取云端错题本失败，暂时使用本机错题本。WrongBook cloud load failed, using local fallback.', e);
+      wrongBookLoadedFromCloud = false;
+      updateWrongBookUI();
+      return getLocalWrongBook();
+    }
+  }
+
+  async function postWrongBookAction(action, payload){
+    if(!user) return;
+    try{
+      const body = new URLSearchParams();
+      body.append('action', action);
+      body.append('subject', SUBJECT_PREFIX);
+      body.append('name', user);
+      Object.entries(payload || {}).forEach(([k,v])=>{
+        body.append(k, typeof v === 'string' ? v : JSON.stringify(v));
+      });
+      await fetch(SCRIPT_URL, { method:'post', body });
+    }catch(e){
+      console.warn('云端错题本同步失败，但本机会先保留。WrongBook sync failed, kept locally.', e);
+    }
+  }
+
   function addWrongQuestion(q, chap){
     if(!user) return;
     const id = makeWrongId(chap, q);
@@ -982,73 +1038,126 @@ document.addEventListener('DOMContentLoaded', () => {
     delete cleanQ.attempt;
     delete cleanQ.__fromWrongBook;
     delete cleanQ.__wrongId;
+    delete cleanQ.__wrongChapter;
     const old = list.find(x => x.id === id);
     if(old){
       old.count = Number(old.count || 1) + 1;
       old.lastWrongAt = new Date().toISOString();
+      old.correctAt = '';
       old.q = cleanQ;
     }else{
       list.unshift({
         id, chapter: chap, q: cleanQ, count:1,
         firstWrongAt:new Date().toISOString(),
-        lastWrongAt:new Date().toISOString()
+        lastWrongAt:new Date().toISOString(),
+        correctAt:''
       });
     }
-    saveWrongBook(list.slice(0,300));
+    saveWrongBook(list.slice(0,500));
+    postWrongBookAction('wrongbook-add', { id, chapter: chap, questionData: cleanQ });
   }
+
   function removeWrongQuestionById(id){
     if(!id || !user) return;
     const list = loadWrongBook();
     const next = list.filter(x => x.id !== id);
     if(next.length !== list.length) saveWrongBook(next);
+    postWrongBookAction('wrongbook-clear', { id });
   }
   function removeWrongQuestion(q, chap){
     removeWrongQuestionById(makeWrongId(chap, q));
   }
+  function groupWrongBookByChapter(list){
+    const groups = {};
+    (list || []).forEach(item => {
+      const chap = item.chapter || '未分类 / Others';
+      (groups[chap] ||= []).push(item);
+    });
+    return groups;
+  }
+
   function updateWrongBookUI(){
     const btn = document.getElementById('wrongbook-btn');
     const listEl = document.getElementById('wrongbook-list');
     const summary = document.getElementById('wrongbook-summary');
     const startBtn = document.getElementById('start-wrongbook-btn');
     if(!btn || !listEl || !summary) return;
+
     const list = user ? loadWrongBook() : [];
+    const groups = groupWrongBookByChapter(list);
+    const chapterNames = Object.keys(groups).sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'}));
+
     btn.textContent = `📘 错题本 / Wrong Book (${list.length})`;
     btn.style.display = user ? 'inline-block' : 'none';
     startBtn.disabled = list.length === 0;
+
     summary.textContent = list.length
-      ? `目前有 ${list.length} 题错题。答对后会自动从错题本移除。You have ${list.length} wrong question(s). Correct answers will remove them automatically.`
+      ? `目前有 ${list.length} 题错题，分布在 ${chapterNames.length} 个章节。错题会存在 Google Sheet；答对后先从学生页面消失，并标记为已会，每星期自动从 Sheet 删除。`
       : '暂时没有错题。做错过的题目会自动收进这里。No wrong questions yet.';
+
     listEl.innerHTML = '';
-    list.slice(0,12).forEach((item, idx)=>{
-      const div=document.createElement('div');
-      div.className='wrongbook-item';
-      const qText = String(item.q?.question || '').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
-      div.innerHTML = `<b>${idx+1}. ${escapeHtml(item.chapter || '')}</b>${escapeHtml(qText.slice(0,180))}${qText.length>180?'...':''}<br><span class="muted">错过 Wrong: ${Number(item.count||1)} 次</span>`;
-      listEl.appendChild(div);
+
+    if(!list.length) return;
+
+    chapterNames.forEach((chap)=>{
+      const items = groups[chap] || [];
+      const row = document.createElement('div');
+      row.className = 'wrongbook-chapter-row';
+
+      const left = document.createElement('div');
+      const totalWrongTimes = items.reduce((sum,item)=>sum + Number(item.count || 1), 0);
+      left.innerHTML =
+        `<div class="wrongbook-chapter-title">${escapeHtml(chap)}</div>`+
+        `<div class="muted">${items.length} 题错题 ｜ 累计错过 ${totalWrongTimes} 次</div>`;
+
+      const action = document.createElement('button');
+      action.className = 'pill-btn primary';
+      action.textContent = `复习本章节 ${items.length} 题`;
+      action.onclick = () => startWrongBookPractice(chap);
+
+      row.appendChild(left);
+      row.appendChild(action);
+      listEl.appendChild(row);
+
+      const preview = document.createElement('div');
+      preview.className = 'wrongbook-preview';
+      items.slice(0,3).forEach((item, idx)=>{
+        const div=document.createElement('div');
+        div.className='wrongbook-item';
+        const qText = String(item.q?.question || '').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
+        div.innerHTML = `${idx+1}. ${escapeHtml(qText.slice(0,150))}${qText.length>150?'...':''}<br><span class="muted">错过 Wrong: ${Number(item.count||1)} 次</span>`;
+        preview.appendChild(div);
+      });
+      if(items.length>3){
+        const more=document.createElement('div');
+        more.className='muted';
+        more.textContent=`还有 ${items.length-3} 题，点击“复习本章节”会一起随机出现。`;
+        preview.appendChild(more);
+      }
+      listEl.appendChild(preview);
     });
-    if(list.length>12){
-      const more=document.createElement('div');
-      more.className='muted';
-      more.textContent=`还有 ${list.length-12} 题，开始复习时会一起随机出现。`;
-      listEl.appendChild(more);
-    }
   }
-  function openWrongBook(){
+
+  async function openWrongBook(){
     guardUniversalWindowOrThrow();
+    await refreshWrongBookFromCloud();
     updateWrongBookUI();
     document.getElementById('wrongbook').style.display='block';
     document.getElementById('wrongbook').scrollIntoView({behavior:'smooth'});
   }
-  function startWrongBookPractice(){
+
+  async function startWrongBookPractice(chapterName){
     guardUniversalWindowOrThrow();
-    const list = loadWrongBook();
+    if(!wrongBookLoadedFromCloud) await refreshWrongBookFromCloud();
+    const allList = loadWrongBook();
+    const list = chapterName ? allList.filter(item => (item.chapter || '未分类 / Others') === chapterName) : allList;
     if(!list.length){
-      alert('暂时没有错题。No wrong questions yet.');
+      alert('这个章节暂时没有错题。No wrong questions in this chapter yet.');
       updateWrongBookUI();
       return;
     }
     isWrongBookPractice = true;
-    currentChapter = '错题本 / Wrong Book';
+    currentChapter = chapterName ? `错题本｜${chapterName}` : '错题本 / Wrong Book';
     score=0; correct=0; wrong=0;
     correctStreak=0; wrongStreak=0;
     revivesUsedThisChapter=0;
@@ -1061,11 +1170,14 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('wrongbook').style.display='none';
     document.getElementById('finish').style.display='none';
     document.getElementById('results').style.display='none';
-    document.getElementById('quiz-title').textContent = `📘 错题本复习 / Wrong Book Review ｜ ${activeQuestionTotal} 题`;
+    document.getElementById('quiz-title').textContent = chapterName
+      ? `📘 ${chapterName} 错题本复习 / Wrong Book Review ｜ ${activeQuestionTotal} 题`
+      : `📘 全部错题本复习 / All Wrong Book Review ｜ ${activeQuestionTotal} 题`;
     document.getElementById('quiz').style.display='block';
     updateUI(0);
     nextQ();
   }
+
 
 
   function attemptLogin(){
@@ -1166,6 +1278,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     await fetchCloudResultsFor(user);
     loadLocalResults();
     await loadWallet();
+    await refreshWrongBookFromCloud();
     updateWalletUI();
     updateWrongBookUI();
     document.getElementById('my-results-btn').style.display='inline-block';
