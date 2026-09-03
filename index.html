@@ -194,6 +194,49 @@
     .group{ margin:6px 0 18px; text-align:left; }
     .group h4{ margin:8px 0; }
 
+    .year-toolbar{
+      display:flex; align-items:center; justify-content:space-between;
+      flex-wrap:wrap; gap:10px; margin:14px 0; text-align:left;
+    }
+    .year-toolbar p{ margin:0; color:var(--muted); font-size:13px; }
+    .year-actions{ display:flex; gap:8px; flex-wrap:wrap; }
+    .year-action{
+      border:1px solid var(--border); border-radius:10px;
+      background:var(--pill-bg); color:var(--fg);
+      padding:10px 14px; font:inherit; font-size:13px; cursor:pointer;
+    }
+    .year-group{
+      margin:12px 0; border:1px solid var(--border);
+      border-radius:16px; background:var(--card-bg); text-align:left;
+    }
+    .year-summary{
+      display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+      padding:16px; border-radius:16px; cursor:pointer; list-style:none;
+      background:var(--soft-panel); color:var(--fg);
+    }
+    .year-summary::-webkit-details-marker{ display:none; }
+    .year-summary::before{ content:'▸'; font-size:18px; }
+    .year-group[open] > .year-summary::before{ content:'▾'; }
+    .year-summary-title{ font-size:20px; font-weight:700; }
+    .year-summary-count{ font-size:12px; color:var(--muted); }
+    .year-summary-action{ margin-left:auto; font-size:12px; color:var(--muted); }
+    .year-collapse-label{ display:none; }
+    .year-group[open] > .year-summary .year-expand-label{ display:none; }
+    .year-group[open] > .year-summary .year-collapse-label{ display:inline; }
+    .year-summary:focus-visible,.year-action:focus-visible{
+      outline:3px solid var(--green); outline-offset:3px;
+    }
+    .year-content{ padding:0 16px 4px; }
+    .year-content h3{ margin:20px 0 10px; }
+    @media(max-width:600px){
+      .year-summary{ padding:12px; gap:8px; }
+      .year-content{ padding:0 8px 4px; }
+      .year-content .pill{
+        max-width:100%; box-sizing:border-box; margin:6px 0;
+        flex-wrap:wrap; border-radius:14px; text-align:left; overflow-wrap:anywhere;
+      }
+    }
+
     .pill{
       display:inline-flex; align-items:center; gap:8px;
       margin:6px; padding:8px 12px;
@@ -1393,8 +1436,13 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     return parseInt(String(chap).match(/(?:Chp|Bab)\s*(\d+(?:\.\d+)?)/i)?.[1] || '0', 10);
   }
 
+  const menuYearOpenState = new Map();
+
   function renderMenu(){
     const menu=document.getElementById('menu');
+    menu.querySelectorAll('.year-group').forEach(section=>{
+      menuYearOpenState.set(Number(section.dataset.year),section.open);
+    });
     menu.innerHTML='<h2>请选择章节 / Select Chapter</h2>';
 
     const years = Array.from(new Set(Object.keys(grouped)
@@ -1456,45 +1504,85 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       return btn;
     };
 
-    const appendChapterGroup = (title, items, isChapter=true) => {
+    const toolbar=document.createElement('div');
+    toolbar.className='year-toolbar';
+    const hint=document.createElement('p');
+    hint.textContent='点击年份展开或收起 / Click a year to expand or collapse';
+    toolbar.appendChild(hint);
+    const actions=document.createElement('div');
+    actions.className='year-actions';
+    [[true,'全部展开 / Expand all'],[false,'全部收起 / Collapse all']].forEach(([open,label])=>{
+      const btn=document.createElement('button');
+      btn.type='button';
+      btn.className='year-action';
+      btn.textContent=label;
+      btn.onclick=()=>menu.querySelectorAll('.year-group').forEach(section=>{
+        section.open=open;
+        menuYearOpenState.set(Number(section.dataset.year),open);
+      });
+      actions.appendChild(btn);
+    });
+    toolbar.appendChild(actions);
+    if(years.length) menu.appendChild(toolbar);
+
+    const appendChapterGroup = (container, title, items) => {
       if(!items.length) return;
-      const h=document.createElement('h2');
+      const h=document.createElement('h3');
       h.textContent=title;
-      menu.appendChild(h);
+      container.appendChild(h);
       const g=document.createElement('div');
       g.className='group';
       items.forEach(ch=> g.appendChild(makeChapterButton(ch)));
-      menu.appendChild(g);
+      container.appendChild(g);
     };
 
     years.forEach(y=>{
-      const f4Sorted = chaptersF4[y].sort((a,b)=>{
-        const na=getChapterNumber(a), nb=getChapterNumber(b);
-        return (na-nb)||a.localeCompare(b);
+      const section=document.createElement('details');
+      section.className='year-group';
+      section.dataset.year=String(y);
+      section.open=menuYearOpenState.has(y) ? menuYearOpenState.get(y) : y===years[0];
+      section.addEventListener('toggle',()=>{
+        if(section.isConnected) menuYearOpenState.set(y,section.open);
       });
-      appendChapterGroup(`Form 4 Chapters ${y}`, f4Sorted);
-
-      const f5Sorted = chaptersF5[y].sort((a,b)=>{
-        const na=getChapterNumber(a), nb=getChapterNumber(b);
-        return (na-nb)||a.localeCompare(b);
-      });
-      appendChapterGroup(`Form 5 Chapters ${y}`, f5Sorted);
-    });
-
-    years.forEach(y=>{
+      const summary=document.createElement('summary');
+      summary.className='year-summary';
+      const title=document.createElement('span');
+      title.className='year-summary-title';
+      title.textContent=String(y);
+      const count=document.createElement('span');
+      count.className='year-summary-count';
       const states=statePapers[y];
+      const total=chaptersF4[y].length+chaptersF5[y].length+
+        Object.values(states).reduce((sum,items)=>sum+items.length,0);
+      count.textContent=`${total} 项 / options`;
+      const action=document.createElement('span');
+      action.className='year-summary-action';
+      action.innerHTML='<span class="year-expand-label">展开 / Expand</span><span class="year-collapse-label">收起 / Collapse</span>';
+      summary.append(title,count,action);
+      section.appendChild(summary);
+      const content=document.createElement('div');
+      content.className='year-content';
+      section.appendChild(content);
+      menu.appendChild(section);
+
+      const sortChapters=(a,b)=>(getChapterNumber(a)-getChapterNumber(b))||a.localeCompare(b);
+      appendChapterGroup(content,`Form 4 Chapters ${y}`,chaptersF4[y].sort(sortChapters));
+      appendChapterGroup(content,`Form 5 Chapters ${y}`,chaptersF5[y].sort(sortChapters));
+
       const stateNames=Object.keys(states).sort();
-      if(!stateNames.length) return;
-      const h=document.createElement('h2');
-      h.textContent=`州属试卷 State Papers ${y}`;
-      menu.appendChild(h);
-      stateNames.forEach(st=>{
-        const g=document.createElement('div'); g.className='group';
-        const h4=document.createElement('h4');
-        h4.textContent=`${st}`; g.appendChild(h4);
-        states[st].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'})).forEach(ch=> g.appendChild(makeChapterButton(ch)));
-        menu.appendChild(g);
-      });
+      if(stateNames.length){
+        const h=document.createElement('h3');
+        h.textContent=`州属试卷 State Papers ${y}`;
+        content.appendChild(h);
+        stateNames.forEach(st=>{
+          const g=document.createElement('div'); g.className='group';
+          const h4=document.createElement('h4');
+          h4.textContent=st; g.appendChild(h4);
+          states[st].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true, sensitivity:'base'}))
+            .forEach(ch=>g.appendChild(makeChapterButton(ch)));
+          content.appendChild(g);
+        });
+      }
     });
 
     menu.style.display='block';
