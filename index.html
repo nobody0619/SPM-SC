@@ -266,6 +266,14 @@
     .feedback{ font-weight:bold; margin:10px 0; min-height:1.2em; }
 
     img{ max-width:100%; margin:10px 0; border:2px solid #ccc; border-radius:10px; }
+    .question-image{
+      display:block;
+      width:auto;
+      height:auto;
+      max-width:100%;
+      margin:12px auto;
+      object-fit:contain;
+    }
 
     .correct-glow{
       border-color:#23c55e!important;
@@ -1719,6 +1727,38 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     else el.textContent='';
   }
 
+  function fitQuestionImage(img){
+    const naturalWidth=img.naturalWidth;
+    const naturalHeight=img.naturalHeight;
+    if(!naturalWidth || !naturalHeight) return;
+
+    const question=img.closest('.question');
+    const containerWidth=question?.clientWidth || document.documentElement.clientWidth;
+    const availableWidth=Math.max(220,containerWidth-44);
+    const maxWidth=Math.min(760,availableWidth);
+    const maxHeight=Math.max(320,window.innerHeight*0.72);
+    const readableWidth=Math.min(480,maxWidth);
+
+    let scale=Math.min(1,maxWidth/naturalWidth);
+    if(naturalWidth*scale<readableWidth && naturalHeight*scale<maxHeight){
+      scale=Math.min(maxWidth/naturalWidth,maxHeight/naturalHeight,2.5);
+    }
+    if(naturalHeight*scale>maxHeight){
+      const minimumReadableScale=Math.min(scale,Math.min(240,maxWidth)/naturalWidth);
+      scale=Math.max(maxHeight/naturalHeight,minimumReadableScale);
+    }
+
+    img.style.width=Math.max(1,Math.round(naturalWidth*scale))+'px';
+  }
+
+  let imageResizeTimer=null;
+  window.addEventListener('resize',()=>{
+    clearTimeout(imageResizeTimer);
+    imageResizeTimer=setTimeout(()=>{
+      document.querySelectorAll('.question-image').forEach(fitQuestionImage);
+    },120);
+  });
+
   function nextQ(){
     guardUniversalWindowOrThrow();
     const qa=document.getElementById('question-area');
@@ -1738,7 +1778,12 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       if(!/^https?:\/\//i.test(src) && !/^data:/i.test(src))
         src=(q.__baseDir||'')+src.replace(/^\.\//,'');
       const img=document.createElement('img');
-      img.src=src; img.alt='question image';
+      img.className='question-image';
+      img.alt='question image';
+      img.loading='lazy';
+      img.decoding='async';
+      img.onload=()=>fitQuestionImage(img);
+      img.src=src;
       div.appendChild(img);
     }
 
