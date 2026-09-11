@@ -275,6 +275,14 @@
       object-fit:contain;
     }
 
+    .image-zoom-toolbar{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;margin:10px 0;}
+    .image-zoom-toolbar button{padding:8px 12px;border:1px solid var(--border);border-radius:10px;background:var(--pill-bg);color:var(--fg);cursor:pointer;font:inherit;font-size:13px;min-height:40px;}
+    .image-zoom-toolbar button:disabled{opacity:.45;cursor:default;}
+    .image-zoom-toolbar button:focus-visible,.image-zoom-viewport:focus-visible{outline:3px solid var(--green);outline-offset:2px;}
+    .image-zoom-value{min-width:44px;text-align:center;font-size:13px;}
+    .image-zoom-viewport{max-width:100%;max-height:80vh;overflow:auto;border-radius:10px;}
+    .image-zoom-viewport .question-image{max-width:none;height:auto;}
+
     .correct-glow{
       border-color:#23c55e!important;
       box-shadow:0 0 0 4px rgba(34,197,94,.15);
@@ -1727,6 +1735,57 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     else el.textContent='';
   }
 
+  function applyQuestionImageZoom(img){
+    const zoom=Number(img.dataset.zoom)||1;
+    const baseWidth=Number(img.dataset.baseWidth);
+    if(!baseWidth) return;
+    img.style.width=Math.max(1,Math.round(baseWidth*zoom))+'px';
+    const viewer=img.closest('.question-image-viewer');
+    if(!viewer) return;
+    viewer.querySelector('.image-zoom-value').textContent=Math.round(zoom*100)+'%';
+    viewer.querySelector('.image-zoom-out').disabled=zoom<=0.5;
+    viewer.querySelector('.image-zoom-in').disabled=zoom>=3;
+  }
+
+  function createQuestionImageViewer(img){
+    const viewer=document.createElement('div');
+    viewer.className='question-image-viewer';
+    const toolbar=document.createElement('div');
+    toolbar.className='image-zoom-toolbar';
+    toolbar.setAttribute('role','group');
+    toolbar.setAttribute('aria-label','图片大小 / Image size');
+    const value=document.createElement('span');
+    value.className='image-zoom-value';
+    value.setAttribute('aria-live','polite');
+    value.textContent='100%';
+    img.dataset.zoom='1';
+    const button=(label,className,change)=>{
+      const btn=document.createElement('button');
+      btn.type='button';
+      btn.className=className;
+      btn.textContent=label;
+      btn.onclick=()=>{
+        img.dataset.zoom=String(Math.max(0.5,Math.min(3,Math.round(change(Number(img.dataset.zoom)||1)*100)/100)));
+        applyQuestionImageZoom(img);
+      };
+      return btn;
+    };
+    toolbar.append(
+      button('－ 缩小 / Zoom out','image-zoom-out',z=>z-0.25),
+      value,
+      button('＋ 放大 / Zoom in','image-zoom-in',z=>z+0.25),
+      button('重置 / Reset','image-zoom-reset',()=>1)
+    );
+    const viewport=document.createElement('div');
+    viewport.className='image-zoom-viewport';
+    viewport.tabIndex=0;
+    viewport.setAttribute('role','region');
+    viewport.setAttribute('aria-label','题目图片，可滚动查看 / Question image, scroll to view');
+    viewport.appendChild(img);
+    viewer.append(toolbar,viewport);
+    return viewer;
+  }
+
   function fitQuestionImage(img){
     const naturalWidth=img.naturalWidth;
     const naturalHeight=img.naturalHeight;
@@ -1748,7 +1807,8 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       scale=Math.max(maxHeight/naturalHeight,minimumReadableScale);
     }
 
-    img.style.width=Math.max(1,Math.round(naturalWidth*scale))+'px';
+    img.dataset.baseWidth=String(Math.max(1,Math.round(naturalWidth*scale)));
+    applyQuestionImageZoom(img);
   }
 
   let imageResizeTimer=null;
@@ -1784,7 +1844,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       img.decoding='async';
       img.onload=()=>fitQuestionImage(img);
       img.src=src;
-      div.appendChild(img);
+      div.appendChild(createQuestionImageViewer(img));
     }
 
     const qType=(q.type||'').toString().toLowerCase();
