@@ -265,6 +265,12 @@
     .option-label{ display:block; margin:6px 0; cursor:pointer; }
     .feedback{ font-weight:bold; margin:10px 0; min-height:1.2em; }
 
+    .answer-explanation{
+      margin:10px 0; padding:12px 14px; border:1px solid var(--border); border-radius:10px;
+      background:var(--soft-panel); color:var(--fg); font-weight:400; line-height:1.65;
+      white-space:pre-line;
+    }
+
     img{ max-width:100%; margin:10px 0; border:2px solid #ccc; border-radius:10px; }
     .question-image{
       display:block;
@@ -1388,8 +1394,17 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     return rawChapter;
   }
 
+  const QUIZ_DATA_VERSION='20261002-explanations-2';
+  function versionedQuizUrl(value){
+    try{
+      const url=new URL(value,window.location.href);
+      if(url.origin===window.location.origin) url.searchParams.set('quizv',QUIZ_DATA_VERSION);
+      return url.href;
+    }catch{ return value; }
+  }
+
   function loadChapters(){
-    Papa.parse('Chapters.csv',{
+    Papa.parse(versionedQuizUrl('Chapters.csv'),{
       download:true,header:true,skipEmptyLines:true,
       complete(res){
         guardUniversalWindowOrThrow();
@@ -1432,7 +1447,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     if(chapterQuestionCache[chap] != null) return chapterQuestionCache[chap];
     const secList = grouped[chap] || [];
     const counts = await Promise.all(secList.map(sec => new Promise(resolve=>{
-      Papa.parse(sec[sheetKey],{
+      Papa.parse(versionedQuizUrl(sec[sheetKey]),{
         download:true, header:true, skipEmptyLines:true,
         complete:r=>resolve((r.data||[]).length),
         error:()=>resolve(0)
@@ -1689,7 +1704,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     }
     const tasks=secList.map(sec=>new Promise((resolve)=>{
       const sheetUrl=sec[sheetKey]; const baseDir=getBaseDir(sheetUrl);
-      Papa.parse(sheetUrl,{
+      Papa.parse(versionedQuizUrl(sheetUrl),{
         download:true,header:true,skipEmptyLines:true,
         complete(r){
           const rows=(r.data||[]).map(q=>({...q, attempt:0, __baseDir:baseDir }));
@@ -1843,7 +1858,7 @@ function loadPasswordsAndLogin(nm, pw, attempt){
       img.loading='lazy';
       img.decoding='async';
       img.onload=()=>fitQuestionImage(img);
-      img.src=src;
+      img.src=versionedQuizUrl(src);
       div.appendChild(createQuestionImageViewer(img));
     }
 
@@ -1874,6 +1889,11 @@ function loadPasswordsAndLogin(nm, pw, attempt){
     const fb=document.createElement('div');
     fb.className='feedback';
     div.appendChild(fb);
+
+    const explanationEl=document.createElement('div');
+    explanationEl.className='answer-explanation';
+    explanationEl.hidden=true;
+    div.appendChild(explanationEl);
 
     const sb=document.createElement('button');
     sb.className='pill-btn';
@@ -1989,6 +2009,12 @@ Do you want to use 1 revive to count this question as correct?`;
         fb.textContent = `正确! Correct! 分数 +${delta}，碎片 +${shardThisAnswer}`;
       }else{
         fb.textContent = `错误! Wrong! 分数 ${delta}，正确答案 Correct answer: ${ansTxt}`;
+      }
+
+      const explanationText=String(q.explanation||'').trim();
+      if(explanationText){
+        explanationEl.textContent=explanationText;
+        explanationEl.hidden=false;
       }
 
       updateUI(delta);
@@ -2192,3 +2218,4 @@ if (!isC && !usedRevive) {
 </script>
 </body>
 </html>
+
