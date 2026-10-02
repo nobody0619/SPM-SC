@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,B,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,D,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture4.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 4,A,B,C,D,A,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,B,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture9.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture10.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture11.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture13.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture14.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture15.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture16.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture17.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture18.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 12,A,B,C,D,A,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png,"中文：按本题废物分类，低危害稀弱酸可按指定程序处理；重金属、活泼物质和有机溶剂需另行收集。
+English: Under the classification here, low-hazard dilute weak acids follow the designated disposal procedure; heavy metals, reactive substances and organic solvents require separate collection."
+,radio,F4 Bab 1,A,B,C,D,B,Picture2.png,"中文：水型灭火器适用于纸张、木材等普通固体火灾，不适用于油类或带电设备。
+English: Water extinguishers are suitable for ordinary solid fires such as paper and wood, not oil fires or energised electrical equipment."
+,radio,F4 Bab 2,A,B,C,D,D,Picture3.png,"中文：恢复正常呼吸但仍昏迷者，本题选择侧卧恢复体位，有助于保持气道畅通。
+English: For the unconscious victim who has resumed normal breathing, the recovery position on the side helps keep the airway clear."
+,radio,F4 Bab 3,A,B,C,D,D,Picture4.png,"中文：人体发出红外辐射；非接触式温度计探测该辐射并换算成温度。
+English: The body emits infrared radiation, which a non-contact thermometer detects and converts into a temperature reading."
+,radio,F4 Bab 3,A,B,C,D,D,Picture5.png,"中文：答案D假设跳跃比步行和跑步更剧烈，因而脉搏更快；表中没有跳跃测量值，不能严格推算出110 bpm。
+English: D assumes jumping is more strenuous and gives a higher pulse rate. The table has no jumping measurement, so 110 bpm cannot be calculated precisely from it."
+,radio,F4 Bab 4,A,B,C,D,A,Picture6.png,"中文：森林燃烧释放CO₂；CO₂吸收地球发出的红外辐射，属于温室气体。
+English: Burning forests releases CO₂, a greenhouse gas that absorbs infrared radiation emitted by Earth."
+,radio,F4 Bab 4,A,B,C,D,B,Picture7.png,"中文：步行不需要车辆燃料，是绿色交通层级中最优先的方式。
+English: Walking needs no vehicle fuel and is the most preferred mode in the green-transport hierarchy."
+,radio,F4 Bab 5,A,B,C,D,A,Picture8.png,"中文：按答案纸选A（25%）。母亲XᴴXʰ与父亲XᴴY可产生四种等概率子代：XᴴXᴴ、XᴴXʰ、XᴴY、XʰY，其中只有XʰY是患血友病的男孩，占全部子代的1/4＝25%。若只考虑男孩，两种男孩组合中一个患病，则为1/2＝50%；本题答案纸采用全部子代作分母。
+English: Follow the key: A (25%). XᴴXʰ × XᴴY gives four equally likely offspring: XᴴXᴴ, XᴴXʰ, XᴴY and XʰY. Only XʰY is an affected boy, so affected boys are 1/4 = 25% of all offspring. Among boys alone, one of two possible combinations is affected, giving 50%; this key uses all offspring as the denominator."
+,radio,F4 Bab 5,A,B,C,D,D,Picture9.png,"中文：在本课简化的显隐性模型中，有酒窝列为显性性状，因此选D。
+English: In the syllabus's simplified dominant–recessive model, the presence of dimples is treated as dominant, so D fits."
+,radio,F4 Bab 6,A,B,C,D,C,Picture10.png,"中文：低重心使重力作用线更不易移出支撑范围，减少转弯时翻倒的风险。
+English: A low centre of gravity helps keep the line of weight within the support base, reducing the risk of overturning during corners."
+,radio,F4 Bab 7,A,B,C,D,B,Picture11.png,"中文：题目暗示缺碘性甲状腺肿；海产品是碘的来源，而碘是合成甲状腺素所需的原料。
+English: The question indicates iodine-deficiency goitre. Seafood supplies iodine, which is required to synthesise thyroxine."
+,radio,F4 Bab 8,A,B,C,D,A,Picture12.png,"中文：SO₂由独立分子组成，糖也属于分子物质；这指粒子类型相同，并非分子式或形状相同。
+English: SO₂ consists of molecules, and sugar is also molecular. The match concerns particle type, not an identical formula or shape."
+,radio,F4 Bab 8,A,B,C,D,A,Picture13.png,"中文：X与S都对应碳、质子数6，所以A符合相同质子数的条件；但同位素还须中子数不同，图中未给X核子数。
+English: X and S both represent carbon with six protons, satisfying the same-proton-number condition. Isotopes must also differ in neutron number, but X's nucleon number is not given."
+,radio,F4 Bab 9,A,B,C,D,A,Picture14.png,"中文：淀粉是生物产生、可供能的天然聚合物；Perspex是常用于招牌的合成聚合物。
+English: Starch is a natural polymer made by living things and provides energy; Perspex is a synthetic polymer used for signboards."
+,radio,F4 Bab 10,A,B,C,D,A,Picture15.png,"中文：发炎发生在体内，可促进自由基产生；烟雾和紫外线属于外部因素。
+English: Inflammation occurs inside the body and can generate free radicals; smoke and ultraviolet radiation are external factors."
+,radio,F4 Bab 10,A,B,C,D,D,Picture16.png,"中文：胡萝卜富含β-胡萝卜素，它是抗氧化物，也是维生素A的前体。
+English: Carrots are rich in beta-carotene, an antioxidant and precursor of vitamin A."
+,radio,F4 Bab 11,A,B,C,D,B,Picture17.png,"中文：KL为向上直线，速度均匀增加，斜率恒定，因此加速度为恒定正值。
+English: KL is a straight rising line: velocity increases uniformly and its constant gradient indicates constant positive acceleration."
+,radio,F4 Bab 11,A,B,C,D,A,Picture18.png,"中文：真空没有空气阻力，羽毛和石头受到相同重力加速度，从同高度同时释放会同时到达底部。
+English: Without air resistance in vacuum, the feather and stone have the same gravitational acceleration and reach the bottom together."
+,radio,F4 Bab 12,A,B,C,D,C,Picture19.png,"中文：辐射造成DNA改变即突变，属于遗传层面的损伤；其他选项是身体症状。
+English: Radiation-induced DNA changes are mutations, damage at the genetic level; the other options are bodily symptoms."
+,radio,F4 Bab 12,A,B,C,D,A,Picture20.png,"中文：少量核燃料能释放大量能量，可持续产生大量电能，符合A。
+English: A small amount of nuclear fuel releases substantial energy and can generate large amounts of electricity, matching A."

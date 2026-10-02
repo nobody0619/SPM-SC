@@ -1,0 +1,41 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 12,radio,Sbp2026_Q17,A,B,C,D,D,../SBP 2026/Picture17.png,"中文：核电站发电时不燃烧化石燃料，因此运行过程中的温室气体排放很低。D是核能的优点，但仍需处理放射性废物。
+English: Nuclear power generation does not burn fossil fuels, so operational greenhouse-gas emissions are low. This supports D, although radioactive waste still requires management."
+F4 Chp 12,radio,Penang2026_Q19,A,B,C,D,C,../Penang 2026/Picture19.png,"中文：辐射造成DNA改变即突变，属于遗传层面的损伤；其他选项是身体症状。
+English: Radiation-induced DNA changes are mutations, damage at the genetic level; the other options are bodily symptoms."
+F4 Chp 12,radio,Sarawak2026_Q19,A,B,C,D,C,../Sarawak 2026/Picture19.png,"中文：铀可进行核裂变，释放热能产生蒸汽，再驱动涡轮发电，所以选C。蒸汽负责传递能量，并不是核燃料。
+English: Uranium undergoes nuclear fission, releasing heat to generate steam that drives a turbine. Therefore C is the fuel; steam transfers energy rather than serving as nuclear fuel."
+F4 Chp 12,radio,Kedah2026_Q20,A,B,C,D,D,../Kedah 2026/Picture20.png,"中文：国际协议能直接限制各国核试验活动；监测或防护只能减少部分影响，不能限制试验本身。
+English: International agreements directly restrict nuclear testing. Monitoring and protective equipment address effects without limiting the tests themselves."
+F4 Chp 12,radio,Penang2026_Q20,A,B,C,D,A,../Penang 2026/Picture20.png,"中文：少量核燃料能释放大量能量，可持续产生大量电能，符合A。
+English: A small amount of nuclear fuel releases substantial energy and can generate large amounts of electricity, matching A."
+F4 Chp 12,radio,Sarawak2026_Q20,A,B,C,D,D,../Sarawak 2026/Picture20.png,"中文：本题预期D：核电站需要专门的设计、运行和安全管理人员，相关专业能力是建设条件之一。这是课本所列的限制，不能单凭此题概括现实中的全部能源政策原因。
+English: The intended answer D highlights the specialist expertise needed to design, operate and safely manage nuclear power stations. This is a textbook limitation, not a complete account of current energy-policy decisions."
+F4 Chp 12,radio,Selangor2026_Q20,A,B,C,D,B,../Selangor 2026/Picture20.png,"中文：X为核裂变释放的中子，可撞击另一铀-235原子核，引发下一次裂变，使链式反应持续，所以选B。
+English: X is a neutron released during fission. It can strike another uranium-235 nucleus and trigger further fission, sustaining a chain reaction, so B is correct."
+F4 Chp 12,radio,Terengganu2026_Q20,A,B,C,D,D,../Terengganu 2026/Picture20.png,"中文：铀-235是可用于核裂变反应堆的燃料，裂变释放的热能可用于发电，因此选D。
+English: Uranium-235 is a fuel for nuclear fission reactors, whose released heat can generate electricity. Therefore D is correct."
+F4 Chp 12,radio,Kelantan2026_Q21,A,B,C,D,C,../Kelantan 2026/Picture21.png,"中文：核电运行时不靠燃烧化石燃料产生热量，因此直接温室气体排放较少。
+English: Nuclear generation does not obtain heat by burning fossil fuels, so its direct greenhouse gas emissions are low."
+F4 Chp 12,radio,Melaka2026_Q21,A,B,C,D,A,../Melaka 2026/Picture21.png,"中文：R是中子；石墨慢化剂降低中子速度，而硼控制棒主要吸收中子。
+English: R represents neutrons. A graphite moderator slows them, whereas boron control rods mainly absorb them."
+F4 Chp 12,radio,Pahang2026_Q21,A,B,C,D,B,../Pahang 2026/Picture21.png,"中文：氘和氚两个轻核结合成较重的氦核并释放能量，是核聚变。
+English: Two light nuclei, deuterium and tritium, combine to form helium and release energy: nuclear fusion."
+F4 Chp 12,radio,Terengganu2026_Q21,A,B,C,D,A,../Terengganu 2026/Picture21.png,"中文：图中较重原子核被中子撞击后分裂为较轻原子核，并释放中子和能量，是核裂变，因此选A。
+English: A heavy nucleus is struck by a neutron and splits into lighter nuclei, releasing neutrons and energy. This is nuclear fission, so A is correct."
+F4 Chp 12,radio,Kelantan2026_Q22,A,B,C,D,D,../Kelantan 2026/Picture22.png,"中文：脱发是影响受辐射者身体的躯体效应；可遗传的基因损伤可能导致后代缺陷，是本题遗传效应的例子。
+English: Hair loss is a somatic effect on the exposed person. Inheritable genetic damage can cause defects in offspring, the genetic effect paired here."
+F4 Chp 12,radio,Kl2026_Q22,A,B,C,D,D,../KL 2026/Picture22.png,"中文：X是涡轮，蒸汽推动它转动，再带动发电机产生电能。
+English: X is the turbine. Steam spins it, and it drives the generator to produce electricity."
+F4 Chp 12,radio,Kl2026_Q23,A,B,C,D,C,../KL 2026/Picture23.png,"中文：辐射可改变DNA，引起基因突变；恶心、白内障和脱发属于身体效应。
+English: Radiation can alter DNA and cause mutations. Nausea, cataracts and hair loss are bodily effects rather than genetic changes."
+F4 Chp 12,radio,N92026_Q23,A,B,C,D,B,../N9 2026/Picture23.png,"中文：氘与氚聚变生成氦-4及一个中子，同时释放能量；X是中子。
+English: Deuterium and tritium fuse to form helium-4 and a neutron while releasing energy; X is the neutron."
+F4 Chp 12,radio,Perak2026_Q23,A,B,C,D,B,../Perak 2026/Picture23.png,"中文：铀-235能发生受控裂变，释放热能，是核反应堆使用的燃料。
+English: Uranium-235 undergoes controlled fission and releases heat, making it a nuclear-reactor fuel."
+F4 Chp 12,radio,N92026_Q24,A,B,C,D,B,../N9 2026/Picture24.png,"中文：核电运行时没有燃烧化石燃料，因此直接温室气体排放较少，是其优点。
+English: Nuclear generation avoids fossil-fuel combustion during operation, so low direct greenhouse gas emissions are an advantage."
+F4 Chp 12,radio,Putrajaya2026_Q24,A,B,C,D,C,../Putrajaya 2026/Picture24.png,"中文：常规核电反应堆靠受控核裂变释放热能，再用蒸汽驱动发电机。
+English: Conventional nuclear reactors release heat through controlled nuclear fission, then use steam to drive electricity generation."
+F4 Chp 12,radio,Putrajaya2026_Q25,A,B,C,D,C,../Putrajaya 2026/Picture25.png,"中文：脱发影响受辐射者本人的身体，属于躯体效应，而非后代遗传性改变。
+English: Hair loss affects the exposed person's body and is a somatic effect rather than an inherited change in offspring."

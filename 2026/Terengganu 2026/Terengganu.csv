@@ -1,41 +1,79 @@
-﻿﻿title,type,question,A,B,C,D,answer,image
-Terengganu 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 2,A,B,C,D,B,Picture2.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,B,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 4,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 5,A,B,C,D,C,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture9.png
-,radio,F4 Bab 6,A,B,C,D,B,Picture10.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture11.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,C,Picture13.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture15.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture17.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture19.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture20.png
-,radio,F4 Bab 12,A,B,C,D,A,Picture21.png
-,radio,F5 Bab 1,A,B,C,D,A,Picture22.png
-,radio,F5 Bab 1,A,B,C,D,D,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture27.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture29.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,B,Picture34.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,D,Picture36.png
-,radio,F5 Bab 7,A,B,C,D,C,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,C,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Terengganu 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：Q过氧化氢是氧化剂，R浓氢氧化钠有强腐蚀性，都不能直接倒入水槽，因此选B。蒸馏水和无危险污染的盐水应按实验室指定规则处理。
+English: Q, hydrogen peroxide, is an oxidiser, and R, concentrated sodium hydroxide, is strongly corrosive. Neither should be poured directly down the sink, so B is correct."
+,radio,F4 Bab 2,A,B,C,D,B,Picture2.png,"中文：口对口人工呼吸把含氧空气送入肺部，帮助向身体供氧，因此选B。胸部按压的主要作用才是维持人工血液循环。
+English: Mouth-to-mouth rescue breaths deliver oxygen-containing air to the lungs and help supply oxygen to the body, so B is correct. Chest compressions chiefly maintain artificial circulation."
+,radio,F4 Bab 3,A,B,C,D,C,Picture3.png,"中文：K指舒张压80 mmHg，是心肌舒张时血液对动脉壁的压力，因此选C。收缩压则对应心肌收缩时的压力。
+English: K indicates the diastolic pressure of 80 mmHg, the pressure against arterial walls while the heart relaxes. Therefore C is correct."
+,radio,F4 Bab 3,A,B,C,D,B,Picture4.png,"中文：先把170 cm换成1.70 m，再计算BMI＝65÷1.70²≈22.5 kg/m²，因此选B。
+English: Convert 170 cm to 1.70 m, then calculate BMI = 65 ÷ 1.70² ≈ 22.5 kg/m². Therefore B is correct."
+,radio,F4 Bab 4,A,B,C,D,D,Picture5.png,"中文：长期排放有毒废物会污染水体，伤害或杀死水生生物，使其种群严重减少，因此选D。
+English: Long-term discharge of toxic waste contaminates water and can harm or kill aquatic organisms, severely reducing their populations. Therefore D is correct."
+,radio,F4 Bab 4,A,B,C,D,B,Picture6.png,"中文：在所列选项中，二氧化碳是含量较高的重要温室气体，因此选B。这里不能理解成二氧化碳一定多于水蒸气；水蒸气并未列在选项中。
+English: Among these options, carbon dioxide is an abundant major greenhouse gas, so B is correct. This does not mean it is more abundant than water vapour, which is not an option."
+,radio,F4 Bab 5,A,B,C,D,C,Picture7.png,"中文：亲代TT×tt产生全部Tt的F₁。F₁互交Tt×Tt得到TT:Tt:tt＝1:2:1，其中前三份表现高茎，比例为75%，选C。
+English: TT × tt produces an F₁ generation of Tt. Crossing Tt × Tt gives TT:Tt:tt = 1:2:1; three of the four offspring types are tall, giving 75%, so C is correct."
+,radio,F4 Bab 5,A,B,C,D,A,Picture8.png,"中文：血友病患者缺乏或不足某些凝血因子，导致血液难以正常凝固，所以选A。
+English: Haemophilia involves deficient or inadequate clotting factors, making normal blood clotting difficult. Therefore A is correct."
+,radio,F4 Bab 5,A,B,C,D,D,Picture9.png,"中文：图中能卷舌和不能卷舌被分为两个明显类别，是课本采用的非连续变异例子，因此选D。它不像身高那样形成连续数值范围。
+English: The textbook groups tongue rolling into two distinct categories, an example of discontinuous variation. Therefore D is correct, unlike height with its continuous range of values."
+,radio,F4 Bab 6,A,B,C,D,B,Picture10.png,"中文：水母依靠体内液体的压力及肌肉配合支撑身体和运动，属于静水骨骼，因此选B。
+English: A jellyfish uses pressure in its body fluid together with muscle action for support and movement. This is a hydrostatic skeleton, so B is correct."
+,radio,F4 Bab 7,A,B,C,D,B,Picture11.png,"中文：酒精属于中枢神经系统抑制剂，会减慢神经活动，影响反应、协调和判断能力，因此选B。
+English: Alcohol depresses the central nervous system, slowing neural activity and impairing reactions, coordination and judgement. Therefore B is correct."
+,radio,F4 Bab 8,A,B,C,D,A,Picture12.png,"中文：题目预期质子数为18，中性原子有18个电子，排列为2.8.8，所以选A。不过图中18和40的位置与标准核素符号相反，应复核标注。
+English: The intended proton number is 18, giving a neutral atom 18 electrons arranged 2.8.8, so A is correct. However, the positions of 18 and 40 are reversed relative to standard nuclide notation and need review."
+,radio,F4 Bab 8,A,B,C,D,C,Picture13.png,"中文：K和L的质子数同为17，但核子数分别为35和37，表示中子数不同，符合同位素定义，因此选C。
+English: K and L both have 17 protons but nucleon numbers of 35 and 37, meaning different neutron numbers. They are isotopes, so C is correct."
+,radio,F4 Bab 9,A,B,C,D,A,Picture14.png,"中文：钢是以铁为主要成分并加入碳的合金，因此选A。铜和锌形成黄铜，铜和锡形成青铜。
+English: Steel is an alloy consisting mainly of iron with added carbon, so A is correct. Copper and zinc form brass; copper and tin form bronze."
+,radio,F4 Bab 9,A,B,C,D,D,Picture15.png,"中文：乙烯单体的碳碳双键打开，许多单体连接成聚乙烯长链，属于加成聚合，因此选D。
+English: The carbon–carbon double bonds in ethene open so many monomers join into long polyethene chains. This is addition polymerisation, so D is correct."
+,radio,F4 Bab 10,A,B,C,D,B,Picture16.png,"中文：抗生素针对细菌，可杀死细菌或抑制其生长，所以本题选B。它们不用于治疗病毒感染，也不应理解为普遍用于预防所有感染。
+English: Antibiotics kill bacteria or inhibit their growth, so B fits the question. They do not treat viral infections and are not a universal way to prevent infection."
+,radio,F4 Bab 10,A,B,C,D,"B,D",Picture17.png,"中文：B（Vitamin E）或D（Beta-carotene）都接受，学生只需单选其中一个。按SPM课程，棕榈油相关的营养重点是Vitamin A、Vitamin E和Beta-carotene：维生素E及β-胡萝卜素具有抗氧化作用，β-胡萝卜素也可在体内转化为维生素A。
+English: Either B (Vitamin E) or D (Beta-carotene) is accepted; select only one. At SPM level, the nutrients associated with palm oil are Vitamin A, Vitamin E and Beta-carotene. Vitamin E and beta-carotene have antioxidant properties, and beta-carotene can be converted into vitamin A in the body."
+,radio,F4 Bab 11,A,B,C,D,D,Picture18.png,"中文：纵轴实际标示速度，0至5 s速度由0增至20 m/s。加速度＝(20−0)÷5＝4 m/s²，因此选D；题干称位移图是笔误。
+English: The vertical axis is velocity: it rises from 0 to 20 m/s in 5 s. Acceleration = (20 − 0) ÷ 5 = 4 m/s², so D is correct; the description as a displacement graph is a typo."
+,radio,F4 Bab 11,A,B,C,D,D,Picture19.png,"中文：质量决定惯性大小。质量越大，物体越难改变静止或匀速运动的状态，因此选D。
+English: Mass determines inertia. A larger mass resists changes from rest or uniform motion more strongly, so D is correct."
+,radio,F4 Bab 12,A,B,C,D,D,Picture20.png,"中文：铀-235是可用于核裂变反应堆的燃料，裂变释放的热能可用于发电，因此选D。
+English: Uranium-235 is a fuel for nuclear fission reactors, whose released heat can generate electricity. Therefore D is correct."
+,radio,F4 Bab 12,A,B,C,D,A,Picture21.png,"中文：图中较重原子核被中子撞击后分裂为较轻原子核，并释放中子和能量，是核裂变，因此选A。
+English: A heavy nucleus is struck by a neutron and splits into lighter nuclei, releasing neutrons and energy. This is nuclear fission, so A is correct."
+,radio,F5 Bab 1,A,B,C,D,A,Picture22.png,"中文：图示为酵母菌。酵母发酵产生二氧化碳，使面团膨胀，因此用于制作面包。
+English: The diagram shows yeast. Fermentation releases carbon dioxide that makes dough rise, so yeast is used to make bread."
+,radio,F5 Bab 1,A,B,C,D,D,Picture23.png,"中文：高压蒸汽灭菌器用高温蒸汽杀灭微生物；本题选项中 140°C 是正确温度。
+English: An autoclave sterilises using high-temperature steam; 140°C is the correct choice provided in this item."
+,radio,F5 Bab 2,A,B,C,D,C,Picture24.png,"中文：健康餐盘中蛋白质占四分之一；蔬菜和水果合占一半，碳水化合物占另一四分之一。
+English: Protein occupies one-quarter of the Healthy Plate; fruit and vegetables take one-half, with carbohydrates taking the remaining quarter."
+,radio,F5 Bab 2,A,B,C,D,A,Picture25.png,"中文：Dura 与 Pisifera 杂交形成 Tenera；其厚中果皮可提供较高含油量，是育种目标之一。
+English: Crossing Dura with Pisifera produces Tenera. Its thick mesocarp gives a high oil yield, one of the breeding goals."
+,radio,F5 Bab 2,A,B,C,D,C,Picture26.png,"中文：标签中的苯甲酸钠是防腐剂，可抑制微生物生长、延缓食品变质。
+English: Sodium benzoate on the label is a preservative that inhibits microbial growth and slows food spoilage."
+,radio,F5 Bab 3,A,B,C,D,C,Picture27.png,"中文：延长产品寿命并提高效率，可减少制造替换品所需的原料和能源，是积极减少环境影响的碳手印措施。
+English: Extending a product's life and improving its efficiency saves materials and energy needed for replacements, creating a positive carbon handprint."
+,radio,F5 Bab 3,A,B,C,D,C,Picture28.png,"中文：反应式是光合作用：微藻利用光和叶绿素把二氧化碳与水转为葡萄糖和氧气。
+English: The equation describes photosynthesis: microalgae use light and chlorophyll to convert carbon dioxide and water into glucose and oxygen."
+,radio,F5 Bab 4,A,B,C,D,C,Picture29.png,"中文：丁烷燃烧在短时间内迅速释放热和光，属于快速反应，因此选C。生锈和发酵通常需要较长时间。
+English: Butane combustion rapidly releases heat and light, making it a fast reaction. Therefore C is correct; rusting and fermentation usually take longer."
+,radio,F5 Bab 4,A,B,C,D,A,Picture30.png,"中文：把肉切成较小块可增加总表面积，让更多部分接触热和周围物质，更快烹熟，因此选A的大小因素。
+English: Cutting meat into smaller pieces increases total surface area, exposing more of it to heat and surrounding substances and speeding cooking. Therefore A, size, is correct."
+,radio,F5 Bab 3,A,B,C,D,C,Picture31.png,"中文：光合作用吸收大气中的二氧化碳，所以它会降低空气中的二氧化碳含量。
+English: Photosynthesis absorbs carbon dioxide from the atmosphere, reducing its concentration in the air."
+,radio,F5 Bab 5,A,B,C,D,A,Picture32.png,"中文：酵母使葡萄糖发酵，生成乙醇和二氧化碳。因此X是乙醇，选A；反应为C₆H₁₂O₆→2C₂H₅OH＋2CO₂。
+English: Yeast ferments glucose into ethanol and carbon dioxide. X is ethanol, so A is correct: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂."
+,radio,F5 Bab 5,A,B,C,D,C,Picture33.png,"中文：把蔬菜水果作为均衡饮食的一部分，可提供膳食纤维并帮助减少高饱和脂肪食物的摄入，因此C最适合降低动脉斑块形成的风险。
+English: Vegetables and fruit in a balanced diet provide fibre and help replace foods high in saturated fat. C is therefore the best option for reducing arterial-plaque risk."
+,radio,F5 Bab 6,A,B,C,D,B,Picture34.png,"中文：P连接电源正极，在电解池中称为阳极，因此选B。电解池的阴极则连接电源负极。
+English: P is connected to the positive terminal of the power supply and is the anode in an electrolytic cell. Therefore B is correct; the cathode connects to the negative terminal."
+,radio,F5 Bab 6,A,B,C,D,D,Picture35.png,"中文：锌和铜与柠檬汁构成化学电池，氧化还原反应把化学能转成电能供LED使用，因此选D。
+English: Zinc, copper and lemon juice form a chemical cell. Redox reactions convert chemical energy to electrical energy for the LED, so D is correct."
+,radio,F5 Bab 7,A,B,C,D,C,Picture37.png,"中文：凸透镜通过折射把平行光会聚到焦点，主要作用是会聚光线，因此选C。它不是靠反射形成图像。
+English: A convex lens refracts parallel light so it converges at a focal point. Its main function is to converge light, so C is correct; it does not operate by reflection."
+,radio,F5 Bab 8,A,B,C,D,C,Picture38.png,"中文：液体传递相同压力：30÷5＝F÷50，因此F＝300 N。大活塞面积是小活塞的10倍，输出力也为10倍，选C。
+English: The liquid transmits equal pressure: 30 ÷ 5 = F ÷ 50, giving F = 300 N. The larger piston has ten times the area and produces ten times the force, so C is correct."
+,radio,F5 Bab 9,A,B,C,D,A,Picture39.png,"中文：地球静止轨道位于赤道平面上空约35,786 km，运行周期与地球自转相同，因此卫星看起来固定在同一位置，选A。
+English: A geostationary orbit is about 35,786 km above the equator and has the same period as Earth's rotation. The satellite appears fixed in the sky, so A is correct."
+,radio,F5 Bab 9,A,B,C,D,B,Picture40.png,"中文：导航应用结合路线、距离和交通情况估算到达时间，因此选B。到达时间是会随交通变化而更新的估计值，不是绝对保证。
+English: Navigation apps use the route, distance and traffic conditions to estimate arrival time, so B is correct. The estimate can change with traffic and is not a guarantee."

@@ -1,25 +1,49 @@
-﻿title,type,question,A,B,C,D,answer,image
-N9 2026 F4,radio,F4 Bab 1,A,B,C,D,D,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,D,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,A,Picture3.png
-,radio,F4 Bab 2,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture5.png
-,radio,F4 Bab 3,A,B,C,D,A,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture7.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture10.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,A,Picture12.png
-,radio,F4 Bab 7,A,B,C,D,D,Picture13.png
-,radio,F4 Bab 7,A,B,C,D,D,Picture14.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture15.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 9,A,B,C,D,B,Picture18.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture19.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture20.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture21.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture22.png
-,radio,F4 Bab 12,A,B,C,D,B,Picture23.png
-,radio,F4 Bab 12,A,B,C,D,B,Picture24.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+N9 2026 F4,radio,F4 Bab 1,A,B,C,D,D,Picture1.png,"中文：通风橱把化学蒸气抽离操作区域，减少实验者吸入有害蒸气的风险。
+English: A fume cupboard extracts chemical vapours from the work area, reducing the risk of inhaling them."
+,radio,F4 Bab 1,A,B,C,D,D,Picture2.png,"中文：鸡血是液体生物废物；按本题流程先用高压灭菌器去污染，再按实验室指定程序处置。
+English: Chicken blood is liquid biological waste. The procedure in this question requires autoclave decontamination before disposal through the laboratory's designated process."
+,radio,F4 Bab 2,A,B,C,D,A,Picture3.png,"中文：题目问“原因”，触电可导致心脏或呼吸停止；其余选项描述的是受害者的状态。
+English: The question asks for a cause: electric shock can stop the heart or breathing. The other options describe the victim's condition."
+,radio,F4 Bab 2,A,B,C,D,A,Picture4.png,"中文：A把握拳位置放在肚脐上方、胸骨下方的上腹部，符合题目所问的位置。
+English: A places the fist on the upper abdomen, above the navel and below the breastbone, matching the position asked for."
+,radio,F4 Bab 3,A,B,C,D,C,Picture5.png,"中文：脉搏点是能摸到动脉搏动的身体部位；它不同于每分钟脉搏次数或血压。
+English: A pulse point is a body location where arterial pulsation can be felt, distinct from pulse rate or blood pressure."
+,radio,F4 Bab 3,A,B,C,D,A,Picture6.png,"中文：A同时提供主食、鱼类蛋白质、蔬菜和水果，较符合健康餐盘的营养搭配。
+English: A includes a carbohydrate staple, fish protein, vegetables and fruit, best matching the Healthy Plate balance."
+,radio,F4 Bab 4,A,B,C,D,C,Picture7.png,"中文：图示生物柴油可由动物脂肪或植物油加工制成；食物废料和农业废料也能制其他种类生物燃料。
+English: The biodiesel shown can be made from animal fats or vegetable oils; food and agricultural wastes can produce other types of biofuel."
+,radio,F4 Bab 4,A,B,C,D,C,Picture8.png,"中文：R对应公共交通，它把多人集中运输，通常可降低每人能源消耗和排放。
+English: R represents public transport, which carries many people together and generally reduces energy use and emissions per passenger."
+,radio,F4 Bab 5,A,B,C,D,A,Picture9.png,"中文：姐妹染色单体已分离并被拉往两极，是有丝分裂后期的特征。
+English: Sister chromatids have separated and are moving towards opposite poles, identifying anaphase of mitosis."
+,radio,F4 Bab 5,A,B,C,D,A,Picture10.png,"中文：男性多一条X染色体、常见XXY，配合小睾丸等特征，指向克氏综合征。
+English: An extra X chromosome in a male, commonly XXY, together with small testes identifies Klinefelter syndrome."
+,radio,F4 Bab 6,A,B,C,D,D,Picture11.png,"中文：木本植物的生长轮记录周期性生长；按课本模型，每一圈年轮代表约一年。
+English: Growth rings record periodic growth in woody plants. In the textbook model, each annual ring represents approximately one year."
+,radio,F4 Bab 6,A,B,C,D,A,Picture12.png,"中文：P是肌腱，连接肌肉与骨骼，把肌肉收缩的拉力传递给骨骼。
+English: P is a tendon, connecting muscle to bone and transmitting the pulling force of muscle contraction."
+,radio,F4 Bab 7,A,B,C,D,D,Picture13.png,"中文：胰岛素促进葡萄糖转为糖原；分泌不足时这项作用减弱，血糖容易升高。
+English: Insulin promotes conversion of glucose to glycogen. Insufficient insulin reduces this process, allowing blood glucose to rise."
+,radio,F4 Bab 7,A,B,C,D,D,Picture14.png,"中文：兴奋剂提高中枢神经活动，增加警觉和自信，也可能造成情绪失控。
+English: Stimulants increase central nervous system activity, heightening alertness and confidence and potentially disrupting emotional control."
+,radio,F4 Bab 8,A,B,C,D,A,Picture15.png,"中文：两个氢原子与一个氧原子化学结合形成H₂O分子，因此水是分子物质。
+English: Two hydrogen atoms chemically bonded to one oxygen atom form an H₂O molecule, so water is a molecular substance."
+,radio,F4 Bab 8,A,B,C,D,B,Picture16.png,"中文：同一元素的同位素质子数相同；碳的质子数固定为6，所以Y＝6。
+English: Isotopes of the same element have the same proton number. Carbon always has six protons, so Y = 6."
+,radio,F4 Bab 9,A,B,C,D,D,Picture17.png,"中文：不同大小的原子打乱金属层的规则排列，使层不易滑动，提高硬度和强度。
+English: Different-sized atoms disrupt the regular metal layers and hinder their sliding, increasing hardness and strength."
+,radio,F4 Bab 9,A,B,C,D,B,Picture18.png,"中文：陶瓷能耐高温且抗压较强，适合制作耐热用品；它并不以轻巧或辐射穿透力为主要优点。
+English: Ceramics resist high temperatures and compression, making them suitable for heat-resistant items; lightness and radiation penetration are not their main advantages."
+,radio,F4 Bab 10,A,B,C,D,A,Picture19.png,"中文：A的按摩图片与操控软组织的描述一致；其余选项的图片和疗法说明不匹配。
+English: A correctly matches massage with manipulation of soft tissues. The other pictures do not match their descriptions."
+,radio,F4 Bab 10,A,B,C,D,B,Picture20.png,"中文：本题癌症治疗应选现代医学，它使用经研究的诊断和治疗方法，如手术、放疗和药物治疗。
+English: Modern medicine is the appropriate category here, using researched diagnostic and cancer treatments such as surgery, radiotherapy and drug therapy."
+,radio,F4 Bab 11,A,B,C,D,C,Picture21.png,"中文：汽车急停而身体继续向前，是惯性：物体倾向维持原有运动状态。
+English: The body continues forwards when the car stops because of inertia, the tendency to maintain its existing motion."
+,radio,F4 Bab 11,A,B,C,D,D,Picture22.png,"中文：纸张受空气阻力影响相对于自身重量更大，所以比石头下落慢；真空中两者重力加速度相同。
+English: Air resistance has a greater effect relative to the paper's weight, so it falls more slowly; in vacuum both have the same gravitational acceleration."
+,radio,F4 Bab 12,A,B,C,D,B,Picture23.png,"中文：氘与氚聚变生成氦-4及一个中子，同时释放能量；X是中子。
+English: Deuterium and tritium fuse to form helium-4 and a neutron while releasing energy; X is the neutron."
+,radio,F4 Bab 12,A,B,C,D,B,Picture24.png,"中文：核电运行时没有燃烧化石燃料，因此直接温室气体排放较少，是其优点。
+English: Nuclear generation avoids fossil-fuel combustion during operation, so low direct greenhouse gas emissions are an advantage."

@@ -1,41 +1,81 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan 2026,radio,F4 Bab 1,A,B,C,D,A,Picture1.png
-,radio,F4 Bab 2,A,B,C,D,B,Picture2.png
-,radio,F4 Bab 3,A,B,C,D,A,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture5.png
-,radio,F4 Bab 4,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture8.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture9.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture10.png
-,radio,F4 Bab 7,A,B,C,D,C,Picture11.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,C,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture19.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture20.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture21.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture22.png
-,radio,F5 Bab 1,A,B,C,D,A,Picture23.png
-,radio,F5 Bab 1,A,B,C,D,B,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture27.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,D,Picture29.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture32.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture36.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,B,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan 2026,radio,F4 Bab 1,A,B,C,D,A,Picture1.png,"中文：按本题实验室废液分类，低危害的稀弱酸是可经指定程序排入水槽的一类；挥发性、强碱性和放射性废物不能这样处理。
+English: Under the laboratory classification in this question, low-hazard dilute weak acids may be handled through the designated sink procedure; volatile, strongly alkaline and radioactive wastes cannot."
+,radio,F4 Bab 2,A,B,C,D,B,Picture2.png,"中文：胸外按压通过挤压心脏产生人工血液循环，把血液送往脑和其他器官。
+English: Chest compressions produce artificial blood circulation, moving blood to the brain and other organs."
+,radio,F4 Bab 3,A,B,C,D,A,Picture3.png,"中文：38.8°C高于正常体温；病原体感染可引起发热，是选项中最符合的原因。
+English: 38.8°C is above normal body temperature. A pathogen infection can cause fever and is the best matching cause."
+,radio,F4 Bab 3,A,B,C,D,C,Picture4.png,"中文：BMI＝65÷1.54²≈27.4 kg/m²，落在25.0至29.9的超重范围。
+English: BMI = 65 / 1.54² ≈ 27.4 kg/m², within the overweight range of 25.0–29.9."
+,radio,F4 Bab 4,A,B,C,D,C,Picture5.png,"中文：自行车靠人力驱动，骑行时无需燃烧燃料，不产生车辆尾气，符合绿色交通。
+English: A bicycle uses human power without burning fuel or producing vehicle exhaust during use, making it green transportation."
+,radio,F4 Bab 4,A,B,C,D,B,Picture6.png,"中文：堆肥增加土壤养分，生物防治利用天敌控制害虫，两者可减少化学污染。
+English: Compost adds soil nutrients, while biological control uses natural enemies against pests; both reduce chemical pollution."
+,radio,F4 Bab 5,A,B,C,D,D,Picture7.png,"中文：S是核型图最后一对性染色体；它们决定生物学性别，其余为常染色体。
+English: S labels the final pair of sex chromosomes in the karyotype, which determine biological sex; the others are autosomes."
+,radio,F4 Bab 5,A,B,C,D,A,Picture8.png,"中文：图示减数分裂，同源染色体分离而姐妹染色单体仍相连；睾丸通过此过程产生精子。
+English: The diagram shows meiosis: homologous chromosomes separate while sister chromatids remain joined. Testes use meiosis to produce sperm."
+,radio,F4 Bab 6,A,B,C,D,C,Picture9.png,"中文：水母P以静水骨骼支撑；蟑螂Q有坚硬的几丁质外骨骼，所以配对为C。
+English: Jellyfish P has hydrostatic support, while cockroach Q has a chitinous exoskeleton, matching C."
+,radio,F4 Bab 6,A,B,C,D,D,Picture10.png,"中文：通气组织有大量充气空隙，降低植物组织平均密度并提供浮力，帮助叶片浮在水面。
+English: Air-filled spaces in aerenchyma reduce tissue density and provide buoyancy, helping leaves float on water."
+,radio,F4 Bab 7,A,B,C,D,C,Picture11.png,"中文：垂体释放的抗利尿激素不足时，肾脏重吸收水分减少，尿量增多，容易口渴。
+English: Insufficient antidiuretic hormone released by the pituitary reduces kidney water reabsorption, increasing urine output and thirst."
+,radio,F4 Bab 8,A,B,C,D,A,Picture12.png,"中文：吗啡是强效镇痛药，能减轻严重疼痛，因此符合题目要求。
+English: Morphine is a strong analgesic that reduces severe pain, matching the purpose stated in the question."
+,radio,F4 Bab 8,A,B,C,D,A,Picture13.png,"中文：水的分子式为H₂O，含2个氢原子和1个氧原子，总共3个原子。
+English: H₂O contains two hydrogen atoms and one oxygen atom: three atoms in total."
+,radio,F4 Bab 8,A,B,C,D,C,Picture14.png,"中文：核素符号左上角207是核子数，即质子与中子的总数；82是质子数。
+English: The upper-left 207 is the nucleon number, the total protons and neutrons; 82 is the proton number."
+,radio,F4 Bab 9,A,B,C,D,D,Picture15.png,"中文：青铜由铜和锡组成；铜加锌是黄铜，铁加碳是钢。
+English: Bronze contains copper and tin. Copper with zinc is brass, while iron with carbon is steel."
+,radio,F4 Bab 9,A,B,C,D,D,Picture16.png,"中文：硫化形成硫桥，限制橡胶链滑动，使橡胶更强、更耐热并保持弹性。
+English: Vulcanisation forms sulfur cross-links that restrict chain movement, improving rubber's strength, heat resistance and elasticity."
+,radio,F4 Bab 10,A,B,C,D,D,Picture17.png,"中文：图示按摩利用外部手法处理软组织，不涉及切开身体或缝合。
+English: Massage manipulates soft tissues externally and does not involve surgical incisions or stitches."
+,radio,F4 Bab 10,A,B,C,D,B,Picture18.png,"中文：发炎是体内过程，可促进自由基产生；烟雾、紫外线和空气污染属于外部因素。
+English: Inflammation is an internal process that can generate free radicals; smoke, ultraviolet radiation and air pollution are external factors."
+,radio,F4 Bab 11,A,B,C,D,B,Picture19.png,"中文：平均加速度＝(10.44－0)÷9.58≈1.09 m/s²，因速度增加所以为正值。
+English: Average acceleration = (10.44 − 0) / 9.58 ≈ 1.09 m/s², positive because velocity increases."
+,radio,F4 Bab 11,A,B,C,D,B,Picture20.png,"中文：手柄突然停止时，锤头因惯性仍继续运动，使锤头与手柄结合得更紧。
+English: When the handle stops abruptly, the hammer head continues moving because of inertia, tightening its fit on the handle."
+,radio,F4 Bab 12,A,B,C,D,C,Picture21.png,"中文：核电运行时不靠燃烧化石燃料产生热量，因此直接温室气体排放较少。
+English: Nuclear generation does not obtain heat by burning fossil fuels, so its direct greenhouse gas emissions are low."
+,radio,F4 Bab 12,A,B,C,D,D,Picture22.png,"中文：脱发是影响受辐射者身体的躯体效应；可遗传的基因损伤可能导致后代缺陷，是本题遗传效应的例子。
+English: Hair loss is a somatic effect on the exposed person. Inheritable genetic damage can cause defects in offspring, the genetic effect paired here."
+,radio,F5 Bab 1,A,B,C,D,A,Picture23.png,"中文：藻类含叶绿素，能利用光能进行光合作用；病毒、真菌和原生动物不符合题意。
+English: Algae contain chlorophyll and can photosynthesise using light; viruses, fungi and protozoa do not fit."
+,radio,F5 Bab 1,A,B,C,D,B,Picture24.png,"中文：两组培养液的关键差异是氢氧化钠与蒸馏水，改变的是 pH 值，因此研究因素是酸碱度。
+English: The cultures differ by sodium hydroxide versus distilled water, which changes pH; pH is the factor being investigated."
+,radio,F5 Bab 2,A,B,C,D,B,Picture25.png,"中文：热量为 50×10.6 + 80×8.27 + 5×0.55 = 1194.35 kJ，四舍五入为 1194.4 kJ。
+English: Energy = 50×10.6 + 80×8.27 + 5×0.55 = 1194.35 kJ, which rounds to 1194.4 kJ."
+,radio,F5 Bab 2,A,B,C,D,C,Picture26.png,"中文：味精是增味剂，主要作用是增强食物风味，而不是让食物变甜或着色。
+English: MSG is a flavour enhancer: its main function is to improve taste, not to sweeten or colour food."
+,radio,F5 Bab 3,A,B,C,D,B,Picture27.png,"中文：森林能吸收并储存二氧化碳，形成碳汇；建立碳汇是把二氧化碳从空气中移除的碳手印行动。
+English: Forests absorb and store carbon dioxide as carbon sinks; creating a sink is a carbon-handprint action that removes CO₂ from the air."
+,radio,F5 Bab 3,A,B,C,D,C,Picture28.png,"中文：P 的亚甲蓝 40 分钟就褪色，比 Q 的 80 分钟快，说明 P 中微生物耗氧较快、溶解氧较低。
+English: P decolourises methylene blue in 40 minutes, faster than Q at 80 minutes. Faster microbial oxygen use means lower dissolved oxygen in P."
+,radio,F5 Bab 4,A,B,C,D,D,Picture29.png,"中文：同质量的肉切得越小，总表面积越大且热量更易到达内部，所以煮得较快。
+English: Cutting the same mass of meat into smaller pieces increases total surface area and heat penetration, so it cooks faster."
+,radio,F5 Bab 4,A,B,C,D,A,Picture30.png,"中文：平均反应速率＝0.8÷45≈0.0178 g/s，按选项取约0.02 g/s。
+English: Average reaction rate = 0.8 / 45 ≈ 0.0178 g/s, approximately 0.02 g/s among the options."
+,radio,F5 Bab 5,A,B,C,D,A,Picture31.png,"中文：Q指向含油的中果皮，体积较大，是棕榈果产生最多油的部分。
+English: Q is the oil-rich mesocarp, the large fleshy part of the fruit that yields the most palm oil."
+,radio,F5 Bab 5,A,B,C,D,D,Picture32.png,"中文：酵母发酵糖产生乙醇和CO₂；CO₂使石灰水形成碳酸钙沉淀而变浑浊。
+English: Yeast fermentation produces ethanol and CO₂. CO₂ forms a calcium carbonate precipitate in limewater, turning it cloudy."
+,radio,F5 Bab 6,A,B,C,D,C,Picture33.png,"中文：两种不同金属与柠檬汁构成化学电池，将化学能转化为电能供LED使用。
+English: The two different metals and lemon juice form a chemical cell, converting chemical energy into electrical energy for the LED."
+,radio,F5 Bab 6,A,B,C,D,C,Picture34.png,"中文：镁比铜活泼，失去电子形成Mg²⁺并溶入电解液；电子流经外电路使电压表偏转。
+English: Magnesium is more reactive than copper. It loses electrons and dissolves as Mg²⁺; electron flow through the external circuit deflects the voltmeter."
+,radio,F5 Bab 7,A,B,C,D,B,Picture35.png,"中文：凹透镜对实物总形成正立、缩小的虚像，因此选缩小的B。
+English: A concave lens forms an upright, diminished virtual image of a real object, so B is correct."
+,radio,F5 Bab 7,A,B,C,D,A,Picture36.png,"中文：物体位于凸透镜2F处时，像形成于另一侧2F处，倒立但大小与物体相同。
+English: With the object at 2F of a convex lens, the image forms at 2F on the other side, inverted and equal in size."
+,radio,F5 Bab 8,A,B,C,D,D,Picture37.png,"中文：液体传递相同压强，输出力＝10×10÷2＝50 N。
+English: Pressure is transmitted equally through the liquid, so output force = 10 × 10 / 2 = 50 N."
+,radio,F5 Bab 8,A,B,C,D,B,Picture38.png,"中文：无人机旋翼产生向上的升力；升力超过重力时，无人机便会上升。
+English: The drone's rotors generate upward lift. When lift exceeds weight, the drone rises."
+,radio,F5 Bab 9,A,B,C,D,D,Picture39.png,"中文：本课所述轨道形状为圆形和椭圆形；圆可视为椭圆的特殊情况。
+English: The orbital shapes taught here are circular and elliptical; a circle is a special case of an ellipse."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：十进制度＝度＋分÷60＋秒÷3600，计算得6.291336和99.728939，约对应A。
+English: Decimal degrees = degrees + minutes/60 + seconds/3600, giving 6.291336 and 99.728939, approximately option A."

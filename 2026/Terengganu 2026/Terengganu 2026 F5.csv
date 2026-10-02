@@ -1,20 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Terengganu 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture22.png
-,radio,F5 Bab 1,A,B,C,D,D,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture27.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture29.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,B,Picture34.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,D,Picture36.png
-,radio,F5 Bab 7,A,B,C,D,C,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,C,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Terengganu 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture22.png,"中文：图示为酵母菌。酵母发酵产生二氧化碳，使面团膨胀，因此用于制作面包。
+English: The diagram shows yeast. Fermentation releases carbon dioxide that makes dough rise, so yeast is used to make bread."
+,radio,F5 Bab 1,A,B,C,D,D,Picture23.png,"中文：高压蒸汽灭菌器用高温蒸汽杀灭微生物；本题选项中 140°C 是正确温度。
+English: An autoclave sterilises using high-temperature steam; 140°C is the correct choice provided in this item."
+,radio,F5 Bab 2,A,B,C,D,C,Picture24.png,"中文：健康餐盘中蛋白质占四分之一；蔬菜和水果合占一半，碳水化合物占另一四分之一。
+English: Protein occupies one-quarter of the Healthy Plate; fruit and vegetables take one-half, with carbohydrates taking the remaining quarter."
+,radio,F5 Bab 2,A,B,C,D,A,Picture25.png,"中文：Dura 与 Pisifera 杂交形成 Tenera；其厚中果皮可提供较高含油量，是育种目标之一。
+English: Crossing Dura with Pisifera produces Tenera. Its thick mesocarp gives a high oil yield, one of the breeding goals."
+,radio,F5 Bab 2,A,B,C,D,C,Picture26.png,"中文：标签中的苯甲酸钠是防腐剂，可抑制微生物生长、延缓食品变质。
+English: Sodium benzoate on the label is a preservative that inhibits microbial growth and slows food spoilage."
+,radio,F5 Bab 3,A,B,C,D,C,Picture27.png,"中文：延长产品寿命并提高效率，可减少制造替换品所需的原料和能源，是积极减少环境影响的碳手印措施。
+English: Extending a product's life and improving its efficiency saves materials and energy needed for replacements, creating a positive carbon handprint."
+,radio,F5 Bab 3,A,B,C,D,C,Picture28.png,"中文：反应式是光合作用：微藻利用光和叶绿素把二氧化碳与水转为葡萄糖和氧气。
+English: The equation describes photosynthesis: microalgae use light and chlorophyll to convert carbon dioxide and water into glucose and oxygen."
+,radio,F5 Bab 4,A,B,C,D,C,Picture29.png,"中文：丁烷燃烧在短时间内迅速释放热和光，属于快速反应，因此选C。生锈和发酵通常需要较长时间。
+English: Butane combustion rapidly releases heat and light, making it a fast reaction. Therefore C is correct; rusting and fermentation usually take longer."
+,radio,F5 Bab 4,A,B,C,D,A,Picture30.png,"中文：把肉切成较小块可增加总表面积，让更多部分接触热和周围物质，更快烹熟，因此选A的大小因素。
+English: Cutting meat into smaller pieces increases total surface area, exposing more of it to heat and surrounding substances and speeding cooking. Therefore A, size, is correct."
+,radio,F5 Bab 3,A,B,C,D,C,Picture31.png,"中文：光合作用吸收大气中的二氧化碳，所以它会降低空气中的二氧化碳含量。
+English: Photosynthesis absorbs carbon dioxide from the atmosphere, reducing its concentration in the air."
+,radio,F5 Bab 5,A,B,C,D,A,Picture32.png,"中文：酵母使葡萄糖发酵，生成乙醇和二氧化碳。因此X是乙醇，选A；反应为C₆H₁₂O₆→2C₂H₅OH＋2CO₂。
+English: Yeast ferments glucose into ethanol and carbon dioxide. X is ethanol, so A is correct: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂."
+,radio,F5 Bab 5,A,B,C,D,C,Picture33.png,"中文：把蔬菜水果作为均衡饮食的一部分，可提供膳食纤维并帮助减少高饱和脂肪食物的摄入，因此C最适合降低动脉斑块形成的风险。
+English: Vegetables and fruit in a balanced diet provide fibre and help replace foods high in saturated fat. C is therefore the best option for reducing arterial-plaque risk."
+,radio,F5 Bab 6,A,B,C,D,B,Picture34.png,"中文：P连接电源正极，在电解池中称为阳极，因此选B。电解池的阴极则连接电源负极。
+English: P is connected to the positive terminal of the power supply and is the anode in an electrolytic cell. Therefore B is correct; the cathode connects to the negative terminal."
+,radio,F5 Bab 6,A,B,C,D,D,Picture35.png,"中文：锌和铜与柠檬汁构成化学电池，氧化还原反应把化学能转成电能供LED使用，因此选D。
+English: Zinc, copper and lemon juice form a chemical cell. Redox reactions convert chemical energy to electrical energy for the LED, so D is correct."
+,radio,F5 Bab 7,A,B,C,D,C,Picture37.png,"中文：凸透镜通过折射把平行光会聚到焦点，主要作用是会聚光线，因此选C。它不是靠反射形成图像。
+English: A convex lens refracts parallel light so it converges at a focal point. Its main function is to converge light, so C is correct; it does not operate by reflection."
+,radio,F5 Bab 8,A,B,C,D,C,Picture38.png,"中文：液体传递相同压力：30÷5＝F÷50，因此F＝300 N。大活塞面积是小活塞的10倍，输出力也为10倍，选C。
+English: The liquid transmits equal pressure: 30 ÷ 5 = F ÷ 50, giving F = 300 N. The larger piston has ten times the area and produces ten times the force, so C is correct."
+,radio,F5 Bab 9,A,B,C,D,A,Picture39.png,"中文：地球静止轨道位于赤道平面上空约35,786 km，运行周期与地球自转相同，因此卫星看起来固定在同一位置，选A。
+English: A geostationary orbit is about 35,786 km above the equator and has the same period as Earth's rotation. The satellite appears fixed in the sky, so A is correct."
+,radio,F5 Bab 9,A,B,C,D,B,Picture40.png,"中文：导航应用结合路线、距离和交通情况估算到达时间，因此选B。到达时间是会随交通变化而更新的估计值，不是绝对保证。
+English: Navigation apps use the route, distance and traffic conditions to estimate arrival time, so B is correct. The estimate can change with traffic and is not a guarantee."

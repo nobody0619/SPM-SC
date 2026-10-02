@@ -1,22 +1,43 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,A,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,D,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture6.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,C,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture9.png
-,radio,F4 Bab 6,A,B,C,D,B,Picture10.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture11.png
-,radio,F4 Bab 7,A,B,C,D,D,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,C,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture19.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture20.png
-,radio,F4 Bab 12,A,B,C,D,B,Picture21.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png,"中文：层流柜提供经过滤的清洁气流，减少培养物被杂菌污染；本题对应微生物培养。
+English: A laminar flow cabinet supplies filtered clean air to reduce contamination of cultures, matching microorganism culture here."
+,radio,F4 Bab 1,A,B,C,D,A,Picture2.png,"中文：A是木材等普通固体火灾，水型和ABC干粉型均可用于这类火灾。
+English: A shows burning wood, an ordinary solid-material fire that both water and ABC powder extinguishers can address."
+,radio,F4 Bab 2,A,B,C,D,D,Picture3.png,"中文：溺水可使呼吸和循环停止；本题所指CPR同时支持循环与呼吸，比单列胸外按压更完整。
+English: Drowning can stop breathing and circulation. CPR is the complete resuscitation procedure intended here, rather than chest compressions alone."
+,radio,F4 Bab 3,A,B,C,D,D,Picture4.png,"中文：Raju的BMI≈24.5，Izzati≈31.2；后者达到肥胖范围，因此改变饮食习惯最符合选项。
+English: Raju's BMI is about 24.5 and Izzati's about 31.2. Izzati is in the obese range, so changing eating habits best fits the options."
+,radio,F4 Bab 4,A,B,C,D,D,Picture5.png,"中文：填埋垃圾中的有机物分解可释放甲烷，焚烧也会排放CO₂，增加温室气体。
+English: Decomposing organic landfill waste can release methane, while burning releases CO₂, increasing greenhouse gases."
+,radio,F4 Bab 4,A,B,C,D,C,Picture6.png,"中文：把森林列为保护区可限制砍伐、保存生态系统，是林业领域的绿色科技应用。
+English: Gazetting forest reserves restricts clearing and conserves ecosystems, matching green technology in forestry."
+,radio,F4 Bab 5,A,B,C,D,D,Picture7.png,"中文：双螺旋结构是DNA的典型形状，携带遗传信息。
+English: The double helix is the characteristic structure of DNA, which carries genetic information."
+,radio,F4 Bab 5,A,B,C,D,C,Picture8.png,"中文：题目列的是不连续变异；血型有明确类别，没有连续中间值，与身高、体重和肤色不同。
+English: The examples refer to discontinuous variation. Blood groups are distinct categories without continuous intermediate values, unlike height, weight and skin colour."
+,radio,F4 Bab 5,A,B,C,D,B,Picture9.png,"中文：选B，J是切开质粒DNA。先用限制酶切开含人类胰岛素基因的DNA，再用同一种限制酶切开细菌质粒；随后将胰岛素基因与质粒连接成重组DNA，再导入细菌细胞。
+English: B is correct: J is cutting the plasmid DNA. A restriction enzyme first cuts the DNA containing the human insulin gene, and the same enzyme cuts the bacterial plasmid. The gene is then joined to the plasmid to form recombinant DNA, which is introduced into a bacterial cell."
+,radio,F4 Bab 6,A,B,C,D,B,Picture10.png,"中文：K是韧带，连接两块骨骼并帮助稳定关节；连接肌肉与骨骼的是肌腱。
+English: K is a ligament, connecting two bones and stabilising the joint; a tendon connects muscle to bone."
+,radio,F4 Bab 7,A,B,C,D,B,Picture11.png,"中文：L位于肾脏上方，是肾上腺，分泌肾上腺素参与应激反应。
+English: L lies above the kidney and is the adrenal gland, which secretes adrenaline during a stress response."
+,radio,F4 Bab 7,A,B,C,D,D,Picture12.png,"中文：选D。题干强调已经开展反毒品宣传，但青少年滥用毒品案件整体仍上升，因此可推论宣传效果有限，并可能还有同伴影响等其他因素。C虽描述部分图表信息，但D更回应题干所强调的情况。
+English: D is correct. Despite anti-drug campaigns, teenage drug-abuse cases show an overall upward trend. This suggests limited campaign effectiveness and possible additional influences, such as peers. Although C describes part of the graph, D better addresses the situation emphasised in the question."
+,radio,F4 Bab 8,A,B,C,D,B,Picture13.png,"中文：原子是保持元素化学身份的最小单位；原子核只是原子的一部分。
+English: An atom is the smallest unit retaining an element's chemical identity; a nucleus is only part of an atom."
+,radio,F4 Bab 8,A,B,C,D,C,Picture14.png,"中文：中性钠原子有11个电子，依次填入2、8、1，所以电子排布为2.8.1。
+English: A neutral sodium atom has 11 electrons, distributed 2, 8 and 1, giving the arrangement 2.8.1."
+,radio,F4 Bab 9,A,B,C,D,D,Picture15.png,"中文：二氧化硅配合碳酸钠和碳酸钙，是钠钙玻璃的原料组合。
+English: Silica with sodium carbonate and calcium carbonate is the raw-material combination for soda-lime glass."
+,radio,F4 Bab 9,A,B,C,D,D,Picture16.png,"中文：酸提供H⁺中和乳胶粒子表面负电荷；排斥减弱后粒子碰撞、聚集，使橡胶凝固。
+English: Acid supplies H⁺ to neutralise negative charges on latex particles. Reduced repulsion lets them collide and aggregate, coagulating the rubber."
+,radio,F4 Bab 10,A,B,C,D,D,Picture17.png,"中文：青霉素属于现代医药中的抗生素；现代药物须通过临床研究验证效用。
+English: Penicillin is an antibiotic in modern medicine, whose treatments are evaluated through clinical research."
+,radio,F4 Bab 11,A,B,C,D,C,Picture18.png,"中文：路程为60＋120＋60＝240 km，但E至H位移为120 km；平均速度＝120÷2＝60 km/h。
+English: Distance travelled is 60 + 120 + 60 = 240 km, but displacement E–H is 120 km; average velocity = 120 / 2 = 60 km/h."
+,radio,F4 Bab 11,A,B,C,D,A,Picture19.png,"中文：位移—时间图在t＝8 s时读数为6 m；位移读纵轴，不计算图下面积。
+English: The displacement–time graph reads 6 m at t = 8 s. Displacement is read from the vertical axis, not its area."
+,radio,F4 Bab 11,A,B,C,D,C,Picture20.png,"中文：球上升时受重力减速，位移仍增加但增加越来越慢，因此图线斜率逐渐减小，如C。
+English: While the ball rises, gravity slows it. Displacement increases at a decreasing rate, so the graph's gradient decreases as in C."
+,radio,F4 Bab 12,A,B,C,D,B,Picture21.png,"中文：氘和氚两个轻核结合成较重的氦核并释放能量，是核聚变。
+English: Two light nuclei, deuterium and tritium, combine to form helium and release energy: nuclear fusion."

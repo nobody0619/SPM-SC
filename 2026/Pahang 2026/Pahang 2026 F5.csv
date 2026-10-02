@@ -1,20 +1,39 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang 2026 F5,radio,F5 Bab 1,A,B,C,D,B,Picture22.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture27.png
-,radio,F5 Bab 4,A,B,C,D,D,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 6,A,B,C,D,B,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture36.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang 2026 F5,radio,F5 Bab 1,A,B,C,D,B,Picture22.png,"中文：图中选项 B 是变形虫，属于原生动物；细胞形态和伪足是辨认线索。
+English: Option B shows an amoeba, a protozoan. Its cell shape and pseudopodia are the identifying clues."
+,radio,F5 Bab 2,A,B,C,D,A,Picture23.png,"中文：按表中热量计算，Firman 的早餐总热量最高：约 4518 kJ；长期摄入过多能量会增加肥胖风险。
+English: Using the table, Firman's breakfast has the highest total energy at about 4518 kJ. Regular excess energy intake raises obesity risk."
+,radio,F5 Bab 2,A,B,C,D,B,Picture24.png,"中文：硝酸根变成氮气是反硝化作用；反硝化细菌把含氮离子还原成氮气，送回大气。
+English: Nitrate ions become nitrogen gas through denitrification. Denitrifying bacteria return nitrogen to the atmosphere."
+,radio,F5 Bab 2,A,B,C,D,C,Picture25.png,"中文：寄生蜂会攻击蝴蝶卵或幼虫，使破坏作物的毛虫减少，因而提高作物产量。
+English: The parasitic wasp attacks butterfly eggs or larvae, reducing crop-damaging caterpillars and helping increase yield."
+,radio,F5 Bab 2,A,B,C,D,A,Picture26.png,"中文：天培是黄豆经微生物发酵制成的食品，因此适用的加工技术是发酵。
+English: Tempeh is made by fermenting soybeans with microorganisms, so fermentation is the suitable processing technology."
+,radio,F5 Bab 3,A,B,C,D,D,Picture27.png,"中文：地区 S 的空气污染指数最高，表示空气最差；空气污染较严重的地区呼吸系统疾病病例也可能最多。
+English: District S has the highest API and poorest air quality; more severe air pollution can be associated with more respiratory illness."
+,radio,F5 Bab 4,A,B,C,D,D,Picture28.png,"中文：增加酸浓度使单位体积内反应粒子更多，有效碰撞更频繁，因此反应加快。
+English: Higher acid concentration provides more reacting particles per unit volume, increasing effective collisions and reaction rate."
+,radio,F5 Bab 4,A,B,C,D,A,Picture29.png,"中文：V₂O₅是接触法催化剂，降低活化能、加快SO₂氧化成SO₃，因此缩短反应时间。
+English: V₂O₅ catalyses the Contact process, lowering activation energy and accelerating SO₂ oxidation to SO₃, shortening reaction time."
+,radio,F5 Bab 5,A,B,C,D,C,Picture30.png,"中文：L位于较高沸点的馏分位置，平均分子链较长，因此比K更黏稠。
+English: L is a higher-boiling fraction with longer average molecular chains, making it more viscous than K."
+,radio,F5 Bab 5,A,B,C,D,B,Picture31.png,"中文：酵母把葡萄糖转化成乙醇和CO₂，是发酵过程，产生的CO₂可使石灰水浑浊。
+English: Yeast converts glucose into ethanol and CO₂ by fermentation; the CO₂ can turn limewater cloudy."
+,radio,F5 Bab 5,A,B,C,D,B,Picture32.png,"中文：选B。按本题课程的比较，植物油作为不饱和脂肪来源，比黄油等富含饱和脂肪的选择较健康。以植物油替代饱和脂肪，有助于减少胆固醇沉积及动脉粥样硬化风险。
+English: B is correct. In this syllabus comparison, vegetable oil is treated as a source of unsaturated fat and a healthier choice than saturated-fat-rich butter. Replacing saturated fats with unsaturated fats helps reduce cholesterol deposition and atherosclerosis risk."
+,radio,F5 Bab 5,A,B,C,D,C,Picture33.png,"中文：蒸汽处理是灭菌阶段，利用高温杀死细菌和真菌，并帮助后续加工。
+English: Steam treatment is the sterilisation stage: heat kills bacteria and fungi and assists subsequent processing."
+,radio,F5 Bab 6,A,B,C,D,C,Picture34.png,"中文：题目序列中镁离子位于钙离子与铝离子之间，所以X是Mg²⁺。
+English: In the series given, magnesium ions fall between calcium and aluminium ions, so X is Mg²⁺."
+,radio,F5 Bab 6,A,B,C,D,B,Picture35.png,"中文：柠檬汁含可移动的离子，可作为电解液；配合不同金属电极可构成化学电池。
+English: Lemon juice contains mobile ions and can serve as an electrolyte; with different metal electrodes it forms a chemical cell."
+,radio,F5 Bab 7,A,B,C,D,A,Picture36.png,"中文：像距从透镜光学中心量到像所在位置，图中这段距离标为A。
+English: Image distance is measured from the lens's optical centre to the image position, labelled A."
+,radio,F5 Bab 7,A,B,C,D,A,Picture37.png,"中文：目镜位于显微镜顶部、眼睛观察的位置，图中标为A。
+English: The eyepiece is at the top of the microscope where the eye looks through, labelled A."
+,radio,F5 Bab 8,A,B,C,D,D,Picture38.png,"中文：狭窄处L流速最大、压强最低，水柱最低；M水柱高于L但低于入口K，对应D。
+English: At narrow L, flow is fastest and pressure lowest, giving the lowest water column. M's column lies between L and inlet K, matching D."
+,radio,F5 Bab 9,A,B,C,D,A,Picture39.png,"中文：赤道上空约35786 km的同步圆轨道是地球同步静止轨道，卫星相对地面位置不变。
+English: A synchronous circular equatorial orbit at about 35,786 km is geostationary, keeping the satellite fixed relative to the ground."
+,radio,F5 Bab 9,A,B,C,D,C,Picture40.png,"中文：两个坐标均为负：纬度负表示南半球，经度负表示格林尼治以西。
+English: Both coordinates are negative: negative latitude means the Southern Hemisphere, and negative longitude means west of Greenwich."

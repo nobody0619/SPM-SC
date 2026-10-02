@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture21.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture22.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture27.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture29.png
-,radio,F5 Bab 4,A,B,C,D,D,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture33.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture34.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,D,Picture36.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture21.png,"中文：选项 A 是草履虫，属于原生动物；其余图示分别属于其他微生物类群。
+English: Option A is Paramecium, a protozoan; the other diagrams belong to different microorganism groups."
+,radio,F5 Bab 1,A,B,C,D,C,Picture22.png,"中文：本题对应的类群是细菌。某些细菌可用于疫苗生产；藻类、真菌和原生动物不是题目所指的类群。
+English: The keyed group is bacteria. Some bacteria are used in vaccine production; algae, fungi and protozoa are not the group intended here."
+,radio,F5 Bab 2,A,B,C,D,A,Picture23.png,"中文：维生素 D 帮助钙吸收和骨骼矿化；缺乏会导致佝偻病，出现腿骨弯曲。
+English: Vitamin D supports calcium absorption and bone mineralisation. A deficiency can cause rickets and bowed legs."
+,radio,F5 Bab 2,A,B,C,D,D,Picture24.png,"中文：反硝化细菌把硝酸盐转为氮气，氮气释放回大气，因此该过程使氮回到空气中。
+English: Denitrifying bacteria convert nitrate into nitrogen gas, returning nitrogen to the atmosphere."
+,radio,F5 Bab 2,A,B,C,D,B,Picture25.png,"中文：图示控制器可自动调节植物生产环境，减少持续人工操作，因此能降低人力需求。
+English: The controller automates growing conditions, reducing the need for continuous manual work."
+,radio,F5 Bab 2,A,B,C,D,A,Picture26.png,"中文：巴氏消毒用受控加热杀灭多数致病微生物，再迅速冷却，可延长鲜奶保存期并尽量保留营养。
+English: Pasteurisation uses controlled heating followed by rapid cooling to kill most pathogens, extend milk's shelf life, and retain nutrients."
+,radio,F5 Bab 3,A,B,C,D,B,Picture27.png,"中文：森林保护区中的植物通过光合作用吸收二氧化碳，并把碳储存在生物量中，因此是碳汇。
+English: Plants in a forest reserve absorb CO₂ through photosynthesis and store carbon in biomass, so the reserve is a carbon sink."
+,radio,F5 Bab 3,A,B,C,D,A,Picture28.png,"中文：负排放技术使用藻类吸收二氧化碳；藻类能光合作用，其他列出的微生物类群不符合。
+English: Negative-emission technology uses algae to capture carbon dioxide. Algae photosynthesise, unlike the other groups listed."
+,radio,F5 Bab 4,A,B,C,D,C,Picture29.png,"中文：镁燃烧属于快速反应，纸燃烧也是短时间内发生的快速反应，所以选C。生锈、发酵和食物腐败通常较慢。
+English: Burning magnesium is a fast reaction, and burning paper is another fast reaction, so C is correct. Rusting, fermentation and food decay are generally slower."
+,radio,F5 Bab 4,A,B,C,D,D,Picture30.png,"中文：浓度增加意味着单位体积内有更多反应粒子，碰撞频率和有效碰撞次数增加，因此反应加快，选D。浓度增加不代表粒子动能自动增加。
+English: Higher concentration means more reactant particles per unit volume, increasing collision frequency and effective collisions, so D is correct. It does not automatically increase particle kinetic energy."
+,radio,F5 Bab 5,A,B,C,D,B,Picture31.png,"中文：丁烷是四个碳原子的烷烃，符合通式CₙH₂ₙ₊₂；n＝4时为C₄H₁₀，所以选B。
+English: Butane is an alkane with four carbon atoms. Using CₙH₂ₙ₊₂ gives C₄H₁₀ when n = 4, so B is correct."
+,radio,F5 Bab 5,A,B,C,D,A,Picture32.png,"中文：乙醇含有羟基（−OH），属于醇类，所以选A。乙烯是烯烃、甲烷是烷烃、乙酸是羧酸。
+English: Ethanol contains a hydroxyl group (−OH) and is an alcohol, so A is correct. Ethene is an alkene, methane an alkane and ethanoic acid a carboxylic acid."
+,radio,F5 Bab 5,A,B,C,D,D,Picture33.png,"中文：过量摄入饱和脂肪可提高LDL胆固醇，并增加动脉粥样硬化风险，因此D最符合图中胆固醇斑块的形成。
+English: Excessive saturated-fat intake can raise LDL cholesterol and increase atherosclerosis risk. Therefore D best fits the cholesterol plaque shown."
+,radio,F5 Bab 5,A,B,C,D,B,Picture34.png,"中文：棕榈油的饱和脂肪为49%，不饱和脂肪为50%，两者接近相等，因此选B。椰油主要为饱和脂肪，玉米油主要为不饱和脂肪。
+English: Palm oil contains 49% saturated and 50% unsaturated fat, an almost balanced composition, so B is correct. Coconut oil is mainly saturated and corn oil mainly unsaturated."
+,radio,F5 Bab 6,A,B,C,D,C,Picture35.png,"中文：镁在这些选项中最活泼，与较不活泼金属配对时容易失去电子，成为负极，因此预期选C。不过锌和铁与适当金属配对也可作负极，题目未指定另一电极，需复核措辞。
+English: Magnesium is the most reactive option and loses electrons when paired with a less reactive metal, making C the intended answer. Zinc and iron can also be negative electrodes in suitable pairs; the unspecified second electrode makes the wording ambiguous."
+,radio,F5 Bab 7,A,B,C,D,D,Picture36.png,"中文：图中平行光经过透镜后会聚，说明X是凸透镜。D中央厚、边缘薄，符合凸透镜的形状。
+English: The parallel rays converge after passing through X, identifying a convex lens. D is thick in the centre and thin at the edges, so it is correct."
+,radio,F5 Bab 7,A,B,C,D,B,Picture37.png,"中文：显微镜总放大倍数＝目镜倍数×物镜倍数，因此物镜倍数＝900÷20＝45倍，选B。
+English: Total microscope magnification = eyepiece magnification × objective magnification. The objective is 900 ÷ 20 = 45 times, so B is correct."
+,radio,F5 Bab 8,A,B,C,D,D,Picture38.png,"中文：密闭液体传递相同压力：30÷5＝F÷125。因此F＝30×125÷5＝750 N，选D。
+English: Equal pressure is transmitted through the enclosed liquid: 30 ÷ 5 = F ÷ 125. Thus F = 30 × 125 ÷ 5 = 750 N, so D is correct."
+,radio,F5 Bab 9,A,B,C,D,D,Picture39.png,"中文：本题按课本对低地球轨道（LEO）的描述选D，LEO可以近圆形或椭圆形。不过仅凭轨道形状不能唯一确定高度类别，题干缺少区分MEO等轨道的条件。
+English: The textbook description of low Earth orbit (LEO) gives D; LEO may be approximately circular or elliptical. However, shape alone cannot uniquely determine the altitude category or exclude MEO, so the question needs a distinguishing condition."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：卫星导航根据卫星信号确定接收器的位置，因此选A。它不直接测量气温、气压或湿度。
+English: Satellite navigation determines a receiver's location from satellite signals, so A is correct. It does not directly measure temperature, pressure or humidity."

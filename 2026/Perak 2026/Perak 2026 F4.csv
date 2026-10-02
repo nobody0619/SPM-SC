@@ -1,24 +1,47 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perak 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,A,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,D,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,B,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture10.png
-,radio,F4 Bab 6,A,B,C,D,A,Picture11.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture12.png
-,radio,F4 Bab 7,A,B,C,D,C,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture14.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture16.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 9,A,B,C,D,C,Picture18.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture19.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture20.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture21.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture22.png
-,radio,F4 Bab 12,A,B,C,D,B,Picture23.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png,"中文：图中是有抽气功能的通风橱，用于把化学蒸气从工作区域排走。
+English: The equipment is a fume cupboard, which extracts chemical vapours from the work area."
+,radio,F4 Bab 1,A,B,C,D,A,Picture2.png,"中文：图示木椅属于普通固体燃烧，水能吸热降温，使温度低于着火点。
+English: The wooden chair is an ordinary solid fire. Water absorbs heat and cools it below its ignition temperature."
+,radio,F4 Bab 2,A,B,C,D,D,Picture3.png,"中文：图示人工呼吸把空气送入受害者肺部，为身体提供氧气。
+English: The rescue breath shown delivers air into the victim's lungs to supply oxygen."
+,radio,F4 Bab 3,A,B,C,D,A,Picture4.png,"中文：本课一般比较中，女性平均脉搏较男性快；运动会提高脉搏，训练良好的运动员静息脉搏通常较低。
+English: In the syllabus comparison, females generally have a higher average pulse rate. Exercise raises pulse rate, while trained athletes usually have lower resting rates."
+,radio,F4 Bab 4,A,B,C,D,D,Picture5.png,"中文：分类回收让可再用材料重新进入生产流程，减少送往填埋场的固体垃圾。
+English: Sorting and recycling return reusable materials to production, reducing solid waste sent to landfills."
+,radio,F4 Bab 3,A,B,C,D,D,Picture6.png,"中文：读数约133/93 mmHg，舒张压93已超过本课正常范围；持续如此符合高血压选项。
+English: The reading is about 133/93 mmHg. Diastolic pressure of 93 exceeds the syllabus's normal range, matching persistent high blood pressure."
+,radio,F4 Bab 4,A,B,C,D,B,Picture7.png,"中文：改装天然气车辆相对传统汽油车辆可降低部分燃烧排放，符合本题减少温室气体的比较。
+English: The natural-gas conversion can reduce some combustion emissions compared with conventional petrol operation, matching the comparison intended here."
+,radio,F4 Bab 5,A,B,C,D,D,Picture8.png,"中文：染色体排列在细胞赤道板上但尚未分离，是分裂中期。
+English: Chromosomes are aligned at the cell equator but have not separated, identifying metaphase."
+,radio,F4 Bab 5,A,B,C,D,A,Picture9.png,"中文：核型显示XXY，即男性额外有一条X染色体，属于克氏综合征。
+English: The karyotype shows XXY, an extra X chromosome in a male, identifying Klinefelter syndrome."
+,radio,F4 Bab 5,A,B,C,D,A,Picture10.png,"中文：本题所述连续变异没有明确类别，并受环境影响；智力是课本采用的例子。
+English: The stated continuous variation has no distinct categories and is influenced by environment; intelligence is the example used in the syllabus."
+,radio,F4 Bab 6,A,B,C,D,A,Picture11.png,"中文：骆驼张开腿增加支撑面积，低头降低重心，从而更稳定。
+English: The camel spreads its legs to widen the support base and lowers its head to lower its centre of gravity, improving stability."
+,radio,F4 Bab 7,A,B,C,D,B,Picture12.png,"中文：垂体分泌调控其他内分泌腺的激素，因此称为主腺。
+English: The pituitary secretes hormones that regulate other endocrine glands, so it is called the master gland."
+,radio,F4 Bab 7,A,B,C,D,C,Picture13.png,"中文：增加警觉和自信对应兴奋剂；安非他明是其中一种，因此类型与例子配对C正确。
+English: Increased alertness and confidence indicate a stimulant; amphetamine is an example, so C is the correct pairing."
+,radio,F4 Bab 8,A,B,C,D,D,Picture14.png,"中文：D位于周期表右侧卤素区域，属于非金属；其他标记位于金属区域。
+English: D lies in the halogen region on the right of the periodic table and is a non-metal; the other labelled positions are metals."
+,radio,F4 Bab 8,A,B,C,D,A,Picture15.png,"中文：Na-23有11个质子，中子数＝23－11＝12，核子数为23。
+English: Na-23 has 11 protons and 23 − 11 = 12 neutrons, with nucleon number 23."
+,radio,F4 Bab 9,A,B,C,D,A,Picture16.png,"中文：硬铝是轻而强的铝基合金，适用于要求减轻重量且保持强度的交通工具。
+English: Duralumin is a light, strong aluminium-based alloy suited to vehicles requiring low weight and strength."
+,radio,F4 Bab 9,A,B,C,D,D,Picture17.png,"中文：陶瓷由黏土塑形后在高温下烧制，形成坚硬耐热的制品。
+English: Ceramics are formed from clay and fired at high temperature to produce hard, heat-resistant items."
+,radio,F4 Bab 9,A,B,C,D,C,Picture18.png,"中文：天然橡胶加硫形成硫化橡胶，强度、耐热和耐磨性提高，适合制造轮胎。
+English: Adding sulfur vulcanises natural rubber, improving strength, heat resistance and wear resistance for tyres."
+,radio,F4 Bab 10,A,B,C,D,A,Picture19.png,"中文：发炎是体内产生自由基的过程；烟雾、游离辐射和紫外线属于外部因素。
+English: Inflammation is an internal source of free radicals; smoke, ionising radiation and ultraviolet rays are external factors."
+,radio,F4 Bab 11,A,B,C,D,D,Picture20.png,"中文：同方向总位移＝10＋5＝15 m；总时间应包括5秒休息，共45秒。
+English: Total displacement in the same direction is 10 + 5 = 15 m; total elapsed time includes the rest and is 45 seconds."
+,radio,F4 Bab 11,A,B,C,D,B,Picture21.png,"中文：位移—时间图斜率＝位移变化÷时间变化，定义上就是速度。
+English: The gradient of a displacement–time graph is change in displacement divided by time, which is velocity."
+,radio,F4 Bab 11,A,B,C,D,C,Picture22.png,"中文：卡车改变运动状态时，负载因惯性倾向继续原有运动，因而相对车身被甩出。
+English: When the lorry changes its motion, inertia makes the load tend to continue its previous motion and be thrown relative to the vehicle."
+,radio,F4 Bab 12,A,B,C,D,B,Picture23.png,"中文：铀-235能发生受控裂变，释放热能，是核反应堆使用的燃料。
+English: Uranium-235 undergoes controlled fission and releases heat, making it a nuclear-reactor fuel."

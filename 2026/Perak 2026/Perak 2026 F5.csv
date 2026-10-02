@@ -1,18 +1,35 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perak 2026 F5,radio,F5 Bab 1,A,B,C,D,D,Picture24.png
-,radio,F5 Bab 1,A,B,C,D,A,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture26.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture27.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture28.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture30.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture31.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture33.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture34.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture35.png
-,radio,F5 Bab 6,A,B,C,D,A,Picture36.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture37.png
-,radio,F5 Bab 7,A,B,C,D,D,Picture38.png
-,radio,F5 Bab 8,A,B,C,D,C,Picture39.png
-,checkbox,F5 Bab 9,A,B,C,D,"A,D",Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2026 F5,radio,F5 Bab 1,A,B,C,D,D,Picture24.png,"中文：图中的微生物是酵母菌，酵母发酵产生二氧化碳，所以常用于制作面包。
+English: The microorganism shown is yeast. Its fermentation produces carbon dioxide, which is why it is used in bread-making."
+,radio,F5 Bab 1,A,B,C,D,A,Picture25.png,"中文：脚趾间发痒、脱皮常见于真菌感染；抗真菌药膏针对病因，抗生素不能治疗真菌。
+English: Itching and peeling between the toes are typical of a fungal infection. Antifungal cream treats the cause; antibiotics do not treat fungi."
+,radio,F5 Bab 2,A,B,C,D,A,Picture26.png,"中文：黑纸挡住光线，阻止藻类进行光合作用，从而避免藻类在培养液中生长。
+English: Black paper blocks light and prevents algae from photosynthesising, stopping their growth in the culture solution."
+,radio,F5 Bab 2,A,B,C,D,A,Picture27.png,"中文：根瘤固氮菌把氮气转成植物可利用的含氮化合物；随后可经硝化形成硝酸根。
+English: Root-nodule bacteria fix nitrogen gas into compounds plants can use; nitrification can then form nitrate ions."
+,radio,F5 Bab 2,A,B,C,D,B,Picture28.png,"中文：果胶可使蛋黄酱等食品变稠并稳定混合物，令质地较厚且均匀。
+English: Pectin thickens foods such as mayonnaise and stabilises the mixture, giving it a thicker, more uniform texture."
+,radio,F5 Bab 3,A,B,C,D,A,Picture29.png,"中文：二氧化碳浓度从 2015 年的 403.3 ppm 升至 2025 年的 425.7 ppm，较多化石燃料燃烧会排放二氧化碳。
+English: CO₂ rises from 403.3 ppm in 2015 to 425.7 ppm in 2025. Burning more fossil fuels releases additional carbon dioxide."
+,radio,F5 Bab 3,A,B,C,D,C,Picture30.png,"中文：纸类废物占比从 20% 降到 8%，与线上考试和电子书减少用纸的趋势相符。
+English: The paper-waste share falls from 20% to 8%, consistent with online exams and e-books reducing paper use."
+,radio,F5 Bab 4,A,B,C,D,C,Picture31.png,"中文：固体反应物颗粒大小决定总表面积；颗粒越小，暴露面积越大，通常反应越快。
+English: Solid reactant particle size determines total exposed surface area; smaller particles usually react faster."
+,radio,F5 Bab 4,A,B,C,D,C,Picture32.png,"中文：两分钟＝120 s，该时刻收集30 cm³气体，平均速率＝30÷120＝0.25 cm³/s。
+English: Two minutes is 120 s, when 30 cm³ gas has been collected; average rate = 30 / 120 = 0.25 cm³/s."
+,radio,F5 Bab 5,A,B,C,D,D,Picture33.png,"中文：结构含3个碳原子且只有碳碳单键，是饱和烃丙烷C₃H₈。
+English: Three carbon atoms with only single carbon–carbon bonds identify the saturated hydrocarbon propane, C₃H₈."
+,radio,F5 Bab 5,A,B,C,D,A,Picture34.png,"中文：无色液体描述物理性质；燃烧和生成酯涉及新物质形成，是化学性质。
+English: Being a colourless liquid is a physical property; burning and ester formation are chemical properties involving new substances."
+,radio,F5 Bab 5,A,B,C,D,B,Picture35.png,"中文：减少奶酪摄入可减少饱和脂肪来源，有助于降低与胆固醇沉积有关的风险。
+English: Reducing cheese intake reduces a source of saturated fat, helping lower cholesterol-related deposition risk."
+,radio,F5 Bab 6,A,B,C,D,A,Picture36.png,"中文：S接电源正极，因此是电解池阳极；负离子移向它。
+English: S is connected to the positive power terminal, making it the anode of the electrolytic cell."
+,radio,F5 Bab 6,A,B,C,D,D,Picture37.png,"中文：镁比铁活泼，铁比铜活泼；S为铁时与镁配对可沉积增厚，与铜配对则失电子变薄。
+English: Magnesium is more reactive than iron, which is more reactive than copper. Iron S gains deposits with magnesium but dissolves when paired with copper."
+,radio,F5 Bab 7,A,B,C,D,D,Picture38.png,"中文：物镜由10×换为40×，配10×目镜，总倍数从100×升至400×；模糊问题仍需调焦。
+English: Changing the objective from 10× to 40× with a 10× eyepiece raises total magnification from 100× to 400×; blur still requires focusing."
+,radio,F5 Bab 8,A,B,C,D,C,Picture39.png,"中文：输入力＝7000×7÷70＝700 N，两活塞压强相同。
+English: Equal piston pressures give input force = 7000 × 7 / 70 = 700 N."
+,checkbox,F5 Bab 9,A,B,C,D,"A,D",Picture40.png,"中文：近地点是离地球最近的位置。原答案保留A、D，但示意图地球位置与椭圆焦点并不明确，需核对原评分方案。
+English: Perigee is the point nearest Earth. The supplied A,D key is preserved, but Earth's position relative to the ellipse's focus is unclear, so the original marking scheme needs review."

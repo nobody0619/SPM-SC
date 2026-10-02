@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-KL 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 2,A,B,C,D,C,Picture2.png
-,radio,F4 Bab 3,A,B,C,D,A,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,A,Picture5.png
-,radio,F4 Bab 4,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture9.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture10.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture11.png
-,radio,F4 Bab 7,A,B,C,D,C,Picture12.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,C,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture17.png
-,radio,F4 Bab 10,A,B,C,D,C,Picture18.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture19.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture20.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture21.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture22.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture23.png
-,radio,F5 Bab 1,A,B,C,D,B,Picture24.png
-,radio,F5 Bab 1,A,B,C,D,A,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture27.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture28.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture29.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture32.png
-,radio,F5 Bab 4,A,B,C,D,D,Picture33.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture34.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture35.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture36.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture37.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture38.png
-,radio,F5 Bab 8,A,B,C,D,B,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+KL 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：实验袍覆盖身体，能减少泼溅的化学品接触皮肤和衣物，因此选B。
+English: A lab coat covers the body and reduces contact between splashed chemicals and the skin or clothing, so B is correct."
+,radio,F4 Bab 2,A,B,C,D,C,Picture2.png,"中文：双手抓住颈部是噎住的典型表现；海姆立克法用于处理气道被异物阻塞，因此选C。
+English: Holding the neck with both hands indicates choking. The Heimlich manoeuvre addresses airway obstruction by a foreign object, so C is correct."
+,radio,F4 Bab 3,A,B,C,D,A,Picture3.png,"中文：图中血压为125/80 mmHg，按本题课本分类属于正常血压，尚未达到高血压范围。
+English: The reading is 125/80 mmHg. In the textbook classification used here, it is normal rather than hypertension."
+,radio,F4 Bab 3,A,B,C,D,A,Picture4.png,"中文：BMI 17属于体重不足；均衡饮食配合适量规律运动，有助于补充营养和改善体能。
+English: A BMI of 17 indicates underweight. A balanced diet and regular, appropriate exercise improve nutrition and fitness."
+,radio,F4 Bab 4,A,B,C,D,A,Picture5.png,"中文：风力、水力和太阳能装置都用于提供能源，因此属于绿色科技的能源领域。
+English: Wind turbines, hydroelectric facilities and solar panels generate energy, placing them in the energy sector of green technology."
+,radio,F4 Bab 4,A,B,C,D,B,Picture6.png,"中文：把稻草制成工艺品能再利用农业废料，农民收割后无需再用焚烧方式处理稻草。
+English: Making crafts from rice straw reuses agricultural waste, so farmers no longer need to burn it after harvesting."
+,radio,F4 Bab 4,A,B,C,D,D,Picture7.png,"中文：有机肥和生物防治可改善土壤、控制害虫，并减少化学肥料和农药造成的污染。
+English: Organic fertilisers and biological pest control improve soil and control pests while reducing pollution from chemical fertilisers and pesticides."
+,radio,F4 Bab 5,A,B,C,D,B,Picture8.png,"中文：图中染色体排列在细胞赤道板上，是有丝分裂中期；同源染色体配对排列属于减数分裂。
+English: Chromosomes aligned at the equator indicate metaphase of mitosis. Paired homologous chromosomes would indicate meiosis instead."
+,radio,F4 Bab 5,A,B,C,D,D,Picture9.png,"中文：基因改造可以引入抗病性状，使植物更能抵抗病原体侵害，因此选D。
+English: Genetic modification can introduce disease-resistance traits, helping plants withstand pathogens; therefore D is correct."
+,radio,F4 Bab 6,A,B,C,D,D,Picture10.png,"中文：身高有许多中间数值，属于连续变异；群体数据通常以近似钟形分布表示。
+English: Height has many intermediate values and shows continuous variation, commonly represented by a bell-shaped distribution."
+,radio,F4 Bab 6,A,B,C,D,D,Picture11.png,"中文：毛毛虫有静水骨骼，体内液体产生压力，帮助维持身体形状。
+English: A caterpillar has a hydrostatic skeleton: pressure from internal fluid helps maintain its body shape."
+,radio,F4 Bab 7,A,B,C,D,C,Picture12.png,"中文：图示胰腺分泌胰岛素；移除后胰岛素不足，细胞摄取和储存葡萄糖减少，血糖会上升。
+English: The pancreas secretes insulin. Its removal reduces glucose uptake and storage, causing blood glucose to rise."
+,radio,F4 Bab 7,A,B,C,D,B,Picture13.png,"中文：过量饮酒可损伤肝脏、心脏和胃；其中肝硬化是识别酒精危害的重要线索。
+English: Excessive alcohol consumption can damage the liver, heart and stomach. Liver cirrhosis is a key clue identifying alcohol."
+,radio,F4 Bab 8,A,B,C,D,C,Picture14.png,"中文：现代周期表按质子数递增排列；质子数决定元素的身份。
+English: The modern periodic table is arranged by increasing proton number, which identifies each element."
+,radio,F4 Bab 9,A,B,C,D,A,Picture15.png,"中文：硬铝是以铝为主要成分的合金；镁、铝和铜本身都是元素。
+English: Duralumin is an aluminium-based alloy. Magnesium, aluminium and copper themselves are elements."
+,radio,F4 Bab 9,A,B,C,D,B,Picture16.png,"中文：黄铜是铜与锌组成的合金，较硬且耐腐蚀，常用于制作钥匙。
+English: Brass is an alloy of copper and zinc. Its hardness and corrosion resistance make it suitable for keys."
+,radio,F4 Bab 10,A,B,C,D,B,Picture17.png,"中文：题目描述对应课本中的顺势疗法；针灸使用针，脊椎矫正靠手法，化疗使用药物。
+English: The description matches homeopathy in the syllabus. Acupuncture uses needles, chiropractic uses manipulation, and chemotherapy uses drugs."
+,radio,F4 Bab 10,A,B,C,D,C,Picture18.png,"中文：柠檬汁含抗氧化物质并呈酸性，能减慢切开水果的氧化褐变。
+English: Lemon juice contains antioxidants and is acidic, slowing oxidative browning in cut fruit."
+,radio,F4 Bab 10,A,B,C,D,A,Picture19.png,"中文：图示按摩以手或脚操控身体软组织，是题目所指的疗法特征。
+English: Massage involves manipulating the body's soft tissues using hands or feet, matching the practice shown."
+,radio,F4 Bab 11,A,B,C,D,B,Picture20.png,"中文：同方向总位移为10＋5＝15 m；总时间包含休息，为30＋5＋10＝45 s。
+English: Total displacement in the same direction is 10 + 5 = 15 m. Total time includes the rest: 30 + 5 + 10 = 45 s."
+,radio,F4 Bab 11,A,B,C,D,D,Picture21.png,"中文：速度—时间图的斜率代表加速度；在本题正向运动情境，负斜率表示速度降低，即减速。
+English: The gradient of a velocity–time graph is acceleration. For the positive motion assumed here, a negative gradient indicates slowing down."
+,radio,F4 Bab 12,A,B,C,D,D,Picture22.png,"中文：X是涡轮，蒸汽推动它转动，再带动发电机产生电能。
+English: X is the turbine. Steam spins it, and it drives the generator to produce electricity."
+,radio,F4 Bab 12,A,B,C,D,C,Picture23.png,"中文：辐射可改变DNA，引起基因突变；恶心、白内障和脱发属于身体效应。
+English: Radiation can alter DNA and cause mutations. Nausea, cataracts and hair loss are bodily effects rather than genetic changes."
+,radio,F5 Bab 1,A,B,C,D,B,Picture24.png,"中文：柠檬使食物环境更酸，较低的 pH 会抑制许多微生物生长，延缓食物变质。
+English: Lemon makes the food more acidic. A lower pH inhibits many microbes and slows spoilage."
+,radio,F5 Bab 1,A,B,C,D,A,Picture25.png,"中文：题库答案为乳酸杆菌。乳酸杆菌可发酵有机物，是有效微生物应用中的有益细菌之一。
+English: The supplied key identifies Lactobacillus. It ferments organic matter and is one of the beneficial bacteria used in effective-microorganism applications."
+,radio,F5 Bab 2,A,B,C,D,C,Picture26.png,"中文：淀粉可增加黏度并帮助维持混合物的均匀质地，因此能作食品稳定剂。
+English: Starch increases viscosity and helps maintain a uniform mixture, so it can act as a food stabiliser."
+,radio,F5 Bab 2,A,B,C,D,C,Picture27.png,"中文：题库答案为调味剂 C。课程语境中，过量调味剂是加工食品健康风险的一项；适量饮食可降低风险。
+English: The supplied key is flavouring, C. In the syllabus context, excessive flavouring in processed foods is a health risk; moderation reduces exposure."
+,radio,F5 Bab 2,A,B,C,D,B,Picture28.png,"中文：缺钾常使老叶叶缘先发黄或焦枯；图中下部叶片边缘的症状符合缺钾。
+English: Potassium deficiency often yellows or scorches the edges of older leaves first, matching the lower leaves shown."
+,radio,F5 Bab 2,A,B,C,D,B,Picture29.png,"中文：干燥降低食物水分及水活性，减慢微生物生长和酶促变质，所以能保存食物。
+English: Drying lowers moisture and water activity, slowing microbial growth and enzyme-driven spoilage."
+,radio,F5 Bab 3,A,B,C,D,A,Picture30.png,"中文：负排放装置中的微藻通过光合作用吸收二氧化碳并释放氧气，帮助降低大气碳含量。
+English: Microalgae in negative-emission systems absorb CO₂ and release oxygen through photosynthesis, helping lower atmospheric carbon."
+,radio,F5 Bab 3,A,B,C,D,B,Picture31.png,"中文：BOD 是微生物分解有机污染物所需的氧量；BOD 高代表有机污染负荷较大，不表示水中氧气多或水质好。
+English: BOD is the oxygen microbes need to break down organic pollutants. High BOD indicates a greater organic pollution load, not cleaner water or more oxygen."
+,radio,F5 Bab 4,A,B,C,D,C,Picture32.png,"中文：80 s后气体体积保持30 cm³，图线斜率为零，表示不再产气，反应已停止。
+English: After 80 s, gas volume stays at 30 cm³. The zero gradient means no more gas is produced and the reaction has stopped."
+,radio,F5 Bab 4,A,B,C,D,D,Picture33.png,"中文：选D。切块后的B总表面积较大，较容易受热、煮熟；整块A总表面积较小，升高温度可加快其烹煮，补偿大小带来的影响。因此本题以A采用较高温度为正确选项；A并非表面积较大，B也不会比A煮得更久或与A一样久。
+English: D is the intended answer. Cut potato B has a larger total surface area and cooks more readily. Raising the temperature speeds up cooking of whole potato A, compensating for its smaller exposed area. Thus A does not have the larger area, and B takes neither longer nor the same time under comparable conditions."
+,radio,F5 Bab 5,A,B,C,D,D,Picture34.png,"中文：结构有3个碳原子和一个碳碳双键，因此是丙烯C₃H₆，而非只有单键的丙烷。
+English: Three carbon atoms and a carbon–carbon double bond identify propene, C₃H₆, rather than single-bonded propane."
+,radio,F5 Bab 5,A,B,C,D,A,Picture35.png,"中文：饱和脂肪常见于动物脂肪，通常室温下呈固态且不溶于水。
+English: Saturated fats are commonly found in animal fats, are usually solid at room temperature, and are insoluble in water."
+,radio,F5 Bab 5,A,B,C,D,B,Picture36.png,"中文：B指向果皮与硬壳之间的果肉层，即中果皮，是棕榈油的主要来源。
+English: B points to the fleshy mesocarp between the outer skin and shell, the main source of palm oil."
+,radio,F5 Bab 6,A,B,C,D,D,Picture37.png,"中文：Y接负极，是阴极；Cu²⁺取得电子变成铜，沉积在Y表面。
+English: Y is the negative electrode, or cathode. Cu²⁺ ions gain electrons and deposit as copper on Y."
+,radio,F5 Bab 7,A,B,C,D,A,Picture38.png,"中文：放大镜把物体置于凸透镜焦距内，产生正立、放大的虚像。
+English: A magnifying glass places the object within a convex lens's focal length, producing an upright, enlarged virtual image."
+,radio,F5 Bab 8,A,B,C,D,B,Picture39.png,"中文：负载重力＝50×10＝500 N。按帕斯卡原理，输入力＝500×4÷100＝20 N。
+English: The load weighs 50 × 10 = 500 N. By Pascal's principle, input force = 500 × 4 / 100 = 20 N."
+,radio,F5 Bab 9,A,B,C,D,C,Picture40.png,"中文：GPS利用卫星信号确定接收器的位置，因此提供的是地点信息。
+English: GPS uses satellite signals to determine the receiver's position, so it provides location information."

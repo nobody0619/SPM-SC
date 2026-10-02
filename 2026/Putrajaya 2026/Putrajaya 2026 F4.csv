@@ -1,26 +1,51 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,A,Picture2.png
-,radio,F4 Bab 1,A,B,C,D,C,Picture3.png
-,radio,F4 Bab 2,A,B,C,D,D,Picture4.png
-,radio,F4 Bab 2,A,B,C,D,C,Picture5.png
-,radio,F4 Bab 3,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture7.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture8.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture10.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,B,Picture12.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture13.png
-,radio,F4 Bab 7,A,B,C,D,C,Picture14.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture15.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture16.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture18.png
-,radio,F4 Bab 9,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 10,A,B,C,D,C,Picture20.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture21.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture22.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture23.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture24.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture25.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya 2026 F4,radio,F4 Bab 1,A,B,C,D,A,Picture1.png,"中文：泡沫型可用于纸、木材等普通固体火灾；其余列出的气体、电器和金属火灾不符合本题用途。
+English: Foam can be used for ordinary solid fires such as paper and wood; the listed gas, electrical and metal fires do not match this use."
+,radio,F4 Bab 1,A,B,C,D,A,Picture2.png,"中文：通风橱把挥发性有毒物质的蒸气抽走，减少实验者吸入的风险。
+English: A fume cupboard extracts vapours from volatile toxic substances, reducing inhalation risk."
+,radio,F4 Bab 1,A,B,C,D,C,Picture3.png,"中文：动物尸体属于生物组织废物，按本课流程包好、放入生物危害袋并冷冻，等待专门处理。
+English: Animal carcasses are biological tissue waste, wrapped, placed in biohazard bags and frozen pending specialised disposal in the syllabus procedure."
+,radio,F4 Bab 2,A,B,C,D,D,Picture4.png,"中文：双手抓颈部是噎住的典型信号；海姆立克法针对异物阻塞气道。
+English: Holding the neck with both hands is a typical choking sign; the Heimlich manoeuvre addresses foreign-object airway obstruction."
+,radio,F4 Bab 2,A,B,C,D,C,Picture5.png,"中文：胸外按压压迫心脏，使血液在体内人工循环，维持器官的供氧。
+English: Chest compressions produce artificial blood circulation, helping maintain oxygen delivery to organs."
+,radio,F4 Bab 3,A,B,C,D,B,Picture6.png,"中文：143/92 mmHg位于本课一级高血压范围，即收缩压140至159或舒张压90至99。
+English: 143/92 mmHg is within the syllabus's stage 1 hypertension range: systolic 140–159 or diastolic 90–99."
+,radio,F4 Bab 3,A,B,C,D,C,Picture7.png,"中文：BMI＝60÷1.52²≈25.97 kg/m²，对应选项C的25.96。
+English: BMI = 60 / 1.52² ≈ 25.97 kg/m², matching the rounded option C, 25.96."
+,radio,F4 Bab 4,A,B,C,D,D,Picture8.png,"中文：碳足迹量化活动产生的温室气体排放，通常用CO₂当量表示；D是本题的简化定义。
+English: A carbon footprint measures emissions from activities, usually as CO₂ equivalents; D gives the simplified definition used here."
+,radio,F4 Bab 4,A,B,C,D,D,Picture9.png,"中文：绿色交通层级底部S代表应优先选择的步行等低排放方式，而非单人机动车。
+English: The bottom level S represents preferred low-emission modes such as walking, rather than single-occupant motor vehicles."
+,radio,F4 Bab 5,A,B,C,D,A,Picture10.png,"中文：彼此分开的柱代表不连续类别；血型是明确类别，体重、身高和手指长度则连续变化。
+English: Separate bars represent distinct categories. Blood group is categorical, whereas weight, height and finger length vary continuously."
+,radio,F4 Bab 5,A,B,C,D,D,Picture11.png,"中文：遗传研究能培育更高产、品质更好或抗病的作物和家畜，提高农牧产品质量。
+English: Genetic research can develop higher-yielding, better-quality or disease-resistant crops and livestock, improving agricultural products."
+,radio,F4 Bab 6,A,B,C,D,B,Picture12.png,"中文：张开腿和降低身体可降低重心、增加支撑范围，使长颈鹿低头饮水时更稳定。
+English: Spreading the legs and lowering the body lower the centre of gravity and widen support, improving stability while drinking."
+,radio,F4 Bab 6,A,B,C,D,C,Picture13.png,"中文：卷须抓住附近支撑物，让柔软的茎向上攀爬，取得更多阳光进行光合作用。
+English: Tendrils grip nearby supports, allowing soft stems to climb and obtain more sunlight for photosynthesis."
+,radio,F4 Bab 7,A,B,C,D,C,Picture14.png,"中文：焦虑及心跳加速对应肾上腺素反应；图中C是肾脏上方的肾上腺。
+English: Nervousness and increased heart rate indicate an adrenaline response; C labels the adrenal gland above the kidney."
+,radio,F4 Bab 7,A,B,C,D,B,Picture15.png,"中文：听到或看到不存在的事物属于幻觉，是致幻剂的典型作用。
+English: Hearing or seeing things that do not exist constitutes hallucination, a characteristic effect of hallucinogens."
+,radio,F4 Bab 8,A,B,C,D,A,Picture16.png,"中文：中性原子的电子数等于质子数；质子数5，所以电子数也是5。
+English: A neutral atom has equal numbers of electrons and protons. With proton number 5, it has five electrons."
+,radio,F4 Bab 8,A,B,C,D,D,Picture17.png,"中文：同位素是同一元素的原子，质子数相同但中子数不同，因此核子数也不同。
+English: Isotopes are atoms of the same element with equal proton numbers but different neutron numbers, and therefore different nucleon numbers."
+,radio,F4 Bab 9,A,B,C,D,A,Picture18.png,"中文：硬铝密度低、强度高，能减轻飞机结构重量，符合A。
+English: Duralumin has low density and high strength, reducing aircraft structural weight, matching A."
+,radio,F4 Bab 9,A,B,C,D,C,Picture19.png,"中文：橡胶与硫加热发生硫化，形成交联，使鞋底更硬、更耐热和耐磨。
+English: Heating rubber with sulfur vulcanises it, forming cross-links that improve hardness, heat resistance and durability of soles."
+,radio,F4 Bab 10,A,B,C,D,C,Picture20.png,"中文：传统医药常使用来自植物或其他天然来源的材料，符合C的课本描述。
+English: Traditional medicine commonly uses materials from plants or other natural sources, matching C's syllabus description."
+,radio,F4 Bab 10,A,B,C,D,D,Picture21.png,"中文：自由基可与DNA反应、破坏其结构；抗氧化物则有助于中和自由基。
+English: Free radicals can react with and damage DNA; antioxidants help neutralise free radicals."
+,radio,F4 Bab 11,A,B,C,D,A,Picture22.png,"中文：加速度是速度的变化率；速度恒定没有变化，所以加速度为零。
+English: Acceleration is the rate of change of velocity. Constant velocity has no change, so acceleration is zero."
+,radio,F4 Bab 11,A,B,C,D,A,Picture23.png,"中文：质量大的飞机惯性大，较难停止原有运动，因此在给定制动力下需要较长距离减速。
+English: A massive aircraft has greater inertia and is harder to stop, requiring a longer stopping distance for a given braking force."
+,radio,F4 Bab 12,A,B,C,D,C,Picture24.png,"中文：常规核电反应堆靠受控核裂变释放热能，再用蒸汽驱动发电机。
+English: Conventional nuclear reactors release heat through controlled nuclear fission, then use steam to drive electricity generation."
+,radio,F4 Bab 12,A,B,C,D,C,Picture25.png,"中文：脱发影响受辐射者本人的身体，属于躯体效应，而非后代遗传性改变。
+English: Hair loss affects the exposed person's body and is a somatic effect rather than an inherited change in offspring."

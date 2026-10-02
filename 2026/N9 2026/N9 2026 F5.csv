@@ -1,17 +1,33 @@
-﻿title,type,question,A,B,C,D,answer,image
-N9 2026 F5,radio,F5 Bab 1,A,B,C,D,D,Picture25.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture27.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture28.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture29.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture30.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture31.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture33.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture36.png
-,radio,F5 Bab 7,A,B,C,D,C,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,B,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+N9 2026 F5,radio,F5 Bab 1,A,B,C,D,D,Picture25.png,"中文：选项 D 是草履虫，属于原生动物；噬菌体是病毒，水绵是藻类。
+English: Option D is Paramecium, a protozoan. A bacteriophage is a virus, while Spirogyra is algae."
+,radio,F5 Bab 1,A,B,C,D,C,Picture26.png,"中文：高浓度抗生素抑菌效果较强，能形成较大的无菌圈；图中高浓度纸片周围的透明区最大。
+English: A higher antibiotic concentration inhibits more bacterial growth and forms a larger clear zone, as shown in the diagram."
+,radio,F5 Bab 2,A,B,C,D,B,Picture27.png,"中文：为缺水的农业或畜牧区修建水坝和水渠，可储水并输水，更有效地利用土地和水资源。
+English: Dams and canals store and deliver water to farms or livestock areas with shortages, improving land and water use."
+,radio,F5 Bab 2,A,B,C,D,B,Picture28.png,"中文：标签列出食品名称、净重、成分和食用期限，但没有营养成分表，所以缺少营养标签信息。
+English: The label gives the food name, net weight, ingredients and best-before date, but no nutrition facts; nutritional labelling is missing."
+,radio,F5 Bab 3,A,B,C,D,B,Picture29.png,"中文：碳汇的功能是从空气中移除并储存二氧化碳；图中森林和海洋都是碳汇例子。
+English: A carbon sink removes carbon dioxide from the air and stores it; the forest and ocean shown are examples."
+,radio,F5 Bab 3,A,B,C,D,D,Picture30.png,"中文：EM 泥球需保持适当湿润；避开阳光可防止它们过快干燥，维持有益微生物的活性。
+English: EM mud balls need to remain suitably moist. Keeping them out of sunlight prevents rapid drying and helps maintain microbial activity."
+,radio,F5 Bab 4,A,B,C,D,C,Picture31.png,"中文：160 s时体积已达35 cm³，之后不再变化；反应完成时间取160 s，平均速率＝35÷160≈0.22 cm³/s。
+English: Gas volume reaches its final 35 cm³ at 160 s. The overall average rate is 35 / 160 ≈ 0.22 cm³/s."
+,radio,F5 Bab 4,A,B,C,D,A,Picture32.png,"中文：哈伯法以氮气和氢气为原料，按N₂＋3H₂→2NH₃生成氨。
+English: The Haber process uses nitrogen and hydrogen: N₂ + 3H₂ → 2NH₃."
+,radio,F5 Bab 5,A,B,C,D,C,Picture33.png,"中文：烯烃通式为CₙH₂ₙ；3个碳原子对应C₃H₆，即丙烯。
+English: Alkenes have the general formula CₙH₂ₙ. Three carbon atoms give C₃H₆, propene."
+,radio,F5 Bab 5,A,B,C,D,C,Picture34.png,"中文：先灭菌Q，再脱果S、消化R、提取T，最后过滤P，所以顺序Q、S、R、T、P。
+English: The sequence is sterilisation Q, threshing S, digestion R, extraction T, then filtration P."
+,radio,F5 Bab 6,A,B,C,D,C,Picture35.png,"中文：镁较活泼，失去电子形成Mg²⁺并溶入电解液；它是负极，电子流向铜极。
+English: More reactive magnesium loses electrons and dissolves as Mg²⁺. It is the negative terminal, with electrons flowing towards copper."
+,radio,F5 Bab 7,A,B,C,D,B,Picture36.png,"中文：图中为凹透镜，对实物产生正立、缩小的虚像，因此选B。
+English: The concave lens shown forms an upright, diminished virtual image of a real object, so B is correct."
+,radio,F5 Bab 7,A,B,C,D,C,Picture37.png,"中文：焦距越短，在相同感光元件尺寸下视角越广，能拍摄更大范围。
+English: A shorter focal length gives a wider angle of view for the same sensor size, capturing a larger field."
+,radio,F5 Bab 8,A,B,C,D,B,Picture38.png,"中文：快速流动的水使球上方压强较低；下方较高压强产生向上的合力，把球留在漏斗内。
+English: Fast-flowing water lowers pressure above the ball; higher pressure below provides an upward force that holds it in the funnel."
+,radio,F5 Bab 9,A,B,C,D,D,Picture39.png,"中文：地球同步静止轨道为赤道平面上的圆轨道，倾角0°；还须具有与地球自转相同的周期。
+English: A geostationary orbit is circular in the equatorial plane, with 0° inclination, and must also match Earth's rotation period."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：T和W是地面站，按本课系统分段归入控制段；U和V卫星属于空间段。
+English: T and W are ground stations, grouped in the control segment in this syllabus; satellites U and V form the space segment."

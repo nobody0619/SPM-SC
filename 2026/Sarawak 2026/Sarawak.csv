@@ -1,41 +1,81 @@
-﻿﻿title,type,question,A,B,C,D,answer,image
-Sarawak 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,C,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,A,Picture3.png
-,radio,F4 Bab 2,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 3,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture7.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture10.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture12.png
-,radio,F4 Bab 7,A,B,C,D,D,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,B,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture17.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture18.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture20.png
-,radio,F5 Bab 1,A,B,C,D,D,Picture21.png
-,radio,F5 Bab 1,A,B,C,D,A,Picture22.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture25.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture27.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture32.png
-,radio,F5 Bab 6,A,B,C,D,B,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture36.png
-,radio,F5 Bab 8,A,B,C,D,C,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,B,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Sarawak 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：动物尸体属于生物废物，应以吸水材料包裹，放入妥善封装的生物危害袋，再按指定程序处理。因此选B，不能当作普通垃圾或直接埋在土里。
+English: An animal carcass is biological waste. Wrap it in absorbent material and seal it in a biohazard bag for designated disposal, so B is correct; it is not ordinary rubbish."
+,radio,F4 Bab 1,A,B,C,D,C,Picture2.png,"中文：灭火毯覆盖燃烧的衣物，可以隔绝氧气，使火熄灭，因此选C。它也避免直接向人体喷射灭火剂。
+English: A fire blanket covers burning clothing and cuts off oxygen, extinguishing the fire. Therefore C is correct, without spraying extinguisher chemicals directly onto the person."
+,radio,F4 Bab 2,A,B,C,D,A,Picture3.png,"中文：图示是人工呼吸，其主要作用是把含氧空气送入伤者肺部，所以选A。它不是利用空气压力直接恢复心跳。
+English: The diagram shows rescue breaths, whose main purpose is to deliver oxygen-containing air to the lungs. Therefore A is correct; air pressure does not directly restart the heart."
+,radio,F4 Bab 2,A,B,C,D,A,Picture4.png,"中文：本题考查孕妇应避免对腹部施压，课本预期以胸部推压代替腹部推压，因此选A。重点是保护孕腹，而不是喝水把异物冲下去。
+English: The question tests avoiding abdominal pressure during pregnancy. The textbook answer uses chest thrusts instead of abdominal thrusts, so A is intended; drinking water is not the solution."
+,radio,F4 Bab 3,A,B,C,D,D,Picture5.png,"中文：运动员的心肌较强，每次收缩可泵出较多血液，因此休息时不需要跳动得那么频繁，所以选D。
+English: An athlete's stronger heart can pump more blood per beat. It therefore needs fewer beats at rest, explaining D."
+,radio,F4 Bab 3,A,B,C,D,B,Picture6.png,"中文：BMI＝体重÷身高²，所以目标体重＝23.0×1.60²＝58.88 kg≈58.9 kg，选B。
+English: BMI = mass ÷ height², so target mass = 23.0 × 1.60² = 58.88 kg ≈ 58.9 kg. Therefore B is correct."
+,radio,F4 Bab 4,A,B,C,D,C,Picture7.png,"中文：绿色科技是开发和应用能保护环境的产品、设备及系统，因此选C。只提高生产速度或增加污染并不符合定义。
+English: Green technology develops and applies products, equipment and systems that conserve the environment. Therefore C matches the definition."
+,radio,F4 Bab 4,A,B,C,D,D,Picture8.png,"中文：适量使用有机肥能供应养分并减少过量化学肥料造成的污染，因此选D。无论哪类肥料，过量使用都可能造成养分流失和水体富营养化。
+English: Using suitable amounts of organic fertiliser supplies nutrients while reducing excessive chemical-fertiliser use, supporting D. Any fertiliser used excessively can contribute to runoff and eutrophication."
+,radio,F4 Bab 5,A,B,C,D,A,Picture9.png,"中文：图中染色体排列在细胞中央的赤道板上，尚未分离到两极，是有丝分裂的中期，因此选A。
+English: The chromosomes are aligned at the cell's equator and have not separated towards opposite poles. This is metaphase of mitosis, so A is correct."
+,radio,F4 Bab 5,A,B,C,D,B,Picture10.png,"中文：核型中第21号染色体有三条，是21三体，属于唐氏综合征，因此选B。XX表示该婴儿为女性。
+English: There are three copies of chromosome 21, indicating trisomy 21 or Down syndrome. Therefore B is correct; XX indicates a female baby."
+,radio,F4 Bab 6,A,B,C,D,C,Picture11.png,"中文：水的浮力帮助大型水生动物支撑体重，因此其骨骼不必像同等体型陆生动物那样承受全部重量，选C。
+English: Water buoyancy helps support a large aquatic animal's weight, reducing the load its skeleton must bear compared with a similarly sized land animal. Therefore C is correct."
+,radio,F4 Bab 6,A,B,C,D,C,Picture12.png,"中文：按题图数出七个年轮；在本题每年形成一个年轮的模型中，树龄为7年，所以选C。
+English: The diagram shows seven annual growth rings. Using the question's one-ring-per-year model, the tree is seven years old, so C is correct."
+,radio,F4 Bab 7,A,B,C,D,D,Picture13.png,"中文：长期过量饮酒会损伤肝细胞，造成纤维化和肝硬化，因此选D。肝脏负责处理酒精，会受到长期暴露的影响。
+English: Long-term excessive alcohol consumption can damage liver cells and cause scarring and cirrhosis. Therefore D is correct."
+,radio,F4 Bab 8,A,B,C,D,D,Picture14.png,"中文：氯化钠由带正电的Na⁺和带负电的Cl⁻组成，所以是离子物质，选D。固态中的离子受晶格限制，并不能自由移动。
+English: Sodium chloride consists of positively charged Na⁺ and negatively charged Cl⁻ ions, making it ionic. Therefore D is correct; its ions cannot move freely in the solid lattice."
+,radio,F4 Bab 9,A,B,C,D,B,Picture15.png,"中文：陶瓷的化学性质较稳定，不容易与口腔中的物质发生反应，因此适用于假牙，选B。低熔点并不是所需的优点。
+English: Ceramics are chemically stable and resist reactions with substances in the mouth, making them suitable for dentures. Therefore B is correct."
+,radio,F4 Bab 9,A,B,C,D,B,Picture16.png,"中文：聚乙烯由许多乙烯单体通过加成聚合连接形成，因此单体是乙烯，选B。
+English: Polyethene is formed by addition polymerisation of many ethene molecules. Its monomer is ethene, so B is correct."
+,radio,F4 Bab 10,A,B,C,D,A,Picture17.png,"中文：自由基具有未配对电子，反应活性高，可损伤细胞中的DNA。长期紫外线暴露增加这种氧化损伤，因此选A。
+English: Free radicals have unpaired electrons and are highly reactive, so they can damage DNA. Prolonged UV exposure increases such oxidative damage, supporting A."
+,radio,F4 Bab 11,A,B,C,D,D,Picture18.png,"中文：大伞面能增大空气阻力，使物资下降较慢，是本题的重要原理。原答案D包含大伞面，但题目未说明短绳为何优于B的轻量大伞面，最佳设计选项需复核。
+English: A large canopy increases air resistance and slows the supplies' descent. The original answer D includes this feature, but the question does not explain why short strings make it better than the large, light canopy in B. Review the options."
+,radio,F4 Bab 12,A,B,C,D,C,Picture19.png,"中文：铀可进行核裂变，释放热能产生蒸汽，再驱动涡轮发电，所以选C。蒸汽负责传递能量，并不是核燃料。
+English: Uranium undergoes nuclear fission, releasing heat to generate steam that drives a turbine. Therefore C is the fuel; steam transfers energy rather than serving as nuclear fuel."
+,radio,F4 Bab 12,A,B,C,D,D,Picture20.png,"中文：本题预期D：核电站需要专门的设计、运行和安全管理人员，相关专业能力是建设条件之一。这是课本所列的限制，不能单凭此题概括现实中的全部能源政策原因。
+English: The intended answer D highlights the specialist expertise needed to design, operate and safely manage nuclear power stations. This is a textbook limitation, not a complete account of current energy-policy decisions."
+,radio,F5 Bab 1,A,B,C,D,D,Picture21.png,"中文：图中的病原体是病毒；噬菌体也必须侵入活的宿主细胞才能繁殖，因此两者繁殖方式相同。
+English: The organism shown is a virus. A bacteriophage also reproduces only by infecting a living host cell, so their methods match."
+,radio,F5 Bab 1,A,B,C,D,A,Picture22.png,"中文：灭活病毒疫苗不会直接杀死体内所有病毒；它会刺激免疫系统产生抗体和免疫记忆。
+English: An inactivated-virus vaccine does not directly kill every virus in the body; it stimulates antibody production and immune memory."
+,radio,F5 Bab 2,A,B,C,D,B,Picture23.png,"中文：马来西亚健康餐盘的比例是四分之一蛋白质、四分之一碳水化合物，以及一半蔬菜和水果。
+English: The Malaysian Healthy Plate has one-quarter protein, one-quarter carbohydrates, and one-half vegetables and fruit."
+,radio,F5 Bab 2,A,B,C,D,C,Picture24.png,"中文：微量营养素是植物只需少量的矿物质，例如铁、锌等；大量需要的元素属于大量营养素。
+English: Micronutrients are minerals plants need only in small amounts, such as iron and zinc; elements needed in large amounts are macronutrients."
+,radio,F5 Bab 2,A,B,C,D,D,Picture25.png,"中文：腌盐和日晒都降低鱼肉可利用的水分，抑制细菌繁殖，因此能保存咸鱼。
+English: Salting and sun-drying both reduce available moisture in fish, inhibiting bacterial growth and preserving the salted fish."
+,radio,F5 Bab 3,A,B,C,D,B,Picture26.png,"中文：产品生命周期依次包括原料来源、制造、运输、使用、弃置和回收；运输后、弃置前是使用阶段。
+English: A product life cycle goes from source to manufacturing, transport, use, disposal and recycling; use follows transport."
+,radio,F5 Bab 3,A,B,C,D,A,Picture27.png,"中文：亚甲蓝褪色越快，通常表示微生物耗氧越快、水污染越严重。河流 V 仅需 1.5 小时，是污染最重者。
+English: Faster methylene-blue decolourisation usually means faster microbial oxygen use and greater pollution. River V takes only 1.5 hours, the shortest time."
+,radio,F5 Bab 4,A,B,C,D,C,Picture28.png,"中文：P至Q的水平段表示氢气总体积不再增加，反应已停止。本题假设盐酸过量，因此镁已完全反应，选C。
+English: The horizontal section P–Q shows no further increase in hydrogen volume, meaning the reaction has stopped. Assuming hydrochloric acid is in excess, all the magnesium has reacted, so C is correct."
+,radio,F5 Bab 4,A,B,C,D,A,Picture29.png,"中文：接触法通常在约450°C、五氧化二钒催化剂下把二氧化硫氧化成三氧化硫。这个温度兼顾反应速率与产率，因此选A。
+English: The contact process oxidises sulphur dioxide to sulphur trioxide at about 450°C using vanadium(V) oxide. This temperature balances reaction rate and yield, so A is correct."
+,radio,F5 Bab 3,A,B,C,D,D,Picture30.png,"中文：光合作用吸收二氧化碳；呼吸作用和燃烧会释放二氧化碳，因此光合作用能降低大气含量。
+English: Photosynthesis takes in CO₂, while respiration and burning release it; photosynthesis therefore reduces atmospheric carbon dioxide."
+,radio,F5 Bab 5,A,B,C,D,A,Picture31.png,"中文：Q和S的结构都含有碳碳双键，是不饱和烃；P和R只有碳碳单键，是饱和烃。因此选A。
+English: Q and S contain carbon–carbon double bonds and are unsaturated hydrocarbons. P and R contain only single carbon–carbon bonds and are saturated, so A is correct."
+,radio,F5 Bab 5,A,B,C,D,C,Picture32.png,"中文：酒精在氧气充足时可以完全燃烧，释放热能并生成二氧化碳和水，因此可作燃料，选C。燃烧释放能量才是关键。
+English: Alcohol can undergo complete combustion with sufficient oxygen, releasing heat and forming carbon dioxide and water. This energy release makes it useful as fuel, so C is correct."
+,radio,F5 Bab 6,A,B,C,D,B,Picture33.png,"中文：阴极产生的气泡附着在絮状物上，使其浮到水面，方便去除污染物，所以选B。这个过程称为气浮。
+English: Gas bubbles formed at the cathode attach to flocs and carry them to the water surface for removal. This flotation process explains B."
+,radio,F5 Bab 6,A,B,C,D,C,Picture34.png,"中文：两个不同金属在电解质中发生氧化还原反应，把化学能转换成电能，因此选C。
+English: Redox reactions involving two different metals in an electrolyte convert chemical energy into electrical energy. Therefore C is correct."
+,radio,F5 Bab 7,A,B,C,D,A,Picture35.png,"中文：凹透镜使光线发散，其反向延长线在物体同侧相交，形成正立、缩小的虚像，因此选A。
+English: A concave lens diverges light; the backward extensions of the rays meet on the object's side, forming a virtual, upright and diminished image. Therefore A is correct."
+,radio,F5 Bab 7,A,B,C,D,B,Picture36.png,"中文：凸透镜可把远处物体的光会聚在感光器上，形成倒立、缩小的实像。因此CCTV使用凸透镜，选B。
+English: A convex lens focuses light from a distant object onto a sensor, forming a real, inverted and diminished image. Therefore B is correct for a CCTV camera."
+,radio,F5 Bab 8,A,B,C,D,C,Picture37.png,"中文：液压刹车利用帕斯卡原理：施加在密闭液体上的压力会传递到各处，再推动刹车机构，因此选C。
+English: Hydraulic brakes apply Pascal's principle: pressure applied to an enclosed liquid is transmitted throughout it and operates the brakes. Therefore C is correct."
+,radio,F5 Bab 8,A,B,C,D,D,Picture38.png,"中文：窄管处流速较快、压力较低，所以Q的水柱最低V。P处最宽，水柱最高T；R居中为U，因此选D。
+English: Flow is faster and pressure lower at the narrowest section, so Q has the lowest column V. P is widest and has the highest column T; R is intermediate at U. Therefore D is correct."
+,radio,F5 Bab 9,A,B,C,D,B,Picture39.png,"中文：X是轨道上最靠近地球的位置，称为近地点（perigee）；最远的位置是远地点（apogee）。因此选B。
+English: X is the orbital position nearest Earth, called perigee. The farthest position is apogee, so B is correct."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：正纬度表示北半球，负纬度表示南半球。K和M的纬度分别为3.1395及51.5074，都是正值，因此选A。
+English: Positive latitude indicates the Northern Hemisphere and negative latitude the Southern Hemisphere. K and M have positive latitudes, so A is correct."

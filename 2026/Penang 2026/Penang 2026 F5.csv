@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture21.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture22.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture25.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture27.png
-,radio,F5 Bab 4,A,B,C,D,B,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture32.png
-,radio,F5 Bab 6,A,B,C,D,A,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture34.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,D,Picture36.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,A,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture21.png,"中文：乳酸杆菌是有益细菌，可用于发酵和食品生产；题目描述的培养饮品生产对应这类微生物用途。
+English: Lactobacillus is a beneficial bacterium used in fermentation and food production, matching the cultured drink described."
+,radio,F5 Bab 1,A,B,C,D,C,Picture22.png,"中文：流感由病毒引起，抗生素针对细菌，不能治疗流感病毒；题目要求在早期采用抗病毒药并休息。
+English: Influenza is caused by a virus, so antibiotics do not treat it. The item calls for early antiviral treatment and rest."
+,radio,F5 Bab 2,A,B,C,D,C,Picture23.png,"中文：白饭为 480 kJ，白开水为 0 kJ，因此白饭加白开水共 480 kJ，是选项中最低的组合。
+English: Rice provides 480 kJ and plain water 0 kJ, so rice with water totals 480 kJ, the lowest option."
+,radio,F5 Bab 2,A,B,C,D,D,Picture24.png,"中文：豆科植物根瘤中的固氮细菌把空气中的氮转成含氮化合物，补充土壤可利用的氮。
+English: Nitrogen-fixing bacteria in legume root nodules convert atmospheric nitrogen into compounds that add usable nitrogen to soil."
+,radio,F5 Bab 2,A,B,C,D,D,Picture25.png,"中文：晒干把虾中的水分降下来，微生物较难生长，是处理过量捕获、成本较低的方法。
+English: Sun-drying removes moisture from shrimp, making microbial growth harder; it is a low-cost way to preserve an excess catch."
+,radio,F5 Bab 3,A,B,C,D,A,Picture26.png,"中文：把废塑料改造成新的有用产品属于升级再造，可减少塑料被丢弃、掩埋或焚烧。
+English: Turning waste plastic into a useful new product is upcycling, reducing the amount discarded, buried or burned."
+,radio,F5 Bab 3,A,B,C,D,C,Picture27.png,"中文：EM 泥球中的有效微生物可分解污水中的有机污染物，是处理河水污染的绿色技术。
+English: Beneficial microbes in EM mud balls decompose organic pollutants, making them a green method for treating river water."
+,radio,F5 Bab 4,A,B,C,D,B,Picture28.png,"中文：压力锅提高内部压力和水的沸点，使食物在更高温度下较快煮熟。
+English: A pressure cooker raises pressure and water's boiling point, letting food cook faster at a higher temperature."
+,radio,F5 Bab 4,A,B,C,D,A,Picture29.png,"中文：锌粉总表面积较大，初始图线更陡、较早到平台；酸用量相同，最终产气量相同。
+English: Zinc powder has greater surface area, giving a steeper initial curve and an earlier plateau; the same acid amount gives the same final gas volume."
+,radio,F5 Bab 5,A,B,C,D,A,Picture30.png,"中文：糖是含碳、氢和氧的有机化合物；碳酸盐和CO₂在本课分类为无机碳化合物。
+English: Sugar is an organic compound containing carbon, hydrogen and oxygen; carbonates and CO₂ are classified as inorganic carbon compounds."
+,radio,F5 Bab 5,A,B,C,D,B,Picture31.png,"中文：菠萝汁含可发酵的糖，酵母可把糖转化为乙醇和CO₂。
+English: Pineapple juice contains fermentable sugars, which yeast converts into ethanol and CO₂."
+,radio,F5 Bab 5,A,B,C,D,A,Picture32.png,"中文：本题以巧克力蛋糕的较高饱和脂肪含量对应A；经常摄入过多饱和脂肪可增加胆固醇相关风险。
+English: A matches the question's high-saturated-fat example, chocolate cake. Excess saturated-fat intake can increase cholesterol-related risk."
+,radio,F5 Bab 6,A,B,C,D,A,Picture33.png,"中文：电解池接电源正极的电极叫阳极，负离子移向它并失去电子。
+English: The electrode connected to the positive power terminal in an electrolytic cell is the anode, where negative ions lose electrons."
+,radio,F5 Bab 6,A,B,C,D,D,Picture34.png,"中文：镁与铜在电化学序列中间隔较大，电极电势差较大，电池电压因此较高。
+English: Magnesium and copper are farther apart in the electrochemical series, giving a larger electrode-potential difference and higher cell voltage."
+,radio,F5 Bab 7,A,B,C,D,B,Picture35.png,"中文：从透镜光学中心到焦点的距离称为焦距。
+English: The distance from a lens's optical centre to its focal point is the focal length."
+,radio,F5 Bab 7,A,B,C,D,D,Picture36.png,"中文：标本位于物镜F与2F之间，形成放大的实像，再由目镜继续放大。
+English: The specimen lies between F and 2F of the objective, forming an enlarged real image that the eyepiece magnifies further."
+,radio,F5 Bab 8,A,B,C,D,D,Picture37.png,"中文：牙科椅利用液压系统传递压力、升降座椅，是帕斯卡原理的应用。
+English: A dental chair uses a hydraulic system to transmit pressure and raise or lower the seat, applying Pascal's principle."
+,radio,F5 Bab 8,A,B,C,D,A,Picture38.png,"中文：水柱越高表示该处压强越大；图中A水柱最高，因此A压强最大。
+English: A taller water column indicates higher pressure. A has the tallest column, so its pressure is greatest."
+,radio,F5 Bab 9,A,B,C,D,A,Picture39.png,"中文：对绕地球圆轨道，轨道半径越小，速度越大；P高度最低，所以速度最高。
+English: For circular Earth orbits, smaller orbital radius means higher speed. P has the lowest altitude, so it is fastest."
+,radio,F5 Bab 9,A,B,C,D,D,Picture40.png,"中文：GPS主要利用卫星信号确定位置，输出纬度和经度等坐标。
+English: GPS primarily uses satellite signals to determine position and provide coordinates such as latitude and longitude."

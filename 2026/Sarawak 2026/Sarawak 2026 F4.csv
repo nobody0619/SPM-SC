@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Sarawak 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,C,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,A,Picture3.png
-,radio,F4 Bab 2,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 3,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture7.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture10.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture12.png
-,radio,F4 Bab 7,A,B,C,D,D,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,B,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture17.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture18.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Sarawak 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：动物尸体属于生物废物，应以吸水材料包裹，放入妥善封装的生物危害袋，再按指定程序处理。因此选B，不能当作普通垃圾或直接埋在土里。
+English: An animal carcass is biological waste. Wrap it in absorbent material and seal it in a biohazard bag for designated disposal, so B is correct; it is not ordinary rubbish."
+,radio,F4 Bab 1,A,B,C,D,C,Picture2.png,"中文：灭火毯覆盖燃烧的衣物，可以隔绝氧气，使火熄灭，因此选C。它也避免直接向人体喷射灭火剂。
+English: A fire blanket covers burning clothing and cuts off oxygen, extinguishing the fire. Therefore C is correct, without spraying extinguisher chemicals directly onto the person."
+,radio,F4 Bab 2,A,B,C,D,A,Picture3.png,"中文：图示是人工呼吸，其主要作用是把含氧空气送入伤者肺部，所以选A。它不是利用空气压力直接恢复心跳。
+English: The diagram shows rescue breaths, whose main purpose is to deliver oxygen-containing air to the lungs. Therefore A is correct; air pressure does not directly restart the heart."
+,radio,F4 Bab 2,A,B,C,D,A,Picture4.png,"中文：本题考查孕妇应避免对腹部施压，课本预期以胸部推压代替腹部推压，因此选A。重点是保护孕腹，而不是喝水把异物冲下去。
+English: The question tests avoiding abdominal pressure during pregnancy. The textbook answer uses chest thrusts instead of abdominal thrusts, so A is intended; drinking water is not the solution."
+,radio,F4 Bab 3,A,B,C,D,D,Picture5.png,"中文：运动员的心肌较强，每次收缩可泵出较多血液，因此休息时不需要跳动得那么频繁，所以选D。
+English: An athlete's stronger heart can pump more blood per beat. It therefore needs fewer beats at rest, explaining D."
+,radio,F4 Bab 3,A,B,C,D,B,Picture6.png,"中文：BMI＝体重÷身高²，所以目标体重＝23.0×1.60²＝58.88 kg≈58.9 kg，选B。
+English: BMI = mass ÷ height², so target mass = 23.0 × 1.60² = 58.88 kg ≈ 58.9 kg. Therefore B is correct."
+,radio,F4 Bab 4,A,B,C,D,C,Picture7.png,"中文：绿色科技是开发和应用能保护环境的产品、设备及系统，因此选C。只提高生产速度或增加污染并不符合定义。
+English: Green technology develops and applies products, equipment and systems that conserve the environment. Therefore C matches the definition."
+,radio,F4 Bab 4,A,B,C,D,D,Picture8.png,"中文：适量使用有机肥能供应养分并减少过量化学肥料造成的污染，因此选D。无论哪类肥料，过量使用都可能造成养分流失和水体富营养化。
+English: Using suitable amounts of organic fertiliser supplies nutrients while reducing excessive chemical-fertiliser use, supporting D. Any fertiliser used excessively can contribute to runoff and eutrophication."
+,radio,F4 Bab 5,A,B,C,D,A,Picture9.png,"中文：图中染色体排列在细胞中央的赤道板上，尚未分离到两极，是有丝分裂的中期，因此选A。
+English: The chromosomes are aligned at the cell's equator and have not separated towards opposite poles. This is metaphase of mitosis, so A is correct."
+,radio,F4 Bab 5,A,B,C,D,B,Picture10.png,"中文：核型中第21号染色体有三条，是21三体，属于唐氏综合征，因此选B。XX表示该婴儿为女性。
+English: There are three copies of chromosome 21, indicating trisomy 21 or Down syndrome. Therefore B is correct; XX indicates a female baby."
+,radio,F4 Bab 6,A,B,C,D,C,Picture11.png,"中文：水的浮力帮助大型水生动物支撑体重，因此其骨骼不必像同等体型陆生动物那样承受全部重量，选C。
+English: Water buoyancy helps support a large aquatic animal's weight, reducing the load its skeleton must bear compared with a similarly sized land animal. Therefore C is correct."
+,radio,F4 Bab 6,A,B,C,D,C,Picture12.png,"中文：按题图数出七个年轮；在本题每年形成一个年轮的模型中，树龄为7年，所以选C。
+English: The diagram shows seven annual growth rings. Using the question's one-ring-per-year model, the tree is seven years old, so C is correct."
+,radio,F4 Bab 7,A,B,C,D,D,Picture13.png,"中文：长期过量饮酒会损伤肝细胞，造成纤维化和肝硬化，因此选D。肝脏负责处理酒精，会受到长期暴露的影响。
+English: Long-term excessive alcohol consumption can damage liver cells and cause scarring and cirrhosis. Therefore D is correct."
+,radio,F4 Bab 8,A,B,C,D,D,Picture14.png,"中文：氯化钠由带正电的Na⁺和带负电的Cl⁻组成，所以是离子物质，选D。固态中的离子受晶格限制，并不能自由移动。
+English: Sodium chloride consists of positively charged Na⁺ and negatively charged Cl⁻ ions, making it ionic. Therefore D is correct; its ions cannot move freely in the solid lattice."
+,radio,F4 Bab 9,A,B,C,D,B,Picture15.png,"中文：陶瓷的化学性质较稳定，不容易与口腔中的物质发生反应，因此适用于假牙，选B。低熔点并不是所需的优点。
+English: Ceramics are chemically stable and resist reactions with substances in the mouth, making them suitable for dentures. Therefore B is correct."
+,radio,F4 Bab 9,A,B,C,D,B,Picture16.png,"中文：聚乙烯由许多乙烯单体通过加成聚合连接形成，因此单体是乙烯，选B。
+English: Polyethene is formed by addition polymerisation of many ethene molecules. Its monomer is ethene, so B is correct."
+,radio,F4 Bab 10,A,B,C,D,A,Picture17.png,"中文：自由基具有未配对电子，反应活性高，可损伤细胞中的DNA。长期紫外线暴露增加这种氧化损伤，因此选A。
+English: Free radicals have unpaired electrons and are highly reactive, so they can damage DNA. Prolonged UV exposure increases such oxidative damage, supporting A."
+,radio,F4 Bab 11,A,B,C,D,D,Picture18.png,"中文：大伞面能增大空气阻力，使物资下降较慢，是本题的重要原理。原答案D包含大伞面，但题目未说明短绳为何优于B的轻量大伞面，最佳设计选项需复核。
+English: A large canopy increases air resistance and slows the supplies' descent. The original answer D includes this feature, but the question does not explain why short strings make it better than the large, light canopy in B. Review the options."
+,radio,F4 Bab 12,A,B,C,D,C,Picture19.png,"中文：铀可进行核裂变，释放热能产生蒸汽，再驱动涡轮发电，所以选C。蒸汽负责传递能量，并不是核燃料。
+English: Uranium undergoes nuclear fission, releasing heat to generate steam that drives a turbine. Therefore C is the fuel; steam transfers energy rather than serving as nuclear fuel."
+,radio,F4 Bab 12,A,B,C,D,D,Picture20.png,"中文：本题预期D：核电站需要专门的设计、运行和安全管理人员，相关专业能力是建设条件之一。这是课本所列的限制，不能单凭此题概括现实中的全部能源政策原因。
+English: The intended answer D highlights the specialist expertise needed to design, operate and safely manage nuclear power stations. This is a textbook limitation, not a complete account of current energy-policy decisions."

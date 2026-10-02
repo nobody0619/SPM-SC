@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kedah 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 2,A,B,C,D,C,Picture2.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture3.png
-,radio,F4 Bab 4,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture7.png
-,radio,F4 Bab 6,A,B,C,D,B,Picture8.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture9.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture10.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture11.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture13.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,C,Picture15.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture17.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kedah 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：安全淋浴能以大量清水迅速冲洗沾到身体和衣物上的化学品；洗眼器主要用于眼睛。
+English: A safety shower rapidly rinses chemicals from the body and clothing with plenty of water; an eyewash station is for the eyes."
+,radio,F4 Bab 2,A,B,C,D,C,Picture2.png,"中文：正常呼吸会使胸部起伏；看不到胸部运动是题目所问没有呼吸的迹象。
+English: Breathing normally produces chest movement. No visible chest movement is the sign asked for here."
+,radio,F4 Bab 3,A,B,C,D,C,Picture3.png,"中文：BMI 29.9处于超重范围，过多体脂与胰岛素抵抗及第二型糖尿病风险增加有关。
+English: A BMI of 29.9 is in the overweight range. Excess body fat is associated with insulin resistance and increased type 2 diabetes risk."
+,radio,F4 Bab 4,A,B,C,D,A,Picture4.png,"中文：绿色科技通过提高能源效率及使用清洁能源，减少碳排放和对环境的影响。
+English: Green technology improves energy efficiency and uses cleaner energy, reducing carbon emissions and environmental impact."
+,radio,F4 Bab 4,A,B,C,D,D,Picture5.png,"中文：2020年后森林面积逐年上升，与重新种植树木相符；砍伐或开垦会减少森林面积。
+English: Forest area increases after 2020, consistent with replanting trees. Logging or clearing land would reduce forest area."
+,radio,F4 Bab 5,A,B,C,D,B,Picture6.png,"中文：Hh与hh杂交产生一半Hh和一半hh；只有hh为白毛，因此白毛比例是50%。
+English: Hh × hh produces equal proportions of Hh and hh. Only hh has white fur, so the proportion is 50%."
+,radio,F4 Bab 5,A,B,C,D,D,Picture7.png,"中文：克氏综合征通常具有额外的X染色体（XXY），属于染色体数目变异。
+English: Klinefelter syndrome usually involves an extra X chromosome, XXY, making it a chromosome-number mutation."
+,radio,F4 Bab 6,A,B,C,D,B,Picture8.png,"中文：蛇是脊椎动物，骨骼位于体内，属于内骨骼而非外骨骼或静水骨骼。
+English: A snake is a vertebrate with an internal skeleton, so it has an endoskeleton."
+,radio,F4 Bab 6,A,B,C,D,D,Picture9.png,"中文：女孩通常较早进入青春期，也较早减慢并停止生长；男孩的生长持续较久。
+English: Girls generally enter puberty earlier and their growth slows and ends earlier; boys continue growing for longer."
+,radio,F4 Bab 7,A,B,C,D,B,Picture10.png,"中文：Z位于颈部、环绕气管前方，形状像蝴蝶，是甲状腺。
+English: Z is the butterfly-shaped thyroid gland in the neck, at the front of the trachea."
+,radio,F4 Bab 7,A,B,C,D,B,Picture11.png,"中文：巴比妥类属于抑制剂，会降低中枢神经活动，使人嗜睡并减轻焦虑。
+English: Barbiturates are depressants. They reduce central nervous system activity, causing drowsiness and reduced anxiety."
+,radio,F4 Bab 8,A,B,C,D,B,Picture12.png,"中文：钠是金属，失去最外层的一个电子后形成Na⁺，电子排布由2.8.1变为2.8。
+English: Sodium is a metal that loses one outer electron to form Na⁺, changing its electron arrangement from 2.8.1 to 2.8."
+,radio,F4 Bab 8,A,B,C,D,D,Picture13.png,"中文：按本题课本应用，镅-241用于纸张厚度监测；不同厚度吸收的辐射量不同，可反馈调节生产。
+English: In the syllabus application used here, americium-241 monitors paper thickness: different thicknesses absorb different amounts of radiation, allowing production control."
+,radio,F4 Bab 9,A,B,C,D,A,Picture14.png,"中文：钢以铁为主要金属成分，并含少量碳；它不是以锡、铜或铝为主的合金。
+English: Steel is primarily iron with a small proportion of carbon, rather than an alloy based on tin, copper or aluminium."
+,radio,F4 Bab 9,A,B,C,D,C,Picture15.png,"中文：硼硅酸盐玻璃热膨胀较小，能抵抗反复加热的温度变化，常用于实验室器皿。
+English: Borosilicate glass has low thermal expansion and withstands repeated temperature changes, making it suitable for laboratory apparatus."
+,radio,F4 Bab 10,A,B,C,D,B,Picture16.png,"中文：传统医药的知识和做法往往由上一代传给下一代，因此选B。
+English: Traditional medical knowledge and practices are commonly passed down through generations, matching B."
+,radio,F4 Bab 10,A,B,C,D,A,Picture17.png,"中文：切开的苹果接触空气后发生酶促氧化，生成褐色色素，因而逐渐变色。
+English: Cut apple undergoes enzymatic oxidation on exposure to air, producing brown pigments and changing colour."
+,radio,F4 Bab 11,A,B,C,D,B,Picture18.png,"中文：打点时间间隔相同，沿记录先后顺序点距逐渐增大，表示速度增加，符合题目的匀加速运动。
+English: Dots are made at equal time intervals. Increasing gaps in recording order indicate increasing speed, matching uniform acceleration here."
+,radio,F4 Bab 11,A,B,C,D,C,Picture19.png,"中文：真空中没有空气阻力，两物体只受重力作用，以相同重力加速度下落，故落下时间相同。
+English: In a vacuum there is no air resistance. Both objects fall under gravity with the same gravitational acceleration, so their falling times are equal."
+,radio,F4 Bab 12,A,B,C,D,D,Picture20.png,"中文：国际协议能直接限制各国核试验活动；监测或防护只能减少部分影响，不能限制试验本身。
+English: International agreements directly restrict nuclear testing. Monitoring and protective equipment address effects without limiting the tests themselves."

@@ -1,20 +1,39 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,C,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,A,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture4.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture5.png
-,radio,F4 Bab 4,A,B,C,D,A,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,C,Picture10.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,B,Picture12.png
-,radio,F4 Bab 6,A,B,C,D,A,Picture13.png
-,radio,F4 Bab 7,A,B,C,D,C,Picture14.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,C,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 10,A,B,C,D,C,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,D,Picture19.png
-,radio,F4 Bab 12,A,B,C,D,B,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：本题的盐水不含危险污染物，按指定实验室规则可以处理，因此选B。油、培养基和氧化剂不能直接倒入水槽。
+English: The salt water in this question is non-hazardous and can be disposed of according to designated laboratory rules, so B is correct. Oil, culture media and oxidisers should not simply be poured down the sink."
+,radio,F4 Bab 1,A,B,C,D,C,Picture2.png,"中文：本题采用的灭火器色码中，水型为红色；泡沫为乳白色、干粉为蓝色、二氧化碳为黑色。因此选C。
+English: In the colour code used by this question, water extinguishers are red, foam cream, dry powder blue and carbon dioxide black. Therefore C is correct."
+,radio,F4 Bab 2,A,B,C,D,A,Picture3.png,"中文：没有正常呼吸是识别需要心肺复苏的重要表现，本题选A。不能说话、嘴唇发蓝或抓住颈部也可能是窒息表现，不能单凭这些判断需要CPR。
+English: Absence of normal breathing is an important sign in recognising the need for CPR, so A is intended. Inability to speak, blue lips and clutching the neck can also indicate choking and do not alone establish the need for CPR."
+,radio,F4 Bab 3,A,B,C,D,D,Picture4.png,"中文：课本以男性平均心脏较大、每次可泵出较多血液来解释较低的休息脉搏，因此选D。这是群体平均趋势，不能保证每个男性都比每个女性脉搏低。
+English: The textbook links men's larger average heart size and greater blood volume per beat with a lower resting pulse, supporting D. This is an average trend, not a rule for every individual."
+,radio,F4 Bab 3,A,B,C,D,C,Picture5.png,"中文：血压计的袖带应绕在上臂，测量动脉压力，因此选C。把手指放在手腕是测量脉搏的方法。
+English: A sphygmomanometer cuff is wrapped around the upper arm to measure arterial pressure, so C is correct. Placing fingers on the wrist measures pulse instead."
+,radio,F4 Bab 4,A,B,C,D,A,Picture6.png,"中文：太阳能板把太阳能转换为电能，属于绿色科技的能源领域，因此选A。
+English: Solar panels convert solar energy into electricity and belong to the energy sector of green technology. Therefore A is correct."
+,radio,F4 Bab 4,A,B,C,D,C,Picture7.png,"中文：重新种植树木可恢复森林覆盖、提供栖息地，并通过光合作用吸收二氧化碳，因此选C。
+English: Replanting trees restores forest cover and habitats and absorbs carbon dioxide through photosynthesis. Therefore C addresses the issue."
+,radio,F4 Bab 5,A,B,C,D,B,Picture9.png,"中文：X所指的纤维连接染色体与细胞两极，帮助分裂时移动和分离染色体，称为纺锤丝，因此选B。
+English: X indicates spindle fibres, which connect chromosomes to the cell poles and help move and separate them during division. Therefore B is correct."
+,radio,F4 Bab 5,A,B,C,D,C,Picture10.png,"中文：核型显示第21号染色体有三条，属于21三体，即唐氏综合征，因此选C。
+English: The karyotype shows three copies of chromosome 21, indicating trisomy 21 or Down syndrome. Therefore C is correct."
+,radio,F4 Bab 5,A,B,C,D,D,Picture11.png,"中文：重组DNA技术使用限制酶在特定位置切开DNA，再将所需片段连接到载体中，因此选D。
+English: Recombinant DNA technology uses restriction enzymes to cut DNA at specific sites before inserting the required fragment into a vector. Therefore D is correct."
+,radio,F4 Bab 6,A,B,C,D,B,Picture12.png,"中文：把四肢张开可以增大支撑面，使重心的垂直投影更容易保持在支撑面内，提高稳定性，因此选B。
+English: Spreading the legs widens the support base and helps keep the vertical projection of the centre of gravity within it. This improves stability, so B is correct."
+,radio,F4 Bab 6,A,B,C,D,A,Picture13.png,"中文：关节软骨覆盖骨端，缓冲压力并减少骨与骨之间的摩擦，因此选A。肌腱连接肌肉与骨，韧带连接骨与骨。
+English: Cartilage covers bone ends, cushions pressure and reduces friction at a joint, so A is correct. Tendons connect muscle to bone, while ligaments connect bone to bone."
+,radio,F4 Bab 7,A,B,C,D,C,Picture14.png,"中文：能够冷静面对问题、调节情绪和寻找解决方法，是心理健康的表现，因此选C。健康的心理并不意味着永远开心或没有烦恼。
+English: Handling problems calmly, regulating emotions and seeking solutions are signs of mental well-being, so C is correct. A healthy mind does not mean being happy at every moment."
+,radio,F4 Bab 8,A,B,C,D,B,Picture15.png,"中文：图中一种粒子紧密且有规则地排列，符合固体金属金的原子模型，因此选B。水和氧由分子组成，食盐则含两种带电离子。
+English: The closely packed, regular arrangement of one particle type fits the atomic model of solid gold, so B is correct. Water and oxygen are molecular; salt contains two types of charged ions."
+,radio,F4 Bab 9,A,B,C,D,C,Picture16.png,"中文：本题指传统陶瓷，其主要原料黏土含有铝硅酸盐，因此选C。不同类型的先进陶瓷也可采用其他成分。
+English: The question refers to traditional ceramics, whose clay raw materials contain aluminium silicate. Therefore C is correct; advanced ceramics may use other compositions."
+,radio,F4 Bab 10,A,B,C,D,D,Picture17.png,"中文：S组同时吸烟且暴露于高空气污染，癌症比例28%最高；P组只有5%。数据支持吸烟和空气污染与较高癌症风险有关，因此选D。
+English: Group S both smokes and experiences high air pollution and has the highest cancer percentage, 28%, versus 5% in P. The data support D's association with higher cancer risk."
+,radio,F4 Bab 10,A,B,C,D,C,Picture18.png,"中文：维生素C可补充摄入不足，支持正常身体功能；本题C强调辅助维持健康。补充剂不能代替均衡饮食或处方药，也不是所有疾病的治疗方法。
+English: Vitamin C can supplement inadequate intake and support normal body functions; C expresses this supportive role. Supplements do not replace a balanced diet or prescribed medicines and are not a cure for every illness."
+,radio,F4 Bab 11,A,B,C,D,D,Picture19.png,"中文：惯性取决于质量：质量越大，物体越难改变原来的运动状态。因此选D。
+English: Inertia depends on mass: a more massive object resists changes to its motion more strongly. Therefore D is correct."
+,radio,F4 Bab 12,A,B,C,D,B,Picture20.png,"中文：X为核裂变释放的中子，可撞击另一铀-235原子核，引发下一次裂变，使链式反应持续，所以选B。
+English: X is a neutron released during fission. It can strike another uranium-235 nucleus and trigger further fission, sustaining a chain reaction, so B is correct."

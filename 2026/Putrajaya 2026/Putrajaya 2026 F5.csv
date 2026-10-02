@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya 2026 F5,radio,F5 Bab 1,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 1,A,B,C,D,B,Picture27.png
-,radio,F5 Bab 1,A,B,C,D,A,Picture28.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture29.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture32.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture33.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture35.png
-,radio,F5 Bab 4,A,B,C,D,D,Picture36.png
-,radio,F5 Bab 6,A,B,C,D,A,Picture37.png
-,radio,F5 Bab 7,A,B,C,D,C,Picture38.png
-,radio,F5 Bab 8,A,B,C,D,A,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya 2026 F5,radio,F5 Bab 1,A,B,C,D,C,Picture26.png,"中文：病毒不能在没有活细胞的营养琼脂中繁殖；鸡胚提供活细胞，所以病原体应是病毒。
+English: A virus cannot reproduce on nutrient agar without living cells. A chicken embryo supplies living host cells, identifying the pathogen as a virus."
+,radio,F5 Bab 1,A,B,C,D,B,Picture27.png,"中文：冷藏降低温度，会减慢微生物的生长和繁殖；它不会把所有微生物都杀死。
+English: Refrigeration lowers the temperature and slows microbial growth and reproduction; it does not kill every microorganism."
+,radio,F5 Bab 1,A,B,C,D,A,Picture28.png,"中文：用肥皂洗手能带走并减少手上的病原微生物；只用清水冲洗通常较不彻底。
+English: Washing with soap removes and reduces pathogens on the hands; rinsing with water alone is less effective."
+,radio,F5 Bab 2,A,B,C,D,B,Picture29.png,"中文：堆肥让有机废物分解并回到土壤；相关的氮循环过程会形成亚硝酸根等含氮物质，同时减少废物污染。
+English: Composting returns decomposed organic waste to soil. Nitrogen-cycle processes form nitrite and other nitrogen compounds while reducing waste pollution."
+,radio,F5 Bab 2,A,B,C,D,A,Picture30.png,"中文：K 的热量为 4.2×10×20÷(0.5×1000)=1.68 kJ/g；L 为 0.84 kJ/g。K 较高，对应高热量花生，L 对应干饼干。
+English: K = 4.2×10×20÷(0.5×1000) = 1.68 kJ/g; L = 0.84 kJ/g. K is higher, matching energy-dense peanuts, while L matches dried biscuits."
+,radio,F5 Bab 3,A,B,C,D,B,Picture31.png,"中文：燃烧化石燃料的碳足迹主要来自二氧化碳排放；甲烷、CFC 和二氧化氮不是本题所指的主要气体。
+English: The carbon footprint of fossil-fuel burning is mainly from carbon dioxide emissions; methane, CFCs and nitrogen dioxide are not the primary gas asked for."
+,radio,F5 Bab 3,A,B,C,D,C,Picture32.png,"中文：堆肥把可分解的食物废物转成有机肥料，回收养分并减少送往填埋场的垃圾。
+English: Composting turns biodegradable food waste into organic fertiliser, returning nutrients and reducing landfill waste."
+,radio,F5 Bab 4,A,B,C,D,A,Picture33.png,"中文：同量固体分成较小颗粒后总表面积较大，碰撞机会增加，反应更快，因此选A。
+English: Dividing the same amount of solid into smaller particles increases exposed surface and collision opportunities, speeding the reaction; A matches."
+,radio,F5 Bab 1,A,B,C,D,C,Picture34.png,"中文：生鸡肉在室温放置 12 小时后，微生物可能大量繁殖；即使外观看起来新鲜也应丢弃。
+English: After raw chicken has spent 12 hours at room temperature, microbes may have multiplied. It should be discarded even if it still looks fresh."
+,radio,F5 Bab 5,A,B,C,D,C,Picture35.png,"中文：本课比较中乙醇以较洁净的蓝色火焰燃烧，不产生明显烟灰，优点是少积炭。
+English: In the syllabus comparison, ethanol burns with a clean blue flame without visible soot, reducing carbon deposits."
+,radio,F5 Bab 4,A,B,C,D,D,Picture36.png,"中文：反应速率定义为单位时间内反应物减少量或产物增加量。
+English: Reaction rate is the decrease in reactant quantity or increase in product quantity per unit time."
+,radio,F5 Bab 6,A,B,C,D,A,Picture37.png,"中文：CuSO₄溶液含可移动离子，能传导电流并发生电解，所以是电解质。
+English: CuSO₄ solution contains mobile ions, conducts electricity and undergoes electrolysis, making it an electrolyte."
+,radio,F5 Bab 7,A,B,C,D,C,Picture38.png,"中文：凸透镜物距在F与2F之间时，产生倒立、放大的实像。
+English: A convex lens forms a real, inverted, enlarged image when the object lies between F and 2F."
+,radio,F5 Bab 8,A,B,C,D,A,Picture39.png,"中文：Q上方气流较快、压强较低；S下方气流较慢、压强较高，因此配对A。
+English: Airflow at Q above the wing is faster and pressure lower; S below has slower flow and higher pressure, matching A."
+,radio,F5 Bab 9,A,B,C,D,D,Picture40.png,"中文：国际空间站提供微重力实验环境，供研究人员进行科学实验。
+English: The International Space Station provides a microgravity environment for scientific experiments."

@@ -1,0 +1,45 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 9,radio,Kedah2026_Q39,A,B,C,D,A,../Kedah 2026/Picture39.png,"中文：近地点是卫星轨道上离地球最近的位置；图中A最接近地球。
+English: Perigee is the point in a satellite's orbit nearest Earth; A is nearest Earth in the diagram."
+F5 Chp 9,radio,Kelantan2026_Q39,A,B,C,D,D,../Kelantan 2026/Picture39.png,"中文：本课所述轨道形状为圆形和椭圆形；圆可视为椭圆的特殊情况。
+English: The orbital shapes taught here are circular and elliptical; a circle is a special case of an ellipse."
+F5 Chp 9,radio,Melaka2026_Q39,A,B,C,D,D,../Melaka 2026/Picture39.png,"中文：D表示赤道平面上的轨道；地球同步静止卫星还须以地球自转方向运行，周期约24小时。
+English: D shows the equatorial orbit. A geostationary satellite also orbits in Earth's rotation direction with a period of about 24 hours."
+F5 Chp 9,radio,N92026_Q39,A,B,C,D,D,../N9 2026/Picture39.png,"中文：地球同步静止轨道为赤道平面上的圆轨道，倾角0°；还须具有与地球自转相同的周期。
+English: A geostationary orbit is circular in the equatorial plane, with 0° inclination, and must also match Earth's rotation period."
+F5 Chp 9,radio,Pahang2026_Q39,A,B,C,D,A,../Pahang 2026/Picture39.png,"中文：赤道上空约35786 km的同步圆轨道是地球同步静止轨道，卫星相对地面位置不变。
+English: A synchronous circular equatorial orbit at about 35,786 km is geostationary, keeping the satellite fixed relative to the ground."
+F5 Chp 9,radio,Penang2026_Q39,A,B,C,D,A,../Penang 2026/Picture39.png,"中文：对绕地球圆轨道，轨道半径越小，速度越大；P高度最低，所以速度最高。
+English: For circular Earth orbits, smaller orbital radius means higher speed. P has the lowest altitude, so it is fastest."
+F5 Chp 9,radio,Sarawak2026_Q39,A,B,C,D,B,../Sarawak 2026/Picture39.png,"中文：X是轨道上最靠近地球的位置，称为近地点（perigee）；最远的位置是远地点（apogee）。因此选B。
+English: X is the orbital position nearest Earth, called perigee. The farthest position is apogee, so B is correct."
+F5 Chp 9,radio,Selangor2026_Q39,A,B,C,D,D,../Selangor 2026/Picture39.png,"中文：本题按课本对低地球轨道（LEO）的描述选D，LEO可以近圆形或椭圆形。不过仅凭轨道形状不能唯一确定高度类别，题干缺少区分MEO等轨道的条件。
+English: The textbook description of low Earth orbit (LEO) gives D; LEO may be approximately circular or elliptical. However, shape alone cannot uniquely determine the altitude category or exclude MEO, so the question needs a distinguishing condition."
+F5 Chp 9,radio,Terengganu2026_Q39,A,B,C,D,A,../Terengganu 2026/Picture39.png,"中文：地球静止轨道位于赤道平面上空约35,786 km，运行周期与地球自转相同，因此卫星看起来固定在同一位置，选A。
+English: A geostationary orbit is about 35,786 km above the equator and has the same period as Earth's rotation. The satellite appears fixed in the sky, so A is correct."
+F5 Chp 9,radio,Kedah2026_Q40,A,B,C,D,A,../Kedah 2026/Picture40.png,"中文：正纬度表示赤道以北；5.779966没有负号，因此该地点位于北半球。
+English: Positive latitude indicates north of the equator. Since 5.779966 is positive, the location is in the Northern Hemisphere."
+F5 Chp 9,radio,Kelantan2026_Q40,A,B,C,D,A,../Kelantan 2026/Picture40.png,"中文：十进制度＝度＋分÷60＋秒÷3600，计算得6.291336和99.728939，约对应A。
+English: Decimal degrees = degrees + minutes/60 + seconds/3600, giving 6.291336 and 99.728939, approximately option A."
+F5 Chp 9,radio,Kl2026_Q40,A,B,C,D,C,../KL 2026/Picture40.png,"中文：GPS利用卫星信号确定接收器的位置，因此提供的是地点信息。
+English: GPS uses satellite signals to determine the receiver's position, so it provides location information."
+F5 Chp 9,radio,Melaka2026_Q40,A,B,C,D,D,../Melaka 2026/Picture40.png,"中文：负纬度表示南，正经度表示东，因此−18.2861、147.6833对应南纬、东经。
+English: Negative latitude means south and positive longitude means east, so −18.2861, 147.6833 indicates south latitude and east longitude."
+F5 Chp 9,radio,N92026_Q40,A,B,C,D,A,../N9 2026/Picture40.png,"中文：T和W是地面站，按本课系统分段归入控制段；U和V卫星属于空间段。
+English: T and W are ground stations, grouped in the control segment in this syllabus; satellites U and V form the space segment."
+F5 Chp 9,radio,Pahang2026_Q40,A,B,C,D,C,../Pahang 2026/Picture40.png,"中文：两个坐标均为负：纬度负表示南半球，经度负表示格林尼治以西。
+English: Both coordinates are negative: negative latitude means the Southern Hemisphere, and negative longitude means west of Greenwich."
+F5 Chp 9,radio,Penang2026_Q40,A,B,C,D,D,../Penang 2026/Picture40.png,"中文：GPS主要利用卫星信号确定位置，输出纬度和经度等坐标。
+English: GPS primarily uses satellite signals to determine position and provide coordinates such as latitude and longitude."
+F5 Chp 9,checkbox,Perak2026_Q40,A,B,C,D,"A,D",../Perak 2026/Picture40.png,"中文：近地点是离地球最近的位置。原答案保留A、D，但示意图地球位置与椭圆焦点并不明确，需核对原评分方案。
+English: Perigee is the point nearest Earth. The supplied A,D key is preserved, but Earth's position relative to the ellipse's focus is unclear, so the original marking scheme needs review."
+F5 Chp 9,radio,Putrajaya2026_Q40,A,B,C,D,D,../Putrajaya 2026/Picture40.png,"中文：国际空间站提供微重力实验环境，供研究人员进行科学实验。
+English: The International Space Station provides a microgravity environment for scientific experiments."
+F5 Chp 9,radio,Sarawak2026_Q40,A,B,C,D,A,../Sarawak 2026/Picture40.png,"中文：正纬度表示北半球，负纬度表示南半球。K和M的纬度分别为3.1395及51.5074，都是正值，因此选A。
+English: Positive latitude indicates the Northern Hemisphere and negative latitude the Southern Hemisphere. K and M have positive latitudes, so A is correct."
+F5 Chp 9,radio,Sbp2026_Q40,A,B,C,D,A,../SBP 2026/Picture40.png,"中文：十进制度数＝度＋分÷60。3°09′N＝3.15°，101°42′E＝101.7°；北纬和东经都取正值，所以选A。
+English: Decimal degrees = degrees + minutes ÷ 60. Thus 3°09′N = 3.15° and 101°42′E = 101.7°; north and east are positive, so A is correct."
+F5 Chp 9,radio,Selangor2026_Q40,A,B,C,D,A,../Selangor 2026/Picture40.png,"中文：卫星导航根据卫星信号确定接收器的位置，因此选A。它不直接测量气温、气压或湿度。
+English: Satellite navigation determines a receiver's location from satellite signals, so A is correct. It does not directly measure temperature, pressure or humidity."
+F5 Chp 9,radio,Terengganu2026_Q40,A,B,C,D,B,../Terengganu 2026/Picture40.png,"中文：导航应用结合路线、距离和交通情况估算到达时间，因此选B。到达时间是会随交通变化而更新的估计值，不是绝对保证。
+English: Navigation apps use the route, distance and traffic conditions to estimate arrival time, so B is correct. The estimate can change with traffic and is not a guarantee."

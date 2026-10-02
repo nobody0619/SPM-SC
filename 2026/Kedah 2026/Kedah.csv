@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Kedah 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 2,A,B,C,D,C,Picture2.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture3.png
-,radio,F4 Bab 4,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture7.png
-,radio,F4 Bab 6,A,B,C,D,B,Picture8.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture9.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture10.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture11.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture13.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,C,Picture15.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture17.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture20.png
-,radio,F5 Bab 1,A,B,C,D,B,Picture21.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture22.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture24.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture25.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture27.png
-,radio,F5 Bab 4,A,B,C,D,B,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture31.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture32.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture33.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture34.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture35.png
-,radio,F5 Bab 8,A,B,C,D,B,Picture36.png
-,radio,F5 Bab 8,A,B,C,D,C,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,B,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kedah 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：安全淋浴能以大量清水迅速冲洗沾到身体和衣物上的化学品；洗眼器主要用于眼睛。
+English: A safety shower rapidly rinses chemicals from the body and clothing with plenty of water; an eyewash station is for the eyes."
+,radio,F4 Bab 2,A,B,C,D,C,Picture2.png,"中文：正常呼吸会使胸部起伏；看不到胸部运动是题目所问没有呼吸的迹象。
+English: Breathing normally produces chest movement. No visible chest movement is the sign asked for here."
+,radio,F4 Bab 3,A,B,C,D,C,Picture3.png,"中文：BMI 29.9处于超重范围，过多体脂与胰岛素抵抗及第二型糖尿病风险增加有关。
+English: A BMI of 29.9 is in the overweight range. Excess body fat is associated with insulin resistance and increased type 2 diabetes risk."
+,radio,F4 Bab 4,A,B,C,D,A,Picture4.png,"中文：绿色科技通过提高能源效率及使用清洁能源，减少碳排放和对环境的影响。
+English: Green technology improves energy efficiency and uses cleaner energy, reducing carbon emissions and environmental impact."
+,radio,F4 Bab 4,A,B,C,D,D,Picture5.png,"中文：2020年后森林面积逐年上升，与重新种植树木相符；砍伐或开垦会减少森林面积。
+English: Forest area increases after 2020, consistent with replanting trees. Logging or clearing land would reduce forest area."
+,radio,F4 Bab 5,A,B,C,D,B,Picture6.png,"中文：Hh与hh杂交产生一半Hh和一半hh；只有hh为白毛，因此白毛比例是50%。
+English: Hh × hh produces equal proportions of Hh and hh. Only hh has white fur, so the proportion is 50%."
+,radio,F4 Bab 5,A,B,C,D,D,Picture7.png,"中文：克氏综合征通常具有额外的X染色体（XXY），属于染色体数目变异。
+English: Klinefelter syndrome usually involves an extra X chromosome, XXY, making it a chromosome-number mutation."
+,radio,F4 Bab 6,A,B,C,D,B,Picture8.png,"中文：蛇是脊椎动物，骨骼位于体内，属于内骨骼而非外骨骼或静水骨骼。
+English: A snake is a vertebrate with an internal skeleton, so it has an endoskeleton."
+,radio,F4 Bab 6,A,B,C,D,D,Picture9.png,"中文：女孩通常较早进入青春期，也较早减慢并停止生长；男孩的生长持续较久。
+English: Girls generally enter puberty earlier and their growth slows and ends earlier; boys continue growing for longer."
+,radio,F4 Bab 7,A,B,C,D,B,Picture10.png,"中文：Z位于颈部、环绕气管前方，形状像蝴蝶，是甲状腺。
+English: Z is the butterfly-shaped thyroid gland in the neck, at the front of the trachea."
+,radio,F4 Bab 7,A,B,C,D,B,Picture11.png,"中文：巴比妥类属于抑制剂，会降低中枢神经活动，使人嗜睡并减轻焦虑。
+English: Barbiturates are depressants. They reduce central nervous system activity, causing drowsiness and reduced anxiety."
+,radio,F4 Bab 8,A,B,C,D,B,Picture12.png,"中文：钠是金属，失去最外层的一个电子后形成Na⁺，电子排布由2.8.1变为2.8。
+English: Sodium is a metal that loses one outer electron to form Na⁺, changing its electron arrangement from 2.8.1 to 2.8."
+,radio,F4 Bab 8,A,B,C,D,D,Picture13.png,"中文：按本题课本应用，镅-241用于纸张厚度监测；不同厚度吸收的辐射量不同，可反馈调节生产。
+English: In the syllabus application used here, americium-241 monitors paper thickness: different thicknesses absorb different amounts of radiation, allowing production control."
+,radio,F4 Bab 9,A,B,C,D,A,Picture14.png,"中文：钢以铁为主要金属成分，并含少量碳；它不是以锡、铜或铝为主的合金。
+English: Steel is primarily iron with a small proportion of carbon, rather than an alloy based on tin, copper or aluminium."
+,radio,F4 Bab 9,A,B,C,D,C,Picture15.png,"中文：硼硅酸盐玻璃热膨胀较小，能抵抗反复加热的温度变化，常用于实验室器皿。
+English: Borosilicate glass has low thermal expansion and withstands repeated temperature changes, making it suitable for laboratory apparatus."
+,radio,F4 Bab 10,A,B,C,D,B,Picture16.png,"中文：传统医药的知识和做法往往由上一代传给下一代，因此选B。
+English: Traditional medical knowledge and practices are commonly passed down through generations, matching B."
+,radio,F4 Bab 10,A,B,C,D,A,Picture17.png,"中文：切开的苹果接触空气后发生酶促氧化，生成褐色色素，因而逐渐变色。
+English: Cut apple undergoes enzymatic oxidation on exposure to air, producing brown pigments and changing colour."
+,radio,F4 Bab 11,A,B,C,D,B,Picture18.png,"中文：打点时间间隔相同，沿记录先后顺序点距逐渐增大，表示速度增加，符合题目的匀加速运动。
+English: Dots are made at equal time intervals. Increasing gaps in recording order indicate increasing speed, matching uniform acceleration here."
+,radio,F4 Bab 11,A,B,C,D,C,Picture19.png,"中文：真空中没有空气阻力，两物体只受重力作用，以相同重力加速度下落，故落下时间相同。
+English: In a vacuum there is no air resistance. Both objects fall under gravity with the same gravitational acceleration, so their falling times are equal."
+,radio,F4 Bab 12,A,B,C,D,D,Picture20.png,"中文：国际协议能直接限制各国核试验活动；监测或防护只能减少部分影响，不能限制试验本身。
+English: International agreements directly restrict nuclear testing. Monitoring and protective equipment address effects without limiting the tests themselves."
+,radio,F5 Bab 1,A,B,C,D,B,Picture21.png,"中文：病毒不能独立进行生命活动，必须进入活的宿主细胞，借用宿主细胞的机制复制。
+English: Viruses cannot reproduce independently; they must enter living host cells and use the host machinery."
+,radio,F5 Bab 1,A,B,C,D,C,Picture22.png,"中文：按医嘱完成整个抗生素疗程，可减少存活细菌并形成抗药性菌株的机会。
+English: Completing the prescribed antibiotic course helps reduce surviving bacteria and the chance of resistant strains emerging."
+,radio,F5 Bab 2,A,B,C,D,B,Picture23.png,"中文：水果装罐后经过加热并密封，可杀灭微生物、隔绝污染，较长时间保持品质。
+English: Canning heats and seals the fruit, killing microbes and preventing recontamination so its quality lasts longer."
+,radio,F5 Bab 2,A,B,C,D,A,Picture24.png,"中文：本题答案键选 A（心脏病），考查过量食品添加物与心血管健康风险的联系；这是题目语境下的课程知识点。
+English: The supplied key selects A (heart disease), testing the syllabus link between excessive food additives and cardiovascular risk in this question's context."
+,radio,F5 Bab 3,A,B,C,D,D,Picture25.png,"中文：把旧塑料瓶改作花盆是重复利用，减少废弃物和新材料需求，属于带来正面减碳影响的碳手印行动。
+English: Reusing a plastic bottle as a planter cuts waste and demand for new materials, a positive carbon-handprint action."
+,radio,F5 Bab 3,A,B,C,D,A,Picture26.png,"中文：在水流较慢处分批投放 EM 泥球，可延长有益微生物与污水接触的时间，让分解有机污染物更有效。
+English: Releasing EM mud balls in stages in slow-flowing areas gives beneficial microbes more contact time to break down organic pollutants."
+,radio,F5 Bab 3,A,B,C,D,D,Picture27.png,"中文：海洋微藻可通过光合作用吸收二氧化碳，降低大气中的二氧化碳，因此适用于负排放技术。
+English: Marine microalgae absorb carbon dioxide through photosynthesis, lowering atmospheric CO₂ and supporting negative-emission technology."
+,radio,F5 Bab 4,A,B,C,D,B,Picture28.png,"中文：反应物粒径改变总表面积和反应速率，但相同反应物用量可产生相同最终气体体积。
+English: Reactant particle size changes surface area and reaction rate, while equal reactant amounts can give the same final gas volume."
+,radio,F5 Bab 4,A,B,C,D,A,Picture29.png,"中文：哈伯法使用铁作催化剂，加快氮气与氢气合成氨的反应。
+English: Iron catalyses the Haber process, increasing the rate at which nitrogen and hydrogen form ammonia."
+,radio,F5 Bab 5,A,B,C,D,A,Picture30.png,"中文：葡萄糖发酵产生乙醇，蒸馏可将它分离；乙醇是无色、有气味的液体。
+English: Glucose fermentation produces ethanol, which is separated by distillation. Ethanol is a colourless liquid with a characteristic smell."
+,radio,F5 Bab 5,A,B,C,D,D,Picture31.png,"中文：花生油富含含碳碳双键的不饱和脂肪；其余选项在课本中作为动物脂肪来源。
+English: Groundnut oil is rich in unsaturated fats containing carbon–carbon double bonds; the other options are animal-fat sources in this comparison."
+,radio,F5 Bab 6,A,B,C,D,C,Picture32.png,"中文：电解时接电源负极的电极是阴极；正离子移向它并取得电子。
+English: The electrode connected to the negative terminal is the cathode, where positive ions gain electrons."
+,radio,F5 Bab 6,A,B,C,D,D,Picture33.png,"中文：锌与稀盐酸反应生成氯化锌和氢气；氢气遇燃着木条会产生爆鸣声。
+English: Zinc reacts with dilute hydrochloric acid to form zinc chloride and hydrogen, which gives a pop with a lighted splint."
+,radio,F5 Bab 7,A,B,C,D,B,Picture34.png,"中文：B的中央比边缘薄，属于凹透镜，能使平行光线向外发散。
+English: B is thinner at the centre than at the edges. It is a concave lens that diverges parallel light rays."
+,radio,F5 Bab 7,A,B,C,D,A,Picture35.png,"中文：显微镜总放大倍数＝物镜倍数×目镜倍数＝40×10＝400倍。
+English: Total microscope magnification = objective magnification × eyepiece magnification = 40 × 10 = 400 times."
+,radio,F5 Bab 8,A,B,C,D,B,Picture36.png,"中文：液压系统应用帕斯卡原理：密闭液体所受压力会等量传到各个方向。
+English: Hydraulic systems use Pascal's principle: pressure applied to an enclosed liquid is transmitted equally in all directions."
+,radio,F5 Bab 8,A,B,C,D,C,Picture37.png,"中文：两活塞压强相同，F÷10＝2000÷100，所以输入力F＝200 N。
+English: The piston pressures are equal: F / 10 = 2000 / 100, giving an input force of 200 N."
+,radio,F5 Bab 8,A,B,C,D,B,Picture38.png,"中文：B位于机翼下方，空气流速较低，按伯努利原理其气压较高。
+English: B is below the wing, where airflow is slower and pressure is higher according to Bernoulli's principle."
+,radio,F5 Bab 9,A,B,C,D,A,Picture39.png,"中文：近地点是卫星轨道上离地球最近的位置；图中A最接近地球。
+English: Perigee is the point in a satellite's orbit nearest Earth; A is nearest Earth in the diagram."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：正纬度表示赤道以北；5.779966没有负号，因此该地点位于北半球。
+English: Positive latitude indicates north of the equator. Since 5.779966 is positive, the location is in the Northern Hemisphere."

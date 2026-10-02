@@ -1,41 +1,81 @@
-﻿﻿title,type,question,A,B,C,D,answer,image
-SBP 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,B,Picture2.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture3.png
-,radio,F4 Bab 1,A,B,C,D,B,Picture4.png
-,radio,F4 Bab 5,A,B,C,D,C,Picture5.png
-,radio,F4 Bab 2,A,B,C,D,C,Picture6.png
-,radio,F4 Bab 3,A,B,C,D,B,Picture7.png
-,radio,F4 Bab 4,A,B,C,D,D,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,D,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,C,Picture10.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,C,Picture13.png
-,radio,F4 Bab 7,A,B,C,D,C,Picture14.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture15.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 12,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture18.png
-,radio,F4 Bab 9,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture20.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture21.png
-,radio,F4 Bab 10,A,B,C,D,A,Picture22.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture23.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture24.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture27.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture28.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 4,A,B,C,D,B,Picture32.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture33.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture34.png
-,radio,F4 Bab 5,A,B,C,D,C,Picture35.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture36.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture37.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture38.png
-,radio,F5 Bab 8,A,B,C,D,A,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+SBP 2026,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：本题B表示保护呼吸道的口罩。普通口罩不能阻挡所有化学蒸气；涉及有害蒸气时还需要适当的通风和专用防护。
+English: B represents respiratory protection in this question. An ordinary mask cannot block all chemical vapours; hazardous vapours require suitable ventilation and specific protection."
+,radio,F4 Bab 1,A,B,C,D,B,Picture2.png,"中文：选B：pH 6接近中性，比pH 1的酸和pH 12的碱危险性低；应按实验室指定的废液处理规则处置。这里指稀释后溶液的pH，并不表示硝酸本身是弱酸。
+English: B has a pH of 6, close to neutral, unlike the strongly acidic pH 1 or alkaline pH 12 solutions. Disposal must follow the laboratory's rules; this pH does not make nitric acid a weak acid."
+,radio,F4 Bab 3,A,B,C,D,D,Picture3.png,"中文：失温通常由长时间暴露于严寒环境造成，使身体散热超过产热，核心体温下降。因此选D。
+English: Hypothermia occurs when heat loss exceeds heat production during exposure to extreme cold, lowering core body temperature. Therefore D is correct."
+,radio,F4 Bab 1,A,B,C,D,B,Picture4.png,"中文：活泼金属燃烧应使用适用于金属火灾的专用干粉，覆盖并隔绝空气。B应理解为金属用干粉；普通ABC干粉、泡沫或二氧化碳不一定适用。
+English: Reactive-metal fires require a suitable Class D metal-fire powder that covers the metal. B should mean this specialised powder; ordinary ABC powder, foam and carbon dioxide may be unsuitable."
+,radio,F4 Bab 5,A,B,C,D,C,Picture5.png,"中文：减数分裂的交叉互换会产生新的基因组合，是遗传因素；气候会影响性状的表现，是环境因素。因此选C。
+English: Crossing over during meiosis creates new gene combinations and is a genetic factor. Climate affects how traits develop and is an environmental factor, so C is correct."
+,radio,F4 Bab 2,A,B,C,D,C,Picture6.png,"中文：按本题课本所列的急救动作顺序，先站到伤者身后并让他向前倾，所以选C。前倾有助于异物排出，避免重新进入呼吸道。
+English: In the textbook sequence used by this question, stand behind the casualty and lean them forward, so C is the intended answer. Leaning forward helps an expelled object leave the mouth."
+,radio,F4 Bab 3,A,B,C,D,B,Picture7.png,"中文：每天保持均衡饮食有助于持续控制能量摄入，使BMI从超重范围下降至适宜范围。每周仅运动一次或只限制某一种食物都不够全面。
+English: A balanced daily diet supports sustained control of energy intake and a healthier BMI. Exercising only once a week or limiting just one food category is less comprehensive."
+,radio,F4 Bab 4,A,B,C,D,D,Picture8.png,"中文：把用过的纸张再次用于数学练习属于再使用（Reuse），因为纸张没有经过加工制造成新产品，所以选D。
+English: Using old paper again for mathematics exercises is reuse. The paper is used directly rather than processed into a new product, so D is correct."
+,radio,F4 Bab 5,A,B,C,D,D,Picture9.png,"中文：色盲是X连锁隐性遗传。Q为XᵇXᵇ，S为XᵇY，都会表现色盲；P为携带者，R为正常男孩。
+English: Colour blindness is X-linked recessive. Q has XᵇXᵇ and S has XᵇY, so both are affected; P is a carrier and R is a normal boy."
+,radio,F4 Bab 5,A,B,C,D,C,Picture10.png,"中文：地中海贫血由影响血红蛋白链合成的基因突变造成，可形成较小、含血红蛋白较少的红细胞。因此选C。
+English: Thalassaemia results from mutations affecting haemoglobin-chain production and can produce small red blood cells with less haemoglobin. Therefore C is correct."
+,radio,F4 Bab 6,A,B,C,D,D,Picture11.png,"中文：螃蟹具有覆盖身体外面的外骨骼，可提供支撑并保护身体，所以D的配对正确。蝴蝶也有外骨骼，猫则有内骨骼。
+English: A crab has an exoskeleton outside its body that provides support and protection, so D is correct. Butterflies also have exoskeletons, whereas cats have endoskeletons."
+,radio,F4 Bab 6,A,B,C,D,D,Picture12.png,"中文：水葫芦等水生植物由水的浮力帮助支撑身体，因此选D。浮力减轻了植物需要自行承受的重量。
+English: Water hyacinths and other aquatic plants are supported by water buoyancy, so D is correct. Buoyancy reduces the weight that their tissues must support."
+,radio,F4 Bab 8,A,B,C,D,C,Picture13.png,"中文：食盐氯化钠由Na⁺和Cl⁻离子组成，属于离子物质。铁和氦以原子为基本粒子，氧气则由分子组成。
+English: Sodium chloride consists of Na⁺ and Cl⁻ ions and is an ionic substance. Iron and helium are atomic substances, while oxygen consists of molecules."
+,radio,F4 Bab 7,A,B,C,D,C,Picture14.png,"中文：咖啡因是兴奋剂，会刺激中枢神经系统，使人暂时较清醒，所以选C。它不能代替充足睡眠。
+English: Caffeine is a stimulant that acts on the central nervous system and temporarily increases alertness, so C is correct. It does not replace adequate sleep."
+,radio,F4 Bab 8,A,B,C,D,B,Picture15.png,"中文：钴-60发出的伽马射线用于食品辐照，可减少微生物并延长保存期。合规的辐照过程不会使食品变成放射性物质。
+English: Gamma rays from cobalt-60 are used to irradiate food, reducing microorganisms and extending shelf life. Proper irradiation does not make the food radioactive."
+,radio,F4 Bab 8,A,B,C,D,B,Picture16.png,"中文：中子数＝核子数−质子数＝40−18＝22，所以选B。核子数是质子与中子数量之和。
+English: Neutron number = nucleon number − proton number = 40 − 18 = 22, so B is correct. The nucleon number counts protons and neutrons together."
+,radio,F4 Bab 12,A,B,C,D,D,Picture17.png,"中文：核电站发电时不燃烧化石燃料，因此运行过程中的温室气体排放很低。D是核能的优点，但仍需处理放射性废物。
+English: Nuclear power generation does not burn fossil fuels, so operational greenhouse-gas emissions are low. This supports D, although radioactive waste still requires management."
+,radio,F4 Bab 8,A,B,C,D,B,Picture18.png,"中文：第三周期元素有三层电子，第15族主族元素有五个价电子，因此电子排列是2.8.5，选B。
+English: A Period 3 element has three occupied electron shells, and a Group 15 element has five valence electrons. Its arrangement is 2.8.5, so B is correct."
+,radio,F4 Bab 9,A,B,C,D,C,Picture19.png,"中文：硫化使橡胶分子链之间形成硫交联，限制分子链滑动，使橡胶更坚硬、耐热且耐用。因此选C。
+English: Vulcanisation forms sulphur cross-links between rubber chains, restricting their movement and making rubber harder, more heat-resistant and more durable. Therefore C is correct."
+,radio,F4 Bab 10,A,B,C,D,A,Picture20.png,"中文：阿司匹林属于具有止痛和抗炎作用的药物，因此本题选A。抗生素针对细菌感染，安非他命则属于兴奋剂。
+English: Aspirin has analgesic and anti-inflammatory effects, so A fits this question. Antibiotics target bacterial infections, while amphetamines are stimulants."
+,radio,F4 Bab 10,A,B,C,D,D,Picture21.png,"中文：本题强调酵素清洁剂有助于分解污垢中的有机物，使油污较容易清除，减少用力刷洗的需要，所以选D。实际效果会随配方和污垢而不同。
+English: The question emphasises that enzyme cleaners help break down organic components of dirt, making grease easier to remove and reducing vigorous scrubbing. This supports D; actual effectiveness varies."
+,radio,F4 Bab 10,A,B,C,D,A,Picture22.png,"中文：柠檬汁的酸性和抗氧化成分可减慢切开苹果的酶促氧化褐变，所以选A。褐变来自受损组织接触氧气后的反应。
+English: Lemon juice provides acidity and antioxidants that slow enzymatic browning in a cut apple, so A is correct. Browning begins when damaged tissues react with oxygen."
+,radio,F4 Bab 11,A,B,C,D,A,Picture23.png,"中文：苹果落向地面是因为受到地球引力，所以A是题目预期答案。不过C所说不同质量的苹果受到不同大小的引力也符合F＝mg，本题选项有歧义，需复核。
+English: An apple falls because of Earth's gravitational attraction, so A is the intended answer. However, C also follows F = mg: apples of different masses experience different gravitational forces. The options need review."
+,radio,F4 Bab 11,A,B,C,D,C,Picture24.png,"中文：选C。路程是实际行走的两段距离：80＋80＝160 m；位移是起点到终点的直线距离，按图中标示为131.14 m。注意图中有数字笔误：若按两段互相垂直的80 m计算，位移应为√(80²＋80²)≈113.14 m，而不是131.14 m；本题仍按图示与答案纸选C。
+English: C is correct using the printed diagram. Distance is the route travelled: 80 + 80 = 160 m; displacement is the straight-line separation, labelled 131.14 m. There is a numerical typo: two perpendicular 80 m legs give √(80² + 80²) ≈ 113.14 m, not 131.14 m. Follow the given diagram and answer key for C."
+,radio,F4 Bab 11,A,B,C,D,A,Picture25.png,"中文：位移—时间图的水平段表示停留，末端回到位移0表示回到起点。A同时表示先离家、停留、继续移动再回家的过程。
+English: A horizontal section of a displacement–time graph represents rest, and a final displacement of zero represents returning home. Graph A shows departure, a stop, further travel and a return."
+,radio,F5 Bab 2,A,B,C,D,C,Picture26.png,"中文：长期过量摄取高糖食物容易增加总能量摄入和肥胖风险，进而提高患第二型糖尿病的风险，因此选题目所列的糖尿病。
+English: Long-term excessive consumption of sugary foods can increase energy intake and obesity risk, which in turn raises the risk of type 2 diabetes. This supports the diabetes option."
+,radio,F5 Bab 2,A,B,C,D,C,Picture27.png,"中文：固氮作用把空气中的氮带入土壤氮循环；随后硝化作用可形成植物可吸收的硝酸根。
+English: Nitrogen fixation brings atmospheric nitrogen into the soil cycle; subsequent nitrification can produce nitrate ions for plants."
+,radio,F5 Bab 2,A,B,C,D,D,Picture28.png,"中文：二氧化硫可抑制微生物，是防腐剂；阿斯巴甜是甜味剂，胭脂红是着色剂。
+English: Sulphur dioxide inhibits microorganisms and acts as a preservative; aspartame is a sweetener and carmoisine a colouring."
+,radio,F5 Bab 3,A,B,C,D,A,Picture29.png,"中文：有效管理废物可减少填埋和焚烧产生的排放，是积极改善环境影响的碳手印；一次性电池和低效冰箱会增加影响。
+English: Efficient waste management reduces emissions from landfill and burning, creating a positive carbon handprint; disposable batteries and inefficient fridges add impact."
+,radio,F5 Bab 3,A,B,C,D,A,Picture30.png,"中文：高 BOD 表示分解有机物需要大量氧气。藻类及有机物增加会加强分解耗氧，所以此题对应选项 A。
+English: A high BOD means decomposition of organic matter needs much oxygen. More algae and organic matter increase oxygen demand, matching option A here."
+,radio,F5 Bab 3,A,B,C,D,B,Picture31.png,"中文：海洋施肥促进微藻生长，微藻通过光合作用吸收二氧化碳，是题目所列的负排放技术。
+English: Ocean fertilisation promotes microalgal growth; the algae absorb CO₂ through photosynthesis, making it the negative-emission technology listed."
+,radio,F5 Bab 4,A,B,C,D,B,Picture32.png,"中文：气体体积在150 s首次达到80 cm³，此后不再增加，表示反应已完成。因此反应结束时间为150 s，选B。
+English: The gas volume first reaches 80 cm³ at 150 s and then remains constant, indicating completion. Therefore the reaction ends at 150 s, so B is correct."
+,radio,F4 Bab 9,A,B,C,D,D,Picture33.png,"中文：压力锅提高锅内压力，使水的沸点升高，食物可在较高温度下烹煮，相关反应更快。因此Q的烹煮速率较高，选D。
+English: A pressure cooker raises pressure and the boiling point of water, allowing cooking at a higher temperature. The relevant reactions proceed faster in Q, so D is correct."
+,radio,F5 Bab 5,A,B,C,D,A,Picture34.png,"中文：该结构有六个碳原子和一个碳碳双键，属于己烯，分子式为C₆H₁₂。因此选A。
+English: The structure has six carbon atoms and one carbon–carbon double bond. It is hexene with molecular formula C₆H₁₂, so A is correct."
+,radio,F4 Bab 5,A,B,C,D,C,Picture35.png,"中文：题图所指的胎儿酒精综合征与怀孕期间饮酒有关，酒精可影响胎儿的脑部和身体发育。因此选C。
+English: The pictured fetal alcohol syndrome is associated with alcohol exposure during pregnancy, which can affect brain and physical development. Therefore C is correct."
+,radio,F5 Bab 5,A,B,C,D,D,Picture36.png,"中文：图中的压榨步骤通过挤压果肉，把棕榈油分离出来，因此选D。脱色和去除气味属于后续精炼步骤。
+English: Pressing squeezes palm oil out of the fruit flesh, so D is correct. Bleaching and deodorising belong to later refining stages."
+,radio,F5 Bab 6,A,B,C,D,D,Picture37.png,"中文：简单化学电池需要电解质，让离子在两个电极之间移动并维持电荷平衡。因此选D。
+English: A simple chemical cell requires an electrolyte so ions can move between the electrodes and maintain charge balance. Therefore D is correct."
+,radio,F5 Bab 7,A,B,C,D,B,Picture38.png,"中文：物体放在凸透镜的2F处，会在另一侧2F形成等大、倒立的实像，适用于等比例复印。因此选位于2F的B。
+English: An object at 2F of a convex lens produces a real, inverted image of the same size at 2F on the other side. This suits same-size photocopying, so B is correct."
+,radio,F5 Bab 8,A,B,C,D,A,Picture39.png,"中文：自卸卡车使用液压系统举起车斗。密闭液体传递压力，再由较大活塞产生较大的输出力，应用了帕斯卡原理，所以选A。
+English: A dumper truck uses hydraulics to lift its bed. Pressure transmitted through an enclosed liquid produces a larger force at a larger piston, applying Pascal's principle, so A is correct."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：十进制度数＝度＋分÷60。3°09′N＝3.15°，101°42′E＝101.7°；北纬和东经都取正值，所以选A。
+English: Decimal degrees = degrees + minutes ÷ 60. Thus 3°09′N = 3.15° and 101°42′E = 101.7°; north and east are positive, so A is correct."

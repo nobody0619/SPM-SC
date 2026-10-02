@@ -1,0 +1,37 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 8,radio,Kedah2026_Q36,A,B,C,D,B,../Kedah 2026/Picture36.png,"中文：液压系统应用帕斯卡原理：密闭液体所受压力会等量传到各个方向。
+English: Hydraulic systems use Pascal's principle: pressure applied to an enclosed liquid is transmitted equally in all directions."
+F5 Chp 8,radio,Kedah2026_Q37,A,B,C,D,C,../Kedah 2026/Picture37.png,"中文：两活塞压强相同，F÷10＝2000÷100，所以输入力F＝200 N。
+English: The piston pressures are equal: F / 10 = 2000 / 100, giving an input force of 200 N."
+F5 Chp 8,radio,Kelantan2026_Q37,A,B,C,D,D,../Kelantan 2026/Picture37.png,"中文：液体传递相同压强，输出力＝10×10÷2＝50 N。
+English: Pressure is transmitted equally through the liquid, so output force = 10 × 10 / 2 = 50 N."
+F5 Chp 8,radio,Penang2026_Q37,A,B,C,D,D,../Penang 2026/Picture37.png,"中文：牙科椅利用液压系统传递压力、升降座椅，是帕斯卡原理的应用。
+English: A dental chair uses a hydraulic system to transmit pressure and raise or lower the seat, applying Pascal's principle."
+F5 Chp 8,radio,Sarawak2026_Q37,A,B,C,D,C,../Sarawak 2026/Picture37.png,"中文：液压刹车利用帕斯卡原理：施加在密闭液体上的压力会传递到各处，再推动刹车机构，因此选C。
+English: Hydraulic brakes apply Pascal's principle: pressure applied to an enclosed liquid is transmitted throughout it and operates the brakes. Therefore C is correct."
+F5 Chp 8,radio,Kedah2026_Q38,A,B,C,D,B,../Kedah 2026/Picture38.png,"中文：B位于机翼下方，空气流速较低，按伯努利原理其气压较高。
+English: B is below the wing, where airflow is slower and pressure is higher according to Bernoulli's principle."
+F5 Chp 8,radio,Kelantan2026_Q38,A,B,C,D,B,../Kelantan 2026/Picture38.png,"中文：无人机旋翼产生向上的升力；升力超过重力时，无人机便会上升。
+English: The drone's rotors generate upward lift. When lift exceeds weight, the drone rises."
+F5 Chp 8,radio,Melaka2026_Q38,A,B,C,D,A,../Melaka 2026/Picture38.png,"中文：输入力＝输出力×小活塞面积÷大活塞面积＝10000×0.02÷4＝50 N。
+English: Input force = output force × small-piston area / large-piston area = 10000 × 0.02 / 4 = 50 N."
+F5 Chp 8,radio,N92026_Q38,A,B,C,D,B,../N9 2026/Picture38.png,"中文：快速流动的水使球上方压强较低；下方较高压强产生向上的合力，把球留在漏斗内。
+English: Fast-flowing water lowers pressure above the ball; higher pressure below provides an upward force that holds it in the funnel."
+F5 Chp 8,radio,Pahang2026_Q38,A,B,C,D,D,../Pahang 2026/Picture38.png,"中文：狭窄处L流速最大、压强最低，水柱最低；M水柱高于L但低于入口K，对应D。
+English: At narrow L, flow is fastest and pressure lowest, giving the lowest water column. M's column lies between L and inlet K, matching D."
+F5 Chp 8,radio,Penang2026_Q38,A,B,C,D,A,../Penang 2026/Picture38.png,"中文：水柱越高表示该处压强越大；图中A水柱最高，因此A压强最大。
+English: A taller water column indicates higher pressure. A has the tallest column, so its pressure is greatest."
+F5 Chp 8,radio,Sarawak2026_Q38,A,B,C,D,D,../Sarawak 2026/Picture38.png,"中文：窄管处流速较快、压力较低，所以Q的水柱最低V。P处最宽，水柱最高T；R居中为U，因此选D。
+English: Flow is faster and pressure lower at the narrowest section, so Q has the lowest column V. P is widest and has the highest column T; R is intermediate at U. Therefore D is correct."
+F5 Chp 8,radio,Selangor2026_Q38,A,B,C,D,D,../Selangor 2026/Picture38.png,"中文：密闭液体传递相同压力：30÷5＝F÷125。因此F＝30×125÷5＝750 N，选D。
+English: Equal pressure is transmitted through the enclosed liquid: 30 ÷ 5 = F ÷ 125. Thus F = 30 × 125 ÷ 5 = 750 N, so D is correct."
+F5 Chp 8,radio,Terengganu2026_Q38,A,B,C,D,C,../Terengganu 2026/Picture38.png,"中文：液体传递相同压力：30÷5＝F÷50，因此F＝300 N。大活塞面积是小活塞的10倍，输出力也为10倍，选C。
+English: The liquid transmits equal pressure: 30 ÷ 5 = F ÷ 50, giving F = 300 N. The larger piston has ten times the area and produces ten times the force, so C is correct."
+F5 Chp 8,radio,Kl2026_Q39,A,B,C,D,B,../KL 2026/Picture39.png,"中文：负载重力＝50×10＝500 N。按帕斯卡原理，输入力＝500×4÷100＝20 N。
+English: The load weighs 50 × 10 = 500 N. By Pascal's principle, input force = 500 × 4 / 100 = 20 N."
+F5 Chp 8,radio,Perak2026_Q39,A,B,C,D,C,../Perak 2026/Picture39.png,"中文：输入力＝7000×7÷70＝700 N，两活塞压强相同。
+English: Equal piston pressures give input force = 7000 × 7 / 70 = 700 N."
+F5 Chp 8,radio,Putrajaya2026_Q39,A,B,C,D,A,../Putrajaya 2026/Picture39.png,"中文：Q上方气流较快、压强较低；S下方气流较慢、压强较高，因此配对A。
+English: Airflow at Q above the wing is faster and pressure lower; S below has slower flow and higher pressure, matching A."
+F5 Chp 8,radio,Sbp2026_Q39,A,B,C,D,A,../SBP 2026/Picture39.png,"中文：自卸卡车使用液压系统举起车斗。密闭液体传递压力，再由较大活塞产生较大的输出力，应用了帕斯卡原理，所以选A。
+English: A dumper truck uses hydraulics to lift its bed. Pressure transmitted through an enclosed liquid produces a larger force at a larger piston, applying Pascal's principle, so A is correct."

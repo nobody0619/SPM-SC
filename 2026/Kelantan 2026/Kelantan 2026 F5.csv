@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture23.png
-,radio,F5 Bab 1,A,B,C,D,B,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture27.png
-,radio,F5 Bab 3,A,B,C,D,C,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,D,Picture29.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture32.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture36.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,B,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan 2026 F5,radio,F5 Bab 1,A,B,C,D,A,Picture23.png,"中文：藻类含叶绿素，能利用光能进行光合作用；病毒、真菌和原生动物不符合题意。
+English: Algae contain chlorophyll and can photosynthesise using light; viruses, fungi and protozoa do not fit."
+,radio,F5 Bab 1,A,B,C,D,B,Picture24.png,"中文：两组培养液的关键差异是氢氧化钠与蒸馏水，改变的是 pH 值，因此研究因素是酸碱度。
+English: The cultures differ by sodium hydroxide versus distilled water, which changes pH; pH is the factor being investigated."
+,radio,F5 Bab 2,A,B,C,D,B,Picture25.png,"中文：热量为 50×10.6 + 80×8.27 + 5×0.55 = 1194.35 kJ，四舍五入为 1194.4 kJ。
+English: Energy = 50×10.6 + 80×8.27 + 5×0.55 = 1194.35 kJ, which rounds to 1194.4 kJ."
+,radio,F5 Bab 2,A,B,C,D,C,Picture26.png,"中文：味精是增味剂，主要作用是增强食物风味，而不是让食物变甜或着色。
+English: MSG is a flavour enhancer: its main function is to improve taste, not to sweeten or colour food."
+,radio,F5 Bab 3,A,B,C,D,B,Picture27.png,"中文：森林能吸收并储存二氧化碳，形成碳汇；建立碳汇是把二氧化碳从空气中移除的碳手印行动。
+English: Forests absorb and store carbon dioxide as carbon sinks; creating a sink is a carbon-handprint action that removes CO₂ from the air."
+,radio,F5 Bab 3,A,B,C,D,C,Picture28.png,"中文：P 的亚甲蓝 40 分钟就褪色，比 Q 的 80 分钟快，说明 P 中微生物耗氧较快、溶解氧较低。
+English: P decolourises methylene blue in 40 minutes, faster than Q at 80 minutes. Faster microbial oxygen use means lower dissolved oxygen in P."
+,radio,F5 Bab 4,A,B,C,D,D,Picture29.png,"中文：同质量的肉切得越小，总表面积越大且热量更易到达内部，所以煮得较快。
+English: Cutting the same mass of meat into smaller pieces increases total surface area and heat penetration, so it cooks faster."
+,radio,F5 Bab 4,A,B,C,D,A,Picture30.png,"中文：平均反应速率＝0.8÷45≈0.0178 g/s，按选项取约0.02 g/s。
+English: Average reaction rate = 0.8 / 45 ≈ 0.0178 g/s, approximately 0.02 g/s among the options."
+,radio,F5 Bab 5,A,B,C,D,A,Picture31.png,"中文：Q指向含油的中果皮，体积较大，是棕榈果产生最多油的部分。
+English: Q is the oil-rich mesocarp, the large fleshy part of the fruit that yields the most palm oil."
+,radio,F5 Bab 5,A,B,C,D,D,Picture32.png,"中文：酵母发酵糖产生乙醇和CO₂；CO₂使石灰水形成碳酸钙沉淀而变浑浊。
+English: Yeast fermentation produces ethanol and CO₂. CO₂ forms a calcium carbonate precipitate in limewater, turning it cloudy."
+,radio,F5 Bab 6,A,B,C,D,C,Picture33.png,"中文：两种不同金属与柠檬汁构成化学电池，将化学能转化为电能供LED使用。
+English: The two different metals and lemon juice form a chemical cell, converting chemical energy into electrical energy for the LED."
+,radio,F5 Bab 6,A,B,C,D,C,Picture34.png,"中文：镁比铜活泼，失去电子形成Mg²⁺并溶入电解液；电子流经外电路使电压表偏转。
+English: Magnesium is more reactive than copper. It loses electrons and dissolves as Mg²⁺; electron flow through the external circuit deflects the voltmeter."
+,radio,F5 Bab 7,A,B,C,D,B,Picture35.png,"中文：凹透镜对实物总形成正立、缩小的虚像，因此选缩小的B。
+English: A concave lens forms an upright, diminished virtual image of a real object, so B is correct."
+,radio,F5 Bab 7,A,B,C,D,A,Picture36.png,"中文：物体位于凸透镜2F处时，像形成于另一侧2F处，倒立但大小与物体相同。
+English: With the object at 2F of a convex lens, the image forms at 2F on the other side, inverted and equal in size."
+,radio,F5 Bab 8,A,B,C,D,D,Picture37.png,"中文：液体传递相同压强，输出力＝10×10÷2＝50 N。
+English: Pressure is transmitted equally through the liquid, so output force = 10 × 10 / 2 = 50 N."
+,radio,F5 Bab 8,A,B,C,D,B,Picture38.png,"中文：无人机旋翼产生向上的升力；升力超过重力时，无人机便会上升。
+English: The drone's rotors generate upward lift. When lift exceeds weight, the drone rises."
+,radio,F5 Bab 9,A,B,C,D,D,Picture39.png,"中文：本课所述轨道形状为圆形和椭圆形；圆可视为椭圆的特殊情况。
+English: The orbital shapes taught here are circular and elliptical; a circle is a special case of an ellipse."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：十进制度＝度＋分÷60＋秒÷3600，计算得6.291336和99.728939，约对应A。
+English: Decimal degrees = degrees + minutes/60 + seconds/3600, giving 6.291336 and 99.728939, approximately option A."

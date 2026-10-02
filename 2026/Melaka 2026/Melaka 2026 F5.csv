@@ -1,20 +1,39 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2026 F5,radio,F5 Bab 1,A,B,C,D,B,Picture22.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture26.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture27.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,B,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,B,Picture34.png
-,radio,F5 Bab 6,A,B,C,D,A,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture36.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,A,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2026 F5,radio,F5 Bab 1,A,B,C,D,B,Picture22.png,"中文：选B：双歧杆菌（Bifidobacteria sp.）用于制革，帮助去除动物皮上的组织和脂肪，让皮料进一步加工成皮革制品。Penicillium chrysogenum用于生产青霉素等抗生素；脊髓灰质炎病毒和轮状病毒则对应疫苗生产。
+English: B is correct: in the syllabus, Bifidobacteria sp. help remove tissue and fat from animal hides during leather processing. Penicillium chrysogenum is used to produce antibiotics such as penicillin, while poliovirus and rotavirus correspond to vaccine production."
+,radio,F5 Bab 1,A,B,C,D,C,Picture23.png,"中文：水和洗涤剂能洗掉污垢，但未必杀死所有微生物；消毒剂用于杀灭残留微生物。
+English: Water and detergent remove dirt but may not kill all microbes; disinfectant kills the microorganisms that remain."
+,radio,F5 Bab 2,A,B,C,D,B,Picture24.png,"中文：图示表现神经性厌食的体像认知问题；长期限制进食会造成严重营养不良，甚至危及生命。
+English: The image represents distorted body perception in anorexia nervosa. Prolonged food restriction can cause severe malnutrition and become life-threatening."
+,radio,F5 Bab 2,A,B,C,D,C,Picture25.png,"中文：混种把不同作物种在同一地块，可减少单一作物病虫害集中，也有助保持土壤肥力。
+English: Mixed cropping grows different crops together, helping prevent pests and diseases from concentrating and supporting soil fertility."
+,radio,F5 Bab 2,A,B,C,D,C,Picture26.png,"中文：脱水移除牛奶中的水分，得到奶粉；水分减少也有助延长保存时间。
+English: Dehydration removes water from milk to make milk powder; the lower water content also helps extend storage life."
+,radio,F5 Bab 2,A,B,C,D,A,Picture27.png,"中文：鲜奶需要冷藏并在有效期前饮用；温度过高会加快微生物繁殖，使牛奶较快变质。
+English: Fresh milk must be refrigerated and used before its expiry date. Warmer storage speeds microbial growth and spoilage."
+,radio,F5 Bab 3,A,B,C,D,D,Picture28.png,"中文：水中和鱼体内的微塑料都随污染级别升高而增加，数据支持两者与污染程度呈正相关。
+English: Microplastics in both water and fish rise with the pollution level, so the data support a positive association with pollution."
+,radio,F5 Bab 4,A,B,C,D,A,Picture29.png,"中文：浓度越高，反应越快，X消失所需时间t越短，1/t越大，因此浓度与1/t呈正相关。
+English: Higher concentration increases reaction rate, shortening the time t for X to disappear and increasing 1/t, so the graph slopes upwards."
+,radio,F5 Bab 5,A,B,C,D,C,Picture30.png,"中文：丝绸主要由蛋白质组成，是有机碳化合物；石灰石和CO₂归为无机物，钻石是碳元素。
+English: Silk consists mainly of protein, an organic carbon compound. Limestone and CO₂ are inorganic, while diamond is elemental carbon."
+,radio,F5 Bab 5,A,B,C,D,B,Picture31.png,"中文：乙醇在室温为液体，易挥发，沸点约78°C，因此B正确。
+English: Ethanol is a volatile liquid at room temperature with a boiling point around 78°C, so B is correct."
+,radio,F5 Bab 5,A,B,C,D,B,Picture32.png,"中文：S和U提供鱼、较瘦的肉及植物性食物，相比黄油和油炸组合，更符合减少饱和脂肪的选择。
+English: S and U provide fish, leaner meat and plant foods, better matching reduced saturated-fat intake than the butter-rich and fried alternatives."
+,radio,F5 Bab 5,A,B,C,D,B,Picture33.png,"中文：棕榈仁油来自种子内的果仁，图中标为B；果肉层产生的是棕榈油。
+English: Palm kernel oil comes from the kernel inside the seed, labelled B; the fleshy mesocarp yields palm oil."
+,radio,F5 Bab 6,A,B,C,D,B,Picture34.png,"中文：两组实验使用相同酸和碳电极，但酸浓度不同，因此改变电解产物的因素是电解液浓度。
+English: Both setups use the same acid and carbon electrodes but different concentrations, so electrolyte concentration is the differing factor."
+,radio,F5 Bab 6,A,B,C,D,A,Picture35.png,"中文：M是负极，必须比铁更容易失去电子；选项中铝比铁活泼，所以选A。
+English: M is the negative terminal and must lose electrons more readily than iron. Aluminium is more reactive than iron, so A fits."
+,radio,F5 Bab 7,A,B,C,D,A,Picture36.png,"中文：同一拍摄距离下，P视野较广、人物较小，表示焦距较短；Q焦距较长。
+English: At the same camera distance, P shows a wider field and a smaller subject, indicating a shorter focal length than Q."
+,radio,F5 Bab 7,A,B,C,D,A,Picture37.png,"中文：物体位于F与2F之间，折射光在另一侧实际相交，形成倒立、放大的实像。
+English: The object lies between F and 2F. Refracted rays meet on the other side, forming a real, inverted, enlarged image."
+,radio,F5 Bab 8,A,B,C,D,A,Picture38.png,"中文：输入力＝输出力×小活塞面积÷大活塞面积＝10000×0.02÷4＝50 N。
+English: Input force = output force × small-piston area / large-piston area = 10000 × 0.02 / 4 = 50 N."
+,radio,F5 Bab 9,A,B,C,D,D,Picture39.png,"中文：D表示赤道平面上的轨道；地球同步静止卫星还须以地球自转方向运行，周期约24小时。
+English: D shows the equatorial orbit. A geostationary satellite also orbits in Earth's rotation direction with a period of about 24 hours."
+,radio,F5 Bab 9,A,B,C,D,D,Picture40.png,"中文：负纬度表示南，正经度表示东，因此−18.2861、147.6833对应南纬、东经。
+English: Negative latitude means south and positive longitude means east, so −18.2861, 147.6833 indicates south latitude and east longitude."

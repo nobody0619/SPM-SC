@@ -1,0 +1,55 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 11,radio,Penang2026_Q17,A,B,C,D,B,../Penang 2026/Picture17.png,"中文：KL为向上直线，速度均匀增加，斜率恒定，因此加速度为恒定正值。
+English: KL is a straight rising line: velocity increases uniformly and its constant gradient indicates constant positive acceleration."
+F4 Chp 11,radio,Kedah2026_Q18,A,B,C,D,B,../Kedah 2026/Picture18.png,"中文：打点时间间隔相同，沿记录先后顺序点距逐渐增大，表示速度增加，符合题目的匀加速运动。
+English: Dots are made at equal time intervals. Increasing gaps in recording order indicate increasing speed, matching uniform acceleration here."
+F4 Chp 11,radio,Pahang2026_Q18,A,B,C,D,C,../Pahang 2026/Picture18.png,"中文：路程为60＋120＋60＝240 km，但E至H位移为120 km；平均速度＝120÷2＝60 km/h。
+English: Distance travelled is 60 + 120 + 60 = 240 km, but displacement E–H is 120 km; average velocity = 120 / 2 = 60 km/h."
+F4 Chp 11,radio,Penang2026_Q18,A,B,C,D,A,../Penang 2026/Picture18.png,"中文：真空没有空气阻力，羽毛和石头受到相同重力加速度，从同高度同时释放会同时到达底部。
+English: Without air resistance in vacuum, the feather and stone have the same gravitational acceleration and reach the bottom together."
+F4 Chp 11,radio,Sarawak2026_Q18,A,B,C,D,D,../Sarawak 2026/Picture18.png,"中文：大伞面能增大空气阻力，使物资下降较慢，是本题的重要原理。原答案D包含大伞面，但题目未说明短绳为何优于B的轻量大伞面，最佳设计选项需复核。
+English: A large canopy increases air resistance and slows the supplies' descent. The original answer D includes this feature, but the question does not explain why short strings make it better than the large, light canopy in B. Review the options."
+F4 Chp 11,radio,Terengganu2026_Q18,A,B,C,D,D,../Terengganu 2026/Picture18.png,"中文：纵轴实际标示速度，0至5 s速度由0增至20 m/s。加速度＝(20−0)÷5＝4 m/s²，因此选D；题干称位移图是笔误。
+English: The vertical axis is velocity: it rises from 0 to 20 m/s in 5 s. Acceleration = (20 − 0) ÷ 5 = 4 m/s², so D is correct; the description as a displacement graph is a typo."
+F4 Chp 11,radio,Kedah2026_Q19,A,B,C,D,C,../Kedah 2026/Picture19.png,"中文：真空中没有空气阻力，两物体只受重力作用，以相同重力加速度下落，故落下时间相同。
+English: In a vacuum there is no air resistance. Both objects fall under gravity with the same gravitational acceleration, so their falling times are equal."
+F4 Chp 11,radio,Kelantan2026_Q19,A,B,C,D,B,../Kelantan 2026/Picture19.png,"中文：平均加速度＝(10.44－0)÷9.58≈1.09 m/s²，因速度增加所以为正值。
+English: Average acceleration = (10.44 − 0) / 9.58 ≈ 1.09 m/s², positive because velocity increases."
+F4 Chp 11,radio,Melaka2026_Q19,A,B,C,D,B,../Melaka 2026/Picture19.png,"中文：位移等于图下方面积：2至8 s矩形为6×20，8至14 s三角形为½×6×20，总共180 m。
+English: Displacement is area under the graph: 6 × 20 for 2–8 s plus ½ × 6 × 20 for 8–14 s, totalling 180 m."
+F4 Chp 11,radio,Pahang2026_Q19,A,B,C,D,A,../Pahang 2026/Picture19.png,"中文：位移—时间图在t＝8 s时读数为6 m；位移读纵轴，不计算图下面积。
+English: The displacement–time graph reads 6 m at t = 8 s. Displacement is read from the vertical axis, not its area."
+F4 Chp 11,radio,Selangor2026_Q19,A,B,C,D,D,../Selangor 2026/Picture19.png,"中文：惯性取决于质量：质量越大，物体越难改变原来的运动状态。因此选D。
+English: Inertia depends on mass: a more massive object resists changes to its motion more strongly. Therefore D is correct."
+F4 Chp 11,radio,Terengganu2026_Q19,A,B,C,D,D,../Terengganu 2026/Picture19.png,"中文：质量决定惯性大小。质量越大，物体越难改变静止或匀速运动的状态，因此选D。
+English: Mass determines inertia. A larger mass resists changes from rest or uniform motion more strongly, so D is correct."
+F4 Chp 11,radio,Kelantan2026_Q20,A,B,C,D,B,../Kelantan 2026/Picture20.png,"中文：手柄突然停止时，锤头因惯性仍继续运动，使锤头与手柄结合得更紧。
+English: When the handle stops abruptly, the hammer head continues moving because of inertia, tightening its fit on the handle."
+F4 Chp 11,radio,Kl2026_Q20,A,B,C,D,B,../KL 2026/Picture20.png,"中文：同方向总位移为10＋5＝15 m；总时间包含休息，为30＋5＋10＝45 s。
+English: Total displacement in the same direction is 10 + 5 = 15 m. Total time includes the rest: 30 + 5 + 10 = 45 s."
+F4 Chp 11,radio,Melaka2026_Q20,A,B,C,D,A,../Melaka 2026/Picture20.png,"中文：K质量较大，惯性也较大，因此更难改变其运动状态或把他撞倒。
+English: K has greater mass and therefore greater inertia, making his motion harder to change or him harder to knock down."
+F4 Chp 11,radio,Pahang2026_Q20,A,B,C,D,C,../Pahang 2026/Picture20.png,"中文：球上升时受重力减速，位移仍增加但增加越来越慢，因此图线斜率逐渐减小，如C。
+English: While the ball rises, gravity slows it. Displacement increases at a decreasing rate, so the graph's gradient decreases as in C."
+F4 Chp 11,radio,Perak2026_Q20,A,B,C,D,D,../Perak 2026/Picture20.png,"中文：同方向总位移＝10＋5＝15 m；总时间应包括5秒休息，共45秒。
+English: Total displacement in the same direction is 10 + 5 = 15 m; total elapsed time includes the rest and is 45 seconds."
+F4 Chp 11,radio,Kl2026_Q21,A,B,C,D,D,../KL 2026/Picture21.png,"中文：速度—时间图的斜率代表加速度；在本题正向运动情境，负斜率表示速度降低，即减速。
+English: The gradient of a velocity–time graph is acceleration. For the positive motion assumed here, a negative gradient indicates slowing down."
+F4 Chp 11,radio,N92026_Q21,A,B,C,D,C,../N9 2026/Picture21.png,"中文：汽车急停而身体继续向前，是惯性：物体倾向维持原有运动状态。
+English: The body continues forwards when the car stops because of inertia, the tendency to maintain its existing motion."
+F4 Chp 11,radio,Perak2026_Q21,A,B,C,D,B,../Perak 2026/Picture21.png,"中文：位移—时间图斜率＝位移变化÷时间变化，定义上就是速度。
+English: The gradient of a displacement–time graph is change in displacement divided by time, which is velocity."
+F4 Chp 11,radio,N92026_Q22,A,B,C,D,D,../N9 2026/Picture22.png,"中文：纸张受空气阻力影响相对于自身重量更大，所以比石头下落慢；真空中两者重力加速度相同。
+English: Air resistance has a greater effect relative to the paper's weight, so it falls more slowly; in vacuum both have the same gravitational acceleration."
+F4 Chp 11,radio,Perak2026_Q22,A,B,C,D,C,../Perak 2026/Picture22.png,"中文：卡车改变运动状态时，负载因惯性倾向继续原有运动，因而相对车身被甩出。
+English: When the lorry changes its motion, inertia makes the load tend to continue its previous motion and be thrown relative to the vehicle."
+F4 Chp 11,radio,Putrajaya2026_Q22,A,B,C,D,A,../Putrajaya 2026/Picture22.png,"中文：加速度是速度的变化率；速度恒定没有变化，所以加速度为零。
+English: Acceleration is the rate of change of velocity. Constant velocity has no change, so acceleration is zero."
+F4 Chp 11,radio,Putrajaya2026_Q23,A,B,C,D,A,../Putrajaya 2026/Picture23.png,"中文：质量大的飞机惯性大，较难停止原有运动，因此在给定制动力下需要较长距离减速。
+English: A massive aircraft has greater inertia and is harder to stop, requiring a longer stopping distance for a given braking force."
+F4 Chp 11,radio,Sbp2026_Q23,A,B,C,D,A,../SBP 2026/Picture23.png,"中文：苹果落向地面是因为受到地球引力，所以A是题目预期答案。不过C所说不同质量的苹果受到不同大小的引力也符合F＝mg，本题选项有歧义，需复核。
+English: An apple falls because of Earth's gravitational attraction, so A is the intended answer. However, C also follows F = mg: apples of different masses experience different gravitational forces. The options need review."
+F4 Chp 11,radio,Sbp2026_Q24,A,B,C,D,C,../SBP 2026/Picture24.png,"中文：选C。路程是实际行走的两段距离：80＋80＝160 m；位移是起点到终点的直线距离，按图中标示为131.14 m。注意图中有数字笔误：若按两段互相垂直的80 m计算，位移应为√(80²＋80²)≈113.14 m，而不是131.14 m；本题仍按图示与答案纸选C。
+English: C is correct using the printed diagram. Distance is the route travelled: 80 + 80 = 160 m; displacement is the straight-line separation, labelled 131.14 m. There is a numerical typo: two perpendicular 80 m legs give √(80² + 80²) ≈ 113.14 m, not 131.14 m. Follow the given diagram and answer key for C."
+F4 Chp 11,radio,Sbp2026_Q25,A,B,C,D,A,../SBP 2026/Picture25.png,"中文：位移—时间图的水平段表示停留，末端回到位移0表示回到起点。A同时表示先离家、停留、继续移动再回家的过程。
+English: A horizontal section of a displacement–time graph represents rest, and a final displacement of zero represents returning home. Graph A shows departure, a stop, further travel and a return."

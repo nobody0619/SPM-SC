@@ -1,22 +1,43 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png
-,radio,F4 Bab 2,A,B,C,D,D,Picture2.png
-,radio,F4 Bab 3,A,B,C,D,A,Picture3.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture4.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture5.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture6.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture8.png
-,radio,F4 Bab 6,A,B,C,D,B,Picture9.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture10.png
-,radio,F4 Bab 7,A,B,C,D,D,Picture11.png
-,radio,F4 Bab 7,A,B,C,D,A,Picture12.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,A,Picture14.png
-,radio,F4 Bab 9,A,B,C,D,C,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,B,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,B,Picture17.png
-,radio,F4 Bab 10,A,B,C,D,C,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture19.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture20.png
-,radio,F4 Bab 12,A,B,C,D,A,Picture21.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2026 F4,radio,F4 Bab 1,A,B,C,D,B,Picture1.png,"中文：本题采用的灭火器标签颜色中，泡沫型为奶油色；黑色为CO₂，蓝色为干粉，红色为水。
+English: In the colour scheme used here, foam has a cream label; black indicates CO₂, blue dry powder, and red water."
+,radio,F4 Bab 2,A,B,C,D,D,Picture2.png,"中文：海姆立克法通过短暂增加胸腔压力，把阻塞气道的异物推出，因此选D。
+English: The Heimlich manoeuvre briefly raises pressure in the chest to expel a foreign object blocking the airway, matching D."
+,radio,F4 Bab 3,A,B,C,D,A,Picture3.png,"中文：BMI＝60÷1.59²≈23.7 kg/m²；计算时必须把身高平方。
+English: BMI = 60 / 1.59² ≈ 23.7 kg/m². Height must be squared in the calculation."
+,radio,F4 Bab 4,A,B,C,D,C,Picture4.png,"中文：堆肥利用微生物把食物废料分解成肥料，属于生物处理和加工。
+English: Composting uses microorganisms to decompose food waste into fertiliser, so it is biological treatment and processing."
+,radio,F4 Bab 4,A,B,C,D,C,Picture5.png,"中文：根据本题采用的课本分类，一氧化碳（CO）被列入温室气体，符合C。记忆重点是识别课本列出的温室气体及其与全球暖化的联系。
+English: Under the textbook classification used in this question, carbon monoxide (CO) is listed as a greenhouse gas, so C is correct. The syllabus focus is recognising the listed greenhouse gases and their link to global warming."
+,radio,F4 Bab 5,A,B,C,D,B,Picture6.png,"中文：特纳氏综合征缺少一条性染色体，常写作44＋XO，总共45条染色体。
+English: Turner syndrome involves a missing sex chromosome, commonly written 44 + XO, giving 45 chromosomes in total."
+,radio,F4 Bab 5,A,B,C,D,A,Picture7.png,"中文：P的孩子全为Hh，Q的孩子为hh；Hh×hh产生黑发与浅色头发各一半，比例1∶1。
+English: P's children are Hh and Q's are hh. Hh × hh produces equal proportions of black and blonde hair, a 1:1 ratio."
+,radio,F4 Bab 5,A,B,C,D,A,Picture8.png,"中文：血型有A、B、AB和O等明确类别，没有中间类型，所以属于不连续变异。
+English: Blood groups fall into distinct categories such as A, B, AB and O, without intermediate types, so they show discontinuous variation."
+,radio,F4 Bab 6,A,B,C,D,B,Picture9.png,"中文：弯曲手臂时二头肌N收缩、三头肌M放松；这对拮抗肌协同控制动作。
+English: When the arm bends, biceps N contracts and triceps M relaxes; these antagonistic muscles control the movement."
+,radio,F4 Bab 6,A,B,C,D,D,Picture10.png,"中文：图中卷须绕住支撑物，帮助柔软的攀缘植物向上生长。
+English: The tendril coils around a support, helping the soft climbing plant grow upwards."
+,radio,F4 Bab 7,A,B,C,D,D,Picture11.png,"中文：被狗追赶引发应激反应，肾上腺素使心跳和呼吸加快，为逃跑提供能量。
+English: Being chased triggers a stress response. Adrenaline increases heart rate and breathing to prepare the body to escape."
+,radio,F4 Bab 7,A,B,C,D,A,Picture12.png,"中文：思想开放的人能考虑不同观点并适应变化，符合课本所述健康心态。
+English: An open-minded person considers different viewpoints and adapts to change, matching the healthy mindset described in the syllabus."
+,radio,F4 Bab 8,A,B,C,D,D,Picture13.png,"中文：R最外层有7个电子，取得1个电子形成稳定八隅体，因此离子排布为2.8.8。
+English: R has seven outer electrons and gains one to complete an octet, giving its ion the arrangement 2.8.8."
+,radio,F4 Bab 8,A,B,C,D,A,Picture14.png,"中文：磷-32可作放射性示踪剂，追踪植物对磷营养的吸收和运输。
+English: Phosphorus-32 acts as a radioactive tracer to track a plant's uptake and transport of phosphorus nutrients."
+,radio,F4 Bab 9,A,B,C,D,C,Picture15.png,"中文：铜与锌组成黄铜；铜与锡组成青铜，不能混淆。
+English: Copper and zinc form brass; copper and tin form bronze."
+,radio,F4 Bab 9,A,B,C,D,B,Picture16.png,"中文：P是硫，形成连接橡胶链的交联，使链不易滑动并更容易恢复原形。
+English: P is sulfur. Its cross-links join rubber chains, preventing easy sliding and improving recovery after stretching."
+,radio,F4 Bab 10,A,B,C,D,B,Picture17.png,"中文：自由基的关键特征是有未成对电子，因此容易与其他分子反应以取得或共享电子。
+English: Free radicals have an unpaired electron, making them reactive as they seek to gain or share electrons."
+,radio,F4 Bab 10,A,B,C,D,C,Picture18.png,"中文：选C。棕榈油含维生素E，尤其生育酚和生育三烯酚，具有抗氧化作用，可用于护肤产品，帮助保护皮肤及促进修复。因此在本题课程语境中，是帮助淡化痘疤的合适材料。
+English: C is correct. Palm oil contains vitamin E, especially tocopherols and tocotrienols, which have antioxidant properties. Its use in skincare to help protect skin and support repair makes it the suitable material for fading acne scars in this syllabus context."
+,radio,F4 Bab 11,A,B,C,D,B,Picture19.png,"中文：位移等于图下方面积：2至8 s矩形为6×20，8至14 s三角形为½×6×20，总共180 m。
+English: Displacement is area under the graph: 6 × 20 for 2–8 s plus ½ × 6 × 20 for 8–14 s, totalling 180 m."
+,radio,F4 Bab 11,A,B,C,D,A,Picture20.png,"中文：K质量较大，惯性也较大，因此更难改变其运动状态或把他撞倒。
+English: K has greater mass and therefore greater inertia, making his motion harder to change or him harder to knock down."
+,radio,F4 Bab 12,A,B,C,D,A,Picture21.png,"中文：R是中子；石墨慢化剂降低中子速度，而硼控制棒主要吸收中子。
+English: R represents neutrons. A graphite moderator slows them, whereas boron control rods mainly absorb them."

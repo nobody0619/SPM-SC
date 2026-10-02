@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Sarawak 2026 F5,radio,F5 Bab 1,A,B,C,D,D,Picture21.png
-,radio,F5 Bab 1,A,B,C,D,A,Picture22.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture23.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture25.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture26.png
-,radio,F5 Bab 3,A,B,C,D,A,Picture27.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture28.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture29.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture30.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture31.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture32.png
-,radio,F5 Bab 6,A,B,C,D,B,Picture33.png
-,radio,F5 Bab 6,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 7,A,B,C,D,A,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture36.png
-,radio,F5 Bab 8,A,B,C,D,C,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,B,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Sarawak 2026 F5,radio,F5 Bab 1,A,B,C,D,D,Picture21.png,"中文：图中的病原体是病毒；噬菌体也必须侵入活的宿主细胞才能繁殖，因此两者繁殖方式相同。
+English: The organism shown is a virus. A bacteriophage also reproduces only by infecting a living host cell, so their methods match."
+,radio,F5 Bab 1,A,B,C,D,A,Picture22.png,"中文：灭活病毒疫苗不会直接杀死体内所有病毒；它会刺激免疫系统产生抗体和免疫记忆。
+English: An inactivated-virus vaccine does not directly kill every virus in the body; it stimulates antibody production and immune memory."
+,radio,F5 Bab 2,A,B,C,D,B,Picture23.png,"中文：马来西亚健康餐盘的比例是四分之一蛋白质、四分之一碳水化合物，以及一半蔬菜和水果。
+English: The Malaysian Healthy Plate has one-quarter protein, one-quarter carbohydrates, and one-half vegetables and fruit."
+,radio,F5 Bab 2,A,B,C,D,C,Picture24.png,"中文：微量营养素是植物只需少量的矿物质，例如铁、锌等；大量需要的元素属于大量营养素。
+English: Micronutrients are minerals plants need only in small amounts, such as iron and zinc; elements needed in large amounts are macronutrients."
+,radio,F5 Bab 2,A,B,C,D,D,Picture25.png,"中文：腌盐和日晒都降低鱼肉可利用的水分，抑制细菌繁殖，因此能保存咸鱼。
+English: Salting and sun-drying both reduce available moisture in fish, inhibiting bacterial growth and preserving the salted fish."
+,radio,F5 Bab 3,A,B,C,D,B,Picture26.png,"中文：产品生命周期依次包括原料来源、制造、运输、使用、弃置和回收；运输后、弃置前是使用阶段。
+English: A product life cycle goes from source to manufacturing, transport, use, disposal and recycling; use follows transport."
+,radio,F5 Bab 3,A,B,C,D,A,Picture27.png,"中文：亚甲蓝褪色越快，通常表示微生物耗氧越快、水污染越严重。河流 V 仅需 1.5 小时，是污染最重者。
+English: Faster methylene-blue decolourisation usually means faster microbial oxygen use and greater pollution. River V takes only 1.5 hours, the shortest time."
+,radio,F5 Bab 4,A,B,C,D,C,Picture28.png,"中文：P至Q的水平段表示氢气总体积不再增加，反应已停止。本题假设盐酸过量，因此镁已完全反应，选C。
+English: The horizontal section P–Q shows no further increase in hydrogen volume, meaning the reaction has stopped. Assuming hydrochloric acid is in excess, all the magnesium has reacted, so C is correct."
+,radio,F5 Bab 4,A,B,C,D,A,Picture29.png,"中文：接触法通常在约450°C、五氧化二钒催化剂下把二氧化硫氧化成三氧化硫。这个温度兼顾反应速率与产率，因此选A。
+English: The contact process oxidises sulphur dioxide to sulphur trioxide at about 450°C using vanadium(V) oxide. This temperature balances reaction rate and yield, so A is correct."
+,radio,F5 Bab 3,A,B,C,D,D,Picture30.png,"中文：光合作用吸收二氧化碳；呼吸作用和燃烧会释放二氧化碳，因此光合作用能降低大气含量。
+English: Photosynthesis takes in CO₂, while respiration and burning release it; photosynthesis therefore reduces atmospheric carbon dioxide."
+,radio,F5 Bab 5,A,B,C,D,A,Picture31.png,"中文：Q和S的结构都含有碳碳双键，是不饱和烃；P和R只有碳碳单键，是饱和烃。因此选A。
+English: Q and S contain carbon–carbon double bonds and are unsaturated hydrocarbons. P and R contain only single carbon–carbon bonds and are saturated, so A is correct."
+,radio,F5 Bab 5,A,B,C,D,C,Picture32.png,"中文：酒精在氧气充足时可以完全燃烧，释放热能并生成二氧化碳和水，因此可作燃料，选C。燃烧释放能量才是关键。
+English: Alcohol can undergo complete combustion with sufficient oxygen, releasing heat and forming carbon dioxide and water. This energy release makes it useful as fuel, so C is correct."
+,radio,F5 Bab 6,A,B,C,D,B,Picture33.png,"中文：阴极产生的气泡附着在絮状物上，使其浮到水面，方便去除污染物，所以选B。这个过程称为气浮。
+English: Gas bubbles formed at the cathode attach to flocs and carry them to the water surface for removal. This flotation process explains B."
+,radio,F5 Bab 6,A,B,C,D,C,Picture34.png,"中文：两个不同金属在电解质中发生氧化还原反应，把化学能转换成电能，因此选C。
+English: Redox reactions involving two different metals in an electrolyte convert chemical energy into electrical energy. Therefore C is correct."
+,radio,F5 Bab 7,A,B,C,D,A,Picture35.png,"中文：凹透镜使光线发散，其反向延长线在物体同侧相交，形成正立、缩小的虚像，因此选A。
+English: A concave lens diverges light; the backward extensions of the rays meet on the object's side, forming a virtual, upright and diminished image. Therefore A is correct."
+,radio,F5 Bab 7,A,B,C,D,B,Picture36.png,"中文：凸透镜可把远处物体的光会聚在感光器上，形成倒立、缩小的实像。因此CCTV使用凸透镜，选B。
+English: A convex lens focuses light from a distant object onto a sensor, forming a real, inverted and diminished image. Therefore B is correct for a CCTV camera."
+,radio,F5 Bab 8,A,B,C,D,C,Picture37.png,"中文：液压刹车利用帕斯卡原理：施加在密闭液体上的压力会传递到各处，再推动刹车机构，因此选C。
+English: Hydraulic brakes apply Pascal's principle: pressure applied to an enclosed liquid is transmitted throughout it and operates the brakes. Therefore C is correct."
+,radio,F5 Bab 8,A,B,C,D,D,Picture38.png,"中文：窄管处流速较快、压力较低，所以Q的水柱最低V。P处最宽，水柱最高T；R居中为U，因此选D。
+English: Flow is faster and pressure lower at the narrowest section, so Q has the lowest column V. P is widest and has the highest column T; R is intermediate at U. Therefore D is correct."
+,radio,F5 Bab 9,A,B,C,D,B,Picture39.png,"中文：X是轨道上最靠近地球的位置，称为近地点（perigee）；最远的位置是远地点（apogee）。因此选B。
+English: X is the orbital position nearest Earth, called perigee. The farthest position is apogee, so B is correct."
+,radio,F5 Bab 9,A,B,C,D,A,Picture40.png,"中文：正纬度表示北半球，负纬度表示南半球。K和M的纬度分别为3.1395及51.5074，都是正值，因此选A。
+English: Positive latitude indicates the Northern Hemisphere and negative latitude the Southern Hemisphere. K and M have positive latitudes, so A is correct."
