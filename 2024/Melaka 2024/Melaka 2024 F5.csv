@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png,"中文：图示噬菌体有头部、尾部和尾丝，是病毒，不是细胞型细菌。
+English: The bacteriophage has a head, tail and tail fibres and is a virus rather than a bacterial cell."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：制作环保酵素时，微生物把糖和果蔬废料进行发酵。
+English: Ecoenzyme production involves microbial fermentation of sugar and fruit or vegetable waste."
+,radio,F5 Chp 1,A,B,C,D,A,Picture23.png,"中文：氯是泳池常用消毒剂，可杀灭 E. coli 等细菌；不是用抗生素处理池水。
+English: Chlorine is a swimming-pool disinfectant that kills bacteria such as E. coli; antibiotics are not used for pool-water treatment."
+,radio,F5 Chp 2,A,B,C,D,C,Picture24.png,"中文：C 的面汤 380 kcal 加白水 0 kcal，共 380 kcal；加入西瓜或橙汁均增加能量。
+English: C has noodle soup 380 kcal plus plain water 0 kcal, totalling 380 kcal; adding watermelon or juice increases the total."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：没有黑纸挡光时，光照进入营养液，让藻类光合作用并大量生长。
+English: Without black paper, light reaches the nutrient solution and allows algae to photosynthesise and grow."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：反硝化细菌把土壤硝酸盐转成氮气，令氮返回大气。
+English: Denitrifying bacteria convert soil nitrates into nitrogen gas, returning nitrogen to the atmosphere."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：淀粉可稳定食物质地及使混合物较均匀；糖、盐和醋常用于调味或保存。
+English: Starch stabilises food texture and mixtures; sugar, salt and vinegar are commonly used for flavouring or preservation."
+,radio,F5 Chp 3,A,B,C,D,B,Picture28.png,"中文：可充电电池能多次使用，延长产品寿命，减少制造和丢弃一次性电池的需要。
+English: Rechargeable batteries can be reused, extending product life and reducing the need to make and discard single-use batteries."
+,radio,F5 Chp 3,A,B,C,D,C,Picture29.png,"中文：火山熔岩、火山灰和热量会破坏动植物栖息地，直接影响生态环境。
+English: Volcanic lava, ash and heat can destroy plant and animal habitats, directly damaging ecosystems."
+,radio,F5 Chp 3,A,B,C,D,C,Picture30.png,"中文：海洋微藻在光合作用中吸收二氧化碳，降低该温室气体的含量。
+English: Marine microalgae absorb carbon dioxide during photosynthesis, reducing this greenhouse gas."
+,radio,F5 Chp 4,A,B,C,D,D,Picture31.png,"中文：总体反应速率 = 反应物减少量 ÷ 时间 = 0.6/15 = 0.04 g/s。
+English: Average reaction rate = mass of reactant used ÷ time = 0.6/15 = 0.04 g/s."
+,radio,F5 Chp 4,A,B,C,D,A,Picture32.png,"中文：较浓的酸增加粒子数，粉末增加表面积，所以 P（1.0 mol/dm³）与 R（粉末）反应最快。
+English: Concentrated acid provides more reacting particles and powder provides more surface area, so P with R reacts fastest."
+,radio,F5 Chp 5,A,B,C,D,B,Picture33.png,"中文：结构有碳碳双键 C=C，属于不饱和烯烃同系物。
+English: The structure contains a carbon–carbon double bond, C=C, identifying the alkene homologous series."
+,radio,F5 Chp 5,A,B,C,D,D,Picture34.png,"中文：乙二醇降低冷却液凝固点，用作防冻剂；题目的用途是 antibeku。
+English: Ethanediol lowers the freezing point of coolant and is used as an antifreeze."
+,radio,F5 Chp 5,A,B,C,D,A,Picture35.png,"中文：按用户指定的 SPM 程度，棕榈油营养包括维生素 A、维生素 E 和 β-胡萝卜素；选项中选维生素 A。
+English: At the user's specified SPM level, palm-oil nutrients include vitamin A, vitamin E and beta-carotene; vitamin A is the listed answer."
+,radio,F5 Chp 6,A,B,C,D,D,Picture36.png,"中文：柠檬汁作电解质，锌和铜组成电池，把化学能转为电能来点亮 LED。
+English: Lemon juice acts as the electrolyte in a zinc–copper cell, converting chemical energy into electrical energy for the LED."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：物距小于焦距时，凸透镜形成正立、放大的虚像，适合检查手表细小零件。
+English: With the object inside the focal length, a convex lens forms an upright enlarged virtual image suitable for inspecting small watch parts."
+,radio,F5 Chp 7,A,B,C,D,D,Picture38.png,"中文：凹透镜对实物形成正立、缩小的虚像，因此本题选 maya。
+English: A concave lens forms an upright diminished virtual image of a real object, so the answer is virtual."
+,radio,F5 Chp 8,A,B,C,D,A,Picture39.png,"中文：伯努利原理：流体流速越快，压强越低；狭窄处水流快、测压水柱较低。
+English: Bernoulli's principle states that faster fluid flow has lower pressure; the narrow section has faster flow and a lower pressure column."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：纬度 +3.139456 表示北半球；经度 −101.689593 表示格林尼治以西，故北、西。
+English: Latitude +3.139456 indicates north, while longitude −101.689593 indicates west of Greenwich, giving north and west."

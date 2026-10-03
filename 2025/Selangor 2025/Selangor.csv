@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Selangor 2025,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,A,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor 2025,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：依题目，口罩用于减少吸入有害物质，因此选B。不过易挥发化学品可能产生蒸气，普通口罩不能保证防护所有化学蒸气，应使用适当防护及通风设备。
+English: The question selects a face mask to reduce inhalation of harmful substances, giving B. However, volatile chemicals may produce vapours; an ordinary mask does not guarantee protection against all chemical vapours, so suitable protection and ventilation are needed."
+,radio,F4 Chp 1,A,B,C,D,A,Picture2.png,"中文：血液属于液态生物危害废物。依课本程序，必须先经高压灭菌处理，之后才按实验室规定处理；针头不可倒入水槽。
+English: Blood is liquid biological hazardous waste. Under the textbook procedure, it must first be autoclaved and then disposed of according to laboratory rules. Needles must never be put in a sink."
+,radio,F4 Chp 2,A,B,C,D,B,Picture3.png,"中文：海姆立克急救法用于气道被异物堵塞的噎住情况，通过腹部推压帮助排出异物。
+English: The Heimlich manoeuvre is used for choking caused by an airway obstruction. Abdominal thrusts help expel the object."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：图中血压约152/90 mmHg。依本题课本分类，收缩压140至159或舒张压90至99属于第一期高血压，因此选C。
+English: The reading is approximately 152/90 mmHg. Under this question's textbook classification, systolic pressure of 140–159 or diastolic pressure of 90–99 is stage 1 hypertension, giving C."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：BMI=57÷1.73²=19.05 kg m⁻²，因此选C。
+English: BMI = 57 ÷ 1.73² = 19.05 kg m⁻², so C is correct."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：依本题课本资料，纸张是固体废物的重要主要来源，因此答案取B。减少用纸、重复使用和回收有助降低这类废物。
+English: According to the textbook context used by this question, paper is a major contributor to solid waste, giving B. Reducing paper use, reusing it and recycling help lower this waste."
+,radio,F4 Chp 4,A,B,C,D,C,Picture7.png,"中文：提高LRT班次可吸引更多人使用公共交通，减少私人车辆及相关排放，因此选C。电动车优惠也可能有帮助，但答案着重公共交通。
+English: More frequent LRT services encourage public transport use and reduce private vehicles and related emissions, supporting C. Electric-vehicle incentives may also help, but the key emphasises public transport."
+,radio,F4 Chp 4,A,B,C,D,D,Picture8.png,"中文：生物燃料车和电动车是课程中减少传统化石燃料使用及温室气体排放的措施，因此选D。
+English: Biofuel and electric vehicles are course examples of reducing conventional fossil-fuel use and greenhouse-gas emissions, so D is correct."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：依SPM简化遗传模型，黑发是显性性状；蓝眼、贴附耳垂和不能卷舌列为隐性，因此选A。
+English: In the simplified SPM inheritance model, black hair is dominant, while blue eyes, attached earlobes and inability to roll the tongue are recessive, so A is correct."
+,radio,F4 Chp 5,A,B,C,D,C,Picture10.png,"中文：色盲常由X染色体上的隐性等位基因引起。男性只有一条X染色体，带有该等位基因时较容易表现，因此较常见。
+English: Colour blindness is commonly caused by a recessive allele on the X chromosome. Males have only one X, so they express the trait more readily if it carries that allele."
+,radio,F4 Chp 5,A,B,C,D,D,Picture11.png,"中文：基因改造可把细菌的特定基因转入植物，使植物获得新特征，例如抗虫性。D符合课程中的GMO例子。
+English: Genetic modification can transfer a specific bacterial gene into a plant to give it a new trait, such as pest resistance. D matches the GMO example used in the course."
+,radio,F4 Chp 6,A,B,C,D,C,Picture12.png,"中文：袋鼠把尾巴撑在地面上，可增加支撑底面积并帮助平衡，减少站立时倒下的机会。
+English: A kangaroo supports its tail on the ground to enlarge its base of support and improve balance, reducing the chance of falling while standing."
+,radio,F4 Chp 6,A,B,C,D,B,Picture13.png,"中文：陆生非木本植物主要依靠细胞膨压。细胞吸水后变得饱满，对细胞壁施压，使组织保持挺立。
+English: Non-woody land plants mainly rely on cell turgidity. Water-filled cells press against their walls, helping the tissues remain upright."
+,radio,F4 Chp 7,A,B,C,D,D,Picture14.png,"中文：幻觉剂会改变感官知觉，使人听到或看到不存在的事物，因此选D。
+English: Hallucinogens alter sensory perception and can make a person hear or see things that are not present, so D is correct."
+,radio,F4 Chp 8,A,B,C,D,C,Picture15.png,"中文：P位于第13族、第2周期，是硼。电子排列2.3，共5个电子，所以中性原子的质子数为5。
+English: P is in Group 13, Period 2, corresponding to boron. Its electron arrangement is 2.3, giving five electrons and a proton number of five in a neutral atom."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：钢主要由铁与少量碳组成，因此制造钢所用的主要金属是铁。
+English: Steel consists mainly of iron with a small amount of carbon, so iron is the principal metal used to make it."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：现代医疗的柱最高，表示采用现代医疗的居民人数最多，因此它是主要选择。
+English: Modern medicine has the tallest bar, indicating the largest number of residents using it, so it is the main choice."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：这些食物含抗氧化物，能帮助中和自由基，减少自由基对细胞的损伤，因此选C。
+English: These foods contain antioxidants that help neutralise free radicals and reduce damage to cells, so C is correct."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：真空没有空气阻力，物体下落时可只受重力作用，符合自由落体条件。
+English: A vacuum has no air resistance, allowing a falling object to move under gravity alone, which meets the condition for free fall."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：核事故可释放放射性物质，威胁健康并使居民撤离，失去安全住所。D最直接对应题目描述。
+English: A nuclear accident can release radioactive material, threatening health and forcing residents to evacuate and lose safe homes. D most directly matches the description."
+,radio,F5 Chp 1,A,B,C,D,C,Picture21.png,"中文：依SPM课程，细菌可用于制革，帮助去除动物皮上的组织和脂肪，方便进一步加工成皮革制品。
+English: At SPM level, bacteria are used in leather processing to help remove tissue and fat from animal hides, allowing them to be processed into leather goods."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：脚癣由Trichophyton rubrum等真菌引起，对应的药物类别是抗真菌药，因此B配对正确。
+English: Athlete's foot is caused by fungi such as Trichophyton rubrum and is treated with antifungal medicine, so B is correctly matched."
+,radio,F5 Chp 2,A,B,C,D,A,Picture23.png,"中文：X所指食物提供膳食纤维，增加粪便体积并促进肠道蠕动，有助预防便秘。
+English: The food labelled X supplies dietary fibre, which adds bulk to stools and supports intestinal movement, helping prevent constipation."
+,radio,F5 Chp 2,A,B,C,D,A,Picture24.png,"中文：闪电提供高能量，使空气中的氮与氧反应；生成的含氮物质随雨水进入土壤，增加硝酸盐。
+English: Lightning provides energy for atmospheric nitrogen to react with oxygen. The resulting nitrogen compounds enter the soil with rain and increase nitrates."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：使用废弃矿池及兴建灌溉水道，可更充分利用土地和水资源，支持农业与养殖，因此选D。
+English: Using abandoned mining pools and building irrigation canals makes fuller use of land and water resources for agriculture and aquaculture, so D is correct."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：配料表能显示是否含花生或花生成分，帮助有花生过敏的人避免相关食品，因此选A。
+English: The ingredient list indicates whether peanuts or peanut ingredients are present, helping a person with peanut allergy avoid those foods, so A is correct."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：减少使用产品可从源头减少原料、包装和废物，是有效废物管理的正面行动，即碳手印措施。
+English: Using fewer products reduces materials, packaging and waste at the source. It is a positive action for efficient waste management and a carbon-handprint measure."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：电动车使用电能驱动，在行驶时没有燃烧汽油产生的尾气，因此是选项中减少二氧化碳排放的课程措施。
+English: An electric car is driven by electricity and does not produce petrol-combustion exhaust while operating, making it the course measure among these options for reducing carbon-dioxide emissions."
+,radio,F5 Chp 4,A,B,C,D,D,Picture29.png,"中文：铁与水和氧气反应产生铁锈，使铁栏表面变色和腐蚀，这个过程叫生锈。
+English: Iron reacts with water and oxygen to form rust, discolouring and corroding the fence. This process is rusting."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：压力锅提高内部压力，使水在较高温度沸腾。较高烹煮温度加快食物烹煮，因此选B。
+English: A pressure cooker raises internal pressure, allowing water to boil at a higher temperature. The higher cooking temperature cooks food faster, so B is correct."
+,radio,F5 Chp 5,A,B,C,D,D,Picture31.png,"中文：6个碳的烯烃是己烯，符合通式CₙH₂ₙ，因此D配对正确。乙烯2个碳、丙烯3个碳、戊烯5个碳。
+English: An alkene with six carbons is hexene and follows CₙH₂ₙ, making D correct. Ethene has two carbons, propene three and pentene five."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：依SPM课程，动物脂肪通常较多饱和脂肪，室温下较常为固体，熔点较高，所以A是正确特征。
+English: At SPM level, animal fats are generally richer in saturated fats, often solid at room temperature and higher in melting point, so A is the intended characteristic."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：灭菌后、消化前进行脱果或脱粒，把油棕果从果串分离，因此X的目的是A。
+English: Threshing takes place after sterilisation and before digestion, separating oil-palm fruits from their bunches. This gives purpose A for X."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：X接正极，是阳极，吸引带负电的硫酸根离子；Y是阴极，吸引Cu²⁺等阳离子，因此选A。题目问移动方向，不是所有这些离子都会放电。
+English: X is the positive anode and attracts negative sulfate ions. Y is the cathode and attracts positive ions such as Cu²⁺, giving A. The question asks about migration; not every migrating ion is discharged."
+,radio,F5 Chp 6,A,B,C,D,C,Picture35.png,"中文：简单化学电池把化学能转化为电能，一般由不同金属电极和电解质组成，因此C正确。
+English: A simple chemical cell converts chemical energy into electrical energy and generally uses different metal electrodes and an electrolyte, so C is correct."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：凸透镜是会聚透镜，使平行光线折射后集中到焦点，因此选B。
+English: A convex lens is a converging lens that refracts parallel rays toward a focal point, so B is correct."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：把物镜由10×换为40×、保留10×目镜，总放大倍数由100×提高到400×。换镜后仍需重新调焦以使图像清晰。
+English: Changing the objective from 10× to 40× while keeping the 10× eyepiece increases total magnification from 100× to 400×. Refocusing is still needed for a clear image."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：压力相等：Fₘ/0.01=1000/0.1。Fₘ=1000×0.01÷0.1=100 N，因此选C。
+English: Equal pressure gives Fₘ/0.01 = 1000/0.1. Thus Fₘ = 1000 × 0.01 ÷ 0.1 = 100 N, so C is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture39.png,"中文：705 km位于课程中低地球轨道约180至2000 km范围，且运行速度较高，因此选LEO。
+English: An altitude of 705 km lies within the course's approximate 180–2000 km range for low Earth orbit, which also has a high orbital speed, so LEO is correct."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：手机等GPS接收器属于用户部分，接收卫星信号并计算位置。卫星是太空部分，地面监控站是控制部分。
+English: GPS receivers such as smartphones belong to the user segment, receiving satellite signals and determining position. Satellites form the space segment and ground monitoring stations the control segment."

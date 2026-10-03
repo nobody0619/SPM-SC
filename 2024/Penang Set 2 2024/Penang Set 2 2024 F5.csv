@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang Set 2 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang Set 2 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png,"中文：把农业废料发酵制成的环保、低成本清洁液是生态酵素清洁液。
+English: The environmentally friendly, low-cost cleaner made by fermenting agricultural waste is an ecoenzyme cleaning solution."
+,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：提高抗生素浓度可加强抑菌作用，使没有细菌生长的透明抑菌圈变大。
+English: Increasing antibiotic concentration strengthens inhibition, enlarging the clear zone without bacterial growth."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：肥胖会增加患糖尿病的风险；图表不能支持儿童完全没有风险或年龄比肥胖更重要。
+English: Obesity increases the risk of diabetes; the charts do not establish that children have no risk or that age is more important than obesity."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：T 的叶片褐斑、卷曲和失绿是课本列出的缺钾症状，所以应补充含钾肥料。
+English: Brown patches, curled leaf tips and chlorosis in T match textbook potassium-deficiency symptoms, so potassium fertiliser is needed."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：反硝化作用把过量硝酸盐转变为氮气返回大气，可减少环境中的硝酸盐累积。
+English: Denitrification converts excess nitrates to nitrogen gas released into the atmosphere, reducing nitrate accumulation."
+,radio,F5 Chp 2,A,B,C,D,A,Picture28.png,"中文：辐照能减少害虫和微生物、延缓成熟，以较少改变营养的方式延长出口蔬菜的保存期。
+English: Irradiation reduces pests and microorganisms and delays ripening, extending the storage life of exported vegetables with limited nutrient changes."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：五颗星表示高能源效率：提供相同功能时，使用的电能较少。
+English: Five stars indicate high energy efficiency: the appliance uses less electricity to provide the same function."
+,radio,F5 Chp 3,A,B,C,D,C,Picture30.png,"中文：污染较严重的水中微生物耗氧较快；氧气含量降低时，亚甲蓝会更快褪色。
+English: Microorganisms consume oxygen faster in more polluted water; lower oxygen content makes methylene blue decolourise sooner."
+,radio,F5 Chp 4,A,B,C,D,C,Picture31.png,"中文：慢反应每单位时间消耗的反应物较少，所以反应物数量缓慢减少。
+English: A slow reaction consumes less reactant per unit time, so the quantity of reactants decreases slowly."
+,radio,F5 Chp 4,A,B,C,D,A,Picture32.png,"中文：冰箱降低温度，减慢导致食物腐败的化学、酶和微生物相关反应，因此食物保存较久。
+English: A refrigerator lowers temperature and slows chemical, enzyme and microbial processes causing spoilage, extending food storage life."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：光合作用吸收二氧化碳来制造有机物，因此减少碳循环中的二氧化碳。
+English: Photosynthesis absorbs carbon dioxide to produce organic substances, reducing carbon dioxide in the carbon cycle."
+,radio,F5 Chp 5,A,B,C,D,D,Picture34.png,"中文：图中有 3 个碳、8 个氢且全部单键，实际画的是丙烷 C3H8。现有答案 D 是丙烯，应含碳碳双键且为 C3H6；图或选项有笔误。
+English: The drawing has three carbons, eight hydrogens and only single bonds, so it shows propane, C3H8. Existing answer D is propene, which should contain a double bond and be C3H6; the drawing or option has a typo."
+,radio,F5 Chp 7,A,B,C,D,D,Picture35.png,"中文：物体在焦点与透镜之间，折射光线的反向延长线相交，形成正立、放大的虚像。
+English: With the object between the focal point and lens, backward extensions of refracted rays meet to form an upright, magnified virtual image."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：显微镜和望远镜的物镜都形成倒立的第一实像，这是两者的共同特点。
+English: The objective lenses of both a microscope and telescope form an inverted first real image, their shared characteristic."
+,radio,F5 Chp 8,A,B,C,D,D,Picture37.png,"中文：按题目预期的伯努利比较，D 的液柱最低、压力最低，因而选作流速最高处。不过管被称为“均匀管”，严格稳态流量下各截面平均流速应相同。
+English: Using the question's intended Bernoulli comparison, D has the lowest water column and pressure and is selected as fastest. However, in a genuinely uniform tube under steady flow, mean velocity should be equal at each cross-section."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：压强相同：F÷0.01＝10000÷2，所以 F＝50 N。
+English: Equal pressure gives F ÷ 0.01 = 10000 ÷ 2, so F = 50 N."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：国际空间站是研究人体健康及生物在微重力环境中生长的实验中心。
+English: The ISS is a research centre for studying human health and organism growth in microgravity."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：Y 是椭圆轨道上离地球最远的位置，称为远地点。
+English: Y is the point farthest from Earth in the elliptical orbit, called apogee."

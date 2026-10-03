@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Negeri Sembilan 2025 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Negeri Sembilan 2025 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png,"中文：依SPM课程，小肠的正常菌群包括Lactobacillus sp.，有助维持肠道内微生物平衡。
+English: At SPM level, Lactobacillus sp. is a normal flora found in the small intestine and helps maintain microbial balance there."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：人体温度适合许多病原微生物的生长。处于最适温度时，相关酶较有效运作，微生物繁殖较快。
+English: Human body temperature is suitable for many pathogenic microorganisms. At their optimum temperature, enzymes function effectively and reproduction is faster."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：叶片边缘组织死亡是缺钾的典型症状，因此选择钾。缺氮较常表现为叶片变黄及生长缓慢。
+English: Dead tissue around the leaf edges is a typical symptom of potassium deficiency. Nitrogen deficiency more commonly causes yellow leaves and poor growth."
+,radio,F5 Chp 3,A,B,C,D,B,Picture26.png,"中文：B指向叶子，代表植物。植物进行光合作用，吸收二氧化碳，因此有助减少温室气体。
+English: B points to a leaf, representing plants. Plants absorb carbon dioxide during photosynthesis, helping reduce greenhouse gases."
+,radio,F5 Chp 3,A,B,C,D,A,Picture27.png,"中文：污染增加可分解的有机物，微生物分解时消耗更多氧气，使BOD增加、溶解氧下降，水生生物因缺氧而减少。
+English: Pollution adds biodegradable organic matter. Microorganisms use more oxygen to decompose it, increasing BOD and reducing dissolved oxygen, so aquatic life declines."
+,radio,F5 Chp 3,A,B,C,D,C,Picture28.png,"中文：海洋微藻进行光合作用，吸收二氧化碳并释放氧气。这能移除环境中的部分二氧化碳，符合负排放技术。
+English: Marine microalgae photosynthesise, absorbing carbon dioxide and releasing oxygen. Removing some environmental carbon dioxide supports negative-emissions technology."
+,radio,F5 Chp 4,A,B,C,D,D,Picture29.png,"中文：D是燃烧，能在短时间内发生，是快速反应。腐败、光合作用和消化在此比较中较慢。
+English: D shows combustion, which occurs over a short time and is a fast reaction. Decay, photosynthesis and digestion are slower in this comparison."
+,radio,F5 Chp 4,A,B,C,D,D,Picture30.png,"中文：同质量的镁粉总表面积比镁带大，与酸接触的面积增加，有效碰撞更频繁，因此反应较快。
+English: For the same mass, magnesium powder has a larger total surface area than ribbon. More contact with acid causes more frequent effective collisions and a faster reaction."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：依SPM课程，棕榈油通过题目所称的酯化反应与醇反应，制成可作燃料的生物柴油，因此选B。
+English: At SPM level, palm oil reacts with an alcohol through the process called esterification in the question to produce biodiesel fuel, so B is correct."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：酵母发酵葡萄糖产生乙醇，再通过蒸馏分离。长期过量饮用含乙醇的饮料会损害肝脏，并可导致肝硬化。
+English: Yeast fermentation of glucose produces ethanol, which is then separated by distillation. Long-term excessive consumption of alcoholic drinks damages the liver and can cause cirrhosis."
+,radio,F5 Chp 6,A,B,C,D,C,Picture33.png,"中文：固体氯化钠中的离子位置固定，不能自由移动导电。熔化后离子可移动，所以加热至熔化能使电路导电。
+English: Ions in solid sodium chloride are fixed in position and cannot carry current. Melting allows the ions to move freely, so heating it until it melts makes the circuit conduct electricity."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：两极都使用铜时，没有电极金属之间的电势差，无法提供电流点亮灯泡，因此灯不会亮。
+English: With copper at both electrodes, there is no potential difference between the electrode metals to drive a current, so the bulb does not light up."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：凹透镜使光线发散，对实际物体形成正立、缩小的虚像，因此选A。
+English: A concave lens diverges light rays and forms an upright, diminished virtual image of a real object, so A is correct."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：显微镜用来观察很微小的物体，符合C。放大镜放大小物体，双筒望远镜和望远镜则观察远处物体。
+English: A microscope is used to observe very tiny objects, matching C. A magnifying glass enlarges small objects, while binoculars and telescopes are used for distant objects."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：伯努利原理说明，在此实验条件下，流体流速越高，压力越低，因此选C。
+English: Bernoulli's principle states that, under the conditions of this experiment, higher fluid speed corresponds to lower pressure, so C is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：两活塞的液体压力相等：Fₚ/0.01=10000/2。Fₚ=10000×0.01÷2=50 N，因此选B。
+English: The fluid pressure is equal at the two pistons: Fₚ/0.01 = 10000/2. Therefore Fₚ = 10000 × 0.01 ÷ 2 = 50 N, so B is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture39.png,"中文：Google Maps和Waze利用GPS定位，并提供路线及导航服务，因此选C。
+English: Google Maps and Waze use GPS positioning to provide routes and navigation, so C is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：依课程的轨道高度比较，轨道越高，运行速度越低。速度递增的顺序为HEO、MEO、LEO，因此选C。
+English: In the course's comparison of orbital altitudes, a higher orbit has a lower orbital speed. The ascending order of speed is HEO, MEO, LEO, so C is correct."

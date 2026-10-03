@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor 2025 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor 2025 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png,"中文：依SPM课程，细菌可用于制革，帮助去除动物皮上的组织和脂肪，方便进一步加工成皮革制品。
+English: At SPM level, bacteria are used in leather processing to help remove tissue and fat from animal hides, allowing them to be processed into leather goods."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：脚癣由Trichophyton rubrum等真菌引起，对应的药物类别是抗真菌药，因此B配对正确。
+English: Athlete's foot is caused by fungi such as Trichophyton rubrum and is treated with antifungal medicine, so B is correctly matched."
+,radio,F5 Chp 2,A,B,C,D,A,Picture23.png,"中文：X所指食物提供膳食纤维，增加粪便体积并促进肠道蠕动，有助预防便秘。
+English: The food labelled X supplies dietary fibre, which adds bulk to stools and supports intestinal movement, helping prevent constipation."
+,radio,F5 Chp 2,A,B,C,D,A,Picture24.png,"中文：闪电提供高能量，使空气中的氮与氧反应；生成的含氮物质随雨水进入土壤，增加硝酸盐。
+English: Lightning provides energy for atmospheric nitrogen to react with oxygen. The resulting nitrogen compounds enter the soil with rain and increase nitrates."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：使用废弃矿池及兴建灌溉水道，可更充分利用土地和水资源，支持农业与养殖，因此选D。
+English: Using abandoned mining pools and building irrigation canals makes fuller use of land and water resources for agriculture and aquaculture, so D is correct."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：配料表能显示是否含花生或花生成分，帮助有花生过敏的人避免相关食品，因此选A。
+English: The ingredient list indicates whether peanuts or peanut ingredients are present, helping a person with peanut allergy avoid those foods, so A is correct."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：减少使用产品可从源头减少原料、包装和废物，是有效废物管理的正面行动，即碳手印措施。
+English: Using fewer products reduces materials, packaging and waste at the source. It is a positive action for efficient waste management and a carbon-handprint measure."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：电动车使用电能驱动，在行驶时没有燃烧汽油产生的尾气，因此是选项中减少二氧化碳排放的课程措施。
+English: An electric car is driven by electricity and does not produce petrol-combustion exhaust while operating, making it the course measure among these options for reducing carbon-dioxide emissions."
+,radio,F5 Chp 4,A,B,C,D,D,Picture29.png,"中文：铁与水和氧气反应产生铁锈，使铁栏表面变色和腐蚀，这个过程叫生锈。
+English: Iron reacts with water and oxygen to form rust, discolouring and corroding the fence. This process is rusting."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：压力锅提高内部压力，使水在较高温度沸腾。较高烹煮温度加快食物烹煮，因此选B。
+English: A pressure cooker raises internal pressure, allowing water to boil at a higher temperature. The higher cooking temperature cooks food faster, so B is correct."
+,radio,F5 Chp 5,A,B,C,D,D,Picture31.png,"中文：6个碳的烯烃是己烯，符合通式CₙH₂ₙ，因此D配对正确。乙烯2个碳、丙烯3个碳、戊烯5个碳。
+English: An alkene with six carbons is hexene and follows CₙH₂ₙ, making D correct. Ethene has two carbons, propene three and pentene five."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：依SPM课程，动物脂肪通常较多饱和脂肪，室温下较常为固体，熔点较高，所以A是正确特征。
+English: At SPM level, animal fats are generally richer in saturated fats, often solid at room temperature and higher in melting point, so A is the intended characteristic."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：灭菌后、消化前进行脱果或脱粒，把油棕果从果串分离，因此X的目的是A。
+English: Threshing takes place after sterilisation and before digestion, separating oil-palm fruits from their bunches. This gives purpose A for X."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：X接正极，是阳极，吸引带负电的硫酸根离子；Y是阴极，吸引Cu²⁺等阳离子，因此选A。题目问移动方向，不是所有这些离子都会放电。
+English: X is the positive anode and attracts negative sulfate ions. Y is the cathode and attracts positive ions such as Cu²⁺, giving A. The question asks about migration; not every migrating ion is discharged."
+,radio,F5 Chp 6,A,B,C,D,C,Picture35.png,"中文：简单化学电池把化学能转化为电能，一般由不同金属电极和电解质组成，因此C正确。
+English: A simple chemical cell converts chemical energy into electrical energy and generally uses different metal electrodes and an electrolyte, so C is correct."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：凸透镜是会聚透镜，使平行光线折射后集中到焦点，因此选B。
+English: A convex lens is a converging lens that refracts parallel rays toward a focal point, so B is correct."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：把物镜由10×换为40×、保留10×目镜，总放大倍数由100×提高到400×。换镜后仍需重新调焦以使图像清晰。
+English: Changing the objective from 10× to 40× while keeping the 10× eyepiece increases total magnification from 100× to 400×. Refocusing is still needed for a clear image."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：压力相等：Fₘ/0.01=1000/0.1。Fₘ=1000×0.01÷0.1=100 N，因此选C。
+English: Equal pressure gives Fₘ/0.01 = 1000/0.1. Thus Fₘ = 1000 × 0.01 ÷ 0.1 = 100 N, so C is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture39.png,"中文：705 km位于课程中低地球轨道约180至2000 km范围，且运行速度较高，因此选LEO。
+English: An altitude of 705 km lies within the course's approximate 180–2000 km range for low Earth orbit, which also has a high orbital speed, so LEO is correct."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：手机等GPS接收器属于用户部分，接收卫星信号并计算位置。卫星是太空部分，地面监控站是控制部分。
+English: GPS receivers such as smartphones belong to the user segment, receiving satellite signals and determining position. Satellites form the space segment and ground monitoring stations the control segment."

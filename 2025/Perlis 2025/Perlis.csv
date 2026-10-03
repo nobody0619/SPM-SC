@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Perlis 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture18.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture22.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture23.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture24.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture26.png
-,checkbox,F5 Chp 1,A,B,C,D,"C,D",Picture27.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perlis 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：依题目实验室分类，蒸馏水和适当浓度的亚甲蓝溶液可按规定排入水槽。细菌培养液是生物危害废物，氯仿则是有机溶剂。
+English: Under the question's laboratory classification, distilled water and suitably dilute methylene-blue solution may be disposed of according to sink rules. Bacterial culture is biohazardous waste, while chloroform is an organic solvent."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：灭火毯覆盖着火衣物，隔绝氧气，帮助熄灭人体衣物上的小火，因此选D。
+English: A fire blanket covers burning clothing and cuts off oxygen, helping extinguish a small clothing fire, so D is correct."
+,radio,F4 Chp 2,A,B,C,D,D,Picture3.png,"中文：Aminah恢复呼吸但仍昏迷，应转为侧卧恢复姿势，保持气道通畅并继续观察呼吸。
+English: Aminah has resumed breathing but remains unconscious. Place her on her side in the recovery position to keep the airway clear and continue monitoring breathing."
+,radio,F4 Chp 2,A,B,C,D,B,Picture4.png,"中文：腹部向内、向上快速施压会提高胸腔和肺内压力，使气流把气道异物排出，因此选B。
+English: Quick inward and upward abdominal thrusts increase pressure in the chest and lungs, producing airflow that helps expel the airway obstruction, so B is correct."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：15秒有32次脉搏，1分钟是15秒的4倍。脉搏率=32×4=128 bpm。
+English: There are 32 beats in 15 seconds, and one minute contains four such intervals. Pulse rate = 32 × 4 = 128 bpm."
+,radio,F4 Chp 3,A,B,C,D,D,Picture6.png,"中文：Anis的BMI 18属偏低，可能因营养不足而疲倦；Suri的BMI 32属肥胖，糖尿病风险较高，因此D符合题目配对。
+English: Anis's BMI of 18 is low and may be associated with fatigue from inadequate nutrition. Suri's BMI of 32 indicates obesity and a higher diabetes risk, matching D."
+,radio,F4 Chp 4,A,B,C,D,A,Picture7.png,"中文：题目中的绿色燃料减少对传统化石燃料的依赖，并以降低温室气体排放为优点，因此选A。
+English: The green fuel described reduces reliance on conventional fossil fuels and is presented as reducing greenhouse-gas emissions, so A is correct."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：减数分裂进行两次细胞分裂，通常产生四个子细胞，每个的染色体数是母细胞的一半，因此D正确。
+English: Meiosis involves two cell divisions, usually producing four daughter cells with half the parent's chromosome number, so D is correct."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：地中海贫血与控制血红蛋白形成的基因突变有关，属于基因突变引起的遗传病。
+English: Thalassaemia is associated with mutations in genes involved in haemoglobin production, making it a genetic disease caused by gene mutation."
+,radio,F4 Chp 5,A,B,C,D,B,Picture10.png,"中文：母亲直发为kk；孩子有kk，说明卷发父亲也提供k。因此父亲为Kk，母亲为kk，产生卷发与直发各一半。
+English: The straight-haired mother is kk. Since some children are kk, the curly-haired father must also supply k. He is Kk and the mother kk, giving equal curly- and straight-haired offspring."
+,radio,F4 Chp 5,A,B,C,D,C,Picture11.png,"中文：连续变异有中间值，许多个体接近平均值、较少处于极端，图形通常呈正态分布，因此选C。
+English: Continuous variation has intermediate values, with many individuals near the average and fewer at the extremes. It typically gives a normal distribution, so C is correct."
+,radio,F4 Chp 6,A,B,C,D,C,Picture12.png,"中文：C是虾，具有含几丁质的坚硬外骨骼，保护并支撑身体。蚯蚓和水螅则依赖液压支撑。
+English: C is a prawn, which has a hard chitin-containing exoskeleton for protection and support. Earthworms and hydra use hydrostatic support instead."
+,radio,F4 Chp 6,A,B,C,D,D,Picture13.png,"中文：生长涉及身体体积及质量增加，并伴随细胞数量或大小增加，因此D符合定义。
+English: Growth involves an increase in body size and mass, together with an increase in cell number or size, so D matches the definition."
+,radio,F4 Chp 7,A,B,C,D,B,Picture14.png,"中文：胰脏分泌胰岛素和胰高血糖素，分别帮助降低和提高血糖，共同调节血液葡萄糖水平。
+English: The pancreas secretes insulin and glucagon, which help lower and raise blood glucose respectively, regulating its level."
+,radio,F4 Chp 7,A,B,C,D,D,Picture15.png,"中文：与朋友进行适当运动和休闲活动可放松身心、减轻压力。这是题目强调的心理健康益处。
+English: Suitable exercise and recreational activities with friends can promote relaxation and relieve stress, which is the mental-health benefit emphasised in the question."
+,radio,F4 Chp 8,A,B,C,D,D,Picture16.png,"中文：氯化钠由Na⁺和Cl⁻组成，是离子物质。金是原子物质，氧气则由分子组成。
+English: Sodium chloride consists of Na⁺ and Cl⁻ ions and is an ionic substance. Gold is an atomic substance, while oxygen gas consists of molecules."
+,radio,F4 Chp 8,A,B,C,D,A,Picture17.png,"中文：元素符号中的质子数为18，核子数为40。题目问质子数，因此选18，不是中子数22。
+English: The element's proton number is 18 and nucleon number is 40. The question asks for proton number, so the answer is 18, not the neutron number 22."
+,radio,F4 Chp 8,A,B,C,D,A,Picture18.png,"中文：钴-60发出的伽马射线用于放射治疗，以损伤并杀死癌细胞，因此选A。
+English: Gamma radiation from cobalt-60 is used in radiotherapy to damage and kill cancer cells, so A is correct."
+,radio,F4 Chp 9,A,B,C,D,D,Picture19.png,"中文：黄铜是铜和锌组成的合金；铁、锌和铜本身是金属元素，因此选D。
+English: Brass is an alloy of copper and zinc. Iron, zinc and copper themselves are metallic elements, so D is correct."
+,radio,F4 Chp 9,A,B,C,D,D,Picture20.png,"中文：黏土的主要成分是铝硅酸盐，可用于制造陶瓷，因此选D。
+English: Clay mainly contains aluminium silicates and is used to manufacture ceramics, so D is correct."
+,radio,F4 Chp 9,A,B,C,D,D,Picture21.png,"中文：题目所示交联的橡胶结构限制聚合物链移动，使材料较硬、较耐用，因此答案为D。
+English: The cross-linked rubber structure shown restricts polymer-chain movement, making the material harder and more durable, so D is correct."
+,radio,F4 Chp 10,A,B,C,D,B,Picture22.png,"中文：空气污染中的有害物质可促使体内产生自由基，增加氧化损伤，因此B是这组选项的答案。
+English: Harmful substances in polluted air can promote free-radical formation and oxidative damage in the body, making B the answer among these options."
+,radio,F4 Chp 11,A,B,C,D,C,Picture23.png,"中文：20至30 s，速度由20降至0 m s⁻¹。加速度=(0−20)÷(30−20)=−2.00 m s⁻²，负号表示减速。
+English: From 20 to 30 s, velocity falls from 20 to 0 m s⁻¹. Acceleration = (0 − 20) ÷ (30 − 20) = −2.00 m s⁻², where the negative sign indicates deceleration."
+,radio,F4 Chp 11,A,B,C,D,A,Picture24.png,"中文：分隔油罐可限制液体在加速或刹车时大幅流动，减少液体惯性造成的冲击，提高稳定性。
+English: Compartments limit large movements of oil during acceleration or braking, reducing impacts caused by the liquid's inertia and improving stability."
+,radio,F4 Chp 12,A,B,C,D,B,Picture25.png,"中文：白血病发生在受辐射者自身的血液形成组织，属于躯体效应，因此依答案选B。癌症A在一般分类中也可属躯体效应，题目单选性不够明确。
+English: Leukaemia affects the exposed person's own blood-forming tissues and is a somatic effect, supporting the keyed answer B. Cancer in A can also be a somatic effect, so the single-answer distinction is unclear."
+,radio,F5 Chp 1,A,B,C,D,C,Picture26.png,"中文：Spirogyra是水绵，属于藻类，含叶绿素并能进行光合作用。Paramecium和Amoeba则是原生动物。
+English: Spirogyra is an alga containing chlorophyll and carrying out photosynthesis. Paramecium and Amoeba are protozoa instead."
+,checkbox,F5 Chp 1,A,B,C,D,"C,D",Picture27.png,"中文：青霉素抑制细菌生长，纸片周围没有可见菌落，所以C的“没有细菌”和D的“细菌生长受抑制”都按答案接受。
+English: Penicillin inhibits bacterial growth, leaving no visible colonies around the disc. Both C, “absence of bacteria”, and D, “bacterial growth is inhibited”, are accepted by the key."
+,radio,F5 Chp 2,A,B,C,D,A,Picture28.png,"中文：能量=(5×15.5)+(30×10.5)+(100×2.6)=77.5+315+260=652.50 kJ，选A。这里计算总能量，选项印成kJ/g应为kJ。
+English: Energy = (5 × 15.5) + (30 × 10.5) + (100 × 2.6) = 77.5 + 315 + 260 = 652.50 kJ, giving A. This is total energy, so the printed unit kJ/g should be kJ."
+,radio,F5 Chp 2,A,B,C,D,C,Picture29.png,"中文：本题答案纸把过量摄取MSG对应为C“癌症”，此处保留考试答案。不过不能据此把“MSG会致癌”当作已证实的医学结论；这是需核对的题目表述。
+English: The answer sheet links excessive MSG consumption to C, “cancer”, and that exam key is retained here. This should not be treated as proof that MSG causes cancer; the wording requires review."
+,radio,F5 Chp 3,A,B,C,D,A,Picture30.png,"中文：森林火灾可因雷击等自然因素发生，释放烟尘污染空气。其余选项是人类工业或交通活动。
+English: Forest fires can occur naturally, for example after lightning, releasing smoke and particles. The other options are human industrial or transport activities."
+,radio,F5 Chp 3,A,B,C,D,C,Picture31.png,"中文：减少塑料污染能避免水生动物误食塑料或被缠住，保护食物网中的生物，因此选C。
+English: Reducing plastic pollution prevents aquatic animals from ingesting plastic or becoming entangled, protecting organisms in the food web, so C is correct."
+,radio,F5 Chp 4,A,B,C,D,B,Picture32.png,"中文：气体体积在80 s达到30 cm³后不再增加，反应已结束。平均速率=30÷80=0.375≈0.38 cm³ s⁻¹。
+English: Gas volume reaches 30 cm³ at 80 s and then stays constant, indicating the reaction has ended. Average rate = 30 ÷ 80 = 0.375 ≈ 0.38 cm³ s⁻¹."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：过量摄取含较多饱和脂肪的牛肉汉堡，可增加胆固醇沉积风险，使血管内腔变窄，因此选A。
+English: Excess intake of beef burgers high in saturated fat can increase the risk of cholesterol deposits, narrowing the blood vessel, so A is correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture34.png,"中文：过滤后的X是纯化处理，去除水分和杂质，帮助避免棕榈油变酸和品质下降，因此选C。
+English: X is the purification stage after filtration. Removing moisture and impurities helps prevent palm oil from becoming sour and deteriorating, so C is correct."
+,radio,F5 Chp 6,A,B,C,D,B,Picture35.png,"中文：A的盐酸较浓，阳极优先产生氯气；B的盐酸很稀，阳极产生氧气。浓度不同会影响放电的离子，因此选B。
+English: The more concentrated hydrochloric acid in cell A produces chlorine at the anode, while the very dilute acid in B produces oxygen. Concentration affects ion discharge, so B is correct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture36.png,"中文：C的两极都是铁，没有不同金属之间的电势差，因此电压为零，电压计指针不偏转。
+English: Both electrodes in C are iron, so there is no potential difference between different metals. The voltage is zero and the voltmeter needle does not deflect."
+,radio,F5 Chp 7,A,B,C,D,C,Picture37.png,"中文：图中凸透镜形成放大、倒立的实像，可投射到屏幕上，符合幻灯片投影机的用途。
+English: The convex lens forms a magnified, inverted real image that can be projected onto a screen, matching a slide projector."
+,radio,F5 Chp 8,A,B,C,D,A,Picture38.png,"中文：文丘里管较窄处流速较高、压力较低，体现伯努利原理，因此A正确。
+English: Fluid moves faster and has lower pressure in the narrower section of a Venturi tube, demonstrating Bernoulli's principle, so A is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture39.png,"中文：B位于无人机下方。螺旋桨使下方压力较高、上方较低，产生向上的升力，因此选B。
+English: B is beneath the drone. The propellers produce higher pressure below and lower pressure above, creating upward lift, so B is correct."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：Y是椭圆轨道上距离地球最远的位置，称为远地点apogee。最近的位置则是近地点perigee。
+English: Y is the point farthest from Earth in the elliptical orbit, called apogee. The nearest point is perigee."

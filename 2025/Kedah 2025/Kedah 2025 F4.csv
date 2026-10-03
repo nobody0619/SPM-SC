@@ -1,25 +1,49 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kedah 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture20.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture22.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture23.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture24.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kedah 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：发现浓酸溢出应先通知老师，让老师按实验室安全程序处理。
+English: The first step is to inform the teacher so the spill can be handled under laboratory safety procedures."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：气道阻塞使供氧不足，血液含氧量降低，皮肤及嘴唇可呈蓝色。
+English: Airway blockage reduces oxygen supply; low blood oxygen can cause bluish skin and lips."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：图为非接触式红外线温度计，利用人体发出的红外线测温。
+English: The diagram shows a non-contact infrared thermometer that detects infrared radiation from the body."
+,radio,F4 Chp 3,A,B,C,D,D,Picture4.png,"中文：图中86/60 mmHg偏低，按本题课本分类属于低血压。
+English: The reading of 86/60 mmHg is low and indicates low blood pressure in this question."
+,radio,F4 Chp 4,A,B,C,D,C,Picture5.png,"中文：化石燃料不可在短期再生，储量耗尽属于能源领域的社会科学议题。
+English: Fossil fuels are not rapidly renewable; their depletion is a socioscientific issue in the energy sector."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：只在必要时用纸属于减少使用，能从源头减少纸张需求及固体废物。
+English: Using paper only when necessary reduces demand and solid waste at the source."
+,radio,F4 Chp 4,A,B,C,D,D,Picture7.png,"中文：大量开发森林减少树木，削弱吸收二氧化碳及释放氧气的作用。
+English: Widespread forest clearing removes trees and reduces carbon dioxide absorption and oxygen production."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：细胞分裂增加细胞数目，帮助生长并替换受损细胞。
+English: Cell division increases cell numbers for growth and replaces damaged cells during tissue repair."
+,radio,F4 Chp 5,A,B,C,D,D,Picture9.png,"中文：纯种高株TT与矮株tt交配，配子为T和t，所有后代都是Tt。
+English: Crossing pure-breeding TT with tt produces T and t gametes, so all offspring are Tt."
+,radio,F4 Chp 5,A,B,C,D,C,Picture10.png,"中文：第21号染色体有三条，是唐氏综合征，可影响身体及智力发展。
+English: Three copies of chromosome 21 indicate Down syndrome, which affects physical and intellectual development."
+,radio,F4 Chp 6,A,B,C,D,B,Picture11.png,"中文：Y指上臂长骨肱骨；桡骨及尺骨在前臂。
+English: Y points to the humerus in the upper arm; the radius and ulna are in the forearm."
+,radio,F4 Chp 6,A,B,C,D,A,Picture12.png,"中文：成年后身体已接近成熟，生长速率最低且较稳定；婴儿及青春期增长较快。
+English: Adulthood has minimal, relatively stable growth after maturity; infancy and adolescence have faster growth."
+,radio,F4 Chp 7,A,B,C,D,D,Picture13.png,"中文：儿童生长激素不足可导致侏儒症，过多可导致巨人症。
+English: Too little growth hormone in childhood causes dwarfism, while excess can cause gigantism."
+,radio,F4 Chp 7,A,B,C,D,C,Picture14.png,"中文：课本把氯胺酮列为致幻类药物，会改变脑中冲动处理并导致幻觉。
+English: The textbook classifies ketamine as a hallucinogenic drug that alters impulse processing and can cause hallucinations."
+,radio,F4 Chp 8,A,B,C,D,B,Picture15.png,"中文：Z排列为2.8.2，失去最外层两个电子后成为稳定2.8排列。
+English: Z has arrangement 2.8.2 and loses its two outer electrons to obtain the stable arrangement 2.8."
+,radio,F4 Chp 8,A,B,C,D,C,Picture16.png,"中文：碳-14可作植物研究示踪剂，也可用于考古遗物年代测定。
+English: Carbon-14 is a tracer in plant research and is used to date archaeological remains."
+,radio,F4 Chp 9,A,B,C,D,C,Picture17.png,"中文：钢是较硬的合金，较不容易在敲击时弯曲，所以可换用钢钉。
+English: Steel is a harder alloy and is less likely to bend when hammered, so a steel nail is suitable."
+,radio,F4 Chp 9,A,B,C,D,D,Picture18.png,"中文：铅玻璃折射率较高，适合制作使光线明显折射的棱镜。
+English: Lead glass has a high refractive index, making it suitable for prisms."
+,radio,F4 Chp 10,A,B,C,D,C,Picture19.png,"中文：自由基可攻击细胞成分并损伤DNA，引起结构变化。
+English: Free radicals can attack cellular components and damage DNA, changing its structure."
+,radio,F4 Chp 10,A,B,C,D,C,Picture20.png,"中文：C的西兰花含叶黄素，是课本所列抗氧化营养素来源之一。
+English: Broccoli in C contains lutein, an antioxidant nutrient listed in the textbook."
+,radio,F4 Chp 11,A,B,C,D,B,Picture21.png,"中文：平均速度 =150÷30 =5 m s⁻¹；题目把距离当作同方向的位移。
+English: Average velocity =150÷30 =5 m s⁻¹, treating the journey as motion in one direction."
+,radio,F4 Chp 11,A,B,C,D,A,Picture22.png,"中文：P无空气阻力，硬币和羽毛同时落地；Q有空气阻力，羽毛受影响较大。
+English: P has no air resistance, so both fall together; Q has air resistance, which affects the feather more."
+,radio,F4 Chp 12,A,B,C,D,D,Picture23.png,"中文：铀-235核裂变放出大量热能，可用于发电。
+English: Uranium-235 releases heat through nuclear fission and is used to generate electricity."
+,radio,F4 Chp 12,A,B,C,D,D,Picture24.png,"中文：按答案D，化石燃料终会耗尽，是考虑核能的原因；C的放射性废物管理专长也确是建设核电站的重要条件。
+English: Following answer D, fossil-fuel depletion is a reason to consider nuclear power; C, expertise in radioactive-waste management, is also a valid construction consideration."

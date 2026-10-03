@@ -1,17 +1,33 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kedah 2025 F5,radio,F5 Chp 1,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kedah 2025 F5,radio,F5 Chp 1,A,B,C,D,D,Picture25.png,"中文：按原答案选130°C，高温加压蒸汽可杀灭微生物及孢子；课本常用灭菌温度为121°C，本题未提供该选项。
+English: The supplied answer is 130°C; pressurised hot steam kills microorganisms and spores. The usual textbook sterilisation temperature is 121°C, which is absent from the options."
+,radio,F5 Chp 1,A,B,C,D,C,Picture26.png,"中文：生态酶中的分解作用帮助去除污渍，按课本可减少擦洗；发酵过程通常需要较长时间。
+English: Eco-enzyme action helps break down stains and reduces scrubbing in the textbook description; fermentation is not a rapid process."
+,radio,F5 Chp 2,A,B,C,D,D,Picture27.png,"中文：热值 =4.2×10×20÷1 =840 J g⁻¹。
+English: Calorific value =4.2×10×20÷1 =840 J g⁻¹."
+,radio,F5 Chp 2,A,B,C,D,A,Picture28.png,"中文：闪电提供能量让空气中的氮形成氮化合物，最终增加土壤硝酸盐。
+English: Lightning supplies energy to convert atmospheric nitrogen into compounds that eventually form nitrates in soil."
+,radio,F5 Chp 2,A,B,C,D,B,Picture29.png,"中文：乳酸菌发酵牛奶中的糖产生乳酸，使牛奶形成酸奶。
+English: Bacteria ferment milk sugar into lactic acid, producing yoghurt."
+,radio,F5 Chp 3,A,B,C,D,C,Picture30.png,"中文：EM泥球中的有效微生物帮助分解污染物，改善水质，使亚甲蓝褪色时间延长。
+English: Effective microorganisms in mud balls help decompose pollutants, improving water quality and lengthening methylene-blue decolourisation time."
+,radio,F5 Chp 4,A,B,C,D,A,Picture31.png,"中文：浓酸曲线20秒达到100 cm³，平均反应速率 =100÷20 =5.0 cm³ s⁻¹。
+English: The concentrated-acid curve reaches 100 cm³ in 20 s; average rate =100÷20 =5.0 cm³ s⁻¹."
+,radio,F5 Chp 4,A,B,C,D,B,Picture32.png,"中文：热水温度较高，粒子运动加快，增加有效碰撞，相关反应较快。
+English: Hot water increases particle kinetic energy and effective collisions, increasing the relevant reaction rate."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：石油主要由只含碳及氢的碳氢化合物组成；植物油还含氧。
+English: Petroleum mainly contains hydrocarbons composed only of carbon and hydrogen; vegetable oils also contain oxygen."
+,radio,F5 Chp 5,A,B,C,D,B,Picture34.png,"中文：过滤后X为冷却，降低温度有助减少油的劣化；按答案B，省略后较容易酸败。
+English: X after filtration is cooling, which helps limit deterioration; following answer B, omission increases the risk of the oil becoming rancid or sour."
+,radio,F5 Chp 6,A,B,C,D,A,Picture35.png,"中文：氢氧化钠溶液含能自由移动的离子，能导电并发生电解。
+English: Sodium hydroxide solution contains mobile ions and conducts electricity as an electrolyte."
+,radio,F5 Chp 6,A,B,C,D,A,Picture36.png,"中文：按答案A，K的金属组合活泼性差距较大，所以电压2.72 V高于L的1.10 V；图中L左电极名称未清楚标示。
+English: Following A, K has a greater difference in metal reactivity and gives 2.72 V compared with L at 1.10 V; the left electrode of L is not clearly labelled."
+,radio,F5 Chp 7,A,B,C,D,C,Picture37.png,"中文：放大镜在物体位于焦距内时产生虚像，正立且放大。
+English: A magnifying glass produces a virtual, upright, enlarged image when the object is within its focal length."
+,radio,F5 Chp 7,A,B,C,D,D,Picture38.png,"中文：图中的像为正立放大虚像，物体必须位于光心与焦点之间。
+English: The upright enlarged virtual image requires the object to lie between the optical centre and the focus."
+,radio,F5 Chp 8,A,B,C,D,C,Picture39.png,"中文：伯努利原理：流体速度较高的区域压力较低；密闭液体传压是帕斯卡原理。
+English: Bernoulli's principle states that faster fluid flow has lower pressure; transmission of pressure in an enclosed fluid is Pascal's principle."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：地球静止轨道位于赤道平面，并与地球自转同步。
+English: A geostationary orbit lies in the equatorial plane and matches Earth's rotation."

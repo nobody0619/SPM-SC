@@ -1,24 +1,47 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perak 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture18.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture22.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture23.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：挥发性、有毒物质应在通风橱内操作，让有害蒸气被抽走，减少吸入风险。
+English: Volatile and poisonous substances should be handled in a fume chamber, which removes harmful vapours and reduces inhalation."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：按题目课本分类，二氧化碳灭火器适合电器及油类火灾，能隔绝氧气且不导电，因此选 D。
+English: Under the question's textbook classification, carbon dioxide extinguishers suit electrical and oil fires by excluding oxygen without conducting electricity, matching D."
+,radio,F4 Chp 2,A,B,C,D,D,Picture3.png,"中文：K 是胸外按压，借外力压迫胸部产生人工血液循环，维持重要器官的血液供应。
+English: K is chest compression, using external pressure to produce artificial circulation and maintain blood supply to vital organs."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：运动越剧烈，肌肉耗氧越多，心脏需更快泵血，脉搏率就越高。
+English: More vigorous activity increases muscle oxygen demand, requiring faster heart pumping and a higher pulse rate."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：图中仪器测量血压，常用单位是毫米汞柱 mmHg。
+English: The instrument measures blood pressure, commonly expressed in millimetres of mercury, mmHg."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：图中电动车行驶时没有燃烧燃料所产生的尾气，因此课本所指优势是减少直接温室气体排放。
+English: The electric car produces no combustion exhaust while driving, so the textbook advantage refers to reduced direct greenhouse-gas emissions."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：使用绿色交通可减少车辆燃料消耗和废气，缓解交通造成的空气污染问题。
+English: Green transportation reduces vehicle fuel use and exhaust, addressing air pollution from transport."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：图中是减数分裂前期 I，同源染色体配对，并可进行交换作用来交换遗传信息。
+English: The diagram shows prophase I of meiosis, when homologous chromosomes pair and can exchange genetic information through crossing over."
+,radio,F4 Chp 5,A,B,C,D,C,Picture9.png,"中文：Q 是 XbXb，S 是 XbY，均没有正常显性等位基因，所以两者都患色盲。
+English: Q is XbXb and S is XbY; neither has a normal dominant allele, so both are colour-blind."
+,radio,F4 Chp 5,A,B,C,D,A,Picture10.png,"中文：相邻柱连续、接近钟形分布，表示连续变异；身高有许多中间数值。
+English: Adjacent bars form a continuous, roughly bell-shaped distribution, representing continuous variation such as height."
+,radio,F4 Chp 6,A,B,C,D,B,Picture11.png,"中文：训练前进行伸展准备活动符合课本预防肌肉受伤的做法，应是 C；现有答案 B“伸直手臂举重”不是题干所问的训练前准备。
+English: Stretching before training is the textbook preparation for reducing muscle injury, so C fits. Existing answer B, lifting with straight arms, is not the preparation asked for."
+,radio,F4 Chp 7,A,B,C,D,C,Picture12.png,"中文：脑下垂体分泌生长激素，促进生长，并帮助成年人维持肌肉和骨骼质量。
+English: The pituitary secretes growth hormone, promoting growth and helping adults maintain muscle and bone mass."
+,radio,F4 Chp 7,A,B,C,D,B,Picture13.png,"中文：巴比妥类和酒精属于镇静抑制类物质，可减慢中枢神经活动，使人困倦和较不焦虑。
+English: Barbiturates and alcohol are depressants that slow central nervous activity, causing drowsiness and reduced anxiety."
+,radio,F4 Chp 8,A,B,C,D,D,Picture14.png,"中文：Z 位于周期表最右侧的第 18 族，属于稀有气体，最外电子层已满而较不活泼。
+English: Z is in Group 18 at the far right of the periodic table, containing noble gases with full outer electron shells."
+,radio,F4 Chp 8,A,B,C,D,C,Picture15.png,"中文：氯的两个同位素质子数均为 17；氯-35 的中子数＝35－17＝18，因此 X＝17、Y＝17、Z＝18。
+English: Both chlorine isotopes have 17 protons. Chlorine-35 has 35 − 17 = 18 neutrons, so X = 17, Y = 17 and Z = 18."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：碳原子干扰铁原子的规则排列，使原子层难以滑动，所以钢比纯铁更硬。
+English: Carbon atoms disrupt the regular arrangement of iron atoms and hinder layer sliding, making steel harder than pure iron."
+,radio,F4 Chp 9,A,B,C,D,D,Picture17.png,"中文：陶瓷主要原料是黏土，含铝硅酸盐，因此选 D。
+English: Ceramics are mainly made from clay containing aluminium silicate, so D is correct."
+,radio,F4 Chp 9,A,B,C,D,A,Picture18.png,"中文：加入硫进行硫化，在橡胶链之间形成硫交联，使橡胶更耐热。
+English: Adding sulphur vulcanises rubber by forming cross-links between chains, improving heat resistance."
+,radio,F4 Chp 10,A,B,C,D,D,Picture19.png,"中文：胡萝卜和番薯含 β-胡萝卜素，是课本列出的抗氧化物之一。
+English: Carrots and sweet potatoes contain beta-carotene, one of the antioxidants listed in the textbook."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：加速度＝(20－0)÷10＝2 m/s²。
+English: Acceleration = (20 − 0) ÷ 10 = 2 m/s²."
+,radio,F4 Chp 11,A,B,C,D,B,Picture21.png,"中文：课本以真空示范真正的自由落体，因为没有空气阻力，物体只受重力作用。
+English: The textbook demonstrates ideal free fall in a vacuum, where there is no air resistance and gravity is the only force."
+,radio,F4 Chp 11,A,B,C,D,D,Picture22.png,"中文：卡车质量大，惯性大，较难改变运动状态，因此较难停下。
+English: The truck's large mass gives it greater inertia, making its motion harder to change and stop."
+,radio,F4 Chp 12,A,B,C,D,D,Picture23.png,"中文：核能是可替代石油和煤来发电的能源，但不是可再生能源，而且废料须妥善处理。
+English: Nuclear energy can replace petroleum and coal for electricity generation, but is not renewable and its waste requires proper management."

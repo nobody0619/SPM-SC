@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perlis 2025 F5,radio,F5 Chp 1,A,B,C,D,C,Picture26.png
-,checkbox,F5 Chp 1,A,B,C,D,"C,D",Picture27.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perlis 2025 F5,radio,F5 Chp 1,A,B,C,D,C,Picture26.png,"中文：Spirogyra是水绵，属于藻类，含叶绿素并能进行光合作用。Paramecium和Amoeba则是原生动物。
+English: Spirogyra is an alga containing chlorophyll and carrying out photosynthesis. Paramecium and Amoeba are protozoa instead."
+,checkbox,F5 Chp 1,A,B,C,D,"C,D",Picture27.png,"中文：青霉素抑制细菌生长，纸片周围没有可见菌落，所以C的“没有细菌”和D的“细菌生长受抑制”都按答案接受。
+English: Penicillin inhibits bacterial growth, leaving no visible colonies around the disc. Both C, “absence of bacteria”, and D, “bacterial growth is inhibited”, are accepted by the key."
+,radio,F5 Chp 2,A,B,C,D,A,Picture28.png,"中文：能量=(5×15.5)+(30×10.5)+(100×2.6)=77.5+315+260=652.50 kJ，选A。这里计算总能量，选项印成kJ/g应为kJ。
+English: Energy = (5 × 15.5) + (30 × 10.5) + (100 × 2.6) = 77.5 + 315 + 260 = 652.50 kJ, giving A. This is total energy, so the printed unit kJ/g should be kJ."
+,radio,F5 Chp 2,A,B,C,D,C,Picture29.png,"中文：本题答案纸把过量摄取MSG对应为C“癌症”，此处保留考试答案。不过不能据此把“MSG会致癌”当作已证实的医学结论；这是需核对的题目表述。
+English: The answer sheet links excessive MSG consumption to C, “cancer”, and that exam key is retained here. This should not be treated as proof that MSG causes cancer; the wording requires review."
+,radio,F5 Chp 3,A,B,C,D,A,Picture30.png,"中文：森林火灾可因雷击等自然因素发生，释放烟尘污染空气。其余选项是人类工业或交通活动。
+English: Forest fires can occur naturally, for example after lightning, releasing smoke and particles. The other options are human industrial or transport activities."
+,radio,F5 Chp 3,A,B,C,D,C,Picture31.png,"中文：减少塑料污染能避免水生动物误食塑料或被缠住，保护食物网中的生物，因此选C。
+English: Reducing plastic pollution prevents aquatic animals from ingesting plastic or becoming entangled, protecting organisms in the food web, so C is correct."
+,radio,F5 Chp 4,A,B,C,D,B,Picture32.png,"中文：气体体积在80 s达到30 cm³后不再增加，反应已结束。平均速率=30÷80=0.375≈0.38 cm³ s⁻¹。
+English: Gas volume reaches 30 cm³ at 80 s and then stays constant, indicating the reaction has ended. Average rate = 30 ÷ 80 = 0.375 ≈ 0.38 cm³ s⁻¹."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：过量摄取含较多饱和脂肪的牛肉汉堡，可增加胆固醇沉积风险，使血管内腔变窄，因此选A。
+English: Excess intake of beef burgers high in saturated fat can increase the risk of cholesterol deposits, narrowing the blood vessel, so A is correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture34.png,"中文：过滤后的X是纯化处理，去除水分和杂质，帮助避免棕榈油变酸和品质下降，因此选C。
+English: X is the purification stage after filtration. Removing moisture and impurities helps prevent palm oil from becoming sour and deteriorating, so C is correct."
+,radio,F5 Chp 6,A,B,C,D,B,Picture35.png,"中文：A的盐酸较浓，阳极优先产生氯气；B的盐酸很稀，阳极产生氧气。浓度不同会影响放电的离子，因此选B。
+English: The more concentrated hydrochloric acid in cell A produces chlorine at the anode, while the very dilute acid in B produces oxygen. Concentration affects ion discharge, so B is correct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture36.png,"中文：C的两极都是铁，没有不同金属之间的电势差，因此电压为零，电压计指针不偏转。
+English: Both electrodes in C are iron, so there is no potential difference between different metals. The voltage is zero and the voltmeter needle does not deflect."
+,radio,F5 Chp 7,A,B,C,D,C,Picture37.png,"中文：图中凸透镜形成放大、倒立的实像，可投射到屏幕上，符合幻灯片投影机的用途。
+English: The convex lens forms a magnified, inverted real image that can be projected onto a screen, matching a slide projector."
+,radio,F5 Chp 8,A,B,C,D,A,Picture38.png,"中文：文丘里管较窄处流速较高、压力较低，体现伯努利原理，因此A正确。
+English: Fluid moves faster and has lower pressure in the narrower section of a Venturi tube, demonstrating Bernoulli's principle, so A is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture39.png,"中文：B位于无人机下方。螺旋桨使下方压力较高、上方较低，产生向上的升力，因此选B。
+English: B is beneath the drone. The propellers produce higher pressure below and lower pressure above, creating upward lift, so B is correct."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：Y是椭圆轨道上距离地球最远的位置，称为远地点apogee。最近的位置则是近地点perigee。
+English: Y is the point farthest from Earth in the elliptical orbit, called apogee. The nearest point is perigee."

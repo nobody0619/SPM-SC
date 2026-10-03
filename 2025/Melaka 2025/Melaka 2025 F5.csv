@@ -1,20 +1,39 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2025 F5,radio,F5 Chp 1,A,B,C,D,D,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2025 F5,radio,F5 Chp 1,A,B,C,D,D,Picture22.png,"中文：细菌内生孢子保护细胞，在高温、干燥等不利环境中存活，不用于一般繁殖。
+English: Bacterial endospores protect cells in harsh conditions such as heat and dryness; they are survival structures rather than ordinary reproductive spores."
+,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：漂白剂作消毒剂，杀灭厕所等非生物表面的病原体，不用于直接处理伤口。
+English: Bleach acts as a disinfectant on non-living surfaces such as toilets, rather than directly on wounds."
+,radio,F5 Chp 4,A,B,C,D,D,Picture24.png,"中文：图中印刷题29：硫酸铜促进锌与酸的反应，按课本作加速反应的添加物。
+English: For printed question29, copper(II) sulphate speeds the reaction of zinc with acid, as described in the textbook experiment."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：图中印刷题24：长期摄取过多甜食和含糖饮料可增加肥胖及2型糖尿病风险，并非一定发病。
+English: For printed question24, excessive sugary food and drinks over time can increase obesity and type2 diabetes risk, rather than guarantee disease."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：磷是植物需要较大量的营养元素，属于大量营养素。
+English: Phosphorus is required by plants in relatively large amounts and is a macronutrient."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：巴氏杀菌可把牛奶加热至72°C15秒，随后立即冷却，减少有害微生物。
+English: Pasteurisation can heat milk to72°C for15seconds followed by immediate cooling to reduce harmful microorganisms."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：升级再造把废弃物变成价值或品质较高的产品，减少浪费。
+English: Upcycling turns waste into higher-value or higher-quality products and reduces waste."
+,radio,F5 Chp 3,A,B,C,D,D,Picture29.png,"中文：第1至4天BOD升高，分解者消耗更多溶解氧，表示有机物正被积极分解。
+English: Rising BOD from day1 to4 shows active decomposition of organic matter consuming more dissolved oxygen."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：切块鸡A总表面积较大，与热源接触更充分，所以通常较快煮熟。
+English: The cut-up chicken A has a larger total surface area, improving heat contact and usually reducing cooking time."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：乙烷是烷烃，只含碳氢且碳碳之间全为单键，是饱和碳氢化合物。
+English: Ethane is an alkane containing only carbon and hydrogen with single carbon-carbon bonds, so it is saturated."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：乙醇能较清洁地完全燃烧、少烟灰，并释放热能，适合生物燃料用途。
+English: Ethanol can burn completely with little soot while releasing heat, making it suitable as a biofuel."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：消化步骤把油棕果肉与硬壳分离，为后续压榨提油作准备。
+English: Digestion separates the oil-bearing pulp from the shell in preparation for oil extraction."
+,radio,F5 Chp 6,A,B,C,D,C,Picture34.png,"中文：Cu²⁺在阴极得到电子，形成铜沉积：Cu²⁺+2e⁻→Cu。
+English: Cu²⁺ ions gain electrons at the cathode and deposit copper: Cu²⁺+2e⁻→Cu."
+,radio,F5 Chp 6,A,B,C,D,B,Picture35.png,"中文：化学电池把自发化学反应的化学能转换为电能。
+English: A chemical cell converts chemical energy from a spontaneous reaction into electrical energy."
+,radio,F5 Chp 7,A,B,C,D,A,Picture36.png,"中文：物体位于F与2F之间，形成另一侧2F以外的实、倒立、放大像。
+English: An object between F and2F forms a real, inverted, enlarged image beyond2F on the other side."
+,radio,F5 Chp 7,A,B,C,D,D,Picture37.png,"中文：望远镜目镜形成放大的虚像，所以D正确；一般天文望远镜最终像也倒立，B同样是特征。
+English: The eyepiece forms an enlarged virtual final image, so D is correct; an ordinary astronomical telescope also gives an inverted image, making B another valid characteristic."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：狭窄处流速较高、压力较低，符合伯努利原理。
+English: Flow is faster and pressure lower in the narrow section, illustrating Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,A,Picture39.png,"中文：远地点是卫星离地球最远的位置，图中A最远。
+English: Apogee is the point farthest from Earth; A is the farthest point shown."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：X在北半球、西半球，纬度正、经度负，符合43.70643，−79.39864。
+English: X lies in the northern and western hemispheres, requiring positive latitude and negative longitude:43.70643,−79.39864."

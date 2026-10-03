@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perak 2025 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2025 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：两培养皿主要差别是培养基的湿度。湿润培养基较适合细菌生长，因此研究的因素是湿度。
+English: The main difference between the dishes is the moisture of the agar. Moist agar supports bacterial growth better, so the factor is humidity or moisture."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：依课程，吖啶黄可作伤口防腐剂，抑制微生物而帮助预防感染。扑热息痛只减轻疼痛，不是防腐剂。
+English: At course level, acriflavine is a wound antiseptic that inhibits microorganisms and helps prevent infection. Paracetamol relieves pain but is not an antiseptic."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：图中孩子显示营养不足的症状。B中的鸡肉、鱼和蛋等提供蛋白质，帮助身体生长及组织修复。
+English: The child shows signs of malnutrition. Foods in B, such as chicken, fish and eggs, provide protein needed for growth and tissue repair."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：豆科根瘤中的固氮菌把氮气转为含氮化合物，经土壤作用增加可利用的硝酸盐，有助改善土壤肥力。
+English: Nitrogen-fixing bacteria in legume root nodules convert nitrogen gas into nitrogen compounds. Soil processes increase available nitrates, improving soil fertility."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：防腐剂抑制微生物繁殖；漂白剂去除不需要的原色；调味剂增加味道。正确配对是C。
+English: Preservatives inhibit microbial reproduction, bleaching agents remove unwanted original colours, and flavourings enhance taste. C gives the correct matching."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：2021年P只需1小时脱色，比M的6小时和N的3小时短。脱色越快，BOD越高、污染越严重，因此P最污染。
+English: In 2021, P decolourises in one hour, compared with six hours for M and three for N. Faster decolourisation indicates higher BOD and greater pollution, so P is the most polluted."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：有效微生物产生酶，帮助分解有机废物，因此依答案选择产生酶的B。这些分解作用也可用于堆肥。
+English: Effective microorganisms produce enzymes that help break down organic waste, supporting the keyed answer B. Their decomposition activity can also be used in composting."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：烹饪气体燃烧迅速产生火焰，是快速化学反应。水变成蒸汽只是物理状态改变。
+English: Cooking gas burns rapidly to produce a flame, making it a fast chemical reaction. Water becoming steam is a physical state change."
+,radio,F5 Chp 4,A,B,C,D,D,Picture31.png,"中文：在适当条件下，较高水温加快粒子运动及清洁反应，使洗衣粉较有效去除顽固污渍，因此选D。
+English: Under suitable conditions, warmer water increases particle movement and the rate of cleaning processes, helping detergent remove stubborn stains more effectively, so D is correct."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：酯属于有机碳化合物。二氧化碳和碳酸钙等在课程中归为无机碳化合物。
+English: Esters are organic carbon compounds. Carbon dioxide and calcium carbonate are classified as inorganic carbon compounds in the course."
+,radio,F5 Chp 5,A,B,C,D,D,Picture33.png,"中文：葡萄糖经酵母发酵产生乙醇和二氧化碳，所以X是乙醇。乙醇可与有机酸反应生成酯。
+English: Yeast fermentation of glucose produces ethanol and carbon dioxide, so X is ethanol. Ethanol reacts with an organic acid to form an ester."
+,radio,F5 Chp 5,A,B,C,D,B,Picture34.png,"中文：过量摄取高脂肪食物如鸡肉汉堡，可促进胆固醇沉积在动脉壁，导致血管变窄和动脉硬化，因此选B。
+English: Excess intake of fatty foods such as chicken burgers can promote cholesterol deposits in artery walls, narrowing the vessels and causing arteriosclerosis, so B is correct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture35.png,"中文：氯化钠溶液有自由移动的离子，可传导电流，是电解质。固体溴化铅的离子则不能自由移动。
+English: Sodium chloride solution contains mobile ions that carry electric current, making it an electrolyte. Ions in solid lead(II) bromide cannot move freely."
+,radio,F5 Chp 6,A,B,C,D,B,Picture36.png,"中文：锌比铜活泼，较容易失去电子，所以锌是负极，电子从锌经外电路流向铜。
+English: Zinc is more reactive than copper and loses electrons more readily, so it is the negative terminal. Electrons flow from zinc to copper through the external circuit."
+,radio,F5 Chp 7,A,B,C,D,A,Picture37.png,"中文：凸透镜的物体放在焦距以内时，形成放大、正立的虚像，这是放大镜的原理。
+English: An object within the focal length of a convex lens forms a magnified, upright virtual image. This is the principle of a magnifying glass."
+,radio,F5 Chp 7,A,B,C,D,A,Picture38.png,"中文：放大镜的焦距越短，透镜的光学能力越强，在适当使用时可提供较高放大能力，因此选A。
+English: A shorter focal length gives a magnifying lens greater optical power and higher magnifying power when used appropriately, so A is correct."
+,radio,F5 Chp 8,A,B,C,D,D,Picture39.png,"中文：压力相等，输出力=输入力×输出面积÷输入面积=20×1÷0.01=2000 N，因此选D。
+English: Equal pressure gives output force = input force × output area ÷ input area = 20 × 1 ÷ 0.01 = 2000 N, so D is correct."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：十进制度数=度+分/60+秒/3600。纬度=5+10/60+35.05/3600=5.176403；经度=12+6/60+18.25/3600=12.105069，因此选D。
+English: Decimal degrees = degrees + minutes/60 + seconds/3600. Latitude = 5 + 10/60 + 35.05/3600 = 5.176403; longitude = 12 + 6/60 + 18.25/3600 = 12.105069, giving D."

@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-SMKA 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+SMKA 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture26.png,"中文：两个草履虫暂时接合并交换遗传物质，然后分开，这是接合生殖，不是一个分成两个。
+English: Two Paramecium temporarily join and exchange genetic material before separating; this is conjugation rather than one cell splitting into two."
+,radio,F5 Chp 2,A,B,C,D,B,Picture27.png,"中文：B 的甜品、甜甜圈和巧克力含较多糖；长期过量摄取增加肥胖及糖尿病风险，符合本题的饮食重点。
+English: B shows sugary desserts, doughnuts and chocolate; prolonged excessive intake increases obesity and diabetes risk, matching the question's dietary focus."
+,radio,F5 Chp 2,A,B,C,D,D,Picture28.png,"中文：叶片发黄、容易脱落和生长表现异常符合课本缺氮描述；含氮肥料帮助制造蛋白质及叶绿素。
+English: Yellowing and falling leaves with poor growth match textbook nitrogen deficiency; nitrogen fertiliser supports protein and chlorophyll production."
+,radio,F5 Chp 2,A,B,C,D,B,Picture29.png,"中文：反硝化细菌把土壤硝酸盐转为氮气返回大气，因此减少土壤硝酸盐。
+English: Denitrifying bacteria convert soil nitrates to nitrogen gas released into the atmosphere, reducing soil nitrates."
+,radio,F5 Chp 2,A,B,C,D,D,Picture30.png,"中文：按答案 D，应理解为长期过量糖摄取导致代谢疾病后，可能间接损害肝和肾；不是正常吃糖就直接使器官受损，题干欠缺“过量”的条件。
+English: Following D, prolonged excessive sugar intake may lead to metabolic disease and indirectly damage the liver and kidneys. Normal sugar intake does not directly cause this; the question omits the excessive-intake condition."
+,radio,F5 Chp 3,A,B,C,D,C,Picture31.png,"中文：BOD 高表示微生物分解有机物需氧量大，水中的溶解氧被大量消耗，所以含量较低。
+English: High BOD indicates high oxygen demand for microbial decomposition of organic matter, depleting dissolved oxygen in the water."
+,radio,F5 Chp 4,A,B,C,D,B,Picture32.png,"中文：提高硫酸浓度，使单位体积中反应粒子更多、有效碰撞更频繁，反应速率增加。
+English: Higher sulphuric-acid concentration provides more reacting particles per unit volume and more frequent effective collisions, increasing reaction rate."
+,radio,F5 Chp 4,A,B,C,D,D,Picture33.png,"中文：哈伯法用约 200 atm 的高压促进氨生成；催化剂是铁，氮：氢为 1：3，选项 D 正确。
+English: The Haber process uses high pressure around 200 atm to favour ammonia production; the catalyst is iron and nitrogen:hydrogen is 1:3, so D is correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture34.png,"中文：结构有 4 个碳、全部碳碳单键，分子式 C4H10，是丁烷。
+English: The structure has four carbons and only carbon–carbon single bonds, giving C4H10, butane."
+,radio,F5 Chp 5,A,B,C,D,A,Picture35.png,"中文：答案纸选 A 花生酱，按本题将过量高脂加工食品与动脉脂质沉积联系。须注意天然花生脂肪主要不饱和，不能把所有花生酱一概视为高胆固醇食品。
+English: The key selects A, peanut butter, linking excessive fatty processed food with arterial deposits. Natural peanut fat is mainly unsaturated, so not every peanut butter should be treated as a high-cholesterol food."
+,radio,F5 Chp 5,A,B,C,D,B,Picture36.png,"中文：按图的答案标示，Q 是果仁，可提取品质良好的棕榈仁油；外层果肉则主要产生棕榈油。
+English: According to the keyed diagram label, Q is the kernel, which yields quality palm-kernel oil; the surrounding mesocarp mainly produces palm oil."
+,radio,F5 Chp 6,A,B,C,D,C,Picture37.png,"中文：镁比铜活泼，作负极，失去电子形成镁离子并溶入电解质，因此镁条变薄。
+English: Magnesium is more reactive than copper and acts as the negative terminal, losing electrons to form magnesium ions and dissolving in the electrolyte."
+,radio,F5 Chp 7,A,B,C,D,A,Picture38.png,"中文：X 是凸透镜，能使平行光线会聚；Y 是凹透镜，使光线发散。
+English: X is a convex lens that converges parallel rays; Y is a concave lens that diverges them."
+,radio,F5 Chp 8,A,B,C,D,C,Picture39.png,"中文：帕斯卡原理指出，密闭液体受到的压力会等量传向各方向，液压系统据此放大力。
+English: Pascal's principle states that pressure applied to an enclosed liquid is transmitted equally in all directions, enabling hydraulic force multiplication."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：地球静止轨道是圆形，所以答案纸选 B；但只有圆形图不足以确认静止轨道，还需要赤道面及一日周期等条件，D 也直接描述图形。
+English: A geostationary orbit is circular, explaining keyed B. However, a circle alone cannot establish geostationary status without equatorial orientation and a one-day period; D also directly describes the shape."

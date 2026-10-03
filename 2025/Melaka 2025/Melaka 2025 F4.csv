@@ -1,22 +1,43 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture21.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：pH6在课本允许的pH5至9范围内；仍需是少量、非危险水溶液并遵守实验室规定。
+English: pH6 lies within the textbook pH5–9 range; disposal still requires a small amount of non-hazardous aqueous solution under laboratory rules."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：图为人工呼吸，把含氧空气送入受害者肺部。
+English: The diagram shows rescue breaths, supplying oxygen-containing air to the victim's lungs."
+,radio,F4 Chp 3,A,B,C,D,A,Picture3.png,"中文：BMI =45÷1.66² ≈16.33 kg m⁻²，低于18.5，属于体重不足。
+English: BMI =45÷1.66² ≈16.33 kg m⁻², below18.5 and therefore underweight."
+,radio,F4 Chp 4,A,B,C,D,D,Picture4.png,"中文：砍伐森林减少二氧化碳吸收，燃烧也会释放二氧化碳，使大气含量增加。
+English: Deforestation reduces carbon dioxide absorption, while burning releases it, increasing atmospheric carbon dioxide."
+,radio,F4 Chp 4,A,B,C,D,C,Picture5.png,"中文：绿色交通以较低能耗及较少温室气体排放为目标。
+English: Green transportation aims to minimise energy use and greenhouse gas emissions."
+,radio,F4 Chp 5,A,B,C,D,B,Picture6.png,"中文：Q为前期、P中期、R后期、S末期，顺序Q、P、R、S。
+English: Q is prophase, P metaphase, R anaphase and S telophase, giving Q–P–R–S."
+,radio,F4 Chp 5,A,B,C,D,A,Picture7.png,"中文：Tt×tt产生一半Tt高株、一半tt矮株，比例1:1。
+English: Tt×tt produces half Tt tall offspring and half tt dwarf offspring, a1:1 ratio."
+,radio,F4 Chp 5,A,B,C,D,B,Picture8.png,"中文：把人胰岛素基因加入细菌质粒，细菌表达该基因以制造胰岛素。
+English: A human insulin gene is inserted into a bacterial plasmid; the bacteria express it to produce insulin."
+,radio,F4 Chp 6,A,B,C,D,D,Picture9.png,"中文：S曲线近水平，表示成年期增长速率最低。
+English: The nearly horizontal section S represents adulthood with minimal growth rate."
+,radio,F4 Chp 6,A,B,C,D,D,Picture10.png,"中文：通气组织含大量气隙，帮助水生植物浮在水中。
+English: Aerenchyma contains air spaces that help aquatic plants float."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：X是肾脏上方的肾上腺，分泌肾上腺素。
+English: X is the adrenal gland above the kidney, which secretes adrenaline."
+,radio,F4 Chp 7,A,B,C,D,C,Picture12.png,"中文：巴比妥类属于镇静剂，抑制神经系统活动，减低焦虑。
+English: Barbiturates are depressants that reduce nervous-system activity and anxiety."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：P与Q位于同一竖列，所以属于同一族并有相同价电子数。
+English: P and Q lie in the same vertical column, so they belong to the same group and have the same valence-electron number."
+,radio,F4 Chp 8,A,B,C,D,A,Picture14.png,"中文：钴-60释放穿透性强的伽马射线，可辐照食品杀灭微生物。
+English: Cobalt-60 emits penetrating gamma radiation that can irradiate food to destroy microorganisms."
+,radio,F4 Chp 9,A,B,C,D,D,Picture15.png,"中文：钢由铁与少量碳构成，图中X为铁，Y为碳，异种原子阻碍滑动使其更硬。
+English: Steel contains iron with a small amount of carbon; X is iron and Y carbon, with different atoms hindering sliding and increasing hardness."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：硫化加入硫形成交联，使橡胶更强、更有弹性，适合制轮胎。
+English: Vulcanisation adds sulphur cross-links, making rubber stronger and more elastic for tyres."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：针灸将无菌细针插入指定穴位，属于补充医学方法。
+English: Acupuncture inserts sterile fine needles into specific points and is a complementary-medicine method."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：盐水处理减慢切水果的氧化褐变，使外观看起来更新鲜。
+English: Salt-water treatment slows oxidative browning of cut fruit, keeping it looking fresh."
+,radio,F4 Chp 11,A,B,C,D,B,Picture19.png,"中文：速度等于位移图斜率：(0−30)÷(25−15) =−3.0 m s⁻¹；负号表示反方向。
+English: Velocity is the displacement-graph gradient: (0−30)÷(25−15) =−3.0 m s⁻¹, indicating motion in the opposite direction."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：较大质量有较大惯性，更难改变原来的运动状态。
+English: Greater mass gives greater inertia, making the original state of motion harder to change."
+,radio,F4 Chp 12,A,B,C,D,A,Picture21.png,"中文：X为控制棒，吸收中子以控制核裂变速率。
+English: X is a control rod, which absorbs neutrons to control the rate of nuclear fission."

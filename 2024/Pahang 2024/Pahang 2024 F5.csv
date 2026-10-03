@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture21.png,"中文：图中的酵母用于制作面包；发酵释放二氧化碳，使面团膨胀。
+English: The yeast shown is used in bread making; fermentation releases carbon dioxide that makes dough rise."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：接种前在皮肤使用的是消毒防腐剂，可杀死或抑制皮肤表面的微生物。
+English: An antiseptic is applied to skin before vaccination to kill or inhibit microorganisms on its surface."
+,radio,F5 Chp 2,A,B,C,D,D,Picture23.png,"中文：总热量＝10×16.7＋15×16.7＋6×37.6＝643.1 kJ。
+English: Total energy = 10 × 16.7 + 15 × 16.7 + 6 × 37.6 = 643.1 kJ."
+,radio,F5 Chp 2,A,B,C,D,C,Picture24.png,"中文：P 把动物蛋白质分解成铵化合物，是分解作用；Q 把铵转变为硝酸盐，是硝化作用。
+English: P breaks animal proteins down into ammonium compounds, so it is decomposition. Q converts ammonium to nitrates, so it is nitrification."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：选择产奶量高的牛进行育种，可获得产奶量较高的后代，提高牛奶产量。
+English: Selective breeding of high-yield dairy cattle produces offspring with higher milk yields, increasing milk production."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：X 的低温加热后迅速冷却是巴氏杀菌，可用于果汁；Y 脱水制干果；Z 发酵可生产天贝，因此选 C。
+English: X uses heating followed by rapid cooling for pasteurisation of juice; Y dehydrates fruit; Z uses fermentation to produce tempeh, matching C."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：核废料、电子废料等若处理不当，会把有害物质带入土壤，造成土壤污染。
+English: Improper disposal of nuclear and electronic waste introduces harmful substances into soil, causing soil pollution."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：微藻通过光合作用吸收二氧化碳，因此能帮助降低环境中的碳排放。
+English: Microalgae absorb carbon dioxide through photosynthesis, helping reduce carbon emissions in the environment."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：反应在 80 s 已完成，产生 30 cm³ 气体；平均速率＝30÷80＝0.375≈0.38 cm³/s，不用后续停止反应的时间。
+English: The reaction finishes at 80 s after producing 30 cm³ of gas. Average rate = 30 ÷ 80 = 0.375 ≈ 0.38 cm³/s, excluding time after completion."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：接触法使用五氧化二钒作为催化剂，加速二氧化硫氧化成三氧化硫。
+English: The Contact process uses vanadium(V) oxide as a catalyst to speed up oxidation of sulphur dioxide to sulphur trioxide."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：图中的烃只有碳碳单键，属于烷烃，其通式是 CnH2n+2。
+English: The hydrocarbon contains only carbon–carbon single bonds, so it is an alkane with general formula CnH2n+2."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：酵母中的酶使葡萄糖在缺氧条件下分解成乙醇和二氧化碳，这个过程是发酵。
+English: Yeast enzymes break glucose down into ethanol and carbon dioxide without oxygen; this process is fermentation."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：K 是乳酪，按课本属于较多饱和脂肪、熔点较高；L 是玉米油，较多不饱和脂肪、熔点较低。
+English: K is cheese, classified as richer in saturated fat with a higher melting point; L is corn oil, richer in unsaturated fat with a lower melting point."
+,radio,F5 Chp 5,A,B,C,D,B,Picture34.png,"中文：R 是果肉（中果皮），储存最多棕榈油；果仁也含油，但不是图中产油最多的部分。
+English: R is the fleshy mesocarp, which contains most palm oil. The kernel also contains oil but is not the main oil-producing part shown."
+,radio,F5 Chp 6,A,B,C,D,D,Picture35.png,"中文：氯化钠溶液含可自由移动的离子，所以能导电，是电解质。
+English: Sodium chloride solution contains freely moving ions and conducts electricity, making it an electrolyte."
+,radio,F5 Chp 6,A,B,C,D,C,Picture36.png,"中文：电压表用于测量两点之间的电位差，即电压。
+English: A voltmeter measures the potential difference, or voltage, between two points."
+,radio,F5 Chp 7,A,B,C,D,D,Picture37.png,"中文：图中实像倒立且放大，凸透镜要形成这种像，物体须放在 F 与 2F 之间。
+English: The image is real, inverted and magnified; a convex lens forms this image when the object is between F and 2F."
+,radio,F5 Chp 7,A,B,C,D,D,Picture38.png,"中文：D 是望远镜，用来观察很远的物体。
+English: D is a telescope, used to observe distant objects."
+,radio,F5 Chp 8,A,B,C,D,A,Picture39.png,"中文：屋顶上方空气流速较快、压力较低，下方较高的气压把屋顶向上推，符合伯努利原理。
+English: Faster airflow above the roof produces lower pressure; higher pressure below pushes it upward, illustrating Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：D 是使用者的 GPS 接收器，接收卫星信号并计算位置，因此属于用户部分。
+English: D is the user's GPS receiver, which receives satellite signals and calculates position, so it belongs to the user segment."

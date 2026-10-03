@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：水银溢出会产生有毒蒸气，按课本应通知老师并寻求消防与救援部门协助。
+English: Spilled mercury can release toxic vapour; the textbook procedure is to notify the teacher and obtain Fire and Rescue assistance."
+,radio,F4 Chp 1,A,B,C,D,C,Picture2.png,"中文：按课本面罩保护口鼻，减少吸入有害物质；普通口罩并不能过滤所有化学气体。
+English: A suitable face mask protects the nose and mouth in the textbook description; an ordinary mask does not filter every chemical gas."
+,radio,F4 Chp 2,A,B,C,D,B,Picture3.png,"中文：溺水后若无反应且没有正常呼吸，需要CPR帮助维持血液循环及供氧。
+English: After drowning, an unresponsive victim who is not breathing normally requires CPR to support circulation and oxygen supply."
+,radio,F4 Chp 2,A,B,C,D,D,Picture4.png,"中文：海姆立克法产生向上的压力，帮助排出堵在气道中的异物。
+English: The Heimlich manoeuvre creates an upward pressure to expel an object blocking the airway."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：BMI =65÷1.60² =25.39，约25.4 kg m⁻²。
+English: BMI =65÷1.60² =25.39, approximately 25.4 kg m⁻²."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：可再生能源可替代部分化石燃料，减少燃烧产生的污染及温室气体。
+English: Renewable energy replaces some fossil-fuel use and reduces combustion-related pollution and greenhouse gases."
+,radio,F4 Chp 4,A,B,C,D,C,Picture7.png,"中文：不当排放废水污染河流等水体，破坏附近生态系统，属于水污染。
+English: Improper wastewater discharge pollutes water bodies and disrupts nearby ecosystems."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：Tt×Tt产生TT、Tt、Tt、tt，表型高株:矮株为3:1，因此两亲本均为Tt。
+English: Tt×Tt gives TT, Tt, Tt and tt, producing a 3:1 tall-to-short ratio; both parents are Tt."
+,radio,F4 Chp 6,A,B,C,D,B,Picture9.png,"中文：滑液给软骨提供营养并减少关节摩擦；肌腱连接肌肉与骨。D“肌肉由纤维组成”也符合一般科学事实，本题不够排他。
+English: Synovial fluid nourishes cartilage and reduces joint friction; tendons connect muscle to bone. D, that muscles consist of fibres, is also generally true, so the item is not fully exclusive."
+,radio,F4 Chp 6,A,B,C,D,A,Picture10.png,"中文：蜕皮为ecdysis：旧外骨骼脱落，身体膨大后形成更大的外骨骼。
+English: Ecdysis is moulting: the old exoskeleton is shed and the enlarged body develops a bigger exoskeleton."
+,radio,F4 Chp 7,A,B,C,D,A,Picture11.png,"中文：按课本列项，药物滥用、脑损伤和激素失衡直接影响心理健康，因此答案A；职业压力在现实中也可影响心理健康。
+English: The textbook list identifies drug abuse, brain injury and hormonal imbalance, giving A; occupational stress can also affect mental health in real life."
+,radio,F4 Chp 7,A,B,C,D,C,Picture12.png,"中文：C指肾上腺，分泌肾上腺素，恐惧时使心跳加快。
+English: C indicates the adrenal glands, which release adrenaline and increase heart rate during fear."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：D显示交替排列的正、负离子，代表离子化合物。
+English: D shows alternating positive and negative ions, representing an ionic compound."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：镁排列2.8.2，失去两个电子形成Mg²⁺，排列2.8达稳定八隅体。
+English: Magnesium loses two electrons from 2.8.2 to form Mg²⁺ with the stable octet arrangement 2.8."
+,radio,F4 Chp 9,A,B,C,D,D,Picture15.png,"中文：超导合金可高效产生强磁场，应用于MRI。
+English: Superconducting alloys produce strong magnetic fields efficiently and are used in MRI machines."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：甲基丙烯酸甲酯单体聚合形成Perspex，是正确单体与聚合物配对。
+English: Methyl methacrylate polymerises to form Perspex, making A the correct monomer-polymer pair."
+,radio,F4 Chp 10,A,B,C,D,B,Picture17.png,"中文：扑热息痛是止痛药，也有退热作用，可缓解头痛及降低发热体温。
+English: Paracetamol is an analgesic with antipyretic action, relieving pain and reducing fever."
+,radio,F4 Chp 10,A,B,C,D,D,Picture18.png,"中文：按课本，自由基可在氧化反应中产生，具有高反应性。
+English: In the textbook explanation, free radicals are produced during oxidation reactions and are highly reactive."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：加速度 =(15−5)÷2 =5 m s⁻²。
+English: Acceleration =(15−5)÷2 =5 m s⁻²."
+,radio,F4 Chp 11,A,B,C,D,C,Picture20.png,"中文：11个点有10个间隔，时间10÷50 =0.20 s；速度0.065÷0.20 =0.325 m s⁻¹，应为A。现有答案C的32.50未把厘米换成米。
+English: Eleven dots give ten intervals: time =10÷50 =0.20 s. Speed =0.065÷0.20 =0.325 m s⁻¹, option A. Existing answer C, 32.50, fails to convert centimetres to metres."
+,radio,F4 Chp 12,A,B,C,D,C,Picture21.png,"中文：沿海有大量水可供冷却核电站设备，是课本所列选址因素之一。
+English: Coastal sites provide plentiful cooling water, an important textbook consideration for nuclear power stations."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：按本题SPM分类，疲劳及脱发列体细胞效应，癌症和胎儿异常列遗传损伤效应；这并不表示所有癌症可遗传给后代。
+English: In this SPM classification, fatigue and hair loss are somatic effects, while cancer and fetal abnormalities are grouped with genetic damage; this does not mean all cancer is inherited by offspring."

@@ -1,0 +1,35 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 8,radio,PenangSet12024_Q37,A,B,C,D,B,Penang Set 1 2024/Picture37.png,"中文：伯努利原理说明流体流速增大时压力降低，课本用它解释直升机、无人机和本生灯的相关作用。
+English: Bernoulli's principle states that faster fluid flow has lower pressure; the textbook applies it to helicopters, drones and Bunsen burners."
+F5 Chp 8,radio,PenangSet22024_Q37,A,B,C,D,D,Penang Set 2 2024/Picture37.png,"中文：按题目预期的伯努利比较，D 的液柱最低、压力最低，因而选作流速最高处。不过管被称为“均匀管”，严格稳态流量下各截面平均流速应相同。
+English: Using the question's intended Bernoulli comparison, D has the lowest water column and pressure and is selected as fastest. However, in a genuinely uniform tube under steady flow, mean velocity should be equal at each cross-section."
+F5 Chp 8,radio,Kedah2024_Q38,A,B,C,D,D,Kedah 2024/Picture38.png,"中文：液压系统压强相同：F/4 = 500/100，所以输入力 F = 20 N。
+English: Equal hydraulic pressure gives F/4 = 500/100, so the input force is 20 N."
+F5 Chp 8,radio,Kelantan2024_Q38,A,B,C,D,D,Kelantan 2024/Picture38.png,"中文：相同压强：20/2 = F/10，所以可举起 100 N 的负载。
+English: Equal pressure gives 20/2 = F/10, so the output load is 100 N."
+F5 Chp 8,radio,KelantanYik2024_Q38,A,B,C,D,D,Kelantan YIK 2024/Picture38.png,"中文：Bunsen 灯应用伯努利原理；液压千斤顶、液压刹车及牙科椅才利用帕斯卡原理。
+English: A Bunsen burner applies Bernoulli's principle; hydraulic jacks, brakes and dental chairs use Pascal's principle."
+F5 Chp 8,radio,NegeriSembilan2024_Q38,A,B,C,D,D,Negeri Sembilan 2024/Picture38.png,"中文：水或油近乎不可压缩，可有效传递压强，符合液压系统所需性质。
+English: Water and oil are nearly incompressible, allowing pressure to be transmitted effectively in a hydraulic system."
+F5 Chp 8,radio,PenangSet12024_Q38,A,B,C,D,D,Penang Set 1 2024/Picture38.png,"中文：液压系统压强相同：500÷5＝F÷50，所以 F＝5000 N。
+English: Pressure is equal in the hydraulic system: 500 ÷ 5 = F ÷ 50, so F = 5000 N."
+F5 Chp 8,radio,PenangSet22024_Q38,A,B,C,D,B,Penang Set 2 2024/Picture38.png,"中文：压强相同：F÷0.01＝10000÷2，所以 F＝50 N。
+English: Equal pressure gives F ÷ 0.01 = 10000 ÷ 2, so F = 50 N."
+F5 Chp 8,radio,SelangorSet12024_Q38,A,B,C,D,C,Selangor Set 1 2024/Picture38.png,"中文：压强相等：F÷10＝3500÷350，所以 F＝100 N。
+English: Equal pressure gives F ÷ 10 = 3500 ÷ 350, so F = 100 N."
+F5 Chp 8,radio,SelangorSet22024_Q38,A,B,C,D,C,Selangor Set 2 2024/Picture38.png,"中文：压强相同：F÷20＝7000÷700，所以输入力 F＝200 N。
+English: Equal pressure gives F ÷ 20 = 7000 ÷ 700, so input force F = 200 N."
+F5 Chp 8,radio,Kedah2024_Q39,A,B,C,D,A,Kedah 2024/Picture39.png,"中文：Bunsen 灯喷口气流快、压强低，吸入外界空气，应用伯努利原理。
+English: Fast gas flow at a Bunsen burner jet lowers pressure and draws in air, applying Bernoulli's principle."
+F5 Chp 8,radio,Kelantan2024_Q39,A,B,C,D,C,Kelantan 2024/Picture39.png,"中文：C 位于机翼下方，气流较慢、压强较高；上方较快气流形成较低压强。
+English: C is below the wing, where slower airflow gives higher pressure than the faster airflow above."
+F5 Chp 8,radio,KelantanYik2024_Q39,A,B,C,D,B,Kelantan YIK 2024/Picture39.png,"中文：按答案，X 水位 K 高于 Z 的 L，表示流体经过管道后压强较低；中间狭窄处流速最快、压强最低。
+English: According to the key, X reaches K and Z reaches L, indicating lower downstream pressure; the narrow middle section has the fastest flow and lowest pressure."
+F5 Chp 8,radio,Melaka2024_Q39,A,B,C,D,A,Melaka 2024/Picture39.png,"中文：伯努利原理：流体流速越快，压强越低；狭窄处水流快、测压水柱较低。
+English: Bernoulli's principle states that faster fluid flow has lower pressure; the narrow section has faster flow and a lower pressure column."
+F5 Chp 8,radio,Pahang2024_Q39,A,B,C,D,A,Pahang 2024/Picture39.png,"中文：屋顶上方空气流速较快、压力较低，下方较高的气压把屋顶向上推，符合伯努利原理。
+English: Faster airflow above the roof produces lower pressure; higher pressure below pushes it upward, illustrating Bernoulli's principle."
+F5 Chp 8,radio,Perak2024_Q39,A,B,C,D,D,Perak 2024/Picture39.png,"中文：两活塞压强相同：20÷5＝F÷50，所以输出力 F＝200 N。
+English: The pistons have equal pressure: 20 ÷ 5 = F ÷ 50, giving output force F = 200 N."
+F5 Chp 8,radio,Smka2024_Q39,A,B,C,D,C,SMKA 2024/Picture39.png,"中文：帕斯卡原理指出，密闭液体受到的压力会等量传向各方向，液压系统据此放大力。
+English: Pascal's principle states that pressure applied to an enclosed liquid is transmitted equally in all directions, enabling hydraulic force multiplication."

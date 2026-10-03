@@ -1,26 +1,51 @@
-﻿title,type,question,A,B,C,D,answer,image
-Johor 2025 F4,radio,F4 Bab 1,A,B,C,D,C,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,C,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,D,Picture3.png
-,radio,F4 Bab 3,A,B,C,D,A,Picture4.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture5.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture6.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture7.png
-,radio,F4 Bab 5,A,B,C,D,C,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture10.png
-,radio,F4 Bab 6,A,B,C,D,D,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture12.png
-,radio,F4 Bab 6,A,B,C,D,A,Picture13.png
-,radio,F4 Bab 7,A,B,C,D,A,Picture14.png
-,radio,F4 Bab 7,A,B,C,D,C,Picture15.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture16.png
-,radio,F4 Bab 8,A,B,C,D,B,Picture17.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture18.png
-,radio,F4 Bab 9,A,B,C,D,D,Picture19.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture20.png
-,radio,F4 Bab 10,A,B,C,D,C,Picture21.png
-,radio,F4 Bab 11,A,B,C,D,B,Picture22.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture23.png
-,radio,F4 Bab 12,A,B,C,D,A,Picture24.png
-,radio,F4 Bab 12,A,B,C,D,A,Picture25.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Johor 2025 F4,radio,F4 Bab 1,A,B,C,D,C,Picture1.png,"中文：少量、稀且不危险的水溶液如小苏打溶液可按实验室规定排入水槽；油、浓酸及固体不可。
+English: A small amount of dilute, non-hazardous baking soda solution can be disposed of according to laboratory rules; oil, concentrated acid and solids cannot."
+,radio,F4 Bab 1,A,B,C,D,C,Picture2.png,"中文：针头及注射器属于A类尖锐生物废物，须放入专用锐器容器。
+English: Needles and syringes are Category A sharp biological waste and belong in a sharps container."
+,radio,F4 Bab 2,A,B,C,D,D,Picture3.png,"中文：按课本急救顺序先检查反应，再评估呼吸并求援；CPR不是所有昏迷者都立即进行。
+English: The textbook sequence begins by checking responsiveness, followed by breathing assessment and help; unconsciousness alone does not automatically require CPR."
+,radio,F4 Bab 3,A,B,C,D,A,Picture4.png,"中文：150/95 mmHg在本题课本范围属于高血压读数；长期偏高与高血压相符。
+English: In the textbook classification, a persistently elevated reading of 150/95 mmHg indicates hypertension."
+,radio,F4 Bab 3,A,B,C,D,C,Picture5.png,"中文：正常BMI约18.5至24.9 kg m⁻²，21在正常范围；26和29属于超重。
+English: A BMI of 21 kg m⁻² lies within the normal range of about 18.5–24.9; 26 and 29 indicate overweight."
+,radio,F4 Bab 4,A,B,C,D,C,Picture6.png,"中文：太阳能车减少直接燃烧化石燃料，因此可减少温室气体排放。
+English: Solar-powered vehicles reduce direct fossil-fuel combustion and can lower greenhouse gas emissions."
+,radio,F4 Bab 5,A,B,C,D,B,Picture7.png,"中文：图为有丝分裂，产生两个染色体数目相同的子细胞，在体细胞中进行以生长及修复。
+English: The diagram shows mitosis, producing two cells with the same chromosome number in somatic tissues for growth and repair."
+,radio,F4 Bab 5,A,B,C,D,C,Picture8.png,"中文：核型图显示染色体数目异常，属于染色体突变，而非单一基因变化。
+English: Abnormal chromosome numbers visible in a karyotype indicate a chromosomal mutation rather than a change in one gene."
+,radio,F4 Bab 5,A,B,C,D,B,Picture9.png,"中文：羊膜穿刺取得胎儿细胞以分析遗传资料，可提早发现胎儿的某些遗传异常。
+English: Amniocentesis obtains fetal cells for genetic analysis and can detect certain fetal abnormalities before birth."
+,radio,F4 Bab 5,A,B,C,D,A,Picture10.png,"中文：钟形且连续的直方图表示连续变异；身高具有范围内的许多中间值。
+English: The continuous, bell-shaped histogram represents continuous variation, such as height with many intermediate values."
+,radio,F4 Bab 6,A,B,C,D,D,Picture11.png,"中文：内骨骼随身体生长，不必像外骨骼动物那样蜕皮。
+English: An endoskeleton grows with the body, allowing growth without moulting."
+,radio,F4 Bab 6,A,B,C,D,C,Picture12.png,"中文：二头肌收缩、三头肌放松使前臂向上弯曲；两者是拮抗肌。
+English: The biceps contracts while the triceps relaxes, bending the forearm upward; they are an antagonistic pair."
+,radio,F4 Bab 6,A,B,C,D,A,Picture13.png,"中文：睡莲为水生植物，水的浮力支撑其叶及其他部分。
+English: The water lily is an aquatic plant supported by the buoyancy of water."
+,radio,F4 Bab 7,A,B,C,D,A,Picture14.png,"中文：肾上腺素触发应急反应，使心跳、呼吸加快及瞳孔扩大。
+English: Adrenaline produces the fight-or-flight response, increasing heart rate and breathing rate and dilating pupils."
+,radio,F4 Bab 7,A,B,C,D,C,Picture15.png,"中文：髓鞘帮助神经冲动快速传递，损坏后冲动传导变慢或受阻。
+English: Myelin supports efficient nerve impulse transmission; damage slows or disrupts conduction."
+,radio,F4 Bab 8,A,B,C,D,D,Picture16.png,"中文：由内向外数电子为2、8、8、1，所以排列是2.8.8.1；H在这里是代号，不是氢元素符号。
+English: Counting from the inner shell gives 2, 8, 8 and 1 electrons, so the arrangement is 2.8.8.1; H is a label here, not hydrogen."
+,radio,F4 Bab 8,A,B,C,D,B,Picture17.png,"中文：碳-14可用于测定古代含碳生物遗物的年代；钴-60用于癌症治疗。
+English: Carbon-14 dates ancient carbon-containing remains; cobalt-60 is used in cancer treatment."
+,radio,F4 Bab 9,A,B,C,D,A,Picture18.png,"中文：MRI使用强磁场，超导材料可让电流高效流动以产生强磁场。
+English: MRI uses strong magnetic fields produced efficiently by superconducting materials."
+,radio,F4 Bab 9,A,B,C,D,D,Picture19.png,"中文：陶瓷耐高温及耐腐蚀，D的陶瓷杯符合这些特征。
+English: Ceramics resist heat and corrosion; the ceramic mug in D matches these properties."
+,radio,F4 Bab 10,A,B,C,D,D,Picture20.png,"中文：按答案D，自由基引起氧化损伤，可损害肾脏细胞；其损害并不限于单一器官。
+English: Following answer D, free radicals can damage kidney cells through oxidation; their effects are not restricted to one organ."
+,radio,F4 Bab 10,A,B,C,D,C,Picture21.png,"中文：自由基损伤细胞成分，加快老化；抗氧化剂可帮助抵抗这种氧化作用。
+English: Free radicals damage cellular components and contribute to premature ageing; antioxidants counter oxidation."
+,radio,F4 Bab 11,A,B,C,D,B,Picture22.png,"中文：4至6秒位移从6升至10 m，5秒为中点，位移8 m。
+English: Displacement rises from 6 to 10 m between 4 and 6 s; at the midpoint, 5 s, it is 8 m."
+,radio,F4 Bab 11,A,B,C,D,A,Picture23.png,"中文：自由落体指只受重力作用的下落；真空中没有空气阻力。
+English: Free fall is motion under gravity alone; a vacuum removes air resistance."
+,radio,F4 Bab 12,A,B,C,D,A,Picture24.png,"中文：铀核裂变释放大量热能，可用作核反应堆燃料。
+English: Uranium undergoes nuclear fission, releasing heat as fuel in a nuclear reactor."
+,radio,F4 Bab 12,A,B,C,D,A,Picture25.png,"中文：P指流经反应堆的冷却剂，吸收并带走核裂变产生的热。
+English: P indicates the coolant, which absorbs and carries away heat released by nuclear reactions."

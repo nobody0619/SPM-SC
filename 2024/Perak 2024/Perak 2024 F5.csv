@@ -1,18 +1,35 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perak 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：图中是出芽繁殖的酵母，发酵时释放二氧化碳，使面团膨胀，应用于制面包。
+English: The budding microorganism is yeast, which releases carbon dioxide during fermentation to make bread dough rise."
+,radio,F5 Chp 1,A,B,C,D,C,Picture25.png,"中文：按答案纸 C，本题将红色小疹点的传染皮肤病视为病毒引起，因此配抗病毒药；题干没有直接写病名，不能单凭这些症状诊断所有皮肤病。
+English: Following answer C, the question treats the contagious red, spot-like skin illness as viral and pairs it with antivirals. No disease is named, so these symptoms alone cannot identify every skin condition."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：早餐目标＝2200×25%＝550 kJ。D 的热量＝9×15.5＋10×10.5＋1×30＋100×2.6＝534.5 kJ，最接近目标。
+English: Breakfast target = 2200 × 25% = 550 kJ. D provides 9 × 15.5 + 10 × 10.5 + 1 × 30 + 100 × 2.6 = 534.5 kJ, closest to the target."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：P 把土壤氮转为氮气返回大气，维持大气氮含量；Q 经豆科根瘤菌固氮，最终增加土壤氮养分和硝酸盐。
+English: P returns soil nitrogen to the atmosphere as nitrogen gas, maintaining atmospheric nitrogen. Q involves nitrogen fixation by legume root-nodule bacteria, ultimately increasing soil nitrogen nutrients and nitrates."
+,radio,F5 Chp 2,A,B,C,D,B,Picture28.png,"中文：图中是牛奶，巴氏杀菌以适当温度短时加热后快速冷却，减少致病微生物并延长保存期。
+English: The product is milk; pasteurisation heats it briefly at a suitable temperature and cools it rapidly, reducing pathogens and extending storage life."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：把饮料罐升级再造成其他有用途的产品，可减少废弃物和污染。
+English: Upcycling drink cans into other useful products reduces waste and pollution."
+,radio,F5 Chp 2,A,B,C,D,B,Picture30.png,"中文：优良品种有适合的遗传特征，是生产高品质玉米的直接方法。
+English: A quality crop variety has suitable inherited traits and directly supports production of high-quality maize."
+,radio,F5 Chp 4,A,B,C,D,D,Picture31.png,"中文：烟花爆炸在极短时间释放大量能量，是快速反应；腐烂和生锈较慢。
+English: Fireworks release large amounts of energy in a very short time, making them a fast reaction; decay and rusting are slower."
+,radio,F5 Chp 4,A,B,C,D,D,Picture32.png,"中文：接触法用五氧化二钒作为催化剂，加快二氧化硫和氧气生成三氧化硫的反应。
+English: The Contact process uses vanadium(V) oxide as a catalyst to speed up sulphur dioxide reacting with oxygen to form sulphur trioxide."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：丁烷和己烷都是烷烃，只有碳碳单键，符合通式 CnH2n+2。
+English: Butane and hexane are alkanes with only carbon–carbon single bonds, fitting CnH2n+2."
+,radio,F5 Chp 5,A,B,C,D,A,Picture34.png,"中文：酒精可燃烧产生蓝色、少烟或无烟的火焰，符合图中观察。
+English: Alcohol burns with a blue, largely soot-free flame, matching the observation."
+,radio,F5 Chp 5,A,B,C,D,B,Picture35.png,"中文：玉米油与氢氧化钠进行皂化，生成肥皂和甘油；P 是可溶于水的肥皂。
+English: Corn oil reacts with sodium hydroxide in saponification to produce soap and glycerol; P is soap, which dissolves in water."
+,radio,F5 Chp 6,A,B,C,D,C,Picture36.png,"中文：电池中的化学反应把储存的化学能转变为电能。
+English: Chemical reactions in a battery convert stored chemical energy into electrical energy."
+,radio,F5 Chp 6,A,B,C,D,D,Picture37.png,"中文：D 中 R＝镁、S＝铁、T＝铜。镁比铁活泼，I 中铁为正极而增厚；II 中铁比铜活泼，失电子溶解而变薄。
+English: In D, R is magnesium, S iron and T copper. Magnesium is more reactive than iron, so iron is positive and thickens in I; iron is more reactive than copper and dissolves, becoming thinner in II."
+,radio,F5 Chp 7,A,B,C,D,C,Picture38.png,"中文：凹透镜形成正立、缩小的虚像，所以正确特点是缩小。
+English: A concave lens forms an upright, diminished virtual image, so the correct characteristic is diminished."
+,radio,F5 Chp 8,A,B,C,D,D,Picture39.png,"中文：两活塞压强相同：20÷5＝F÷50，所以输出力 F＝200 N。
+English: The pistons have equal pressure: 20 ÷ 5 = F ÷ 50, giving output force F = 200 N."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：十进制度数＝度＋分÷60＋秒÷3600。纬度＝6＋17÷60＋28.81÷3600＝6.291336；经度＝99＋43÷60＋44.18÷3600＝99.728939≈99.728940。
+English: Decimal degrees = degrees + minutes ÷ 60 + seconds ÷ 3600. Latitude = 6 + 17 ÷ 60 + 28.81 ÷ 3600 = 6.291336; longitude = 99 + 43 ÷ 60 + 44.18 ÷ 3600 = 99.728939 ≈ 99.728940."

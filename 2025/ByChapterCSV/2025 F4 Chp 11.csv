@@ -1,0 +1,51 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 11,radio,Muar2025_Q18,A,B,C,D,D,Muar 2025/Picture18.png,"中文：20 cm的纸带包含5个时间间隔，每个0.02 s。总时间=5×0.02=0.10 s；平均速度=20÷0.10=200 cm s⁻¹，选D。
+English: The 20 cm section contains five time intervals of 0.02 s each. Total time = 5 × 0.02 = 0.10 s; average speed = 20 ÷ 0.10 = 200 cm s⁻¹, giving D."
+F4 Chp 11,radio,Pahang2025_Q18,A,B,C,D,B,Pahang 2025/Picture18.png,"中文：平均速度=总距离÷时间=200÷25=8.00 m s⁻¹，因此选B。
+English: Average speed = total distance ÷ time = 200 ÷ 25 = 8.00 m s⁻¹, so B is correct."
+F4 Chp 11,radio,PasirGudang2025_Q18,A,B,C,D,C,Pasir Gudang 2025/Picture18.png,"中文：自由落体是物体只受重力作用的下落。真空中没有空气阻力，因此羽毛和硬币可同时落地。
+English: Free fall is motion under gravity alone. With no air resistance in a vacuum, the feather and coin can reach the ground together."
+F4 Chp 11,radio,Kelantan2025_Q19,A,B,C,D,D,Kelantan 2025/Picture19.png,"中文：加速度 =(15−5)÷2 =5 m s⁻²。
+English: Acceleration =(15−5)÷2 =5 m s⁻²."
+F4 Chp 11,radio,KualaLumpur2025_Q19,A,B,C,D,D,Kuala Lumpur 2025/Picture19.png,"中文：地表重力加速度约9.8 m s⁻²，SPM计算常取10 m s⁻²。
+English: Gravitational acceleration near Earth's surface is about9.8 m s⁻², often rounded to10 m s⁻² in SPM calculations."
+F4 Chp 11,radio,Melaka2025_Q19,A,B,C,D,B,Melaka 2025/Picture19.png,"中文：速度等于位移图斜率：(0−30)÷(25−15) =−3.0 m s⁻¹；负号表示反方向。
+English: Velocity is the displacement-graph gradient: (0−30)÷(25−15) =−3.0 m s⁻¹, indicating motion in the opposite direction."
+F4 Chp 11,radio,NegeriSembilan2025_Q19,A,B,C,D,C,Negeri Sembilan 2025/Picture19.png,"中文：速度=距离÷时间=100÷20=5 m s⁻¹。速度的单位是m s⁻¹，不是加速度的m s⁻²。
+English: Speed = distance ÷ time = 100 ÷ 20 = 5 m s⁻¹. Its unit is m s⁻¹, not the acceleration unit m s⁻²."
+F4 Chp 11,radio,Pahang2025_Q19,A,B,C,D,D,Pahang 2025/Picture19.png,"中文：装满物品的手推车质量更大、惯性更大，因此比空车更难开始移动。这与装水罐较难停止的概念相同。
+English: A fully loaded trolley has greater mass and inertia, making it harder to start moving than an empty trolley. This is the same concept as the water-filled can being harder to stop."
+F4 Chp 11,radio,Penang2025_Q19,A,B,C,D,C,Penang 2025/Picture19.png,"中文：位移是速度—时间图下的面积。0至10 s的面积=½×6×15+4×15=45+60=105 m，选C。
+English: Displacement is the area under the velocity–time graph. From 0 to 10 s, area = ½ × 6 × 15 + 4 × 15 = 45 + 60 = 105 m, giving C."
+F4 Chp 11,radio,Perak2025_Q19,A,B,C,D,A,Perak 2025/Picture19.png,"中文：加速度=(末速度−初速度)÷时间=(20−0)÷4=5 m s⁻²，因此选A。
+English: Acceleration = (final velocity − initial velocity) ÷ time = (20 − 0) ÷ 4 = 5 m s⁻², giving A."
+F4 Chp 11,radio,Selangor2025_Q19,A,B,C,D,A,Selangor 2025/Picture19.png,"中文：真空没有空气阻力，物体下落时可只受重力作用，符合自由落体条件。
+English: A vacuum has no air resistance, allowing a falling object to move under gravity alone, which meets the condition for free fall."
+F4 Chp 11,radio,Kelantan2025_Q20,A,B,C,D,C,Kelantan 2025/Picture20.png,"中文：11个点有10个间隔，时间10÷50 =0.20 s；速度0.065÷0.20 =0.325 m s⁻¹，应为A。现有答案C的32.50未把厘米换成米。
+English: Eleven dots give ten intervals: time =10÷50 =0.20 s. Speed =0.065÷0.20 =0.325 m s⁻¹, option A. Existing answer C, 32.50, fails to convert centimetres to metres."
+F4 Chp 11,radio,Melaka2025_Q20,A,B,C,D,A,Melaka 2025/Picture20.png,"中文：较大质量有较大惯性，更难改变原来的运动状态。
+English: Greater mass gives greater inertia, making the original state of motion harder to change."
+F4 Chp 11,radio,NegeriSembilan2025_Q20,A,B,C,D,A,Negeri Sembilan 2025/Picture20.png,"中文：装沙的罐质量较大，较难改变运动状态，因此惯性较大，摆动较久。结论是质量越大，惯性越大。
+English: The sand-filled can has greater mass and resists changes in motion more strongly, so it has greater inertia and swings for longer. Greater mass means greater inertia."
+F4 Chp 11,radio,Penang2025_Q20,A,B,C,D,A,Penang 2025/Picture20.png,"中文：橙子从树上落下时受重力加速，向下的速度逐渐增加，因此选A。
+English: As the orange falls, gravity accelerates it and its downward velocity increases, so A is correct."
+F4 Chp 11,radio,Perak2025_Q20,A,B,C,D,A,Perak 2025/Picture20.png,"中文：自由落体只受重力作用，不包括空气阻力或其他阻力，因此A符合定义。
+English: Free fall is motion under gravity alone, without air resistance or other resistive forces, so A matches the definition."
+F4 Chp 11,radio,Kedah2025_Q21,A,B,C,D,B,Kedah 2025/Picture21.png,"中文：平均速度 =150÷30 =5 m s⁻¹；题目把距离当作同方向的位移。
+English: Average velocity =150÷30 =5 m s⁻¹, treating the journey as motion in one direction."
+F4 Chp 11,radio,Perak2025_Q21,A,B,C,D,C,Perak 2025/Picture21.png,"中文：K较难停止，表示惯性较大；L较快停止，惯性较小，因此选C。惯性与质量有关。
+English: K takes longer to stop, indicating greater inertia. L stops sooner and has smaller inertia, so C is correct. Inertia depends on mass."
+F4 Chp 11,radio,Johor2025_Q22,A,B,C,D,B,Johor 2025/Picture22.png,"中文：4至6秒位移从6升至10 m，5秒为中点，位移8 m。
+English: Displacement rises from 6 to 10 m between 4 and 6 s; at the midpoint, 5 s, it is 8 m."
+F4 Chp 11,radio,Kedah2025_Q22,A,B,C,D,A,Kedah 2025/Picture22.png,"中文：P无空气阻力，硬币和羽毛同时落地；Q有空气阻力，羽毛受影响较大。
+English: P has no air resistance, so both fall together; Q has air resistance, which affects the feather more."
+F4 Chp 11,radio,Putrajaya2025_Q22,A,B,C,D,C,Putrajaya 2025/Picture22.png,"中文：风扇叶有惯性，倾向保持原来的运动状态，所以断电后仍转动一段时间，直到阻力使其停止。
+English: The fan blades have inertia and tend to maintain their motion, so they continue rotating after power is switched off until resistance brings them to rest."
+F4 Chp 11,radio,Johor2025_Q23,A,B,C,D,A,Johor 2025/Picture23.png,"中文：自由落体指只受重力作用的下落；真空中没有空气阻力。
+English: Free fall is motion under gravity alone; a vacuum removes air resistance."
+F4 Chp 11,radio,Perlis2025_Q23,A,B,C,D,C,Perlis 2025/Picture23.png,"中文：20至30 s，速度由20降至0 m s⁻¹。加速度=(0−20)÷(30−20)=−2.00 m s⁻²，负号表示减速。
+English: From 20 to 30 s, velocity falls from 20 to 0 m s⁻¹. Acceleration = (0 − 20) ÷ (30 − 20) = −2.00 m s⁻², where the negative sign indicates deceleration."
+F4 Chp 11,radio,Putrajaya2025_Q23,A,B,C,D,C,Putrajaya 2025/Picture23.png,"中文：惯性随质量增加而增加。多载一名乘客提高总质量，因此增加摩托车和乘客整体的惯性。
+English: Inertia increases with mass. Carrying another passenger increases total mass and therefore the inertia of the motorcycle–passenger system."
+F4 Chp 11,radio,Perlis2025_Q24,A,B,C,D,A,Perlis 2025/Picture24.png,"中文：分隔油罐可限制液体在加速或刹车时大幅流动，减少液体惯性造成的冲击，提高稳定性。
+English: Compartments limit large movements of oil during acceleration or braking, reducing impacts caused by the liquid's inertia and improving stability."

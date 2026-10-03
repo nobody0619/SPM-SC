@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,A,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：依题目，口罩用于减少吸入有害物质，因此选B。不过易挥发化学品可能产生蒸气，普通口罩不能保证防护所有化学蒸气，应使用适当防护及通风设备。
+English: The question selects a face mask to reduce inhalation of harmful substances, giving B. However, volatile chemicals may produce vapours; an ordinary mask does not guarantee protection against all chemical vapours, so suitable protection and ventilation are needed."
+,radio,F4 Chp 1,A,B,C,D,A,Picture2.png,"中文：血液属于液态生物危害废物。依课本程序，必须先经高压灭菌处理，之后才按实验室规定处理；针头不可倒入水槽。
+English: Blood is liquid biological hazardous waste. Under the textbook procedure, it must first be autoclaved and then disposed of according to laboratory rules. Needles must never be put in a sink."
+,radio,F4 Chp 2,A,B,C,D,B,Picture3.png,"中文：海姆立克急救法用于气道被异物堵塞的噎住情况，通过腹部推压帮助排出异物。
+English: The Heimlich manoeuvre is used for choking caused by an airway obstruction. Abdominal thrusts help expel the object."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：图中血压约152/90 mmHg。依本题课本分类，收缩压140至159或舒张压90至99属于第一期高血压，因此选C。
+English: The reading is approximately 152/90 mmHg. Under this question's textbook classification, systolic pressure of 140–159 or diastolic pressure of 90–99 is stage 1 hypertension, giving C."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：BMI=57÷1.73²=19.05 kg m⁻²，因此选C。
+English: BMI = 57 ÷ 1.73² = 19.05 kg m⁻², so C is correct."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：依本题课本资料，纸张是固体废物的重要主要来源，因此答案取B。减少用纸、重复使用和回收有助降低这类废物。
+English: According to the textbook context used by this question, paper is a major contributor to solid waste, giving B. Reducing paper use, reusing it and recycling help lower this waste."
+,radio,F4 Chp 4,A,B,C,D,C,Picture7.png,"中文：提高LRT班次可吸引更多人使用公共交通，减少私人车辆及相关排放，因此选C。电动车优惠也可能有帮助，但答案着重公共交通。
+English: More frequent LRT services encourage public transport use and reduce private vehicles and related emissions, supporting C. Electric-vehicle incentives may also help, but the key emphasises public transport."
+,radio,F4 Chp 4,A,B,C,D,D,Picture8.png,"中文：生物燃料车和电动车是课程中减少传统化石燃料使用及温室气体排放的措施，因此选D。
+English: Biofuel and electric vehicles are course examples of reducing conventional fossil-fuel use and greenhouse-gas emissions, so D is correct."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：依SPM简化遗传模型，黑发是显性性状；蓝眼、贴附耳垂和不能卷舌列为隐性，因此选A。
+English: In the simplified SPM inheritance model, black hair is dominant, while blue eyes, attached earlobes and inability to roll the tongue are recessive, so A is correct."
+,radio,F4 Chp 5,A,B,C,D,C,Picture10.png,"中文：色盲常由X染色体上的隐性等位基因引起。男性只有一条X染色体，带有该等位基因时较容易表现，因此较常见。
+English: Colour blindness is commonly caused by a recessive allele on the X chromosome. Males have only one X, so they express the trait more readily if it carries that allele."
+,radio,F4 Chp 5,A,B,C,D,D,Picture11.png,"中文：基因改造可把细菌的特定基因转入植物，使植物获得新特征，例如抗虫性。D符合课程中的GMO例子。
+English: Genetic modification can transfer a specific bacterial gene into a plant to give it a new trait, such as pest resistance. D matches the GMO example used in the course."
+,radio,F4 Chp 6,A,B,C,D,C,Picture12.png,"中文：袋鼠把尾巴撑在地面上，可增加支撑底面积并帮助平衡，减少站立时倒下的机会。
+English: A kangaroo supports its tail on the ground to enlarge its base of support and improve balance, reducing the chance of falling while standing."
+,radio,F4 Chp 6,A,B,C,D,B,Picture13.png,"中文：陆生非木本植物主要依靠细胞膨压。细胞吸水后变得饱满，对细胞壁施压，使组织保持挺立。
+English: Non-woody land plants mainly rely on cell turgidity. Water-filled cells press against their walls, helping the tissues remain upright."
+,radio,F4 Chp 7,A,B,C,D,D,Picture14.png,"中文：幻觉剂会改变感官知觉，使人听到或看到不存在的事物，因此选D。
+English: Hallucinogens alter sensory perception and can make a person hear or see things that are not present, so D is correct."
+,radio,F4 Chp 8,A,B,C,D,C,Picture15.png,"中文：P位于第13族、第2周期，是硼。电子排列2.3，共5个电子，所以中性原子的质子数为5。
+English: P is in Group 13, Period 2, corresponding to boron. Its electron arrangement is 2.3, giving five electrons and a proton number of five in a neutral atom."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：钢主要由铁与少量碳组成，因此制造钢所用的主要金属是铁。
+English: Steel consists mainly of iron with a small amount of carbon, so iron is the principal metal used to make it."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：现代医疗的柱最高，表示采用现代医疗的居民人数最多，因此它是主要选择。
+English: Modern medicine has the tallest bar, indicating the largest number of residents using it, so it is the main choice."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：这些食物含抗氧化物，能帮助中和自由基，减少自由基对细胞的损伤，因此选C。
+English: These foods contain antioxidants that help neutralise free radicals and reduce damage to cells, so C is correct."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：真空没有空气阻力，物体下落时可只受重力作用，符合自由落体条件。
+English: A vacuum has no air resistance, allowing a falling object to move under gravity alone, which meets the condition for free fall."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：核事故可释放放射性物质，威胁健康并使居民撤离，失去安全住所。D最直接对应题目描述。
+English: A nuclear accident can release radioactive material, threatening health and forcing residents to evacuate and lose safe homes. D most directly matches the description."

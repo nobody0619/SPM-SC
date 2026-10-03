@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Pahang 2024,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,A,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture15.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture17.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang 2024,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：氯化钠溶液是中性盐溶液，符合课本可排入水槽的废液类别；汽油及浓酸、浓碱不适合。
+English: Sodium chloride solution is a neutral salt solution suitable for sink disposal under the textbook rules; petrol and concentrated acids or alkalis are unsuitable."
+,radio,F4 Chp 1,A,B,C,D,A,Picture2.png,"中文：泡沫能覆盖燃烧物并隔绝氧气，可扑灭纸和木材等 A 类固体火灾。
+English: Foam covers burning materials and excludes oxygen, so it can extinguish Class A fires involving paper and wood."
+,radio,F4 Chp 2,A,B,C,D,B,Picture3.png,"中文：哈姆立克法通过腹部向内向上挤压，增加肺内压力，把阻塞气道的异物推出。
+English: The Heimlich manoeuvre increases pressure in the lungs through inward and upward abdominal thrusts, expelling the airway obstruction."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：年龄会影响脉搏率，通常儿童的静息脉搏比成年人快。
+English: Age affects pulse rate; children generally have a faster resting pulse than adults."
+,radio,F4 Chp 3,A,B,C,D,B,Picture5.png,"中文：BMI＝60÷1.70²＝20.76 kg/m²，落在正常、理想体重范围。
+English: BMI = 60 ÷ 1.70² = 20.76 kg/m², which lies within the desirable weight range."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：图中是风力发电机，利用风能发电，运作时不燃烧化石燃料，因此产生清洁能源。
+English: The wind turbines generate electricity from wind without burning fossil fuels during operation, producing clean energy."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：绿色交通层级中，步行后是自行车；P 所示的低层位置代表自行车，使用时不排放废气。
+English: In the green transport hierarchy, cycling follows walking. P represents bicycles, which produce no exhaust during use."
+,radio,F4 Chp 5,A,B,C,D,A,Picture8.png,"中文：图中同源染色体分离并移向两极，每条染色体仍含两个姐妹染色单体，因此是减数分裂后期 I。
+English: Homologous chromosomes move to opposite poles while each chromosome still has two sister chromatids, identifying anaphase I of meiosis."
+,radio,F4 Chp 5,A,B,C,D,B,Picture9.png,"中文：Kk 父亲与 kk 母亲交配，子代一半 Kk、一半 kk，所以卷发的概率是 50%。
+English: A Kk father crossed with a kk mother produces half Kk and half kk offspring, giving a 50% probability of curly hair."
+,radio,F4 Chp 5,A,B,C,D,D,Picture10.png,"中文：人类胰岛素基因可插入细菌质粒，细菌随后大量繁殖并生产胰岛素。
+English: The human insulin gene can be inserted into a bacterial plasmid, allowing bacteria to multiply and produce insulin."
+,radio,F4 Chp 6,A,B,C,D,C,Picture11.png,"中文：C 指向骨端的软骨；软骨减少骨与骨之间的摩擦，并吸收震动。
+English: C points to cartilage at the bone end; cartilage reduces friction between bones and absorbs shocks."
+,radio,F4 Chp 7,A,B,C,D,D,Picture12.png,"中文：毒品可干扰神经系统的协调，使神经对刺激的反应变慢。
+English: Drugs can disrupt nervous coordination and slow the nervous system's response to stimuli."
+,radio,F4 Chp 8,A,B,C,D,C,Picture13.png,"中文：金是固态元素，其原子紧密而规则排列；C 显示相同大小的原子规则排列。
+English: Gold is a solid element with closely packed, regularly arranged atoms; C shows this arrangement of equal-sized atoms."
+,radio,F4 Chp 9,A,B,C,D,C,Picture14.png,"中文：硼硅酸盐玻璃耐热、热膨胀小，适合制作实验室玻璃器具。
+English: Borosilicate glass withstands heat and has low thermal expansion, making it suitable for laboratory glassware."
+,radio,F4 Chp 10,A,B,C,D,A,Picture15.png,"中文：按课本对疗法的描述，使用高度稀释的物质以刺激身体抵抗力的是顺势疗法；这里是在辨认疗法名称。
+English: The textbook identifies homeopathy as using highly diluted substances to stimulate the body's resistance; this question asks for the therapy's name."
+,radio,F4 Chp 10,A,B,C,D,D,Picture16.png,"中文：身体的代谢过程可产生自由基，因此属于体内来源；辐射、污染和烟雾等属外在因素。
+English: Metabolic processes can produce free radicals inside the body, whereas radiation, pollution and smoke are external sources."
+,radio,F4 Chp 11,A,B,C,D,B,Picture17.png,"中文：加速度＝(25－0)÷10＝2.5 m/s²。
+English: Acceleration = (25 − 0) ÷ 10 = 2.5 m/s²."
+,radio,F4 Chp 11,A,B,C,D,C,Picture18.png,"中文：装沙的罐质量较大，惯性较大，更抗拒运动状态改变，因此摆动持续较久。
+English: The sand-filled can has greater mass and inertia, resisting changes in motion and continuing to oscillate longer."
+,radio,F4 Chp 12,A,B,C,D,B,Picture19.png,"中文：缺乏其他能源的国家可利用核能提供大量电力，这是采用核能的重要原因。
+English: Countries lacking other energy resources can use nuclear power to generate large amounts of electricity."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：按本题课本分类，白血病和白内障列为体细胞效应；细胞突变及后代畸形列为遗传效应，因此 D 配对正确。
+English: Under this question's textbook classification, leukaemia and cataracts are somatic effects, while cell mutations and offspring deformities are genetic effects, matching D."
+,radio,F5 Chp 1,A,B,C,D,A,Picture21.png,"中文：图中的酵母用于制作面包；发酵释放二氧化碳，使面团膨胀。
+English: The yeast shown is used in bread making; fermentation releases carbon dioxide that makes dough rise."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：接种前在皮肤使用的是消毒防腐剂，可杀死或抑制皮肤表面的微生物。
+English: An antiseptic is applied to skin before vaccination to kill or inhibit microorganisms on its surface."
+,radio,F5 Chp 2,A,B,C,D,D,Picture23.png,"中文：总热量＝10×16.7＋15×16.7＋6×37.6＝643.1 kJ。
+English: Total energy = 10 × 16.7 + 15 × 16.7 + 6 × 37.6 = 643.1 kJ."
+,radio,F5 Chp 2,A,B,C,D,C,Picture24.png,"中文：P 把动物蛋白质分解成铵化合物，是分解作用；Q 把铵转变为硝酸盐，是硝化作用。
+English: P breaks animal proteins down into ammonium compounds, so it is decomposition. Q converts ammonium to nitrates, so it is nitrification."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：选择产奶量高的牛进行育种，可获得产奶量较高的后代，提高牛奶产量。
+English: Selective breeding of high-yield dairy cattle produces offspring with higher milk yields, increasing milk production."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：X 的低温加热后迅速冷却是巴氏杀菌，可用于果汁；Y 脱水制干果；Z 发酵可生产天贝，因此选 C。
+English: X uses heating followed by rapid cooling for pasteurisation of juice; Y dehydrates fruit; Z uses fermentation to produce tempeh, matching C."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：核废料、电子废料等若处理不当，会把有害物质带入土壤，造成土壤污染。
+English: Improper disposal of nuclear and electronic waste introduces harmful substances into soil, causing soil pollution."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：微藻通过光合作用吸收二氧化碳，因此能帮助降低环境中的碳排放。
+English: Microalgae absorb carbon dioxide through photosynthesis, helping reduce carbon emissions in the environment."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：反应在 80 s 已完成，产生 30 cm³ 气体；平均速率＝30÷80＝0.375≈0.38 cm³/s，不用后续停止反应的时间。
+English: The reaction finishes at 80 s after producing 30 cm³ of gas. Average rate = 30 ÷ 80 = 0.375 ≈ 0.38 cm³/s, excluding time after completion."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：接触法使用五氧化二钒作为催化剂，加速二氧化硫氧化成三氧化硫。
+English: The Contact process uses vanadium(V) oxide as a catalyst to speed up oxidation of sulphur dioxide to sulphur trioxide."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：图中的烃只有碳碳单键，属于烷烃，其通式是 CnH2n+2。
+English: The hydrocarbon contains only carbon–carbon single bonds, so it is an alkane with general formula CnH2n+2."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：酵母中的酶使葡萄糖在缺氧条件下分解成乙醇和二氧化碳，这个过程是发酵。
+English: Yeast enzymes break glucose down into ethanol and carbon dioxide without oxygen; this process is fermentation."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：K 是乳酪，按课本属于较多饱和脂肪、熔点较高；L 是玉米油，较多不饱和脂肪、熔点较低。
+English: K is cheese, classified as richer in saturated fat with a higher melting point; L is corn oil, richer in unsaturated fat with a lower melting point."
+,radio,F5 Chp 5,A,B,C,D,B,Picture34.png,"中文：R 是果肉（中果皮），储存最多棕榈油；果仁也含油，但不是图中产油最多的部分。
+English: R is the fleshy mesocarp, which contains most palm oil. The kernel also contains oil but is not the main oil-producing part shown."
+,radio,F5 Chp 6,A,B,C,D,D,Picture35.png,"中文：氯化钠溶液含可自由移动的离子，所以能导电，是电解质。
+English: Sodium chloride solution contains freely moving ions and conducts electricity, making it an electrolyte."
+,radio,F5 Chp 6,A,B,C,D,C,Picture36.png,"中文：电压表用于测量两点之间的电位差，即电压。
+English: A voltmeter measures the potential difference, or voltage, between two points."
+,radio,F5 Chp 7,A,B,C,D,D,Picture37.png,"中文：图中实像倒立且放大，凸透镜要形成这种像，物体须放在 F 与 2F 之间。
+English: The image is real, inverted and magnified; a convex lens forms this image when the object is between F and 2F."
+,radio,F5 Chp 7,A,B,C,D,D,Picture38.png,"中文：D 是望远镜，用来观察很远的物体。
+English: D is a telescope, used to observe distant objects."
+,radio,F5 Chp 8,A,B,C,D,A,Picture39.png,"中文：屋顶上方空气流速较快、压力较低，下方较高的气压把屋顶向上推，符合伯努利原理。
+English: Faster airflow above the roof produces lower pressure; higher pressure below pushes it upward, illustrating Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：D 是使用者的 GPS 接收器，接收卫星信号并计算位置，因此属于用户部分。
+English: D is the user's GPS receiver, which receives satellite signals and calculates position, so it belongs to the user segment."

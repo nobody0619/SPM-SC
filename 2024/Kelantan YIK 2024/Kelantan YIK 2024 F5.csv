@@ -1,18 +1,35 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan YIK 2024 F5,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan YIK 2024 F5,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：图示酵母通过发酵产生二氧化碳，令面团膨胀，用于面包和蛋糕制作。
+English: Yeast produces carbon dioxide during fermentation, helping dough rise in bread and cake making."
+,radio,F5 Chp 1,A,B,C,D,D,Picture25.png,"中文：透明区没有明显菌落，表示青霉素抑制了细菌生长。
+English: The clear area lacks bacterial colonies, showing that penicillin inhibits bacterial growth."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：缺维生素 D 影响钙吸收和骨骼矿化，儿童可出现佝偻病。
+English: Vitamin D deficiency impairs calcium absorption and bone mineralisation, causing rickets in children."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：按题目糖尿病饮食概念，减少过多碳水化合物摄入，可减少消化后进入血液的葡萄糖。
+English: In the question's diabetes-diet concept, reducing excessive carbohydrate intake reduces the glucose produced during digestion."
+,radio,F5 Chp 2,A,B,C,D,B,Picture28.png,"中文：原答案 B 写亚硝酸盐转成铵，但图中 J 箭头实际由铵指向亚硝酸盐，是硝化作用，之后形成硝酸盐。B 方向颠倒；A 增加土壤硝酸盐较符合其整体作用。
+English: The key B says nitrite becomes ammonium, but arrow J shows ammonium becoming nitrite during nitrification, followed by nitrate formation. B reverses the process; A better describes its overall contribution to soil nitrate."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：开垦森林作工业用途减少吸收二氧化碳的树木，也可能释放储存碳，增加碳足迹。
+English: Clearing forest for industry reduces carbon uptake and may release stored carbon, increasing the carbon footprint."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：第 6 分钟即 360 秒时曲线已经水平，气体不再增加，瞬时速率为 0.0 cm³/s。
+English: At the sixth minute, 360 s, the curve is horizontal, so no more gas is produced and the rate is 0.0 cm³/s."
+,radio,F5 Chp 4,A,B,C,D,C,Picture31.png,"中文：五氧化二钒催化剂、约一大气压等条件对应接触法，最终产品为硫酸。
+English: Vanadium(V) oxide and about one atmosphere identify the Contact process, whose final product is sulphuric acid."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：乙烷属于烷烃，通式 CnH2n+2；乙烯属于烯烃 CnH2n。
+English: Ethane is an alkane with general formula CnH2n+2; ethene is an alkene with formula CnH2n."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：发酵液蒸馏所得 Z 是乙醇，可作为多种药物的溶剂。
+English: Z obtained by distilling fermented liquid is ethanol, used as a solvent for various medicines."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：若 M 也为锌，两电极相同，没有有效电势差，电流表指针不偏转。
+English: If M is also zinc, both electrodes are identical and provide no effective potential difference, so the ammeter does not deflect."
+,radio,F5 Chp 6,A,B,C,D,A,Picture35.png,"中文：镁位于碳之上，不能用碳还原其氧化物，按课程须电解熔融化合物提取。
+English: Magnesium is above carbon in the reactivity series, so its molten compound is electrolysed rather than reduced with carbon."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：凹透镜对实物始终形成正立、缩小的虚像，物体移远也仍是虚像和缩小像。
+English: A concave lens forms an upright, diminished virtual image of a real object, including when the object moves farther away."
+,radio,F5 Chp 7,A,B,C,D,D,Picture37.png,"中文：放大镜将物体放在凸透镜焦距内，形成正立、放大的虚像。
+English: A magnifying glass places the object inside the focal length of a convex lens to form an upright, enlarged virtual image."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：Bunsen 灯应用伯努利原理；液压千斤顶、液压刹车及牙科椅才利用帕斯卡原理。
+English: A Bunsen burner applies Bernoulli's principle; hydraulic jacks, brakes and dental chairs use Pascal's principle."
+,radio,F5 Chp 8,A,B,C,D,B,Picture39.png,"中文：按答案，X 水位 K 高于 Z 的 L，表示流体经过管道后压强较低；中间狭窄处流速最快、压强最低。
+English: According to the key, X reaches K and Z reaches L, indicating lower downstream pressure; the narrow middle section has the fastest flow and lowest pressure."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：P 是椭圆轨道上最接近地球的位置，称为近地点 perigee；最远的 Q 是远地点。
+English: P is the closest point to Earth in the elliptical orbit, called perigee; the farthest point Q is apogee."

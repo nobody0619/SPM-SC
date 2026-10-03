@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Kedah 2024,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture22.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kedah 2024,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：水型灭火器适合纸张、木材等固体火灾；不用于带电设备或油类火灾。
+English: A water extinguisher is suitable for solid materials such as paper and wood, rather than electrical or oil fires."
+,radio,F4 Chp 2,A,B,C,D,A,Picture2.png,"中文：双手抓住颈部是哽塞的典型求救动作，表示食物可能堵住气道，题目对应 Heimlich Manoeuvre。
+English: Holding the neck with both hands is a typical choking sign, indicating an obstructed airway and matching the Heimlich manoeuvre in this question."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：运动员心肌较强，每次心跳泵出的血较多，休息时较少次心跳已能供应足够血液。
+English: An athlete's stronger heart pumps more blood per beat, so fewer beats are needed to supply the body at rest."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：课本采用的正常血压参考值是 120/80 mmHg，分别代表收缩压和舒张压。
+English: The textbook reference for normal blood pressure is 120/80 mmHg, representing systolic and diastolic pressure respectively."
+,radio,F4 Chp 4,A,B,C,D,D,Picture5.png,"中文：按答案，回收电子废物中的金属可减少废物内有害材料流入环境；制造奖牌也体现资源循环利用。
+English: According to the key, recovering metals from electronic waste reduces harmful materials entering the environment and supports resource recycling."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：二氧化硫溶入雨水形成酸雨，损伤树叶及森林，因此工厂附近树木可受影响。
+English: Sulphur dioxide forms acid rain when dissolved in rainwater, damaging leaves and forests near industrial areas."
+,radio,F4 Chp 5,A,B,C,D,D,Picture7.png,"中文：图中植物油用于制造生物柴油；动物脂肪同样含油脂，可作为替代原料。
+English: Vegetable oil is used to make biodiesel; animal fat also contains fats and can serve as an alternative feedstock."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：Rr × Rr 产生 RR、Rr、Rr、rr，红花占 3/4，白花占 1/4，符合 75%:25%。
+English: Rr × Rr produces RR, Rr, Rr and rr, giving 75% red flowers and 25% white flowers."
+,radio,F4 Chp 5,A,B,C,D,D,Picture9.png,"中文：第 23 组显示 XXY，多了一条 X 性染色体，属于 Klinefelter 综合征。
+English: The 23rd group shows XXY, an extra X chromosome characteristic of Klinefelter syndrome."
+,radio,F4 Chp 5,A,B,C,D,D,Picture10.png,"中文：按课程，天然发色可分成明确类别，是不连续变异；身高、体重和肤色存在连续范围。
+English: In the syllabus, natural hair colour is classified into distinct categories, making it discontinuous variation; height, mass and skin colour vary continuously."
+,radio,F4 Chp 6,A,B,C,D,C,Picture11.png,"中文：毛虫的静水骨骼利用体内液体压力，维持柔软身体的形状。
+English: A caterpillar's hydrostatic skeleton uses internal fluid pressure to maintain its soft body shape."
+,radio,F4 Chp 7,A,B,C,D,B,Picture12.png,"中文：健康心智者能理性思考、推理及解决问题，而不是长期负面猜疑或拒绝挑战。
+English: A healthy mind can reason logically and solve problems rather than relying on negative prejudice or avoiding challenges."
+,radio,F4 Chp 8,A,B,C,D,B,Picture13.png,"中文：铁是由原子构成的金属；铁锈属于含离子的化合物，因此配对是原子、离子。
+English: Iron is an atomic metal, while rust is an ionic compound, so the correct pairing is atoms and ions."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：纸张吸收的辐射量随厚度改变，探测器用此差异监控纸张厚度。
+English: The amount of radiation passing through paper changes with its thickness, allowing the detector to monitor thickness."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：Duralumin 是铝与其他金属组成的合金；铜、铝、镁单独列出时是纯金属元素。
+English: Duralumin is an alloy of aluminium with other metals; copper, aluminium and magnesium are individual metallic elements."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：淀粉是供能的天然聚合物；Perspex 是人造聚合物，可用于制作招牌。
+English: Starch is a natural polymer that supplies energy; Perspex is a synthetic polymer used for signboards."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：较快的治疗、临床验证及较高费用，是题目对现代医学的描述。
+English: Faster treatment, clinical testing and higher costs match the question's description of modern medicine."
+,radio,F4 Chp 10,A,B,C,D,B,Picture18.png,"中文：香烟烟雾中的有害物质促进自由基形成，增加细胞的氧化损伤。
+English: Harmful substances in cigarette smoke increase free-radical formation and oxidative damage to cells."
+,radio,F4 Chp 10,A,B,C,D,D,Picture19.png,"中文：胡萝卜含 β-胡萝卜素，是具有抗氧化作用的色素，也能在体内转化为维生素 A。
+English: Carrots contain beta-carotene, an antioxidant pigment that can also be converted into vitamin A."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：PQ 为上升直线，速度均匀增加，所以加速度恒定；其斜率 = (3 − 1)/(8 − 4) = 0.5 m/s²。
+English: PQ is a rising straight line, so velocity increases with uniform acceleration: (3 − 1)/(8 − 4) = 0.5 m/s²."
+,radio,F4 Chp 11,A,B,C,D,C,Picture21.png,"中文：车辆急转弯时，乘客身体仍倾向保持原来运动方向，这种现象称为惯性。
+English: When a vehicle turns suddenly, the passenger's body tends to continue in its previous direction due to inertia."
+,radio,F4 Chp 12,A,B,C,D,B,Picture22.png,"中文：反应堆中的重原子核分裂，释放热能来加热冷却介质，属于核裂变。
+English: Heavy nuclei split in the reactor, releasing heat to warm the coolant; this process is nuclear fission."
+,radio,F4 Chp 12,A,B,C,D,D,Picture23.png,"中文：核反应产生的电离辐射可能损伤 DNA、造成突变，从而增加癌症风险。
+English: Ionising radiation from nuclear reactions can damage DNA and cause mutations, increasing cancer risk."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：醋令环境呈酸性，抑制细菌生长，使腌制芒果保存较久。
+English: Vinegar creates acidic conditions that inhibit bacterial growth and preserve the mango slices."
+,radio,F5 Chp 1,A,B,C,D,C,Picture25.png,"中文：按题目与答案，图示肺部细菌感染以抗生素治疗；疫苗主要用于预防而非治疗已经发生的感染。
+English: The question and key refer to a bacterial lung infection treated with antibiotics; vaccines mainly prevent infection rather than treat an existing one."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：只供氮和钾表示缺少磷；按课本，缺磷使新芽较小并呈紫色。
+English: Supplying nitrogen and potassium leaves phosphorus deficient; the textbook symptom is smaller, purplish shoots."
+,radio,F5 Chp 2,A,B,C,D,A,Picture27.png,"中文：豆科根瘤中的固氮细菌把空气中的氮转成植物可利用的含氮物质。
+English: Nitrogen-fixing bacteria in legume root nodules convert atmospheric nitrogen into nitrogen compounds usable by plants."
+,radio,F5 Chp 2,A,B,C,D,D,Picture28.png,"中文：图示营养液循环的水耕系统，营养液可重复利用，因此减少肥料浪费。
+English: The hydroponic system recirculates nutrient solution, reducing fertiliser wastage."
+,radio,F5 Chp 3,A,B,C,D,C,Picture29.png,"中文：耗电 = 0.075 × 4 = 0.3 kWh；按给定系数，碳排放 = 0.3/50 × 39 = 0.234 g。
+English: Energy used = 0.075 × 4 = 0.3 kWh; using the given factor, emissions = 0.3/50 × 39 = 0.234 g."
+,radio,F5 Chp 3,A,B,C,D,C,Picture30.png,"中文：污染水含较多可分解废物，微生物消耗更多氧气，所以生化需氧量 BOD 较高。
+English: Polluted water contains more decomposable waste, so microorganisms consume more oxygen and the BOD is higher."
+,radio,F5 Chp 4,A,B,C,D,C,Picture31.png,"中文：甲烷燃烧是快速反应，反应物短时间内大量减少；石油形成、发酵及光合作用较慢。
+English: Methane combustion is a rapid reaction that quickly uses up reactants; petroleum formation, fermentation and photosynthesis are slower."
+,radio,F5 Chp 4,A,B,C,D,C,Picture32.png,"中文：30°C 较 60°C 反应慢，Q 初始斜率较小、较迟结束；反应物量不变，最终氢气体积相同。
+English: At 30°C the reaction is slower, so Q has a smaller initial gradient and finishes later, but the same reactant amount gives the same final gas volume."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：死亡动植物在 X 被分解，碳进入后续循环；图中箭头由动植物指向 X。
+English: Dead plants and animals are decomposed at X, returning their carbon to the cycle as shown by the arrows."
+,radio,F5 Chp 5,A,B,C,D,A,Picture34.png,"中文：酵母使糖发酵，产生乙醇和二氧化碳；蒸馏只是分离乙醇。
+English: Yeast ferments sugar to produce ethanol and carbon dioxide; distillation only separates the ethanol."
+,radio,F5 Chp 5,A,B,C,D,A,Picture35.png,"中文：按 SPM 概念，植物油多含不饱和脂肪，可作为减少饱和脂肪摄入的选择，帮助降低胆固醇积聚。
+English: At SPM level, plant oils generally contain unsaturated fats and can replace saturated fats to help reduce cholesterol build-up."
+,radio,F5 Chp 6,A,B,C,D,B,Picture36.png,"中文：氧气支持燃烧，使带火星的木条重新燃烧，是氧气的标准检验。
+English: Oxygen supports combustion and relights a glowing splint, which is its standard gas test."
+,radio,F5 Chp 7,A,B,C,D,C,Picture37.png,"中文：X 从物体量至凸透镜，称为物距；镜到屏幕才是像距。
+English: X measures from the object to the convex lens, so it is the object distance; lens to screen is the image distance."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：液压系统压强相同：F/4 = 500/100，所以输入力 F = 20 N。
+English: Equal hydraulic pressure gives F/4 = 500/100, so the input force is 20 N."
+,radio,F5 Chp 8,A,B,C,D,A,Picture39.png,"中文：Bunsen 灯喷口气流快、压强低，吸入外界空气，应用伯努利原理。
+English: Fast gas flow at a Bunsen burner jet lowers pressure and draws in air, applying Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：国际空间站设有轨道实验设施，宇航员可在那里进行科学研究。
+English: The International Space Station provides orbital facilities where astronauts carry out scientific research."

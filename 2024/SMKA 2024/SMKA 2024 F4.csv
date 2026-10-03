@@ -1,26 +1,51 @@
-﻿title,type,question,A,B,C,D,answer,image
-SMKA 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture22.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture23.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture24.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture25.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+SMKA 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：通风橱抽走有害蒸气，适合进行涉及挥发性、有毒、腐蚀性或有气味化学物质的实验。
+English: A fume chamber extracts harmful vapours and is suitable for experiments with volatile, poisonous, corrosive or odorous chemicals."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：动物尸体属于 C 类生物废物，须用吸收材料包裹、密封在生物危害袋中并冷冻后处理。
+English: Animal carcasses are Category C biological waste, wrapped in absorbent material, sealed in biohazard bags and frozen before disposal."
+,radio,F4 Chp 2,A,B,C,D,D,Picture3.png,"中文：按课本顺序，先检查反应 M、打开气道 S、胸外按压 P、人工呼吸 Q，所以是 M、S、P、Q。
+English: The textbook sequence is checking response M, opening the airway S, chest compressions P and rescue breaths Q: M, S, P, Q."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：仪器的上方数值是收缩压 118 mmHg，中间是舒张压 65 mmHg，下方脉搏为 76 次/分钟。
+English: The upper reading is systolic pressure, 118 mmHg; the middle is diastolic pressure, 65 mmHg; the lower pulse reading is 76 beats per minute."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：Mashitah 的 BMI 20.1 在理想范围；Athirah 的 33.4 超过肥胖界限 30，所以 C 正确。
+English: Mashitah's BMI of 20.1 is desirable; Athirah's 33.4 exceeds the obesity threshold of 30, matching C."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：车辆发动机燃烧燃料释放二氧化碳等温室气体，增加全球暖化，是交通领域的社会科学议题。
+English: Vehicle engines burn fuel and release greenhouse gases such as carbon dioxide, contributing to warming and a transportation socio-scientific issue."
+,radio,F4 Chp 4,A,B,C,D,A,Picture7.png,"中文：不用电器时关掉开关可减少用电，降低发电相关燃料消耗和碳排放。
+English: Switching off unused appliances reduces electricity consumption and associated fuel use and carbon emissions."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：Q 是交换作用，同源染色体交换片段，形成新的基因组合，增加遗传变异。
+English: Q is crossing over, exchanging segments between homologous chromosomes to create new gene combinations and genetic variation."
+,radio,F4 Chp 5,A,B,C,D,D,Picture9.png,"中文：白花是 gg；红花必须是 Gg，才能与 gg 产生白花：红花＝1：1。
+English: The white-flowered parent is gg; the red-flowered parent must be Gg to produce a white:red ratio of 1:1 when crossed with gg."
+,radio,F4 Chp 5,A,B,C,D,A,Picture10.png,"中文：造成原有物种灭绝是负面影响，不属于基因工程的好处。
+English: Causing extinction of original species is a negative effect, not a benefit of genetic engineering."
+,radio,F4 Chp 5,A,B,C,D,D,Picture11.png,"中文：身高可有许多连续中间数值，受遗传和环境影响，属于连续变异。
+English: Height has many continuous intermediate values and is influenced by genes and environment, so it is continuous variation."
+,radio,F4 Chp 6,A,B,C,D,B,Picture12.png,"中文：鸟类中空而轻的骨骼减轻体重，同时仍有足够支持力，有利飞行。
+English: Birds' hollow, lightweight bones reduce body mass while retaining support, aiding flight."
+,radio,F4 Chp 6,A,B,C,D,A,Picture13.png,"中文：增加支撑面的面积并降低重心，可提高稳定性，防止动物失去平衡。
+English: Increasing base area and lowering the centre of gravity improve stability and prevent loss of balance."
+,radio,F4 Chp 7,A,B,C,D,C,Picture14.png,"中文：C 是胰脏，分泌胰岛素等激素调节血糖水平。
+English: C is the pancreas, which secretes hormones such as insulin to regulate blood glucose."
+,radio,F4 Chp 7,A,B,C,D,D,Picture15.png,"中文：致幻剂改变脑中神经活动，造成感知异常、幻觉和肌肉协调受影响。
+English: Hallucinogens alter nervous activity in the brain, causing distorted perception, hallucinations and impaired muscle coordination."
+,radio,F4 Chp 8,A,B,C,D,A,Picture16.png,"中文：Z 在第 3 周期、第 17 族，三个电子层、最外层 7 个电子，所以电子排列是 2.8.7。
+English: Z is in Period 3 and Group 17, with three shells and seven outer electrons, giving 2.8.7."
+,radio,F4 Chp 8,A,B,C,D,C,Picture17.png,"中文：增加同位素用量是扩大应用，不是降低辐射风险的措施；监督、技术防护和监测才是风险控制。
+English: Increasing isotope use expands its application rather than reducing radiation risk; supervision, protective technology and monitoring are risk controls."
+,radio,F4 Chp 9,A,B,C,D,D,Picture18.png,"中文：不锈钢坚硬、强度高且耐腐蚀，适合题目要求的耐用钥匙。
+English: Stainless steel is hard, strong and corrosion-resistant, fitting the durable key required."
+,radio,F4 Chp 9,A,B,C,D,A,Picture19.png,"中文：塑料由人工聚合制造，属于合成聚合物；蛋白质、纤维素和淀粉是天然聚合物。
+English: Plastic is manufactured by polymerisation and is synthetic; proteins, cellulose and starch are natural polymers."
+,radio,F4 Chp 10,A,B,C,D,B,Picture20.png,"中文：没有按题目要求完成疗程，部分细菌可能仍存活并再次繁殖，因此疾病可能复发。
+English: Not completing the course specified in the question may leave bacteria alive to multiply again, allowing the illness to recur."
+,radio,F4 Chp 10,A,B,C,D,C,Picture21.png,"中文：盐水可减慢切开苹果的酶促氧化和褐变，是选项中适合减慢 P 的材料。
+English: Salt solution can slow enzymatic oxidation and browning of cut apples, making it the suitable listed material for slowing P."
+,radio,F4 Chp 11,A,B,C,D,A,Picture22.png,"中文：位移－时间图的斜率表示速度；曲线越来越陡，所以速度逐渐增加。
+English: The slope of a displacement–time graph represents velocity; the increasingly steep curve shows increasing velocity."
+,radio,F4 Chp 11,A,B,C,D,D,Picture23.png,"中文：装水的罐质量较大、惯性较大，较抗拒运动状态改变，因此较迟停止摆动。
+English: The water-filled can has greater mass and inertia and resists changes in motion, so it stops oscillating later."
+,radio,F4 Chp 12,A,B,C,D,B,Picture24.png,"中文：电离辐射可杀死医疗器具上的微生物，因此方便进行灭菌。
+English: Ionising radiation can kill microorganisms on medical equipment, facilitating sterilisation."
+,radio,F4 Chp 12,A,B,C,D,A,Picture25.png,"中文：太阳有大量氢以及极高温度，使轻原子核持续融合并释放能量。
+English: The Sun has abundant hydrogen and extremely high temperatures, enabling continuous fusion of light nuclei and energy release."

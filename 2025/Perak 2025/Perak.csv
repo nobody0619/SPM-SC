@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Perak 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：依实验室规定，稀释且无危险成分的弱酸可在适当pH范围内排入水槽。重金属、反应性物质和有机溶剂须特别处理。
+English: Under laboratory rules, a dilute, non-hazardous weak acid may be disposed of in a sink within the permitted pH range. Heavy metals, reactive substances and organic solvents require special disposal."
+,radio,F4 Chp 1,A,B,C,D,B,Picture2.png,"中文：泡沫灭火器的标签是米黄色，所以B配对正确。水为红色、干粉为蓝色，二氧化碳为黑色。
+English: A foam extinguisher has a cream label, making B correct. Water is red, dry powder blue and carbon dioxide black."
+,radio,F4 Chp 2,A,B,C,D,D,Picture3.png,"中文：已恢复正常呼吸但仍昏迷的伤者，应依题目放成侧卧恢复姿势，以帮助保持气道通畅。
+English: A victim who has resumed normal breathing but remains unconscious should be placed in the recovery position on their side, as described, to help keep the airway clear."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：BMI=55÷1.65²=20.20 kg m⁻²，因此选A。
+English: BMI = 55 ÷ 1.65² = 20.20 kg m⁻², so A is correct."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：地热利用地球内部的热能，是替代能源。天然气、石油和煤则是化石燃料，因此选B。
+English: Geothermal energy uses heat from within Earth and is an alternative energy source. Natural gas, petroleum and coal are fossil fuels, so B is correct."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：砍伐森林减少树木吸收二氧化碳的能力，使温室效应加强，导致全球暖化，因此依答案选A。砍伐也可能增加洪水风险。
+English: Deforestation reduces carbon-dioxide uptake by trees, strengthening the greenhouse effect and contributing to global warming, supporting A. It can also increase flood risk."
+,radio,F4 Chp 5,A,B,C,D,C,Picture7.png,"中文：Pp×pp产生Pp与pp各一半，所以紫花与白花的表型比例为1:1。
+English: Pp × pp produces equal proportions of Pp and pp, giving a phenotype ratio of one purple flower to one white flower."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：交叉互换改变遗传组合，是遗传因素；气候是环境因素，因此D的配对正确。
+English: Crossing over changes genetic combinations and is a genetic factor. Climate is an environmental factor, so D is correctly matched."
+,radio,F4 Chp 6,A,B,C,D,D,Picture9.png,"中文：骨骼支撑身体、维持形状并保护重要器官，例如头骨保护脑及胸廓保护心肺。
+English: The skeleton supports the body, maintains its shape and protects vital organs, for example the skull protecting the brain and the rib cage protecting the heart and lungs."
+,radio,F4 Chp 6,A,B,C,D,B,Picture10.png,"中文：X是肱二头肌，Y是肱三头肌。弯曲手臂时X收缩、Y放松；它们是一对拮抗肌。
+English: X is the biceps and Y is the triceps. When the arm bends, X contracts and Y relaxes; they form an antagonistic pair."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：R所指胰脏分泌胰岛素。胰岛素不足导致血糖升高，题目对应的措施是补充胰岛素，因此选B。
+English: The pancreas at R secretes insulin. Insulin deficiency raises blood glucose, and the measure described in the question is insulin replacement, so B is correct."
+,radio,F4 Chp 7,A,B,C,D,C,Picture12.png,"中文：巴比妥类是抑制剂，会抑制中枢神经系统，减慢神经冲动及身体反应，因此选C。
+English: Barbiturates are depressants that suppress the central nervous system, slowing nerve impulses and body responses, so C is correct."
+,radio,F4 Chp 8,A,B,C,D,C,Picture13.png,"中文：Q有18个电子，排列为2.8.8，最外层为稳定八电子结构，所以通常化学性质不活泼。
+English: Q has 18 electrons arranged 2.8.8. Its stable outer octet makes it generally chemically inert."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：钴-60释放伽马射线，可用于放射治疗，损伤并杀死癌细胞。
+English: Cobalt-60 emits gamma radiation used in radiotherapy to damage and kill cancer cells."
+,radio,F4 Chp 9,A,B,C,D,D,Picture15.png,"中文：飞机使用轻而强的硬铝。题目列出的铝、铜和镁是其组成金属，因此选D。
+English: Aircraft use duralumin because it is light and strong. Aluminium, copper and magnesium are the constituent metals listed in the question, giving D."
+,radio,F4 Chp 9,A,B,C,D,C,Picture16.png,"中文：陶瓷坚固且化学性质不活泼，在口腔环境中不易与食物或其他物质反应，适合制造假牙。
+English: Ceramics are strong and chemically inert, so they do not readily react with food or other substances in the mouth and are suitable for dentures."
+,radio,F4 Chp 9,A,B,C,D,D,Picture17.png,"中文：硫化在橡胶链之间形成硫交联，使链不易滑动，也提高耐热性。题目问成品的优点，因此选D的耐热性高。
+English: Vulcanisation forms sulphur cross-links that restrict chain movement and improve heat resistance. Since the question asks for the product's advantage, D is the intended answer."
+,radio,F4 Chp 10,A,B,C,D,D,Picture18.png,"中文：杏仁含维生素E等抗氧化成分，能帮助中和自由基，因此是这组选项中较适合的抗氧化食物。
+English: Almonds contain antioxidants such as vitamin E that help neutralise free radicals, making them the suitable antioxidant-rich food among these options."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：加速度=(末速度−初速度)÷时间=(20−0)÷4=5 m s⁻²，因此选A。
+English: Acceleration = (final velocity − initial velocity) ÷ time = (20 − 0) ÷ 4 = 5 m s⁻², giving A."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：自由落体只受重力作用，不包括空气阻力或其他阻力，因此A符合定义。
+English: Free fall is motion under gravity alone, without air resistance or other resistive forces, so A matches the definition."
+,radio,F4 Chp 11,A,B,C,D,C,Picture21.png,"中文：K较难停止，表示惯性较大；L较快停止，惯性较小，因此选C。惯性与质量有关。
+English: K takes longer to stop, indicating greater inertia. L stops sooner and has smaller inertia, so C is correct. Inertia depends on mass."
+,radio,F4 Chp 12,A,B,C,D,C,Picture22.png,"中文：Y是冷凝器，把通过涡轮后的蒸汽冷却成水，让水循环返回系统。
+English: Y is the condenser, which cools steam after it passes through the turbine, turning it into water for recirculation."
+,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：两培养皿主要差别是培养基的湿度。湿润培养基较适合细菌生长，因此研究的因素是湿度。
+English: The main difference between the dishes is the moisture of the agar. Moist agar supports bacterial growth better, so the factor is humidity or moisture."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：依课程，吖啶黄可作伤口防腐剂，抑制微生物而帮助预防感染。扑热息痛只减轻疼痛，不是防腐剂。
+English: At course level, acriflavine is a wound antiseptic that inhibits microorganisms and helps prevent infection. Paracetamol relieves pain but is not an antiseptic."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：图中孩子显示营养不足的症状。B中的鸡肉、鱼和蛋等提供蛋白质，帮助身体生长及组织修复。
+English: The child shows signs of malnutrition. Foods in B, such as chicken, fish and eggs, provide protein needed for growth and tissue repair."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：豆科根瘤中的固氮菌把氮气转为含氮化合物，经土壤作用增加可利用的硝酸盐，有助改善土壤肥力。
+English: Nitrogen-fixing bacteria in legume root nodules convert nitrogen gas into nitrogen compounds. Soil processes increase available nitrates, improving soil fertility."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：防腐剂抑制微生物繁殖；漂白剂去除不需要的原色；调味剂增加味道。正确配对是C。
+English: Preservatives inhibit microbial reproduction, bleaching agents remove unwanted original colours, and flavourings enhance taste. C gives the correct matching."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：2021年P只需1小时脱色，比M的6小时和N的3小时短。脱色越快，BOD越高、污染越严重，因此P最污染。
+English: In 2021, P decolourises in one hour, compared with six hours for M and three for N. Faster decolourisation indicates higher BOD and greater pollution, so P is the most polluted."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：有效微生物产生酶，帮助分解有机废物，因此依答案选择产生酶的B。这些分解作用也可用于堆肥。
+English: Effective microorganisms produce enzymes that help break down organic waste, supporting the keyed answer B. Their decomposition activity can also be used in composting."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：烹饪气体燃烧迅速产生火焰，是快速化学反应。水变成蒸汽只是物理状态改变。
+English: Cooking gas burns rapidly to produce a flame, making it a fast chemical reaction. Water becoming steam is a physical state change."
+,radio,F5 Chp 4,A,B,C,D,D,Picture31.png,"中文：在适当条件下，较高水温加快粒子运动及清洁反应，使洗衣粉较有效去除顽固污渍，因此选D。
+English: Under suitable conditions, warmer water increases particle movement and the rate of cleaning processes, helping detergent remove stubborn stains more effectively, so D is correct."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：酯属于有机碳化合物。二氧化碳和碳酸钙等在课程中归为无机碳化合物。
+English: Esters are organic carbon compounds. Carbon dioxide and calcium carbonate are classified as inorganic carbon compounds in the course."
+,radio,F5 Chp 5,A,B,C,D,D,Picture33.png,"中文：葡萄糖经酵母发酵产生乙醇和二氧化碳，所以X是乙醇。乙醇可与有机酸反应生成酯。
+English: Yeast fermentation of glucose produces ethanol and carbon dioxide, so X is ethanol. Ethanol reacts with an organic acid to form an ester."
+,radio,F5 Chp 5,A,B,C,D,B,Picture34.png,"中文：过量摄取高脂肪食物如鸡肉汉堡，可促进胆固醇沉积在动脉壁，导致血管变窄和动脉硬化，因此选B。
+English: Excess intake of fatty foods such as chicken burgers can promote cholesterol deposits in artery walls, narrowing the vessels and causing arteriosclerosis, so B is correct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture35.png,"中文：氯化钠溶液有自由移动的离子，可传导电流，是电解质。固体溴化铅的离子则不能自由移动。
+English: Sodium chloride solution contains mobile ions that carry electric current, making it an electrolyte. Ions in solid lead(II) bromide cannot move freely."
+,radio,F5 Chp 6,A,B,C,D,B,Picture36.png,"中文：锌比铜活泼，较容易失去电子，所以锌是负极，电子从锌经外电路流向铜。
+English: Zinc is more reactive than copper and loses electrons more readily, so it is the negative terminal. Electrons flow from zinc to copper through the external circuit."
+,radio,F5 Chp 7,A,B,C,D,A,Picture37.png,"中文：凸透镜的物体放在焦距以内时，形成放大、正立的虚像，这是放大镜的原理。
+English: An object within the focal length of a convex lens forms a magnified, upright virtual image. This is the principle of a magnifying glass."
+,radio,F5 Chp 7,A,B,C,D,A,Picture38.png,"中文：放大镜的焦距越短，透镜的光学能力越强，在适当使用时可提供较高放大能力，因此选A。
+English: A shorter focal length gives a magnifying lens greater optical power and higher magnifying power when used appropriately, so A is correct."
+,radio,F5 Chp 8,A,B,C,D,D,Picture39.png,"中文：压力相等，输出力=输入力×输出面积÷输入面积=20×1÷0.01=2000 N，因此选D。
+English: Equal pressure gives output force = input force × output area ÷ input area = 20 × 1 ÷ 0.01 = 2000 N, so D is correct."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：十进制度数=度+分/60+秒/3600。纬度=5+10/60+35.05/3600=5.176403；经度=12+6/60+18.25/3600=12.105069，因此选D。
+English: Decimal degrees = degrees + minutes/60 + seconds/3600. Latitude = 5 + 10/60 + 35.05/3600 = 5.176403; longitude = 12 + 6/60 + 18.25/3600 = 12.105069, giving D."

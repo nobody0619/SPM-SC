@@ -1,26 +1,51 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,A,Picture2.png
-,radio,F4 Chp 1,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture21.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture22.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture23.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture24.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture25.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：口罩是选项中用于保护脸部口鼻位置的个人防护用品；实验衣、手套和包鞋保护其他部位。
+English: A face mask is the listed protective item worn over the mouth and nose. Lab coats, gloves and closed shoes protect other body parts."
+,radio,F4 Chp 1,A,B,C,D,A,Picture2.png,"中文：磷酸盐肥料进入水源会增加营养盐，可导致富营养化，所以不可随意倒入水槽。
+English: Phosphate fertiliser adds nutrients to water and can cause eutrophication, so it must not be poured into a sink indiscriminately."
+,radio,F4 Chp 1,A,B,C,D,A,Picture3.png,"中文：先拔安全销II，再把喷嘴对准火源底部IV，按压手柄I，最后左右扫射III。正确顺序为II、IV、I、III。
+English: Remove the safety pin, II; aim at the base of the fire, IV; squeeze the handle, I; then sweep from side to side, III. The sequence is II, IV, I, III."
+,radio,F4 Chp 2,A,B,C,D,D,Picture4.png,"中文：腹部推压提高肺内压力，使肺中的空气迅速向外流，把堵塞气道的物体推出，因此选D。
+English: Abdominal thrusts increase pressure in the lungs, forcing air out rapidly and helping expel the object blocking the airway, so D is correct."
+,radio,F4 Chp 2,A,B,C,D,A,Picture5.png,"中文：检查反应时可向伤者说话，观察是否回应。移离危险和人工呼吸是急救程序的其他部分。
+English: When checking responsiveness, speak to the victim and observe whether they respond. Removing danger and giving rescue breaths are other parts of the emergency procedure."
+,radio,F4 Chp 3,A,B,C,D,A,Picture6.png,"中文：病毒感染可触发免疫反应并导致发烧，使体温超过正常水平，因此选A。
+English: A viral infection can trigger an immune response and fever, raising body temperature above normal, so A is correct."
+,radio,F4 Chp 3,A,B,C,D,B,Picture7.png,"中文：运动后脉搏升高是身体增加供氧的反应。休息片刻可让心跳逐渐恢复，因此题目选择B。
+English: Pulse rises after exercise as the body increases oxygen delivery. Rest allows heart rate to recover gradually, so B is the intended answer."
+,radio,F4 Chp 4,A,B,C,D,A,Picture8.png,"中文：太阳能板把可再生的太阳能转成电能，在使用时不燃烧化石燃料，是绿色技术。
+English: Solar panels convert renewable solar energy into electricity without burning fossil fuels during use, making them green technology."
+,radio,F4 Chp 4,A,B,C,D,C,Picture9.png,"中文：绿色技术着重节省资源、减少污染和碳排放，以降低人类活动对环境的不良影响。
+English: Green technology aims to conserve resources and reduce pollution and carbon emissions, limiting the negative environmental impacts of human activities."
+,radio,F4 Chp 5,A,B,C,D,B,Picture10.png,"中文：人类卵细胞有23条染色体：22条常染色体及1条X染色体，因此选22+X。
+English: A human egg contains 23 chromosomes: 22 autosomes and one X chromosome, giving 22 + X."
+,radio,F4 Chp 5,A,B,C,D,D,Picture11.png,"中文：无酒窝是隐性性状，只有两个隐性等位基因dd才会表现。Dd和DD都会有酒窝。
+English: No dimples is the recessive trait and is expressed only with genotype dd. Dd and DD both produce dimples."
+,radio,F4 Chp 6,A,B,C,D,A,Picture12.png,"中文：蟑螂的外骨骼不能随身体扩大，必须蜕皮后才可迅速长大。图形每次突然上升对应蜕皮。
+English: A cockroach's exoskeleton cannot expand with its body, so it must moult before growing rapidly. Each sharp rise in the graph corresponds to ecdysis."
+,radio,F4 Chp 6,A,B,C,D,D,Picture13.png,"中文：Q使用多脚助行器，支撑面积比P的拐杖大。底面积较大使重心投影较容易留在支撑范围内，因此更稳定。
+English: Q uses a walker with a larger support base than P's walking stick. A wider base helps keep the centre-of-gravity projection within the support area, improving stability."
+,radio,F4 Chp 7,A,B,C,D,C,Picture14.png,"中文：C是胰脏，负责分泌胰岛素。胰岛素分泌不足时，可能需要补充胰岛素来控制血糖。
+English: C is the pancreas, which secretes insulin. Insufficient insulin production may require insulin replacement to control blood glucose."
+,radio,F4 Chp 7,A,B,C,D,B,Picture15.png,"中文：兴奋剂刺激中枢神经系统，可产生过度自信及兴奋感，影响判断和安全驾驶，因此选B。
+English: Stimulants activate the central nervous system and can cause excessive confidence and excitement, impairing judgment and safe driving, so B is correct."
+,radio,F4 Chp 8,A,B,C,D,C,Picture16.png,"中文：铅是金属，依课程粒子分类属于原子物质。水和酒精是分子物质，氯化钠是离子物质。
+English: Lead is a metal classified as an atomic substance in the course. Water and alcohol are molecular substances, while sodium chloride is ionic."
+,radio,F4 Chp 8,A,B,C,D,A,Picture17.png,"中文：X位于第1族、第2周期，对应锂，属于碱金属。因此选金属A。
+English: X is in Group 1, Period 2, corresponding to lithium, an alkali metal. Therefore A, metal, is correct."
+,radio,F4 Chp 9,A,B,C,D,C,Picture18.png,"中文：陶瓷常用来制造盘、碗等餐具，因为它较硬、耐热及化学性质较稳定，因此选C。
+English: Ceramics are commonly used for plates and bowls because they are hard, heat-resistant and chemically stable, so C is correct."
+,radio,F4 Chp 9,A,B,C,D,A,Picture19.png,"中文：合金含不同大小的原子，打乱规则排列，使原子层较难滑动，所以通常比纯金属更硬、更强。
+English: Different-sized atoms in an alloy disrupt the regular arrangement and make layers harder to slide, usually making the alloy harder and stronger than the pure metal."
+,radio,F4 Chp 10,A,B,C,D,D,Picture20.png,"中文：活性成分是产品中产生治疗或预防作用的成分，不一定是含量最多的成分，因此D符合定义。
+English: An active ingredient is the component responsible for a product's therapeutic or preventive effect. It is not necessarily the most abundant ingredient, so D matches the definition."
+,radio,F4 Chp 10,A,B,C,D,A,Picture21.png,"中文：扑热息痛是止痛药，可减轻题目中的疼痛。青霉素是抗生素，胰岛素用于调节血糖。
+English: Paracetamol is an analgesic that relieves the pain described. Penicillin is an antibiotic, while insulin regulates blood glucose."
+,radio,F4 Chp 11,A,B,C,D,C,Picture22.png,"中文：风扇叶有惯性，倾向保持原来的运动状态，所以断电后仍转动一段时间，直到阻力使其停止。
+English: The fan blades have inertia and tend to maintain their motion, so they continue rotating after power is switched off until resistance brings them to rest."
+,radio,F4 Chp 11,A,B,C,D,C,Picture23.png,"中文：惯性随质量增加而增加。多载一名乘客提高总质量，因此增加摩托车和乘客整体的惯性。
+English: Inertia increases with mass. Carrying another passenger increases total mass and therefore the inertia of the motorcycle–passenger system."
+,radio,F4 Chp 12,A,B,C,D,C,Picture24.png,"中文：白内障影响受辐射者自身的眼睛，属于躯体效应，因此依答案选C。一般而言，受辐射者自身的癌症也可属躯体效应，单选表述不够明确。
+English: Cataracts affect the exposed person's own eyes and are somatic effects, supporting C. Cancer in the exposed person can also be a somatic effect, so the single-answer wording is not fully clear."
+,radio,F4 Chp 12,A,B,C,D,D,Picture25.png,"中文：钴-60发出的伽马射线能杀死医疗器材上的微生物，用来进行灭菌，因此选D。
+English: Gamma radiation emitted by cobalt-60 kills microorganisms on medical equipment and is used for sterilisation, so D is correct."

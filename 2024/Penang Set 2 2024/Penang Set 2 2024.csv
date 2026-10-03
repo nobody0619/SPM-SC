@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Penang Set 2 2024,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang Set 2 2024,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：按课本废物处理规则，低浓度、接近中性的稀酸可排入水槽；固体、油漆和活泼物质不可这样处理。
+English: Under textbook disposal rules, dilute acid with a suitable near-neutral pH can go into the sink; solids, oil paint and reactive substances cannot."
+,radio,F4 Chp 1,A,B,C,D,C,Picture2.png,"中文：二氧化碳不导电，并能隔绝氧气，适合扑灭电器引起的火灾。
+English: Carbon dioxide does not conduct electricity and excludes oxygen, making it suitable for electrical fires."
+,radio,F4 Chp 2,A,B,C,D,C,Picture3.png,"中文：图中是人工呼吸，把空气送入肺部，使氧气能够进入血液并供应身体细胞。
+English: The diagram shows rescue breaths, introducing air into the lungs so oxygen can enter the blood and reach body cells."
+,radio,F4 Chp 2,A,B,C,D,A,Picture4.png,"中文：按课本哈姆立克法的步骤，先站在受害者后方，让她身体稍微向前倾，再进行后续动作。
+English: In the textbook Heimlich sequence, first stand behind the victim and lean her slightly forward before the subsequent steps."
+,radio,F4 Chp 3,A,B,C,D,A,Picture5.png,"中文：图中是红外线温度计，检测人体发出的红外线来测量体温。
+English: The device is an infrared thermometer, which detects infrared radiation emitted by the body to measure temperature."
+,radio,F4 Chp 3,A,B,C,D,B,Picture6.png,"中文：躺在沙发上时身体活动少、氧气需求低，脉搏率通常最低。
+English: Lying on a sofa involves little activity and low oxygen demand, so pulse rate is usually lowest."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：砍伐森林使土壤失去树根固定，也减少雨水吸收，造成侵蚀、闪电水灾和栖息地破坏。
+English: Deforestation removes roots that hold soil and reduces rainwater absorption, causing erosion, flash floods and habitat destruction."
+,radio,F4 Chp 4,A,B,C,D,A,Picture8.png,"中文：骑自行车不需要燃烧燃料；在给出的选项中，它对减少碳足迹最有效。
+English: Cycling requires no fuel combustion and is the best listed option for reducing a carbon footprint."
+,radio,F4 Chp 5,A,B,C,D,B,Picture9.png,"中文：图中是交换作用，同源染色体交换片段，形成新的基因组合，产生变异。
+English: Crossing over exchanges segments between homologous chromosomes, creating new gene combinations and variation."
+,radio,F4 Chp 5,A,B,C,D,C,Picture10.png,"中文：彼此分开的柱表示不连续变异；指纹类型可分成明确类别，没有连续中间值。
+English: Separated bars represent discontinuous variation; fingerprint types fall into distinct categories without continuous intermediate values."
+,radio,F4 Chp 5,A,B,C,D,C,Picture11.png,"中文：子代灰毛与白毛各一半，白毛母兔是 kk；灰毛父兔须是 Kk，才能产生白毛后代。
+English: Half the offspring are grey and half white. The white mother is kk, and the grey father must be Kk to produce white offspring."
+,radio,F4 Chp 6,A,B,C,D,D,Picture12.png,"中文：鸟类的骨骼中空、轻而坚固，减轻体重又能支持身体，有利飞行。
+English: Bird bones are hollow, light and strong, reducing weight while supporting the body and aiding flight."
+,radio,F4 Chp 7,A,B,C,D,C,Picture13.png,"中文：C 是胰脏，分泌胰岛素，促进多余葡萄糖转化为糖原以降低血糖。
+English: C is the pancreas, which secretes insulin and promotes conversion of excess glucose to glycogen, lowering blood glucose."
+,radio,F4 Chp 7,A,B,C,D,B,Picture14.png,"中文：易怒、情绪低落和头痛符合课本月经期间激素失衡的描述，D 更合理；现有答案 B“摄取补充品”没有足够题目资料支持。
+English: Irritability, low mood and headache match the textbook description of hormonal imbalance during menstruation, making D more reasonable. Existing answer B, supplement intake, lacks support in the question."
+,radio,F4 Chp 8,A,B,C,D,D,Picture15.png,"中文：S 位于第 3 周期、第 18 族，有三个电子层，最外层 8 个电子，排列是 2.8.8。
+English: S is in Period 3 and Group 18, with three shells and eight outer electrons, giving 2.8.8."
+,radio,F4 Chp 8,A,B,C,D,A,Picture16.png,"中文：锌是金属，课本归为原子物质；氮和二氧化碳是分子物质，氯化钠是离子物质。
+English: Zinc is a metal classified as an atomic substance; nitrogen and carbon dioxide are molecular, while sodium chloride is ionic."
+,radio,F4 Chp 10,A,B,C,D,C,Picture17.png,"中文：P 是导致细胞损伤和老化的自由基；发炎是体内产生自由基的因素。
+English: P represents free radicals that damage cells and contribute to ageing; inflammation is an internal source of free radicals."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：柠檬汁含抗氧化物，如维生素 C，可减慢苹果切面氧化而变褐的过程。
+English: Lemon juice contains antioxidants such as vitamin C that slow oxidation and browning of cut apples."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：RS 沿时间轴，速度一直为零，所以速度不变、加速度也为零。
+English: RS lies along the time axis with velocity constantly zero, so acceleration is also zero."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：硬币因惯性倾向保持静止，纸板迅速被拉走后，硬币在重力作用下落入杯中。
+English: Inertia makes the coin tend to remain at rest; after the cardboard is pulled away quickly, gravity makes it fall into the glass."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：按本题课本分类，白血病是辐射的体细胞效应，影响受照者本身。
+English: Under this question's textbook classification, leukaemia is a somatic effect of radiation affecting the exposed person."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：核电站产生的放射性废料若处理不当，会释放有害辐射并影响健康。
+English: Radioactive waste from nuclear power stations can release harmful radiation and affect health if mishandled."
+,radio,F5 Chp 1,A,B,C,D,C,Picture23.png,"中文：把农业废料发酵制成的环保、低成本清洁液是生态酵素清洁液。
+English: The environmentally friendly, low-cost cleaner made by fermenting agricultural waste is an ecoenzyme cleaning solution."
+,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：提高抗生素浓度可加强抑菌作用，使没有细菌生长的透明抑菌圈变大。
+English: Increasing antibiotic concentration strengthens inhibition, enlarging the clear zone without bacterial growth."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：肥胖会增加患糖尿病的风险；图表不能支持儿童完全没有风险或年龄比肥胖更重要。
+English: Obesity increases the risk of diabetes; the charts do not establish that children have no risk or that age is more important than obesity."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：T 的叶片褐斑、卷曲和失绿是课本列出的缺钾症状，所以应补充含钾肥料。
+English: Brown patches, curled leaf tips and chlorosis in T match textbook potassium-deficiency symptoms, so potassium fertiliser is needed."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：反硝化作用把过量硝酸盐转变为氮气返回大气，可减少环境中的硝酸盐累积。
+English: Denitrification converts excess nitrates to nitrogen gas released into the atmosphere, reducing nitrate accumulation."
+,radio,F5 Chp 2,A,B,C,D,A,Picture28.png,"中文：辐照能减少害虫和微生物、延缓成熟，以较少改变营养的方式延长出口蔬菜的保存期。
+English: Irradiation reduces pests and microorganisms and delays ripening, extending the storage life of exported vegetables with limited nutrient changes."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：五颗星表示高能源效率：提供相同功能时，使用的电能较少。
+English: Five stars indicate high energy efficiency: the appliance uses less electricity to provide the same function."
+,radio,F5 Chp 3,A,B,C,D,C,Picture30.png,"中文：污染较严重的水中微生物耗氧较快；氧气含量降低时，亚甲蓝会更快褪色。
+English: Microorganisms consume oxygen faster in more polluted water; lower oxygen content makes methylene blue decolourise sooner."
+,radio,F5 Chp 4,A,B,C,D,C,Picture31.png,"中文：慢反应每单位时间消耗的反应物较少，所以反应物数量缓慢减少。
+English: A slow reaction consumes less reactant per unit time, so the quantity of reactants decreases slowly."
+,radio,F5 Chp 4,A,B,C,D,A,Picture32.png,"中文：冰箱降低温度，减慢导致食物腐败的化学、酶和微生物相关反应，因此食物保存较久。
+English: A refrigerator lowers temperature and slows chemical, enzyme and microbial processes causing spoilage, extending food storage life."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：光合作用吸收二氧化碳来制造有机物，因此减少碳循环中的二氧化碳。
+English: Photosynthesis absorbs carbon dioxide to produce organic substances, reducing carbon dioxide in the carbon cycle."
+,radio,F5 Chp 5,A,B,C,D,D,Picture34.png,"中文：图中有 3 个碳、8 个氢且全部单键，实际画的是丙烷 C3H8。现有答案 D 是丙烯，应含碳碳双键且为 C3H6；图或选项有笔误。
+English: The drawing has three carbons, eight hydrogens and only single bonds, so it shows propane, C3H8. Existing answer D is propene, which should contain a double bond and be C3H6; the drawing or option has a typo."
+,radio,F5 Chp 7,A,B,C,D,D,Picture35.png,"中文：物体在焦点与透镜之间，折射光线的反向延长线相交，形成正立、放大的虚像。
+English: With the object between the focal point and lens, backward extensions of refracted rays meet to form an upright, magnified virtual image."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：显微镜和望远镜的物镜都形成倒立的第一实像，这是两者的共同特点。
+English: The objective lenses of both a microscope and telescope form an inverted first real image, their shared characteristic."
+,radio,F5 Chp 8,A,B,C,D,D,Picture37.png,"中文：按题目预期的伯努利比较，D 的液柱最低、压力最低，因而选作流速最高处。不过管被称为“均匀管”，严格稳态流量下各截面平均流速应相同。
+English: Using the question's intended Bernoulli comparison, D has the lowest water column and pressure and is selected as fastest. However, in a genuinely uniform tube under steady flow, mean velocity should be equal at each cross-section."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：压强相同：F÷0.01＝10000÷2，所以 F＝50 N。
+English: Equal pressure gives F ÷ 0.01 = 10000 ÷ 2, so F = 50 N."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：国际空间站是研究人体健康及生物在微重力环境中生长的实验中心。
+English: The ISS is a research centre for studying human health and organism growth in microgravity."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：Y 是椭圆轨道上离地球最远的位置，称为远地点。
+English: Y is the point farthest from Earth in the elliptical orbit, called apogee."

@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Kuala Lumpur 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture20.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kuala Lumpur 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：挥发性化学品在通风橱内操作，排走有害蒸气，减少吸入。
+English: Volatile chemicals are handled in a fume cupboard, which removes harmful vapours and reduces inhalation."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：按课本pH 5至9范围内、少量且不危险的溶液可依规定排放；pH6符合条件。
+English: A small amount of non-hazardous solution within the textbook pH range of 5–9 may be disposed of under laboratory rules; pH6 fits."
+,radio,F4 Chp 2,A,B,C,D,B,Picture3.png,"中文：严重气道阻塞者无法有效咳嗽，可需要海姆立克急救；无反应且无正常呼吸则按CPR评估处理。
+English: Inability to cough effectively indicates severe airway obstruction suitable for the Heimlich manoeuvre; an unresponsive victim without normal breathing requires CPR assessment."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：图中125/80 mmHg按课本分类为正常血压，不属于高血压。
+English: The reading of125/80 mmHg is normal under the textbook classification, rather than hypertension."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：BMI =72÷1.65² =26.45 kg m⁻²。
+English: BMI =72÷1.65² =26.45 kg m⁻²."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：Refuse指拒绝不必要产品，是5R之一，帮助从源头减废。
+English: Refuse is one of the5Rs: rejecting unnecessary products prevents waste at the source."
+,radio,F4 Chp 4,A,B,C,D,D,Picture7.png,"中文：脂肪酸甲酯为生物柴油，按答案D可替代部分化石柴油；C鼓励电动车也可减少直接尾气排放。
+English: Fatty acid methyl esters are biodiesel and replace some fossil diesel, explaining D; encouraging electric vehicles in C can also reduce direct exhaust emissions."
+,radio,F4 Chp 4,A,B,C,D,D,Picture8.png,"中文：绿色交通减少化石燃料消耗，有助降低温室气体排放。
+English: Green transport reduces fossil-fuel use and helps lower greenhouse gas emissions."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：按SPM简化性状表，棕色眼睛相对于黑色眼睛列为隐性；真实眼色遗传涉及多个基因。
+English: In the simplified SPM trait table, brown eyes are recessive relative to black eyes; real eye colour involves several genes."
+,radio,F4 Chp 5,A,B,C,D,B,Picture10.png,"中文：图仅有一条X性染色体，属于45,X的特纳综合征。
+English: A single X sex chromosome indicates Turner syndrome, with karyotype45,X."
+,radio,F4 Chp 5,A,B,C,D,D,Picture11.png,"中文：GMO可把细菌基因加入植物，使植物得到所需新特征，如抗虫能力。
+English: A GMO can receive a bacterial gene in a plant to provide a desired trait, such as insect resistance."
+,radio,F4 Chp 6,A,B,C,D,C,Picture12.png,"中文：袋鼠站立时尾巴作第三个支撑点，增大支撑面积，提高稳定性。
+English: A kangaroo uses its tail as an additional support point, increasing the base area and stability."
+,radio,F4 Chp 6,A,B,C,D,B,Picture13.png,"中文：英文题干问非木本植物，其支持来自细胞膨压，所以B；马来文漏写tidak，使“木本”与英文冲突。
+English: The English stem asks about non-woody plants, supported by cell turgidity, so B. The Malay stem omits tidak and conflicts with the English version."
+,radio,F4 Chp 7,A,B,C,D,A,Picture14.png,"中文：镇静剂降低神经系统活动，使人较困倦和不焦虑。
+English: Depressants reduce nervous-system activity, causing sleepiness and reduced anxiety."
+,radio,F4 Chp 8,A,B,C,D,C,Picture15.png,"中文：P在第二周期第16族，是氧，质子数8。
+English: P is in Period2, Group16, identifying oxygen with proton number8."
+,radio,F4 Chp 9,A,B,C,D,B,Picture16.png,"中文：青铜由铜和锡组成，选项中的铜是正确原料。
+English: Bronze is an alloy of copper and tin, so copper is the correct listed metal."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：现代医学柱最高，表示使用人数最多，因此是主要选择。
+English: The modern-medicine bar is the tallest, showing it is the most commonly chosen treatment."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：这些食物中的抗氧化剂抵抗自由基，减少细胞氧化损伤。
+English: Antioxidants in these foods counter free radicals and reduce oxidative cell damage."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：地表重力加速度约9.8 m s⁻²，SPM计算常取10 m s⁻²。
+English: Gravitational acceleration near Earth's surface is about9.8 m s⁻², often rounded to10 m s⁻² in SPM calculations."
+,radio,F4 Chp 12,A,B,C,D,C,Picture20.png,"中文：辐射损伤遗传物质，可影响胎儿发育并增加先天异常风险。
+English: Radiation can damage genetic material, affect fetal development and increase the risk of congenital abnormalities."
+,radio,F5 Chp 1,A,B,C,D,C,Picture21.png,"中文：动物消化道中有益细菌帮助分解食物，有些帮助消化纤维素。
+English: Beneficial bacteria in animal digestive systems help break down food; some aid cellulose digestion."
+,radio,F5 Chp 1,A,B,C,D,D,Picture22.png,"中文：按本题细菌性肺炎情境，抗生素如青霉素针对细菌；并非所有肺炎均由细菌引起。
+English: For the bacterial-pneumonia context, an antibiotic such as penicillin targets bacteria; not every pneumonia case is bacterial."
+,radio,F5 Chp 2,A,B,C,D,B,Picture23.png,"中文：X是鸡蛋，富含蛋白质，用于形成新细胞及修复组织。
+English: X is an egg, rich in protein for building new cells and repairing tissues."
+,radio,F5 Chp 2,A,B,C,D,C,Picture24.png,"中文：反硝化细菌把土壤硝酸盐还原为氮气，返回大气。
+English: Denitrifying bacteria convert soil nitrates into nitrogen gas that returns to the atmosphere."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：混合种植及梯田属于有效土地管理，维持土地生产力并减少侵蚀。
+English: Mixed cropping and terracing are efficient land-management practices that maintain productivity and limit erosion."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：检查日期标示，避免食用过期罐头；也应注意包装损坏及储存方式。
+English: Checking date markings helps avoid expired canned food; packaging condition and storage also matter."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：再使用产品减少新产品需求和废物，是增加碳手印的行动。
+English: Reusing products reduces new-product demand and waste, contributing to a positive carbon handprint."
+,radio,F5 Chp 3,A,B,C,D,B,Picture28.png,"中文：燃烧垃圾把含碳物质氧化，释放二氧化碳。
+English: Burning carbon-containing waste releases carbon dioxide through combustion."
+,radio,F5 Chp 4,A,B,C,D,C,Picture29.png,"中文：节庆烟花涉及快速燃烧，释放光、热和气体。
+English: Fireworks involve rapid combustion that releases light, heat and gases."
+,radio,F5 Chp 4,A,B,C,D,D,Picture30.png,"中文：氢气体积逐渐增加，反应物减少使速率下降，最终体积不再增加，符合D曲线。
+English: Hydrogen volume increases while the rate slows as reactants are used up, eventually reaching a plateau as in D."
+,radio,F5 Chp 5,A,B,C,D,A,Picture31.png,"中文：生物质来自可补充的植物及有机物，是可再生能源。
+English: Biomass comes from replenishable plant and organic material and is a renewable energy source."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：花生富含油脂，按食品分类可作为脂肪来源；这不表示其他选项完全无脂肪。
+English: Peanuts are rich in oil and serve as a dietary fat source; this does not mean the other foods contain no fat."
+,radio,F5 Chp 5,A,B,C,D,D,Picture33.png,"中文：X是亲水头，溶于水；Y是疏水尾，进入油脂，使污垢能被水带走。
+English: X is the hydrophilic head soluble in water; Y is the hydrophobic tail that enters grease, helping remove it with water."
+,radio,F5 Chp 6,A,B,C,D,D,Picture34.png,"中文：熔融硝酸银的离子能自由移动而导电，固体离子固定不能导电。
+English: Molten silver nitrate has mobile ions and conducts; ions in the solid are fixed and cannot conduct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture35.png,"中文：简单化学电池需要电解质，如硫酸铜溶液及两种不同金属电极。
+English: A simple chemical cell requires an electrolyte such as copper(II) sulphate solution and two different metal electrodes."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：光线在另一侧实际相交形成倒立像，所以是实像。
+English: The rays actually converge on the opposite side, forming an inverted real image."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：较短焦距提供较广视角，可拍入更多风景。
+English: A shorter focal length provides a wider field of view and captures more of the scenery."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：F输出 =25×20/5 =100 N，因为液体传递相同压力。
+English: Output force =25×20/5 =100 N because the liquid transmits equal pressure."
+,radio,F5 Chp 9,A,B,C,D,A,Picture39.png,"中文：地球静止轨道位于赤道平面，是课本要求的轨道类型。
+English: A geostationary orbit lies in the equatorial plane, matching the textbook description."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：GPS提供接收器的位置资料，常表示为纬度、经度及高度。
+English: GPS provides receiver-location information, usually latitude, longitude and altitude."

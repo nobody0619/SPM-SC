@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-N9 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+N9 2025,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：护目镜保护眼睛，防止化学品溅入。口罩、实验衣和手套主要保护其他身体部位。
+English: Goggles protect the eyes against chemical splashes. A face mask, lab coat and gloves primarily protect other parts of the body."
+,radio,F4 Chp 2,A,B,C,D,B,Picture2.png,"中文：餐厅中的男子被食物噎住，适合进行海姆立克急救法。腹部向内、向上施压，可帮助把堵塞气道的物体排出。
+English: The man is choking on food in a restaurant. The Heimlich manoeuvre uses inward and upward abdominal thrusts to help expel the object blocking his airway."
+,radio,F4 Chp 2,A,B,C,D,C,Picture3.png,"中文：先检查反应Q；若没有正常呼吸，进行胸外按压R；再吹气P，最后重复直到救援到达S。正确顺序是Q、R、P、S。
+English: First check the victim's response, Q. If there is no normal breathing, perform chest compressions, R, followed by rescue breaths, P. Repeat until help arrives, S. The order is Q, R, P, S."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：38.6°C高于正常体温，表示发烧。病原体感染会触发身体的免疫反应，使体温升高。
+English: A temperature of 38.6°C is above normal and indicates fever. A pathogen infection can trigger an immune response that raises body temperature."
+,radio,F4 Chp 3,A,B,C,D,A,Picture5.png,"中文：BMI=体重÷身高²=59÷1.65²=21.67 kg m⁻²，因此选A。
+English: BMI = mass ÷ height² = 59 ÷ 1.65² = 21.67 kg m⁻², so A is correct."
+,radio,F4 Chp 4,A,B,C,D,C,Picture6.png,"中文：把旧轮胎再加工成新物品，可减少废物并节省资源。随意掩埋或丢弃会造成环境问题。
+English: Reprocessing used tyres into new products reduces waste and conserves resources. Burying or dumping them indiscriminately causes environmental problems."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：绿色技术减少化石燃料消耗及碳排放，帮助减缓全球暖化，因此选B。
+English: Green technology reduces fossil fuel consumption and carbon emissions, helping limit global warming, so B is correct."
+,radio,F4 Chp 5,A,B,C,D,B,Picture8.png,"中文：母亲提供X染色体，父亲有相同机会提供X或Y。每次出生女孩的概率都是50%，不受之前三个儿子的出生影响。
+English: The mother supplies an X chromosome, while the father has an equal chance of supplying X or Y. Each birth therefore has a 50% probability of a girl, independent of the three previous boys."
+,radio,F4 Chp 5,A,B,C,D,D,Picture9.png,"中文：血型有A、B、AB和O等明确类别，中间没有连续过渡，是不连续变异，符合分开的柱状图。
+English: Blood groups have distinct categories such as A, B, AB and O, with no continuous intermediate values. They show discontinuous variation, represented by separate bars."
+,radio,F4 Chp 6,A,B,C,D,D,Picture10.png,"中文：D指向大腿骨，即股骨。股骨连接骨盆与膝部，属于附肢骨骼。
+English: D points to the thigh bone, the femur. It connects the hip region to the knee and belongs to the appendicular skeleton."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：图中是胰脏。胰岛素分泌不足会减少葡萄糖的吸收和储存，使血糖升高，因此选B。
+English: The gland is the pancreas. Insufficient insulin reduces glucose uptake and storage, causing blood glucose to rise, so B is correct."
+,radio,F4 Chp 7,A,B,C,D,D,Picture12.png,"中文：受到惊吓时，肾上腺分泌肾上腺素，加快心跳和呼吸，并提供更多能量，让男孩迅速逃跑。
+English: When frightened, the adrenal glands secrete adrenaline. It increases heart and breathing rates and makes more energy available, helping the boy run away quickly."
+,radio,F4 Chp 8,A,B,C,D,A,Picture13.png,"中文：该元素的质子数为17，核子数为35。中子数=35−17=18，因此正确组合是17个质子、18个中子及核子数35。
+English: The element has proton number 17 and nucleon number 35. Neutron number = 35 − 17 = 18, giving 17 protons, 18 neutrons and nucleon number 35."
+,radio,F4 Chp 8,A,B,C,D,D,Picture14.png,"中文：伽马射线杀死食物中的微生物，减少腐败，从而延长食物保存时间。
+English: Gamma radiation kills microorganisms in food, reducing spoilage and extending its storage life."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：硫化作用在橡胶聚合物链之间形成硫交联，使天然橡胶更硬、更有弹性及更耐热。
+English: Vulcanisation forms sulphur cross-links between rubber polymer chains, making natural rubber harder, more elastic and more heat-resistant."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：青铜主要由铜及少量锡组成。D显示较少的锡原子混在较多的铜原子之间，符合青铜的结构。
+English: Bronze consists mainly of copper with a smaller amount of tin. D shows fewer tin atoms mixed among more copper atoms, matching bronze."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：现代药物的疗效和安全性须通过科学研究及临床试验验证，不能只依靠个人经验。
+English: The effectiveness and safety of modern medicines are established through scientific research and clinical trials, rather than personal experience alone."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：酸柑汁含抗氧化成分，可减慢切开苹果的氧化和褐变，因此选C。
+English: Lime juice contains antioxidant substances that slow oxidation and browning in the cut apple, so C is correct."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：速度=距离÷时间=100÷20=5 m s⁻¹。速度的单位是m s⁻¹，不是加速度的m s⁻²。
+English: Speed = distance ÷ time = 100 ÷ 20 = 5 m s⁻¹. Its unit is m s⁻¹, not the acceleration unit m s⁻²."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：装沙的罐质量较大，较难改变运动状态，因此惯性较大，摆动较久。结论是质量越大，惯性越大。
+English: The sand-filled can has greater mass and resists changes in motion more strongly, so it has greater inertia and swings for longer. Greater mass means greater inertia."
+,radio,F4 Chp 12,A,B,C,D,D,Picture21.png,"中文：核能是原子核发生反应时释放的能量，例如核裂变和核聚变，并非普通化学燃烧产生的能量。
+English: Nuclear energy is released by reactions in atomic nuclei, such as fission and fusion, rather than ordinary chemical combustion."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：煤炭燃烧释放大量二氧化碳等温室气体；核电在发电过程中直接碳排放较少，但需处理放射性废物。因此Z的温室气体较多。
+English: Coal combustion releases large amounts of greenhouse gases such as carbon dioxide. Nuclear electricity generation has lower direct carbon emissions but requires radioactive-waste management. Thus Z produces more greenhouse gases."
+,radio,F5 Chp 1,A,B,C,D,A,Picture23.png,"中文：依SPM课程，小肠的正常菌群包括Lactobacillus sp.，有助维持肠道内微生物平衡。
+English: At SPM level, Lactobacillus sp. is a normal flora found in the small intestine and helps maintain microbial balance there."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：人体温度适合许多病原微生物的生长。处于最适温度时，相关酶较有效运作，微生物繁殖较快。
+English: Human body temperature is suitable for many pathogenic microorganisms. At their optimum temperature, enzymes function effectively and reproduction is faster."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：叶片边缘组织死亡是缺钾的典型症状，因此选择钾。缺氮较常表现为叶片变黄及生长缓慢。
+English: Dead tissue around the leaf edges is a typical symptom of potassium deficiency. Nitrogen deficiency more commonly causes yellow leaves and poor growth."
+,radio,F5 Chp 3,A,B,C,D,B,Picture26.png,"中文：B指向叶子，代表植物。植物进行光合作用，吸收二氧化碳，因此有助减少温室气体。
+English: B points to a leaf, representing plants. Plants absorb carbon dioxide during photosynthesis, helping reduce greenhouse gases."
+,radio,F5 Chp 3,A,B,C,D,A,Picture27.png,"中文：污染增加可分解的有机物，微生物分解时消耗更多氧气，使BOD增加、溶解氧下降，水生生物因缺氧而减少。
+English: Pollution adds biodegradable organic matter. Microorganisms use more oxygen to decompose it, increasing BOD and reducing dissolved oxygen, so aquatic life declines."
+,radio,F5 Chp 3,A,B,C,D,C,Picture28.png,"中文：海洋微藻进行光合作用，吸收二氧化碳并释放氧气。这能移除环境中的部分二氧化碳，符合负排放技术。
+English: Marine microalgae photosynthesise, absorbing carbon dioxide and releasing oxygen. Removing some environmental carbon dioxide supports negative-emissions technology."
+,radio,F5 Chp 4,A,B,C,D,D,Picture29.png,"中文：D是燃烧，能在短时间内发生，是快速反应。腐败、光合作用和消化在此比较中较慢。
+English: D shows combustion, which occurs over a short time and is a fast reaction. Decay, photosynthesis and digestion are slower in this comparison."
+,radio,F5 Chp 4,A,B,C,D,D,Picture30.png,"中文：同质量的镁粉总表面积比镁带大，与酸接触的面积增加，有效碰撞更频繁，因此反应较快。
+English: For the same mass, magnesium powder has a larger total surface area than ribbon. More contact with acid causes more frequent effective collisions and a faster reaction."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：依SPM课程，棕榈油通过题目所称的酯化反应与醇反应，制成可作燃料的生物柴油，因此选B。
+English: At SPM level, palm oil reacts with an alcohol through the process called esterification in the question to produce biodiesel fuel, so B is correct."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：酵母发酵葡萄糖产生乙醇，再通过蒸馏分离。长期过量饮用含乙醇的饮料会损害肝脏，并可导致肝硬化。
+English: Yeast fermentation of glucose produces ethanol, which is then separated by distillation. Long-term excessive consumption of alcoholic drinks damages the liver and can cause cirrhosis."
+,radio,F5 Chp 6,A,B,C,D,C,Picture33.png,"中文：固体氯化钠中的离子位置固定，不能自由移动导电。熔化后离子可移动，所以加热至熔化能使电路导电。
+English: Ions in solid sodium chloride are fixed in position and cannot carry current. Melting allows the ions to move freely, so heating it until it melts makes the circuit conduct electricity."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：两极都使用铜时，没有电极金属之间的电势差，无法提供电流点亮灯泡，因此灯不会亮。
+English: With copper at both electrodes, there is no potential difference between the electrode metals to drive a current, so the bulb does not light up."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：凹透镜使光线发散，对实际物体形成正立、缩小的虚像，因此选A。
+English: A concave lens diverges light rays and forms an upright, diminished virtual image of a real object, so A is correct."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：显微镜用来观察很微小的物体，符合C。放大镜放大小物体，双筒望远镜和望远镜则观察远处物体。
+English: A microscope is used to observe very tiny objects, matching C. A magnifying glass enlarges small objects, while binoculars and telescopes are used for distant objects."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：伯努利原理说明，在此实验条件下，流体流速越高，压力越低，因此选C。
+English: Bernoulli's principle states that, under the conditions of this experiment, higher fluid speed corresponds to lower pressure, so C is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：两活塞的液体压力相等：Fₚ/0.01=10000/2。Fₚ=10000×0.01÷2=50 N，因此选B。
+English: The fluid pressure is equal at the two pistons: Fₚ/0.01 = 10000/2. Therefore Fₚ = 10000 × 0.01 ÷ 2 = 50 N, so B is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture39.png,"中文：Google Maps和Waze利用GPS定位，并提供路线及导航服务，因此选C。
+English: Google Maps and Waze use GPS positioning to provide routes and navigation, so C is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：依课程的轨道高度比较，轨道越高，运行速度越低。速度递增的顺序为HEO、MEO、LEO，因此选C。
+English: In the course's comparison of orbital altitudes, a higher orbit has a lower orbital speed. The ascending order of speed is HEO, MEO, LEO, so C is correct."

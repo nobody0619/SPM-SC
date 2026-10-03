@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-SMKA 2024,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture22.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture23.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture24.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+SMKA 2024,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：通风橱抽走有害蒸气，适合进行涉及挥发性、有毒、腐蚀性或有气味化学物质的实验。
+English: A fume chamber extracts harmful vapours and is suitable for experiments with volatile, poisonous, corrosive or odorous chemicals."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：动物尸体属于 C 类生物废物，须用吸收材料包裹、密封在生物危害袋中并冷冻后处理。
+English: Animal carcasses are Category C biological waste, wrapped in absorbent material, sealed in biohazard bags and frozen before disposal."
+,radio,F4 Chp 2,A,B,C,D,D,Picture3.png,"中文：按课本顺序，先检查反应 M、打开气道 S、胸外按压 P、人工呼吸 Q，所以是 M、S、P、Q。
+English: The textbook sequence is checking response M, opening the airway S, chest compressions P and rescue breaths Q: M, S, P, Q."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：仪器的上方数值是收缩压 118 mmHg，中间是舒张压 65 mmHg，下方脉搏为 76 次/分钟。
+English: The upper reading is systolic pressure, 118 mmHg; the middle is diastolic pressure, 65 mmHg; the lower pulse reading is 76 beats per minute."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：Mashitah 的 BMI 20.1 在理想范围；Athirah 的 33.4 超过肥胖界限 30，所以 C 正确。
+English: Mashitah's BMI of 20.1 is desirable; Athirah's 33.4 exceeds the obesity threshold of 30, matching C."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：车辆发动机燃烧燃料释放二氧化碳等温室气体，增加全球暖化，是交通领域的社会科学议题。
+English: Vehicle engines burn fuel and release greenhouse gases such as carbon dioxide, contributing to warming and a transportation socio-scientific issue."
+,radio,F4 Chp 4,A,B,C,D,A,Picture7.png,"中文：不用电器时关掉开关可减少用电，降低发电相关燃料消耗和碳排放。
+English: Switching off unused appliances reduces electricity consumption and associated fuel use and carbon emissions."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：Q 是交换作用，同源染色体交换片段，形成新的基因组合，增加遗传变异。
+English: Q is crossing over, exchanging segments between homologous chromosomes to create new gene combinations and genetic variation."
+,radio,F4 Chp 5,A,B,C,D,D,Picture9.png,"中文：白花是 gg；红花必须是 Gg，才能与 gg 产生白花：红花＝1：1。
+English: The white-flowered parent is gg; the red-flowered parent must be Gg to produce a white:red ratio of 1:1 when crossed with gg."
+,radio,F4 Chp 5,A,B,C,D,A,Picture10.png,"中文：造成原有物种灭绝是负面影响，不属于基因工程的好处。
+English: Causing extinction of original species is a negative effect, not a benefit of genetic engineering."
+,radio,F4 Chp 5,A,B,C,D,D,Picture11.png,"中文：身高可有许多连续中间数值，受遗传和环境影响，属于连续变异。
+English: Height has many continuous intermediate values and is influenced by genes and environment, so it is continuous variation."
+,radio,F4 Chp 6,A,B,C,D,B,Picture12.png,"中文：鸟类中空而轻的骨骼减轻体重，同时仍有足够支持力，有利飞行。
+English: Birds' hollow, lightweight bones reduce body mass while retaining support, aiding flight."
+,radio,F4 Chp 6,A,B,C,D,A,Picture13.png,"中文：增加支撑面的面积并降低重心，可提高稳定性，防止动物失去平衡。
+English: Increasing base area and lowering the centre of gravity improve stability and prevent loss of balance."
+,radio,F4 Chp 7,A,B,C,D,C,Picture14.png,"中文：C 是胰脏，分泌胰岛素等激素调节血糖水平。
+English: C is the pancreas, which secretes hormones such as insulin to regulate blood glucose."
+,radio,F4 Chp 7,A,B,C,D,D,Picture15.png,"中文：致幻剂改变脑中神经活动，造成感知异常、幻觉和肌肉协调受影响。
+English: Hallucinogens alter nervous activity in the brain, causing distorted perception, hallucinations and impaired muscle coordination."
+,radio,F4 Chp 8,A,B,C,D,A,Picture16.png,"中文：Z 在第 3 周期、第 17 族，三个电子层、最外层 7 个电子，所以电子排列是 2.8.7。
+English: Z is in Period 3 and Group 17, with three shells and seven outer electrons, giving 2.8.7."
+,radio,F4 Chp 8,A,B,C,D,C,Picture17.png,"中文：增加同位素用量是扩大应用，不是降低辐射风险的措施；监督、技术防护和监测才是风险控制。
+English: Increasing isotope use expands its application rather than reducing radiation risk; supervision, protective technology and monitoring are risk controls."
+,radio,F4 Chp 9,A,B,C,D,D,Picture18.png,"中文：不锈钢坚硬、强度高且耐腐蚀，适合题目要求的耐用钥匙。
+English: Stainless steel is hard, strong and corrosion-resistant, fitting the durable key required."
+,radio,F4 Chp 9,A,B,C,D,A,Picture19.png,"中文：塑料由人工聚合制造，属于合成聚合物；蛋白质、纤维素和淀粉是天然聚合物。
+English: Plastic is manufactured by polymerisation and is synthetic; proteins, cellulose and starch are natural polymers."
+,radio,F4 Chp 10,A,B,C,D,B,Picture20.png,"中文：没有按题目要求完成疗程，部分细菌可能仍存活并再次繁殖，因此疾病可能复发。
+English: Not completing the course specified in the question may leave bacteria alive to multiply again, allowing the illness to recur."
+,radio,F4 Chp 10,A,B,C,D,C,Picture21.png,"中文：盐水可减慢切开苹果的酶促氧化和褐变，是选项中适合减慢 P 的材料。
+English: Salt solution can slow enzymatic oxidation and browning of cut apples, making it the suitable listed material for slowing P."
+,radio,F4 Chp 11,A,B,C,D,A,Picture22.png,"中文：位移－时间图的斜率表示速度；曲线越来越陡，所以速度逐渐增加。
+English: The slope of a displacement–time graph represents velocity; the increasingly steep curve shows increasing velocity."
+,radio,F4 Chp 11,A,B,C,D,D,Picture23.png,"中文：装水的罐质量较大、惯性较大，较抗拒运动状态改变，因此较迟停止摆动。
+English: The water-filled can has greater mass and inertia and resists changes in motion, so it stops oscillating later."
+,radio,F4 Chp 12,A,B,C,D,B,Picture24.png,"中文：电离辐射可杀死医疗器具上的微生物，因此方便进行灭菌。
+English: Ionising radiation can kill microorganisms on medical equipment, facilitating sterilisation."
+,radio,F4 Chp 12,A,B,C,D,A,Picture25.png,"中文：太阳有大量氢以及极高温度，使轻原子核持续融合并释放能量。
+English: The Sun has abundant hydrogen and extremely high temperatures, enabling continuous fusion of light nuclei and energy release."
+,radio,F5 Chp 1,A,B,C,D,C,Picture26.png,"中文：两个草履虫暂时接合并交换遗传物质，然后分开，这是接合生殖，不是一个分成两个。
+English: Two Paramecium temporarily join and exchange genetic material before separating; this is conjugation rather than one cell splitting into two."
+,radio,F5 Chp 2,A,B,C,D,B,Picture27.png,"中文：B 的甜品、甜甜圈和巧克力含较多糖；长期过量摄取增加肥胖及糖尿病风险，符合本题的饮食重点。
+English: B shows sugary desserts, doughnuts and chocolate; prolonged excessive intake increases obesity and diabetes risk, matching the question's dietary focus."
+,radio,F5 Chp 2,A,B,C,D,D,Picture28.png,"中文：叶片发黄、容易脱落和生长表现异常符合课本缺氮描述；含氮肥料帮助制造蛋白质及叶绿素。
+English: Yellowing and falling leaves with poor growth match textbook nitrogen deficiency; nitrogen fertiliser supports protein and chlorophyll production."
+,radio,F5 Chp 2,A,B,C,D,B,Picture29.png,"中文：反硝化细菌把土壤硝酸盐转为氮气返回大气，因此减少土壤硝酸盐。
+English: Denitrifying bacteria convert soil nitrates to nitrogen gas released into the atmosphere, reducing soil nitrates."
+,radio,F5 Chp 2,A,B,C,D,D,Picture30.png,"中文：按答案 D，应理解为长期过量糖摄取导致代谢疾病后，可能间接损害肝和肾；不是正常吃糖就直接使器官受损，题干欠缺“过量”的条件。
+English: Following D, prolonged excessive sugar intake may lead to metabolic disease and indirectly damage the liver and kidneys. Normal sugar intake does not directly cause this; the question omits the excessive-intake condition."
+,radio,F5 Chp 3,A,B,C,D,C,Picture31.png,"中文：BOD 高表示微生物分解有机物需氧量大，水中的溶解氧被大量消耗，所以含量较低。
+English: High BOD indicates high oxygen demand for microbial decomposition of organic matter, depleting dissolved oxygen in the water."
+,radio,F5 Chp 4,A,B,C,D,B,Picture32.png,"中文：提高硫酸浓度，使单位体积中反应粒子更多、有效碰撞更频繁，反应速率增加。
+English: Higher sulphuric-acid concentration provides more reacting particles per unit volume and more frequent effective collisions, increasing reaction rate."
+,radio,F5 Chp 4,A,B,C,D,D,Picture33.png,"中文：哈伯法用约 200 atm 的高压促进氨生成；催化剂是铁，氮：氢为 1：3，选项 D 正确。
+English: The Haber process uses high pressure around 200 atm to favour ammonia production; the catalyst is iron and nitrogen:hydrogen is 1:3, so D is correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture34.png,"中文：结构有 4 个碳、全部碳碳单键，分子式 C4H10，是丁烷。
+English: The structure has four carbons and only carbon–carbon single bonds, giving C4H10, butane."
+,radio,F5 Chp 5,A,B,C,D,A,Picture35.png,"中文：答案纸选 A 花生酱，按本题将过量高脂加工食品与动脉脂质沉积联系。须注意天然花生脂肪主要不饱和，不能把所有花生酱一概视为高胆固醇食品。
+English: The key selects A, peanut butter, linking excessive fatty processed food with arterial deposits. Natural peanut fat is mainly unsaturated, so not every peanut butter should be treated as a high-cholesterol food."
+,radio,F5 Chp 5,A,B,C,D,B,Picture36.png,"中文：按图的答案标示，Q 是果仁，可提取品质良好的棕榈仁油；外层果肉则主要产生棕榈油。
+English: According to the keyed diagram label, Q is the kernel, which yields quality palm-kernel oil; the surrounding mesocarp mainly produces palm oil."
+,radio,F5 Chp 6,A,B,C,D,C,Picture37.png,"中文：镁比铜活泼，作负极，失去电子形成镁离子并溶入电解质，因此镁条变薄。
+English: Magnesium is more reactive than copper and acts as the negative terminal, losing electrons to form magnesium ions and dissolving in the electrolyte."
+,radio,F5 Chp 7,A,B,C,D,A,Picture38.png,"中文：X 是凸透镜，能使平行光线会聚；Y 是凹透镜，使光线发散。
+English: X is a convex lens that converges parallel rays; Y is a concave lens that diverges them."
+,radio,F5 Chp 8,A,B,C,D,C,Picture39.png,"中文：帕斯卡原理指出，密闭液体受到的压力会等量传向各方向，液压系统据此放大力。
+English: Pascal's principle states that pressure applied to an enclosed liquid is transmitted equally in all directions, enabling hydraulic force multiplication."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：地球静止轨道是圆形，所以答案纸选 B；但只有圆形图不足以确认静止轨道，还需要赤道面及一日周期等条件，D 也直接描述图形。
+English: A geostationary orbit is circular, explaining keyed B. However, a circle alone cannot establish geostationary status without equatorial orientation and a one-day period; D also directly describes the shape."

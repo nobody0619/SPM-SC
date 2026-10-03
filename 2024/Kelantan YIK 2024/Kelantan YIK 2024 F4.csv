@@ -1,24 +1,47 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan YIK 2024 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture22.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture23.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan YIK 2024 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：血液和血清属于液态生物废物，按实验室规程先高压灭菌去污染，再按指定程序处理。
+English: Blood and serum are liquid biological waste and must be decontaminated by autoclaving before the prescribed disposal process."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：蓝色标签表示干粉灭火器；按 SPM 分类，它适用于多种火灾。
+English: A blue label identifies a dry powder extinguisher, suitable for various fire types in the SPM classification."
+,radio,F4 Chp 2,A,B,C,D,A,Picture3.png,"中文：溺水者可能停止呼吸或心跳，题目配对为心肺复苏 CPR；Heimlich 则对应哽塞。
+English: A drowning victim may have stopped breathing or circulation, matching CPR; the Heimlich manoeuvre matches choking."
+,radio,F4 Chp 2,A,B,C,D,A,Picture4.png,"中文：腹部向内上方的冲击提高胸肺内压力，推动气流把气道异物排出。
+English: An inward and upward abdominal thrust raises pressure in the lungs, forcing air out to expel the obstruction."
+,radio,F4 Chp 3,A,B,C,D,D,Picture5.png,"中文：临床体温计的狭窄处阻止水银立即回流，让取出口腔后仍能读取最高温度。
+English: The constriction stops mercury flowing back immediately, retaining the reading after the thermometer is removed from the mouth."
+,radio,F4 Chp 3,A,B,C,D,D,Picture6.png,"中文：按课本 BMI 分类，25–29.9 kg/m² 为超重，所以 26.58 属超重而非肥胖。
+English: The textbook BMI range 25–29.9 kg/m² is overweight, so 26.58 is overweight rather than obese."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：排放前处理工厂废水能移除污染物；把污水改排海洋只是转移污染。
+English: Treating effluent before discharge removes pollutants; releasing it into the sea only transfers the pollution."
+,radio,F4 Chp 4,A,B,C,D,C,Picture8.png,"中文：金字塔顶部代表较不环保的私人机动车，温室气体排放最多；步行及自行车在底部较环保。
+English: The top represents less environmentally friendly private motor vehicles with higher greenhouse-gas emissions; walking and cycling are greener at the base."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：有丝分裂中期染色体排列在细胞赤道面，便于随后平均分离。
+English: During metaphase, chromosomes align at the equator before being separated equally."
+,radio,F4 Chp 5,A,B,C,D,B,Picture10.png,"中文：Bb × bb 得到一半 Bb 黑毛、一半 bb 白毛，白毛机会为 50%。
+English: Bb × bb gives half Bb black offspring and half bb white offspring, so the probability of white fur is 50%."
+,radio,F4 Chp 6,A,B,C,D,D,Picture11.png,"中文：按课程支持系统分类，海星列在无脊椎动物的另一组 Q；蟑螂和虾是外骨骼，青蛙是脊椎动物内骨骼。
+English: In the syllabus support-system classification, starfish represents the other invertebrate group Q; cockroaches and prawns have exoskeletons, while frogs are vertebrates."
+,radio,F4 Chp 6,A,B,C,D,D,Picture12.png,"中文：M 指向上臂后侧的肱三头肌；弯臂时肱二头肌收缩，肱三头肌放松。
+English: M points to the triceps at the back of the upper arm; during bending, the biceps contracts and the triceps relaxes."
+,radio,F4 Chp 6,A,B,C,D,B,Picture13.png,"中文：X 是快速增长区，Y 增长逐渐放慢，Z 水平段没有增长，所以为快、慢、零。
+English: X is rapid growth, Y slows as maturity approaches, and the flat section Z has zero growth."
+,radio,F4 Chp 7,A,B,C,D,D,Picture14.png,"中文：按课本，抗利尿激素 ADH 由垂体释放，帮助调节肾脏吸水；胰岛素由胰脏分泌。
+English: The textbook associates ADH release with the pituitary gland to regulate water reabsorption; insulin comes from the pancreas."
+,radio,F4 Chp 7,A,B,C,D,C,Picture15.png,"中文：安非他命和甲基安非他命是兴奋剂，加快神经系统活动及冲动传递。
+English: Amphetamine and methamphetamine are stimulants that increase nervous-system activity and impulse transmission."
+,radio,F4 Chp 8,A,B,C,D,A,Picture16.png,"中文：P、Q 同在第一族，是碱金属；T、U 在过渡区，R、S 位于右侧主族。
+English: P and Q are in Group 1, the alkali metals; T and U lie in the transition region and R and S are on the right."
+,radio,F4 Chp 8,A,B,C,D,B,Picture17.png,"中文：原答案 B 是 8，但同位素的质子数相同，所以碳 X 仍有 6 个质子；核子数 = 6 + 6 = 12，实际应对应 D。
+English: The existing key B is 8, but isotopes have the same proton number: carbon-X has 6 protons, so its nucleon number is 6 + 6 = 12, corresponding to D."
+,radio,F4 Chp 9,A,B,C,D,B,Picture18.png,"中文：硫在橡胶聚合链间形成交联，产生硫化橡胶，使其较坚韧、耐热。
+English: Sulphur forms cross-links between rubber polymer chains during vulcanisation, making rubber stronger and more heat resistant."
+,radio,F4 Chp 10,A,B,C,D,A,Picture19.png,"中文：代谢发生在体内，可产生自由基，是内部因素；辐射、空气污染及紫外线是外部因素。
+English: Metabolism occurs inside the body and can produce free radicals; radiation, air pollution and ultraviolet exposure are external factors."
+,radio,F4 Chp 10,A,B,C,D,B,Picture20.png,"中文：胡萝卜的橙色色素含 β-胡萝卜素，是课本列出的抗氧化物。
+English: Carrots contain the orange pigment beta-carotene, an antioxidant listed in the textbook."
+,radio,F4 Chp 11,A,B,C,D,D,Picture21.png,"中文：现有答案 D 表示加速，判断规则是依时间顺序点距逐渐增加。图上运动箭头与点距方向容易混淆，若按箭头直接从左至右读则像减速，需核对题图标示。
+English: The key D means acceleration, identified by increasing spacing in chronological order. The direction arrow and spacing are ambiguous: reading left to right along the arrow appears to show deceleration, so the diagram needs clarification."
+,radio,F4 Chp 11,A,B,C,D,A,Picture22.png,"中文：真空没有空气阻力，自由落体只受重力作用。
+English: There is no air resistance in a vacuum, so a freely falling object is acted on only by gravity."
+,radio,F4 Chp 12,A,B,C,D,A,Picture23.png,"中文：缺乏煤、石油等其他能源，是国家采用核能的重要原因；核电并不要求低技术或便宜建设。
+English: A shortage of other energy resources supports choosing nuclear power; it does not imply low technology or cheap construction."

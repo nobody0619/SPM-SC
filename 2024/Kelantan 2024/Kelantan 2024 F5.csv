@@ -1,18 +1,35 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：图中草履虫与变形虫都是单细胞原生动物，不是细菌、真菌或病毒。
+English: The diagram shows Paramecium and Amoeba, both unicellular protozoa rather than bacteria, fungi or viruses."
+,radio,F5 Chp 1,A,B,C,D,D,Picture25.png,"中文：N 的抗生素浓度最高（30%），对细菌抑制最强，通常形成最大的无菌透明区。
+English: Dish N has the highest antibiotic concentration, 30%, so it inhibits bacteria most strongly and forms the largest clear zone."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：缺氮降低叶绿素形成，幼苗叶片呈浅绿或黄色。
+English: Nitrogen deficiency reduces chlorophyll formation, making the seedling leaves pale green or yellow."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：总能量 = 面 50 × 15.0 + 蛋 20 × 6.5 + 果汁 120 × 2.5 = 1,180 kJ。
+English: Total energy = noodles 50 × 15.0 + egg 20 × 6.5 + juice 120 × 2.5 = 1,180 kJ."
+,radio,F5 Chp 2,A,B,C,D,A,Picture28.png,"中文：过量肥料流入水体带来硝酸盐和磷酸盐，促进藻类大量繁殖，造成富营养化。
+English: Excess fertiliser supplies nitrates and phosphates to water, causing algal blooms and eutrophication."
+,radio,F5 Chp 3,A,B,C,D,C,Picture29.png,"中文：微藻进行光合作用，以二氧化碳制造有机物，减少空气中二氧化碳。
+English: Microalgae use carbon dioxide to make organic substances during photosynthesis, reducing atmospheric carbon dioxide."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：气体在 180 秒已达到最终 45 cm³；总体平均速率 = 45 ÷ 180 = 0.25 cm³/s，不能用反应结束后的 210 秒。
+English: The final 45 cm³ is reached at 180 s; overall average rate = 45 ÷ 180 = 0.25 cm³/s, excluding time after completion."
+,radio,F5 Chp 4,A,B,C,D,B,Picture31.png,"中文：Haber 法采用约 200 atm 高压提高合成氨速率；催化剂是铁而非硫，氮氢比为 1:3。
+English: The Haber process uses about 200 atm to increase ammonia production rate; iron is the catalyst and the nitrogen:hydrogen ratio is 1:3."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：棕榈油与氢氧化钠发生皂化，生成肥皂和甘油。
+English: Palm oil reacts with sodium hydroxide in saponification to produce soap and glycerol."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：在所给选项中，酒精是可溶解有机指甲油成分的有机溶剂；不是选气态烃或肥皂。
+English: Among the options, alcohol is an organic solvent capable of dissolving nail-polish components, unlike the gases or soap listed."
+,radio,F5 Chp 6,A,B,C,D,D,Picture34.png,"中文：简单化学电池由两种不同金属插入电解质，并接成外电路，把化学能转成电能。
+English: A simple chemical cell uses two different metals in an electrolyte with an external circuit, converting chemical energy to electrical energy."
+,radio,F5 Chp 6,A,B,C,D,B,Picture35.png,"中文：镁较活泼，是负极并失电子溶解；铜为正极，铜离子得到电子沉积成铜。B 符合答案，D 的描述也正确，选项有重复合理性。
+English: Magnesium is the more reactive negative electrode and dissolves; copper is positive and copper ions are deposited as copper. B matches the key, but D also states a correct observation."
+,radio,F5 Chp 7,A,B,C,D,A,Picture36.png,"中文：物体放在 2F 时，凸透镜在另一侧 2F 形成倒立、实像且与物体同大。
+English: An object at 2F forms a real, inverted image of equal size at 2F on the other side of a convex lens."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：先把镜片朝向远物，再调屏直到像清晰，最后量镜片中心至屏幕距离，近似焦距。
+English: Aim the lens at a distant object, adjust the screen until the image is sharp, then measure lens-to-screen distance as the approximate focal length."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：相同压强：20/2 = F/10，所以可举起 100 N 的负载。
+English: Equal pressure gives 20/2 = F/10, so the output load is 100 N."
+,radio,F5 Chp 8,A,B,C,D,C,Picture39.png,"中文：C 位于机翼下方，气流较慢、压强较高；上方较快气流形成较低压强。
+English: C is below the wing, where slower airflow gives higher pressure than the faster airflow above."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS 第二个数 −43.182367 是经度，负号表示格林尼治线以西；第一个负纬度表示南半球。
+English: The second coordinate, −43.182367, is longitude; its negative sign indicates west of Greenwich, while the first negative latitude indicates the southern hemisphere."

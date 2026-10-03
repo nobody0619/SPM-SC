@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor Set 1 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor Set 1 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png,"中文：青霉菌属于真菌，可生产青霉素等抗生素，所以选真菌。
+English: Penicillium is a fungus that produces antibiotics such as penicillin, so fungi is the correct class."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：带状疱疹由水痘带状疱疹病毒引起，课本配对的治疗类别是抗病毒药。
+English: Shingles is caused by varicella-zoster virus, paired in the textbook with antiviral treatment."
+,radio,F5 Chp 2,A,B,C,D,A,Picture23.png,"中文：餐盘以四分之一谷物、四分之一蛋白质、半盘蔬果安排，是马来西亚健康餐盘概念。
+English: A plate arranged with a quarter grains, a quarter protein and half vegetables and fruit follows the Malaysian Healthy Plate concept."
+,radio,F5 Chp 2,A,B,C,D,A,Picture24.png,"中文：硝化细菌把铵化合物转为亚硝酸盐再转为硝酸盐，增加土壤硝酸盐。
+English: Nitrifying bacteria convert ammonium compounds to nitrites and then nitrates, increasing soil nitrates."
+,radio,F5 Chp 2,A,B,C,D,C,Picture25.png,"中文：无人机省时并减少劳工成本（Q、R）；克隆保留优良品种特征并维持品质（P、S），所以选 C。
+English: Drones save time and reduce labour costs (Q, R); cloning retains desirable breed characteristics and quality (P, S), matching C."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：查看日期标示能避免购买已过保存期限、较可能变质的面包。
+English: Checking the date marking helps avoid bread beyond its storage life and more likely to have spoiled."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：延长产品生命周期应采用 5R，如减少、再用、回收，A 更直接。现有答案 B 太阳能板能减碳，但不是题干所问的延长产品生命周期方法。
+English: Extending product life calls for 5R practices such as reduction, reuse and recycling, making A more direct. Existing answer B, solar panels, reduces emissions but does not specifically answer product-life extension."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：增加碳足迹的活动排放更多温室气体，造成图中地球温度逐渐上升。
+English: Activities that increase the carbon footprint emit more greenhouse gases, contributing to the rise in Earth's temperature shown."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：植物利用光能把二氧化碳和水转变为葡萄糖和氧气，这是光合作用。
+English: Plants use light energy to convert carbon dioxide and water into glucose and oxygen; this is photosynthesis."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：压力锅内压力较高，提高水的沸点和烹煮温度，反应较快，食物更快煮熟。
+English: Higher pressure in a pressure cooker raises water's boiling point and cooking temperature, speeding up reactions and cooking food faster."
+,radio,F5 Chp 5,A,B,C,D,D,Picture31.png,"中文：戊烷有 5 个碳原子，分子式 C5H12；D 的名称与碳数配对正确。
+English: Pentane has five carbon atoms and formula C5H12, so D correctly pairs the name and carbon count."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：脂肪是由碳、氢和氧三种元素组成的有机物。
+English: Fats are organic substances composed of carbon, hydrogen and oxygen."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：X 是高温蒸汽处理的灭菌阶段，杀死微生物并抑制会破坏油脂的酶。
+English: X is the steam-sterilisation stage, killing microorganisms and inactivating enzymes that could spoil the oil."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：固体溴化铅的离子固定不能导电；熔融时离子可移动，因此能导电，灯泡亮起。
+English: Ions in solid lead(II) bromide are fixed and cannot conduct; molten ions move freely and conduct, lighting the bulb."
+,radio,F5 Chp 6,A,B,C,D,D,Picture35.png,"中文：简单化学电池的负极金属失去电子，电子经外电路流向正极。
+English: In a simple chemical cell, the negative metal electrode loses electrons, which flow through the external circuit to the positive terminal."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：图中透镜中央较薄、边缘较厚，是凹透镜。
+English: The lens is thinner at the centre and thicker at its edges, identifying a concave lens."
+,radio,F5 Chp 7,A,B,C,D,A,Picture37.png,"中文：总放大倍数＝物镜×目镜；目镜倍数＝200÷40＝5 倍。
+English: Total magnification = objective × eyepiece; eyepiece magnification = 200 ÷ 40 = 5 times."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：压强相等：F÷10＝3500÷350，所以 F＝100 N。
+English: Equal pressure gives F ÷ 10 = 3500 ÷ 350, so F = 100 N."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：按本题课本的高度分类，约 35780 km、11100 km/h 属高地球轨道 HEO；地球同步或静止还涉及轨道周期及方向条件。
+English: Under the question's textbook altitude classification, about 35780 km and 11100 km/h correspond to HEO; geosynchronous or geostationary status additionally depends on period and orbital orientation."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS 地点可用十进制度数（DD）表示经度和纬度，例如 3.123456°，不是摄氏度。
+English: GPS locations can use decimal degrees (DD) to express latitude and longitude, such as 3.123456°, rather than degrees Celsius."

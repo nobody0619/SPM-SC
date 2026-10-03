@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang Set 1 2024 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang Set 1 2024 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：氯化钠溶液是中性盐溶液，符合课本可排入水槽的废液类别；金属粉末和浓酸、浓碱不可这样处理。
+English: Sodium chloride solution is a neutral salt solution suitable for sink disposal under the textbook rules; metal powders and concentrated acids or alkalis are unsuitable."
+,radio,F4 Chp 1,A,B,C,D,C,Picture2.png,"中文：二氧化碳不导电，并能隔绝氧气，适合扑灭电器火灾。
+English: Carbon dioxide does not conduct electricity and excludes oxygen, making it suitable for electrical fires."
+,radio,F4 Chp 2,A,B,C,D,C,Picture3.png,"中文：胸外按压帮助维持血液循环，把血液送往身体各处。
+English: Chest compressions help maintain circulation and move blood around the body."
+,radio,F4 Chp 2,A,B,C,D,C,Picture4.png,"中文：题图是独处时哽塞；按课本步骤，把拳头放在肚脐上方、肋骨下方，借椅背施压以排出异物。
+English: The diagram shows choking while alone; the textbook procedure places a fist above the navel and below the ribs and uses a chair edge to apply pressure and expel the obstruction."
+,radio,F4 Chp 3,A,B,C,D,D,Picture5.png,"中文：红外线温度计检测身体发出的红外线，无须接触身体即可测量体温。
+English: An infrared thermometer detects infrared radiation from the body and measures temperature without contact."
+,radio,F4 Chp 3,A,B,C,D,C,Picture6.png,"中文：跳跃活动强度最高，肌肉需要更多氧气和能量，所以脉搏率最高。
+English: Jumping is the most vigorous activity listed; muscles need more oxygen and energy, so pulse rate is highest."
+,radio,F4 Chp 4,A,B,C,D,A,Picture7.png,"中文：燃烧活动释放二氧化碳，增强温室效应而导致全球暖化，A 的气体与影响配对正确。
+English: Combustion releases carbon dioxide, strengthening the greenhouse effect and causing global warming, matching A."
+,radio,F4 Chp 4,A,B,C,D,C,Picture8.png,"中文：电动巴士行驶时不燃烧汽油或柴油，因此主要优势是减少温室气体排放。
+English: An electric bus does not burn petrol or diesel while travelling, so its main benefit is reducing greenhouse-gas emissions."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：有丝分裂后期，着丝粒分开，姐妹染色单体分离并移向相反两极。
+English: During anaphase of mitosis, centromeres divide and sister chromatids separate towards opposite poles."
+,radio,F4 Chp 5,A,B,C,D,D,Picture10.png,"中文：直方图呈连续的钟形分布，表示连续变异；身高有许多中间数值，属于这类变异。
+English: The continuous bell-shaped histogram represents continuous variation; height has many intermediate values and fits this pattern."
+,radio,F4 Chp 5,A,B,C,D,B,Picture11.png,"中文：Kk×kk 产生一半 Kk 卷发、一半 kk 直发，所以卷发：直发＝1：1。
+English: Kk × kk produces half Kk curly-haired and half kk straight-haired offspring, giving a curly:straight ratio of 1:1."
+,radio,F4 Chp 6,A,B,C,D,C,Picture12.png,"中文：水的浮力支持鲸鱼的体重，所以胸带和骨盆带无须像陆生动物般粗大。
+English: Water buoyancy supports a whale's body weight, so its pectoral and pelvic girdles need not be as large as those of land animals."
+,radio,F4 Chp 7,A,B,C,D,C,Picture13.png,"中文：图中是胰脏，分泌胰岛素来降低血糖；移除后胰岛素不足，血糖会上升。
+English: The diagram shows the pancreas, which secretes insulin to lower blood glucose; its removal causes insufficient insulin and rising glucose levels."
+,radio,F4 Chp 7,A,B,C,D,B,Picture14.png,"中文：过量酒精可损伤肝脏和其他器官，导致肝硬化、心脏衰竭和胃溃疡等问题。
+English: Excessive alcohol can damage the liver and other organs, causing problems such as cirrhosis, heart failure and stomach ulcers."
+,radio,F4 Chp 8,A,B,C,D,B,Picture15.png,"中文：中子数＝核子数－质子数＝40－20＝20。
+English: Number of neutrons = nucleon number − proton number = 40 − 20 = 20."
+,radio,F4 Chp 8,A,B,C,D,D,Picture16.png,"中文：R 位于第 15 族非金属区域，S 位于第 18 族稀有气体区域；两者都是非金属。
+English: R lies in the Group 15 non-metal region and S in Group 18 among noble gases; both are non-metals."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：代谢和发炎发生于身体内部，可产生自由基；烟雾、阳光和外来辐射属于外在来源。
+English: Metabolism and inflammation occur inside the body and can generate free radicals; smoke, sunlight and external radiation are external sources."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：柠檬汁含维生素 C 等抗氧化物，可减慢切开水果的氧化褐变。
+English: Lemon juice contains antioxidants such as vitamin C that slow oxidative browning in cut fruit."
+,radio,F4 Chp 11,A,B,C,D,B,Picture19.png,"中文：OP 是斜率固定的直线，表示匀速；PQ 是水平线，位移不变，所以速度为零。
+English: OP has a constant slope, indicating uniform velocity; PQ is horizontal with unchanged displacement, so velocity is zero."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：自由落体是物体只受重力作用的运动，不考虑空气阻力。
+English: Free fall is motion under gravitational force alone, without considering air resistance."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：按本题课本分类，白血病是辐射造成的体细胞效应，影响受照者本身。
+English: Under this question's textbook classification, leukaemia is a somatic effect of radiation affecting the exposed individual."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：放射性废料会释放电离辐射，若处理不当可损害人体健康，这是核能的负面影响。
+English: Radioactive waste emits ionising radiation and can harm human health if mishandled, a disadvantage of nuclear energy."

@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：题目给出的硝酸pH为6，属于实验室可按规定排放的pH约5至9范围。油漆和pH为1或12的强酸碱不可随意倒入水槽。
+English: The stated nitric acid has pH 6, within the approximate pH 5–9 range permitted for disposal under laboratory rules. Paint and strongly acidic or alkaline solutions at pH 1 or 12 must not be poured into a sink indiscriminately."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：干粉灭火器适用于多种火灾，包括固体、可燃液体及电器火灾，所以较适合学校不同场所的需要。
+English: A dry-powder extinguisher can handle various fires, including solid materials, flammable liquids and electrical equipment, making it suitable for different school settings."
+,radio,F4 Chp 2,A,B,C,D,A,Picture3.png,"中文：用双手抓住喉咙是噎住的典型求救动作。海姆立克急救法帮助排出堵塞气道的异物。
+English: Holding the throat with both hands is a typical choking sign. The Heimlich manoeuvre helps expel an object blocking the airway."
+,radio,F4 Chp 3,A,B,C,D,D,Picture4.png,"中文：红外线体温计检测身体发出的红外线，因此不必接触病人便能测量体温。
+English: An infrared thermometer detects infrared radiation emitted by the body, allowing temperature to be measured without touching the patient."
+,radio,F4 Chp 3,A,B,C,D,B,Picture5.png,"中文：身高=√(体重÷BMI)=√(78÷26.99)≈1.70 m，因此选B。
+English: Height = √(mass ÷ BMI) = √(78 ÷ 26.99) ≈ 1.70 m, so B is correct."
+,radio,F4 Chp 4,A,B,C,D,D,Picture6.png,"中文：森林燃烧释放二氧化碳，同时减少吸收二氧化碳的树木。二氧化碳是温室气体，会加强全球暖化。
+English: Forest burning releases carbon dioxide and removes trees that absorb it. Carbon dioxide is a greenhouse gas that contributes to global warming."
+,radio,F4 Chp 4,A,B,C,D,A,Picture7.png,"中文：交通工具燃烧石油燃料，排放二氧化碳及可导致酸雨的污染物，因此这些问题属于交通领域。
+English: Vehicles burn petroleum fuels, releasing carbon dioxide and pollutants that can contribute to acid rain. These issues therefore belong to the transportation sector."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：同源染色体交换对应的片段是交叉互换，发生在减数分裂中，可增加遗传变异。
+English: Homologous chromosomes exchanging corresponding segments is crossing over. It occurs during meiosis and increases genetic variation."
+,radio,F4 Chp 5,A,B,C,D,C,Picture9.png,"中文：血友病涉及控制凝血因子的基因发生突变，使血液难以正常凝固，受伤后可能持续出血。
+English: Haemophilia involves a mutation affecting a blood-clotting factor. Blood does not clot normally, so bleeding may continue after an injury."
+,radio,F4 Chp 5,A,B,C,D,A,Picture10.png,"中文：图中柱相连，表示连续变异。身高有连续范围及中间值；血型、指纹类型和耳垂类型属于不连续变异。
+English: The adjoining bars represent continuous variation. Height has a continuous range with intermediate values, unlike blood group, fingerprint type and earlobe type."
+,radio,F4 Chp 6,A,B,C,D,C,Picture11.png,"中文：T是连接肌肉与骨的肌腱。肌腱受伤会使肌肉收缩产生的力无法有效传递到骨，影响手臂运动。
+English: T is a tendon connecting muscle to bone. Tendon injury prevents the force of muscle contraction from being transmitted effectively to the bone, affecting arm movement."
+,radio,F4 Chp 7,A,B,C,D,A,Picture12.png,"中文：R位于脑底部，是脑垂体。它分泌多种激素，包括生长激素，并调节其他内分泌腺。
+English: R is the pituitary gland at the base of the brain. It secretes several hormones, including growth hormone, and regulates other endocrine glands."
+,radio,F4 Chp 8,A,B,C,D,C,Picture13.png,"中文：钾的质子数为19，电子排列为2.8.8.1。它失去最外层的1个电子，形成K⁺，得到稳定电子排列2.8.8。
+English: Potassium has proton number 19 and electron arrangement 2.8.8.1. It loses its one outer electron to form K⁺ with the stable arrangement 2.8.8."
+,radio,F4 Chp 8,A,B,C,D,A,Picture14.png,"中文：P与Q的质子数都为6，中子数不同，所以它们是同一元素的同位素。
+English: P and Q both have six protons but different neutron numbers, so they are isotopes of the same element."
+,radio,F4 Chp 9,A,B,C,D,C,Picture15.png,"中文：实验室玻璃仪器通常使用硼硅酸盐玻璃，因为它耐热，受温度改变时不易破裂。
+English: Laboratory glassware commonly uses borosilicate glass because it withstands heat and resists cracking when temperature changes."
+,radio,F4 Chp 9,A,B,C,D,B,Picture16.png,"中文：将橡胶与硫一起加热进行硫化，形成链之间的交联，使鞋底更硬、更耐热和耐用。
+English: Heating rubber with sulphur causes vulcanisation. Cross-links form between the chains, making the shoe sole harder, more heat-resistant and more durable."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：图中是胡萝卜，含β-胡萝卜素。它是课本中的抗氧化物例子，也可在体内转变为维生素A。
+English: The vegetable is a carrot, which contains beta-carotene. It is a textbook example of an antioxidant and can also be converted into vitamin A in the body."
+,radio,F4 Chp 11,A,B,C,D,B,Picture18.png,"中文：平均速度=总距离÷时间=200÷25=8.00 m s⁻¹，因此选B。
+English: Average speed = total distance ÷ time = 200 ÷ 25 = 8.00 m s⁻¹, so B is correct."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：装满物品的手推车质量更大、惯性更大，因此比空车更难开始移动。这与装水罐较难停止的概念相同。
+English: A fully loaded trolley has greater mass and inertia, making it harder to start moving than an empty trolley. This is the same concept as the water-filled can being harder to stop."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：放射性废物若管理不当，会使人接触电离辐射，损伤细胞并增加疾病风险，这是核能的负面影响。
+English: Poorly managed radioactive waste can expose people to ionising radiation, damaging cells and increasing disease risk. This is a negative effect of nuclear energy."

@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Muar 2025,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture9.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture12.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture20.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture26.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Muar 2025,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：弱酸若稀释且无危险成分，可按实验室规定排入水槽；浓酸、油漆溶剂和强碱不可随意倒入。一般可排放溶液的pH约为5至9。
+English: A dilute, non-hazardous weak acid may be disposed of in a sink under laboratory rules. Concentrated acids, paint solvents and strong alkalis must not be poured away indiscriminately; permitted solutions generally have a pH of about 5–9."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：图中进行胸外按压。按压胸部帮助血液循环，将氧气输送到脑和其他重要器官，因此选D。
+English: The diagram shows chest compressions. These help restore blood circulation and carry oxygen to the brain and other vital organs, so D is the best answer."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：血压计测量血压，读数通常包括收缩压和舒张压，单位为mmHg。
+English: A blood pressure monitor measures blood pressure, usually showing systolic and diastolic pressure in mmHg."
+,radio,F4 Chp 4,A,B,C,D,C,Picture4.png,"中文：图中喷洒农业化学品。过量使用某些化肥或农药会改变土壤性质，并可使土壤酸性增加，因此选C。
+English: The farmer is spraying agricultural chemicals. Excessive use of certain fertilisers or pesticides can change soil conditions and increase soil acidity, so C is the intended answer."
+,radio,F4 Chp 4,A,B,C,D,C,Picture5.png,"中文：绿色技术可节省水、能源和其他资源。设备可能有初期成本，但长期可降低农业经营费用，这是间接经济利益。
+English: Green technology saves water, energy and other resources. Although equipment may have an initial cost, it can reduce long-term agricultural operating expenses, which is an indirect economic benefit."
+,radio,F4 Chp 5,A,B,C,D,A,Picture6.png,"中文：父亲XᵗY与携带者母亲XᵀXᵗ，可产生XᵀXᵗ、XᵗXᵗ、XᵀY和XᵗY。患色盲儿子与正常携带者女儿各占1/4，比例为1:1。
+English: Crossing a colour-blind father, XᵗY, with a carrier mother, XᵀXᵗ, gives XᵀXᵗ, XᵗXᵗ, XᵀY and XᵗY. A colour-blind son and a normal carrier daughter each have a probability of 1/4, giving a ratio of 1:1."
+,radio,F4 Chp 6,A,B,C,D,D,Picture7.png,"中文：袋鼠的尾巴帮助支撑身体和维持平衡，尤其在站立或缓慢移动时，因此选D。
+English: A kangaroo's tail supports its body and helps maintain balance, particularly when standing or moving slowly, so D is correct."
+,radio,F4 Chp 6,A,B,C,D,C,Picture8.png,"中文：13岁时，图中女生的生长曲线在男生曲线之上，表示女生较高。女生通常较早进入青春期的快速生长期。
+English: At age 13, the female growth curve lies above the male curve, so girls are taller. Girls generally enter the rapid growth phase of puberty earlier."
+,radio,F4 Chp 7,A,B,C,D,C,Picture9.png,"中文：图中是胰脏，分泌胰岛素以降低血糖。移除胰脏会导致胰岛素不足，血液葡萄糖水平上升。
+English: The diagram shows the pancreas, which secretes insulin to lower blood glucose. Removing it causes insulin deficiency and an increase in blood glucose level."
+,radio,F4 Chp 7,A,B,C,D,B,Picture10.png,"中文：颈部的腺体是甲状腺，分泌甲状腺素，调节身体的新陈代谢速率。
+English: The gland in the neck is the thyroid gland. It secretes thyroxine, which regulates the body's metabolic rate."
+,radio,F4 Chp 8,A,B,C,D,A,Picture11.png,"中文：同一周期由左至右，金属性减弱、非金属性增强。因此声称金属性增强的A是错误陈述。
+English: Across a period from left to right, metallic character decreases and non-metallic character increases. Therefore, statement A, which gives the opposite trend, is incorrect."
+,radio,F4 Chp 8,A,B,C,D,B,Picture12.png,"中文：Q和R都有17个质子，但中子数分别为18和20。同位素具有相同质子数和不同中子数，因此选B。
+English: Q and R both have 17 protons but have 18 and 20 neutrons respectively. Isotopes have the same proton number but different neutron numbers, so B is correct."
+,radio,F4 Chp 9,A,B,C,D,C,Picture13.png,"中文：图中有不同大小的原子，是合金的结构。钢是铁与碳组成的合金；铅、银和金在此题中是纯金属。
+English: The different-sized atoms represent an alloy. Steel is an alloy of iron and carbon, while lead, silver and gold are treated as pure metals in this question."
+,radio,F4 Chp 9,A,B,C,D,D,Picture14.png,"中文：硬铝质量轻而且坚固，适合制造飞机，以减少机身重量并提供足够强度。
+English: Duralumin is light and strong, making it suitable for aircraft construction because it reduces weight while providing sufficient strength."
+,radio,F4 Chp 10,A,B,C,D,B,Picture15.png,"中文：辅助医疗包括使用天然产品及进行身心活动，例如草药、瑜伽和冥想。II和III符合这些特点，因此选B。
+English: Complementary medicine includes natural products and mind–body activities, such as herbal products, yoga and meditation. Statements II and III fit these features, so B is correct."
+,radio,F4 Chp 10,A,B,C,D,A,Picture16.png,"中文：抗生素用于杀死细菌或抑制细菌生长，不适用于治疗病毒感染。阿司匹林主要用于减轻疼痛。
+English: Antibiotics kill bacteria or inhibit their growth; they do not treat viral infections. Aspirin is mainly used to relieve pain."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：扑热息痛是止痛药，可减轻伤口造成的疼痛，因此依答案选D。它不会像抗生素一样杀死细菌。
+English: Paracetamol is an analgesic that relieves pain caused by a wound, so D is the keyed answer. It does not kill bacteria as antibiotics do."
+,radio,F4 Chp 11,A,B,C,D,D,Picture18.png,"中文：20 cm的纸带包含5个时间间隔，每个0.02 s。总时间=5×0.02=0.10 s；平均速度=20÷0.10=200 cm s⁻¹，选D。
+English: The 20 cm section contains five time intervals of 0.02 s each. Total time = 5 × 0.02 = 0.10 s; average speed = 20 ÷ 0.10 = 200 cm s⁻¹, giving D."
+,radio,F4 Chp 12,A,B,C,D,C,Picture19.png,"中文：太阳以核聚变产生能量：较轻的原子核结合成较重的原子核，同时释放大量能量。
+English: The Sun produces energy by nuclear fusion: lighter nuclei combine into heavier nuclei and release a large amount of energy."
+,radio,F4 Chp 12,A,B,C,D,A,Picture20.png,"中文：胶片徽章记录工作人员接受的辐射剂量，帮助监测是否超过安全限度，因此选A。它是监测工具，并不是防辐射屏障。
+English: A film badge records the radiation dose received by a worker, helping monitor whether exposure exceeds safe limits. It is a monitoring device rather than a radiation shield."
+,radio,F5 Chp 1,A,B,C,D,B,Picture21.png,"中文：一个微生物细胞分裂成两个子细胞，这是二分裂。出芽则会先形成较小的芽体。
+English: One microorganism divides into two daughter cells, which is binary fission. Budding instead begins with a smaller outgrowth."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：根瘤菌把空气中的氮转化为可供植物利用的含氮化合物，经过土壤中的作用增加可利用的硝酸盐，因此答案选B。
+English: Rhizobium in root nodules fixes atmospheric nitrogen into nitrogen compounds. Soil processes then increase available nitrates for plants, which is the intended basis for B."
+,radio,F5 Chp 1,A,B,C,D,D,Picture23.png,"中文：抗生素纸片周围出现透明区，表示该范围内的细菌生长受到抑制。透明区可用来比较抗生素的效果。
+English: A clear zone around an antibiotic disc shows that bacterial growth has been inhibited there. The zone can be used to compare antibiotic effectiveness."
+,radio,F5 Chp 2,A,B,C,D,B,Picture24.png,"中文：总能量=(14.5×200)+(7.25×150)+(3.85×250)=2900+1087.5+962.5=4950 kJ，选B。
+English: Total energy = (14.5 × 200) + (7.25 × 150) + (3.85 × 250) = 2900 + 1087.5 + 962.5 = 4950 kJ, so B is correct."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：厌食症患者强烈害怕体重增加，因此限制或拒绝进食，导致体重过低和营养不足。
+English: A person with anorexia has an intense fear of gaining weight and restricts or refuses food, leading to very low body weight and malnutrition."
+,radio,F4 Chp 4,A,B,C,D,A,Picture26.png,"中文：能源领域的绿色技术采用较清洁或可再生能源，减少对化石燃料的依赖以及碳排放。
+English: Green technology in the energy sector uses cleaner or renewable energy sources to reduce dependence on fossil fuels and lower carbon emissions."
+,radio,F4 Chp 4,A,B,C,D,B,Picture27.png,"中文：露天焚烧、使用农药和化肥，以及开垦土地，与农业和林业活动有关，因此选B。
+English: Open burning, pesticide and fertiliser use, and land clearing are associated with agriculture and forestry, so B is correct."
+,radio,F5 Chp 4,A,B,C,D,B,Picture28.png,"中文：180 s后气体体积已维持45 cm³，反应结束。平均速率=45÷180=0.25 cm³ s⁻¹；不能把反应结束后的210 s当作反应时间。
+English: The gas volume reaches 45 cm³ at 180 s and then stays constant, showing that the reaction has ended. Average rate = 45 ÷ 180 = 0.25 cm³ s⁻¹; the later 210 s reading is not the reaction duration."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：哈柏法使用铁粉作催化剂，加快氨的生成并缩短所需时间。催化剂不会改变平衡产率。
+English: The Haber process uses iron powder as a catalyst to speed up ammonia production and shorten the time needed. A catalyst does not change the equilibrium yield."
+,radio,F5 Chp 5,A,B,C,D,D,Picture30.png,"中文：碳化合物广泛用作燃料和食物，例如碳氢化合物燃料以及含碳的糖类、脂肪和蛋白质，因此选D。
+English: Carbon compounds are widely used as fuels and food, including hydrocarbon fuels and carbon-containing carbohydrates, fats and proteins, so D is correct."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：依SPM课程，棕榈油与醇进行题目所称的酯化作用，可制成生物柴油，减少对石油柴油的依赖。
+English: At SPM level, palm oil reacts with an alcohol in the process called esterification in the question to produce biodiesel, reducing dependence on petroleum diesel."
+,radio,F5 Chp 6,A,B,C,D,D,Picture32.png,"中文：柠檬中的酸性液体作电解质，锌和铜作电极。这种简单电池把化学能转化为电能，供LED使用。
+English: The acidic liquid in a lemon acts as the electrolyte, with zinc and copper as electrodes. This simple cell converts chemical energy into electrical energy to power the LED."
+,radio,F5 Chp 6,A,B,C,D,A,Picture33.png,"中文：镁和铜在金属反应性序列中的距离较大，可产生较高电压，使灯较亮，因此选A。
+English: Magnesium and copper are far apart in the metal reactivity series, producing a relatively high voltage and a brighter lamp, so A is correct."
+,radio,F5 Chp 7,A,B,C,D,C,Picture34.png,"中文：图中C位于焦点F，能对应题目“成像在无穷远”，因此保留答案C。不过题目把“虚像、正立”与“无穷远”并列并不严谨：有限距离的正立虚像应在物体位于F与透镜之间时形成。
+English: Point C is at the focal point F, matching the clue that the image is at infinity, so the keyed answer C is retained. However, combining “virtual, upright” with “at infinity” is imprecise: a finite upright virtual image is formed when the object is between F and the lens."
+,radio,F5 Chp 7,A,B,C,D,B,Picture35.png,"中文：P对应显微镜通过目镜观看的放大、正立虚像；Q对应望远镜物镜形成的缩小、倒立实像；R是用凹透镜矫正近视的眼镜，因此选B。
+English: P matches the magnified, upright virtual image viewed through a microscope eyepiece. Q matches the reduced, inverted real image formed by a telescope's objective lens. R is spectacles using a concave lens to correct short-sightedness, so B is correct."
+,radio,F5 Chp 8,A,B,C,D,C,Picture36.png,"中文：根据帕斯卡原理，Fₘ/Aₘ=Fₙ/Aₙ。Fₘ=8000×20÷800=200 N，因此选C。
+English: By Pascal's principle, Fₘ/Aₘ = Fₙ/Aₙ. Thus Fₘ = 8000 × 20 ÷ 800 = 200 N, so C is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：封闭液体受到的压力会均匀传递到各处，这是帕斯卡原理。因此所比较位置的压力相等，选B。
+English: Pressure applied to an enclosed liquid is transmitted uniformly throughout it, according to Pascal's principle. The compared pressures are therefore equal, giving B."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：强风使屋顶上方空气流速增加、压力降低。屋内较高的气压产生向上的合力，可把屋顶掀起。
+English: Strong wind increases air speed above the roof and lowers the pressure there. The higher pressure inside the house produces an upward resultant force that can lift the roof."
+,radio,F5 Chp 8,A,B,C,D,A,Picture39.png,"中文：A处空气通道较宽，流速较低，气压较高；较窄处流速较高、气压较低。这符合伯努利原理，因此选A。
+English: The air passage is wider at A, where air moves more slowly and has higher pressure. At narrower sections, air moves faster and has lower pressure, in accordance with Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：纬度3.139456为正，表示北纬；经度−101.689593为负，表示西经，因此坐标位于西北方向，选D。
+English: The positive latitude, 3.139456, indicates north, while the negative longitude, −101.689593, indicates west. The coordinates therefore indicate the north-west direction, giving D."

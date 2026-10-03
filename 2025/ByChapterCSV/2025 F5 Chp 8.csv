@@ -1,0 +1,49 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 8,radio,Muar2025_Q36,A,B,C,D,C,Muar 2025/Picture36.png,"中文：根据帕斯卡原理，Fₘ/Aₘ=Fₙ/Aₙ。Fₘ=8000×20÷800=200 N，因此选C。
+English: By Pascal's principle, Fₘ/Aₘ = Fₙ/Aₙ. Thus Fₘ = 8000 × 20 ÷ 800 = 200 N, so C is correct."
+F5 Chp 8,radio,PasirGudang2025_Q36,A,B,C,D,D,Pasir Gudang 2025/Picture36.png,"中文：根据伯努利原理，较窄通道中流体速度较高，压力较低，因此选D。
+English: According to Bernoulli's principle, fluid moves faster in a narrower passage and has lower pressure, so D is correct."
+F5 Chp 8,radio,Kelantan2025_Q37,A,B,C,D,C,Kelantan 2025/Picture37.png,"中文：油不易压缩，能传递压力，也能润滑液压系统零件。
+English: Oil is nearly incompressible, transmits pressure and lubricates hydraulic components."
+F5 Chp 8,radio,Muar2025_Q37,A,B,C,D,B,Muar 2025/Picture37.png,"中文：封闭液体受到的压力会均匀传递到各处，这是帕斯卡原理。因此所比较位置的压力相等，选B。
+English: Pressure applied to an enclosed liquid is transmitted uniformly throughout it, according to Pascal's principle. The compared pressures are therefore equal, giving B."
+F5 Chp 8,radio,NegeriSembilan2025_Q37,A,B,C,D,C,Negeri Sembilan 2025/Picture37.png,"中文：伯努利原理说明，在此实验条件下，流体流速越高，压力越低，因此选C。
+English: Bernoulli's principle states that, under the conditions of this experiment, higher fluid speed corresponds to lower pressure, so C is correct."
+F5 Chp 8,radio,PasirGudang2025_Q37,A,B,C,D,C,Pasir Gudang 2025/Picture37.png,"中文：C是牙科椅，利用封闭液体传递压力，符合帕斯卡原理，可用小活塞的力升起较大的负载。
+English: C is a dental chair. It transmits pressure through an enclosed liquid according to Pascal's principle, allowing force on a smaller piston to raise a larger load."
+F5 Chp 8,radio,Penang2025_Q37,A,B,C,D,C,Penang 2025/Picture37.png,"中文：液压系统两活塞压力相同。因为大活塞面积较大，按F=PA，它产生的力较大，所以小活塞的力较小。
+English: The pressure is equal at the two hydraulic pistons. Since the larger piston has greater area, F = PA gives it greater force. The force on the small piston is therefore smaller."
+F5 Chp 8,radio,Kelantan2025_Q38,A,B,C,D,B,Kelantan 2025/Picture38.png,"中文：Fₚ/0.01 =10,000/2，所以Fₚ =50 N。
+English: Fₚ/0.01 =10,000/2, so Fₚ =50 N."
+F5 Chp 8,radio,KualaLumpur2025_Q38,A,B,C,D,B,Kuala Lumpur 2025/Picture38.png,"中文：F输出 =25×20/5 =100 N，因为液体传递相同压力。
+English: Output force =25×20/5 =100 N because the liquid transmits equal pressure."
+F5 Chp 8,radio,Melaka2025_Q38,A,B,C,D,B,Melaka 2025/Picture38.png,"中文：狭窄处流速较高、压力较低，符合伯努利原理。
+English: Flow is faster and pressure lower in the narrow section, illustrating Bernoulli's principle."
+F5 Chp 8,radio,Muar2025_Q38,A,B,C,D,B,Muar 2025/Picture38.png,"中文：强风使屋顶上方空气流速增加、压力降低。屋内较高的气压产生向上的合力，可把屋顶掀起。
+English: Strong wind increases air speed above the roof and lowers the pressure there. The higher pressure inside the house produces an upward resultant force that can lift the roof."
+F5 Chp 8,radio,NegeriSembilan2025_Q38,A,B,C,D,B,Negeri Sembilan 2025/Picture38.png,"中文：两活塞的液体压力相等：Fₚ/0.01=10000/2。Fₚ=10000×0.01÷2=50 N，因此选B。
+English: The fluid pressure is equal at the two pistons: Fₚ/0.01 = 10000/2. Therefore Fₚ = 10000 × 0.01 ÷ 2 = 50 N, so B is correct."
+F5 Chp 8,radio,Pahang2025_Q38,A,B,C,D,D,Pahang 2025/Picture38.png,"中文：按压活塞时，压力通过封闭液体均匀传递，展示帕斯卡原理。牙科椅利用液压系统升降，因此选D。
+English: Pushing the piston transmits pressure uniformly through an enclosed liquid, demonstrating Pascal's principle. A dental chair uses a hydraulic system for lifting, so D is correct."
+F5 Chp 8,radio,PasirGudang2025_Q38,A,B,C,D,D,Pasir Gudang 2025/Picture38.png,"中文：强风在屋顶上方流动，使上方气压降低。屋内较高的气压产生向上的力，把屋顶推起，因此选D。
+English: Fast wind over the roof lowers the pressure above it. The higher pressure inside produces an upward force that can lift the roof, so D is correct."
+F5 Chp 8,radio,Penang2025_Q38,A,B,C,D,A,Penang 2025/Picture38.png,"中文：A位于机翼下方。依课本模型，下方空气流速较低、压力较高，上方流速较高、压力较低，形成升力。
+English: A is below the wing. In the textbook model, slower air below has higher pressure, while faster air above has lower pressure, producing lift."
+F5 Chp 8,radio,Perlis2025_Q38,A,B,C,D,A,Perlis 2025/Picture38.png,"中文：文丘里管较窄处流速较高、压力较低，体现伯努利原理，因此A正确。
+English: Fluid moves faster and has lower pressure in the narrower section of a Venturi tube, demonstrating Bernoulli's principle, so A is correct."
+F5 Chp 8,radio,Selangor2025_Q38,A,B,C,D,C,Selangor 2025/Picture38.png,"中文：压力相等：Fₘ/0.01=1000/0.1。Fₘ=1000×0.01÷0.1=100 N，因此选C。
+English: Equal pressure gives Fₘ/0.01 = 1000/0.1. Thus Fₘ = 1000 × 0.01 ÷ 0.1 = 100 N, so C is correct."
+F5 Chp 8,radio,Johor2025_Q39,A,B,C,D,D,Johor 2025/Picture39.png,"中文：液压压力相等，F₂ =200×6/2 =600 N。
+English: Equal hydraulic pressure gives F₂ =200×6/2 =600 N."
+F5 Chp 8,radio,Kedah2025_Q39,A,B,C,D,C,Kedah 2025/Picture39.png,"中文：伯努利原理：流体速度较高的区域压力较低；密闭液体传压是帕斯卡原理。
+English: Bernoulli's principle states that faster fluid flow has lower pressure; transmission of pressure in an enclosed fluid is Pascal's principle."
+F5 Chp 8,radio,Muar2025_Q39,A,B,C,D,A,Muar 2025/Picture39.png,"中文：A处空气通道较宽，流速较低，气压较高；较窄处流速较高、气压较低。这符合伯努利原理，因此选A。
+English: The air passage is wider at A, where air moves more slowly and has higher pressure. At narrower sections, air moves faster and has lower pressure, in accordance with Bernoulli's principle."
+F5 Chp 8,radio,PasirGudang2025_Q39,A,B,C,D,B,Pasir Gudang 2025/Picture39.png,"中文：压力相等：F/0.05=3000/1.5。F=3000×0.05÷1.5=100 N，因此选B。
+English: Equal pressure gives F/0.05 = 3000/1.5. Thus F = 3000 × 0.05 ÷ 1.5 = 100 N, so B is correct."
+F5 Chp 8,radio,Perak2025_Q39,A,B,C,D,D,Perak 2025/Picture39.png,"中文：压力相等，输出力=输入力×输出面积÷输入面积=20×1÷0.01=2000 N，因此选D。
+English: Equal pressure gives output force = input force × output area ÷ input area = 20 × 1 ÷ 0.01 = 2000 N, so D is correct."
+F5 Chp 8,radio,Perlis2025_Q39,A,B,C,D,B,Perlis 2025/Picture39.png,"中文：B位于无人机下方。螺旋桨使下方压力较高、上方较低，产生向上的升力，因此选B。
+English: B is beneath the drone. The propellers produce higher pressure below and lower pressure above, creating upward lift, so B is correct."
+F5 Chp 8,radio,Putrajaya2025_Q39,A,B,C,D,C,Putrajaya 2025/Picture39.png,"中文：伯努利原理表示流体流速越高，压力越低，因此选C。
+English: Bernoulli's principle relates higher fluid speed to lower pressure, so C is correct."

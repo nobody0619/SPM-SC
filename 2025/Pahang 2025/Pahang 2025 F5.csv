@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang 2025 F5,radio,F5 Chp 1,A,B,C,D,A,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang 2025 F5,radio,F5 Chp 1,A,B,C,D,A,Picture21.png,"中文：正常菌群在正常情况下生活于人体而不引起疾病，也可帮助抑制病原体，因此A最符合课程定义。
+English: Normal flora live in or on the body without causing disease under normal conditions and can help suppress pathogens. A best matches the course definition."
+,radio,F5 Chp 1,A,B,C,D,C,Picture22.png,"中文：依课程，环保酵素帮助分解有机污物，达到清洁效果，并减少有害化学残留，因此选C。不能由清洁效果推断它可杀死所有细菌。
+English: At course level, eco-enzyme helps break down organic dirt, improving cleaning while reducing harmful chemical residues, so C is intended. Better cleaning does not prove that it kills all bacteria."
+,radio,F5 Chp 1,A,B,C,D,D,Picture23.png,"中文：消毒剂用于非生命物体表面，杀死或抑制微生物。用于皮肤或伤口的则是适当的防腐剂。
+English: Disinfectants kill or inhibit microorganisms on non-living surfaces. Suitable antiseptics are used on skin or wounds instead."
+,radio,F5 Chp 2,A,B,C,D,B,Picture24.png,"中文：反硝化把土壤中的硝酸盐转化为氮气并释放到空气，减少土壤的硝酸根离子。
+English: Denitrification converts soil nitrates into nitrogen gas released to the atmosphere, removing nitrate ions from the soil."
+,radio,F5 Chp 2,A,B,C,D,C,Picture25.png,"中文：杀菌不完全会留下微生物，它们在罐内繁殖并使食物腐败，即使尚未到期也会出现异味。
+English: Incomplete sterilisation leaves microorganisms that can multiply and spoil the canned food, producing an unpleasant smell even before the expiry date."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：不符合食品安全要求的产品应从市场召回，避免消费者继续购买和食用，因此选C。
+English: A food product that fails food-safety requirements should be recalled from the market to prevent further purchase and consumption, so C is correct."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：图中工厂和交通工具排放烟气。排放有毒或有害气体会造成空气污染，因此选B。
+English: The factories and vehicles release exhaust gases. Toxic or harmful gas emissions cause air pollution, so B is correct."
+,radio,F5 Chp 4,A,B,C,D,D,Picture28.png,"中文：温度升高使粒子动能增加，碰撞更频繁，且更多粒子具有足够能量进行有效碰撞。硫较快形成，因此X较快消失。
+English: Higher temperature increases particle kinetic energy, collision frequency and the number of particles able to collide effectively. Sulphur forms faster, so the X disappears sooner."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：哈柏法用铁粉作催化剂，加快氮和氢生成氨的反应。钒(V)氧化物则用于接触法。
+English: The Haber process uses iron powder to catalyse the reaction of nitrogen and hydrogen to form ammonia. Vanadium(V) oxide is used in the Contact process instead."
+,radio,F5 Chp 5,A,B,C,D,A,Picture30.png,"中文：乙醇是有机碳化合物。大理石中的碳酸盐、二氧化碳和碳酸氢钠在课程中属于无机碳化合物。
+English: Ethanol is an organic carbon compound. Carbonates in marble, carbon dioxide and sodium bicarbonate are classified as inorganic carbon compounds in the course."
+,radio,F5 Chp 5,A,B,C,D,A,Picture31.png,"中文：结构含碳碳双键，是不饱和烃，属于烯烃同系物。它是C₄H₈，符合烯烃通式CₙH₂ₙ。
+English: The structure contains a carbon–carbon double bond, so it is an unsaturated hydrocarbon in the alkene homologous series. It is C₄H₈, matching CₙH₂ₙ."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：这些性质符合乙醇。乙醇可溶解多种物质，因此用作香水和其他化妆品的溶剂。
+English: These properties match ethanol. It dissolves many substances and is therefore used as a solvent in perfumes and other cosmetic products."
+,radio,F5 Chp 5,A,B,C,D,B,Picture33.png,"中文：B指向油棕果的果肉或中果皮，也就是题目所称的sabut。棕榈油主要从这部分提取。
+English: B points to the fleshy mesocarp or pulp, called sabut in the question. Palm oil is mainly extracted from this part."
+,radio,F5 Chp 6,A,B,C,D,C,Picture34.png,"中文：氯化钠溶液含可自由移动的离子，能导电，是电解质。固体溴化铅中的离子不能自由移动，需熔化后才能导电。
+English: Sodium chloride solution contains mobile ions and conducts electricity, making it an electrolyte. Ions in solid lead(II) bromide cannot move freely; it must be melted to conduct."
+,radio,F5 Chp 6,A,B,C,D,A,Picture35.png,"中文：镁和铜浸在电解质中，把化学能转为电能，构成简单化学电池。它不需要外部电源来驱动反应。
+English: Magnesium and copper in an electrolyte convert chemical energy into electrical energy, forming a simple chemical cell. An external power source is not required to drive the reaction."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：要得到放大、正立的虚像，物体应放在凸透镜与焦点F之间。图中D就在这个范围。
+English: For a magnified, upright virtual image, the object must be between the convex lens and its focal point F. Point D lies in that region."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：放大镜使用凸透镜，把物体放在焦距以内，形成放大、正立的虚像。
+English: A magnifying glass uses a convex lens with the object within the focal length to form a magnified, upright virtual image."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：按压活塞时，压力通过封闭液体均匀传递，展示帕斯卡原理。牙科椅利用液压系统升降，因此选D。
+English: Pushing the piston transmits pressure uniformly through an enclosed liquid, demonstrating Pascal's principle. A dental chair uses a hydraulic system for lifting, so D is correct."
+,radio,F5 Chp 9,A,B,C,D,A,Picture39.png,"中文：RLV是可重复使用的发射载具，能够回收并再次使用，从而降低重复发射的成本。
+English: RLV means reusable launch vehicle. It can be recovered and used again, reducing the cost of repeated launches."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：GPS利用卫星信号确定位置，帮助用户了解所在地点、方向和路线，因此选D。
+English: GPS uses satellite signals to determine position, helping users identify their location, direction and route, so D is correct."

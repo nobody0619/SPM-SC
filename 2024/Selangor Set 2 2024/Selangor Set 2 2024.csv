@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Selangor Set 2 2024,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,A,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor Set 2 2024,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：挥发性物质可能产生可吸入的蒸气；在给出的个人防护用品中，题目要求选保护口鼻的口罩。
+English: Volatile substances may release inhalable vapours; among the listed personal protective items, the question selects a face mask to cover the nose and mouth."
+,radio,F4 Chp 1,A,B,C,D,A,Picture2.png,"中文：血液是液体生物废物，按课本须先高压蒸汽灭菌去污染，再按规定处理。
+English: Blood is liquid biological waste; the textbook requires autoclave decontamination before disposal."
+,radio,F4 Chp 2,A,B,C,D,C,Picture3.png,"中文：哈姆立克法的目的是排出阻塞气道的异物，帮助哽塞者恢复呼吸。
+English: The Heimlich manoeuvre aims to expel an airway obstruction and help a choking victim breathe again."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：图中读数是 120/80 mmHg，按课本分类属于正常血压；理想血压则低于 120/80。
+English: The reading is 120/80 mmHg, classified as normal in the textbook; optimal blood pressure is below 120/80."
+,radio,F4 Chp 3,A,B,C,D,B,Picture5.png,"中文：BMI＝78÷1.70²＝26.99 kg/m²。
+English: BMI = 78 ÷ 1.70² = 26.99 kg/m²."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：废弃纸张增加固体废物，属于废物与废水管理领域需要处理的环境问题。
+English: Discarded paper adds to solid waste, an environmental issue addressed by waste and wastewater management."
+,radio,F4 Chp 4,A,B,C,D,D,Picture7.png,"中文：绿色交通减少化石燃料使用及二氧化碳排放，有助缓解全球暖化。
+English: Green transportation reduces fossil-fuel use and carbon dioxide emissions, helping limit global warming."
+,radio,F4 Chp 4,A,B,C,D,A,Picture8.png,"中文：回收减少制造新产品所需的原料和能源，因此可减少与日常活动相关的二氧化碳排放。
+English: Recycling reduces raw materials and energy needed for new products, lowering carbon dioxide emissions associated with daily activities."
+,radio,F4 Chp 5,A,B,C,D,B,Picture9.png,"中文：卵子含 X 染色体；产生男孩的 XY 组合需要含 22＋Y 的精子。
+English: An ovum carries X; a sperm carrying 22 + Y is needed to produce a boy with XY chromosomes."
+,radio,F4 Chp 5,A,B,C,D,A,Picture10.png,"中文：地中海贫血涉及血红蛋白制造的基因突变，常产生较小、功能受影响的红血球。
+English: Thalassaemia involves mutations affecting haemoglobin production, often producing smaller, impaired red blood cells."
+,radio,F4 Chp 5,A,B,C,D,D,Picture11.png,"中文：基因改造可加入抗病特征，提高植物对疾病的抵抗力，减少产量损失。
+English: Genetic modification can introduce disease-resistance traits, improving plants' resistance and reducing crop losses."
+,radio,F4 Chp 6,A,B,C,D,D,Picture12.png,"中文：几丁质外骨骼坚硬、不能随身体扩大，所以动物必须通过蜕皮继续生长。
+English: The hard chitinous exoskeleton cannot expand with the body, so the animal must moult to grow."
+,radio,F4 Chp 6,A,B,C,D,B,Picture13.png,"中文：露兜树的支柱根从茎向土壤生长，为植物提供额外支持。
+English: Prop roots grow from a pandan stem into the soil and provide extra support."
+,radio,F4 Chp 7,A,B,C,D,A,Picture14.png,"中文：抑制剂减慢中枢神经活动，课本描述为减慢神经冲动传递。
+English: Depressants slow central nervous activity, described in the textbook as slowing nerve-impulse transmission."
+,radio,F4 Chp 8,A,B,C,D,C,Picture15.png,"中文：核子数是质子与中子总数，图中为 39；19 是质子数。
+English: Nucleon number is the total number of protons and neutrons, shown as 39; 19 is the proton number."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：黄铜是铜和锌组成的合金；铁、铜和锑是元素。
+English: Brass is an alloy of copper and zinc; iron, copper and antimony are elements."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：题表中 6 岁组是 7 mg、每 4 小时，A 正好符合题表的年龄组、剂量和间隔。
+English: The table gives 7 mg every 4 hours for the six-year-old group; A matches the question's age group, dose and interval."
+,radio,F4 Chp 10,A,B,C,D,D,Picture18.png,"中文：番茄和西瓜都含番茄红素，是相同抗氧化物的食物来源。
+English: Tomatoes and watermelon both contain lycopene, making them sources of the same antioxidant."
+,radio,F4 Chp 11,A,B,C,D,B,Picture19.png,"中文：真空中没有空气阻力，物体只受重力作用，因此能表现理想自由落体。
+English: A vacuum has no air resistance, allowing ideal free fall under gravity alone."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：控制核武扩散可减少辐射暴露及遗传损伤风险，包括后代身体畸形。
+English: Controlling nuclear weapons proliferation reduces radiation exposure and genetic-damage risks, including physical deformities in offspring."
+,radio,F5 Chp 1,A,B,C,D,A,Picture21.png,"中文：负排放技术可用微藻进行光合作用，吸收二氧化碳，所以微生物类别是藻类。
+English: Negative-emission technology can use microalgae to absorb carbon dioxide through photosynthesis, so the class is algae."
+,radio,F5 Chp 1,A,B,C,D,A,Picture22.png,"中文：按课本此题的肺炎配对，病原体是细菌，治疗类别为抗生素；并非所有现实肺炎都只有这种病因。
+English: The textbook pairing in this question is bacterial pneumonia with antibiotics; this does not mean every real case has the same cause."
+,radio,F5 Chp 2,A,B,C,D,A,Picture23.png,"中文：四分之一谷物、四分之一蛋白质、半盘蔬果，是马来西亚健康餐盘概念。
+English: A quarter grains, a quarter protein and half vegetables and fruit follow the Malaysian Healthy Plate concept."
+,radio,F5 Chp 2,A,B,C,D,A,Picture24.png,"中文：闪电提供能量让氮和氧反应，形成的含氮物质随雨进入土壤，增加硝酸盐。
+English: Lightning provides energy for nitrogen and oxygen to react; nitrogen compounds enter soil with rain and increase nitrates."
+,radio,F5 Chp 2,A,B,C,D,C,Picture25.png,"中文：无人机节省时间及劳工成本（Q、R）；克隆保留优良品种特征及品质（P、S），对应 C。
+English: Drones save time and labour costs (Q, R); cloning retains desirable breed characteristics and quality (P, S), matching C."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：现有答案 B 的日期标示可确认牛奶尚未过期；若强调“保持新鲜”，D 的储存指示更直接，因为它说明冷藏等保存条件。
+English: Existing answer B, the date marking, checks that milk has not expired. If the focus is maintaining freshness, D, storage instructions, is more direct because it specifies conditions such as refrigeration."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：碳汇如森林能吸收并储存二氧化碳，是从空气移除碳的措施。
+English: Carbon sinks such as forests absorb and store carbon dioxide, removing it from the air."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：过量二氧化碳增强温室效应，全球暖化使冰川融化、海水热膨胀，导致海平面上升。
+English: Excess carbon dioxide strengthens the greenhouse effect; warming melts ice and expands seawater, raising sea level."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：节庆烟花是快速燃烧反应，在短时间释放热和光。
+English: Festival fireworks involve rapid combustion, releasing heat and light in a short time."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：冰箱降低温度，减慢食物腐败相关反应和微生物活动，使蔬果保存较久。
+English: A refrigerator lowers temperature, slowing spoilage reactions and microbial activity so fruit and vegetables last longer."
+,radio,F5 Chp 5,A,B,C,D,D,Picture31.png,"中文：戊烯有 5 个碳原子，并含一个碳碳双键，分子式 C5H10，D 的配对正确。
+English: Pentene has five carbons and one carbon–carbon double bond, with formula C5H10, so D is correctly paired."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：按 SPM 课本的一般分类，植物油主要归为不饱和脂肪，含碳碳双键。
+English: Under the general SPM textbook classification, plant oils are mainly classified as unsaturated fats containing carbon–carbon double bonds."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：X 是脱果步骤，把油棕果从果串上分离，方便进行后续处理。
+English: X is threshing, separating oil palm fruits from their bunches for subsequent processing."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：熔融氯化钠含可自由移动的离子而导电；固体中的离子固定，不能导电。
+English: Molten sodium chloride has freely moving ions and conducts electricity; solid ions are fixed and cannot conduct."
+,radio,F5 Chp 6,A,B,C,D,A,Picture35.png,"中文：简单化学电池利用化学反应产生电流，把化学能转为电能。
+English: A simple chemical cell produces current through chemical reactions, converting chemical energy to electrical energy."
+,radio,F5 Chp 7,A,B,C,D,A,Picture36.png,"中文：图中透镜中央较厚、边缘较薄，是凸透镜。
+English: The lens is thicker at the centre and thinner at the edges, identifying a convex lens."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：总倍数＝物镜×目镜；目镜为 10 倍，所以物镜＝200÷10＝20 倍。
+English: Total magnification = objective × eyepiece; with a 10-times eyepiece, objective magnification = 200 ÷ 10 = 20 times."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：压强相同：F÷20＝7000÷700，所以输入力 F＝200 N。
+English: Equal pressure gives F ÷ 20 = 7000 ÷ 700, so input force F = 200 N."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：约 20200 km 高度及 13900 km/h 速度是课本中地球轨道 MEO 的资料，GPS 卫星常使用这种轨道。
+English: An altitude around 20200 km and speed of 13900 km/h match the textbook's medium Earth orbit, commonly used by GPS satellites."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS 接收卫星信号来计算经纬度等位置资料，因此提供的是地点位置。
+English: GPS receives satellite signals to calculate position information such as latitude and longitude, identifying location."

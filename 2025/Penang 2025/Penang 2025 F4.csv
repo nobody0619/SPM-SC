@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang 2025 F4,radio,F4 Bab 1,A,B,C,D,D,Picture1.png
-,radio,F4 Bab 1,A,B,C,D,A,Picture2.png
-,radio,F4 Bab 2,A,B,C,D,B,Picture3.png
-,radio,F4 Bab 2,A,B,C,D,C,Picture4.png
-,radio,F4 Bab 3,A,B,C,D,D,Picture5.png
-,radio,F4 Bab 3,A,B,C,D,C,Picture6.png
-,radio,F4 Bab 4,A,B,C,D,C,Picture7.png
-,radio,F4 Bab 4,A,B,C,D,A,Picture8.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture9.png
-,radio,F4 Bab 5,A,B,C,D,A,Picture10.png
-,radio,F4 Bab 5,A,B,C,D,B,Picture11.png
-,radio,F4 Bab 6,A,B,C,D,C,Picture12.png
-,radio,F4 Bab 7,A,B,C,D,B,Picture13.png
-,radio,F4 Bab 8,A,B,C,D,D,Picture14.png
-,radio,F4 Bab 8,A,B,C,D,C,Picture15.png
-,radio,F4 Bab 9,A,B,C,D,A,Picture16.png
-,radio,F4 Bab 10,A,B,C,D,D,Picture17.png
-,radio,F4 Bab 10,A,B,C,D,C,Picture18.png
-,radio,F4 Bab 11,A,B,C,D,C,Picture19.png
-,radio,F4 Bab 11,A,B,C,D,A,Picture20.png
-,radio,F4 Bab 12,A,B,C,D,C,Picture21.png
-,radio,F4 Bab 12,A,B,C,D,B,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang 2025 F4,radio,F4 Bab 1,A,B,C,D,D,Picture1.png,"中文：动物尸体属于生物危害废物。依实验室处理程序，用吸水纸包裹，放入生物危害袋并冷冻保存，等待专门处理。
+English: An animal carcass is biological hazardous waste. Under laboratory procedures, wrap it in absorbent tissue, place it in a biohazard bag and keep it frozen until specialised disposal."
+,radio,F4 Bab 1,A,B,C,D,A,Picture2.png,"中文：依此题课程答案，二氧化碳灭火器适用于电器及油类火灾，因此选A。二氧化碳隔绝氧气，而且不导电。
+English: Under this question's course classification, a carbon-dioxide extinguisher is used for electrical and oil fires, giving A. Carbon dioxide excludes oxygen and does not conduct electricity."
+,radio,F4 Bab 2,A,B,C,D,B,Picture3.png,"中文：胸外按压帮助推动血液循环，使血液继续流向身体重要器官，因此选B。
+English: Chest compressions help circulate blood so it continues to reach vital organs, so B is correct."
+,radio,F4 Bab 2,A,B,C,D,C,Picture4.png,"中文：独自噎住时，可按题目方法把拳头放在肚脐上方、肋骨下方，利用稳固椅背施压，帮助排出气道异物。
+English: When choking alone, the described self-rescue method places a fist above the navel and below the ribs, using a firm chair edge to apply thrusts and help expel the obstruction."
+,radio,F4 Bab 3,A,B,C,D,D,Picture5.png,"中文：图中是红外线体温计，通过探测身体发出的红外线测量温度，不必像传统体温计一样直接接触身体。
+English: The device is an infrared thermometer. It detects radiation emitted by the body and does not require the direct contact used by conventional thermometers."
+,radio,F4 Bab 3,A,B,C,D,C,Picture6.png,"中文：剧烈运动时肌肉需要更多氧气及能量，心脏加快输送血液，所以脉搏加快，C正确。
+English: During vigorous exercise, muscles need more oxygen and energy. The heart pumps blood faster, increasing pulse rate, so C is correct."
+,radio,F4 Bab 4,A,B,C,D,C,Picture7.png,"中文：绿色植物进行光合作用，吸收二氧化碳、释放氧气，因此森林被称为地球的肺。
+English: Green plants photosynthesise, absorbing carbon dioxide and releasing oxygen. This explains why forests are called the lungs of the Earth."
+,radio,F4 Bab 4,A,B,C,D,A,Picture8.png,"中文：不用电器时关掉电源能节省电能，减少发电产生的碳排放，从而降低碳足迹。
+English: Switching off unused appliances saves electricity and reduces emissions associated with electricity generation, lowering the carbon footprint."
+,radio,F4 Bab 5,A,B,C,D,A,Picture9.png,"中文：组织培养依赖有丝分裂，使细胞增加而保留相同遗传信息，从而大量产生与母体相同的克隆。
+English: Tissue culture relies on mitosis to increase cell numbers while retaining the same genetic information, producing many clones identical to the parent."
+,radio,F4 Bab 5,A,B,C,D,A,Picture10.png,"中文：同卵双胞胎的基因相同，但皮肤颜色也受日晒等环境因素影响。不同生活环境可使肤色深浅不同。
+English: Identical twins have the same genes, but skin colour is also affected by environmental factors such as sunlight. Different environments can therefore alter skin darkness."
+,radio,F4 Bab 5,A,B,C,D,B,Picture11.png,"中文：依题目的简化遗传模型，卷发和自由耳垂为显性；父母都不能卷舌，孩子也不能卷舌，因此答案取B。体重还受饮食和运动影响，不能只由父母外观确定。
+English: Under the question's simplified genetic model, curly hair and free earlobes are dominant, while two non-rolling parents produce non-rolling children, supporting B. Body mass also depends on diet and activity and cannot be determined from parental appearance alone."
+,radio,F4 Bab 6,A,B,C,D,C,Picture12.png,"中文：依本题SPM分类，海星对应液压骨骼Q，虾有坚硬外壳，属于外骨骼R，因此选C。
+English: Under this question's SPM classification, starfish represents the hydrostatic support system Q, while a prawn has a hard exoskeleton R, giving C."
+,radio,F4 Bab 7,A,B,C,D,B,Picture13.png,"中文：甲状腺素分泌不足会降低新陈代谢速率，造成疲倦、较易增重和体温偏低，因此涉及甲状腺。
+English: Insufficient thyroxine lowers metabolic rate, causing tiredness, weight gain and lower body temperature. The affected gland is therefore the thyroid."
+,radio,F4 Bab 8,A,B,C,D,D,Picture14.png,"中文：依课程的粒子分类，原子物质以原子为粒子，分子物质则以化学结合的原子组成分子，因此D最符合题意。
+English: In the course's particle classification, atomic substances have atoms as their particles, while molecular substances contain molecules made of chemically bonded atoms. D best matches this distinction."
+,radio,F4 Bab 8,A,B,C,D,C,Picture15.png,"中文：第1族、第3周期的元素是钠，电子排列2.8.1，共11个电子，中性原子的质子数也是11。
+English: The Group 1, Period 3 element is sodium, with electron arrangement 2.8.1. It has 11 electrons and, as a neutral atom, 11 protons."
+,radio,F4 Bab 9,A,B,C,D,A,Picture16.png,"中文：淀粉由许多葡萄糖单位结合而成，因此它的单体是葡萄糖。氨基酸则是蛋白质的单体。
+English: Starch consists of many glucose units joined together, so its monomer is glucose. Amino acids are the monomers of proteins instead."
+,radio,F4 Bab 10,A,B,C,D,D,Picture17.png,"中文：自由基可损伤DNA，导致突变并增加不正常细胞分裂的风险。题目中的致癌作用对应癌症。
+English: Free radicals can damage DNA, causing mutations and increasing the risk of abnormal cell division. The carcinogenic effect described corresponds to cancer."
+,radio,F4 Bab 10,A,B,C,D,C,Picture18.png,"中文：右上方的西兰花富含叶黄素，是答案C所指的食物。图片把该选项误印为D；下方花生才是原本的D。
+English: The broccoli at the upper right is rich in lutein and is the food intended by answer C. Its label is misprinted as D; the peanuts below are the actual D option."
+,radio,F4 Bab 11,A,B,C,D,C,Picture19.png,"中文：位移是速度—时间图下的面积。0至10 s的面积=½×6×15+4×15=45+60=105 m，选C。
+English: Displacement is the area under the velocity–time graph. From 0 to 10 s, area = ½ × 6 × 15 + 4 × 15 = 45 + 60 = 105 m, giving C."
+,radio,F4 Bab 11,A,B,C,D,A,Picture20.png,"中文：橙子从树上落下时受重力加速，向下的速度逐渐增加，因此选A。
+English: As the orange falls, gravity accelerates it and its downward velocity increases, so A is correct."
+,radio,F4 Bab 12,A,B,C,D,C,Picture21.png,"中文：躯体效应发生在受辐射者自身。依此题分类，白内障和疲倦属于躯体效应，因此选C。
+English: Somatic effects occur in the exposed person's own body. In this question's classification, cataracts and tiredness are somatic effects, so C is the intended answer."
+,radio,F4 Bab 12,A,B,C,D,B,Picture22.png,"中文：相较燃烧化石燃料发电，核电在运行发电时直接排放的温室气体较少，因此可降低发电碳排放。
+English: Compared with fossil-fuel combustion, nuclear electricity generation has lower direct greenhouse-gas emissions during operation and can reduce emissions from power generation."

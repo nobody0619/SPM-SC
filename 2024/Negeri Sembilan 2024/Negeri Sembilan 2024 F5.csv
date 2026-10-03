@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Negeri Sembilan 2024 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Negeri Sembilan 2024 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：番茄的酸降低食物 pH，抑制微生物生长，因此题示食物较不易腐败。
+English: Tomato acids lower food pH and inhibit microbial growth, explaining the slower spoilage shown."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：Povidone 是用于皮肤或伤口的抗菌剂；过氧化氢在题目另一组作环境表面消毒剂。
+English: Povidone is an antiseptic for skin or wounds; hydrogen peroxide in the other group is used as a disinfectant for environmental surfaces."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：能量 = 面包 10 × 10.2 + 牛奶 10 × 2.8 + 鸡蛋 3 × 6.2 = 148.6 kJ。
+English: Energy = bread 10 × 10.2 + milk 10 × 2.8 + egg 3 × 6.2 = 148.6 kJ."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：洋葱可经伽马射线辐照，抑制发芽并减少微生物，延长保存期。
+English: Gamma irradiation of onions inhibits sprouting and reduces microorganisms, extending storage life."
+,radio,F5 Chp 3,A,B,C,D,A,Picture27.png,"中文：避免食物浪费减少生产、运输与废物处理的资源消耗，属于有利环境的碳手印行为。
+English: Preventing food waste reduces resources used in production, transport and disposal, creating a positive carbon handprint."
+,radio,F5 Chp 3,A,B,C,D,C,Picture28.png,"中文：褪色越慢，水中氧越多；按 15、30、60、90 分钟排列，氧含量由低至高为 R、Q、S、P。
+English: Slower decolourisation indicates more oxygen; times 15, 30, 60 and 90 minutes give increasing oxygen content R, Q, S and P."
+,radio,F5 Chp 4,A,B,C,D,D,Picture29.png,"中文：反应物在箭头左边，本反应是盐酸与氢氧化钠；氯化钠和水是产物。
+English: Reactants are on the left of the arrow: hydrochloric acid and sodium hydroxide; sodium chloride and water are products."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：催化剂降低活化能，加快反应但不改变最终产物总量。
+English: A catalyst lowers activation energy and speeds up the reaction without changing the final total amount of product."
+,radio,F5 Chp 4,A,B,C,D,A,Picture31.png,"中文：按课本 Haber 法操作条件，约 450–500°C 能保持较快反应，答案采用 500°C；催化剂应是铁而非五氧化二钒。
+English: Under the textbook Haber-process conditions, about 450–500°C gives a workable reaction rate, so the key selects 500°C; the catalyst is iron, not vanadium(V) oxide."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：题目把视力模糊、失去平衡及心跳很快配为酒精影响，答案 C；这些资料用于课程辨认，并不单独证明真实诊断。
+English: The question associates blurred vision, loss of balance and rapid heartbeat with alcohol effects, giving C; these are syllabus identification clues rather than a definitive real diagnosis."
+,radio,F5 Chp 5,A,B,C,D,B,Picture33.png,"中文：葡萄含较多糖，可供酵母发酵产生乙醇，适合替代纯葡萄糖。
+English: Grapes contain sugars that yeast can ferment to produce ethanol, replacing pure glucose."
+,radio,F5 Chp 5,A,B,C,D,B,Picture34.png,"中文：灭菌以热处理杀死微生物，并抑制会降低棕榈油品质的酶活性。
+English: Sterilisation kills microorganisms and inhibits enzymes that could reduce palm-oil quality."
+,radio,F5 Chp 6,A,B,C,D,D,Picture35.png,"中文：电镀在金属表面形成保护层，减少腐蚀；食品罐的保护镀层有助防锈，属于该应用。
+English: Electroplating forms a protective metal layer against corrosion; protective coatings on food cans help prevent rusting."
+,radio,F5 Chp 6,A,B,C,D,A,Picture36.png,"中文：镁与铜在反应性序列相距较远，产生较大电势差，灯泡较亮。
+English: Magnesium and copper are far apart in the reactivity series, producing a larger potential difference and a brighter bulb."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：B 是从物体到透镜中心的距离，属于物距；A 是焦距，C 是像距。
+English: B measures object to lens centre and is the object distance; A is focal length and C is image distance."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：水或油近乎不可压缩，可有效传递压强，符合液压系统所需性质。
+English: Water and oil are nearly incompressible, allowing pressure to be transmitted effectively in a hydraulic system."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：滥用卫星进行未经许可的侦察，可能侵犯他国利益并引起国际冲突。
+English: Misusing satellites for unauthorised spying can violate another country's interests and cause international conflict."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：最快路线综合交通情况选择较少拥堵的道路；最短距离不一定最快，也不保证最省油。
+English: The fastest route considers traffic and avoids congestion; the shortest distance is not necessarily the quickest or most fuel efficient."

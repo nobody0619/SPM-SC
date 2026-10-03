@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya 2025 F5,radio,F5 Chp 1,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya 2025 F5,radio,F5 Chp 1,A,B,C,D,D,Picture26.png,"中文：正常菌群与病原体竞争营养和附着空间，限制病原体繁殖，帮助防止感染，因此选D。
+English: Normal flora compete with pathogens for nutrients and attachment sites, limiting pathogen growth and helping prevent infection, so D is correct."
+,radio,F5 Chp 1,A,B,C,D,C,Picture27.png,"中文：足够湿度使霉菌孢子发芽并支持菌丝生长。面包的水分和营养使霉菌较容易繁殖，因此选C。
+English: Sufficient moisture allows fungal spores to germinate and hyphae to grow. Bread provides moisture and nutrients that support mould growth, so C is correct."
+,radio,F5 Chp 1,A,B,C,D,D,Picture28.png,"中文：只有病毒必须在活细胞内复制，图中D是病毒。其余为可在适当环境自行生长的微生物。
+English: Viruses must replicate inside living cells, and D shows a virus. The other microorganisms can grow independently under suitable conditions."
+,radio,F5 Chp 2,A,B,C,D,C,Picture29.png,"中文：温度上升=65−31=34°C。热能=4.2×250×34=35700 J=35.7 kJ；每克食物能量=35.7÷15=2.38 kJ g⁻¹。
+English: Temperature rise = 65 − 31 = 34°C. Heat energy = 4.2 × 250 × 34 = 35700 J = 35.7 kJ. Energy per gram of food = 35.7 ÷ 15 = 2.38 kJ g⁻¹."
+,radio,F5 Chp 2,A,B,C,D,C,Picture30.png,"中文：C同时包含炒饭、鸡蛋和橙汁，在所列套餐中摄取能量较高。题目要求控制总热量，因此应避免该高热量套餐。
+English: C includes fried rice, an egg and orange juice, giving a higher energy intake among the listed meal sets. Since the question requires calorie control, this high-energy combination is the intended choice to avoid."
+,radio,F5 Chp 3,A,B,C,D,A,Picture31.png,"中文：升级再造把废弃材料改造成价值或品质更高的新产品，与只重复使用原物品不同，因此选A。
+English: Upcycling transforms waste materials into new products of higher value or quality. It differs from simply reusing an item in its original form, so A is correct."
+,radio,F5 Chp 3,A,B,C,D,A,Picture32.png,"中文：有效微生物泥球帮助分解河流中的有机污染物，是课程中改善水质的绿色技术例子。
+English: Effective-microorganism mudballs help break down organic pollutants in rivers and are a course example of green technology for improving water quality."
+,radio,F5 Chp 4,A,B,C,D,A,Picture33.png,"中文：铁生锈需要较长时间，属于慢反应；纸燃烧、中和和活泼金属置换通常较快。
+English: Iron rusting takes a relatively long time and is a slow reaction. Paper combustion, neutralisation and displacement by reactive metals are usually faster."
+,radio,F5 Chp 4,A,B,C,D,C,Picture34.png,"中文：第三分钟是2至3 min。平均速率=(26.4−18.1)÷(3−2)=8.3 cm³ min⁻¹，选C。
+English: The third minute is the interval from 2 to 3 min. Average rate = (26.4 − 18.1) ÷ (3 − 2) = 8.3 cm³ min⁻¹, giving C."
+,radio,F5 Chp 5,A,B,C,D,C,Picture35.png,"中文：碳氢化合物只含碳和氢两种元素；若还含氧便不再属于碳氢化合物。
+English: Hydrocarbons contain only carbon and hydrogen. A compound also containing oxygen is not a hydrocarbon."
+,radio,F5 Chp 5,A,B,C,D,A,Picture36.png,"中文：把油棕果放入沸水加热属于灭菌阶段，杀死微生物，也有助后续处理，因此选A。
+English: Heating oil-palm fruit in boiling water is the sterilisation stage, killing microorganisms and helping subsequent processing, so A is correct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture37.png,"中文：铝比铜活泼，会失去电子并形成离子进入电解质，所以C正确。图中是产生电能的化学电池，题干称为电解实验属于笔误。
+English: Aluminium is more reactive than copper and loses electrons, forming ions that enter the electrolyte, so C is correct. The diagram is a chemical cell generating electricity; calling it electrolysis in the stem is a wording error."
+,radio,F5 Chp 7,A,B,C,D,B,Picture38.png,"中文：把面包放在凸透镜焦距以内，可得到放大、正立的虚像，方便观察霉菌，因此选B。
+English: Placing the bread within the convex lens's focal length forms a magnified, upright virtual image, allowing closer observation of mould, so B is correct."
+,radio,F5 Chp 8,A,B,C,D,C,Picture39.png,"中文：伯努利原理表示流体流速越高，压力越低，因此选C。
+English: Bernoulli's principle relates higher fluid speed to lower pressure, so C is correct."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：依本题课程表，把高度约35780 km、速度约11100 km/h对应为HEO，因此答案为A。这些数值也接近同步轨道的典型值，若严格区分HEO与GEO，题目存在类别歧义。
+English: Under the course table used by this question, an altitude around 35780 km and speed around 11100 km/h are assigned to HEO, giving A. These values also resemble synchronous-orbit values, so a strict distinction between HEO and GEO makes the options ambiguous."

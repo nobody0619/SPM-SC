@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pasir Gudang 2025 F5,radio,F5 Chp 1,A,B,C,D,B,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pasir Gudang 2025 F5,radio,F5 Chp 1,A,B,C,D,B,Picture21.png,"中文：加蒸馏水的培养基有菌落，加盐酸的没有，显示酸性条件抑制这次实验中的细菌生长。依课程结论，其适宜生长pH为中性。
+English: Colonies grow with distilled water but not with hydrochloric acid, showing that acidity inhibits bacterial growth in this experiment. The intended course conclusion is that neutral pH suits growth."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：酵母通常通过出芽繁殖：母细胞形成小芽，芽长大后可分离成为新个体。
+English: Yeast commonly reproduces by budding. A small bud forms on the parent cell, grows and may separate as a new individual."
+,radio,F5 Chp 1,A,B,C,D,C,Picture23.png,"中文：依课程，吖啶黄是可用于伤口的防腐剂，帮助抑制微生物。一般表面消毒剂不应直接用于伤口。
+English: At course level, acriflavine is an antiseptic used on wounds to inhibit microorganisms. General surface disinfectants should not be applied directly to wounds."
+,radio,F5 Chp 2,A,B,C,D,D,Picture24.png,"中文：食物保存法抑制微生物及腐败过程，主要目的是延长保质期和防止变质，而非增加食物大小。
+English: Food-preservation methods inhibit microorganisms and spoilage processes. Their main purpose is to extend shelf life and prevent deterioration, not increase food size."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：有机肥提供营养和有机物，改善土壤结构、维持肥力，并减少对环境的不良影响，因此选D。
+English: Organic fertiliser supplies nutrients and organic matter, improves soil structure and maintains fertility while reducing environmental impacts, so D is correct."
+,radio,F5 Chp 3,A,B,C,D,C,Picture26.png,"中文：A采用露天堆放废物，可能产生污染空气的气体，并产生渗滤液污染水源；回收及堆肥则减少需要弃置的废物。
+English: Area A uses open disposal, which can release polluting gases and produce leachate that contaminates water. Recycling and composting reduce the waste requiring disposal."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：购物使用可重复使用的袋子，可减少一次性塑料袋和废物，是环保行为。
+English: Using reusable shopping bags reduces disposable plastic bags and waste, making it an environmentally friendly practice."
+,radio,F5 Chp 4,A,B,C,D,B,Picture28.png,"中文：把肉切薄会增加总表面积，也使热更容易传入内部，因此缩短烹煮时间。
+English: Slicing meat thinly increases total surface area and allows heat to reach the interior more easily, shortening cooking time."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：氮与氢在铁催化剂及高温高压下反应生成氨，是哈柏法。
+English: Nitrogen and hydrogen react with an iron catalyst at high temperature and pressure to produce ammonia in the Haber process."
+,radio,F5 Chp 5,A,B,C,D,C,Picture30.png,"中文：酵母发酵葡萄糖产生乙醇和二氧化碳。二氧化碳通过石灰水时会使其变浑浊，因此选C。
+English: Yeast fermentation of glucose produces ethanol and carbon dioxide. The carbon dioxide turns limewater cloudy, so C is correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：依SPM课程，过量摄取饱和脂肪会提高不良胆固醇风险，促进动脉壁沉积，使血管变窄。
+English: At SPM level, excessive saturated-fat intake increases the risk of unhealthy cholesterol levels and deposits on artery walls, narrowing the vessels."
+,radio,F5 Chp 6,A,B,C,D,D,Picture32.png,"中文：两极都为铅时没有金属之间的电势差，不能产生足够电流，灯泡不会亮。
+English: Using lead for both electrodes gives no potential difference between the metals to drive a current, so the bulb does not light up."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：电解质是硝酸银溶液，要镀上的金属也是银。银作阳极，铁钥匙作阴极，银沉积在钥匙表面。
+English: The electrolyte is silver nitrate solution, and the coating metal is silver. Silver is the anode and the iron key is the cathode, where silver is deposited."
+,radio,F5 Chp 7,A,B,C,D,D,Picture34.png,"中文：凹透镜使光发散，对实际物体形成缩小、正立的虚像，因此D正确。凸透镜才是中间厚、边缘薄的会聚透镜。
+English: A concave lens diverges light and forms a diminished, upright virtual image of a real object, making D correct. A convex lens is the converging lens that is thicker in the middle."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：凸透镜物体放在2F以外时，形成缩小、倒立的实像。图中A在2F以外，因此选A。
+English: A convex lens forms a diminished, inverted real image when the object is beyond 2F. Point A is beyond 2F, so A is correct."
+,radio,F5 Chp 8,A,B,C,D,D,Picture36.png,"中文：根据伯努利原理，较窄通道中流体速度较高，压力较低，因此选D。
+English: According to Bernoulli's principle, fluid moves faster in a narrower passage and has lower pressure, so D is correct."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：C是牙科椅，利用封闭液体传递压力，符合帕斯卡原理，可用小活塞的力升起较大的负载。
+English: C is a dental chair. It transmits pressure through an enclosed liquid according to Pascal's principle, allowing force on a smaller piston to raise a larger load."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：强风在屋顶上方流动，使上方气压降低。屋内较高的气压产生向上的力，把屋顶推起，因此选D。
+English: Fast wind over the roof lowers the pressure above it. The higher pressure inside produces an upward force that can lift the roof, so D is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture39.png,"中文：压力相等：F/0.05=3000/1.5。F=3000×0.05÷1.5=100 N，因此选B。
+English: Equal pressure gives F/0.05 = 3000/1.5. Thus F = 3000 × 0.05 ÷ 1.5 = 100 N, so B is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：X指向最接近地球的轨道，是低地球轨道LEO，其高度低于中地球轨道和高地球轨道。
+English: X points to the orbit closest to Earth, the low Earth orbit or LEO. Its altitude is lower than medium and high Earth orbits."

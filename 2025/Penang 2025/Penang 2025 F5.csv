@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang 2025 F5,radio,F5 Bab 1,A,B,C,D,D,Picture23.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture24.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture25.png
-,radio,F5 Bab 2,A,B,C,D,A,Picture26.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture27.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture28.png
-,radio,F5 Bab 3,A,B,C,D,D,Picture29.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture30.png
-,radio,F5 Bab 4,A,B,C,D,C,Picture31.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture32.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture33.png
-,radio,F5 Bab 5,A,B,C,D,A,Picture34.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture35.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture36.png
-,radio,F5 Bab 8,A,B,C,D,C,Picture37.png
-,radio,F5 Bab 8,A,B,C,D,A,Picture38.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang 2025 F5,radio,F5 Bab 1,A,B,C,D,D,Picture23.png,"中文：依环保酵素或发酵制肥的课程方法，红糖为微生物提供可利用的糖，促进有机物发酵和分解。
+English: In the course's eco-enzyme or fermented-fertiliser method, brown sugar provides an energy source for microorganisms and supports fermentation and decomposition of organic material."
+,radio,F5 Bab 1,A,B,C,D,C,Picture24.png,"中文：戴口罩及勤洗手减少呼吸道飞沫和接触传播，适合控制流感扩散。抗生素不会直接治疗流感病毒。
+English: Masks and frequent handwashing reduce respiratory-droplet and contact transmission, helping limit influenza spread. Antibiotics do not directly treat the influenza virus."
+,radio,F5 Bab 2,A,B,C,D,C,Picture25.png,"中文：C摄取较多碳水化合物和脂肪，却只有5 g纤维及3杯水。高能量摄取增加肥胖风险，低纤维和少水增加便秘风险。
+English: Student C has high carbohydrate and fat intake but only 5 g of fibre and three cups of water. High energy intake raises obesity risk, while low fibre and water increase constipation risk."
+,radio,F5 Bab 2,A,B,C,D,A,Picture26.png,"中文：氮用于制造蛋白质、叶绿素、酶及核酸，并促进叶和枝的生长，因此X是氮。
+English: Nitrogen is needed to make proteins, chlorophyll, enzymes and nucleic acids and supports leaf and shoot growth, so X is nitrogen."
+,radio,F5 Bab 2,A,B,C,D,D,Picture27.png,"中文：过量化肥使土壤溶液过浓，影响根吸水而导致萎蔫。减少化肥并使用适量堆肥，有助改善土壤状态。
+English: Excess chemical fertiliser makes the soil solution too concentrated, impairing root water uptake and causing wilting. Reducing it and using suitable compost helps improve soil conditions."
+,radio,F5 Bab 2,A,B,C,D,C,Picture28.png,"中文：脱水法去除水分，抑制微生物生长，使干叁巴更耐储存且便于包装，因此选C。
+English: Dehydration removes water, limiting microbial growth and making dried sambal easier to package and store for longer, so C is correct."
+,radio,F5 Bab 3,A,B,C,D,D,Picture29.png,"中文：LED灯比传统灯更省电，可减少能源消耗及相关碳排放，符合题目所表达的绿色节能理念。
+English: LED lights use less electricity than conventional lamps, reducing energy demand and related carbon emissions, matching the green energy-saving idea in the question."
+,radio,F5 Bab 3,A,B,C,D,B,Picture30.png,"中文：喷洒农药后，化学物质可随雨水进入河流，造成水污染，因此依答案选B。BOD主要反映微生物分解有机物的需氧量，不是所有农药污染的直接指标。
+English: After pesticide spraying, chemicals can be washed into rivers and cause water pollution, supporting B. BOD mainly measures oxygen demand during microbial decomposition of organic matter, rather than directly indicating every pesticide pollutant."
+,radio,F5 Bab 4,A,B,C,D,C,Picture31.png,"中文：燃烧在较短时间内进行，属于快速反应；生锈、光合作用和发芽在这里的比较中较慢。
+English: Combustion occurs over a short time and is a fast reaction. Rusting, photosynthesis and germination are slower in this comparison."
+,radio,F5 Bab 4,A,B,C,D,A,Picture32.png,"中文：平均反应速率=锌质量变化÷时间=20÷40=0.5 g s⁻¹，因此选A。
+English: Average reaction rate = change in zinc mass ÷ time = 20 ÷ 40 = 0.5 g s⁻¹, so A is correct."
+,radio,F5 Bab 5,A,B,C,D,C,Picture33.png,"中文：答案纸给C，按课程来源分类把木炭归入有机来源的碳材料。不过题目用“有机碳化合物”不够严谨：木炭主要是碳，丝绸中的蛋白质也属于有机化合物，A同样有依据。
+English: The key gives C, treating charcoal as a carbon material of organic origin in the course classification. However, “organic carbon compound” is imprecise: charcoal is mainly carbon, while the proteins in silk are organic compounds, so A also has a basis."
+,radio,F5 Bab 5,A,B,C,D,A,Picture34.png,"中文：图中有4个碳原子，全部碳碳键都是单键，是丁烷C₄H₁₀。丁烯则含碳碳双键。
+English: The structure has four carbon atoms with only single carbon–carbon bonds, so it is butane, C₄H₁₀. Butene would contain a carbon–carbon double bond."
+,radio,F5 Bab 7,A,B,C,D,B,Picture35.png,"中文：放大镜要产生放大、正立的虚像，物体必须位于凸透镜的焦距以内，即距离小于焦距。
+English: To use a convex lens as a magnifying glass and obtain an enlarged, upright virtual image, the object distance must be less than the focal length."
+,radio,F5 Bab 7,A,B,C,D,B,Picture36.png,"中文：P对应显微镜目镜形成的放大、正立虚像；Q对应望远镜物镜的缩小、倒立实像；R是使用凹透镜的近视眼镜，因此选B。
+English: P matches the magnified, upright virtual image formed by a microscope eyepiece. Q matches the reduced, inverted real image formed by a telescope objective. R is spectacles with concave lenses for short-sightedness, giving B."
+,radio,F5 Bab 8,A,B,C,D,C,Picture37.png,"中文：液压系统两活塞压力相同。因为大活塞面积较大，按F=PA，它产生的力较大，所以小活塞的力较小。
+English: The pressure is equal at the two hydraulic pistons. Since the larger piston has greater area, F = PA gives it greater force. The force on the small piston is therefore smaller."
+,radio,F5 Bab 8,A,B,C,D,A,Picture38.png,"中文：A位于机翼下方。依课本模型，下方空气流速较低、压力较高，上方流速较高、压力较低，形成升力。
+English: A is below the wing. In the textbook model, slower air below has higher pressure, while faster air above has lower pressure, producing lift."
+,radio,F5 Bab 9,A,B,C,D,D,Picture39.png,"中文：D代表地球同步静止轨道，在赤道平面上绕地球运行，周期与地球自转相同，因而相对地面位置固定。
+English: D represents the geostationary orbit in the equatorial plane. Its orbital period matches Earth's rotation, so the satellite appears fixed relative to the ground."
+,radio,F5 Bab 9,A,B,C,D,D,Picture40.png,"中文：X是卫星，属于太空部分；Y是手机接收器，属于用户部分；Z是地面站，属于控制部分，因此选D。
+English: X is the satellite, belonging to the space segment. Y is the phone receiver in the user segment. Z is a ground station in the control segment, so D is correct."

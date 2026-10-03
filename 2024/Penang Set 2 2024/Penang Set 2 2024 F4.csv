@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang Set 2 2024 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang Set 2 2024 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：按课本废物处理规则，低浓度、接近中性的稀酸可排入水槽；固体、油漆和活泼物质不可这样处理。
+English: Under textbook disposal rules, dilute acid with a suitable near-neutral pH can go into the sink; solids, oil paint and reactive substances cannot."
+,radio,F4 Chp 1,A,B,C,D,C,Picture2.png,"中文：二氧化碳不导电，并能隔绝氧气，适合扑灭电器引起的火灾。
+English: Carbon dioxide does not conduct electricity and excludes oxygen, making it suitable for electrical fires."
+,radio,F4 Chp 2,A,B,C,D,C,Picture3.png,"中文：图中是人工呼吸，把空气送入肺部，使氧气能够进入血液并供应身体细胞。
+English: The diagram shows rescue breaths, introducing air into the lungs so oxygen can enter the blood and reach body cells."
+,radio,F4 Chp 2,A,B,C,D,A,Picture4.png,"中文：按课本哈姆立克法的步骤，先站在受害者后方，让她身体稍微向前倾，再进行后续动作。
+English: In the textbook Heimlich sequence, first stand behind the victim and lean her slightly forward before the subsequent steps."
+,radio,F4 Chp 3,A,B,C,D,A,Picture5.png,"中文：图中是红外线温度计，检测人体发出的红外线来测量体温。
+English: The device is an infrared thermometer, which detects infrared radiation emitted by the body to measure temperature."
+,radio,F4 Chp 3,A,B,C,D,B,Picture6.png,"中文：躺在沙发上时身体活动少、氧气需求低，脉搏率通常最低。
+English: Lying on a sofa involves little activity and low oxygen demand, so pulse rate is usually lowest."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：砍伐森林使土壤失去树根固定，也减少雨水吸收，造成侵蚀、闪电水灾和栖息地破坏。
+English: Deforestation removes roots that hold soil and reduces rainwater absorption, causing erosion, flash floods and habitat destruction."
+,radio,F4 Chp 4,A,B,C,D,A,Picture8.png,"中文：骑自行车不需要燃烧燃料；在给出的选项中，它对减少碳足迹最有效。
+English: Cycling requires no fuel combustion and is the best listed option for reducing a carbon footprint."
+,radio,F4 Chp 5,A,B,C,D,B,Picture9.png,"中文：图中是交换作用，同源染色体交换片段，形成新的基因组合，产生变异。
+English: Crossing over exchanges segments between homologous chromosomes, creating new gene combinations and variation."
+,radio,F4 Chp 5,A,B,C,D,C,Picture10.png,"中文：彼此分开的柱表示不连续变异；指纹类型可分成明确类别，没有连续中间值。
+English: Separated bars represent discontinuous variation; fingerprint types fall into distinct categories without continuous intermediate values."
+,radio,F4 Chp 5,A,B,C,D,C,Picture11.png,"中文：子代灰毛与白毛各一半，白毛母兔是 kk；灰毛父兔须是 Kk，才能产生白毛后代。
+English: Half the offspring are grey and half white. The white mother is kk, and the grey father must be Kk to produce white offspring."
+,radio,F4 Chp 6,A,B,C,D,D,Picture12.png,"中文：鸟类的骨骼中空、轻而坚固，减轻体重又能支持身体，有利飞行。
+English: Bird bones are hollow, light and strong, reducing weight while supporting the body and aiding flight."
+,radio,F4 Chp 7,A,B,C,D,C,Picture13.png,"中文：C 是胰脏，分泌胰岛素，促进多余葡萄糖转化为糖原以降低血糖。
+English: C is the pancreas, which secretes insulin and promotes conversion of excess glucose to glycogen, lowering blood glucose."
+,radio,F4 Chp 7,A,B,C,D,B,Picture14.png,"中文：易怒、情绪低落和头痛符合课本月经期间激素失衡的描述，D 更合理；现有答案 B“摄取补充品”没有足够题目资料支持。
+English: Irritability, low mood and headache match the textbook description of hormonal imbalance during menstruation, making D more reasonable. Existing answer B, supplement intake, lacks support in the question."
+,radio,F4 Chp 8,A,B,C,D,D,Picture15.png,"中文：S 位于第 3 周期、第 18 族，有三个电子层，最外层 8 个电子，排列是 2.8.8。
+English: S is in Period 3 and Group 18, with three shells and eight outer electrons, giving 2.8.8."
+,radio,F4 Chp 8,A,B,C,D,A,Picture16.png,"中文：锌是金属，课本归为原子物质；氮和二氧化碳是分子物质，氯化钠是离子物质。
+English: Zinc is a metal classified as an atomic substance; nitrogen and carbon dioxide are molecular, while sodium chloride is ionic."
+,radio,F4 Chp 10,A,B,C,D,C,Picture17.png,"中文：P 是导致细胞损伤和老化的自由基；发炎是体内产生自由基的因素。
+English: P represents free radicals that damage cells and contribute to ageing; inflammation is an internal source of free radicals."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：柠檬汁含抗氧化物，如维生素 C，可减慢苹果切面氧化而变褐的过程。
+English: Lemon juice contains antioxidants such as vitamin C that slow oxidation and browning of cut apples."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：RS 沿时间轴，速度一直为零，所以速度不变、加速度也为零。
+English: RS lies along the time axis with velocity constantly zero, so acceleration is also zero."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：硬币因惯性倾向保持静止，纸板迅速被拉走后，硬币在重力作用下落入杯中。
+English: Inertia makes the coin tend to remain at rest; after the cardboard is pulled away quickly, gravity makes it fall into the glass."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：按本题课本分类，白血病是辐射的体细胞效应，影响受照者本身。
+English: Under this question's textbook classification, leukaemia is a somatic effect of radiation affecting the exposed person."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：核电站产生的放射性废料若处理不当，会释放有害辐射并影响健康。
+English: Radioactive waste from nuclear power stations can release harmful radiation and affect health if mishandled."

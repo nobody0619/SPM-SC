@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture8.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：红色标签代表水型灭火器；泡沫为奶油色、干粉蓝色、二氧化碳黑色。
+English: A red label identifies a water extinguisher; foam is cream, dry powder blue and carbon dioxide black."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：题目问第一步，先把手放在肚脐和肋骨下缘之间，再进行腹部向内上方的动作。
+English: The question asks for the first step: position the hands between the navel and lower ribs before applying the abdominal thrust."
+,radio,F4 Chp 3,A,B,C,D,B,Picture3.png,"中文：按课本分类，125/83 mmHg 属正常范围；最佳值类别比正常范围更低。
+English: Under the textbook classification, 125/83 mmHg is normal; the optimum category has lower values."
+,radio,F4 Chp 4,A,B,C,D,A,Picture4.png,"中文：绿色交通层级中，步行之上的 X 是自行车，不需燃料，污染较少。
+English: X above walking is cycling, which requires no fuel and produces little direct pollution."
+,radio,F4 Chp 5,A,B,C,D,D,Picture5.png,"中文：Tt × Tt 产生 TT、Tt、Tt、tt，三个高株、一个矮株，表现型比为 3:1。
+English: Tt × Tt gives TT, Tt, Tt and tt, so the tall:short phenotype ratio is 3:1."
+,radio,F4 Chp 5,A,B,C,D,C,Picture6.png,"中文：血型分 A、B、AB、O 等明确类别，没有中间型，是不连续变异。
+English: Blood groups have distinct categories A, B, AB and O without intermediate groups, so they are discontinuous variation."
+,radio,F4 Chp 6,A,B,C,D,B,Picture7.png,"中文：题干强调脊椎和肌肉骨骼机械问题的补充疗法，对应脊骨神经医师 chiropractor。
+English: The description of complementary treatment for mechanical spinal and musculoskeletal problems identifies a chiropractor."
+,radio,F4 Chp 6,A,B,C,D,B,Picture8.png,"中文：图示红树林支柱根帮助植物固定在松软泥地，支持其在沼泽生长。
+English: The mangrove's supporting roots anchor it in soft soil, allowing it to grow in swamp areas."
+,radio,F4 Chp 7,A,B,C,D,B,Picture9.png,"中文：R 位于脑底，是垂体；它与调控其他内分泌腺及生长等功能有关。
+English: R at the base of the brain is the pituitary gland, involved in growth and regulation of other endocrine glands."
+,radio,F4 Chp 7,A,B,C,D,C,Picture10.png,"中文：按答案，长期酗酒可损害肝细胞、形成瘢痕，导致肝硬化。
+English: According to the key, prolonged alcohol abuse damages liver cells and causes scarring, leading to liver cirrhosis."
+,radio,F4 Chp 8,A,B,C,D,C,Picture11.png,"中文：金是由原子构成的金属；氧气和水属分子物质，盐属离子物质。
+English: Gold is an atomic metal; oxygen and water are molecular substances, while salt is ionic."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：氧的质子数 8，中性原子有 8 个电子，电子排列为 2.6。
+English: Oxygen has proton number 8, so a neutral atom has eight electrons arranged 2.6."
+,radio,F4 Chp 8,A,B,C,D,A,Picture13.png,"中文：P、Q 质子数同为 6，中子数分别 12 和 14，符合质子相同、中子不同的同位素定义。
+English: P and Q both have six protons but different neutron numbers, 12 and 14, so they are isotopes."
+,radio,F4 Chp 9,A,B,C,D,D,Picture14.png,"中文：天然橡胶加硫加热形成交联，硫化后较硬、耐热，适合做鞋底。
+English: Heating natural rubber with sulphur forms cross-links; vulcanised rubber is harder and more heat resistant for shoe soles."
+,radio,F4 Chp 10,A,B,C,D,B,Picture15.png,"中文：按课本食物抗氧化物例子，绿色蔬菜含叶黄素 lutein。
+English: The textbook associates green vegetables with the antioxidant lutein."
+,radio,F4 Chp 11,A,B,C,D,A,Picture16.png,"中文：OP 在位移—时间图上是直线，斜率恒定，表示匀速；速度 = 50/2 = 25 m/s。
+English: OP is a straight line on a displacement–time graph, indicating constant velocity: 50/2 = 25 m/s."
+,radio,F4 Chp 11,A,B,C,D,C,Picture17.png,"中文：从静止落下，加速度 = (30 − 0)/3 = 10.0 m/s²，采用题目给的数据。
+English: Starting from rest, acceleration = (30 − 0)/3 = 10.0 m/s² using the given data."
+,radio,F4 Chp 11,A,B,C,D,D,Picture18.png,"中文：飞机质量大、惯性大，较难改变运动状态，需要较长距离减速停止。
+English: A massive aircraft has greater inertia and needs more distance to slow down and stop."
+,radio,F4 Chp 12,A,B,C,D,A,Picture19.png,"中文：图示轻原子核结合释放能量，是核聚变；太阳靠核聚变发光发热。
+English: The diagram shows light nuclei combining and releasing energy, identifying nuclear fusion, the source of the Sun's energy."
+,radio,F4 Chp 12,A,B,C,D,B,Picture20.png,"中文：核电站需要大量冷却水带走热量，并把蒸汽冷凝，靠近水源便于冷却。
+English: A nuclear power station needs cooling water to remove heat and condense steam, so a nearby water source supports cooling."

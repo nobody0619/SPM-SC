@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kuala Lumpur 2025 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kuala Lumpur 2025 F5,radio,F5 Chp 1,A,B,C,D,C,Picture21.png,"中文：动物消化道中有益细菌帮助分解食物，有些帮助消化纤维素。
+English: Beneficial bacteria in animal digestive systems help break down food; some aid cellulose digestion."
+,radio,F5 Chp 1,A,B,C,D,D,Picture22.png,"中文：按本题细菌性肺炎情境，抗生素如青霉素针对细菌；并非所有肺炎均由细菌引起。
+English: For the bacterial-pneumonia context, an antibiotic such as penicillin targets bacteria; not every pneumonia case is bacterial."
+,radio,F5 Chp 2,A,B,C,D,B,Picture23.png,"中文：X是鸡蛋，富含蛋白质，用于形成新细胞及修复组织。
+English: X is an egg, rich in protein for building new cells and repairing tissues."
+,radio,F5 Chp 2,A,B,C,D,C,Picture24.png,"中文：反硝化细菌把土壤硝酸盐还原为氮气，返回大气。
+English: Denitrifying bacteria convert soil nitrates into nitrogen gas that returns to the atmosphere."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：混合种植及梯田属于有效土地管理，维持土地生产力并减少侵蚀。
+English: Mixed cropping and terracing are efficient land-management practices that maintain productivity and limit erosion."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：检查日期标示，避免食用过期罐头；也应注意包装损坏及储存方式。
+English: Checking date markings helps avoid expired canned food; packaging condition and storage also matter."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：再使用产品减少新产品需求和废物，是增加碳手印的行动。
+English: Reusing products reduces new-product demand and waste, contributing to a positive carbon handprint."
+,radio,F5 Chp 3,A,B,C,D,B,Picture28.png,"中文：燃烧垃圾把含碳物质氧化，释放二氧化碳。
+English: Burning carbon-containing waste releases carbon dioxide through combustion."
+,radio,F5 Chp 4,A,B,C,D,C,Picture29.png,"中文：节庆烟花涉及快速燃烧，释放光、热和气体。
+English: Fireworks involve rapid combustion that releases light, heat and gases."
+,radio,F5 Chp 4,A,B,C,D,D,Picture30.png,"中文：氢气体积逐渐增加，反应物减少使速率下降，最终体积不再增加，符合D曲线。
+English: Hydrogen volume increases while the rate slows as reactants are used up, eventually reaching a plateau as in D."
+,radio,F5 Chp 5,A,B,C,D,A,Picture31.png,"中文：生物质来自可补充的植物及有机物，是可再生能源。
+English: Biomass comes from replenishable plant and organic material and is a renewable energy source."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：花生富含油脂，按食品分类可作为脂肪来源；这不表示其他选项完全无脂肪。
+English: Peanuts are rich in oil and serve as a dietary fat source; this does not mean the other foods contain no fat."
+,radio,F5 Chp 5,A,B,C,D,D,Picture33.png,"中文：X是亲水头，溶于水；Y是疏水尾，进入油脂，使污垢能被水带走。
+English: X is the hydrophilic head soluble in water; Y is the hydrophobic tail that enters grease, helping remove it with water."
+,radio,F5 Chp 6,A,B,C,D,D,Picture34.png,"中文：熔融硝酸银的离子能自由移动而导电，固体离子固定不能导电。
+English: Molten silver nitrate has mobile ions and conducts; ions in the solid are fixed and cannot conduct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture35.png,"中文：简单化学电池需要电解质，如硫酸铜溶液及两种不同金属电极。
+English: A simple chemical cell requires an electrolyte such as copper(II) sulphate solution and two different metal electrodes."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：光线在另一侧实际相交形成倒立像，所以是实像。
+English: The rays actually converge on the opposite side, forming an inverted real image."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：较短焦距提供较广视角，可拍入更多风景。
+English: A shorter focal length provides a wider field of view and captures more of the scenery."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：F输出 =25×20/5 =100 N，因为液体传递相同压力。
+English: Output force =25×20/5 =100 N because the liquid transmits equal pressure."
+,radio,F5 Chp 9,A,B,C,D,A,Picture39.png,"中文：地球静止轨道位于赤道平面，是课本要求的轨道类型。
+English: A geostationary orbit lies in the equatorial plane, matching the textbook description."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：GPS提供接收器的位置资料，常表示为纬度、经度及高度。
+English: GPS provides receiver-location information, usually latitude, longitude and altitude."

@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Muar 2025 F5,radio,F5 Chp 1,A,B,C,D,B,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Muar 2025 F5,radio,F5 Chp 1,A,B,C,D,B,Picture21.png,"中文：一个微生物细胞分裂成两个子细胞，这是二分裂。出芽则会先形成较小的芽体。
+English: One microorganism divides into two daughter cells, which is binary fission. Budding instead begins with a smaller outgrowth."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：根瘤菌把空气中的氮转化为可供植物利用的含氮化合物，经过土壤中的作用增加可利用的硝酸盐，因此答案选B。
+English: Rhizobium in root nodules fixes atmospheric nitrogen into nitrogen compounds. Soil processes then increase available nitrates for plants, which is the intended basis for B."
+,radio,F5 Chp 1,A,B,C,D,D,Picture23.png,"中文：抗生素纸片周围出现透明区，表示该范围内的细菌生长受到抑制。透明区可用来比较抗生素的效果。
+English: A clear zone around an antibiotic disc shows that bacterial growth has been inhibited there. The zone can be used to compare antibiotic effectiveness."
+,radio,F5 Chp 2,A,B,C,D,B,Picture24.png,"中文：总能量=(14.5×200)+(7.25×150)+(3.85×250)=2900+1087.5+962.5=4950 kJ，选B。
+English: Total energy = (14.5 × 200) + (7.25 × 150) + (3.85 × 250) = 2900 + 1087.5 + 962.5 = 4950 kJ, so B is correct."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：厌食症患者强烈害怕体重增加，因此限制或拒绝进食，导致体重过低和营养不足。
+English: A person with anorexia has an intense fear of gaining weight and restricts or refuses food, leading to very low body weight and malnutrition."
+,radio,F5 Chp 4,A,B,C,D,B,Picture28.png,"中文：180 s后气体体积已维持45 cm³，反应结束。平均速率=45÷180=0.25 cm³ s⁻¹；不能把反应结束后的210 s当作反应时间。
+English: The gas volume reaches 45 cm³ at 180 s and then stays constant, showing that the reaction has ended. Average rate = 45 ÷ 180 = 0.25 cm³ s⁻¹; the later 210 s reading is not the reaction duration."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：哈柏法使用铁粉作催化剂，加快氨的生成并缩短所需时间。催化剂不会改变平衡产率。
+English: The Haber process uses iron powder as a catalyst to speed up ammonia production and shorten the time needed. A catalyst does not change the equilibrium yield."
+,radio,F5 Chp 5,A,B,C,D,D,Picture30.png,"中文：碳化合物广泛用作燃料和食物，例如碳氢化合物燃料以及含碳的糖类、脂肪和蛋白质，因此选D。
+English: Carbon compounds are widely used as fuels and food, including hydrocarbon fuels and carbon-containing carbohydrates, fats and proteins, so D is correct."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：依SPM课程，棕榈油与醇进行题目所称的酯化作用，可制成生物柴油，减少对石油柴油的依赖。
+English: At SPM level, palm oil reacts with an alcohol in the process called esterification in the question to produce biodiesel, reducing dependence on petroleum diesel."
+,radio,F5 Chp 6,A,B,C,D,D,Picture32.png,"中文：柠檬中的酸性液体作电解质，锌和铜作电极。这种简单电池把化学能转化为电能，供LED使用。
+English: The acidic liquid in a lemon acts as the electrolyte, with zinc and copper as electrodes. This simple cell converts chemical energy into electrical energy to power the LED."
+,radio,F5 Chp 6,A,B,C,D,A,Picture33.png,"中文：镁和铜在金属反应性序列中的距离较大，可产生较高电压，使灯较亮，因此选A。
+English: Magnesium and copper are far apart in the metal reactivity series, producing a relatively high voltage and a brighter lamp, so A is correct."
+,radio,F5 Chp 7,A,B,C,D,C,Picture34.png,"中文：图中C位于焦点F，能对应题目“成像在无穷远”，因此保留答案C。不过题目把“虚像、正立”与“无穷远”并列并不严谨：有限距离的正立虚像应在物体位于F与透镜之间时形成。
+English: Point C is at the focal point F, matching the clue that the image is at infinity, so the keyed answer C is retained. However, combining “virtual, upright” with “at infinity” is imprecise: a finite upright virtual image is formed when the object is between F and the lens."
+,radio,F5 Chp 7,A,B,C,D,B,Picture35.png,"中文：P对应显微镜通过目镜观看的放大、正立虚像；Q对应望远镜物镜形成的缩小、倒立实像；R是用凹透镜矫正近视的眼镜，因此选B。
+English: P matches the magnified, upright virtual image viewed through a microscope eyepiece. Q matches the reduced, inverted real image formed by a telescope's objective lens. R is spectacles using a concave lens to correct short-sightedness, so B is correct."
+,radio,F5 Chp 8,A,B,C,D,C,Picture36.png,"中文：根据帕斯卡原理，Fₘ/Aₘ=Fₙ/Aₙ。Fₘ=8000×20÷800=200 N，因此选C。
+English: By Pascal's principle, Fₘ/Aₘ = Fₙ/Aₙ. Thus Fₘ = 8000 × 20 ÷ 800 = 200 N, so C is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：封闭液体受到的压力会均匀传递到各处，这是帕斯卡原理。因此所比较位置的压力相等，选B。
+English: Pressure applied to an enclosed liquid is transmitted uniformly throughout it, according to Pascal's principle. The compared pressures are therefore equal, giving B."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：强风使屋顶上方空气流速增加、压力降低。屋内较高的气压产生向上的合力，可把屋顶掀起。
+English: Strong wind increases air speed above the roof and lowers the pressure there. The higher pressure inside the house produces an upward resultant force that can lift the roof."
+,radio,F5 Chp 8,A,B,C,D,A,Picture39.png,"中文：A处空气通道较宽，流速较低，气压较高；较窄处流速较高、气压较低。这符合伯努利原理，因此选A。
+English: The air passage is wider at A, where air moves more slowly and has higher pressure. At narrower sections, air moves faster and has lower pressure, in accordance with Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：纬度3.139456为正，表示北纬；经度−101.689593为负，表示西经，因此坐标位于西北方向，选D。
+English: The positive latitude, 3.139456, indicates north, while the negative longitude, −101.689593, indicates west. The coordinates therefore indicate the north-west direction, giving D."

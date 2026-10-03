@@ -1,0 +1,43 @@
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 9,radio,Kelantan2025_Q39,A,B,C,D,B,Kelantan 2025/Picture39.png,"中文：四颗GPS卫星可确定三维位置并校正接收器时钟误差。
+English: Four GPS satellites allow a three-dimensional position and receiver clock correction to be determined."
+F5 Chp 9,radio,KualaLumpur2025_Q39,A,B,C,D,A,Kuala Lumpur 2025/Picture39.png,"中文：地球静止轨道位于赤道平面，是课本要求的轨道类型。
+English: A geostationary orbit lies in the equatorial plane, matching the textbook description."
+F5 Chp 9,radio,Melaka2025_Q39,A,B,C,D,A,Melaka 2025/Picture39.png,"中文：远地点是卫星离地球最远的位置，图中A最远。
+English: Apogee is the point farthest from Earth; A is the farthest point shown."
+F5 Chp 9,radio,NegeriSembilan2025_Q39,A,B,C,D,C,Negeri Sembilan 2025/Picture39.png,"中文：Google Maps和Waze利用GPS定位，并提供路线及导航服务，因此选C。
+English: Google Maps and Waze use GPS positioning to provide routes and navigation, so C is correct."
+F5 Chp 9,radio,Pahang2025_Q39,A,B,C,D,A,Pahang 2025/Picture39.png,"中文：RLV是可重复使用的发射载具，能够回收并再次使用，从而降低重复发射的成本。
+English: RLV means reusable launch vehicle. It can be recovered and used again, reducing the cost of repeated launches."
+F5 Chp 9,radio,Penang2025_Q39,A,B,C,D,D,Penang 2025/Picture39.png,"中文：D代表地球同步静止轨道，在赤道平面上绕地球运行，周期与地球自转相同，因而相对地面位置固定。
+English: D represents the geostationary orbit in the equatorial plane. Its orbital period matches Earth's rotation, so the satellite appears fixed relative to the ground."
+F5 Chp 9,radio,Selangor2025_Q39,A,B,C,D,C,Selangor 2025/Picture39.png,"中文：705 km位于课程中低地球轨道约180至2000 km范围，且运行速度较高，因此选LEO。
+English: An altitude of 705 km lies within the course's approximate 180–2000 km range for low Earth orbit, which also has a high orbital speed, so LEO is correct."
+F5 Chp 9,radio,Johor2025_Q40,A,B,C,D,C,Johor 2025/Picture40.png,"中文：地球静止轨道卫星与地球自转同步，看起来保持在地面同一点上方。
+English: A geostationary satellite matches Earth's rotation and appears to remain above the same point on Earth."
+F5 Chp 9,radio,Kedah2025_Q40,A,B,C,D,A,Kedah 2025/Picture40.png,"中文：地球静止轨道位于赤道平面，并与地球自转同步。
+English: A geostationary orbit lies in the equatorial plane and matches Earth's rotation."
+F5 Chp 9,radio,Kelantan2025_Q40,A,B,C,D,A,Kelantan 2025/Picture40.png,"中文：DD =度+分/60+秒/3600；纬度3+8/60+22.04/3600 =3.139456，经度101+41/60+22.53/3600 =101.689593。
+English: DD =degrees+minutes/60+seconds/3600; latitude =3.139456 and longitude =101.689593."
+F5 Chp 9,radio,KualaLumpur2025_Q40,A,B,C,D,A,Kuala Lumpur 2025/Picture40.png,"中文：GPS提供接收器的位置资料，常表示为纬度、经度及高度。
+English: GPS provides receiver-location information, usually latitude, longitude and altitude."
+F5 Chp 9,radio,Melaka2025_Q40,A,B,C,D,A,Melaka 2025/Picture40.png,"中文：X在北半球、西半球，纬度正、经度负，符合43.70643，−79.39864。
+English: X lies in the northern and western hemispheres, requiring positive latitude and negative longitude:43.70643,−79.39864."
+F5 Chp 9,radio,Muar2025_Q40,A,B,C,D,D,Muar 2025/Picture40.png,"中文：纬度3.139456为正，表示北纬；经度−101.689593为负，表示西经，因此坐标位于西北方向，选D。
+English: The positive latitude, 3.139456, indicates north, while the negative longitude, −101.689593, indicates west. The coordinates therefore indicate the north-west direction, giving D."
+F5 Chp 9,radio,NegeriSembilan2025_Q40,A,B,C,D,C,Negeri Sembilan 2025/Picture40.png,"中文：依课程的轨道高度比较，轨道越高，运行速度越低。速度递增的顺序为HEO、MEO、LEO，因此选C。
+English: In the course's comparison of orbital altitudes, a higher orbit has a lower orbital speed. The ascending order of speed is HEO, MEO, LEO, so C is correct."
+F5 Chp 9,radio,Pahang2025_Q40,A,B,C,D,D,Pahang 2025/Picture40.png,"中文：GPS利用卫星信号确定位置，帮助用户了解所在地点、方向和路线，因此选D。
+English: GPS uses satellite signals to determine position, helping users identify their location, direction and route, so D is correct."
+F5 Chp 9,radio,PasirGudang2025_Q40,A,B,C,D,C,Pasir Gudang 2025/Picture40.png,"中文：X指向最接近地球的轨道，是低地球轨道LEO，其高度低于中地球轨道和高地球轨道。
+English: X points to the orbit closest to Earth, the low Earth orbit or LEO. Its altitude is lower than medium and high Earth orbits."
+F5 Chp 9,radio,Penang2025_Q40,A,B,C,D,D,Penang 2025/Picture40.png,"中文：X是卫星，属于太空部分；Y是手机接收器，属于用户部分；Z是地面站，属于控制部分，因此选D。
+English: X is the satellite, belonging to the space segment. Y is the phone receiver in the user segment. Z is a ground station in the control segment, so D is correct."
+F5 Chp 9,radio,Perak2025_Q40,A,B,C,D,D,Perak 2025/Picture40.png,"中文：十进制度数=度+分/60+秒/3600。纬度=5+10/60+35.05/3600=5.176403；经度=12+6/60+18.25/3600=12.105069，因此选D。
+English: Decimal degrees = degrees + minutes/60 + seconds/3600. Latitude = 5 + 10/60 + 35.05/3600 = 5.176403; longitude = 12 + 6/60 + 18.25/3600 = 12.105069, giving D."
+F5 Chp 9,radio,Perlis2025_Q40,A,B,C,D,B,Perlis 2025/Picture40.png,"中文：Y是椭圆轨道上距离地球最远的位置，称为远地点apogee。最近的位置则是近地点perigee。
+English: Y is the point farthest from Earth in the elliptical orbit, called apogee. The nearest point is perigee."
+F5 Chp 9,radio,Putrajaya2025_Q40,A,B,C,D,A,Putrajaya 2025/Picture40.png,"中文：依本题课程表，把高度约35780 km、速度约11100 km/h对应为HEO，因此答案为A。这些数值也接近同步轨道的典型值，若严格区分HEO与GEO，题目存在类别歧义。
+English: Under the course table used by this question, an altitude around 35780 km and speed around 11100 km/h are assigned to HEO, giving A. These values also resemble synchronous-orbit values, so a strict distinction between HEO and GEO makes the options ambiguous."
+F5 Chp 9,radio,Selangor2025_Q40,A,B,C,D,B,Selangor 2025/Picture40.png,"中文：手机等GPS接收器属于用户部分，接收卫星信号并计算位置。卫星是太空部分，地面监控站是控制部分。
+English: GPS receivers such as smartphones belong to the user segment, receiving satellite signals and determining position. Satellites form the space segment and ground monitoring stations the control segment."

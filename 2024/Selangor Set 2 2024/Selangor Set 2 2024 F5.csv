@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor Set 2 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture22.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor Set 2 2024 F5,radio,F5 Chp 1,A,B,C,D,A,Picture21.png,"中文：负排放技术可用微藻进行光合作用，吸收二氧化碳，所以微生物类别是藻类。
+English: Negative-emission technology can use microalgae to absorb carbon dioxide through photosynthesis, so the class is algae."
+,radio,F5 Chp 1,A,B,C,D,A,Picture22.png,"中文：按课本此题的肺炎配对，病原体是细菌，治疗类别为抗生素；并非所有现实肺炎都只有这种病因。
+English: The textbook pairing in this question is bacterial pneumonia with antibiotics; this does not mean every real case has the same cause."
+,radio,F5 Chp 2,A,B,C,D,A,Picture23.png,"中文：四分之一谷物、四分之一蛋白质、半盘蔬果，是马来西亚健康餐盘概念。
+English: A quarter grains, a quarter protein and half vegetables and fruit follow the Malaysian Healthy Plate concept."
+,radio,F5 Chp 2,A,B,C,D,A,Picture24.png,"中文：闪电提供能量让氮和氧反应，形成的含氮物质随雨进入土壤，增加硝酸盐。
+English: Lightning provides energy for nitrogen and oxygen to react; nitrogen compounds enter soil with rain and increase nitrates."
+,radio,F5 Chp 2,A,B,C,D,C,Picture25.png,"中文：无人机节省时间及劳工成本（Q、R）；克隆保留优良品种特征及品质（P、S），对应 C。
+English: Drones save time and labour costs (Q, R); cloning retains desirable breed characteristics and quality (P, S), matching C."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：现有答案 B 的日期标示可确认牛奶尚未过期；若强调“保持新鲜”，D 的储存指示更直接，因为它说明冷藏等保存条件。
+English: Existing answer B, the date marking, checks that milk has not expired. If the focus is maintaining freshness, D, storage instructions, is more direct because it specifies conditions such as refrigeration."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：碳汇如森林能吸收并储存二氧化碳，是从空气移除碳的措施。
+English: Carbon sinks such as forests absorb and store carbon dioxide, removing it from the air."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：过量二氧化碳增强温室效应，全球暖化使冰川融化、海水热膨胀，导致海平面上升。
+English: Excess carbon dioxide strengthens the greenhouse effect; warming melts ice and expands seawater, raising sea level."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：节庆烟花是快速燃烧反应，在短时间释放热和光。
+English: Festival fireworks involve rapid combustion, releasing heat and light in a short time."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：冰箱降低温度，减慢食物腐败相关反应和微生物活动，使蔬果保存较久。
+English: A refrigerator lowers temperature, slowing spoilage reactions and microbial activity so fruit and vegetables last longer."
+,radio,F5 Chp 5,A,B,C,D,D,Picture31.png,"中文：戊烯有 5 个碳原子，并含一个碳碳双键，分子式 C5H10，D 的配对正确。
+English: Pentene has five carbons and one carbon–carbon double bond, with formula C5H10, so D is correctly paired."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：按 SPM 课本的一般分类，植物油主要归为不饱和脂肪，含碳碳双键。
+English: Under the general SPM textbook classification, plant oils are mainly classified as unsaturated fats containing carbon–carbon double bonds."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：X 是脱果步骤，把油棕果从果串上分离，方便进行后续处理。
+English: X is threshing, separating oil palm fruits from their bunches for subsequent processing."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：熔融氯化钠含可自由移动的离子而导电；固体中的离子固定，不能导电。
+English: Molten sodium chloride has freely moving ions and conducts electricity; solid ions are fixed and cannot conduct."
+,radio,F5 Chp 6,A,B,C,D,A,Picture35.png,"中文：简单化学电池利用化学反应产生电流，把化学能转为电能。
+English: A simple chemical cell produces current through chemical reactions, converting chemical energy to electrical energy."
+,radio,F5 Chp 7,A,B,C,D,A,Picture36.png,"中文：图中透镜中央较厚、边缘较薄，是凸透镜。
+English: The lens is thicker at the centre and thinner at the edges, identifying a convex lens."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：总倍数＝物镜×目镜；目镜为 10 倍，所以物镜＝200÷10＝20 倍。
+English: Total magnification = objective × eyepiece; with a 10-times eyepiece, objective magnification = 200 ÷ 10 = 20 times."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：压强相同：F÷20＝7000÷700，所以输入力 F＝200 N。
+English: Equal pressure gives F ÷ 20 = 7000 ÷ 700, so input force F = 200 N."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：约 20200 km 高度及 13900 km/h 速度是课本中地球轨道 MEO 的资料，GPS 卫星常使用这种轨道。
+English: An altitude around 20200 km and speed of 13900 km/h match the textbook's medium Earth orbit, commonly used by GPS satellites."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS 接收卫星信号来计算经纬度等位置资料，因此提供的是地点位置。
+English: GPS receives satellite signals to calculate position information such as latitude and longitude, identifying location."

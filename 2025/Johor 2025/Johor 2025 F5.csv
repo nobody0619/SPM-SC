@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-Johor 2025 F5,radio,F5 Bab 1,A,B,C,D,D,Picture26.png
-,radio,F5 Bab 1,A,B,C,D,C,Picture27.png
-,radio,F5 Bab 2,A,B,C,D,D,Picture28.png
-,radio,F5 Bab 2,A,B,C,D,B,Picture29.png
-,radio,F5 Bab 2,A,B,C,D,C,Picture30.png
-,radio,F5 Bab 3,A,B,C,D,B,Picture31.png
-,radio,F5 Bab 4,A,B,C,D,A,Picture32.png
-,radio,F5 Bab 4,A,B,C,D,B,Picture33.png
-,radio,F5 Bab 5,A,B,C,D,C,Picture34.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture35.png
-,radio,F5 Bab 5,A,B,C,D,D,Picture36.png
-,radio,F5 Bab 6,A,B,C,D,D,Picture37.png
-,radio,F5 Bab 7,A,B,C,D,B,Picture38.png
-,radio,F5 Bab 8,A,B,C,D,D,Picture39.png
-,radio,F5 Bab 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Johor 2025 F5,radio,F5 Bab 1,A,B,C,D,D,Picture26.png,"中文：图中的出芽酵母发酵糖产生二氧化碳，使面团膨胀，因此用于制面包。
+English: The budding yeast ferments sugar and releases carbon dioxide, making dough rise during bread-making."
+,radio,F5 Bab 1,A,B,C,D,C,Picture27.png,"中文：乳酸菌Lactobacillus发酵榴莲中的糖产生乳酸，使tempoyak变酸。
+English: Lactobacillus ferments sugars into lactic acid, giving tempoyak its sour taste."
+,radio,F5 Bab 2,A,B,C,D,D,Picture28.png,"中文：SPM课本把叶上出现褐斑等症状与缺钾联系，因此选择钾。
+English: In the SPM textbook, brown spots on leaves are associated with potassium deficiency."
+,radio,F5 Bab 2,A,B,C,D,B,Picture29.png,"中文：氮循环维持氮供应、土壤肥力和蛋白质形成，不是直接维持空气中的氧气。
+English: The nitrogen cycle maintains nitrogen availability, soil fertility and protein production, not atmospheric oxygen content directly."
+,radio,F5 Bab 2,A,B,C,D,C,Picture30.png,"中文：淀粉可增稠并稳定食品质地，属于食品稳定剂。
+English: Starch thickens food and stabilises its texture, so it functions as a stabiliser."
+,radio,F5 Bab 3,A,B,C,D,B,Picture31.png,"中文：把容器升级再造为有用产品可减少废物，并延长材料使用寿命。
+English: Upcycling containers into useful products reduces waste and extends the material's useful life."
+,radio,F5 Bab 4,A,B,C,D,A,Picture32.png,"中文：实验比较30°C与40°C，改变因素是温度；较高温度增加有效碰撞。
+English: The experiment compares 30°C and 40°C, so temperature is the changed factor; higher temperature increases effective collisions."
+,radio,F5 Bab 4,A,B,C,D,B,Picture33.png,"中文：接触法制造硫酸用五氧化二钒作催化剂，加快二氧化硫氧化为三氧化硫。
+English: Vanadium(V) oxide catalyses the oxidation of sulphur dioxide to sulphur trioxide in the Contact process."
+,radio,F5 Bab 5,A,B,C,D,C,Picture34.png,"中文：酒精容易燃烧，在氧气中反应释放热能。
+English: Alcohol is flammable and reacts with oxygen during combustion to release heat."
+,radio,F5 Bab 5,A,B,C,D,D,Picture35.png,"中文：脂肪分子由碳、氢、氧三种元素构成。
+English: Fat molecules contain carbon, hydrogen and oxygen."
+,radio,F5 Bab 5,A,B,C,D,D,Picture36.png,"中文：油棕果实的肉质中果皮富含棕榈油；果仁产生的是棕榈仁油。
+English: The fleshy mesocarp is rich in palm oil; the kernel produces palm kernel oil."
+,radio,F5 Bab 6,A,B,C,D,D,Picture37.png,"中文：Cu²⁺使溶液呈蓝色；电解时它在阴极得到电子形成铜，浓度降低使蓝色变浅。
+English: Cu²⁺ ions give the solution its blue colour; they gain electrons at the cathode to form copper, so the colour fades as their concentration decreases."
+,radio,F5 Bab 7,A,B,C,D,B,Picture38.png,"中文：凸透镜作放大镜时，物体位于光心与焦点之间，形成虚、正立及放大的像。
+English: A convex lens forms a virtual, upright, enlarged image when the object lies between the optical centre and the focal point."
+,radio,F5 Bab 8,A,B,C,D,D,Picture39.png,"中文：液压压力相等，F₂ =200×6/2 =600 N。
+English: Equal hydraulic pressure gives F₂ =200×6/2 =600 N."
+,radio,F5 Bab 9,A,B,C,D,C,Picture40.png,"中文：地球静止轨道卫星与地球自转同步，看起来保持在地面同一点上方。
+English: A geostationary satellite matches Earth's rotation and appears to remain above the same point on Earth."

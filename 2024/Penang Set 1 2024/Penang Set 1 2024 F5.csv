@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Penang Set 1 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Penang Set 1 2024 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png,"中文：利用农业废料发酵制成、成本低且较环保的清洁液是生态酵素清洁液。
+English: A low-cost cleaner produced by fermenting agricultural waste is an ecoenzyme cleaning solution."
+,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：X 是细菌无法生长的抑菌圈；抗生素浓度较高时，抑菌效果较强，圈的直径会增大。
+English: X is the inhibition zone where bacteria cannot grow; a higher antibiotic concentration strengthens inhibition and increases its diameter."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：P 只吃少量蔬菜，纤维摄取较少，因此较可能便秘；不能仅凭一次早餐判定肥胖。
+English: P eats very little vegetable fibre and may therefore develop constipation; obesity cannot be established from one breakfast alone."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：磷是植物生长的重要养分，可促进根部发展以及花和果实的形成。
+English: Phosphorus is an important plant nutrient that promotes root development and the formation of flowers and fruits."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：有机肥增加土壤有机质，改善土壤结构，并在分解时持续释放养分。
+English: Organic fertiliser adds organic matter, improves soil structure and releases nutrients gradually during decomposition."
+,radio,F5 Chp 2,A,B,C,D,B,Picture28.png,"中文：晒干鱼类减少水分，抑制微生物及酶的活动而延长保存期。现有答案 B 写“消除所有细菌”过于绝对；C“减少酶活动”较合理。
+English: Drying fish removes moisture and inhibits microbial and enzyme activity. Existing answer B claims all bacteria are eliminated, which is too absolute; C, reduced enzyme activity, is more reasonable."
+,radio,F5 Chp 3,A,B,C,D,A,Picture29.png,"中文：升级再造把废塑料制成有新用途或更高价值的物品，减少塑料废料。
+English: Upcycling turns waste plastic into products with new uses or higher value, reducing plastic waste."
+,radio,F5 Chp 3,A,B,C,D,B,Picture30.png,"中文：Q 的亚甲蓝在 30 分钟内褪色，时间最短，表示耗氧最快、污染最严重。
+English: Q decolourises methylene blue in 30 minutes, the shortest time, indicating the fastest oxygen depletion and greatest pollution."
+,radio,F5 Chp 4,A,B,C,D,B,Picture31.png,"中文：课本列出的反应速率因素包括表面积、温度、浓度及催化剂；反应物质量本身不是所列的独立因素。
+English: The textbook factors include surface area, temperature, concentration and catalysts; reactant mass alone is not listed as an independent factor."
+,radio,F5 Chp 4,A,B,C,D,D,Picture32.png,"中文：哈伯法中的铁粉是催化剂，作用是加快氮和氢生成氨的反应。
+English: Iron powder is a catalyst in the Haber process, speeding up the reaction of nitrogen and hydrogen to form ammonia."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：石灰石主要含碳酸钙，碳酸盐属于无机碳化合物。
+English: Limestone mainly contains calcium carbonate; carbonates are inorganic carbon compounds."
+,radio,F5 Chp 5,A,B,C,D,A,Picture34.png,"中文：图示海洋生物遗骸被沉积物覆盖后形成油气，X 指向下层液态石油，应是 B。现有答案 A 煤通常来自陆地植物遗骸，与图不符。
+English: The diagram shows marine remains forming oil and gas under sediments; X points to the lower liquid petroleum layer, so B fits. Existing answer A, coal, normally forms from terrestrial plant remains and does not match."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：A 位于 2F；物体放在凸透镜的 2F 时，像在另一侧 2F，倒立、实像且与物体同大。
+English: A is at 2F; an object at 2F forms a real, inverted image of equal size at 2F on the other side."
+,radio,F5 Chp 7,A,B,C,D,A,Picture36.png,"中文：图中的 fo、fe 箭头表示物镜到第一像及第一像到目镜的距离。物镜形成放大实像，像距大于 2×40＝80 mm；第一像在目镜焦距 10 mm 内，所以 90 mm、6 mm 符合 A。
+English: The arrows fo and fe mark the objective-to-first-image and first-image-to-eyepiece distances. The objective image distance exceeds 2 × 40 = 80 mm, while the first image is within the eyepiece's 10 mm focal length, matching A: 90 mm and 6 mm."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：伯努利原理说明流体流速增大时压力降低，课本用它解释直升机、无人机和本生灯的相关作用。
+English: Bernoulli's principle states that faster fluid flow has lower pressure; the textbook applies it to helicopters, drones and Bunsen burners."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：液压系统压强相同：500÷5＝F÷50，所以 F＝5000 N。
+English: Pressure is equal in the hydraulic system: 500 ÷ 5 = F ÷ 50, so F = 5000 N."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：国际空间站提供微重力环境，让科学家进行地面难以完成的科学实验。
+English: The International Space Station provides a microgravity environment for scientific experiments difficult to perform on Earth."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：X 是椭圆轨道中离地球最近的位置，称为近地点；最远处才是远地点。
+English: X is the point in the elliptical orbit nearest Earth, called perigee; the farthest point is apogee."

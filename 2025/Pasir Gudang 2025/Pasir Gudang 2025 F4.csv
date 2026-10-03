@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pasir Gudang 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture15.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pasir Gudang 2025 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：油漆含不适合排入水槽的成分，会污染水源，必须按化学废物方法处理。
+English: Oil paint contains substances unsuitable for sink disposal and can pollute water. It must be handled as chemical waste."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：图中胸外按压帮助维持或恢复血液循环，让氧气继续送往脑和重要器官，因此选C。
+English: The chest compressions help maintain or restore blood circulation so oxygen can reach the brain and vital organs, giving C."
+,radio,F4 Chp 3,A,B,C,D,B,Picture3.png,"中文：实验室温度计的量程适合测量水的沸点，约100°C；临床和直肠体温计则主要用于体温范围。
+English: A laboratory thermometer has a range suitable for measuring water's boiling point, around 100°C. Clinical and rectal thermometers are designed mainly for body temperatures."
+,radio,F4 Chp 4,A,B,C,D,D,Picture4.png,"中文：污水先处理再排入河流，可减少污染物和有机废物，直接改善水质，因此选D。
+English: Treating wastewater before discharge removes pollutants and organic waste, directly improving river water quality, so D is correct."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：森林被清除使动物失去栖息地；失去树根固定土壤后，土壤也更容易被侵蚀，因此选择Q和R。
+English: Deforestation destroys habitats and removes roots that hold soil in place, increasing soil erosion. Therefore Q and R are correct."
+,radio,F4 Chp 5,A,B,C,D,A,Picture6.png,"中文：Bb×bb可产生一半Bb及一半bb。依题目的显隐性模型，能卷舌与不能卷舌的比例为1:1。
+English: Bb × bb produces half Bb and half bb. Under the question's dominant–recessive model, the ratio of tongue rollers to non-rollers is 1:1."
+,radio,F4 Chp 6,A,B,C,D,C,Picture7.png,"中文：箭头指向上臂后方的肱三头肌。手臂弯曲时，肱二头肌收缩，肱三头肌放松。
+English: The arrow points to the triceps at the back of the upper arm. When the arm bends, the biceps contracts and the triceps relaxes."
+,radio,F4 Chp 6,A,B,C,D,C,Picture8.png,"中文：13岁时女生曲线高于男生曲线，表示女生较高。女生的青春期生长高峰通常较早出现。
+English: At age 13, the female curve is above the male curve, indicating greater height. Girls generally reach their pubertal growth spurt earlier."
+,radio,F4 Chp 7,A,B,C,D,B,Picture9.png,"中文：儿童生长激素分泌不足会导致生长缓慢和侏儒症；分泌过多则可导致巨人症。
+English: Insufficient growth hormone during childhood causes poor growth and dwarfism. Excess secretion can cause gigantism instead."
+,radio,F4 Chp 7,A,B,C,D,A,Picture10.png,"中文：A是颈部的甲状腺。依课程，缺碘会影响甲状腺素形成，并可造成甲状腺肿大，即甲状腺肿。
+English: A is the thyroid gland in the neck. At course level, iodine deficiency disrupts thyroxine production and can enlarge the gland, causing goitre."
+,radio,F4 Chp 8,A,B,C,D,B,Picture11.png,"中文：中子数=核子数−质子数=96−42=54，因此选B。
+English: Neutron number = nucleon number − proton number = 96 − 42 = 54, so B is correct."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：P和Q均有6个质子，但中子数分别为12和14。质子数相同、中子数不同的原子是同位素。
+English: P and Q each have six protons but have 12 and 14 neutrons respectively. Atoms with the same proton number and different neutron numbers are isotopes."
+,radio,F4 Chp 9,A,B,C,D,B,Picture13.png,"中文：航天飞机重返大气层时承受极高温度。陶瓷耐高温且抗腐蚀，适合用作隔热保护材料。
+English: A spacecraft experiences extremely high temperatures during re-entry. Ceramics resist high heat and corrosion, making them suitable thermal-protection materials."
+,radio,F4 Chp 9,A,B,C,D,C,Picture14.png,"中文：把天然橡胶与硫加热进行硫化，在聚合物链之间形成交联，使鞋底更硬且耐热。
+English: Heating natural rubber with sulphur causes vulcanisation. Cross-links form between polymer chains, making the sole harder and more heat-resistant."
+,radio,F4 Chp 10,A,B,C,D,A,Picture15.png,"中文：临床验证、治疗通常较快及可能较高的治疗费用，符合题目对现代医疗的描述，因此选A。
+English: Clinical testing, generally faster treatment and potentially higher costs match the question's description of modern medicine, so A is correct."
+,radio,F4 Chp 10,A,B,C,D,C,Picture16.png,"中文：柠檬汁含维生素C等抗氧化成分，可减慢苹果和香蕉的氧化褐变。
+English: Lemon juice contains antioxidants such as vitamin C that slow oxidative browning in apples and bananas."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：炎症是体内产生自由基的因素，与新陈代谢同属内部因素。烟雾、毒性废物和紫外线是外部因素。
+English: Inflammation is an internal source of free radicals, alongside metabolism. Cigarette smoke, toxic waste and ultraviolet radiation are external factors."
+,radio,F4 Chp 11,A,B,C,D,C,Picture18.png,"中文：自由落体是物体只受重力作用的下落。真空中没有空气阻力，因此羽毛和硬币可同时落地。
+English: Free fall is motion under gravity alone. With no air resistance in a vacuum, the feather and coin can reach the ground together."
+,radio,F4 Chp 12,A,B,C,D,A,Picture19.png,"中文：核电站使用铀-235进行可控制的核裂变，释放热能，最终带动发电机产生电能。
+English: A nuclear power station uses controlled fission of uranium-235 to release heat, which ultimately drives generators to produce electricity."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：核燃料少量便能释放大量能量，可持续供应大量电力，适合满足人口多、能源需求高的国家。
+English: A small amount of nuclear fuel releases a large amount of energy, enabling a substantial electricity supply for countries with large populations and high demand."

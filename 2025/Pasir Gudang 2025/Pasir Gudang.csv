@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Pasir Gudang 2025,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture15.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture21.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture23.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pasir Gudang 2025,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：油漆含不适合排入水槽的成分，会污染水源，必须按化学废物方法处理。
+English: Oil paint contains substances unsuitable for sink disposal and can pollute water. It must be handled as chemical waste."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：图中胸外按压帮助维持或恢复血液循环，让氧气继续送往脑和重要器官，因此选C。
+English: The chest compressions help maintain or restore blood circulation so oxygen can reach the brain and vital organs, giving C."
+,radio,F4 Chp 3,A,B,C,D,B,Picture3.png,"中文：实验室温度计的量程适合测量水的沸点，约100°C；临床和直肠体温计则主要用于体温范围。
+English: A laboratory thermometer has a range suitable for measuring water's boiling point, around 100°C. Clinical and rectal thermometers are designed mainly for body temperatures."
+,radio,F4 Chp 4,A,B,C,D,D,Picture4.png,"中文：污水先处理再排入河流，可减少污染物和有机废物，直接改善水质，因此选D。
+English: Treating wastewater before discharge removes pollutants and organic waste, directly improving river water quality, so D is correct."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：森林被清除使动物失去栖息地；失去树根固定土壤后，土壤也更容易被侵蚀，因此选择Q和R。
+English: Deforestation destroys habitats and removes roots that hold soil in place, increasing soil erosion. Therefore Q and R are correct."
+,radio,F4 Chp 5,A,B,C,D,A,Picture6.png,"中文：Bb×bb可产生一半Bb及一半bb。依题目的显隐性模型，能卷舌与不能卷舌的比例为1:1。
+English: Bb × bb produces half Bb and half bb. Under the question's dominant–recessive model, the ratio of tongue rollers to non-rollers is 1:1."
+,radio,F4 Chp 6,A,B,C,D,C,Picture7.png,"中文：箭头指向上臂后方的肱三头肌。手臂弯曲时，肱二头肌收缩，肱三头肌放松。
+English: The arrow points to the triceps at the back of the upper arm. When the arm bends, the biceps contracts and the triceps relaxes."
+,radio,F4 Chp 6,A,B,C,D,C,Picture8.png,"中文：13岁时女生曲线高于男生曲线，表示女生较高。女生的青春期生长高峰通常较早出现。
+English: At age 13, the female curve is above the male curve, indicating greater height. Girls generally reach their pubertal growth spurt earlier."
+,radio,F4 Chp 7,A,B,C,D,B,Picture9.png,"中文：儿童生长激素分泌不足会导致生长缓慢和侏儒症；分泌过多则可导致巨人症。
+English: Insufficient growth hormone during childhood causes poor growth and dwarfism. Excess secretion can cause gigantism instead."
+,radio,F4 Chp 7,A,B,C,D,A,Picture10.png,"中文：A是颈部的甲状腺。依课程，缺碘会影响甲状腺素形成，并可造成甲状腺肿大，即甲状腺肿。
+English: A is the thyroid gland in the neck. At course level, iodine deficiency disrupts thyroxine production and can enlarge the gland, causing goitre."
+,radio,F4 Chp 8,A,B,C,D,B,Picture11.png,"中文：中子数=核子数−质子数=96−42=54，因此选B。
+English: Neutron number = nucleon number − proton number = 96 − 42 = 54, so B is correct."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：P和Q均有6个质子，但中子数分别为12和14。质子数相同、中子数不同的原子是同位素。
+English: P and Q each have six protons but have 12 and 14 neutrons respectively. Atoms with the same proton number and different neutron numbers are isotopes."
+,radio,F4 Chp 9,A,B,C,D,B,Picture13.png,"中文：航天飞机重返大气层时承受极高温度。陶瓷耐高温且抗腐蚀，适合用作隔热保护材料。
+English: A spacecraft experiences extremely high temperatures during re-entry. Ceramics resist high heat and corrosion, making them suitable thermal-protection materials."
+,radio,F4 Chp 9,A,B,C,D,C,Picture14.png,"中文：把天然橡胶与硫加热进行硫化，在聚合物链之间形成交联，使鞋底更硬且耐热。
+English: Heating natural rubber with sulphur causes vulcanisation. Cross-links form between polymer chains, making the sole harder and more heat-resistant."
+,radio,F4 Chp 10,A,B,C,D,A,Picture15.png,"中文：临床验证、治疗通常较快及可能较高的治疗费用，符合题目对现代医疗的描述，因此选A。
+English: Clinical testing, generally faster treatment and potentially higher costs match the question's description of modern medicine, so A is correct."
+,radio,F4 Chp 10,A,B,C,D,C,Picture16.png,"中文：柠檬汁含维生素C等抗氧化成分，可减慢苹果和香蕉的氧化褐变。
+English: Lemon juice contains antioxidants such as vitamin C that slow oxidative browning in apples and bananas."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：炎症是体内产生自由基的因素，与新陈代谢同属内部因素。烟雾、毒性废物和紫外线是外部因素。
+English: Inflammation is an internal source of free radicals, alongside metabolism. Cigarette smoke, toxic waste and ultraviolet radiation are external factors."
+,radio,F4 Chp 11,A,B,C,D,C,Picture18.png,"中文：自由落体是物体只受重力作用的下落。真空中没有空气阻力，因此羽毛和硬币可同时落地。
+English: Free fall is motion under gravity alone. With no air resistance in a vacuum, the feather and coin can reach the ground together."
+,radio,F4 Chp 12,A,B,C,D,A,Picture19.png,"中文：核电站使用铀-235进行可控制的核裂变，释放热能，最终带动发电机产生电能。
+English: A nuclear power station uses controlled fission of uranium-235 to release heat, which ultimately drives generators to produce electricity."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：核燃料少量便能释放大量能量，可持续供应大量电力，适合满足人口多、能源需求高的国家。
+English: A small amount of nuclear fuel releases a large amount of energy, enabling a substantial electricity supply for countries with large populations and high demand."
+,radio,F5 Chp 1,A,B,C,D,B,Picture21.png,"中文：加蒸馏水的培养基有菌落，加盐酸的没有，显示酸性条件抑制这次实验中的细菌生长。依课程结论，其适宜生长pH为中性。
+English: Colonies grow with distilled water but not with hydrochloric acid, showing that acidity inhibits bacterial growth in this experiment. The intended course conclusion is that neutral pH suits growth."
+,radio,F5 Chp 1,A,B,C,D,B,Picture22.png,"中文：酵母通常通过出芽繁殖：母细胞形成小芽，芽长大后可分离成为新个体。
+English: Yeast commonly reproduces by budding. A small bud forms on the parent cell, grows and may separate as a new individual."
+,radio,F5 Chp 1,A,B,C,D,C,Picture23.png,"中文：依课程，吖啶黄是可用于伤口的防腐剂，帮助抑制微生物。一般表面消毒剂不应直接用于伤口。
+English: At course level, acriflavine is an antiseptic used on wounds to inhibit microorganisms. General surface disinfectants should not be applied directly to wounds."
+,radio,F5 Chp 2,A,B,C,D,D,Picture24.png,"中文：食物保存法抑制微生物及腐败过程，主要目的是延长保质期和防止变质，而非增加食物大小。
+English: Food-preservation methods inhibit microorganisms and spoilage processes. Their main purpose is to extend shelf life and prevent deterioration, not increase food size."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：有机肥提供营养和有机物，改善土壤结构、维持肥力，并减少对环境的不良影响，因此选D。
+English: Organic fertiliser supplies nutrients and organic matter, improves soil structure and maintains fertility while reducing environmental impacts, so D is correct."
+,radio,F5 Chp 3,A,B,C,D,C,Picture26.png,"中文：A采用露天堆放废物，可能产生污染空气的气体，并产生渗滤液污染水源；回收及堆肥则减少需要弃置的废物。
+English: Area A uses open disposal, which can release polluting gases and produce leachate that contaminates water. Recycling and composting reduce the waste requiring disposal."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：购物使用可重复使用的袋子，可减少一次性塑料袋和废物，是环保行为。
+English: Using reusable shopping bags reduces disposable plastic bags and waste, making it an environmentally friendly practice."
+,radio,F5 Chp 4,A,B,C,D,B,Picture28.png,"中文：把肉切薄会增加总表面积，也使热更容易传入内部，因此缩短烹煮时间。
+English: Slicing meat thinly increases total surface area and allows heat to reach the interior more easily, shortening cooking time."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：氮与氢在铁催化剂及高温高压下反应生成氨，是哈柏法。
+English: Nitrogen and hydrogen react with an iron catalyst at high temperature and pressure to produce ammonia in the Haber process."
+,radio,F5 Chp 5,A,B,C,D,C,Picture30.png,"中文：酵母发酵葡萄糖产生乙醇和二氧化碳。二氧化碳通过石灰水时会使其变浑浊，因此选C。
+English: Yeast fermentation of glucose produces ethanol and carbon dioxide. The carbon dioxide turns limewater cloudy, so C is correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：依SPM课程，过量摄取饱和脂肪会提高不良胆固醇风险，促进动脉壁沉积，使血管变窄。
+English: At SPM level, excessive saturated-fat intake increases the risk of unhealthy cholesterol levels and deposits on artery walls, narrowing the vessels."
+,radio,F5 Chp 6,A,B,C,D,D,Picture32.png,"中文：两极都为铅时没有金属之间的电势差，不能产生足够电流，灯泡不会亮。
+English: Using lead for both electrodes gives no potential difference between the metals to drive a current, so the bulb does not light up."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：电解质是硝酸银溶液，要镀上的金属也是银。银作阳极，铁钥匙作阴极，银沉积在钥匙表面。
+English: The electrolyte is silver nitrate solution, and the coating metal is silver. Silver is the anode and the iron key is the cathode, where silver is deposited."
+,radio,F5 Chp 7,A,B,C,D,D,Picture34.png,"中文：凹透镜使光发散，对实际物体形成缩小、正立的虚像，因此D正确。凸透镜才是中间厚、边缘薄的会聚透镜。
+English: A concave lens diverges light and forms a diminished, upright virtual image of a real object, making D correct. A convex lens is the converging lens that is thicker in the middle."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：凸透镜物体放在2F以外时，形成缩小、倒立的实像。图中A在2F以外，因此选A。
+English: A convex lens forms a diminished, inverted real image when the object is beyond 2F. Point A is beyond 2F, so A is correct."
+,radio,F5 Chp 8,A,B,C,D,D,Picture36.png,"中文：根据伯努利原理，较窄通道中流体速度较高，压力较低，因此选D。
+English: According to Bernoulli's principle, fluid moves faster in a narrower passage and has lower pressure, so D is correct."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：C是牙科椅，利用封闭液体传递压力，符合帕斯卡原理，可用小活塞的力升起较大的负载。
+English: C is a dental chair. It transmits pressure through an enclosed liquid according to Pascal's principle, allowing force on a smaller piston to raise a larger load."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：强风在屋顶上方流动，使上方气压降低。屋内较高的气压产生向上的力，把屋顶推起，因此选D。
+English: Fast wind over the roof lowers the pressure above it. The higher pressure inside produces an upward force that can lift the roof, so D is correct."
+,radio,F5 Chp 8,A,B,C,D,B,Picture39.png,"中文：压力相等：F/0.05=3000/1.5。F=3000×0.05÷1.5=100 N，因此选B。
+English: Equal pressure gives F/0.05 = 3000/1.5. Thus F = 3000 × 0.05 ÷ 1.5 = 100 N, so B is correct."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：X指向最接近地球的轨道，是低地球轨道LEO，其高度低于中地球轨道和高地球轨道。
+English: X points to the orbit closest to Earth, the low Earth orbit or LEO. Its altitude is lower than medium and high Earth orbits."

@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Kelantan 2024,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture16.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture20.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan 2024,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：课本列有洗眼器、安全淋浴和层流柜等实验室安全设备；普通通风室不是列出的专用防护设备。
+English: The textbook lists eyewash stations, safety showers and laminar flow cabinets as laboratory safety equipment; a general ventilation chamber is not the listed protective equipment."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：干粉灭火器适用多种火灾，学校可用同一种器材应对不同起火物料。
+English: Dry powder extinguishers are suitable for various fire types, making them versatile for school use."
+,radio,F4 Chp 2,A,B,C,D,A,Picture3.png,"中文：Heimlich Manoeuvre 用于题目所指的哽塞，帮助把堵塞气道的异物排出。
+English: The Heimlich manoeuvre addresses the choking described by helping expel an object blocking the airway."
+,radio,F4 Chp 2,A,B,C,D,C,Picture4.png,"中文：胸外按压暂时承担心脏泵血功能，使血液继续流向脑部等重要器官。
+English: Chest compressions temporarily circulate blood by providing artificial pumping when the heart cannot pump effectively."
+,radio,F4 Chp 3,A,B,C,D,B,Picture5.png,"中文：按课本图示，带短探头和数字显示的这一款是肛温计，可用来测量直肠体温。
+English: In the textbook illustration, this short-probe digital model is a rectal thermometer for measuring rectal temperature."
+,radio,F4 Chp 3,A,B,C,D,C,Picture6.png,"中文：题目问高血压的风险，138/87 mmHg 属课本的偏高或前期风险范围；160/95 已属于明显高血压。
+English: The question asks about risk: 138/87 mmHg is in the textbook's raised or prehypertensive range, while 160/95 already indicates high blood pressure."
+,radio,F4 Chp 3,A,B,C,D,C,Picture7.png,"中文：BMI = 73 ÷ 1.6² = 28.5156，约 28.5 kg/m²。
+English: BMI = 73 ÷ 1.6² = 28.5156, approximately 28.5 kg/m²."
+,radio,F4 Chp 4,A,B,C,D,D,Picture8.png,"中文：烧林释放二氧化碳；它吸收地球发出的热辐射，加强温室效应。
+English: Forest burning releases carbon dioxide, which traps outgoing heat and strengthens the greenhouse effect."
+,radio,F4 Chp 4,A,B,C,D,D,Picture9.png,"中文：图中椰壳等有机废物可分解制成堆肥，减少垃圾堆积并回收养分。
+English: Organic waste such as coconut husks can be decomposed into compost, reducing waste piles and recycling nutrients."
+,radio,F4 Chp 4,A,B,C,D,C,Picture10.png,"中文：绿色植物光合作用吸收二氧化碳并释放氧气，所以森林被比喻为地球之肺。
+English: Green plants absorb carbon dioxide and release oxygen during photosynthesis, explaining the description of forests as Earth's lungs."
+,radio,F4 Chp 5,A,B,C,D,B,Picture11.png,"中文：染色体排列在细胞赤道面，尚未分向两极，是有丝分裂中期。
+English: Chromosomes align at the cell equator before separating, identifying metaphase of mitosis."
+,radio,F4 Chp 5,A,B,C,D,D,Picture12.png,"中文：TT × tt 的 F1 全为 Tt；Tt × Tt 得 TT:Tt:tt = 1:2:1，表现型高:矮 = 3:1。题干把它称为基因型比率有用词误差。
+English: F1 are all Tt; Tt × Tt gives TT:Tt:tt = 1:2:1 and a tall:short phenotype ratio of 3:1. The question uses genotype where phenotype is intended."
+,radio,F4 Chp 6,A,B,C,D,C,Picture13.png,"中文：滑液为软骨提供养分，并润滑关节、减少摩擦；肌腱连接肌肉与骨骼而非皮肤。
+English: Synovial fluid supplies cartilage with nutrients and lubricates joints; tendons connect muscle to bone, not skin."
+,radio,F4 Chp 7,A,B,C,D,A,Picture14.png,"中文：长期过量饮酒损伤肝细胞并造成瘢痕，按课程可导致肝硬化。
+English: Prolonged excessive alcohol intake damages liver cells and causes scarring, leading to cirrhosis in the syllabus."
+,radio,F4 Chp 7,A,B,C,D,D,Picture15.png,"中文：X 是随血液到达目标器官的激素；按本课程简化描述，选蛋白质，并且只需少量、作用较慢而较持久。
+English: X is a hormone carried in blood to a target organ; the syllabus describes it as a protein needed in small amounts, with slower and longer-lasting effects."
+,radio,F4 Chp 8,A,B,C,D,B,Picture16.png,"中文：中子数 = 核子数 − 质子数 = 96 − 42 = 54。
+English: Neutron number = nucleon number − proton number = 96 − 42 = 54."
+,radio,F4 Chp 8,A,B,C,D,C,Picture17.png,"中文：16 个电子排列为 2.8.6，因此第三层有 6 个电子。
+English: Sixteen electrons are arranged 2.8.6, so the third shell contains six electrons."
+,radio,F4 Chp 9,A,B,C,D,B,Picture18.png,"中文：按答案及实验室用玻璃概念，硼硅玻璃能耐热和耐化学侵蚀，常用于实验器材。
+English: According to the key and laboratory-glass concept, borosilicate glass resists heat and chemicals and is used for laboratory apparatus."
+,radio,F4 Chp 10,A,B,C,D,A,Picture19.png,"中文：炎症发生在身体内部，是产生自由基的内部因素；烟雾、紫外线及环境毒物是外部因素。
+English: Inflammation is an internal source of free radicals; smoke, ultraviolet radiation and environmental toxins are external factors."
+,radio,F4 Chp 11,A,B,C,D,C,Picture20.png,"中文：平均速率 = 路程 ÷ 时间 = 200 ÷ 25 = 8.0 m/s。
+English: Average speed = distance ÷ time = 200 ÷ 25 = 8.0 m/s."
+,radio,F4 Chp 11,A,B,C,D,B,Picture21.png,"中文：8 至 12 秒速度由 3 降至 0 m/s，加速度 = (0 − 3)/(12 − 8) = −0.75 m/s²。
+English: From 8 to 12 s, velocity drops from 3 to 0 m/s; acceleration = (0 − 3)/(12 − 8) = −0.75 m/s²."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：厚混凝土屏蔽吸收辐射，防止反应堆的放射线泄漏到外部。
+English: Thick concrete shielding absorbs radiation and prevents radiation escaping from the reactor."
+,radio,F4 Chp 12,A,B,C,D,A,Picture23.png,"中文：按课本分类，恶心是躯体效应，癌症是辐射引起突变所关联的遗传效应，所以选 A。
+English: Under the textbook classification, nausea is a somatic effect and cancer is associated with radiation-induced mutation as a genetic effect, giving A."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：图中草履虫与变形虫都是单细胞原生动物，不是细菌、真菌或病毒。
+English: The diagram shows Paramecium and Amoeba, both unicellular protozoa rather than bacteria, fungi or viruses."
+,radio,F5 Chp 1,A,B,C,D,D,Picture25.png,"中文：N 的抗生素浓度最高（30%），对细菌抑制最强，通常形成最大的无菌透明区。
+English: Dish N has the highest antibiotic concentration, 30%, so it inhibits bacteria most strongly and forms the largest clear zone."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：缺氮降低叶绿素形成，幼苗叶片呈浅绿或黄色。
+English: Nitrogen deficiency reduces chlorophyll formation, making the seedling leaves pale green or yellow."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：总能量 = 面 50 × 15.0 + 蛋 20 × 6.5 + 果汁 120 × 2.5 = 1,180 kJ。
+English: Total energy = noodles 50 × 15.0 + egg 20 × 6.5 + juice 120 × 2.5 = 1,180 kJ."
+,radio,F5 Chp 2,A,B,C,D,A,Picture28.png,"中文：过量肥料流入水体带来硝酸盐和磷酸盐，促进藻类大量繁殖，造成富营养化。
+English: Excess fertiliser supplies nitrates and phosphates to water, causing algal blooms and eutrophication."
+,radio,F5 Chp 3,A,B,C,D,C,Picture29.png,"中文：微藻进行光合作用，以二氧化碳制造有机物，减少空气中二氧化碳。
+English: Microalgae use carbon dioxide to make organic substances during photosynthesis, reducing atmospheric carbon dioxide."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：气体在 180 秒已达到最终 45 cm³；总体平均速率 = 45 ÷ 180 = 0.25 cm³/s，不能用反应结束后的 210 秒。
+English: The final 45 cm³ is reached at 180 s; overall average rate = 45 ÷ 180 = 0.25 cm³/s, excluding time after completion."
+,radio,F5 Chp 4,A,B,C,D,B,Picture31.png,"中文：Haber 法采用约 200 atm 高压提高合成氨速率；催化剂是铁而非硫，氮氢比为 1:3。
+English: The Haber process uses about 200 atm to increase ammonia production rate; iron is the catalyst and the nitrogen:hydrogen ratio is 1:3."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：棕榈油与氢氧化钠发生皂化，生成肥皂和甘油。
+English: Palm oil reacts with sodium hydroxide in saponification to produce soap and glycerol."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：在所给选项中，酒精是可溶解有机指甲油成分的有机溶剂；不是选气态烃或肥皂。
+English: Among the options, alcohol is an organic solvent capable of dissolving nail-polish components, unlike the gases or soap listed."
+,radio,F5 Chp 6,A,B,C,D,D,Picture34.png,"中文：简单化学电池由两种不同金属插入电解质，并接成外电路，把化学能转成电能。
+English: A simple chemical cell uses two different metals in an electrolyte with an external circuit, converting chemical energy to electrical energy."
+,radio,F5 Chp 6,A,B,C,D,B,Picture35.png,"中文：镁较活泼，是负极并失电子溶解；铜为正极，铜离子得到电子沉积成铜。B 符合答案，D 的描述也正确，选项有重复合理性。
+English: Magnesium is the more reactive negative electrode and dissolves; copper is positive and copper ions are deposited as copper. B matches the key, but D also states a correct observation."
+,radio,F5 Chp 7,A,B,C,D,A,Picture36.png,"中文：物体放在 2F 时，凸透镜在另一侧 2F 形成倒立、实像且与物体同大。
+English: An object at 2F forms a real, inverted image of equal size at 2F on the other side of a convex lens."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：先把镜片朝向远物，再调屏直到像清晰，最后量镜片中心至屏幕距离，近似焦距。
+English: Aim the lens at a distant object, adjust the screen until the image is sharp, then measure lens-to-screen distance as the approximate focal length."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：相同压强：20/2 = F/10，所以可举起 100 N 的负载。
+English: Equal pressure gives 20/2 = F/10, so the output load is 100 N."
+,radio,F5 Chp 8,A,B,C,D,C,Picture39.png,"中文：C 位于机翼下方，气流较慢、压强较高；上方较快气流形成较低压强。
+English: C is below the wing, where slower airflow gives higher pressure than the faster airflow above."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS 第二个数 −43.182367 是经度，负号表示格林尼治线以西；第一个负纬度表示南半球。
+English: The second coordinate, −43.182367, is longitude; its negative sign indicates west of Greenwich, while the first negative latitude indicates the southern hemisphere."

@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Negeri Sembilan 2024,radio,F4 Chp 1,A,B,C,D,D,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 9 ,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Negeri Sembilan 2024,radio,F4 Chp 1,A,B,C,D,D,Picture1.png,"中文：血清是液体生物废物，属于 D 类；锐器 A 类、非锐器固体 B 类、动物尸体 C 类。
+English: Serum is liquid biological waste, Category D; sharps are A, non-sharp solids B and animal carcasses C."
+,radio,F4 Chp 2,A,B,C,D,B,Picture2.png,"中文：按课本图序，先检查反应（4）、打开气道和检查呼吸（3）、胸外按压（1）、人工呼吸（2）。
+English: The textbook diagram order is checking response (4), opening the airway and checking breathing (3), chest compressions (1), then rescue breaths (2)."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：题目显示血压偏高，课程建议减少高盐食物摄入，钠摄入过多与血压升高有关。
+English: For the raised blood pressure shown, the syllabus suggests reducing high-salt foods because excess sodium is associated with higher pressure."
+,radio,F4 Chp 4,A,B,C,D,C,Picture4.png,"中文：把稻草售作可生物降解包装原料，既减少烧草，也给农民带来额外收入，符合题目对农民的利益。
+English: Selling straw for biodegradable packaging avoids burning and provides additional income, matching the benefit to farmers asked here."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：A 是私人车辆，排放较高；B 是步行，直接燃料消耗最低。
+English: A represents individual vehicles with higher emissions; B is walking with no direct fuel consumption."
+,radio,F4 Chp 5,A,B,C,D,C,Picture6.png,"中文：唐氏综合征多一条 21 号常染色体，男性体细胞为 45 条常染色体 + XY，共 47 条。
+English: Down syndrome has an extra chromosome 21; a male body cell has 45 autosomes + XY, totalling 47 chromosomes."
+,radio,F4 Chp 5,A,B,C,D,B,Picture7.png,"中文：原答案 B 指核型分析检查胎儿染色体异常。须注意血友病是基因突变，单靠核型不能确定血友病；题目把一般染色体检查与该疾病混用。
+English: The key B refers to karyotyping for fetal chromosome abnormalities. Haemophilia is a gene mutation, so karyotyping alone cannot determine haemophilia; the question mixes general chromosome testing with this condition."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：重组 DNA 技术把人类胰岛素基因放入细菌，生产胰岛素，可帮助糖尿病治疗。
+English: Recombinant DNA introduces the human insulin gene into bacteria to produce insulin for diabetes treatment."
+,radio,F4 Chp 6,A,B,C,D,A,Picture9.png,"中文：C 指骨盆带，连接躯干和下肢并支持身体重量。
+English: C labels the pelvic girdle, connecting the trunk to the lower limbs and supporting body weight."
+,radio,F4 Chp 6,A,B,C,D,C,Picture10.png,"中文：C 曲线接近水平，身高不再增加，表示达到成熟、增长停止。
+English: The nearly flat section C shows height no longer increasing, indicating maturity and stopped growth."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：考试紧张刺激肾上腺素释放，提高心跳及代谢，准备应对压力。
+English: Examination stress stimulates adrenaline release, increasing heartbeat and metabolic rate in preparation for a challenge."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：D 是两个相同原子组成的双原子分子，可为氮气；E 由不同原子组成，答案配为二氧化碳。
+English: D has diatomic molecules of identical atoms, matching nitrogen; E contains different atoms and is paired with carbon dioxide in the key."
+,radio,F4 Chp 8,A,B,C,D,A,Picture13.png,"中文：中性原子中电子数等于质子数，Z 有 20 个质子便有 20 个电子。
+English: In a neutral atom, electron number equals proton number, so Z has 20 electrons."
+,radio,F4 Chp 8,A,B,C,D,C,Picture14.png,"中文：同位素核子数不同（P），但质子数及中性原子的电子数相同（Q），所以 P、Q 正确。
+English: Isotopes have different nucleon numbers (P), but the same proton and neutral-atom electron numbers (Q), giving P and Q."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：航天器重返大气时极热，陶瓷耐高温且不易腐蚀，适合保护底部。
+English: Ceramics resist very high temperatures and corrosion, making them suitable for protecting a spacecraft during atmospheric re-entry."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：酸使乳胶凝固得到天然橡胶；按答案，其弹性是适用优点。此过程是凝固，不是加硫硫化。
+English: Acid coagulates latex into natural rubber, whose elasticity is the advantage selected by the key. This is coagulation, not sulphur vulcanisation."
+,radio,F4 Chp 9 ,A,B,C,D,A,Picture17.png,"中文：在题目的酸碱中和模型中，醋呈酸性，可中和碱性刺液。
+English: In the question's acid–base model, acidic vinegar neutralises the alkaline sting substance."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：抗坏血酸即维生素 C，能抑制食物氧化；酒石黄是色素，乙酸辛酯是香味剂。
+English: Ascorbic acid is vitamin C and inhibits oxidation; tartrazine is a colouring and octyl ethanoate a flavouring."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：最后 4 秒速度由 12 降至 0，加速度 = (0 − 12)/(10 − 6) = −3.0 m/s²。
+English: In the last four seconds, acceleration = (0 − 12)/(10 − 6) = −3.0 m/s²."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：有空气时羽毛受较明显阻力，落后硬币；真空中两者只受重力，以相同加速度下落。
+English: In air, drag slows the feather more than the coin; in a vacuum, both experience only gravity and fall with the same acceleration."
+,radio,F4 Chp 12,A,B,C,D,D,Picture21.png,"中文：核能先变热能，蒸汽带动涡轮形成动能，再由发电机变为电能。
+English: Nuclear energy becomes heat, steam turns the turbine to provide kinetic energy, and the generator produces electrical energy."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：核电能提供大量电力，替代部分化石燃料；建设费用高和废料管理是限制而非优点。
+English: Nuclear power can replace some fossil-fuel electricity generation; high construction costs and waste management are limitations rather than advantages."
+,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：番茄的酸降低食物 pH，抑制微生物生长，因此题示食物较不易腐败。
+English: Tomato acids lower food pH and inhibit microbial growth, explaining the slower spoilage shown."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：Povidone 是用于皮肤或伤口的抗菌剂；过氧化氢在题目另一组作环境表面消毒剂。
+English: Povidone is an antiseptic for skin or wounds; hydrogen peroxide in the other group is used as a disinfectant for environmental surfaces."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：能量 = 面包 10 × 10.2 + 牛奶 10 × 2.8 + 鸡蛋 3 × 6.2 = 148.6 kJ。
+English: Energy = bread 10 × 10.2 + milk 10 × 2.8 + egg 3 × 6.2 = 148.6 kJ."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：洋葱可经伽马射线辐照，抑制发芽并减少微生物，延长保存期。
+English: Gamma irradiation of onions inhibits sprouting and reduces microorganisms, extending storage life."
+,radio,F5 Chp 3,A,B,C,D,A,Picture27.png,"中文：避免食物浪费减少生产、运输与废物处理的资源消耗，属于有利环境的碳手印行为。
+English: Preventing food waste reduces resources used in production, transport and disposal, creating a positive carbon handprint."
+,radio,F5 Chp 3,A,B,C,D,C,Picture28.png,"中文：褪色越慢，水中氧越多；按 15、30、60、90 分钟排列，氧含量由低至高为 R、Q、S、P。
+English: Slower decolourisation indicates more oxygen; times 15, 30, 60 and 90 minutes give increasing oxygen content R, Q, S and P."
+,radio,F5 Chp 4,A,B,C,D,D,Picture29.png,"中文：反应物在箭头左边，本反应是盐酸与氢氧化钠；氯化钠和水是产物。
+English: Reactants are on the left of the arrow: hydrochloric acid and sodium hydroxide; sodium chloride and water are products."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：催化剂降低活化能，加快反应但不改变最终产物总量。
+English: A catalyst lowers activation energy and speeds up the reaction without changing the final total amount of product."
+,radio,F5 Chp 4,A,B,C,D,A,Picture31.png,"中文：按课本 Haber 法操作条件，约 450–500°C 能保持较快反应，答案采用 500°C；催化剂应是铁而非五氧化二钒。
+English: Under the textbook Haber-process conditions, about 450–500°C gives a workable reaction rate, so the key selects 500°C; the catalyst is iron, not vanadium(V) oxide."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：题目把视力模糊、失去平衡及心跳很快配为酒精影响，答案 C；这些资料用于课程辨认，并不单独证明真实诊断。
+English: The question associates blurred vision, loss of balance and rapid heartbeat with alcohol effects, giving C; these are syllabus identification clues rather than a definitive real diagnosis."
+,radio,F5 Chp 5,A,B,C,D,B,Picture33.png,"中文：葡萄含较多糖，可供酵母发酵产生乙醇，适合替代纯葡萄糖。
+English: Grapes contain sugars that yeast can ferment to produce ethanol, replacing pure glucose."
+,radio,F5 Chp 5,A,B,C,D,B,Picture34.png,"中文：灭菌以热处理杀死微生物，并抑制会降低棕榈油品质的酶活性。
+English: Sterilisation kills microorganisms and inhibits enzymes that could reduce palm-oil quality."
+,radio,F5 Chp 6,A,B,C,D,D,Picture35.png,"中文：电镀在金属表面形成保护层，减少腐蚀；食品罐的保护镀层有助防锈，属于该应用。
+English: Electroplating forms a protective metal layer against corrosion; protective coatings on food cans help prevent rusting."
+,radio,F5 Chp 6,A,B,C,D,A,Picture36.png,"中文：镁与铜在反应性序列相距较远，产生较大电势差，灯泡较亮。
+English: Magnesium and copper are far apart in the reactivity series, producing a larger potential difference and a brighter bulb."
+,radio,F5 Chp 7,A,B,C,D,B,Picture37.png,"中文：B 是从物体到透镜中心的距离，属于物距；A 是焦距，C 是像距。
+English: B measures object to lens centre and is the object distance; A is focal length and C is image distance."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：水或油近乎不可压缩，可有效传递压强，符合液压系统所需性质。
+English: Water and oil are nearly incompressible, allowing pressure to be transmitted effectively in a hydraulic system."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：滥用卫星进行未经许可的侦察，可能侵犯他国利益并引起国际冲突。
+English: Misusing satellites for unauthorised spying can violate another country's interests and cause international conflict."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：最快路线综合交通情况选择较少拥堵的道路；最短距离不一定最快，也不保证最省油。
+English: The fastest route considers traffic and avoids congestion; the shortest distance is not necessarily the quickest or most fuel efficient."

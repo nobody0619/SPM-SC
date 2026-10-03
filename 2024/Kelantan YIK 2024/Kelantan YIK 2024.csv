@@ -1,41 +1,81 @@
-title,type,question,A,B,C,D,answer,image
-Kelantan YIK 2024,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture17.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture22.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan YIK 2024,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：血液和血清属于液态生物废物，按实验室规程先高压灭菌去污染，再按指定程序处理。
+English: Blood and serum are liquid biological waste and must be decontaminated by autoclaving before the prescribed disposal process."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：蓝色标签表示干粉灭火器；按 SPM 分类，它适用于多种火灾。
+English: A blue label identifies a dry powder extinguisher, suitable for various fire types in the SPM classification."
+,radio,F4 Chp 2,A,B,C,D,A,Picture3.png,"中文：溺水者可能停止呼吸或心跳，题目配对为心肺复苏 CPR；Heimlich 则对应哽塞。
+English: A drowning victim may have stopped breathing or circulation, matching CPR; the Heimlich manoeuvre matches choking."
+,radio,F4 Chp 2,A,B,C,D,A,Picture4.png,"中文：腹部向内上方的冲击提高胸肺内压力，推动气流把气道异物排出。
+English: An inward and upward abdominal thrust raises pressure in the lungs, forcing air out to expel the obstruction."
+,radio,F4 Chp 3,A,B,C,D,D,Picture5.png,"中文：临床体温计的狭窄处阻止水银立即回流，让取出口腔后仍能读取最高温度。
+English: The constriction stops mercury flowing back immediately, retaining the reading after the thermometer is removed from the mouth."
+,radio,F4 Chp 3,A,B,C,D,D,Picture6.png,"中文：按课本 BMI 分类，25–29.9 kg/m² 为超重，所以 26.58 属超重而非肥胖。
+English: The textbook BMI range 25–29.9 kg/m² is overweight, so 26.58 is overweight rather than obese."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：排放前处理工厂废水能移除污染物；把污水改排海洋只是转移污染。
+English: Treating effluent before discharge removes pollutants; releasing it into the sea only transfers the pollution."
+,radio,F4 Chp 4,A,B,C,D,C,Picture8.png,"中文：金字塔顶部代表较不环保的私人机动车，温室气体排放最多；步行及自行车在底部较环保。
+English: The top represents less environmentally friendly private motor vehicles with higher greenhouse-gas emissions; walking and cycling are greener at the base."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：有丝分裂中期染色体排列在细胞赤道面，便于随后平均分离。
+English: During metaphase, chromosomes align at the equator before being separated equally."
+,radio,F4 Chp 5,A,B,C,D,B,Picture10.png,"中文：Bb × bb 得到一半 Bb 黑毛、一半 bb 白毛，白毛机会为 50%。
+English: Bb × bb gives half Bb black offspring and half bb white offspring, so the probability of white fur is 50%."
+,radio,F4 Chp 6,A,B,C,D,D,Picture11.png,"中文：按课程支持系统分类，海星列在无脊椎动物的另一组 Q；蟑螂和虾是外骨骼，青蛙是脊椎动物内骨骼。
+English: In the syllabus support-system classification, starfish represents the other invertebrate group Q; cockroaches and prawns have exoskeletons, while frogs are vertebrates."
+,radio,F4 Chp 6,A,B,C,D,D,Picture12.png,"中文：M 指向上臂后侧的肱三头肌；弯臂时肱二头肌收缩，肱三头肌放松。
+English: M points to the triceps at the back of the upper arm; during bending, the biceps contracts and the triceps relaxes."
+,radio,F4 Chp 6,A,B,C,D,B,Picture13.png,"中文：X 是快速增长区，Y 增长逐渐放慢，Z 水平段没有增长，所以为快、慢、零。
+English: X is rapid growth, Y slows as maturity approaches, and the flat section Z has zero growth."
+,radio,F4 Chp 7,A,B,C,D,D,Picture14.png,"中文：按课本，抗利尿激素 ADH 由垂体释放，帮助调节肾脏吸水；胰岛素由胰脏分泌。
+English: The textbook associates ADH release with the pituitary gland to regulate water reabsorption; insulin comes from the pancreas."
+,radio,F4 Chp 7,A,B,C,D,C,Picture15.png,"中文：安非他命和甲基安非他命是兴奋剂，加快神经系统活动及冲动传递。
+English: Amphetamine and methamphetamine are stimulants that increase nervous-system activity and impulse transmission."
+,radio,F4 Chp 8,A,B,C,D,A,Picture16.png,"中文：P、Q 同在第一族，是碱金属；T、U 在过渡区，R、S 位于右侧主族。
+English: P and Q are in Group 1, the alkali metals; T and U lie in the transition region and R and S are on the right."
+,radio,F4 Chp 8,A,B,C,D,B,Picture17.png,"中文：原答案 B 是 8，但同位素的质子数相同，所以碳 X 仍有 6 个质子；核子数 = 6 + 6 = 12，实际应对应 D。
+English: The existing key B is 8, but isotopes have the same proton number: carbon-X has 6 protons, so its nucleon number is 6 + 6 = 12, corresponding to D."
+,radio,F4 Chp 9,A,B,C,D,B,Picture18.png,"中文：硫在橡胶聚合链间形成交联，产生硫化橡胶，使其较坚韧、耐热。
+English: Sulphur forms cross-links between rubber polymer chains during vulcanisation, making rubber stronger and more heat resistant."
+,radio,F4 Chp 10,A,B,C,D,A,Picture19.png,"中文：代谢发生在体内，可产生自由基，是内部因素；辐射、空气污染及紫外线是外部因素。
+English: Metabolism occurs inside the body and can produce free radicals; radiation, air pollution and ultraviolet exposure are external factors."
+,radio,F4 Chp 10,A,B,C,D,B,Picture20.png,"中文：胡萝卜的橙色色素含 β-胡萝卜素，是课本列出的抗氧化物。
+English: Carrots contain the orange pigment beta-carotene, an antioxidant listed in the textbook."
+,radio,F4 Chp 11,A,B,C,D,D,Picture21.png,"中文：现有答案 D 表示加速，判断规则是依时间顺序点距逐渐增加。图上运动箭头与点距方向容易混淆，若按箭头直接从左至右读则像减速，需核对题图标示。
+English: The key D means acceleration, identified by increasing spacing in chronological order. The direction arrow and spacing are ambiguous: reading left to right along the arrow appears to show deceleration, so the diagram needs clarification."
+,radio,F4 Chp 11,A,B,C,D,A,Picture22.png,"中文：真空没有空气阻力，自由落体只受重力作用。
+English: There is no air resistance in a vacuum, so a freely falling object is acted on only by gravity."
+,radio,F4 Chp 12,A,B,C,D,A,Picture23.png,"中文：缺乏煤、石油等其他能源，是国家采用核能的重要原因；核电并不要求低技术或便宜建设。
+English: A shortage of other energy resources supports choosing nuclear power; it does not imply low technology or cheap construction."
+,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：图示酵母通过发酵产生二氧化碳，令面团膨胀，用于面包和蛋糕制作。
+English: Yeast produces carbon dioxide during fermentation, helping dough rise in bread and cake making."
+,radio,F5 Chp 1,A,B,C,D,D,Picture25.png,"中文：透明区没有明显菌落，表示青霉素抑制了细菌生长。
+English: The clear area lacks bacterial colonies, showing that penicillin inhibits bacterial growth."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：缺维生素 D 影响钙吸收和骨骼矿化，儿童可出现佝偻病。
+English: Vitamin D deficiency impairs calcium absorption and bone mineralisation, causing rickets in children."
+,radio,F5 Chp 2,A,B,C,D,C,Picture27.png,"中文：按题目糖尿病饮食概念，减少过多碳水化合物摄入，可减少消化后进入血液的葡萄糖。
+English: In the question's diabetes-diet concept, reducing excessive carbohydrate intake reduces the glucose produced during digestion."
+,radio,F5 Chp 2,A,B,C,D,B,Picture28.png,"中文：原答案 B 写亚硝酸盐转成铵，但图中 J 箭头实际由铵指向亚硝酸盐，是硝化作用，之后形成硝酸盐。B 方向颠倒；A 增加土壤硝酸盐较符合其整体作用。
+English: The key B says nitrite becomes ammonium, but arrow J shows ammonium becoming nitrite during nitrification, followed by nitrate formation. B reverses the process; A better describes its overall contribution to soil nitrate."
+,radio,F5 Chp 3,A,B,C,D,B,Picture29.png,"中文：开垦森林作工业用途减少吸收二氧化碳的树木，也可能释放储存碳，增加碳足迹。
+English: Clearing forest for industry reduces carbon uptake and may release stored carbon, increasing the carbon footprint."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：第 6 分钟即 360 秒时曲线已经水平，气体不再增加，瞬时速率为 0.0 cm³/s。
+English: At the sixth minute, 360 s, the curve is horizontal, so no more gas is produced and the rate is 0.0 cm³/s."
+,radio,F5 Chp 4,A,B,C,D,C,Picture31.png,"中文：五氧化二钒催化剂、约一大气压等条件对应接触法，最终产品为硫酸。
+English: Vanadium(V) oxide and about one atmosphere identify the Contact process, whose final product is sulphuric acid."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：乙烷属于烷烃，通式 CnH2n+2；乙烯属于烯烃 CnH2n。
+English: Ethane is an alkane with general formula CnH2n+2; ethene is an alkene with formula CnH2n."
+,radio,F5 Chp 5,A,B,C,D,C,Picture33.png,"中文：发酵液蒸馏所得 Z 是乙醇，可作为多种药物的溶剂。
+English: Z obtained by distilling fermented liquid is ethanol, used as a solvent for various medicines."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：若 M 也为锌，两电极相同，没有有效电势差，电流表指针不偏转。
+English: If M is also zinc, both electrodes are identical and provide no effective potential difference, so the ammeter does not deflect."
+,radio,F5 Chp 6,A,B,C,D,A,Picture35.png,"中文：镁位于碳之上，不能用碳还原其氧化物，按课程须电解熔融化合物提取。
+English: Magnesium is above carbon in the reactivity series, so its molten compound is electrolysed rather than reduced with carbon."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：凹透镜对实物始终形成正立、缩小的虚像，物体移远也仍是虚像和缩小像。
+English: A concave lens forms an upright, diminished virtual image of a real object, including when the object moves farther away."
+,radio,F5 Chp 7,A,B,C,D,D,Picture37.png,"中文：放大镜将物体放在凸透镜焦距内，形成正立、放大的虚像。
+English: A magnifying glass places the object inside the focal length of a convex lens to form an upright, enlarged virtual image."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：Bunsen 灯应用伯努利原理；液压千斤顶、液压刹车及牙科椅才利用帕斯卡原理。
+English: A Bunsen burner applies Bernoulli's principle; hydraulic jacks, brakes and dental chairs use Pascal's principle."
+,radio,F5 Chp 8,A,B,C,D,B,Picture39.png,"中文：按答案，X 水位 K 高于 Z 的 L，表示流体经过管道后压强较低；中间狭窄处流速最快、压强最低。
+English: According to the key, X reaches K and Z reaches L, indicating lower downstream pressure; the narrow middle section has the fastest flow and lowest pressure."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：P 是椭圆轨道上最接近地球的位置，称为近地点 perigee；最远的 Q 是远地点。
+English: P is the closest point to Earth in the elliptical orbit, called perigee; the farthest point Q is apogee."

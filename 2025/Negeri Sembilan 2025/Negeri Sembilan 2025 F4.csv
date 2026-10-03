@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Negeri Sembilan 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Negeri Sembilan 2025 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：护目镜保护眼睛，防止化学品溅入。口罩、实验衣和手套主要保护其他身体部位。
+English: Goggles protect the eyes against chemical splashes. A face mask, lab coat and gloves primarily protect other parts of the body."
+,radio,F4 Chp 2,A,B,C,D,B,Picture2.png,"中文：餐厅中的男子被食物噎住，适合进行海姆立克急救法。腹部向内、向上施压，可帮助把堵塞气道的物体排出。
+English: The man is choking on food in a restaurant. The Heimlich manoeuvre uses inward and upward abdominal thrusts to help expel the object blocking his airway."
+,radio,F4 Chp 2,A,B,C,D,C,Picture3.png,"中文：先检查反应Q；若没有正常呼吸，进行胸外按压R；再吹气P，最后重复直到救援到达S。正确顺序是Q、R、P、S。
+English: First check the victim's response, Q. If there is no normal breathing, perform chest compressions, R, followed by rescue breaths, P. Repeat until help arrives, S. The order is Q, R, P, S."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：38.6°C高于正常体温，表示发烧。病原体感染会触发身体的免疫反应，使体温升高。
+English: A temperature of 38.6°C is above normal and indicates fever. A pathogen infection can trigger an immune response that raises body temperature."
+,radio,F4 Chp 3,A,B,C,D,A,Picture5.png,"中文：BMI=体重÷身高²=59÷1.65²=21.67 kg m⁻²，因此选A。
+English: BMI = mass ÷ height² = 59 ÷ 1.65² = 21.67 kg m⁻², so A is correct."
+,radio,F4 Chp 4,A,B,C,D,C,Picture6.png,"中文：把旧轮胎再加工成新物品，可减少废物并节省资源。随意掩埋或丢弃会造成环境问题。
+English: Reprocessing used tyres into new products reduces waste and conserves resources. Burying or dumping them indiscriminately causes environmental problems."
+,radio,F4 Chp 4,A,B,C,D,B,Picture7.png,"中文：绿色技术减少化石燃料消耗及碳排放，帮助减缓全球暖化，因此选B。
+English: Green technology reduces fossil fuel consumption and carbon emissions, helping limit global warming, so B is correct."
+,radio,F4 Chp 5,A,B,C,D,B,Picture8.png,"中文：母亲提供X染色体，父亲有相同机会提供X或Y。每次出生女孩的概率都是50%，不受之前三个儿子的出生影响。
+English: The mother supplies an X chromosome, while the father has an equal chance of supplying X or Y. Each birth therefore has a 50% probability of a girl, independent of the three previous boys."
+,radio,F4 Chp 5,A,B,C,D,D,Picture9.png,"中文：血型有A、B、AB和O等明确类别，中间没有连续过渡，是不连续变异，符合分开的柱状图。
+English: Blood groups have distinct categories such as A, B, AB and O, with no continuous intermediate values. They show discontinuous variation, represented by separate bars."
+,radio,F4 Chp 6,A,B,C,D,D,Picture10.png,"中文：D指向大腿骨，即股骨。股骨连接骨盆与膝部，属于附肢骨骼。
+English: D points to the thigh bone, the femur. It connects the hip region to the knee and belongs to the appendicular skeleton."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：图中是胰脏。胰岛素分泌不足会减少葡萄糖的吸收和储存，使血糖升高，因此选B。
+English: The gland is the pancreas. Insufficient insulin reduces glucose uptake and storage, causing blood glucose to rise, so B is correct."
+,radio,F4 Chp 7,A,B,C,D,D,Picture12.png,"中文：受到惊吓时，肾上腺分泌肾上腺素，加快心跳和呼吸，并提供更多能量，让男孩迅速逃跑。
+English: When frightened, the adrenal glands secrete adrenaline. It increases heart and breathing rates and makes more energy available, helping the boy run away quickly."
+,radio,F4 Chp 8,A,B,C,D,A,Picture13.png,"中文：该元素的质子数为17，核子数为35。中子数=35−17=18，因此正确组合是17个质子、18个中子及核子数35。
+English: The element has proton number 17 and nucleon number 35. Neutron number = 35 − 17 = 18, giving 17 protons, 18 neutrons and nucleon number 35."
+,radio,F4 Chp 8,A,B,C,D,D,Picture14.png,"中文：伽马射线杀死食物中的微生物，减少腐败，从而延长食物保存时间。
+English: Gamma radiation kills microorganisms in food, reducing spoilage and extending its storage life."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：硫化作用在橡胶聚合物链之间形成硫交联，使天然橡胶更硬、更有弹性及更耐热。
+English: Vulcanisation forms sulphur cross-links between rubber polymer chains, making natural rubber harder, more elastic and more heat-resistant."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：青铜主要由铜及少量锡组成。D显示较少的锡原子混在较多的铜原子之间，符合青铜的结构。
+English: Bronze consists mainly of copper with a smaller amount of tin. D shows fewer tin atoms mixed among more copper atoms, matching bronze."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：现代药物的疗效和安全性须通过科学研究及临床试验验证，不能只依靠个人经验。
+English: The effectiveness and safety of modern medicines are established through scientific research and clinical trials, rather than personal experience alone."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：酸柑汁含抗氧化成分，可减慢切开苹果的氧化和褐变，因此选C。
+English: Lime juice contains antioxidant substances that slow oxidation and browning in the cut apple, so C is correct."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：速度=距离÷时间=100÷20=5 m s⁻¹。速度的单位是m s⁻¹，不是加速度的m s⁻²。
+English: Speed = distance ÷ time = 100 ÷ 20 = 5 m s⁻¹. Its unit is m s⁻¹, not the acceleration unit m s⁻²."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：装沙的罐质量较大，较难改变运动状态，因此惯性较大，摆动较久。结论是质量越大，惯性越大。
+English: The sand-filled can has greater mass and resists changes in motion more strongly, so it has greater inertia and swings for longer. Greater mass means greater inertia."
+,radio,F4 Chp 12,A,B,C,D,D,Picture21.png,"中文：核能是原子核发生反应时释放的能量，例如核裂变和核聚变，并非普通化学燃烧产生的能量。
+English: Nuclear energy is released by reactions in atomic nuclei, such as fission and fusion, rather than ordinary chemical combustion."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：煤炭燃烧释放大量二氧化碳等温室气体；核电在发电过程中直接碳排放较少，但需处理放射性废物。因此Z的温室气体较多。
+English: Coal combustion releases large amounts of greenhouse gases such as carbon dioxide. Nuclear electricity generation has lower direct carbon emissions but requires radioactive-waste management. Thus Z produces more greenhouse gases."

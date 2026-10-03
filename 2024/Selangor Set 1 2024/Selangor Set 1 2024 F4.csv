@@ -1,21 +1,41 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor Set 1 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 1,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture20.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor Set 1 2024 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：活泼金属与水反应可剧烈飞溅，护目镜保护眼睛免受液体或碎屑伤害。
+English: Reactive metals can react vigorously with water and splash; goggles protect the eyes from liquid and fragments."
+,radio,F4 Chp 1,A,B,C,D,D,Picture2.png,"中文：受污染手套是非锐器固体生物废物，应放进生物危害袋；针和刀片应放锐器容器。
+English: Contaminated gloves are non-sharp solid biological waste placed in a biohazard bag; needles and blades go in sharps containers."
+,radio,F4 Chp 2,A,B,C,D,C,Picture3.png,"中文：哈姆立克法用于异物阻塞气道的哽塞者，通过增加肺内压力排出异物。
+English: The Heimlich manoeuvre is intended for choking caused by an airway obstruction, increasing lung pressure to expel the object."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：读数为 118/70 mmHg，收缩压低于 120、舒张压低于 80，按课本分类属于理想血压。
+English: The reading is 118/70 mmHg; systolic pressure is below 120 and diastolic below 80, classified as optimal in the textbook."
+,radio,F4 Chp 3,A,B,C,D,C,Picture5.png,"中文：BMI＝57÷1.52²＝24.67 kg/m²，按选项取约 24.70 kg/m²。
+English: BMI = 57 ÷ 1.52² = 24.67 kg/m², approximately 24.70 kg/m² as listed."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：按答案及本题课本内容，纸张是固体废物的重要主要来源；可通过减少用纸、再用和回收处理。
+English: Following the key and the textbook context, paper is a major contributor to solid waste; reduction, reuse and recycling can reduce it."
+,radio,F4 Chp 4,A,B,C,D,D,Picture7.png,"中文：绿色交通减少化石燃料燃烧，降低二氧化碳排放，从而缓解全球暖化。
+English: Green transportation reduces fossil-fuel combustion and carbon dioxide emissions, helping limit global warming."
+,radio,F4 Chp 4,A,B,C,D,D,Picture8.png,"中文：图示环保交通活动减少燃料消耗，因此降低温室气体排放。
+English: The environmentally friendly transport activity reduces fuel use and therefore greenhouse-gas emissions."
+,radio,F4 Chp 5,A,B,C,D,A,Picture9.png,"中文：卵子含 22＋X；形成女孩的 XX 组合，需要含 22＋X 的精子。
+English: An ovum carries 22 + X; producing a girl with XX requires a sperm carrying 22 + X."
+,radio,F4 Chp 5,A,B,C,D,C,Picture10.png,"中文：血友病因凝血因子相关基因突变，使血液难以凝固，受伤后流血不止。
+English: Haemophilia results from mutation in a clotting-factor gene, impairing clotting and causing prolonged bleeding after injury."
+,radio,F4 Chp 5,A,B,C,D,C,Picture11.png,"中文：把人类胰岛素基因放入细菌质粒，让细菌生产胰岛素，是重组 DNA 技术的应用。
+English: Inserting the human insulin gene into a bacterial plasmid so bacteria produce insulin is an application of recombinant DNA technology."
+,radio,F4 Chp 6,A,B,C,D,D,Picture12.png,"中文：昆虫坚硬的几丁质外骨骼不能随身体连续扩大，必须蜕皮才能继续生长。
+English: A hard chitinous exoskeleton cannot expand continuously with an insect's body, so moulting is needed for growth."
+,radio,F4 Chp 6,A,B,C,D,D,Picture13.png,"中文：通气组织有许多储存空气的空隙，增加浮力，使莲等水生植物可漂浮。
+English: Aerenchyma contains many air spaces that provide buoyancy, allowing aquatic plants such as lotus to float."
+,radio,F4 Chp 7,A,B,C,D,B,Picture14.png,"中文：兴奋剂加强中枢神经系统活动，课本描述为加快神经冲动传递。
+English: Stimulants increase central nervous system activity, described in the textbook as accelerating nerve-impulse transmission."
+,radio,F4 Chp 8,A,B,C,D,A,Picture15.png,"中文：该元素的质子数是 19；39 是核子数，中子数才是 39－19＝20。
+English: The element's proton number is 19; 39 is its nucleon number, while neutron number is 39 − 19 = 20."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：硬铝是铝与其他元素组成的合金；铁、铜和锑本身是元素。
+English: Duralumin is an alloy of aluminium with other elements; iron, copper and antimony are elements themselves."
+,radio,F4 Chp 10,A,B,C,D,C,Picture17.png,"中文：题表中 12 岁及以上是 30 mg、每 6－8 小时；C 的 30 mg 每 7 小时符合题表要求。
+English: The question's table specifies 30 mg every 6–8 hours for ages 12 and above; C, 30 mg every 7 hours, fits that table."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：芒果和胡萝卜都含 β-胡萝卜素，属于相同类型的抗氧化物来源。
+English: Mangoes and carrots both contain beta-carotene, making them sources of the same antioxidant."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：自由落体只受重力作用，所以影响其运动的是地球引力，不是形状或空气阻力。
+English: Free fall occurs under gravity alone, so gravitational force governs it rather than shape or air resistance."
+,radio,F4 Chp 12,A,B,C,D,D,Picture20.png,"中文：限制核武扩散能减少有害辐射及遗传损伤风险，其中可包括后代身体畸形。
+English: Limiting nuclear weapons proliferation reduces harmful radiation and genetic-damage risks, including physical deformities in offspring."

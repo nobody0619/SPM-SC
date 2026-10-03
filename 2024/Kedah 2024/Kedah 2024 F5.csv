@@ -1,18 +1,35 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kedah 2024 F5,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kedah 2024 F5,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：醋令环境呈酸性，抑制细菌生长，使腌制芒果保存较久。
+English: Vinegar creates acidic conditions that inhibit bacterial growth and preserve the mango slices."
+,radio,F5 Chp 1,A,B,C,D,C,Picture25.png,"中文：按题目与答案，图示肺部细菌感染以抗生素治疗；疫苗主要用于预防而非治疗已经发生的感染。
+English: The question and key refer to a bacterial lung infection treated with antibiotics; vaccines mainly prevent infection rather than treat an existing one."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：只供氮和钾表示缺少磷；按课本，缺磷使新芽较小并呈紫色。
+English: Supplying nitrogen and potassium leaves phosphorus deficient; the textbook symptom is smaller, purplish shoots."
+,radio,F5 Chp 2,A,B,C,D,A,Picture27.png,"中文：豆科根瘤中的固氮细菌把空气中的氮转成植物可利用的含氮物质。
+English: Nitrogen-fixing bacteria in legume root nodules convert atmospheric nitrogen into nitrogen compounds usable by plants."
+,radio,F5 Chp 2,A,B,C,D,D,Picture28.png,"中文：图示营养液循环的水耕系统，营养液可重复利用，因此减少肥料浪费。
+English: The hydroponic system recirculates nutrient solution, reducing fertiliser wastage."
+,radio,F5 Chp 3,A,B,C,D,C,Picture29.png,"中文：耗电 = 0.075 × 4 = 0.3 kWh；按给定系数，碳排放 = 0.3/50 × 39 = 0.234 g。
+English: Energy used = 0.075 × 4 = 0.3 kWh; using the given factor, emissions = 0.3/50 × 39 = 0.234 g."
+,radio,F5 Chp 3,A,B,C,D,C,Picture30.png,"中文：污染水含较多可分解废物，微生物消耗更多氧气，所以生化需氧量 BOD 较高。
+English: Polluted water contains more decomposable waste, so microorganisms consume more oxygen and the BOD is higher."
+,radio,F5 Chp 4,A,B,C,D,C,Picture31.png,"中文：甲烷燃烧是快速反应，反应物短时间内大量减少；石油形成、发酵及光合作用较慢。
+English: Methane combustion is a rapid reaction that quickly uses up reactants; petroleum formation, fermentation and photosynthesis are slower."
+,radio,F5 Chp 4,A,B,C,D,C,Picture32.png,"中文：30°C 较 60°C 反应慢，Q 初始斜率较小、较迟结束；反应物量不变，最终氢气体积相同。
+English: At 30°C the reaction is slower, so Q has a smaller initial gradient and finishes later, but the same reactant amount gives the same final gas volume."
+,radio,F5 Chp 5,A,B,C,D,A,Picture33.png,"中文：死亡动植物在 X 被分解，碳进入后续循环；图中箭头由动植物指向 X。
+English: Dead plants and animals are decomposed at X, returning their carbon to the cycle as shown by the arrows."
+,radio,F5 Chp 5,A,B,C,D,A,Picture34.png,"中文：酵母使糖发酵，产生乙醇和二氧化碳；蒸馏只是分离乙醇。
+English: Yeast ferments sugar to produce ethanol and carbon dioxide; distillation only separates the ethanol."
+,radio,F5 Chp 5,A,B,C,D,A,Picture35.png,"中文：按 SPM 概念，植物油多含不饱和脂肪，可作为减少饱和脂肪摄入的选择，帮助降低胆固醇积聚。
+English: At SPM level, plant oils generally contain unsaturated fats and can replace saturated fats to help reduce cholesterol build-up."
+,radio,F5 Chp 6,A,B,C,D,B,Picture36.png,"中文：氧气支持燃烧，使带火星的木条重新燃烧，是氧气的标准检验。
+English: Oxygen supports combustion and relights a glowing splint, which is its standard gas test."
+,radio,F5 Chp 7,A,B,C,D,C,Picture37.png,"中文：X 从物体量至凸透镜，称为物距；镜到屏幕才是像距。
+English: X measures from the object to the convex lens, so it is the object distance; lens to screen is the image distance."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：液压系统压强相同：F/4 = 500/100，所以输入力 F = 20 N。
+English: Equal hydraulic pressure gives F/4 = 500/100, so the input force is 20 N."
+,radio,F5 Chp 8,A,B,C,D,A,Picture39.png,"中文：Bunsen 灯喷口气流快、压强低，吸入外界空气，应用伯努利原理。
+English: Fast gas flow at a Bunsen burner jet lowers pressure and draws in air, applying Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：国际空间站设有轨道实验设施，宇航员可在那里进行科学研究。
+English: The International Space Station provides orbital facilities where astronauts carry out scientific research."

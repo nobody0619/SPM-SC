@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Negeri Sembilan 2024 F4,radio,F4 Chp 1,A,B,C,D,D,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Negeri Sembilan 2024 F4,radio,F4 Chp 1,A,B,C,D,D,Picture1.png,"中文：血清是液体生物废物，属于 D 类；锐器 A 类、非锐器固体 B 类、动物尸体 C 类。
+English: Serum is liquid biological waste, Category D; sharps are A, non-sharp solids B and animal carcasses C."
+,radio,F4 Chp 2,A,B,C,D,B,Picture2.png,"中文：按课本图序，先检查反应（4）、打开气道和检查呼吸（3）、胸外按压（1）、人工呼吸（2）。
+English: The textbook diagram order is checking response (4), opening the airway and checking breathing (3), chest compressions (1), then rescue breaths (2)."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：题目显示血压偏高，课程建议减少高盐食物摄入，钠摄入过多与血压升高有关。
+English: For the raised blood pressure shown, the syllabus suggests reducing high-salt foods because excess sodium is associated with higher pressure."
+,radio,F4 Chp 4,A,B,C,D,C,Picture4.png,"中文：把稻草售作可生物降解包装原料，既减少烧草，也给农民带来额外收入，符合题目对农民的利益。
+English: Selling straw for biodegradable packaging avoids burning and provides additional income, matching the benefit to farmers asked here."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：A 是私人车辆，排放较高；B 是步行，直接燃料消耗最低。
+English: A represents individual vehicles with higher emissions; B is walking with no direct fuel consumption."
+,radio,F4 Chp 5,A,B,C,D,C,Picture6.png,"中文：唐氏综合征多一条 21 号常染色体，男性体细胞为 45 条常染色体 + XY，共 47 条。
+English: Down syndrome has an extra chromosome 21; a male body cell has 45 autosomes + XY, totalling 47 chromosomes."
+,radio,F4 Chp 5,A,B,C,D,B,Picture7.png,"中文：原答案 B 指核型分析检查胎儿染色体异常。须注意血友病是基因突变，单靠核型不能确定血友病；题目把一般染色体检查与该疾病混用。
+English: The key B refers to karyotyping for fetal chromosome abnormalities. Haemophilia is a gene mutation, so karyotyping alone cannot determine haemophilia; the question mixes general chromosome testing with this condition."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：重组 DNA 技术把人类胰岛素基因放入细菌，生产胰岛素，可帮助糖尿病治疗。
+English: Recombinant DNA introduces the human insulin gene into bacteria to produce insulin for diabetes treatment."
+,radio,F4 Chp 6,A,B,C,D,A,Picture9.png,"中文：C 指骨盆带，连接躯干和下肢并支持身体重量。
+English: C labels the pelvic girdle, connecting the trunk to the lower limbs and supporting body weight."
+,radio,F4 Chp 6,A,B,C,D,C,Picture10.png,"中文：C 曲线接近水平，身高不再增加，表示达到成熟、增长停止。
+English: The nearly flat section C shows height no longer increasing, indicating maturity and stopped growth."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：考试紧张刺激肾上腺素释放，提高心跳及代谢，准备应对压力。
+English: Examination stress stimulates adrenaline release, increasing heartbeat and metabolic rate in preparation for a challenge."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：D 是两个相同原子组成的双原子分子，可为氮气；E 由不同原子组成，答案配为二氧化碳。
+English: D has diatomic molecules of identical atoms, matching nitrogen; E contains different atoms and is paired with carbon dioxide in the key."
+,radio,F4 Chp 8,A,B,C,D,A,Picture13.png,"中文：中性原子中电子数等于质子数，Z 有 20 个质子便有 20 个电子。
+English: In a neutral atom, electron number equals proton number, so Z has 20 electrons."
+,radio,F4 Chp 8,A,B,C,D,C,Picture14.png,"中文：同位素核子数不同（P），但质子数及中性原子的电子数相同（Q），所以 P、Q 正确。
+English: Isotopes have different nucleon numbers (P), but the same proton and neutral-atom electron numbers (Q), giving P and Q."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：航天器重返大气时极热，陶瓷耐高温且不易腐蚀，适合保护底部。
+English: Ceramics resist very high temperatures and corrosion, making them suitable for protecting a spacecraft during atmospheric re-entry."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：酸使乳胶凝固得到天然橡胶；按答案，其弹性是适用优点。此过程是凝固，不是加硫硫化。
+English: Acid coagulates latex into natural rubber, whose elasticity is the advantage selected by the key. This is coagulation, not sulphur vulcanisation."
+,radio,F4 Chp 9,A,B,C,D,A,Picture17.png,"中文：在题目的酸碱中和模型中，醋呈酸性，可中和碱性刺液。
+English: In the question's acid–base model, acidic vinegar neutralises the alkaline sting substance."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：抗坏血酸即维生素 C，能抑制食物氧化；酒石黄是色素，乙酸辛酯是香味剂。
+English: Ascorbic acid is vitamin C and inhibits oxidation; tartrazine is a colouring and octyl ethanoate a flavouring."
+,radio,F4 Chp 11,A,B,C,D,D,Picture19.png,"中文：最后 4 秒速度由 12 降至 0，加速度 = (0 − 12)/(10 − 6) = −3.0 m/s²。
+English: In the last four seconds, acceleration = (0 − 12)/(10 − 6) = −3.0 m/s²."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：有空气时羽毛受较明显阻力，落后硬币；真空中两者只受重力，以相同加速度下落。
+English: In air, drag slows the feather more than the coin; in a vacuum, both experience only gravity and fall with the same acceleration."
+,radio,F4 Chp 12,A,B,C,D,D,Picture21.png,"中文：核能先变热能，蒸汽带动涡轮形成动能，再由发电机变为电能。
+English: Nuclear energy becomes heat, steam turns the turbine to provide kinetic energy, and the generator produces electrical energy."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：核电能提供大量电力，替代部分化石燃料；建设费用高和废料管理是限制而非优点。
+English: Nuclear power can replace some fossil-fuel electricity generation; high construction costs and waste management are limitations rather than advantages."
