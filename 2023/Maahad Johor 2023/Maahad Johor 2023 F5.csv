@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Maahad Johor 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Maahad Johor 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：青霉素是抗生素，适用于题目所述细菌感染；其余药物针对病毒、真菌或寄生虫。
+English: Penicillin is an antibiotic for bacterial infections; the other drugs target viruses, fungi or parasites."
+,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：缺磷会影响根部、开花结果，叶片可能呈紫色，符合题述症状。
+English: Phosphorus deficiency impairs roots, flowering and fruiting, and may cause purple leaves."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：总能量 = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ。
+English: Total energy = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：把旧水瓶再用作花盆延长产品寿命、减少废物，产生正面的碳手印。
+English: Reusing a bottle as a flowerpot extends its life and reduces waste, creating a positive carbon handprint."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：沟渠水只需 10 分钟褪色，表示微生物最快耗氧、BOD 最高，因此污染最严重。
+English: Drain water decolourises in 10 minutes, indicating the fastest oxygen use and highest BOD, so it is most polluted."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：平均反应速率 = 镁带消耗长度 ÷ 时间 = 10 ÷ 4 = 2.5 cm/min。
+English: Average rate = magnesium length consumed/time = 10/4 = 2.5 cm/min."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：哈伯法使用约 450–550°C 和铁催化剂，I、IV 正确；并非常压或五氧化二钒催化剂。
+English: The Haber process uses about 450–550°C and an iron catalyst; I and IV are correct."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：结构有三粒碳且只有单键，是饱和烃丙烷 C3H8。
+English: The structure has three carbon atoms and only single bonds, identifying saturated propane, C3H8."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：所讨论的酒精在室温为液体；碳链越长，水溶性通常越低，故 II、IV。
+English: The alcohols considered are liquids at room temperature, and water solubility decreases with longer carbon chains; II and IV are correct."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：熔融氯化钠的离子能自由移动而导电，是电解质；固态盐的离子不能自由移动。
+English: Molten sodium chloride conducts through mobile ions and is an electrolyte; its solid ions cannot move freely."
+,radio,F5 Chp 6,A,B,C,D,B,Picture33.png,"中文：锌比铜活泼，作为负极失去电子并变成锌离子，所以锌电极逐渐溶解、质量减少。
+English: Zinc is more reactive than copper and loses electrons to form zinc ions, so its electrode dissolves and loses mass."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：物体在凸透镜焦距内，形成正立、放大的虚像；I、IV 正确。
+English: An object inside a convex lens's focal length forms an upright, enlarged virtual image; I and IV are correct."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：显微镜最终供眼睛观看的像是虚像；并非用来观察远处物体。
+English: The final image viewed through a microscope is virtual; microscopes are not intended for distant objects."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：机翼翼型利用流速越大、压强越低的伯努利原理形成升力；液压设备使用帕斯卡原理。
+English: An aerofoil uses Bernoulli's relation between faster flow and lower pressure; hydraulic devices use Pascal's principle."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：相同压强：F/0.01 = 1,000/1，得 F = 10 N。
+English: Equal pressure gives F/0.01 = 1,000/1, so F = 10 N."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：2 号管水位最低表示当地压强最低；狭窄处流速最高，因此选 D。
+English: The lowest water level at tube 2 means lowest pressure, caused by the highest fluid speed in the narrow section."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：列车旁空气流速高、压强低，可产生把人拉向列车的危险，须站在黄线后。
+English: Fast air beside a moving train has lower pressure and may pull a person toward the train, explaining the safety line."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：至少四颗卫星可协助确定三维位置并修正接收机时间误差，提高 GPS 定位准确性。
+English: At least four satellites help determine a three-dimensional position and correct receiver timing error for accurate GPS positioning."

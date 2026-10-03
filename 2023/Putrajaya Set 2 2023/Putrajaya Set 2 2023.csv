@@ -1,41 +1,81 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya Set 2 2023,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya Set 2 2023,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：课本允许排入水槽的普通废液pH范围为5至9，但不能含有其他危险或禁止排放的成分，因此选B。
+English: The textbook range for ordinary waste liquid allowed into a sink is pH 5–9, provided it contains no other hazardous or prohibited material, giving B."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：燃烧的镁属于金属火灾，本题选D干粉；应使用适合金属火灾的干粉，而不是用水或二氧化碳。
+English: Burning magnesium is a metal fire, giving D, dry powder; the powder must be suitable for metal fires rather than water or carbon dioxide."
+,radio,F4 Chp 3,A,B,C,D,C,Picture3.png,"中文：雷击可能使心脏和呼吸停止，若伤者无反应且没有正常呼吸，可能需要CPR，因此选C。
+English: Lightning can stop the heart and breathing; an unresponsive victim without normal breathing may require CPR, giving C."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：腹部向内上方快速施压会增加肺内压力，推动空气排出并帮助清除气道异物。
+English: Rapid inward-upward abdominal thrusts increase lung pressure, forcing air out to help clear an airway obstruction."
+,radio,F4 Chp 4,A,B,C,D,D,Picture5.png,"中文：薄壁玻璃球使热量容易传入液体，温度计能较快响应微小温度变化，因此选D。
+English: A thin-walled bulb allows heat to reach the liquid readily, helping the thermometer respond to small temperature changes, giving D."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：1分20秒=80秒，脉搏率=100×60÷80=75次/分，因此选B。
+English: One minute 20 seconds is 80 seconds; pulse rate = 100 × 60 ÷ 80 = 75 beats per minute, giving B."
+,radio,F4 Chp 5,A,B,C,D,C,Picture7.png,"中文：私人车辆每名乘客的燃油消耗和温室气体排放通常最高，因此在绿色交通层级中处于最不优先的顶部，选C。
+English: Private vehicles generally have the highest fuel use and greenhouse-gas emissions per passenger, placing them at the least-preferred top of the green-transport hierarchy, giving C."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：有机肥可减少化学肥料造成的污染，生物防治利用天敌控制害虫，避免继续增加农药污染，因此选D。
+English: Organic fertilisers reduce pollution from chemical fertilisers, while biological control uses natural enemies against pests and avoids adding pesticide pollution, giving D."
+,radio,F4 Chp 6,A,B,C,D,B,Picture9.png,"中文：核型只有一条X性染色体，即45,X，属于特纳综合征Turner syndrome，因此选B。
+English: The karyotype has only one X sex chromosome, 45,X, identifying Turner syndrome and B."
+,radio,F4 Chp 6,A,B,C,D,B,Picture10.png,"中文：血友病是X连锁隐性疾病，健康母亲可能为携带者，把隐性基因传给儿子，使他发病。
+English: Haemophilia is X-linked recessive; a healthy carrier mother can pass the recessive allele to her son, causing the disease."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：蚯蚓与水母以体内液体压力维持形状并配合肌肉运动，属于液压骨骼hydrostatic skeleton。
+English: Earthworms and jellyfish use internal fluid pressure to maintain shape and assist muscle movement, forming hydrostatic skeletons."
+,radio,F4 Chp 8,A,B,C,D,B,Picture12.png,"中文：空心玻璃管J代表鸟类的中空骨骼，中空骨能在较轻重量下提供支持，因此选B鸟。
+English: Hollow glass tube J represents a bird's hollow bones, which provide support at low weight, giving bird B."
+,radio,F4 Chp 8,A,B,C,D,A,Picture13.png,"中文：脑部的垂体pituitary gland被称为主腺，因为其激素控制多种其他内分泌腺的活动，图中为A。
+English: The pituitary gland in the brain is the master gland because its hormones control several other endocrine glands; it is A in the diagram."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：甲状腺素不足使代谢速率下降而怕冷，分泌过多可与眼球突出有关，因此X为thyroxine。
+English: Too little thyroxine lowers metabolic rate and causes intolerance to cold; excess secretion can be associated with protruding eyes, so X is thyroxine."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：原子的基本亚原子粒子为质子、中子和电子；核子是质子与中子的统称，并非另一种独立粒子。
+English: The basic subatomic particles are protons, neutrons and electrons; nucleons collectively mean protons and neutrons, not an additional particle type."
+,radio,F4 Chp 9,A,B,C,D,C,Picture16.png,"中文：铅是金属，由金属原子构成，属于原子物质，因此选C。
+English: Lead is a metal composed of metal atoms and is classified as an atomic substance, giving C."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：玻璃的主要成分是二氧化硅silica，因此本题选择A玻璃。
+English: Silica, silicon dioxide, is the main component of glass, so the intended answer is A."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：氨溶液呈碱性，能中和细菌产生的酸，维持橡胶粒子负电荷相互排斥，防止乳胶凝固。
+English: Alkaline ammonia solution neutralises acids produced by bacteria and maintains repulsion between negatively charged rubber particles, preventing latex coagulation."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：抗生素用于杀死细菌或抑制细菌生长，治疗细菌感染，不能作为治疗病毒感染的同类药物。
+English: Antibiotics kill bacteria or inhibit bacterial growth to treat bacterial infections; they are not equivalent treatments for viral infections."
+,radio,F4 Chp 11,A,B,C,D,C,Picture20.png,"中文：选择保健产品时应优先考虑安全性及不良反应，而非只看低价或是否含合成物质，因此本题选C。
+English: Safety and adverse effects take priority when choosing a health product rather than price alone or whether ingredients are synthetic, giving C in this question."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：巴士突然减速时，乘客身体因惯性仍倾向保持向前运动，所以向前倒。
+English: When the bus suddenly slows, the passenger's body tends to continue moving forward because of inertia and falls forward."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：20分钟=1200秒，加速度=(60−30)÷1200=0.025 m/s²，因此选A。
+English: Twenty minutes is 1200 seconds; acceleration = (60 − 30) ÷ 1200 = 0.025 m/s², giving A."
+,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：核电运行时不燃烧化石燃料，直接温室气体及空气污染物排放较少，因此课本选择B较环保；仍需管理放射性废物。
+English: Nuclear power does not burn fossil fuel during operation and has lower direct greenhouse-gas and air-pollutant emissions, giving textbook B, environmentally friendlier; radioactive waste still needs management."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：P是酵母、S是霉菌，二者都是真菌；Q为细菌，R为变形虫，因此选A。
+English: P is yeast and S is mould, both fungi; Q is a bacterium and R an amoeba, giving A."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：面包使用酵母发酵，产生二氧化碳使面团膨胀，因此P为酵母D。
+English: Bread uses yeast fermentation; released carbon dioxide raises the dough, so P is yeast, D."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：潮湿环境有利于细菌快速繁殖，湿衣服长时间未干会因微生物活动产生异味。
+English: High humidity favours bacterial growth, so clothes that remain damp can develop odours from microbial activity."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：P为反硝化，把硝酸盐转为氮气返回大气；Q为固氮，把大气氮转为可利用的含氮化合物，因此选B。
+English: P is denitrification, converting nitrates into atmospheric nitrogen; Q is nitrogen fixation, turning atmospheric nitrogen into usable nitrogen compounds, giving B."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：蔬果提供膳食纤维，帮助肠道蠕动并减少便秘，因此选A。
+English: Fruit and vegetables provide dietary fibre, supporting bowel movement and reducing constipation, giving A."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：重新植树恢复植被和栖息地，帮助固定土壤、吸收二氧化碳，是保护环境的措施。
+English: Reforestation restores vegetation and habitats, stabilises soil and absorbs carbon dioxide, contributing to environmental conservation."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：污水和漏油会污染水体、影响溶氧并损害水生生物，破坏水生栖息地，因此选B。
+English: Sewage and oil spills pollute water, affect oxygen availability and harm aquatic organisms, destroying aquatic habitats, giving B."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：碎木炭比大块木炭有更大的总表面积与氧气接触，因此燃烧较快，影响因素为颗粒大小。
+English: Charcoal flakes have a larger total surface area exposed to oxygen than chunks and burn faster; the factor is reactant particle size."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：氧化钒(V)作为接触法的催化剂，提供较低活化能的途径，提高反应速率。
+English: Vanadium(V) oxide is the Contact-process catalyst, providing a pathway with lower activation energy and increasing reaction rate."
+,radio,F5 Chp 6,A,B,C,D,A,Picture33.png,"中文：压力锅提高水的沸点，使烹煮温度更高、肉中的反应较快，因此能缩短烹煮时间。
+English: A pressure cooker raises water's boiling point, allowing a higher cooking temperature and faster reactions in the meat, shortening cooking time."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：蔗糖是含碳、氢、氧的有机化合物；金刚石是碳元素，二氧化碳为无机碳化合物。
+English: Sucrose is an organic compound containing carbon, hydrogen and oxygen; diamond is elemental carbon and carbon dioxide is inorganic."
+,radio,F5 Chp 7,A,B,C,D,C,Picture35.png,"中文：Z为亲水性的离子头，溶于水；Y为疏水碳氢尾，进入油脂，所以C正确。
+English: Z is the hydrophilic ionic head that interacts with water; Y is the hydrophobic hydrocarbon tail that enters grease, so C is correct."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：阳离子cation是带正电的离子，原子失去电子后形成，所以应选A。现有答案B写负离子，实际上是anion，暂保留并注明疑点。
+English: A cation is a positively charged ion formed by electron loss, so A is correct. Existing B says negative ion, which defines an anion, and is retained with this discrepancy noted."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：电池由化学电池构成，把化学能转为电能；电镀、金属提纯及电解提取使用的是电解槽。
+English: Batteries use chemical cells to convert chemical energy into electrical energy; electroplating, purification and electrolytic extraction use electrolytic cells instead."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：凹透镜对真实物体形成正立、虚且缩小的像，所以本题选C缩小。
+English: A concave lens forms an upright, virtual, diminished image of a real object, so C, diminished, is correct."
+,radio,F5 Chp 9,A,B,C,D,A,Picture39.png,"中文：本生灯喷嘴的气体快速流动，附近压力降低，使空气进入混合，是伯努利原理的应用。
+English: Fast gas flow at a Bunsen burner's nozzle lowers nearby pressure and draws air into the mixture, applying Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：国际空间站可作为太空科学实验室，进行微重力等条件下的研究，因此选C。
+English: The International Space Station serves as a science laboratory for research under conditions such as microgravity, giving C."

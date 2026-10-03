@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 8,radio,KedahTrial2023_Q37,A,B,C,D,A,Kedah Trial 2023/Picture37.png
-F5 Chp 8,radio,KedahTrial2023_Q38,A,B,C,D,B,Kedah Trial 2023/Picture38.png
-F5 Chp 8,radio,KelantanTrial2023_Q37,A,B,C,D,B,Kelantan Trial 2023/Picture37.png
-F5 Chp 8,radio,KelantanTrial2023_Q38,A,B,C,D,A,Kelantan Trial 2023/Picture38.png
-F5 Chp 8,radio,MaahadJohor2023_Q37,A,B,C,D,B,Maahad Johor 2023/Picture37.png
-F5 Chp 8,radio,MaahadJohor2023_Q38,A,B,C,D,D,Maahad Johor 2023/Picture38.png
-F5 Chp 8,radio,NegeriSembilan2023_Q37,A,B,C,D,C,Negeri Sembilan 2023/Picture37.png
-F5 Chp 8,radio,NegeriSembilan2023_Q38,A,B,C,D,B,Negeri Sembilan 2023/Picture38.png
-F5 Chp 8,radio,PahangTrial2023_Q37,A,B,C,D,C,Pahang Trial 2023/Picture37.png
-F5 Chp 8,radio,PahangTrial2023_Q38,A,B,C,D,A,Pahang Trial 2023/Picture38.png
-F5 Chp 8,radio,Melaka2023_Q37,A,B,C,D,B,Melaka 2023/Picture37.png
-F5 Chp 8,radio,Melaka2023_Q38,A,B,C,D,B,Melaka 2023/Picture38.png
-F5 Chp 8,radio,Perak2023_Q37,A,B,C,D,A,Perak 2023/Picture37.png
-F5 Chp 8,radio,Perak2023_Q38,A,B,C,D,C,Perak 2023/Picture38.png
-F5 Chp 8,radio,Perlis2023_Q37,A,B,C,D,A,Perlis 2023/Picture37.png
-F5 Chp 8,radio,Perlis2023_Q38,A,B,C,D,A,Perlis 2023/Picture38.png
-F5 Chp 8,radio,PutrajayaSet12023_Q37,A,B,C,D,A,Putrajaya Set 1 2023/Picture37.png
-F5 Chp 8,radio,PutrajayaSet12023_Q38,A,B,C,D,C,Putrajaya Set 1 2023/Picture38.png
-F5 Chp 8,radio,PutrajayaSet22023_Q37,A,B,C,D,B,Putrajaya Set 2 2023/Picture37.png
-F5 Chp 8,radio,PutrajayaSet22023_Q38,A,B,C,D,C,Putrajaya Set 2 2023/Picture38.png
-F5 Chp 8,radio,SarawakSubisMiri2023_Q37,A,B,C,D,C,Sarawak Subis Miri 2023/Picture37.png
-F5 Chp 8,radio,SarawakSubisMiri2023_Q38,A,B,C,D,D,Sarawak Subis Miri 2023/Picture38.png
-F5 Chp 8,radio,Selangor2023_Q37,A,B,C,D,D,Selangor 2023/Picture37.png
-F5 Chp 8,radio,Selangor2023_Q38,A,B,C,D,C,Selangor 2023/Picture38.png
-F5 Chp 8,radio,SelangorSet22023_Q37,A,B,C,D,C,Selangor Set 2 2023/Picture37.png
-F5 Chp 8,radio,SelangorSet22023_Q38,A,B,C,D,B,Selangor Set 2 2023/Picture38.png
-F5 Chp 8,radio,TerengganuMPP32023_Q37,A,B,C,D,A,Terengganu MPP3 2023/Picture37.png
-F5 Chp 8,radio,TerengganuMPP32023_Q38,A,B,C,D,C,Terengganu MPP3 2023/Picture38.png
-F5 Chp 8,radio,SBP2023_Q37,A,B,C,D,C,SBP 2023/Picture37.png
-F5 Chp 8,radio,SBP2023_Q38,A,B,C,D,B,SBP 2023/Picture38.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 8,radio,KedahTrial2023_Q37,A,B,C,D,A,Kedah Trial 2023/Picture37.png,"中文：伯努利原理指出，流速较低处压强较高，流速较高处压强较低，因此 A 正确。
+English: Bernoulli's principle states that slower-moving fluid has higher pressure and faster-moving fluid has lower pressure."
+F5 Chp 8,radio,KedahTrial2023_Q38,A,B,C,D,B,Kedah Trial 2023/Picture38.png,"中文：液体传递相同压强：F/0.01 = 10,000/2，所以 F = 50 N。
+English: Equal pressure gives F/0.01 = 10,000/2, so F = 50 N."
+F5 Chp 8,radio,KelantanTrial2023_Q37,A,B,C,D,B,Kelantan Trial 2023/Picture37.png,"中文：螺旋桨上方B的气流较快、压力较低，下方较高压力产生向上的升力，因此最低压力位置为B。
+English: Air moves faster above the blade at B, giving lower pressure; higher pressure below produces lift, so B has the lowest pressure."
+F5 Chp 8,radio,KelantanTrial2023_Q38,A,B,C,D,A,Kelantan Trial 2023/Picture38.png,"中文：帕斯卡原理：F/2 = 500/100，因此小活塞所需力为 10 N。
+English: Pascal's principle gives F/2 = 500/100, so the required force is 10 N."
+F5 Chp 8,radio,MaahadJohor2023_Q37,A,B,C,D,B,Maahad Johor 2023/Picture37.png,"中文：相同压强：F/0.01 = 1,000/1，得 F = 10 N。
+English: Equal pressure gives F/0.01 = 1,000/1, so F = 10 N."
+F5 Chp 8,radio,MaahadJohor2023_Q38,A,B,C,D,D,Maahad Johor 2023/Picture38.png,"中文：2 号管水位最低表示当地压强最低；狭窄处流速最高，因此选 D。
+English: The lowest water level at tube 2 means lowest pressure, caused by the highest fluid speed in the narrow section."
+F5 Chp 8,radio,NegeriSembilan2023_Q37,A,B,C,D,C,Negeri Sembilan 2023/Picture37.png,"中文：物体在凸透镜与焦点之间，折射光线的反向延长线形成正立、虚且放大的像，因此选C。
+English: An object between a convex lens and its focal point forms an upright, virtual, enlarged image where the backward extensions of refracted rays meet, giving C."
+F5 Chp 8,radio,NegeriSembilan2023_Q38,A,B,C,D,B,Negeri Sembilan 2023/Picture38.png,"中文：答案B给出X水位K、Z水位L，表示X压力高于Z。注意图中X和Z管径相近；理想无损模型会给出相近压力，这份题目的答案须理解为包含沿流动方向的压力损失。
+English: Answer B gives level K at X and L at Z, indicating higher pressure at X. Their diameters appear similar, so an ideal loss-free model would predict similar pressures; the supplied answer requires pressure loss along the flow to be considered."
+F5 Chp 8,radio,PahangTrial2023_Q37,A,B,C,D,C,Pahang Trial 2023/Picture37.png,"中文：显微镜的物镜最靠近标本，位于镜筒下方的转盘处，图中为C。
+English: The objective lens is closest to the specimen, on the revolving nosepiece below the microscope tube, labelled C."
+F5 Chp 8,radio,PahangTrial2023_Q38,A,B,C,D,A,Pahang Trial 2023/Picture38.png,"中文：翼上方Q气流较快、压力较低；下方S气流较慢、压力较高，产生向上的升力，因此选A。
+English: Air flows faster at Q above the wing, giving lower pressure; pressure is higher at S below, producing upward lift, so A."
+F5 Chp 8,radio,Melaka2023_Q37,A,B,C,D,B,Melaka 2023/Picture37.png,"中文：图示凹透镜形成正立、缩小的虚像，选项 C 正确；原答案 B 的倒像不符合凹透镜成像。
+English: A concave lens forms an upright, diminished virtual image, matching C; the original key B, inverted, is inconsistent."
+F5 Chp 8,radio,Melaka2023_Q38,A,B,C,D,B,Melaka 2023/Picture38.png,"中文：总放大率 = 物镜放大率 × 目镜放大率；物镜 = 832 ÷ 16 = 52 倍。
+English: Objective magnification = total magnification/eyepiece magnification = 832/16 = 52 times."
+F5 Chp 8,radio,Perak2023_Q37,A,B,C,D,A,Perak 2023/Picture37.png,"中文：望远镜物镜要较长焦距T=55 cm，目镜用较短焦距R=8 cm；正常调整镜距为55+8=63 cm，因此选A。
+English: The telescope uses long-focus objective T, 55 cm, and short-focus eyepiece R, 8 cm; normal-adjustment separation is 55 + 8 = 63 cm, giving A."
+F5 Chp 8,radio,Perak2023_Q38,A,B,C,D,C,Perak 2023/Picture38.png,"中文：放大镜为凸透镜，物体位于焦距内时形成正立、虚且放大的像，因此选C。
+English: A magnifying glass is a convex lens; an object within its focal length forms an upright, virtual, magnified image, giving C."
+F5 Chp 8,radio,Perlis2023_Q37,A,B,C,D,A,Perlis 2023/Picture37.png,"中文：目镜把物镜形成的中间像再次放大，最终像为虚像，因此答案A抓住虚像和放大两项；但普通双凸透镜望远镜的最终像相对原物是倒立，选项“正立”有疑点。
+English: The eyepiece further magnifies the intermediate image and produces a virtual final image, matching those features in A; however, an ordinary two-convex-lens telescope gives an image inverted relative to the original object, so “upright” is questionable."
+F5 Chp 8,radio,Perlis2023_Q38,A,B,C,D,A,Perlis 2023/Picture38.png,"中文：Q处管道较窄，水流速度较高；按伯努利原理压力较低，所以竖管水位最低。
+English: The pipe is narrower at Q, so water flows faster; Bernoulli's principle gives lower pressure and therefore the lowest vertical water level."
+F5 Chp 8,radio,PutrajayaSet12023_Q37,A,B,C,D,A,Putrajaya Set 1 2023/Picture37.png,"中文：液态电解质中的离子可以自由移动，携带电荷并移向电极，因此必须为熔融或溶液状态。
+English: Ions in liquid electrolytes can move freely, carry charge and travel to electrodes, so the electrolyte must be molten or in solution."
+F5 Chp 8,radio,PutrajayaSet12023_Q38,A,B,C,D,C,Putrajaya Set 1 2023/Picture38.png,"中文：平行于主轴的光线经过凸透镜后应在另一侧焦点F汇聚，图C符合这项规则。
+English: Rays parallel to the principal axis converge at focal point F on the other side of a convex lens, as correctly shown in C."
+F5 Chp 8,radio,PutrajayaSet22023_Q37,A,B,C,D,B,Putrajaya Set 2 2023/Picture37.png,"中文：电池由化学电池构成，把化学能转为电能；电镀、金属提纯及电解提取使用的是电解槽。
+English: Batteries use chemical cells to convert chemical energy into electrical energy; electroplating, purification and electrolytic extraction use electrolytic cells instead."
+F5 Chp 8,radio,PutrajayaSet22023_Q38,A,B,C,D,C,Putrajaya Set 2 2023/Picture38.png,"中文：凹透镜对真实物体形成正立、虚且缩小的像，所以本题选C缩小。
+English: A concave lens forms an upright, virtual, diminished image of a real object, so C, diminished, is correct."
+F5 Chp 8,radio,SarawakSubisMiri2023_Q37,A,B,C,D,C,Sarawak Subis Miri 2023/Picture37.png,"中文：平行主轴的光线通过凸透镜后向焦点会聚，穿过光心的光线不偏折。现有C画成发散，不符合凸透镜规则，需核对答案表。
+English: A ray parallel to the principal axis converges towards the focal point after a convex lens, while one through the optical centre remains straight. Existing C shows divergence and does not follow these rules."
+F5 Chp 8,radio,SarawakSubisMiri2023_Q38,A,B,C,D,D,Sarawak Subis Miri 2023/Picture38.png,"中文：放大镜在物体处于焦距内时形成虚、正立、放大的像，应选B。现有D写实、正立、放大，不符合放大镜成像。
+English: A magnifying glass forms a virtual, upright, enlarged image when the object is inside its focal length, giving B. Existing D says real, upright and enlarged, which is incorrect."
+F5 Chp 8,radio,Selangor2023_Q37,A,B,C,D,D,Selangor 2023/Picture37.png,"中文：较短焦距的镜头提供较宽视角，能在同一距离拍到更大的范围，因此选D。
+English: A shorter-focal-length lens gives a wider field of view and captures more of a scene at the same distance, giving D."
+F5 Chp 8,radio,Selangor2023_Q38,A,B,C,D,C,Selangor 2023/Picture38.png,"中文：按帕斯卡原理50÷5=F÷10，所以输出力F=100 N，选C。
+English: By Pascal's principle, 50/5 = F/10, so output force F = 100 N, giving C."
+F5 Chp 8,radio,SelangorSet22023_Q37,A,B,C,D,C,Selangor Set 2 2023/Picture37.png,"中文：较短焦距镜头提供较宽视角，可拍摄较大范围，因此选C。
+English: A shorter-focal-length lens provides a wider field of view and captures a larger scene, giving C."
+F5 Chp 8,radio,SelangorSet22023_Q38,A,B,C,D,B,Selangor Set 2 2023/Picture38.png,"中文：帕斯卡原理150÷15=F÷35，得F=350 N，应选C。现有B250 N与题设面积和作用力不符。
+English: Pascal's principle gives 150/15 = F/35, so F = 350 N, answer C. Existing B, 250 N, disagrees with the stated areas and force."
+F5 Chp 8,radio,TerengganuMPP32023_Q37,A,B,C,D,A,Terengganu MPP3 2023/Picture37.png,"中文：牙科椅液压升降利用帕斯卡原理，密闭液体把施加压力传到大活塞以抬升椅子。
+English: A dental chair's hydraulic lift uses Pascal's principle, transmitting pressure through confined liquid to a larger piston to raise the chair."
+F5 Chp 8,radio,TerengganuMPP32023_Q38,A,B,C,D,C,Terengganu MPP3 2023/Picture38.png,"中文：输入压力=60÷2=30 N/cm²，输出力=30×40=1200 N，因此选C。
+English: Input pressure = 60/2 = 30 N/cm²; output force = 30 × 40 = 1200 N, giving C."
+F5 Chp 8,radio,SBP2023_Q37,A,B,C,D,C,SBP 2023/Picture37.png,"中文：封闭系统不能与外界交换物质，但仍可交换能量，因此选C。
+English: A closed system does not exchange matter with its surroundings, although it can exchange energy, giving C."
+F5 Chp 8,radio,SBP2023_Q38,A,B,C,D,B,SBP 2023/Picture38.png,"中文：焦距是透镜光心到平行光汇聚焦点的距离，图中为B，不是透镜前方或焦点后的距离。
+English: Focal length is the distance from the lens's optical centre to where parallel rays converge, labelled B, not the distance before the lens or beyond the focus."

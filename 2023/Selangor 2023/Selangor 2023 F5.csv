@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：恢复图显示叶缘发褐坏死，较符合缺钾C；现有答案B是磷。缺磷通常与生长受阻和叶色暗绿或紫有关，这题图片与答案有疑点，保留B待核对。
+English: The restored image shows brown, necrotic leaf edges, more consistent with potassium deficiency C. Existing B is phosphorus, usually associated with stunted growth and dark-green or purplish leaves; B is retained with this image–answer discrepancy noted."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：有效管理土地可改善土壤肥力和利用效率，从而提高粮食生产的品质及数量，因此选B。
+English: Efficient land management improves soil fertility and use, helping increase the quality and quantity of food production, giving B."
+,radio,F5 Chp 2,A,B,C,D,C,Picture25.png,"中文：冷冻降低温度，抑制微生物活动及腐败反应，适用于运输期间保持鱼的新鲜度。
+English: Freezing lowers temperature and inhibits microbial activity and spoilage, helping preserve fish freshness during transport."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：保健食品可能价格较高，这是使用和选择这类产品时要考虑的问题，因此本题选B。
+English: Health foods can be expensive, an issue to consider when choosing and using such products, giving B in this question."
+,radio,F5 Chp 3,A,B,C,D,A,Picture27.png,"中文：日用电量：LED0.009×5=0.045、荧光灯0.020×4=0.080、CFL0.006×10=0.060、卤素0.018×7=0.126 kWh。LED最低，按题设排放0.045×39÷50=0.0351 g。
+English: Daily use is LED 0.009 × 5 = 0.045, fluorescent 0.020 × 4 = 0.080, CFL 0.006 × 10 = 0.060 and halogen 0.018 × 7 = 0.126 kWh. LED is lowest, giving stated emissions 0.045 × 39/50 = 0.0351 g."
+,radio,F5 Chp 3,A,B,C,D,B,Picture28.png,"中文：洗涤剂废水进入河流会造成水污染，B的类型与原因配对正确；漏油并不是热污染。
+English: Detergent waste entering rivers causes water pollution, so B correctly pairs pollution and cause; an oil spill is not thermal pollution."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：钥匙上的铁锈表示生锈，是缓慢进行的氧化过程，因此现有A慢反应有道理；D也准确描述为生锈反应，题目分类存在重叠。
+English: Rust on the key indicates rusting, a slow oxidation process, so existing A, slow reaction, is reasonable; D also correctly names rusting, making the classifications overlap."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：铁粉在哈伯法中作催化剂，加快氮与氢生成氨的反应，本身不因反应而消耗。
+English: Iron powder is the Haber-process catalyst, accelerating ammonia formation from nitrogen and hydrogen without being consumed."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：光合作用吸收空气中的二氧化碳并把碳固定到有机物中，因此可减少空气中过多二氧化碳。
+English: Photosynthesis absorbs atmospheric carbon dioxide and fixes its carbon into organic matter, removing excess carbon dioxide from the air."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：碳氢化合物的定义是只含碳与氢两种元素，因此选A。
+English: A hydrocarbon contains only carbon and hydrogen, giving A."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：维生素E和胡萝卜素具有抗氧化作用，能减慢氧化过程，帮助保护细胞。
+English: Vitamin E and carotene have antioxidant effects, slowing oxidation and helping protect cells."
+,radio,F5 Chp 6,A,B,C,D,C,Picture34.png,"中文：电解槽中接电源正极的P为阳极，接负极的Q为阴极，所以选C。
+English: In an electrolytic cell, P connected to the positive supply is the anode and Q connected to the negative supply is the cathode, giving C."
+,radio,F5 Chp 7,A,B,C,D,C,Picture35.png,"中文：锌在负极失去电子，X接受电子为正极，所列比锌不活泼的铜符合条件，因此选C。
+English: Zinc loses electrons at the negative terminal; X receives electrons at the positive terminal, so copper, less reactive than zinc, is C."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：焦距10 cm，物距45 cm大于2f=20 cm，凸透镜形成位于f与2f之间的实、倒立、缩小像。
+English: Focal length is 10 cm and object distance 45 cm exceeds 2f = 20 cm; the convex lens forms a real, inverted, diminished image between f and 2f."
+,radio,F5 Chp 8,A,B,C,D,D,Picture37.png,"中文：较短焦距的镜头提供较宽视角，能在同一距离拍到更大的范围，因此选D。
+English: A shorter-focal-length lens gives a wider field of view and captures more of a scene at the same distance, giving D."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：按帕斯卡原理50÷5=F÷10，所以输出力F=100 N，选C。
+English: By Pascal's principle, 50/5 = F/10, so output force F = 100 N, giving C."
+,radio,F5 Chp 9,A,B,C,D,C,Picture39.png,"中文：X指向最接近地球的蓝色虚线轨道，是低地球轨道LEO，选C。
+English: X points to the blue dashed orbit closest to Earth, the low Earth orbit, LEO, giving C."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：GPS由控制部分、太空部分和用户部分组成，分别负责监控、卫星信号和接收定位，因此选B。
+English: GPS consists of control, space and user segments for monitoring, satellite signals and positioning receivers, giving B."

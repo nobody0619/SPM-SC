@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya Set 1 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya Set 1 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：实验动物尸体属于生物废物，应放入生物危害袋并冷冻保存，等待适当处置，因此选B。
+English: Dead laboratory animals are biological waste; place them in a biohazard bag and freeze them until appropriate disposal, giving B."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：二氧化碳不导电且能隔绝氧气，适用于电器引发的火灾，因此选C。
+English: Carbon dioxide does not conduct electricity and excludes oxygen, making it suitable for electrical fires, giving C."
+,radio,F4 Chp 3,A,B,C,D,A,Picture3.png,"中文：本题成人CPR步骤为30次胸外按压后进行2次人工呼吸，持续循环直到专业救援接手或出现恢复迹象。
+English: The adult CPR sequence in this question is 30 chest compressions followed by two rescue breaths, repeated until professional help takes over or signs of recovery appear."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：CPR用于心脏骤停后的急救，以维持血流和供氧；它不能事先阻止心脏病发作，所以A不是其作用。
+English: CPR is emergency care after cardiac arrest to maintain blood flow and oxygen delivery; it does not prevent a heart attack beforehand, so A is not its function."
+,radio,F4 Chp 4,A,B,C,D,A,Picture5.png,"中文：120/80 mmHg在本题课本分类为正常血压，120为收缩压、80为舒张压，因此选A。
+English: In this textbook classification, 120/80 mmHg is normal blood pressure; 120 is systolic and 80 diastolic pressure, giving A."
+,radio,F4 Chp 4,A,B,C,D,D,Picture6.png,"中文：红外线体温计可对准额头并保持指定距离；题目给出5 cm，因此D是正确配对。
+English: An infrared thermometer is aimed at the forehead from the specified distance, 5 cm in this question, so D is the correct pairing."
+,radio,F4 Chp 5,A,B,C,D,C,Picture7.png,"中文：未经处理的工业废物污染河流，可能含毒性物质并影响溶氧，使水生生物死亡。
+English: Untreated industrial waste pollutes rivers, potentially introducing toxic substances and affecting dissolved oxygen, causing aquatic organisms to die."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：混合动力车结合电动机与燃油发动机，在拥堵或低速行驶时可减少燃油消耗，因此选D。
+English: A hybrid vehicle combines an electric motor and fuel engine and can reduce fuel consumption during congested or low-speed travel, giving D."
+,radio,F4 Chp 6,A,B,C,D,B,Picture9.png,"中文：图示后期每一极有4条染色体，有丝分裂后每个子细胞得到4条，染色体数保持与原细胞相同。
+English: The anaphase diagram shows four chromosomes moving to each pole; each daughter cell receives four, maintaining the original chromosome number."
+,radio,F4 Chp 6,A,B,C,D,B,Picture10.png,"中文：B是把所需基因连接到载体DNA的步骤；若目标基因未正确加入，植物便无法表现抗病和较大的性状。
+English: B joins the desired gene to carrier DNA; if the target gene is not inserted correctly, the plant cannot express the intended disease resistance and larger size."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：肌腱把肌肉连接到骨头，把肌肉收缩的拉力传到骨骼，帮助身体运动。
+English: Tendons connect muscles to bones and transmit the pulling force of muscle contraction to the skeleton, enabling movement."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：树干每年形成一圈年轮，图中有7圈，所以树龄为7年，选A。
+English: The trunk forms one growth ring per year; seven rings indicate seven years, giving A."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：胰腺是腹部横向延伸、呈叶状的腺体，图D对应胰腺；它分泌胰岛素等调节血糖的激素。
+English: The pancreas is an elongated, lobulated gland in the abdomen, represented by D; it secretes hormones such as insulin that regulate blood glucose."
+,radio,F4 Chp 8,A,B,C,D,A,Picture14.png,"中文：图中男子产生幻觉；氯胺酮ketamine在本题分类会引起这类知觉改变，因此选A。
+English: The man is hallucinating; ketamine can cause this perceptual disturbance in the classification used by this question, giving A."
+,radio,F4 Chp 9,A,B,C,D,C,Picture15.png,"中文：T与U处于周期表同一横行，即同一周期，具有相同数量的已占据电子壳层，选C。
+English: T and U are on the same horizontal row, or period, and have the same number of occupied electron shells, giving C."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：同位素质子数相同，碳-X也有6个质子；核子数=质子+中子=6+6=12。
+English: Isotopes have the same proton number, so carbon-X also has six protons; nucleon number = protons + neutrons = 6 + 6 = 12."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：锡、铜和锑组成锡镴pewter，表面光亮且抗腐蚀，可制作相框等装饰品，因此选A。
+English: Tin, copper and antimony form pewter, which is shiny and corrosion-resistant and is used for decorative items such as photo frames, giving A."
+,radio,F4 Chp 10,A,B,C,D,D,Picture18.png,"中文：硫用于硫化橡胶，在聚合物链之间形成交联，提高强度、弹性和耐热性。
+English: Sulfur is used to vulcanise rubber, forming cross-links between polymer chains and improving strength, elasticity and heat resistance."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：柠檬汁含抗氧化成分如维生素C，且呈酸性，能减慢切开水果的褐变氧化过程。
+English: Lemon juice contains antioxidants such as vitamin C and is acidic, helping slow oxidative browning of cut fruit."
+,radio,F4 Chp 11,A,B,C,D,A,Picture20.png,"中文：阿司匹林主要是止痛药，不是本题列出的食物抗氧化剂，所以在“除了”题中选A。
+English: Aspirin is primarily an analgesic rather than one of the food antioxidants listed here, so it is the exception, A."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：负速度表示朝所定义正方向的反方向运动，不代表速度一定减小或正在减速，因此选B。
+English: Negative velocity indicates motion opposite to the defined positive direction; it does not necessarily mean decreasing speed or deceleration, giving B."
+,radio,F4 Chp 12,A,B,C,D,B,Picture22.png,"中文：速度=位移时间图斜率=(8−4)÷(5−3)=2 m/s，因此选B。
+English: Velocity is the slope of the displacement–time graph: (8 − 4) ÷ (5 − 3) = 2 m/s, giving B."

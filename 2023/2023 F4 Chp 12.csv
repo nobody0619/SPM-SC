@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 12,radio,KedahTrial2023_Q21,A,B,C,D,B,Kedah Trial 2023/Picture21.png
-F4 Chp 12,radio,KedahTrial2023_Q22,A,B,C,D,D,Kedah Trial 2023/Picture22.png
-F4 Chp 12,radio,KelantanTrial2023_Q21,A,B,C,D,B,Kelantan Trial 2023/Picture21.png
-F4 Chp 12,radio,KelantanTrial2023_Q22,A,B,C,D,C,Kelantan Trial 2023/Picture22.png
-F4 Chp 12,radio,MaahadJohor2023_Q21,A,B,C,D,C,Maahad Johor 2023/Picture21.png
-F4 Chp 12,radio,MaahadJohor2023_Q22,A,B,C,D,D,Maahad Johor 2023/Picture22.png
-F4 Chp 12,radio,NegeriSembilan2023_Q21,A,B,C,D,A,Negeri Sembilan 2023/Picture21.png
-F4 Chp 12,radio,NegeriSembilan2023_Q22,A,B,C,D,B,Negeri Sembilan 2023/Picture22.png
-F4 Chp 12,radio,PahangTrial2023_Q21,A,B,C,D,C,Pahang Trial 2023/Picture21.png
-F4 Chp 12,radio,PahangTrial2023_Q22,A,B,C,D,A,Pahang Trial 2023/Picture22.png
-F4 Chp 12,radio,Melaka2023_Q21,A,B,C,D,B,Melaka 2023/Picture21.png
-F4 Chp 12,radio,Melaka2023_Q22,A,B,C,D,B,Melaka 2023/Picture22.png
-F4 Chp 12,radio,Perak2023_Q21,A,B,C,D,C,Perak 2023/Picture21.png
-F4 Chp 12,radio,Perak2023_Q22,A,B,C,D,A,Perak 2023/Picture22.png
-F4 Chp 12,radio,Perlis2023_Q21,A,B,C,D,A,Perlis 2023/Picture21.png
-F4 Chp 12,radio,Perlis2023_Q22,A,B,C,D,A,Perlis 2023/Picture22.png
-F4 Chp 12,radio,PutrajayaSet12023_Q21,A,B,C,D,B,Putrajaya Set 1 2023/Picture21.png
-F4 Chp 12,radio,PutrajayaSet12023_Q22,A,B,C,D,B,Putrajaya Set 1 2023/Picture22.png
-F4 Chp 12,radio,PutrajayaSet22023_Q21,A,B,C,D,B,Putrajaya Set 2 2023/Picture21.png
-F4 Chp 12,radio,PutrajayaSet22023_Q22,A,B,C,D,A,Putrajaya Set 2 2023/Picture22.png
-F4 Chp 12,radio,SarawakSubisMiri2023_Q21,A,B,C,D,D,Sarawak Subis Miri 2023/Picture21.png
-F4 Chp 12,radio,SarawakSubisMiri2023_Q22,A,B,C,D,A,Sarawak Subis Miri 2023/Picture22.png
-F4 Chp 12,radio,Selangor2023_Q21,A,B,C,D,D,Selangor 2023/Picture21.png
-F4 Chp 12,radio,Selangor2023_Q22,A,B,C,D,D,Selangor 2023/Picture22.png
-F4 Chp 12,radio,SelangorSet22023_Q21,A,B,C,D,C,Selangor Set 2 2023/Picture21.png
-F4 Chp 12,radio,SelangorSet22023_Q22,A,B,C,D,A,Selangor Set 2 2023/Picture22.png
-F4 Chp 12,radio,TerengganuMPP32023_Q21,A,B,C,D,B,Terengganu MPP3 2023/Picture21.png
-F4 Chp 12,radio,TerengganuMPP32023_Q22,A,B,C,D,D,Terengganu MPP3 2023/Picture22.png
-F4 Chp 12,radio,SBP2023_Q21,A,B,C,D,D,SBP 2023/Picture21.png
-F4 Chp 12,radio,SBP2023_Q22,A,B,C,D,B,SBP 2023/Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 12,radio,KedahTrial2023_Q21,A,B,C,D,B,Kedah Trial 2023/Picture21.png,"中文：铀核裂变释放能量和中子，中子引发更多裂变，持续链式反应可释放大量能量。
+English: Fission releases energy and neutrons that cause further fission, so a sustained chain reaction releases a large amount of energy."
+F4 Chp 12,radio,KedahTrial2023_Q22,A,B,C,D,D,Kedah Trial 2023/Picture22.png,"中文：核能可替代部分煤、石油和天然气发电，减少对化石燃料的依赖，但仍须处理放射性废料。
+English: Nuclear power replaces some fossil-fuel generation and reduces dependence on fossil fuels, although radioactive waste still requires management."
+F4 Chp 12,radio,KelantanTrial2023_Q21,A,B,C,D,B,Kelantan Trial 2023/Picture21.png,"中文：太阳及其他恒星内部，轻核结合成较重核并释放能量，是核聚变的自然例子。
+English: The Sun and other stars release energy by fusion, in which light nuclei combine into heavier nuclei."
+F4 Chp 12,radio,KelantanTrial2023_Q22,A,B,C,D,C,Kelantan Trial 2023/Picture22.png,"中文：石墨慢化剂减慢高速中子，使中子更容易被铀核吸收并引发后续裂变。
+English: A graphite moderator slows fast neutrons so they can more readily cause further uranium fission."
+F4 Chp 12,radio,MaahadJohor2023_Q21,A,B,C,D,C,Maahad Johor 2023/Picture21.png,"中文：题目描述病毒，病毒依赖宿主细胞复制，抗生素不能治疗病毒感染，所以 C 不正确。
+English: The description identifies a virus, which replicates in host cells; antibiotics do not treat viral infections, so C is false."
+F4 Chp 12,radio,MaahadJohor2023_Q22,A,B,C,D,D,Maahad Johor 2023/Picture22.png,"中文：Nitrobacter 帮助土壤硝化作用，Bifidobacteria 可作有益微生物应用于畜牧，故 III、IV。
+English: Nitrobacter supports soil nitrification, while Bifidobacteria is used as a beneficial microorganism in livestock; III and IV are intended."
+F4 Chp 12,radio,NegeriSembilan2023_Q21,A,B,C,D,A,Negeri Sembilan 2023/Picture21.png,"中文：图中铀-235原子核被中子撞击后分裂成较小原子核并释放能量，这是核裂变，选A。
+English: Uranium-235 splits into smaller nuclei and releases energy after absorbing a neutron; this is nuclear fission, giving A."
+F4 Chp 12,radio,NegeriSembilan2023_Q22,A,B,C,D,B,Negeri Sembilan 2023/Picture22.png,"中文：核试验释放的电离辐射会损伤细胞和遗传物质，可导致癌症及胎儿缺陷，因此选B。
+English: Ionising radiation from nuclear tests damages cells and genetic material and may cause cancer and fetal defects, giving B."
+F4 Chp 12,radio,PahangTrial2023_Q21,A,B,C,D,C,Pahang Trial 2023/Picture21.png,"中文：位移为速度时间图的有符号面积：30×2+½×1×30−½×2×30=45 m，因此选C。
+English: Displacement is the signed area under the velocity–time graph: 30 × 2 + ½ × 1 × 30 − ½ × 2 × 30 = 45 m, giving C."
+F4 Chp 12,radio,PahangTrial2023_Q22,A,B,C,D,A,Pahang Trial 2023/Picture22.png,"中文：其他书本具有惯性，倾向保持静止，所以迅速抽出一本书时其余书本来不及明显移动。
+English: The other books have inertia and tend to remain at rest, so they move little when one book is pulled out quickly."
+F4 Chp 12,radio,Melaka2023_Q21,A,B,C,D,B,Melaka 2023/Picture21.png,"中文：硬币因惯性倾向保持静止，卡纸迅速抽走后，硬币在重力作用下落入杯中。
+English: The coin tends to remain at rest through inertia; after the card is removed, gravity makes it fall into the glass."
+F4 Chp 12,radio,Melaka2023_Q22,A,B,C,D,B,Melaka 2023/Picture22.png,"中文：铀-235 吸收中子后分裂成较小核并放出能量与中子，是核裂变。
+English: Uranium-235 absorbs a neutron and splits into smaller nuclei, releasing energy and neutrons: nuclear fission."
+F4 Chp 12,radio,Perak2023_Q21,A,B,C,D,C,Perak 2023/Picture21.png,"中文：少量核燃料可释放大量能量，核能发电具有高能量输出，因此选C；核燃料并非可再生资源。
+English: A small amount of nuclear fuel releases a large amount of energy, giving high energy output and C; nuclear fuel is not renewable."
+F4 Chp 12,radio,Perak2023_Q22,A,B,C,D,A,Perak 2023/Picture22.png,"中文：W指冷却回路，冷却剂吸收反应堆产生的热，并把热传送到热交换器，因此选A。
+English: W indicates the cooling circuit; coolant absorbs heat from the reactor and carries it to the heat exchanger, giving A."
+F4 Chp 12,radio,Perlis2023_Q21,A,B,C,D,A,Perlis 2023/Picture21.png,"中文：长链分子被拆成较小单体，是解聚depolymerisation；聚合则是把单体连接成长链。
+English: Breaking a long molecular chain into smaller monomers is depolymerisation; polymerisation joins monomers into long chains."
+F4 Chp 12,radio,Perlis2023_Q22,A,B,C,D,A,Perlis 2023/Picture22.png,"中文：代谢发生在体内，反应过程可产生自由基；辐射、空气污染和紫外线属于外部因素。
+English: Metabolism occurs inside the body and can produce free radicals; radiation, air pollution and ultraviolet exposure are external factors."
+F4 Chp 12,radio,PutrajayaSet12023_Q21,A,B,C,D,B,Putrajaya Set 1 2023/Picture21.png,"中文：负速度表示朝所定义正方向的反方向运动，不代表速度一定减小或正在减速，因此选B。
+English: Negative velocity indicates motion opposite to the defined positive direction; it does not necessarily mean decreasing speed or deceleration, giving B."
+F4 Chp 12,radio,PutrajayaSet12023_Q22,A,B,C,D,B,Putrajaya Set 1 2023/Picture22.png,"中文：速度=位移时间图斜率=(8−4)÷(5−3)=2 m/s，因此选B。
+English: Velocity is the slope of the displacement–time graph: (8 − 4) ÷ (5 − 3) = 2 m/s, giving B."
+F4 Chp 12,radio,PutrajayaSet22023_Q21,A,B,C,D,B,Putrajaya Set 2 2023/Picture21.png,"中文：巴士突然减速时，乘客身体因惯性仍倾向保持向前运动，所以向前倒。
+English: When the bus suddenly slows, the passenger's body tends to continue moving forward because of inertia and falls forward."
+F4 Chp 12,radio,PutrajayaSet22023_Q22,A,B,C,D,A,Putrajaya Set 2 2023/Picture22.png,"中文：20分钟=1200秒，加速度=(60−30)÷1200=0.025 m/s²，因此选A。
+English: Twenty minutes is 1200 seconds; acceleration = (60 − 30) ÷ 1200 = 0.025 m/s², giving A."
+F4 Chp 12,radio,SarawakSubisMiri2023_Q21,A,B,C,D,D,Sarawak Subis Miri 2023/Picture21.png,"中文：油轮质量大、惯性大，倾向维持原来运动，所以正确选项A；现有D势能不能解释持续运动。
+English: The tanker's large mass gives large inertia, so it tends to maintain motion, giving A; existing D, potential energy, does not explain this behaviour."
+F4 Chp 12,radio,SarawakSubisMiri2023_Q22,A,B,C,D,A,Sarawak Subis Miri 2023/Picture22.png,"中文：核电站需要水作为冷却介质，所以应靠近水源，选D。现有A声称污染高于石油，不能说明选址要求。
+English: A nuclear power station needs cooling water and should be near a water source, giving D. Existing A's claim about greater pollution than petroleum does not state this siting requirement."
+F4 Chp 12,radio,Selangor2023_Q21,A,B,C,D,D,Selangor 2023/Picture21.png,"中文：水绵Spirogyra含叶绿素，可光合作用，属于藻类；变形虫和草履虫属于原生动物。
+English: Spirogyra contains chlorophyll and photosynthesises, making it an alga; amoebae and Paramecium are protozoa."
+F4 Chp 12,radio,Selangor2023_Q22,A,B,C,D,D,Selangor 2023/Picture22.png,"中文：分解细菌把死亡生物中的有机氮转为铵化合物，这个过程属于氨化。
+English: Decomposing bacteria convert organic nitrogen in dead organisms into ammonium compounds through ammonification."
+F4 Chp 12,radio,SelangorSet22023_Q21,A,B,C,D,C,Selangor Set 2 2023/Picture21.png,"中文：草履虫Paramecium是单细胞原生动物，不属于细菌、藻类或真菌，因此选C。
+English: Paramecium is a unicellular protozoan rather than a bacterium, alga or fungus, giving C."
+F4 Chp 12,radio,SelangorSet22023_Q22,A,B,C,D,A,Selangor Set 2 2023/Picture22.png,"中文：依课本，病毒可通过减毒或灭活等方式用于制造疫苗，让免疫系统形成保护反应，因此选A。
+English: In the textbook, viruses can be attenuated or inactivated for vaccines that stimulate protective immune responses, giving A."
+F4 Chp 12,radio,TerengganuMPP32023_Q21,A,B,C,D,B,Terengganu MPP3 2023/Picture21.png,"中文：图中有孢子囊和菌丝，是霉菌Mucor，而非单细胞酵母、细菌或原生动物。
+English: The diagram shows sporangia and hyphae, identifying the mould Mucor rather than yeast, bacteria or protozoa."
+F4 Chp 12,radio,TerengganuMPP32023_Q22,A,B,C,D,D,Terengganu MPP3 2023/Picture22.png,"中文：课本中生态酶把油脂分解成较小分子，减少排水堵塞；传统化学清洁剂会产生泡沫，D依此配对。
+English: In the textbook, ecoenzymes break fats into smaller molecules that reduce drain blockage, while conventional chemical cleaners produce foam, matching D."
+F4 Chp 12,radio,SBP2023_Q21,A,B,C,D,D,SBP 2023/Picture21.png,"中文：柑橘含维生素C等抗氧化成分，帮助减少氧化损伤并维持皮肤胶原功能，因此选D。
+English: Citrus fruit provides antioxidants such as vitamin C, helping reduce oxidative damage and support skin collagen, giving D."
+F4 Chp 12,radio,SBP2023_Q22,A,B,C,D,B,SBP 2023/Picture22.png,"中文：速度时间图下的有符号面积等于位移，单位m/s×s=m，因此选B。
+English: The signed area under a velocity–time graph is displacement, with units m/s × s = m, giving B."

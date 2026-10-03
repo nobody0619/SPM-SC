@@ -1,41 +1,81 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor Set 2 2023,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor Set 2 2023,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：油脂不溶于水，可能堵塞排水及造成污染，不能直接倒入水槽，因此选A。
+English: Grease is insoluble in water and can block drains and cause pollution, so it must not be poured into the sink, giving A."
+,radio,F4 Chp 2,A,B,C,D,B,Picture2.png,"中文：防火毯覆盖火源后隔绝氧气，停止燃烧所需的氧供应，因此选B。
+English: A fire blanket covers the fire and blocks its oxygen supply, stopping combustion, giving B."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：电击可能造成心脏骤停，若伤者无反应且无正常呼吸，可能需要CPR，因此选D。
+English: Electric shock can cause cardiac arrest; an unresponsive victim without normal breathing may require CPR, giving D."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：按本题步骤先涂凡士林III，再按指定深度插入II，等待提示音读数I，所以顺序III→II→I。
+English: The question's sequence is apply petroleum jelly III, insert to the specified depth II, then wait for the beep and read I: III → II → I."
+,radio,F4 Chp 4,A,B,C,D,C,Picture5.png,"中文：血压为140/90 mmHg，按本题课本分类属于第1级高血压，因此选C。
+English: The blood pressure is 140/90 mmHg, classified as stage 1 hypertension in this textbook question, giving C."
+,radio,F4 Chp 4,A,B,C,D,D,Picture6.png,"中文：煤的形成需要极长时间，消耗后不能在短期内补充，属于不可再生能源。
+English: Coal takes an extremely long time to form and cannot be replenished quickly after use, making it non-renewable."
+,radio,F4 Chp 5,A,B,C,D,D,Picture7.png,"中文：选择性伐木只砍伐选定树木，保留其他植被及根系，可减少栖息地破坏、土壤侵蚀和滑坡风险。
+English: Selective logging removes only selected trees and retains other vegetation and roots, reducing habitat loss, erosion and landslide risk."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：单人车辆每名乘客分担的燃油消耗及排放较高，不如公共交通、骑车和步行环保，因此选C。
+English: Single-occupant vehicles have higher fuel use and emissions per passenger and are less environmentally friendly than public transport, cycling and walking, giving C."
+,radio,F4 Chp 6,A,B,C,D,A,Picture9.png,"中文：基因gene是遗传的基本单位，为DNA上的片段，控制个体性状，因此X为基因。
+English: A gene is the basic hereditary unit, a segment of DNA that determines a trait, so X is a gene."
+,radio,F4 Chp 6,A,B,C,D,A,Picture10.png,"中文：Y由B与b配子结合形成Bb，B显性，所以能卷舌，选A。
+English: Y forms from B and b gametes and is Bb; dominant B gives the ability to roll the tongue, so A."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：地中海贫血的红细胞常较小，应选A；镰刀形红细胞B属于镰状细胞贫血，现有答案B需核对。
+English: Thalassaemia commonly produces small red blood cells, giving A; sickle-shaped cells, B, belong to sickle-cell anaemia, so existing B needs review."
+,radio,F4 Chp 8,A,B,C,D,D,Picture12.png,"中文：钙与维生素D支持骨骼发育，维生素D帮助钙吸收，因此本题选D；身高还受遗传等因素影响。
+English: Calcium and vitamin D support bone development, and vitamin D aids calcium absorption, giving D in this question; height also depends on factors such as inheritance."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：X指向关节腔内的滑液，能润滑关节并减少骨端摩擦，因此选D。
+English: X points to synovial fluid in the joint cavity, which lubricates the joint and reduces friction between bone ends, giving D."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：卵巢分泌雌激素oestrogen，促进女性第二性征并参与调节生殖周期，因此选B。
+English: The ovaries secrete oestrogen, supporting female secondary sexual characteristics and regulating the reproductive cycle, giving B."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：图示粒子为独立原子，没有几个原子结合的分子单位，所以属于原子物质。
+English: The illustrated particles are individual atoms rather than bonded molecular units, so this is an atomic substance."
+,radio,F4 Chp 9,A,B,C,D,B,Picture16.png,"中文：玻璃的主要原料是二氧化硅silicon dioxide，因此选B。
+English: The main raw material of glass is silicon dioxide, giving B."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：代谢产生的X为自由基，过多会造成细胞氧化损伤，包括本题D的肾脏损伤。
+English: X represents free radicals produced by metabolism; excess causes oxidative cell damage, including kidney damage in option D."
+,radio,F4 Chp 10,A,B,C,D,D,Picture18.png,"中文：返程从K的7分钟、100 m到L的11分钟、0 m，速度=(0−100)÷[(11−7)×60]=−0.4167≈−0.42 m/s，因此选D。负号表示向家的方向。
+English: The return journey goes from K at 7 min and 100 m to L at 11 min and 0 m. Velocity = (0−100)/[(11−7)×60] = −0.4167 ≈ −0.42 m/s, giving D. The negative sign indicates motion towards home."
+,radio,F4 Chp 11,A,B,C,D,B,Picture19.png,"中文：质量是物体所含物质的量，与位置改变无关；重量则是重力大小，因此选B。
+English: Mass is the quantity of matter in an object and does not depend on location; weight is the gravitational force, giving B."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：核电运行时不燃烧化石燃料，直接二氧化碳排放较低，因此本题选B。
+English: Nuclear power does not burn fossil fuels during operation and has low direct carbon-dioxide emissions, giving B."
+,radio,F4 Chp 12,A,B,C,D,C,Picture21.png,"中文：草履虫Paramecium是单细胞原生动物，不属于细菌、藻类或真菌，因此选C。
+English: Paramecium is a unicellular protozoan rather than a bacterium, alga or fungus, giving C."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：依课本，病毒可通过减毒或灭活等方式用于制造疫苗，让免疫系统形成保护反应，因此选A。
+English: In the textbook, viruses can be attenuated or inactivated for vaccines that stimulate protective immune responses, giving A."
+,radio,F5 Chp 1,A,B,C,D,A,Picture23.png,"中文：老叶中心呈黄色V形，符合缺氮；氮不足使叶绿素形成减少，叶片变黄及生长缓慢，因此选A。
+English: The older leaf has a yellow V-shaped central region, consistent with nitrogen deficiency. Insufficient nitrogen reduces chlorophyll formation, causing yellowing and slow growth, giving A."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：现代农业科技如机械化和高效种植方法可提高生产效率、粮食品质与数量，因此选B。
+English: Modern agricultural technology, including mechanisation and efficient cultivation, improves productivity, food quality and quantity, giving B."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：真空包装排除空气，减少氧化及部分微生物活动，答案D依此选择用于榴莲果肉；仍须配合适当温度管理。
+English: Vacuum packaging removes air and reduces oxidation and some microbial activity, explaining D for durian flesh; suitable temperature control remains necessary."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：不同人的年龄、体况及需求不同，补充剂合适剂量也不同，因此不能把同一剂量当成适合所有人。
+English: People differ in age, health and needs, so supplement dosage requirements vary and one dose is not suitable for everyone."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：各灯日用电量分别LED0.045、荧光0.080、卤素0.060、CFL0.126 kWh。CFL最高，排放0.126×39÷50=0.09828 g，选C。
+English: Daily electricity use is LED 0.045, fluorescent 0.080, halogen 0.060 and CFL 0.126 kWh. CFL is highest, with stated emissions 0.126 × 39/50 = 0.09828 g, giving C."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：伐林减少植被遮阴与蒸腾散热，可增加当地温度，按本题分类与热污染配对，因此选A。
+English: Deforestation reduces shading and cooling by transpiration and can raise local temperature; this is paired with thermal pollution in the question, giving A."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：庆祝活动的燃烧反应在短时间内发生、放热放光，属于快反应，因此选B。
+English: Combustion during the celebration occurs over a short time and releases heat and light, making it a fast reaction, giving B."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：氧化钒(V)在接触法中作催化剂，加快二氧化硫氧化成三氧化硫的反应，因此选A。
+English: Vanadium(V) oxide catalyses the Contact process, accelerating sulfur dioxide's oxidation to sulfur trioxide, giving A."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：石灰石主要为碳酸钙，二氧化碳也是无机碳化合物，因此C这两项正确。
+English: Limestone is mainly calcium carbonate, and carbon dioxide is also inorganic, so both examples in C are correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：石油各组分沸点不同，可用分馏fractional distillation分离成不同馏分，因此选C。
+English: Petroleum components have different boiling points and are separated into fractions by fractional distillation, giving C."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：Q括号明确标示肥皂的碳氢尾，它是疏水部分，溶于油脂并帮助除去油污，因此应选A。现有答案D“溶于石灰水”不符合该部分的功能，保留原答案并注明疑点。
+English: Q clearly brackets the hydrocarbon tail of soap. This hydrophobic part dissolves in grease and helps remove oily dirt, giving A. Existing D, dissolving in limewater, does not describe its function; the original answer is retained with this discrepancy noted."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：熔融溴化铅(II)有可自由移动的离子，是电解质，应选D；乙醇A为分子物质，不能依离子导电，现有答案需核对。
+English: Molten lead(II) bromide has mobile ions and is an electrolyte, giving D; ethanol, A, is molecular and does not conduct through such ions, so the existing key needs review."
+,radio,F5 Chp 7,A,B,C,D,C,Picture35.png,"中文：Y是负极并把电子供给铁，所以必须比铁活泼；所列锌A符合，银C比铁不活泼。现有答案C与电子方向不符。
+English: Y is the negative terminal supplying electrons to iron and must be more reactive; zinc, A, fits, whereas silver, C, is less reactive than iron. Existing C conflicts with the electron direction."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：焦距15 cm，物距25 cm在f与2f=30 cm之间，凸透镜产生实、倒立、放大的像，因此选C。
+English: The focal length is 15 cm and object distance 25 cm lies between f and 2f = 30 cm, producing a real, inverted, magnified image, giving C."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：较短焦距镜头提供较宽视角，可拍摄较大范围，因此选C。
+English: A shorter-focal-length lens provides a wider field of view and captures a larger scene, giving C."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：帕斯卡原理150÷15=F÷35，得F=350 N，应选C。现有B250 N与题设面积和作用力不符。
+English: Pascal's principle gives 150/15 = F/35, so F = 350 N, answer C. Existing B, 250 N, disagrees with the stated areas and force."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：X指向长椭圆形的红色虚线轨道，本题将其标示为高地球轨道HEO，因此选B。
+English: X points to the elongated red dashed orbit, identified in this question as high Earth orbit, HEO, giving B."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：GPS提供位置和时间资料，可在各种天气下使用，因此选B；天气资料不是GPS本身定位功能。
+English: GPS provides location and time information in all weather conditions, giving B; weather information is not its positioning function."

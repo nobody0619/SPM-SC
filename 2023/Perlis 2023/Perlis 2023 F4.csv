@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perlis 2023 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perlis 2023 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：培养基属于非尖锐的固体生物废物，应装入生物危害袋，经高压灭菌处理后按生物废物方式处置。
+English: Culture medium is non-sharp solid biological waste; it is bagged as biohazard waste, autoclaved and disposed of through the biological-waste system."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：衣物着火时使用防火毯覆盖，可隔绝氧气并扑灭火焰，因此选D。
+English: A fire blanket covers burning clothing and cuts off oxygen, extinguishing the fire, giving D."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：CPR胸外按压帮助维持血液循环，把氧输送到脑和其他重要器官，因此选D。
+English: CPR chest compressions help maintain blood circulation and deliver oxygen to the brain and other vital organs, giving D."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：独自哽塞时可握拳置于肚脐上方、肋骨下方，弯身施加向内上方的压力，帮助排出异物。
+English: When choking alone, place a clenched fist above the navel and below the ribs, then bend and apply inward-upward pressure to help expel the obstruction."
+,radio,F4 Chp 4,A,B,C,D,A,Picture5.png,"中文：题目问运动后测脉搏的错误做法，除了哪项。立即测量D才符合要求，休息后测量会改变结果；现有答案A与题目中的kecuali不符，待核对。
+English: The question asks which action is not an error when measuring pulse after running. Measuring immediately, D, matches the task; waiting until resting changes the result. Existing answer A conflicts with “except” and needs review."
+,radio,F4 Chp 4,A,B,C,D,C,Picture6.png,"中文：Anita的BMI为36.51，属肥胖，增加高血压及心血管疾病风险，所以C正确。
+English: Anita's BMI is 36.51, indicating obesity and increased risk of high blood pressure and cardiovascular disease, so C is correct."
+,radio,F4 Chp 5,A,B,C,D,C,Picture7.png,"中文：采用较清洁能源或提高效率的车辆能减少化石燃料消耗和温室气体排放，因此选C。
+English: A vehicle using cleaner energy or greater energy efficiency can reduce fossil-fuel use and greenhouse-gas emissions, giving C."
+,radio,F4 Chp 5,A,B,C,D,A,Picture8.png,"中文：交叉互换产生新的基因组合，增加同一物种个体之间的变异。答案A的“antara spesies”措辞不准确，应理解为物种内个体之间。
+English: Crossing over creates new gene combinations and variation among individuals of the same species. Answer A's wording “among species” is inaccurate; it should mean within a species."
+,radio,F4 Chp 6,A,B,C,D,B,Picture9.png,"中文：血友病由基因突变引起，血液缺乏正常凝血能力，受伤后出血不易停止，因此选B。
+English: Haemophilia is caused by a gene mutation that impairs normal blood clotting, so bleeding is difficult to stop, giving B."
+,radio,F4 Chp 6,A,B,C,D,A,Picture10.png,"中文：XᵇY×XᴮXᵇ产生XᴮXᵇ、XᵇXᵇ、XᴮY、XᵇY，色盲儿子与携带者女儿各占1/4，所以比例1:1。
+English: XᵇY × XᴮXᵇ produces XᴮXᵇ, XᵇXᵇ, XᴮY and XᵇY; a colour-blind son and carrier daughter each have probability 1/4, so the ratio is 1:1."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：连续变异的直方图呈连续分布，性状除了遗传，也受营养等环境因素影响，因此选B。
+English: Continuous variation forms a continuous histogram and is influenced by environmental factors such as nutrition as well as inheritance, giving B."
+,radio,F4 Chp 8,A,B,C,D,C,Picture12.png,"中文：图示骨盆带连接下肢，并支撑上半身重量，因此主要功能为支持体重。
+English: The pelvic girdle connects the lower limbs and supports the weight of the upper body, so its main listed function is supporting body weight."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：Q是无脊椎动物的内骨骼类别；海星虽没有脊柱，但有内部骨板，因此选D。
+English: Q is the endoskeleton category of invertebrates; a starfish has internal skeletal plates despite lacking a backbone, giving D."
+,radio,F4 Chp 8,A,B,C,D,C,Picture14.png,"中文：胰腺分泌胰岛素，帮助降低血糖；若移除胰腺，胰岛素不足会导致血糖升高。
+English: The pancreas secretes insulin to lower blood glucose; removing it causes insulin deficiency and raised blood glucose."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：长期过量饮酒可损伤肝、心脏和消化系统，引起肝硬化、心脏问题及胃溃疡，因此Y为酒精。
+English: Long-term excessive alcohol intake can damage the liver, heart and digestive system, causing cirrhosis, heart problems and stomach ulcers, so Y is alcohol."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：离子物质熔融后，正负离子能自由移动并传递电荷，所以可导电。
+English: When an ionic substance melts, its positive and negative ions can move freely and carry charge, so it conducts electricity."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：质子数18是氩，电子排列2.8.8，位于第3周期第18族，图中为S。
+English: Proton number 18 is argon, with electron arrangement 2.8.8 in period 3 and group 18, labelled S."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：钴-60释放的伽马射线能杀死食品中的微生物，延缓腐败而帮助保存食品。
+English: Gamma radiation from cobalt-60 kills microorganisms in food, delaying spoilage and aiding preservation."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：铜与锌的合金是黄铜loyang；铜与锡的合金才是青铜gangsa。
+English: The alloy of copper and zinc is brass, or loyang; copper with tin forms bronze, or gangsa."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：陶瓷耐磨、稳定且可制作外形类似牙齿的材料，因此课本列假牙为陶瓷应用。
+English: Ceramics are durable and stable and can be shaped to resemble teeth, so dentures are a textbook application of ceramics."
+,radio,F4 Chp 12,A,B,C,D,A,Picture21.png,"中文：长链分子被拆成较小单体，是解聚depolymerisation；聚合则是把单体连接成长链。
+English: Breaking a long molecular chain into smaller monomers is depolymerisation; polymerisation joins monomers into long chains."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：代谢发生在体内，反应过程可产生自由基；辐射、空气污染和紫外线属于外部因素。
+English: Metabolism occurs inside the body and can produce free radicals; radiation, air pollution and ultraviolet exposure are external factors."

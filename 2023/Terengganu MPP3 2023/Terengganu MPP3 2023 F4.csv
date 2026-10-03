@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Terengganu MPP3 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Terengganu MPP3 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：ABC灭火器的课本优点之一是容易维护，并可用于多类火灾，因此选B。
+English: A textbook advantage of an ABC extinguisher is easy maintenance, alongside suitability for several fire classes, giving B."
+,radio,F4 Chp 2,A,B,C,D,B,Picture2.png,"中文：仍清醒、有心跳的食物哽塞者应按哽塞情况处理，并非直接进行CPR，因此选B；CPR针对无反应且无正常呼吸等情况。
+English: A conscious choking person with circulation needs appropriate choking first aid rather than immediate CPR, giving B; CPR is for conditions such as unresponsiveness with absent normal breathing."
+,radio,F4 Chp 3,A,B,C,D,A,Picture3.png,"中文：BMI=50÷1.56²≈20.55，四舍五入为20.6 kg/m²，因此选A。
+English: BMI = 50 ÷ 1.56² ≈ 20.55, rounded to 20.6 kg/m², giving A."
+,radio,F4 Chp 3,A,B,C,D,D,Picture4.png,"中文：题目问预防厨余浪费的方法，D按实际需要准备适量食物，可从源头减少剩余食物。堆肥和生物能源是废物产生后的处理方法。
+English: The question asks how to prevent food waste. D, preparing food according to need, reduces leftovers at the source. Composting and biomass energy treat waste after it has been produced."
+,radio,F4 Chp 4,A,B,C,D,C,Picture5.png,"中文：过量施用农业化学品可增加土壤酸度，影响土壤和植物，因此本题选择C。
+English: Excessive agricultural chemical use can increase soil acidity and affect soil and plants, giving C in this question."
+,radio,F4 Chp 4,A,B,C,D,A,Picture6.png,"中文：Bb×BB的后代可以为BB或Bb，两者都能卷舌；本组选项只有A的BB与能卷舌配对正确。
+English: Bb × BB can produce BB or Bb, both able to roll the tongue; among the listed choices only A correctly pairs BB with tongue rolling."
+,radio,F4 Chp 5,A,B,C,D,A,Picture7.png,"中文：性别属于有明确类别的不连续变异；身高、体重及肤色在课本分类属于连续变异。
+English: Sex is a discontinuous variation with distinct categories; height, body mass and skin colour are continuous in the textbook classification."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：蝎子是节肢动物，具有坚硬、表面带蜡的几丁质外骨骼，保护和支持身体。
+English: A scorpion is an arthropod with a hard, wax-covered chitinous exoskeleton that protects and supports the body."
+,radio,F4 Chp 6,A,B,C,D,A,Picture9.png,"中文：生长曲线在婴幼儿P和青春期R最陡，表示这两个时期身高增长最快，因此选A。
+English: The growth curve is steepest during infancy P and adolescence R, indicating fastest height increase, giving A."
+,radio,F4 Chp 6,A,B,C,D,C,Picture10.png,"中文：垂体pituitary gland称为主腺，其激素控制其他多种内分泌腺的活动。
+English: The pituitary is called the master gland because its hormones regulate several other endocrine glands."
+,radio,F4 Chp 7,A,B,C,D,D,Picture11.png,"中文：电子数2+8+8+1=19，中性原子质子数也是19；中子数=39−19=20，因此选D。
+English: Electron number = 2 + 8 + 8 + 1 = 19, so a neutral atom also has 19 protons; neutrons = 39 − 19 = 20, giving D."
+,radio,F4 Chp 8,A,B,C,D,C,Picture12.png,"中文：按本题课本知识，碳-14用于测定曾为生物的遗存年龄，因此选C。
+English: In this textbook question, carbon-14 dates remains of once-living material, giving C."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：铅玻璃折射率高，能明显折射和色散光，适合制作光学棱镜，因此选D。
+English: Lead glass has a high refractive index and refracts and disperses light strongly, making it suitable for optical prisms, giving D."
+,radio,F4 Chp 8,A,B,C,D,A,Picture14.png,"中文：塑料袋等聚乙烯产品由乙烯单体聚合形成，因此单体为etena，选A。
+English: Polyethene products such as plastic bags are formed by polymerising ethene monomers, giving etena, A."
+,radio,F4 Chp 9,A,B,C,D,D,Picture15.png,"中文：本题课本所指补充医学通常采用按摩、针灸等非手术方式，不涉及外科手术和缝合，因此选D。
+English: The textbook's complementary medicine uses approaches such as massage and acupuncture rather than surgical operations and stitching, giving D."
+,radio,F4 Chp 9,A,B,C,D,C,Picture16.png,"中文：阿司匹林和同类图示药物属于止痛药analgesics，用于减轻疼痛，因此选C。
+English: Aspirin and the similar pictured medicine are analgesics used to relieve pain, giving C."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：真空自由落体只受重力，物体具有相同重力加速度；空气中阻力会使实际下落加速度不同。A的“重力加速度不同”应理解为合力造成的下落加速度不同。
+English: Free fall in a vacuum involves gravity alone and the same gravitational acceleration; air resistance can change actual falling acceleration. A's phrase “different gravitational acceleration” should mean different net falling acceleration."
+,radio,F4 Chp 10,A,B,C,D,B,Picture18.png,"中文：惯性天平利用振动特性测量质量，不依赖物体重量，适用于太空微重力环境。
+English: An inertial balance measures mass through oscillation rather than weight, making it suitable for microgravity in space."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：放射性废物可长期释放电离辐射，若处理不当会损害健康，因此选C。
+English: Radioactive waste may emit ionising radiation for long periods and harm health if poorly managed, giving C."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：核裂变是重核分裂成较轻核，核聚变是轻核结合成较重核，因此D配对正确。
+English: Fission splits a heavy nucleus into lighter nuclei, while fusion combines light nuclei into a heavier one, so D is correct."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：图中有孢子囊和菌丝，是霉菌Mucor，而非单细胞酵母、细菌或原生动物。
+English: The diagram shows sporangia and hyphae, identifying the mould Mucor rather than yeast, bacteria or protozoa."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：课本中生态酶把油脂分解成较小分子，减少排水堵塞；传统化学清洁剂会产生泡沫，D依此配对。
+English: In the textbook, ecoenzymes break fats into smaller molecules that reduce drain blockage, while conventional chemical cleaners produce foam, matching D."

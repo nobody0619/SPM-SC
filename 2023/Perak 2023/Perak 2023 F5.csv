@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perak 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：抗菌剂antiseptic可用于活体皮肤，减少伤口微生物感染；消毒剂不是伤口清洗的同类用品。
+English: Antiseptics can be used on living skin to reduce wound infection; disinfectants are not the equivalent products for washing wounds."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：经常吃油炸、甜食和快餐，容易长期摄入过多能量并积累脂肪，增加肥胖风险。
+English: Frequent fried food, sweets and fast food can lead to sustained excess energy intake and fat accumulation, increasing obesity risk."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：J为硝化细菌，把铵化合物转变为亚硝酸盐再形成硝酸盐，增加土壤中植物可吸收的硝酸盐。
+English: J represents nitrifying bacteria, which convert ammonium compounds into nitrites and then nitrates, increasing plant-available nitrate in the soil."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：Belimbing Bintang Mas是优良杨桃品种，种植这种高品质品种属于采用优良品种的例子。
+English: Belimbing Bintang Mas is a quality starfruit variety; growing it is an example of using an improved breed or variety."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：活动在29.11.2023，B的最佳食用日期为1.12.2023，晚于活动日期；其他三包的日期已经到期或早于活动。
+English: The event is on 29 November 2023; B has a best-before date of 1 December 2023, later than the event, unlike the other three packages."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：应带走塑料并交付回收，避免在自然环境留下垃圾或燃烧塑料产生污染。
+English: Take the plastic home for recycling, preventing litter in the natural environment and pollution from burning it."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：燃烧木炭在短时间内发生并释放热，属于快反应；生锈、发酵和光合作用相对较慢。
+English: Charcoal combustion occurs over a short time and releases heat, making it a fast reaction compared with rusting, fermentation and photosynthesis."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：反应速率等于气体体积时间图的斜率；A处最陡，所以反应速率最高。
+English: Reaction rate is the slope of the gas-volume–time graph; the curve is steepest at A, so its rate is highest."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：石油主要由有机碳化合物中的碳氢化合物组成；二氧化碳属于无机碳化合物，金刚石只是碳元素。
+English: Petroleum mainly contains hydrocarbons, which are organic carbon compounds; carbon dioxide is inorganic and diamond is elemental carbon."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：酵母在缺氧情况下发酵葡萄糖，生成乙醇及二氧化碳，所以X是乙醇。
+English: Yeast ferments glucose without oxygen, producing ethanol and carbon dioxide, so X is ethanol."
+,radio,F5 Chp 6,A,B,C,D,C,Picture33.png,"中文：棕榈油是由甘油和脂肪酸组成的脂肪，通常以甘油三酯形式存在，因此选C。
+English: Palm oil is fat made from glycerol and fatty acids, mainly as triglycerides, giving C."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：K应为饱和脂肪，本组选项应选C椰子油；鱼油主要含不饱和脂肪。现有答案A与图中的分类不符，保留并注明待核对。
+English: K represents saturated fat, for which C, coconut oil, is the appropriate listed example; fish oil mainly contains unsaturated fats. Existing answer A conflicts with the diagram and is retained for review."
+,radio,F5 Chp 7,A,B,C,D,B,Picture35.png,"中文：硫酸根SO₄²⁻带负电，是硫酸铜溶液中的阴离子；Cu²⁺和H⁺带正电，是阳离子。
+English: The sulfate ion, SO₄²⁻, is negatively charged and is an anion in copper sulfate solution; Cu²⁺ and H⁺ are cations."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：固定镁电极时，银与镁在电化学序列距离最大，因此用银替代锌可得到最高电压。
+English: With magnesium fixed, silver has the greatest separation from it in the electrochemical series, so replacing zinc with silver gives the highest voltage."
+,radio,F5 Chp 8,A,B,C,D,A,Picture37.png,"中文：望远镜物镜要较长焦距T=55 cm，目镜用较短焦距R=8 cm；正常调整镜距为55+8=63 cm，因此选A。
+English: The telescope uses long-focus objective T, 55 cm, and short-focus eyepiece R, 8 cm; normal-adjustment separation is 55 + 8 = 63 cm, giving A."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：放大镜为凸透镜，物体位于焦距内时形成正立、虚且放大的像，因此选C。
+English: A magnifying glass is a convex lens; an object within its focal length forms an upright, virtual, magnified image, giving C."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：K的竖管水柱高于M，表示K压力较高；L处管径较小，流速较快、压力较低，因此D正确。
+English: The water column at K is higher than at M, indicating higher pressure at K; narrow section L has faster flow and lower pressure, so D is correct."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：十进制度=6+12÷60+42.05÷3600≈6.211681°N，因此选D。
+English: Decimal degrees = 6 + 12 ÷ 60 + 42.05 ÷ 3600 ≈ 6.211681°N, giving D."

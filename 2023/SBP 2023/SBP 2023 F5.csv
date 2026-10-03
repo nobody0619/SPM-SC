@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-SBP 2023 F5,radio,F5 Chp 1,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+SBP 2023 F5,radio,F5 Chp 1,A,B,C,D,D,Picture23.png,"中文：真空中没有空气阻力，硬币与叶子以相同重力加速度下落，从相同高度同时释放会同时落地。
+English: In a vacuum there is no air resistance; the coin and leaf have the same gravitational acceleration and land together when released from the same height."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：装满沙的桶质量较大，惯性较大，更难改变其运动状态，因此选A。
+English: A bucket full of sand has greater mass and inertia, making its state of motion harder to change, giving A."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：两个较轻原子核结合成较重原子核并释放能量，称为核聚变fusion。
+English: Two light nuclei combining into a heavier nucleus and releasing energy is nuclear fusion."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：图中发酵食品依靠真菌活动制成，因此选B；酵母本身也属于真菌。
+English: The pictured fermented product is made using fungal activity, giving B; yeast itself belongs to the fungi."
+,radio,F5 Chp 3,A,B,C,D,A,Picture27.png,"中文：维生素D不足影响钙吸收，导致儿童骨骼软弱的佝偻病rickets，因此选A。
+English: Vitamin D deficiency impairs calcium absorption and causes rickets, which weakens children's bones, giving A."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：叶面出现褐斑是题目中的缺钾症状，应补充钾肥，因此选A。
+English: Brown leaf spots indicate potassium deficiency in this question, so potassium fertiliser should be supplied, giving A."
+,radio,F5 Chp 4,A,B,C,D,C,Picture29.png,"中文：轮作可改变各季作物的营养需求，配合豆科作物还可增加土壤氮，帮助维持土壤肥力。
+English: Crop rotation varies nutrient demands between seasons; including legumes can also increase soil nitrogen, helping maintain fertility."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：动物尸体增加有机污染，微生物分解时消耗更多氧，使生化需氧量BOD上升。
+English: Animal carcasses increase organic pollution; decomposition consumes more oxygen and raises biochemical oxygen demand, BOD."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：微藻通过光合作用吸收二氧化碳，将碳固定在有机物中，因此可用于负排放科技。
+English: Microalgae absorb carbon dioxide through photosynthesis and fix its carbon into organic matter, supporting negative-emission technology."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：提高气体压力会使气体粒子更密集，提高碰撞频率；压力是特别针对气体反应的速率因素。
+English: Increasing gas pressure packs particles more closely and raises collision frequency; pressure is a rate factor specifically important for gaseous reactants."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：白垩主要为碳酸钙CaCO₃，是无机碳化合物；燃料和食用油主要属于有机物。
+English: Chalk is mainly calcium carbonate, CaCO₃, an inorganic carbon compound; fuels and cooking oils are mainly organic."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：乙醇易燃，不应直接用火焰加热；水浴提供较安全的间接加热，因此选A。
+English: Ethanol is flammable and should not be heated directly with a flame; a water bath provides safer indirect heating, giving A."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：熔融溴化铅(II)含Pb²⁺阳离子和Br⁻阴离子，因此选A。
+English: Molten lead(II) bromide contains Pb²⁺ cations and Br⁻ anions, giving A."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：镁较活泼，在负极失去电子变为Mg²⁺进入溶液，所以镁片逐渐溶解，选C。
+English: More reactive magnesium loses electrons at the negative electrode to become Mg²⁺ in solution, so the plate gradually dissolves, giving C."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：封闭系统不能与外界交换物质，但仍可交换能量，因此选C。
+English: A closed system does not exchange matter with its surroundings, although it can exchange energy, giving C."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：焦距是透镜光心到平行光汇聚焦点的距离，图中为B，不是透镜前方或焦点后的距离。
+English: Focal length is the distance from the lens's optical centre to where parallel rays converge, labelled B, not the distance before the lens or beyond the focus."
+,radio,F5 Chp 9,A,B,C,D,A,Picture39.png,"中文：液压系统内的压力由施加在小活塞上的力与面积决定，并通过液体传递，因此选A。
+English: Pressure in a hydraulic system is set by the force and area at the small piston and transmitted through the liquid, giving A."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：卫星轨道可呈圆形或椭圆形，因此选A。
+English: Satellite orbits can be circular or elliptical, giving A."

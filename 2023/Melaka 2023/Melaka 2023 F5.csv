@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2023 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2023 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png,"中文：电离辐射可损伤造血细胞的遗传物质，增加白血病等癌症风险。
+English: Ionising radiation can damage genetic material in blood-forming cells and increase the risk of leukaemia."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：酵母发酵糖产生酒精与二氧化碳，可用于食品和饮料制造。
+English: Yeast ferments sugar to alcohol and carbon dioxide and is used in food and drink production."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：香港脚是由真菌引起，因此题目所选治疗类别为抗真菌药。
+English: Athlete's foot is caused by fungi, so the intended treatment category is an antifungal."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：C 总能量 = 20 × 15.5 + 30 × 10.5 + 300 × 2.6 = 1,405 kJ，比其余组合高。
+English: Set C provides 20 × 15.5 + 30 × 10.5 + 300 × 2.6 = 1,405 kJ, the highest total."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：磷促进根部生长；缺磷的幼苗会出现根系生长不良。
+English: Phosphorus supports root development, so phosphorus deficiency causes poor root growth."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：硼酸是人工化学品，符合本题的人工防腐剂分类；这只是题目辨认，不代表允许或适合用于食品。
+English: Boric acid is a synthetic chemical matching the item's artificial-preservative category; this does not mean it is permitted or suitable for food use."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：泥球中的有效微生物可包含酵母，帮助处理有机污染物。
+English: Effective-microorganism mud balls may contain yeast that helps process organic pollutants."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：P 曲线初期较陡，反应较快，但终点气体量相同；催化剂提高速率而不增加总产量。
+English: P has a steeper initial curve but the same final gas volume; a catalyst increases rate without increasing total yield."
+,radio,F5 Chp 5,A,B,C,D,A,Picture31.png,"中文：X 为接触法催化剂，提供较低活化能的反应途径，加快反应。
+English: X is the Contact-process catalyst, providing a lower-activation-energy pathway and increasing reaction rate."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：结构含三粒碳且只有单键，为丙烷 C3H8。
+English: Three carbon atoms joined by single bonds identify propane, C3H8."
+,radio,F5 Chp 6,A,B,C,D,C,Picture33.png,"中文：发酵液蒸馏得到较高浓度乙醇，可作为某些药物的溶剂。
+English: Distillation of fermented liquid yields more concentrated ethanol, which can serve as a solvent for medicines."
+,radio,F5 Chp 6,A,B,C,D,D,Picture34.png,"中文：酥油主要属于动物来源的饱和脂肪；题中其他选项是以不饱和脂肪为主的植物油。
+English: Ghee is rich in saturated animal fat; the other listed oils are predominantly unsaturated vegetable oils."
+,radio,F5 Chp 7,A,B,C,D,D,Picture35.png,"中文：氯化钠溶液含自由移动的钠离子和氯离子，可作为电解质导电。
+English: Sodium chloride solution contains mobile sodium and chloride ions that conduct electricity."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：镁与铜在电化学序列相距最远，产生较大电势差，预期偏转最大，应为 D。原答案 C 的铅与题意不符。
+English: Magnesium and copper are furthest apart in the electrochemical series and give the greatest potential difference, so D is expected; original key C, lead, conflicts."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：图示凹透镜形成正立、缩小的虚像，选项 C 正确；原答案 B 的倒像不符合凹透镜成像。
+English: A concave lens forms an upright, diminished virtual image, matching C; the original key B, inverted, is inconsistent."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：总放大率 = 物镜放大率 × 目镜放大率；物镜 = 832 ÷ 16 = 52 倍。
+English: Objective magnification = total magnification/eyepiece magnification = 832/16 = 52 times."
+,radio,F5 Chp 9,A,B,C,D,C,Picture39.png,"中文：面积比不变时，输出力与输入力成正比；输入 10 N 到 20 N，输出由 200 N 到 400 N。
+English: With a fixed area ratio, output force is proportional to input force; doubling 10 N to 20 N doubles 200 N to 400 N."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：第一坐标是纬度；负纬度表示位于赤道以南，即南半球。
+English: The first coordinate is latitude; a negative latitude indicates the southern hemisphere."

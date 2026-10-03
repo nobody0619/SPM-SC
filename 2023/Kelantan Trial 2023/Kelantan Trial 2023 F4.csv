@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan Trial 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan Trial 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：泡沫覆盖燃油表面，隔绝氧气，适合油类火灾；水可能使燃油扩散。
+English: Foam blankets the fuel and cuts off oxygen, making it suitable for oil fires; water may spread burning oil."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：先站在身后并稍微前倾 N，再环抱 O、把拳头放于肚脐上方 M，最后向内上方快速施压 P。
+English: The textbook sequence is N–O–M–P: stand behind, wrap the arms, position the fist and give upward thrusts."
+,radio,F4 Chp 3,A,B,C,D,B,Picture3.png,"中文：血压常用单位是毫米汞柱，符号 mmHg。
+English: Blood pressure is commonly expressed in millimetres of mercury, mmHg."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：BMI=42÷1.4²=21.43 kg/m²，属于正常或理想体重范围。
+English: BMI = 42/1.4² = 21.43 kg/m², within the normal or desirable-weight range."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：把旧轮胎重新加工成可用材料或产品，可减少堆积与废物，优于焚烧或随意弃置。
+English: Reusing or recycling old tyres into useful products reduces waste and is preferable to burning or dumping them."
+,radio,F4 Chp 4,A,B,C,D,D,Picture6.png,"中文：砍伐森林减少光合作用吸收二氧化碳，使更多温室气体留在大气中。
+English: Deforestation reduces photosynthetic carbon-dioxide uptake, leaving more greenhouse gas in the atmosphere."
+,radio,F4 Chp 5,A,B,C,D,D,Picture7.png,"中文：Mm × mm 产生一半 Mm 红花、一半 mm 黄花，符合 1:1 表型比例。
+English: Mm × mm produces 50% Mm red flowers and 50% mm yellow flowers, matching the 1:1 ratio."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：遗传工程把具有所需性状的基因转入作物，可改善大小、耐贮性及抗病性。
+English: Genetic engineering transfers useful genes into crops to improve size, storage life and disease resistance."
+,radio,F4 Chp 6,A,B,C,D,D,Picture9.png,"中文：水中浮力分担鲸的重量，使其身体能长得很大而不全靠骨骼支撑。
+English: Buoyancy supports part of a whale's weight, allowing a large body without relying entirely on the skeleton."
+,radio,F4 Chp 6,A,B,C,D,C,Picture10.png,"中文：图中老年阶段不再增高，甚至出现负增长；C 表达身高增长停止，并不代表所有细胞活动停止。
+English: The graph shows no further height increase in old age and some decline; C refers to height growth, not all cellular activity."
+,radio,F4 Chp 7,A,B,C,D,A,Picture11.png,"中文：紧急情况下肾上腺分泌肾上腺素，提高代谢及心跳，使身体准备应付危险。
+English: Adrenaline released during an emergency increases metabolism and heart rate to prepare the body for action."
+,radio,F4 Chp 8,A,B,C,D,D,Picture12.png,"中文：药物和酒精可抑制或减慢神经冲动传递，使反射反应变慢。
+English: Drugs and alcohol can inhibit or slow nerve-impulse transmission, delaying reflex responses."
+,radio,F4 Chp 8,A,B,C,D,B,Picture13.png,"中文：钠的核子数 23、质子数 11，中子数 = 23 − 11 = 12。
+English: The neutron number of sodium is 23 − 11 = 12."
+,radio,F4 Chp 8,A,B,C,D,A,Picture14.png,"中文：碳-14 可作为碳吸收的示踪物，也可用于估计含碳古物的年代。
+English: Carbon-14 can trace carbon uptake and estimate the age of carbon-containing artefacts."
+,radio,F4 Chp 9,A,B,C,D,A,Picture15.png,"中文：聚乙烯是轻、柔韧且防水的塑料，常用于塑料袋或薄膜。原答案 A 的产品图不清楚，与常见用途难以核对，暂保留原答案。
+English: Polythene is light, flexible and waterproof, commonly used for bags and films. Product A is unclear and difficult to match to this use; the original key is retained."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：合金化把铁与其他元素结合，可改善硬度和耐腐蚀性，例如不锈钢。
+English: Alloying iron with other elements can improve hardness and corrosion resistance, as in stainless steel."
+,radio,F4 Chp 10,A,B,C,D,B,Picture17.png,"中文：止痛药 Analgesics 缓解疼痛；抗生素主要针对细菌感染。
+English: Analgesics relieve pain, whereas antibiotics primarily treat bacterial infections."
+,radio,F4 Chp 10,A,B,C,D,B,Picture18.png,"中文：青柠汁含抗氧化物及酸，可抑制切开苹果的氧化褐变。
+English: Lime juice contains antioxidants and acid that inhibit oxidative browning of cut apples."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：自由落体指物体只受重力作用，忽略空气阻力，不是同时受重力和空气阻力。
+English: Free fall means motion under gravity alone, with air resistance neglected."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：50 Hz打点器每间隔0.02 s；30 cm横跨10个间隔，时间0.20 s，所以速度=30÷0.20=150 cm/s，选D。
+English: At 50 Hz each interval is 0.02 s; 30 cm spans 10 intervals taking 0.20 s, so speed = 30/0.20 = 150 cm/s, giving D."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：太阳及其他恒星内部，轻核结合成较重核并释放能量，是核聚变的自然例子。
+English: The Sun and other stars release energy by fusion, in which light nuclei combine into heavier nuclei."
+,radio,F4 Chp 12,A,B,C,D,C,Picture22.png,"中文：石墨慢化剂减慢高速中子，使中子更容易被铀核吸收并引发后续裂变。
+English: A graphite moderator slows fast neutrons so they can more readily cause further uranium fission."

@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kedah Trial 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,B,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,D,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kedah Trial 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：活泼金属与水反应可能喷溅，护目镜保护眼睛，实验衣保护皮肤与衣物。
+English: Reactive metals may splash when reacting with water; goggles protect the eyes and a lab coat protects the body."
+,radio,F4 Chp 2,A,B,C,D,B,Picture2.png,"中文：按课本实验室规则，pH 5 至 9 的少量合适液体可排入水槽，因此 pH 6 的稀酸符合范围。
+English: Under textbook laboratory rules, suitable small liquid wastes with pH 5–9 may enter the sink; pH 6 is within this range."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：胸外按压过快会影响心脏充盈与有效供血，不能良好输送含氧血至脑；课本建议每分钟 100–120 次。
+English: Excessively fast compressions reduce effective circulation, so oxygenated blood is not supplied well to the brain; the textbook rate is 100–120 per minute."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：Y 是临床温度计的缩口，可阻止水银迅速回流，方便读取最高体温。
+English: Y is the constriction, which prevents mercury flowing back immediately and allows the temperature to be read."
+,radio,F4 Chp 4,A,B,C,D,D,Picture5.png,"中文：BMI 26.58 位于 25.0–29.9，属于体重过重，尚未达到肥胖的 30 或以上。
+English: A BMI of 26.58 lies in the overweight range, 25.0–29.9, below the obesity threshold of 30."
+,radio,F4 Chp 4,A,B,C,D,C,Picture6.png,"中文：能源效率标签帮助选择省电电器，减少耗电和能源资源使用。
+English: The energy-efficiency label helps users select appliances that consume less electricity and conserve energy resources."
+,radio,F4 Chp 5,A,B,C,D,B,Picture7.png,"中文：食物废料占最高的 44.5%；按家庭需求准备适量食物，可从源头减少浪费。
+English: Food waste is highest at 44.5%; preparing food according to household needs reduces waste at its source."
+,radio,F4 Chp 5,A,B,C,D,B,Picture8.png,"中文：同源染色体交换片段是减数分裂的交叉互换，可产生新的基因组合。
+English: The exchange of segments between homologous chromosomes is crossing over, producing new gene combinations."
+,radio,F4 Chp 6,A,B,C,D,B,Picture9.png,"中文：直方图呈连续范围和中间值，属于连续变异；身高是典型例子。
+English: The histogram shows a continuous range with intermediate values; height is an example of continuous variation."
+,radio,F4 Chp 6,A,B,C,D,D,Picture10.png,"中文：长颈鹿把前脚分开，增大支撑底面积，弯下喝水时较稳定。
+English: Spreading the front legs enlarges the base of support and improves stability while the giraffe drinks."
+,radio,F4 Chp 7,A,B,C,D,D,Picture11.png,"中文：M 指上臂后方的三头肌；屈肘时二头肌收缩，三头肌放松。
+English: M is the triceps at the back of the upper arm; it relaxes while the biceps contracts during elbow flexion."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：A是位于肾脏上方的肾上腺，分泌肾上腺素，因此选A。
+English: A is the adrenal gland above the kidney, which secretes adrenaline, giving A."
+,radio,F4 Chp 8,A,B,C,D,B,Picture13.png,"中文：巴比妥类是抑制剂，会减慢神经冲动传递，使使用者嗜睡和焦虑减轻。
+English: Barbiturates are depressants that slow nerve impulses and cause drowsiness and reduced anxiety."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：质子数 = 39 − 20 = 19；电子排列 2.8.8.1，一粒价电子属第 1 族，四层电子属第 4 周期。
+English: Proton number = 39 − 20 = 19; arrangement 2.8.8.1 gives Group 1 and Period 4."
+,radio,F4 Chp 9,A,B,C,D,C,Picture15.png,"中文：X 与 Y 的质子数同为 11，但核子数为 24 和 23，因此是同位素。
+English: X and Y have the same proton number, 11, but different nucleon numbers, 24 and 23, so they are isotopes."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：酸使胶乳粒子失去相互排斥的电荷，粒子聚集而凝固；碱则可延迟凝固。
+English: Acid neutralises the charges on latex particles, allowing them to aggregate and coagulate; alkali delays coagulation."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：辅助疗法可配合其他医疗方式，并考虑其他医疗人员意见，不是以手术为主要特点。
+English: Complementary medicine may be used alongside other care and considers the views of other medical practitioners."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：P 为伤害细胞的自由基；炎症是产生自由基的内部因素，辐射和烟雾是外部因素。
+English: P represents free radicals; inflammation is an internal source, whereas radiation and cigarette smoke are external factors."
+,radio,F4 Chp 11,A,B,C,D,B,Picture19.png,"中文：位移时间图斜率表示速度；OP斜率50÷2=25 m/s且恒定，PQ为水平线、速度0，因此选B。
+English: The slope of a displacement–time graph gives velocity; OP has constant slope 50/2 = 25 m/s, while horizontal PQ has zero velocity, giving B."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：同速度下，较大质量有较大惯性，较难停下；B 的惯性较大，因此其质量比 A 大。
+English: At the same speed, greater mass gives greater inertia and makes stopping harder; vehicle B therefore has greater mass than A."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：铀核裂变释放能量和中子，中子引发更多裂变，持续链式反应可释放大量能量。
+English: Fission releases energy and neutrons that cause further fission, so a sustained chain reaction releases a large amount of energy."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：核能可替代部分煤、石油和天然气发电，减少对化石燃料的依赖，但仍须处理放射性废料。
+English: Nuclear power replaces some fossil-fuel generation and reduces dependence on fossil fuels, although radioactive waste still requires management."

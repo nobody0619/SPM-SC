@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Sarawak Subis Miri 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Sarawak Subis Miri 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：化学品溅入眼睛应立即使用洗眼器冲洗，减少化学物与眼睛接触，因此选B。
+English: Immediately rinse a chemical splash from the eyes using the eyewash station to reduce contact with the chemical, giving B."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：正确选项为D：胸外按压频率100至120次/分，双臂应伸直而非弯曲。现有答案C与正确姿势相反，需核对答案表。
+English: D is correct: chest compressions are performed at 100–120 per minute with straight rather than bent arms. Existing C contradicts correct posture and requires answer-table review."
+,radio,F4 Chp 3,A,B,C,D,A,Picture3.png,"中文：为了公平比较不同活动后的脉搏，应保持各活动持续时间相同，因此选A。
+English: Keep the duration of each activity the same for a fair comparison of pulse rates after different activities, giving A."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：Amira BMI20.1属理想体重，Fasha33.4属肥胖，因此应选C。现有A把BMI16.5的Fatin列为理想体重，不符合分类。
+English: Amira's BMI of 20.1 is desirable and Fasha's 33.4 is obese, giving C. Existing A incorrectly treats Fatin's BMI of 16.5 as desirable."
+,radio,F4 Chp 4,A,B,C,D,D,Picture5.png,"中文：应在排放前处理工业污水，实际减少污染物，因此选A。现有D只检测污染物，监测本身不能消除污染。
+English: Treat industrial effluent before release to actually reduce pollutants, giving A. Existing D only tests pollution levels; monitoring alone does not remove pollution."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：顺序为前期S→中期Q→后期R→末期及胞质分裂P，因此选B。
+English: The sequence is prophase S → metaphase Q → anaphase R → telophase and cytokinesis P, giving B."
+,radio,F4 Chp 5,A,B,C,D,C,Picture7.png,"中文：基因工程可使细菌生产胰岛素和酶，是医疗益处；题目把误用所致的遗传风险列为弊端，答案C依此配对。
+English: Genetic engineering can make bacteria produce insulin and enzymes, a medical benefit; this question pairs it with genetic risks from misuse as the stated disadvantage, giving C."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：蟑螂有外骨骼，必须蜕皮后身体才能明显长大，因此生长曲线呈阶梯形。
+English: A cockroach has an exoskeleton and grows appreciably after moulting, producing a staircase growth curve."
+,radio,F4 Chp 6,A,B,C,D,A,Picture9.png,"中文：骨关节炎使软骨磨损，骨端摩擦造成关节疼痛和运动困难，因此应选C。现有A为进食困难，不对应图示关节问题。
+English: Osteoarthritis wears down cartilage, causing friction, pain and difficulty moving, so C is appropriate. Existing A, difficulty eating, does not match the illustrated joint problem."
+,radio,F4 Chp 6,A,B,C,D,B,Picture10.png,"中文：图示支柱根从茎基部向土壤生长，增加稳定性，玉米具有这类支持根，因此选B。
+English: The stilt roots shown grow from the lower stem into soil and increase stability; maize has such support roots, giving B."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：按SPM常考内容，B肾上腺的肾上腺素会升高血糖。现有答案C为胰腺；它也分泌升糖的胰高血糖素，但不能用降糖的胰岛素解释C，因此本题单一答案存在课程范围歧义。
+English: In the usual SPM treatment, adrenaline from adrenal gland B raises blood glucose. Existing C is the pancreas, which also secretes glucose-raising glucagon; insulin lowers glucose and cannot explain C, so the single answer is ambiguous in relation to syllabus scope."
+,radio,F4 Chp 8,A,B,C,D,C,Picture12.png,"中文：镇静剂降低神经系统活动，因此“增加神经系统活动”A才是不属于镇静剂作用的选项。现有C减少压力实际上是其作用，需核对。
+English: Depressants reduce nervous-system activity, so A, increasing that activity, is the exception. Existing C, reducing stress, is an effect and requires review."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：食盐由Na⁺和Cl⁻等离子组成，应选B；水由分子组成，所以现有D不正确。
+English: Salt consists of ions such as Na⁺ and Cl⁻, giving B; water consists of molecules, so existing D is incorrect."
+,radio,F4 Chp 8,A,B,C,D,D,Picture14.png,"中文：Q质子数3排列2.1，R质子数11排列2.8.1，都有一个价电子、化学性质相似，应选C。现有D把P的5个价电子与R的1个视为相同，错误。
+English: Q, proton number 3, is 2.1 and R, number 11, is 2.8.1; both have one valence electron and similar chemical properties, giving C. Existing D wrongly equates P's five valence electrons with R's one."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：陶瓷坚硬且对化学物较稳定，能承受咀嚼并不易与口腔物质反应，适合制作假牙。
+English: Ceramics are hard and chemically inert, resisting chewing wear and reactions in the mouth, making them suitable for dentures."
+,radio,F4 Chp 9,A,B,C,D,B,Picture16.png,"中文：硫在橡胶聚合物链间形成交联，提高耐用性，所以应选C。现有B说断开单体间的键，与硫化原理相反。
+English: Sulfur forms cross-links between rubber polymer chains and improves durability, giving C. Existing B says it breaks bonds between monomers, contrary to vulcanisation."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：脚癣由真菌感染造成，不是自由基的主要作用，因此在“不是”题中选A。
+English: Athlete's foot is caused by fungal infection rather than the main effects of free radicals, so it is the exception, A."
+,radio,F4 Chp 10,A,B,C,D,D,Picture18.png,"中文：依课本，黄瓜和洋葱提供抗氧化成分，可帮助中和烧烤过程中产生的自由基，因此选D。
+English: In the textbook context, cucumber and onion provide antioxidants that help neutralise free radicals produced during grilling, giving D."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：15秒时图线位于10 m/s的水平段，应选A。现有答案C为20 m/s，与图读数不符。
+English: At 15 seconds the graph is on the horizontal section at 10 m/s, giving A. Existing C, 20 m/s, disagrees with the graph."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：真空中没有空气阻力，羽毛和硬币有相同重力加速度，同时落地，应选C。现有D说羽毛先落，不符合实验。
+English: Without air resistance in a vacuum, the feather and coin have the same gravitational acceleration and land together, giving C. Existing D wrongly says the feather lands first."
+,radio,F4 Chp 12,A,B,C,D,D,Picture21.png,"中文：油轮质量大、惯性大，倾向维持原来运动，所以正确选项A；现有D势能不能解释持续运动。
+English: The tanker's large mass gives large inertia, so it tends to maintain motion, giving A; existing D, potential energy, does not explain this behaviour."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：核电站需要水作为冷却介质，所以应靠近水源，选D。现有A声称污染高于石油，不能说明选址要求。
+English: A nuclear power station needs cooling water and should be near a water source, giving D. Existing A's claim about greater pollution than petroleum does not state this siting requirement."

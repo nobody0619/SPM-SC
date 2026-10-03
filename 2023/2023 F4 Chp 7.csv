@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 7,radio,KedahTrial2023_Q11,A,B,C,D,D,Kedah Trial 2023/Picture11.png
-F4 Chp 7,radio,KelantanTrial2023_Q11,A,B,C,D,A,Kelantan Trial 2023/Picture11.png
-F4 Chp 7,radio,MaahadJohor2023_Q11,A,B,C,D,C,Maahad Johor 2023/Picture11.png
-F4 Chp 7,radio,NegeriSembilan2023_Q11,A,B,C,D,C,Negeri Sembilan 2023/Picture11.png
-F4 Chp 7,radio,PahangTrial2023_Q11,A,B,C,D,C,Pahang Trial 2023/Picture11.png
-F4 Chp 7,radio,Melaka2023_Q11,A,B,C,D,A,Melaka 2023/Picture11.png
-F4 Chp 7,radio,Perak2023_Q11,A,B,C,D,B,Perak 2023/Picture11.png
-F4 Chp 7,radio,Perlis2023_Q11,A,B,C,D,B,Perlis 2023/Picture11.png
-F4 Chp 7,radio,PutrajayaSet12023_Q11,A,B,C,D,B,Putrajaya Set 1 2023/Picture11.png
-F4 Chp 7,radio,PutrajayaSet22023_Q11,A,B,C,D,C,Putrajaya Set 2 2023/Picture11.png
-F4 Chp 7,radio,SarawakSubisMiri2023_Q11,A,B,C,D,C,Sarawak Subis Miri 2023/Picture11.png
-F4 Chp 7,radio,Selangor2023_Q11,A,B,C,D,A,Selangor 2023/Picture11.png
-F4 Chp 7,radio,SelangorSet22023_Q11,A,B,C,D,B,Selangor Set 2 2023/Picture11.png
-F4 Chp 7,radio,TerengganuMPP32023_Q11,A,B,C,D,D,Terengganu MPP3 2023/Picture11.png
-F4 Chp 7,radio,SBP2023_Q11,A,B,C,D,C,SBP 2023/Picture11.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 7,radio,KedahTrial2023_Q11,A,B,C,D,D,Kedah Trial 2023/Picture11.png,"中文：M 指上臂后方的三头肌；屈肘时二头肌收缩，三头肌放松。
+English: M is the triceps at the back of the upper arm; it relaxes while the biceps contracts during elbow flexion."
+F4 Chp 7,radio,KelantanTrial2023_Q11,A,B,C,D,A,Kelantan Trial 2023/Picture11.png,"中文：紧急情况下肾上腺分泌肾上腺素，提高代谢及心跳，使身体准备应付危险。
+English: Adrenaline released during an emergency increases metabolism and heart rate to prepare the body for action."
+F4 Chp 7,radio,MaahadJohor2023_Q11,A,B,C,D,C,Maahad Johor 2023/Picture11.png,"中文：19 个质子的原子电子排列 2.8.8.1，失去一粒电子成为正离子，稳定排列为 2.8.8，即 C。
+English: An atom with 19 protons has arrangement 2.8.8.1; losing one electron forms a stable positive ion with 2.8.8."
+F4 Chp 7,radio,NegeriSembilan2023_Q11,A,B,C,D,C,Negeri Sembilan 2023/Picture11.png,"中文：安非他命和甲基安非他命属于兴奋剂，会加快神经冲动传递，提高神经系统活动。
+English: Amphetamine and methamphetamine are stimulants that accelerate nerve-impulse transmission and increase nervous-system activity."
+F4 Chp 7,radio,PahangTrial2023_Q11,A,B,C,D,C,Pahang Trial 2023/Picture11.png,"中文：龟属于有内骨骼的动物，身体持续生长，典型生长曲线为S形；阶梯形曲线属于会蜕皮的动物。
+English: A turtle has an endoskeleton and grows continuously, producing a typical sigmoid growth curve; a staircase curve belongs to animals that moult."
+F4 Chp 7,radio,Melaka2023_Q11,A,B,C,D,A,Melaka 2023/Picture11.png,"中文：骨科医生专门诊治骨折、骨骼或脊柱问题，并规划相关康复。
+English: An orthopaedic specialist diagnoses and treats fractures, bone and spinal disorders and associated rehabilitation."
+F4 Chp 7,radio,Perak2023_Q11,A,B,C,D,B,Perak 2023/Picture11.png,"中文：攀缘植物利用卷须等结构沿支架向上生长，以获得更多阳光进行光合作用。
+English: Climbing plants use structures such as tendrils to grow up supports and obtain more sunlight for photosynthesis."
+F4 Chp 7,radio,Perlis2023_Q11,A,B,C,D,B,Perlis 2023/Picture11.png,"中文：连续变异的直方图呈连续分布，性状除了遗传，也受营养等环境因素影响，因此选B。
+English: Continuous variation forms a continuous histogram and is influenced by environmental factors such as nutrition as well as inheritance, giving B."
+F4 Chp 7,radio,PutrajayaSet12023_Q11,A,B,C,D,B,Putrajaya Set 1 2023/Picture11.png,"中文：肌腱把肌肉连接到骨头，把肌肉收缩的拉力传到骨骼，帮助身体运动。
+English: Tendons connect muscles to bones and transmit the pulling force of muscle contraction to the skeleton, enabling movement."
+F4 Chp 7,radio,PutrajayaSet22023_Q11,A,B,C,D,C,Putrajaya Set 2 2023/Picture11.png,"中文：蚯蚓与水母以体内液体压力维持形状并配合肌肉运动，属于液压骨骼hydrostatic skeleton。
+English: Earthworms and jellyfish use internal fluid pressure to maintain shape and assist muscle movement, forming hydrostatic skeletons."
+F4 Chp 7,radio,SarawakSubisMiri2023_Q11,A,B,C,D,C,Sarawak Subis Miri 2023/Picture11.png,"中文：按SPM常考内容，B肾上腺的肾上腺素会升高血糖。现有答案C为胰腺；它也分泌升糖的胰高血糖素，但不能用降糖的胰岛素解释C，因此本题单一答案存在课程范围歧义。
+English: In the usual SPM treatment, adrenaline from adrenal gland B raises blood glucose. Existing C is the pancreas, which also secretes glucose-raising glucagon; insulin lowers glucose and cannot explain C, so the single answer is ambiguous in relation to syllabus scope."
+F4 Chp 7,radio,Selangor2023_Q11,A,B,C,D,A,Selangor 2023/Picture11.png,"中文：血友病影响凝血过程，受伤后血液不容易凝固，是选项A描述的症状。
+English: Haemophilia impairs blood clotting, so blood does not clot readily after injury, matching A."
+F4 Chp 7,radio,SelangorSet22023_Q11,A,B,C,D,B,Selangor Set 2 2023/Picture11.png,"中文：地中海贫血的红细胞常较小，应选A；镰刀形红细胞B属于镰状细胞贫血，现有答案B需核对。
+English: Thalassaemia commonly produces small red blood cells, giving A; sickle-shaped cells, B, belong to sickle-cell anaemia, so existing B needs review."
+F4 Chp 7,radio,TerengganuMPP32023_Q11,A,B,C,D,D,Terengganu MPP3 2023/Picture11.png,"中文：电子数2+8+8+1=19，中性原子质子数也是19；中子数=39−19=20，因此选D。
+English: Electron number = 2 + 8 + 8 + 1 = 19, so a neutral atom also has 19 protons; neutrons = 39 − 19 = 20, giving D."
+F4 Chp 7,radio,SBP2023_Q11,A,B,C,D,C,SBP 2023/Picture11.png,"中文：滑液不足会减少关节润滑，骨端摩擦增加，弯曲膝盖时容易疼痛，因此选C。
+English: Insufficient synovial fluid reduces joint lubrication and increases friction, causing pain when bending the knee, giving C."

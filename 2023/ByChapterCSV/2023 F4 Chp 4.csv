@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 4,radio,KedahTrial2023_Q05,A,B,C,D,D,Kedah Trial 2023/Picture5.png
-F4 Chp 4,radio,KedahTrial2023_Q06,A,B,C,D,C,Kedah Trial 2023/Picture6.png
-F4 Chp 4,radio,KelantanTrial2023_Q05,A,B,C,D,B,Kelantan Trial 2023/Picture5.png
-F4 Chp 4,radio,KelantanTrial2023_Q06,A,B,C,D,D,Kelantan Trial 2023/Picture6.png
-F4 Chp 4,radio,MaahadJohor2023_Q05,A,B,C,D,D,Maahad Johor 2023/Picture5.png
-F4 Chp 4,radio,MaahadJohor2023_Q06,A,B,C,D,C,Maahad Johor 2023/Picture6.png
-F4 Chp 4,radio,NegeriSembilan2023_Q05,A,B,C,D,B,Negeri Sembilan 2023/Picture5.png
-F4 Chp 4,radio,NegeriSembilan2023_Q06,A,B,C,D,D,Negeri Sembilan 2023/Picture6.png
-F4 Chp 4,radio,PahangTrial2023_Q05,A,B,C,D,C,Pahang Trial 2023/Picture5.png
-F4 Chp 4,radio,PahangTrial2023_Q06,A,B,C,D,B,Pahang Trial 2023/Picture6.png
-F4 Chp 4,radio,Melaka2023_Q05,A,B,C,D,D,Melaka 2023/Picture5.png
-F4 Chp 4,radio,Melaka2023_Q06,A,B,C,D,B,Melaka 2023/Picture6.png
-F4 Chp 4,radio,Perak2023_Q05,A,B,C,D,B,Perak 2023/Picture5.png
-F4 Chp 4,radio,Perak2023_Q06,A,B,C,D,B,Perak 2023/Picture6.png
-F4 Chp 4,radio,Perlis2023_Q05,A,B,C,D,A,Perlis 2023/Picture5.png
-F4 Chp 4,radio,Perlis2023_Q06,A,B,C,D,C,Perlis 2023/Picture6.png
-F4 Chp 4,radio,PutrajayaSet12023_Q05,A,B,C,D,A,Putrajaya Set 1 2023/Picture5.png
-F4 Chp 4,radio,PutrajayaSet12023_Q06,A,B,C,D,D,Putrajaya Set 1 2023/Picture6.png
-F4 Chp 4,radio,PutrajayaSet22023_Q05,A,B,C,D,D,Putrajaya Set 2 2023/Picture5.png
-F4 Chp 4,radio,PutrajayaSet22023_Q06,A,B,C,D,B,Putrajaya Set 2 2023/Picture6.png
-F4 Chp 4,radio,SarawakSubisMiri2023_Q05,A,B,C,D,D,Sarawak Subis Miri 2023/Picture5.png
-F4 Chp 4,radio,SarawakSubisMiri2023_Q06,A,B,C,D,B,Sarawak Subis Miri 2023/Picture6.png
-F4 Chp 4,radio,Selangor2023_Q05,A,B,C,D,D,Selangor 2023/Picture5.png
-F4 Chp 4,radio,Selangor2023_Q06,A,B,C,D,A,Selangor 2023/Picture6.png
-F4 Chp 4,radio,SelangorSet22023_Q05,A,B,C,D,C,Selangor Set 2 2023/Picture5.png
-F4 Chp 4,radio,SelangorSet22023_Q06,A,B,C,D,D,Selangor Set 2 2023/Picture6.png
-F4 Chp 4,radio,TerengganuMPP32023_Q05,A,B,C,D,C,Terengganu MPP3 2023/Picture5.png
-F4 Chp 4,radio,TerengganuMPP32023_Q06,A,B,C,D,A,Terengganu MPP3 2023/Picture6.png
-F4 Chp 4,radio,SBP2023_Q05,A,B,C,D,D,SBP 2023/Picture5.png
-F4 Chp 4,radio,SBP2023_Q06,A,B,C,D,B,SBP 2023/Picture6.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 4,radio,KedahTrial2023_Q05,A,B,C,D,D,Kedah Trial 2023/Picture5.png,"中文：BMI 26.58 位于 25.0–29.9，属于体重过重，尚未达到肥胖的 30 或以上。
+English: A BMI of 26.58 lies in the overweight range, 25.0–29.9, below the obesity threshold of 30."
+F4 Chp 4,radio,KedahTrial2023_Q06,A,B,C,D,C,Kedah Trial 2023/Picture6.png,"中文：能源效率标签帮助选择省电电器，减少耗电和能源资源使用。
+English: The energy-efficiency label helps users select appliances that consume less electricity and conserve energy resources."
+F4 Chp 4,radio,KelantanTrial2023_Q05,A,B,C,D,B,Kelantan Trial 2023/Picture5.png,"中文：把旧轮胎重新加工成可用材料或产品，可减少堆积与废物，优于焚烧或随意弃置。
+English: Reusing or recycling old tyres into useful products reduces waste and is preferable to burning or dumping them."
+F4 Chp 4,radio,KelantanTrial2023_Q06,A,B,C,D,D,Kelantan Trial 2023/Picture6.png,"中文：砍伐森林减少光合作用吸收二氧化碳，使更多温室气体留在大气中。
+English: Deforestation reduces photosynthetic carbon-dioxide uptake, leaving more greenhouse gas in the atmosphere."
+F4 Chp 4,radio,MaahadJohor2023_Q05,A,B,C,D,D,Maahad Johor 2023/Picture5.png,"中文：森林开垦减少树木吸收二氧化碳，并可能释放储存的碳，使碳足迹增加。
+English: Forest clearance reduces carbon-dioxide uptake and may release stored carbon, increasing the carbon footprint."
+F4 Chp 4,radio,MaahadJohor2023_Q06,A,B,C,D,C,Maahad Johor 2023/Picture6.png,"中文：正常父亲传正常 X 给所有女儿，因此女儿不会有两条带隐性色盲基因的 X；患病概率 0%。
+English: A normal father gives a normal X chromosome to every daughter, so none has two colour-blindness alleles; the risk is 0%."
+F4 Chp 4,radio,NegeriSembilan2023_Q05,A,B,C,D,B,Negeri Sembilan 2023/Picture5.png,"中文：绿色科技提高能源效率并减少化石燃料使用，从而减少温室气体排放和碳足迹。
+English: Green technology improves energy efficiency and reduces fossil-fuel use, thereby reducing greenhouse-gas emissions and the carbon footprint."
+F4 Chp 4,radio,NegeriSembilan2023_Q06,A,B,C,D,D,Negeri Sembilan 2023/Picture6.png,"中文：同源染色体的非姐妹染色单体交换片段，称为交叉互换，可产生新的基因组合。
+English: Exchange of segments between non-sister chromatids of homologous chromosomes is crossing over, producing new gene combinations."
+F4 Chp 4,radio,PahangTrial2023_Q05,A,B,C,D,C,Pahang Trial 2023/Picture5.png,"中文：血压计测量心脏收缩时的收缩压和舒张时的舒张压，因此选C。
+English: A blood-pressure monitor measures systolic pressure during heart contraction and diastolic pressure during relaxation, giving C."
+F4 Chp 4,radio,PahangTrial2023_Q06,A,B,C,D,B,Pahang Trial 2023/Picture6.png,"中文：BMI=62.5÷1.60²≈24.4 kg/m²，按题目使用的BMI分类属于理想体重范围，选B。
+English: BMI = 62.5 ÷ 1.60² ≈ 24.4 kg/m², which falls within the desirable-weight category used in this question, giving B."
+F4 Chp 4,radio,Melaka2023_Q05,A,B,C,D,D,Melaka 2023/Picture5.png,"中文：太阳能车辆利用可再生阳光，减少石油等化石燃料的消耗。
+English: Solar vehicles use renewable sunlight and reduce fossil-fuel consumption."
+F4 Chp 4,radio,Melaka2023_Q06,A,B,C,D,B,Melaka 2023/Picture6.png,"中文：开垦森林减少吸收二氧化碳的树木，增加大气中的温室气体。
+English: Forest clearance removes trees that absorb carbon dioxide, increasing atmospheric greenhouse gas."
+F4 Chp 4,radio,Perak2023_Q05,A,B,C,D,B,Perak 2023/Picture5.png,"中文：每10秒12次，换算为每分钟12×60÷10=72次，因此选B。
+English: Twelve beats in 10 seconds gives 12 × 60 ÷ 10 = 72 beats per minute, giving B."
+F4 Chp 4,radio,Perak2023_Q06,A,B,C,D,B,Perak 2023/Picture6.png,"中文：绿色科技是发展和应用能保护环境、减少资源消耗及污染的产品、设备和系统，因此选B。
+English: Green technology develops and applies products, equipment and systems that conserve the environment and reduce resource use and pollution, giving B."
+F4 Chp 4,radio,Perlis2023_Q05,A,B,C,D,A,Perlis 2023/Picture5.png,"中文：题目问运动后测脉搏的错误做法，除了哪项。立即测量D才符合要求，休息后测量会改变结果；现有答案A与题目中的kecuali不符，待核对。
+English: The question asks which action is not an error when measuring pulse after running. Measuring immediately, D, matches the task; waiting until resting changes the result. Existing answer A conflicts with “except” and needs review."
+F4 Chp 4,radio,Perlis2023_Q06,A,B,C,D,C,Perlis 2023/Picture6.png,"中文：Anita的BMI为36.51，属肥胖，增加高血压及心血管疾病风险，所以C正确。
+English: Anita's BMI is 36.51, indicating obesity and increased risk of high blood pressure and cardiovascular disease, so C is correct."
+F4 Chp 4,radio,PutrajayaSet12023_Q05,A,B,C,D,A,Putrajaya Set 1 2023/Picture5.png,"中文：120/80 mmHg在本题课本分类为正常血压，120为收缩压、80为舒张压，因此选A。
+English: In this textbook classification, 120/80 mmHg is normal blood pressure; 120 is systolic and 80 diastolic pressure, giving A."
+F4 Chp 4,radio,PutrajayaSet12023_Q06,A,B,C,D,D,Putrajaya Set 1 2023/Picture6.png,"中文：红外线体温计可对准额头并保持指定距离；题目给出5 cm，因此D是正确配对。
+English: An infrared thermometer is aimed at the forehead from the specified distance, 5 cm in this question, so D is the correct pairing."
+F4 Chp 4,radio,PutrajayaSet22023_Q05,A,B,C,D,D,Putrajaya Set 2 2023/Picture5.png,"中文：薄壁玻璃球使热量容易传入液体，温度计能较快响应微小温度变化，因此选D。
+English: A thin-walled bulb allows heat to reach the liquid readily, helping the thermometer respond to small temperature changes, giving D."
+F4 Chp 4,radio,PutrajayaSet22023_Q06,A,B,C,D,B,Putrajaya Set 2 2023/Picture6.png,"中文：1分20秒=80秒，脉搏率=100×60÷80=75次/分，因此选B。
+English: One minute 20 seconds is 80 seconds; pulse rate = 100 × 60 ÷ 80 = 75 beats per minute, giving B."
+F4 Chp 4,radio,SarawakSubisMiri2023_Q05,A,B,C,D,D,Sarawak Subis Miri 2023/Picture5.png,"中文：应在排放前处理工业污水，实际减少污染物，因此选A。现有D只检测污染物，监测本身不能消除污染。
+English: Treat industrial effluent before release to actually reduce pollutants, giving A. Existing D only tests pollution levels; monitoring alone does not remove pollution."
+F4 Chp 4,radio,SarawakSubisMiri2023_Q06,A,B,C,D,B,Sarawak Subis Miri 2023/Picture6.png,"中文：顺序为前期S→中期Q→后期R→末期及胞质分裂P，因此选B。
+English: The sequence is prophase S → metaphase Q → anaphase R → telophase and cytokinesis P, giving B."
+F4 Chp 4,radio,Selangor2023_Q05,A,B,C,D,D,Selangor 2023/Picture5.png,"中文：血压为192/116 mmHg，按本题课本分类属于第3级高血压，因此选D。
+English: The reading is 192/116 mmHg, classified as stage 3 hypertension in this textbook question, giving D."
+F4 Chp 4,radio,Selangor2023_Q06,A,B,C,D,A,Selangor 2023/Picture6.png,"中文：水可通过自然水循环持续补充，水力发电属于可再生能源；煤、石油和核燃料不属于此类。
+English: Water is replenished through the natural water cycle, making hydropower renewable; coal, petroleum and nuclear fuel are not in this category."
+F4 Chp 4,radio,SelangorSet22023_Q05,A,B,C,D,C,Selangor Set 2 2023/Picture5.png,"中文：血压为140/90 mmHg，按本题课本分类属于第1级高血压，因此选C。
+English: The blood pressure is 140/90 mmHg, classified as stage 1 hypertension in this textbook question, giving C."
+F4 Chp 4,radio,SelangorSet22023_Q06,A,B,C,D,D,Selangor Set 2 2023/Picture6.png,"中文：煤的形成需要极长时间，消耗后不能在短期内补充，属于不可再生能源。
+English: Coal takes an extremely long time to form and cannot be replenished quickly after use, making it non-renewable."
+F4 Chp 4,radio,TerengganuMPP32023_Q05,A,B,C,D,C,Terengganu MPP3 2023/Picture5.png,"中文：过量施用农业化学品可增加土壤酸度，影响土壤和植物，因此本题选择C。
+English: Excessive agricultural chemical use can increase soil acidity and affect soil and plants, giving C in this question."
+F4 Chp 4,radio,TerengganuMPP32023_Q06,A,B,C,D,A,Terengganu MPP3 2023/Picture6.png,"中文：Bb×BB的后代可以为BB或Bb，两者都能卷舌；本组选项只有A的BB与能卷舌配对正确。
+English: Bb × BB can produce BB or Bb, both able to roll the tongue; among the listed choices only A correctly pairs BB with tongue rolling."
+F4 Chp 4,radio,SBP2023_Q05,A,B,C,D,D,SBP 2023/Picture5.png,"中文：跑步需要肌肉获得更多氧和养分，心跳与脉搏会加快，因此D跑步者脉搏率最高。
+English: Running increases muscle demand for oxygen and nutrients, raising heart and pulse rates, so runner D has the highest pulse rate."
+F4 Chp 4,radio,SBP2023_Q06,A,B,C,D,B,SBP 2023/Picture6.png,"中文：BMI=37÷1.4²≈18.88 kg/m²，属于题设理想体重范围，对应B。
+English: BMI = 37 ÷ 1.4² ≈ 18.88 kg/m², within the question's desirable-weight range, matching B."

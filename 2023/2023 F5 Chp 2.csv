@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 2,radio,KedahTrial2023_Q25,A,B,C,D,B,Kedah Trial 2023/Picture25.png
-F5 Chp 2,radio,KedahTrial2023_Q26,A,B,C,D,B,Kedah Trial 2023/Picture26.png
-F5 Chp 2,radio,KelantanTrial2023_Q25,A,B,C,D,C,Kelantan Trial 2023/Picture25.png
-F5 Chp 2,radio,KelantanTrial2023_Q26,A,B,C,D,D,Kelantan Trial 2023/Picture26.png
-F5 Chp 2,radio,MaahadJohor2023_Q25,A,B,C,D,B,Maahad Johor 2023/Picture25.png
-F5 Chp 2,radio,MaahadJohor2023_Q26,A,B,C,D,C,Maahad Johor 2023/Picture26.png
-F5 Chp 2,radio,NegeriSembilan2023_Q25,A,B,C,D,A,Negeri Sembilan 2023/Picture25.png
-F5 Chp 2,radio,NegeriSembilan2023_Q26,A,B,C,D,A,Negeri Sembilan 2023/Picture26.png
-F5 Chp 2,radio,PahangTrial2023_Q25,A,B,C,D,B,Pahang Trial 2023/Picture25.png
-F5 Chp 2,radio,PahangTrial2023_Q26,A,B,C,D,D,Pahang Trial 2023/Picture26.png
-F5 Chp 2,radio,Melaka2023_Q25,A,B,C,D,B,Melaka 2023/Picture25.png
-F5 Chp 2,radio,Melaka2023_Q26,A,B,C,D,C,Melaka 2023/Picture26.png
-F5 Chp 2,radio,Perak2023_Q25,A,B,C,D,A,Perak 2023/Picture25.png
-F5 Chp 2,radio,Perak2023_Q26,A,B,C,D,D,Perak 2023/Picture26.png
-F5 Chp 2,radio,Perlis2023_Q25,A,B,C,D,B,Perlis 2023/Picture25.png
-F5 Chp 2,radio,Perlis2023_Q26,A,B,C,D,D,Perlis 2023/Picture26.png
-F5 Chp 2,radio,PutrajayaSet12023_Q25,A,B,C,D,B,Putrajaya Set 1 2023/Picture25.png
-F5 Chp 2,radio,PutrajayaSet12023_Q26,A,B,C,D,A,Putrajaya Set 1 2023/Picture26.png
-F5 Chp 2,radio,PutrajayaSet22023_Q25,A,B,C,D,D,Putrajaya Set 2 2023/Picture25.png
-F5 Chp 2,radio,PutrajayaSet22023_Q26,A,B,C,D,C,Putrajaya Set 2 2023/Picture26.png
-F5 Chp 2,radio,SarawakSubisMiri2023_Q25,A,B,C,D,D,Sarawak Subis Miri 2023/Picture25.png
-F5 Chp 2,radio,SarawakSubisMiri2023_Q26,A,B,C,D,B,Sarawak Subis Miri 2023/Picture26.png
-F5 Chp 2,radio,Selangor2023_Q25,A,B,C,D,C,Selangor 2023/Picture25.png
-F5 Chp 2,radio,Selangor2023_Q26,A,B,C,D,B,Selangor 2023/Picture26.png
-F5 Chp 2,radio,SelangorSet22023_Q25,A,B,C,D,D,Selangor Set 2 2023/Picture25.png
-F5 Chp 2,radio,SelangorSet22023_Q26,A,B,C,D,C,Selangor Set 2 2023/Picture26.png
-F5 Chp 2,radio,TerengganuMPP32023_Q25,A,B,C,D,B,Terengganu MPP3 2023/Picture25.png
-F5 Chp 2,radio,TerengganuMPP32023_Q26,A,B,C,D,A,Terengganu MPP3 2023/Picture26.png
-F5 Chp 2,radio,SBP2023_Q25,A,B,C,D,A,SBP 2023/Picture25.png
-F5 Chp 2,radio,SBP2023_Q26,A,B,C,D,B,SBP 2023/Picture26.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 2,radio,KedahTrial2023_Q25,A,B,C,D,B,Kedah Trial 2023/Picture25.png,"中文：K 是铵化合物转为亚硝酸盐的硝化作用；堆肥利用微生物处理有机废物，再把养分循环回土壤。
+English: K is nitrification from ammonium to nitrite; composting uses microorganisms to recycle organic waste and return nutrients to soil."
+F5 Chp 2,radio,KedahTrial2023_Q26,A,B,C,D,B,Kedah Trial 2023/Picture26.png,"中文：调味剂的作用是提升食物味道；MSG 增强鲜味，不主要用于增色或加甜。
+English: Flavourings improve taste; MSG enhances savoury flavour rather than colouring or sweetening food."
+F5 Chp 2,radio,KelantanTrial2023_Q25,A,B,C,D,C,Kelantan Trial 2023/Picture25.png,"中文：温升 = 60 − 28 = 32°C；热量值 = 4.2 × 20 × 32 ÷ (0.5 × 1,000) = 5.376 kJ/g。
+English: Temperature rise = 32°C; calorific value = 4.2 × 20 × 32/(0.5 × 1,000) = 5.376 kJ/g."
+F5 Chp 2,radio,KelantanTrial2023_Q26,A,B,C,D,D,Kelantan Trial 2023/Picture26.png,"中文：按本题答案，过量食用某些甜味剂可引起过敏、皮疹及皮肤瘙痒，故选 D。
+English: According to the intended textbook answer, excessive use of certain sweeteners can cause allergic reactions, rashes and itchy skin."
+F5 Chp 2,radio,MaahadJohor2023_Q25,A,B,C,D,B,Maahad Johor 2023/Picture25.png,"中文：总能量 = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ。
+English: Total energy = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ."
+F5 Chp 2,radio,MaahadJohor2023_Q26,A,B,C,D,C,Maahad Johor 2023/Picture26.png,"中文：把旧水瓶再用作花盆延长产品寿命、减少废物，产生正面的碳手印。
+English: Reusing a bottle as a flowerpot extends its life and reduces waste, creating a positive carbon handprint."
+F5 Chp 2,radio,NegeriSembilan2023_Q25,A,B,C,D,A,Negeri Sembilan 2023/Picture25.png,"中文：健康餐盘的一半Q放蔬果，四分之一P放米饭等碳水化合物，四分之一R放鱼等蛋白质，因此选A。
+English: Half the healthy plate, Q, is fruit and vegetables; quarter P is rice or other carbohydrates and quarter R is fish or other protein, giving A."
+F5 Chp 2,radio,NegeriSembilan2023_Q26,A,B,C,D,A,Negeri Sembilan 2023/Picture26.png,"中文：应先查看面包的有效期限，过期食物可能发生微生物污染或腐败而导致腹痛，因此选A。
+English: Check the bread's expiry date first, since expired food may be contaminated or spoiled and cause stomach discomfort, giving A."
+F5 Chp 2,radio,PahangTrial2023_Q25,A,B,C,D,B,Pahang Trial 2023/Picture25.png,"中文：抗菌剂antiseptic可用于皮肤等活体表面；消毒剂disinfectant主要用于非生命物体表面。
+English: Antiseptics can be used on living surfaces such as skin, whereas disinfectants are mainly used on non-living surfaces."
+F5 Chp 2,radio,PahangTrial2023_Q26,A,B,C,D,D,Pahang Trial 2023/Picture26.png,"中文：磷是植物大量需要的宏量营养元素；锌、硼和铜属于只需少量的微量营养元素。
+English: Phosphorus is a macronutrient required by plants in large quantities; zinc, boron and copper are micronutrients needed only in small amounts."
+F5 Chp 2,radio,Melaka2023_Q25,A,B,C,D,B,Melaka 2023/Picture25.png,"中文：香港脚是由真菌引起，因此题目所选治疗类别为抗真菌药。
+English: Athlete's foot is caused by fungi, so the intended treatment category is an antifungal."
+F5 Chp 2,radio,Melaka2023_Q26,A,B,C,D,C,Melaka 2023/Picture26.png,"中文：C 总能量 = 20 × 15.5 + 30 × 10.5 + 300 × 2.6 = 1,405 kJ，比其余组合高。
+English: Set C provides 20 × 15.5 + 30 × 10.5 + 300 × 2.6 = 1,405 kJ, the highest total."
+F5 Chp 2,radio,Perak2023_Q25,A,B,C,D,A,Perak 2023/Picture25.png,"中文：J为硝化细菌，把铵化合物转变为亚硝酸盐再形成硝酸盐，增加土壤中植物可吸收的硝酸盐。
+English: J represents nitrifying bacteria, which convert ammonium compounds into nitrites and then nitrates, increasing plant-available nitrate in the soil."
+F5 Chp 2,radio,Perak2023_Q26,A,B,C,D,D,Perak 2023/Picture26.png,"中文：Belimbing Bintang Mas是优良杨桃品种，种植这种高品质品种属于采用优良品种的例子。
+English: Belimbing Bintang Mas is a quality starfruit variety; growing it is an example of using an improved breed or variety."
+F5 Chp 2,radio,Perlis2023_Q25,A,B,C,D,B,Perlis 2023/Picture25.png,"中文：核泄漏可能造成放射性污染，使附近地区在辐射水平危险时无法安全居住，因此选B。
+English: A nuclear leak may cause radioactive contamination, making nearby areas unsafe to inhabit while radiation levels are hazardous, giving B."
+F5 Chp 2,radio,Perlis2023_Q26,A,B,C,D,D,Perlis 2023/Picture26.png,"中文：只能在活细胞内繁殖是病毒的重要特征，图D为病毒；酵母、变形虫和水绵不是病毒。
+English: Reproducing only inside living cells is a key viral characteristic; D shows a virus, unlike yeast, an amoeba and Spirogyra."
+F5 Chp 2,radio,PutrajayaSet12023_Q25,A,B,C,D,B,Putrajaya Set 1 2023/Picture25.png,"中文：需要用力刷洗并非清洁剂的优点，因此选B；依课本，生态酶能分解油脂，帮助清洁并减少废物。
+English: Needing vigorous scrubbing is not an advantage of a cleaner, giving B; in the textbook, ecoenzymes break down fats and help cleaning while reducing waste."
+F5 Chp 2,radio,PutrajayaSet12023_Q26,A,B,C,D,A,Putrajaya Set 1 2023/Picture26.png,"中文：抗生素用于细菌感染，本题选择细菌性肺炎A；Covid-19和流感为病毒病，癣属于真菌感染。
+English: Antibiotics treat bacterial infections, giving bacterial pneumonia, A; Covid-19 and influenza are viral, while ringworm is fungal."
+F5 Chp 2,radio,PutrajayaSet22023_Q25,A,B,C,D,D,Putrajaya Set 2 2023/Picture25.png,"中文：面包使用酵母发酵，产生二氧化碳使面团膨胀，因此P为酵母D。
+English: Bread uses yeast fermentation; released carbon dioxide raises the dough, so P is yeast, D."
+F5 Chp 2,radio,PutrajayaSet22023_Q26,A,B,C,D,C,Putrajaya Set 2 2023/Picture26.png,"中文：潮湿环境有利于细菌快速繁殖，湿衣服长时间未干会因微生物活动产生异味。
+English: High humidity favours bacterial growth, so clothes that remain damp can develop odours from microbial activity."
+F5 Chp 2,radio,SarawakSubisMiri2023_Q25,A,B,C,D,D,Sarawak Subis Miri 2023/Picture25.png,"中文：能量=20×10.12+10×6.59+10×30.0=568.3 kJ，因此选D。
+English: Energy = 20 × 10.12 + 10 × 6.59 + 10 × 30.0 = 568.3 kJ, giving D."
+F5 Chp 2,radio,SarawakSubisMiri2023_Q26,A,B,C,D,B,Sarawak Subis Miri 2023/Picture26.png,"中文：闪电把大气氮转为含氮化合物，随雨水形成土壤硝酸盐，因此应选A。现有B硝化菌把铵转为硝酸盐，不能直接利用大气氮。
+English: Lightning converts atmospheric nitrogen into nitrogen compounds that reach soil as nitrates through rain, giving A. Existing B, nitrifying bacteria, converts ammonium rather than directly using atmospheric nitrogen."
+F5 Chp 2,radio,Selangor2023_Q25,A,B,C,D,C,Selangor 2023/Picture25.png,"中文：冷冻降低温度，抑制微生物活动及腐败反应，适用于运输期间保持鱼的新鲜度。
+English: Freezing lowers temperature and inhibits microbial activity and spoilage, helping preserve fish freshness during transport."
+F5 Chp 2,radio,Selangor2023_Q26,A,B,C,D,B,Selangor 2023/Picture26.png,"中文：保健食品可能价格较高，这是使用和选择这类产品时要考虑的问题，因此本题选B。
+English: Health foods can be expensive, an issue to consider when choosing and using such products, giving B in this question."
+F5 Chp 2,radio,SelangorSet22023_Q25,A,B,C,D,D,Selangor Set 2 2023/Picture25.png,"中文：真空包装排除空气，减少氧化及部分微生物活动，答案D依此选择用于榴莲果肉；仍须配合适当温度管理。
+English: Vacuum packaging removes air and reduces oxidation and some microbial activity, explaining D for durian flesh; suitable temperature control remains necessary."
+F5 Chp 2,radio,SelangorSet22023_Q26,A,B,C,D,C,Selangor Set 2 2023/Picture26.png,"中文：不同人的年龄、体况及需求不同，补充剂合适剂量也不同，因此不能把同一剂量当成适合所有人。
+English: People differ in age, health and needs, so supplement dosage requirements vary and one dose is not suitable for everyone."
+F5 Chp 2,radio,TerengganuMPP32023_Q25,A,B,C,D,B,Terengganu MPP3 2023/Picture25.png,"中文：没有日期标示，消费者可能食用已腐败或受污染的食品，增加食物中毒风险。
+English: Without date marking, consumers may eat spoiled or contaminated food, increasing food-poisoning risk."
+F5 Chp 2,radio,TerengganuMPP32023_Q26,A,B,C,D,A,Terengganu MPP3 2023/Picture26.png,"中文：过量农药残留进入土壤，造成土壤污染，所以A的污染类型与原因配对正确。
+English: Excess pesticide residues enter soil and cause soil pollution, so A correctly pairs the pollution type and cause."
+F5 Chp 2,radio,SBP2023_Q25,A,B,C,D,A,SBP 2023/Picture25.png,"中文：两个较轻原子核结合成较重原子核并释放能量，称为核聚变fusion。
+English: Two light nuclei combining into a heavier nucleus and releasing energy is nuclear fusion."
+F5 Chp 2,radio,SBP2023_Q26,A,B,C,D,B,SBP 2023/Picture26.png,"中文：图中发酵食品依靠真菌活动制成，因此选B；酵母本身也属于真菌。
+English: The pictured fermented product is made using fungal activity, giving B; yeast itself belongs to the fungi."

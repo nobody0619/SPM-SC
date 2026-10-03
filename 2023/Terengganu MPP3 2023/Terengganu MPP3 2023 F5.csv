@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Terengganu MPP3 2023 F5,radio,F5 Chp 1,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Terengganu MPP3 2023 F5,radio,F5 Chp 1,A,B,C,D,D,Picture23.png,"中文：磷有助于根系发育，缺磷会使根生长不良，因此X为磷D。
+English: Phosphorus supports root development; deficiency reduces root growth, so X is phosphorus, D."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：杂交结合亲本P的抗病性和Q的高产量，培育同时高产及抗病的R，选A。
+English: Cross-breeding combines P's disease resistance with Q's high yield to produce R with both traits, giving A."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：没有日期标示，消费者可能食用已腐败或受污染的食品，增加食物中毒风险。
+English: Without date marking, consumers may eat spoiled or contaminated food, increasing food-poisoning risk."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：过量农药残留进入土壤，造成土壤污染，所以A的污染类型与原因配对正确。
+English: Excess pesticide residues enter soil and cause soil pollution, so A correctly pairs the pollution type and cause."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：农业肥料流入水体增加硝酸盐和磷酸盐，促使藻类大量生长并引发富营养化，因此X为C。
+English: Agricultural fertiliser runoff adds nitrates and phosphates to water, stimulating algal growth and eutrophication, so X is C."
+,radio,F5 Chp 3,A,B,C,D,B,Picture28.png,"中文：本题标准速率因素包括颗粒大小、温度和浓度；单独改变反应物质量并非同类独立速率因素，因此选B。
+English: The standard rate factors here include particle size, temperature and concentration; reactant mass alone is not the same kind of independent rate factor, giving B."
+,radio,F5 Chp 4,A,B,C,D,C,Picture29.png,"中文：接触法生成的三氧化硫先制成发烟硫酸oleum，再与水反应生成硫酸，所以X为硫酸C。
+English: In the Contact process, sulfur trioxide forms oleum, which is then reacted with water to obtain sulfuric acid, so X is C."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：醇充分燃烧时主要产生二氧化碳和水，燃烧较清洁、不会像某些燃料产生黑烟，因此选C。
+English: Complete alcohol combustion mainly produces carbon dioxide and water and burns more cleanly, without the smoky soot associated with some fuels, giving C."
+,radio,F5 Chp 5,A,B,C,D,D,Picture31.png,"中文：胆固醇沉积使动脉管腔变窄、血流阻力增加，可增加高血压风险，因此选D。
+English: Cholesterol deposits narrow the arterial lumen and increase resistance to blood flow, raising hypertension risk, giving D."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：按本题课本分类，棕榈仁isirung用于生产较高品质的棕榈仁油，因此选C。
+English: In this textbook classification, the kernel, isirung, produces the higher-quality palm-kernel oil, giving C."
+,radio,F5 Chp 6,A,B,C,D,B,Picture33.png,"中文：铁勺作阴极，铜片作阳极，铜离子在铁勺表面接受电子沉积铜，是金属电镀。
+English: The iron spoon is the cathode and copper plate the anode; copper ions gain electrons and coat the spoon, which is electroplating."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：蒸馏水可移动离子极少，导电能力很弱，不能像盐水或果汁提供有效电解质，因此选B。
+English: Distilled water has very few mobile ions and conducts poorly, unlike salt water or fruit juice as effective electrolytes, giving B."
+,radio,F5 Chp 7,A,B,C,D,B,Picture35.png,"中文：物体在凸透镜f与2f之间时，产生实、倒立、放大的像，选B；在2f则为同大的实倒像。
+English: An object between f and 2f of a convex lens forms a real, inverted, magnified image, giving B; at 2f the real inverted image is the same size."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：显微镜总放大率=目镜5×物镜40=200倍，因此选D。
+English: Total microscope magnification = eyepiece 5 × objective 40 = 200 times, giving D."
+,radio,F5 Chp 8,A,B,C,D,A,Picture37.png,"中文：牙科椅液压升降利用帕斯卡原理，密闭液体把施加压力传到大活塞以抬升椅子。
+English: A dental chair's hydraulic lift uses Pascal's principle, transmitting pressure through confined liquid to a larger piston to raise the chair."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：输入压力=60÷2=30 N/cm²，输出力=30×40=1200 N，因此选C。
+English: Input pressure = 60/2 = 30 N/cm²; output force = 30 × 40 = 1200 N, giving C."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：在题目默认可比的卫星条件下，较低圆轨道速度对应较高轨道及较弱引力，U速度11100 km/h最低，所以选D。
+English: Under the question's comparable-satellite assumption, lower circular-orbit speed indicates a higher orbit and weaker gravity; U is slowest at 11100 km/h, giving D."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS提供位置资料，结合导航应用可找到客户送餐地点，因此选C。
+English: GPS provides location information, allowing a navigation application to find the customer's delivery point, giving C."

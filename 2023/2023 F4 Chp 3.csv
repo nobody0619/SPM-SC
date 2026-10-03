@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 3,radio,KedahTrial2023_Q03,A,B,C,D,D,Kedah Trial 2023/Picture3.png
-F4 Chp 3,radio,KedahTrial2023_Q04,A,B,C,D,C,Kedah Trial 2023/Picture4.png
-F4 Chp 3,radio,KelantanTrial2023_Q03,A,B,C,D,B,Kelantan Trial 2023/Picture3.png
-F4 Chp 3,radio,KelantanTrial2023_Q04,A,B,C,D,B,Kelantan Trial 2023/Picture4.png
-F4 Chp 3,radio,MaahadJohor2023_Q03,A,B,C,D,B,Maahad Johor 2023/Picture3.png
-F4 Chp 3,radio,MaahadJohor2023_Q04,A,B,C,D,C,Maahad Johor 2023/Picture4.png
-F4 Chp 3,radio,NegeriSembilan2023_Q03,A,B,C,D,C,Negeri Sembilan 2023/Picture3.png
-F4 Chp 3,radio,NegeriSembilan2023_Q04,A,B,C,D,A,Negeri Sembilan 2023/Picture4.png
-F4 Chp 3,radio,PahangTrial2023_Q03,A,B,C,D,D,Pahang Trial 2023/Picture3.png
-F4 Chp 3,radio,PahangTrial2023_Q04,A,B,C,D,B,Pahang Trial 2023/Picture4.png
-F4 Chp 3,radio,Melaka2023_Q03,A,B,C,D,D,Melaka 2023/Picture3.png
-F4 Chp 3,radio,Melaka2023_Q04,A,B,C,D,A,Melaka 2023/Picture4.png
-F4 Chp 3,radio,Perak2023_Q03,A,B,C,D,C,Perak 2023/Picture3.png
-F4 Chp 3,radio,Perak2023_Q04,A,B,C,D,D,Perak 2023/Picture4.png
-F4 Chp 3,radio,Perlis2023_Q03,A,B,C,D,D,Perlis 2023/Picture3.png
-F4 Chp 3,radio,Perlis2023_Q04,A,B,C,D,C,Perlis 2023/Picture4.png
-F4 Chp 3,radio,PutrajayaSet12023_Q03,A,B,C,D,A,Putrajaya Set 1 2023/Picture3.png
-F4 Chp 3,radio,PutrajayaSet12023_Q04,A,B,C,D,A,Putrajaya Set 1 2023/Picture4.png
-F4 Chp 3,radio,PutrajayaSet22023_Q03,A,B,C,D,C,Putrajaya Set 2 2023/Picture3.png
-F4 Chp 3,radio,PutrajayaSet22023_Q04,A,B,C,D,A,Putrajaya Set 2 2023/Picture4.png
-F4 Chp 3,radio,SarawakSubisMiri2023_Q03,A,B,C,D,A,Sarawak Subis Miri 2023/Picture3.png
-F4 Chp 3,radio,SarawakSubisMiri2023_Q04,A,B,C,D,A,Sarawak Subis Miri 2023/Picture4.png
-F4 Chp 3,radio,Selangor2023_Q03,A,B,C,D,D,Selangor 2023/Picture3.png
-F4 Chp 3,radio,Selangor2023_Q04,A,B,C,D,D,Selangor 2023/Picture4.png
-F4 Chp 3,radio,SelangorSet22023_Q03,A,B,C,D,D,Selangor Set 2 2023/Picture3.png
-F4 Chp 3,radio,SelangorSet22023_Q04,A,B,C,D,C,Selangor Set 2 2023/Picture4.png
-F4 Chp 3,radio,TerengganuMPP32023_Q03,A,B,C,D,A,Terengganu MPP3 2023/Picture3.png
-F4 Chp 3,radio,TerengganuMPP32023_Q04,A,B,C,D,D,Terengganu MPP3 2023/Picture4.png
-F4 Chp 3,radio,SBP2023_Q03,A,B,C,D,C,SBP 2023/Picture3.png
-F4 Chp 3,radio,SBP2023_Q04,A,B,C,D,C,SBP 2023/Picture4.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 3,radio,KedahTrial2023_Q03,A,B,C,D,D,Kedah Trial 2023/Picture3.png,"中文：胸外按压过快会影响心脏充盈与有效供血，不能良好输送含氧血至脑；课本建议每分钟 100–120 次。
+English: Excessively fast compressions reduce effective circulation, so oxygenated blood is not supplied well to the brain; the textbook rate is 100–120 per minute."
+F4 Chp 3,radio,KedahTrial2023_Q04,A,B,C,D,C,Kedah Trial 2023/Picture4.png,"中文：Y 是临床温度计的缩口，可阻止水银迅速回流，方便读取最高体温。
+English: Y is the constriction, which prevents mercury flowing back immediately and allows the temperature to be read."
+F4 Chp 3,radio,KelantanTrial2023_Q03,A,B,C,D,B,Kelantan Trial 2023/Picture3.png,"中文：血压常用单位是毫米汞柱，符号 mmHg。
+English: Blood pressure is commonly expressed in millimetres of mercury, mmHg."
+F4 Chp 3,radio,KelantanTrial2023_Q04,A,B,C,D,B,Kelantan Trial 2023/Picture4.png,"中文：BMI=42÷1.4²=21.43 kg/m²，属于正常或理想体重范围。
+English: BMI = 42/1.4² = 21.43 kg/m², within the normal or desirable-weight range."
+F4 Chp 3,radio,MaahadJohor2023_Q03,A,B,C,D,B,Maahad Johor 2023/Picture3.png,"中文：身高 170 cm = 1.70 m；BMI = 70 ÷ 1.70² = 24.22，属于理想体重。
+English: 170 cm = 1.70 m; BMI = 70/1.70² = 24.22, within the desirable range."
+F4 Chp 3,radio,MaahadJohor2023_Q04,A,B,C,D,C,Maahad Johor 2023/Picture4.png,"中文：五星电器、太阳能及节能宣传均有助节约能源；不必要地开冷气反而浪费电。
+English: Five-star appliances, solar energy and energy-saving campaigns conserve energy; unnecessary air-conditioning wastes it."
+F4 Chp 3,radio,NegeriSembilan2023_Q03,A,B,C,D,C,Negeri Sembilan 2023/Picture3.png,"中文：体重过高会增加胰岛素阻抗和患糖尿病的风险，因此选C。
+English: Excess body mass increases the risk of insulin resistance and diabetes mellitus, giving C."
+F4 Chp 3,radio,NegeriSembilan2023_Q04,A,B,C,D,A,Negeri Sembilan 2023/Picture4.png,"中文：交通工具燃烧石油燃料会排放温室气体及造成酸雨的气体，所以这些问题属于交通领域。
+English: Vehicles burn petroleum fuels and release greenhouse gases and gases that cause acid rain, so these issues concern transportation."
+F4 Chp 3,radio,PahangTrial2023_Q03,A,B,C,D,D,Pahang Trial 2023/Picture3.png,"中文：应先呼叫并轻拍肩部检查反应，再评估呼吸及决定是否进行CPR；答案D表达的是先检查反应。
+English: First call out and tap the shoulders to check responsiveness, then assess breathing and whether CPR is needed; D represents this initial responsiveness check."
+F4 Chp 3,radio,PahangTrial2023_Q04,A,B,C,D,B,Pahang Trial 2023/Picture4.png,"中文：气道堵塞使脑部缺氧，若未及时解除可造成脑损伤甚至死亡，因此选B。
+English: An obstructed airway deprives the brain of oxygen and may cause brain damage or death if not relieved, giving B."
+F4 Chp 3,radio,Melaka2023_Q03,A,B,C,D,D,Melaka 2023/Picture3.png,"中文：图示血压计通过袖带测量收缩压和舒张压。
+English: The blood-pressure monitor uses a cuff to measure systolic and diastolic pressure."
+F4 Chp 3,radio,Melaka2023_Q04,A,B,C,D,A,Melaka 2023/Picture4.png,"中文：温泉表示地下热能可加热水，适合发展地热能。
+English: Hot springs indicate underground heat that can be used for geothermal energy."
+F4 Chp 3,radio,Perak2023_Q03,A,B,C,D,C,Perak 2023/Picture3.png,"中文：海姆立克法增加肺内压力，使空气迅速向外排出，帮助推出气道中的异物。
+English: The Heimlich manoeuvre increases pressure in the lungs, forcing air out to help expel an airway obstruction."
+F4 Chp 3,radio,Perak2023_Q04,A,B,C,D,D,Perak 2023/Picture4.png,"中文：体温计的缩窄处阻止水银立即回流，使取出体温计后仍能读取最高体温。
+English: The constriction prevents mercury from immediately flowing back, allowing the highest body temperature to be read after removing the thermometer."
+F4 Chp 3,radio,Perlis2023_Q03,A,B,C,D,D,Perlis 2023/Picture3.png,"中文：CPR胸外按压帮助维持血液循环，把氧输送到脑和其他重要器官，因此选D。
+English: CPR chest compressions help maintain blood circulation and deliver oxygen to the brain and other vital organs, giving D."
+F4 Chp 3,radio,Perlis2023_Q04,A,B,C,D,C,Perlis 2023/Picture4.png,"中文：独自哽塞时可握拳置于肚脐上方、肋骨下方，弯身施加向内上方的压力，帮助排出异物。
+English: When choking alone, place a clenched fist above the navel and below the ribs, then bend and apply inward-upward pressure to help expel the obstruction."
+F4 Chp 3,radio,PutrajayaSet12023_Q03,A,B,C,D,A,Putrajaya Set 1 2023/Picture3.png,"中文：本题成人CPR步骤为30次胸外按压后进行2次人工呼吸，持续循环直到专业救援接手或出现恢复迹象。
+English: The adult CPR sequence in this question is 30 chest compressions followed by two rescue breaths, repeated until professional help takes over or signs of recovery appear."
+F4 Chp 3,radio,PutrajayaSet12023_Q04,A,B,C,D,A,Putrajaya Set 1 2023/Picture4.png,"中文：CPR用于心脏骤停后的急救，以维持血流和供氧；它不能事先阻止心脏病发作，所以A不是其作用。
+English: CPR is emergency care after cardiac arrest to maintain blood flow and oxygen delivery; it does not prevent a heart attack beforehand, so A is not its function."
+F4 Chp 3,radio,PutrajayaSet22023_Q03,A,B,C,D,C,Putrajaya Set 2 2023/Picture3.png,"中文：雷击可能使心脏和呼吸停止，若伤者无反应且没有正常呼吸，可能需要CPR，因此选C。
+English: Lightning can stop the heart and breathing; an unresponsive victim without normal breathing may require CPR, giving C."
+F4 Chp 3,radio,PutrajayaSet22023_Q04,A,B,C,D,A,Putrajaya Set 2 2023/Picture4.png,"中文：腹部向内上方快速施压会增加肺内压力，推动空气排出并帮助清除气道异物。
+English: Rapid inward-upward abdominal thrusts increase lung pressure, forcing air out to help clear an airway obstruction."
+F4 Chp 3,radio,SarawakSubisMiri2023_Q03,A,B,C,D,A,Sarawak Subis Miri 2023/Picture3.png,"中文：为了公平比较不同活动后的脉搏，应保持各活动持续时间相同，因此选A。
+English: Keep the duration of each activity the same for a fair comparison of pulse rates after different activities, giving A."
+F4 Chp 3,radio,SarawakSubisMiri2023_Q04,A,B,C,D,A,Sarawak Subis Miri 2023/Picture4.png,"中文：Amira BMI20.1属理想体重，Fasha33.4属肥胖，因此应选C。现有A把BMI16.5的Fatin列为理想体重，不符合分类。
+English: Amira's BMI of 20.1 is desirable and Fasha's 33.4 is obese, giving C. Existing A incorrectly treats Fatin's BMI of 16.5 as desirable."
+F4 Chp 3,radio,Selangor2023_Q03,A,B,C,D,D,Selangor 2023/Picture3.png,"中文：心脏病发作若进一步导致心脏骤停、无反应且无正常呼吸，可能需要CPR，因此本题选D。
+English: A heart attack may lead to cardiac arrest with unresponsiveness and absent normal breathing, requiring CPR, so D is the intended answer."
+F4 Chp 3,radio,Selangor2023_Q04,A,B,C,D,D,Selangor 2023/Picture4.png,"中文：先确认读数低于35°C，放入嘴内2至3分钟，再取出读数；顺序为III→II→I。
+English: First ensure the reading is below 35°C, place the thermometer in the mouth for two to three minutes, then remove and read it: III → II → I."
+F4 Chp 3,radio,SelangorSet22023_Q03,A,B,C,D,D,Selangor Set 2 2023/Picture3.png,"中文：电击可能造成心脏骤停，若伤者无反应且无正常呼吸，可能需要CPR，因此选D。
+English: Electric shock can cause cardiac arrest; an unresponsive victim without normal breathing may require CPR, giving D."
+F4 Chp 3,radio,SelangorSet22023_Q04,A,B,C,D,C,Selangor Set 2 2023/Picture4.png,"中文：按本题步骤先涂凡士林III，再按指定深度插入II，等待提示音读数I，所以顺序III→II→I。
+English: The question's sequence is apply petroleum jelly III, insert to the specified depth II, then wait for the beep and read I: III → II → I."
+F4 Chp 3,radio,TerengganuMPP32023_Q03,A,B,C,D,A,Terengganu MPP3 2023/Picture3.png,"中文：BMI=50÷1.56²≈20.55，四舍五入为20.6 kg/m²，因此选A。
+English: BMI = 50 ÷ 1.56² ≈ 20.55, rounded to 20.6 kg/m², giving A."
+F4 Chp 3,radio,TerengganuMPP32023_Q04,A,B,C,D,D,Terengganu MPP3 2023/Picture4.png,"中文：题目问预防厨余浪费的方法，D按实际需要准备适量食物，可从源头减少剩余食物。堆肥和生物能源是废物产生后的处理方法。
+English: The question asks how to prevent food waste. D, preparing food according to need, reduces leftovers at the source. Composting and biomass energy treat waste after it has been produced."
+F4 Chp 3,radio,SBP2023_Q03,A,B,C,D,C,SBP 2023/Picture3.png,"中文：伤者恢复正常呼吸但仍无意识时，可置于侧卧复苏姿势，帮助保持气道通畅，因此选C。
+English: If the victim resumes normal breathing but remains unconscious, place them in the recovery position to help keep the airway open, giving C."
+F4 Chp 3,radio,SBP2023_Q04,A,B,C,D,C,SBP 2023/Picture4.png,"中文：向内上方的腹部施压增加肺内压力，让空气迅速排出以推走堵塞气道的异物。
+English: Inward-upward abdominal thrusts increase lung pressure and force air out to dislodge an airway obstruction."

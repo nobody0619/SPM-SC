@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 3,radio,KedahTrial2023_Q27,A,B,C,D,B,Kedah Trial 2023/Picture27.png
-F5 Chp 3,radio,KedahTrial2023_Q28,A,B,C,D,A,Kedah Trial 2023/Picture28.png
-F5 Chp 3,radio,KelantanTrial2023_Q27,A,B,C,D,D,Kelantan Trial 2023/Picture27.png
-F5 Chp 3,radio,KelantanTrial2023_Q28,A,B,C,D,C,Kelantan Trial 2023/Picture28.png
-F5 Chp 3,radio,MaahadJohor2023_Q27,A,B,C,D,C,Maahad Johor 2023/Picture27.png
-F5 Chp 3,radio,MaahadJohor2023_Q28,A,B,C,D,D,Maahad Johor 2023/Picture28.png
-F5 Chp 3,radio,NegeriSembilan2023_Q27,A,B,C,D,B,Negeri Sembilan 2023/Picture27.png
-F5 Chp 3,radio,NegeriSembilan2023_Q28,A,B,C,D,A,Negeri Sembilan 2023/Picture28.png
-F5 Chp 3,radio,PahangTrial2023_Q27,A,B,C,D,D,Pahang Trial 2023/Picture27.png
-F5 Chp 3,radio,PahangTrial2023_Q28,A,B,C,D,A,Pahang Trial 2023/Picture28.png
-F5 Chp 3,radio,Melaka2023_Q27,A,B,C,D,C,Melaka 2023/Picture27.png
-F5 Chp 3,radio,Melaka2023_Q28,A,B,C,D,D,Melaka 2023/Picture28.png
-F5 Chp 3,radio,Perak2023_Q27,A,B,C,D,B,Perak 2023/Picture27.png
-F5 Chp 3,radio,Perak2023_Q28,A,B,C,D,D,Perak 2023/Picture28.png
-F5 Chp 3,radio,Perlis2023_Q27,A,B,C,D,B,Perlis 2023/Picture27.png
-F5 Chp 3,radio,Perlis2023_Q28,A,B,C,D,D,Perlis 2023/Picture28.png
-F5 Chp 3,radio,PutrajayaSet12023_Q27,A,B,C,D,D,Putrajaya Set 1 2023/Picture27.png
-F5 Chp 3,radio,PutrajayaSet12023_Q28,A,B,C,D,D,Putrajaya Set 1 2023/Picture28.png
-F5 Chp 3,radio,PutrajayaSet22023_Q27,A,B,C,D,B,Putrajaya Set 2 2023/Picture27.png
-F5 Chp 3,radio,PutrajayaSet22023_Q28,A,B,C,D,A,Putrajaya Set 2 2023/Picture28.png
-F5 Chp 3,radio,SarawakSubisMiri2023_Q27,A,B,C,D,A,Sarawak Subis Miri 2023/Picture27.png
-F5 Chp 3,radio,SarawakSubisMiri2023_Q28,A,B,C,D,C,Sarawak Subis Miri 2023/Picture28.png
-F5 Chp 3,radio,Selangor2023_Q27,A,B,C,D,A,Selangor 2023/Picture27.png
-F5 Chp 3,radio,Selangor2023_Q28,A,B,C,D,B,Selangor 2023/Picture28.png
-F5 Chp 3,radio,SelangorSet22023_Q27,A,B,C,D,C,Selangor Set 2 2023/Picture27.png
-F5 Chp 3,radio,SelangorSet22023_Q28,A,B,C,D,A,Selangor Set 2 2023/Picture28.png
-F5 Chp 3,radio,TerengganuMPP32023_Q27,A,B,C,D,C,Terengganu MPP3 2023/Picture27.png
-F5 Chp 3,radio,TerengganuMPP32023_Q28,A,B,C,D,B,Terengganu MPP3 2023/Picture28.png
-F5 Chp 3,radio,SBP2023_Q27,A,B,C,D,A,SBP 2023/Picture27.png
-F5 Chp 3,radio,SBP2023_Q28,A,B,C,D,A,SBP 2023/Picture28.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 3,radio,KedahTrial2023_Q27,A,B,C,D,B,Kedah Trial 2023/Picture27.png,"中文：开发森林破坏吸收二氧化碳的树木，并可能增加排放，是负面碳足迹活动。
+English: Forest clearance removes carbon-absorbing trees and may increase emissions, contributing negatively to the carbon footprint."
+F5 Chp 3,radio,KedahTrial2023_Q28,A,B,C,D,A,Kedah Trial 2023/Picture28.png,"中文：小球藻通过光合作用吸收二氧化碳，有助把温室气体从环境移除，属负排放技术应用。
+English: Chlorella absorbs carbon dioxide through photosynthesis, helping remove greenhouse gas in negative-emission technology."
+F5 Chp 3,radio,KelantanTrial2023_Q27,A,B,C,D,D,Kelantan Trial 2023/Picture27.png,"中文：燃油机动车燃烧化石燃料并排放二氧化碳，增加碳足迹。
+English: Fuel-powered motor vehicles burn fossil fuels and release carbon dioxide, increasing the carbon footprint."
+F5 Chp 3,radio,KelantanTrial2023_Q28,A,B,C,D,C,Kelantan Trial 2023/Picture28.png,"中文：工厂污染造成酸雨，令水体酸化，可伤害并导致水生生物死亡。
+English: Industrial emissions cause acid rain that acidifies water and can kill aquatic organisms."
+F5 Chp 3,radio,MaahadJohor2023_Q27,A,B,C,D,C,Maahad Johor 2023/Picture27.png,"中文：沟渠水只需 10 分钟褪色，表示微生物最快耗氧、BOD 最高，因此污染最严重。
+English: Drain water decolourises in 10 minutes, indicating the fastest oxygen use and highest BOD, so it is most polluted."
+F5 Chp 3,radio,MaahadJohor2023_Q28,A,B,C,D,D,Maahad Johor 2023/Picture28.png,"中文：平均反应速率 = 镁带消耗长度 ÷ 时间 = 10 ÷ 4 = 2.5 cm/min。
+English: Average rate = magnesium length consumed/time = 10/4 = 2.5 cm/min."
+F5 Chp 3,radio,NegeriSembilan2023_Q27,A,B,C,D,B,Negeri Sembilan 2023/Picture27.png,"中文：亚甲蓝用于比较水污染程度；有机污染越严重，微生物耗氧越快，蓝色通常越快消失。
+English: Methylene blue is used to compare water pollution: greater organic pollution causes faster microbial oxygen consumption and usually faster decolourisation."
+F5 Chp 3,radio,NegeriSembilan2023_Q28,A,B,C,D,A,Negeri Sembilan 2023/Picture28.png,"中文：微藻进行光合作用，吸收二氧化碳并产生有机物和氧气，可应用于负排放科技以移除二氧化碳。
+English: Microalgae photosynthesise, absorbing carbon dioxide and producing organic matter and oxygen; this can be used in negative-emission technology to remove carbon dioxide."
+F5 Chp 3,radio,PahangTrial2023_Q27,A,B,C,D,D,Pahang Trial 2023/Picture27.png,"中文：拖拉机与机械收割机能提高耕作和收割效率，减少时间及劳动需求，属于提高稻米生产的现代农业技术。
+English: Tractors and mechanical harvesters improve cultivation and harvesting efficiency and reduce labour and time, applying modern technology to paddy production."
+F5 Chp 3,radio,PahangTrial2023_Q28,A,B,C,D,A,Pahang Trial 2023/Picture28.png,"中文：森林火灾可自然发生，释放烟尘及气体造成空气污染；其余选项都是人类工业或交通活动。
+English: Forest fires can occur naturally and release smoke and gases that pollute the air; the other choices are human industrial or transport activities."
+F5 Chp 3,radio,Melaka2023_Q27,A,B,C,D,C,Melaka 2023/Picture27.png,"中文：磷促进根部生长；缺磷的幼苗会出现根系生长不良。
+English: Phosphorus supports root development, so phosphorus deficiency causes poor root growth."
+F5 Chp 3,radio,Melaka2023_Q28,A,B,C,D,D,Melaka 2023/Picture28.png,"中文：硼酸是人工化学品，符合本题的人工防腐剂分类；这只是题目辨认，不代表允许或适合用于食品。
+English: Boric acid is a synthetic chemical matching the item's artificial-preservative category; this does not mean it is permitted or suitable for food use."
+F5 Chp 3,radio,Perak2023_Q27,A,B,C,D,B,Perak 2023/Picture27.png,"中文：活动在29.11.2023，B的最佳食用日期为1.12.2023，晚于活动日期；其他三包的日期已经到期或早于活动。
+English: The event is on 29 November 2023; B has a best-before date of 1 December 2023, later than the event, unlike the other three packages."
+F5 Chp 3,radio,Perak2023_Q28,A,B,C,D,D,Perak 2023/Picture28.png,"中文：应带走塑料并交付回收，避免在自然环境留下垃圾或燃烧塑料产生污染。
+English: Take the plastic home for recycling, preventing litter in the natural environment and pollution from burning it."
+F5 Chp 3,radio,Perlis2023_Q27,A,B,C,D,B,Perlis 2023/Picture27.png,"中文：答案B对应细菌性肺炎，抗生素可抑制或杀死致病细菌；带状疱疹及麻疹属于病毒病。
+English: Answer B refers to bacterial pneumonia, where antibiotics inhibit or kill the bacteria; shingles and measles are viral illnesses."
+F5 Chp 3,radio,Perlis2023_Q28,A,B,C,D,D,Perlis 2023/Picture28.png,"中文：总能量=20×15.04+10×8.27+30×0.34+10×0.50=398.7 kJ，因此选D。
+English: Total energy = 20 × 15.04 + 10 × 8.27 + 30 × 0.34 + 10 × 0.50 = 398.7 kJ, giving D."
+F5 Chp 3,radio,PutrajayaSet12023_Q27,A,B,C,D,D,Putrajaya Set 1 2023/Picture27.png,"中文：维生素D帮助钙吸收，缺乏会使儿童骨骼软弱并出现佝偻病和弯腿，因此选D。
+English: Vitamin D supports calcium absorption; deficiency weakens children's bones and causes rickets with bowed legs, giving D."
+F5 Chp 3,radio,PutrajayaSet12023_Q28,A,B,C,D,D,Putrajaya Set 1 2023/Picture28.png,"中文：每天总摄入=1200+2000+1500=4700 kJ，高于题设2500 kJ，长期过量会积累脂肪并增加肥胖风险。
+English: Daily intake = 1200 + 2000 + 1500 = 4700 kJ, above the stated 2500 kJ; sustained excess intake causes fat accumulation and increased obesity risk."
+F5 Chp 3,radio,PutrajayaSet22023_Q27,A,B,C,D,B,Putrajaya Set 2 2023/Picture27.png,"中文：P为反硝化，把硝酸盐转为氮气返回大气；Q为固氮，把大气氮转为可利用的含氮化合物，因此选B。
+English: P is denitrification, converting nitrates into atmospheric nitrogen; Q is nitrogen fixation, turning atmospheric nitrogen into usable nitrogen compounds, giving B."
+F5 Chp 3,radio,PutrajayaSet22023_Q28,A,B,C,D,A,Putrajaya Set 2 2023/Picture28.png,"中文：蔬果提供膳食纤维，帮助肠道蠕动并减少便秘，因此选A。
+English: Fruit and vegetables provide dietary fibre, supporting bowel movement and reducing constipation, giving A."
+F5 Chp 3,radio,SarawakSubisMiri2023_Q27,A,B,C,D,A,Sarawak Subis Miri 2023/Picture27.png,"中文：罐藏把食物装入罐中并高温高压处理，以杀死微生物及孢子，因此应选C。现有A描述的是辐射保存法。
+English: Canning seals food in cans and uses high-temperature, high-pressure processing to kill microorganisms and spores, giving C. Existing A describes irradiation."
+F5 Chp 3,radio,SarawakSubisMiri2023_Q28,A,B,C,D,C,Sarawak Subis Miri 2023/Picture28.png,"中文：伐林减少吸收二氧化碳，工业和燃烧燃料释放废气，都与空气污染相关，应选B。现有C土壤污染不符合所列原因。
+English: Deforestation reduces carbon-dioxide uptake while industry and fuel combustion emit gases; these relate to air pollution, giving B. Existing C, soil pollution, does not match the listed causes."
+F5 Chp 3,radio,Selangor2023_Q27,A,B,C,D,A,Selangor 2023/Picture27.png,"中文：日用电量：LED0.009×5=0.045、荧光灯0.020×4=0.080、CFL0.006×10=0.060、卤素0.018×7=0.126 kWh。LED最低，按题设排放0.045×39÷50=0.0351 g。
+English: Daily use is LED 0.009 × 5 = 0.045, fluorescent 0.020 × 4 = 0.080, CFL 0.006 × 10 = 0.060 and halogen 0.018 × 7 = 0.126 kWh. LED is lowest, giving stated emissions 0.045 × 39/50 = 0.0351 g."
+F5 Chp 3,radio,Selangor2023_Q28,A,B,C,D,B,Selangor 2023/Picture28.png,"中文：洗涤剂废水进入河流会造成水污染，B的类型与原因配对正确；漏油并不是热污染。
+English: Detergent waste entering rivers causes water pollution, so B correctly pairs pollution and cause; an oil spill is not thermal pollution."
+F5 Chp 3,radio,SelangorSet22023_Q27,A,B,C,D,C,Selangor Set 2 2023/Picture27.png,"中文：各灯日用电量分别LED0.045、荧光0.080、卤素0.060、CFL0.126 kWh。CFL最高，排放0.126×39÷50=0.09828 g，选C。
+English: Daily electricity use is LED 0.045, fluorescent 0.080, halogen 0.060 and CFL 0.126 kWh. CFL is highest, with stated emissions 0.126 × 39/50 = 0.09828 g, giving C."
+F5 Chp 3,radio,SelangorSet22023_Q28,A,B,C,D,A,Selangor Set 2 2023/Picture28.png,"中文：伐林减少植被遮阴与蒸腾散热，可增加当地温度，按本题分类与热污染配对，因此选A。
+English: Deforestation reduces shading and cooling by transpiration and can raise local temperature; this is paired with thermal pollution in the question, giving A."
+F5 Chp 3,radio,TerengganuMPP32023_Q27,A,B,C,D,C,Terengganu MPP3 2023/Picture27.png,"中文：农业肥料流入水体增加硝酸盐和磷酸盐，促使藻类大量生长并引发富营养化，因此X为C。
+English: Agricultural fertiliser runoff adds nitrates and phosphates to water, stimulating algal growth and eutrophication, so X is C."
+F5 Chp 3,radio,TerengganuMPP32023_Q28,A,B,C,D,B,Terengganu MPP3 2023/Picture28.png,"中文：本题标准速率因素包括颗粒大小、温度和浓度；单独改变反应物质量并非同类独立速率因素，因此选B。
+English: The standard rate factors here include particle size, temperature and concentration; reactant mass alone is not the same kind of independent rate factor, giving B."
+F5 Chp 3,radio,SBP2023_Q27,A,B,C,D,A,SBP 2023/Picture27.png,"中文：维生素D不足影响钙吸收，导致儿童骨骼软弱的佝偻病rickets，因此选A。
+English: Vitamin D deficiency impairs calcium absorption and causes rickets, which weakens children's bones, giving A."
+F5 Chp 3,radio,SBP2023_Q28,A,B,C,D,A,SBP 2023/Picture28.png,"中文：叶面出现褐斑是题目中的缺钾症状，应补充钾肥，因此选A。
+English: Brown leaf spots indicate potassium deficiency in this question, so potassium fertiliser should be supplied, giving A."

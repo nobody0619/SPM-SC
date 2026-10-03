@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 1,radio,KedahTrial2023_Q23,A,B,C,D,C,Kedah Trial 2023/Picture23.png
-F5 Chp 1,radio,KedahTrial2023_Q24,A,B,C,D,D,Kedah Trial 2023/Picture24.png
-F5 Chp 1,radio,KelantanTrial2023_Q23,A,B,C,D,A,Kelantan Trial 2023/Picture23.png
-F5 Chp 1,radio,KelantanTrial2023_Q24,A,B,C,D,C,Kelantan Trial 2023/Picture24.png
-F5 Chp 1,radio,MaahadJohor2023_Q23,A,B,C,D,B,Maahad Johor 2023/Picture23.png
-F5 Chp 1,radio,MaahadJohor2023_Q24,A,B,C,D,D,Maahad Johor 2023/Picture24.png
-F5 Chp 1,radio,NegeriSembilan2023_Q23,A,B,C,D,A,Negeri Sembilan 2023/Picture23.png
-F5 Chp 1,radio,NegeriSembilan2023_Q24,A,B,C,D,D,Negeri Sembilan 2023/Picture24.png
-F5 Chp 1,radio,PahangTrial2023_Q23,A,B,C,D,D,Pahang Trial 2023/Picture23.png
-F5 Chp 1,radio,PahangTrial2023_Q24,A,B,C,D,A,Pahang Trial 2023/Picture24.png
-F5 Chp 1,radio,Melaka2023_Q23,A,B,C,D,C,Melaka 2023/Picture23.png
-F5 Chp 1,radio,Melaka2023_Q24,A,B,C,D,A,Melaka 2023/Picture24.png
-F5 Chp 1,radio,Perak2023_Q23,A,B,C,D,B,Perak 2023/Picture23.png
-F5 Chp 1,radio,Perak2023_Q24,A,B,C,D,B,Perak 2023/Picture24.png
-F5 Chp 1,radio,Perlis2023_Q23,A,B,C,D,B,Perlis 2023/Picture23.png
-F5 Chp 1,radio,Perlis2023_Q24,A,B,C,D,B,Perlis 2023/Picture24.png
-F5 Chp 1,radio,PutrajayaSet12023_Q23,A,B,C,D,C,Putrajaya Set 1 2023/Picture23.png
-F5 Chp 1,radio,PutrajayaSet12023_Q24,A,B,C,D,B,Putrajaya Set 1 2023/Picture24.png
-F5 Chp 1,radio,PutrajayaSet22023_Q23,A,B,C,D,B,Putrajaya Set 2 2023/Picture23.png
-F5 Chp 1,radio,PutrajayaSet22023_Q24,A,B,C,D,A,Putrajaya Set 2 2023/Picture24.png
-F5 Chp 1,radio,SarawakSubisMiri2023_Q23,A,B,C,D,B,Sarawak Subis Miri 2023/Picture23.png
-F5 Chp 1,radio,SarawakSubisMiri2023_Q24,A,B,C,D,C,Sarawak Subis Miri 2023/Picture24.png
-F5 Chp 1,radio,Selangor2023_Q23,A,B,C,D,B,Selangor 2023/Picture23.png
-F5 Chp 1,radio,Selangor2023_Q24,A,B,C,D,B,Selangor 2023/Picture24.png
-F5 Chp 1,radio,SelangorSet22023_Q23,A,B,C,D,A,Selangor Set 2 2023/Picture23.png
-F5 Chp 1,radio,SelangorSet22023_Q24,A,B,C,D,B,Selangor Set 2 2023/Picture24.png
-F5 Chp 1,radio,TerengganuMPP32023_Q23,A,B,C,D,D,Terengganu MPP3 2023/Picture23.png
-F5 Chp 1,radio,TerengganuMPP32023_Q24,A,B,C,D,A,Terengganu MPP3 2023/Picture24.png
-F5 Chp 1,radio,SBP2023_Q23,A,B,C,D,D,SBP 2023/Picture23.png
-F5 Chp 1,radio,SBP2023_Q24,A,B,C,D,A,SBP 2023/Picture24.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 1,radio,KedahTrial2023_Q23,A,B,C,D,C,Kedah Trial 2023/Picture23.png,"中文：图示为有叶绿体的单细胞绿藻，可进行光合作用，不是只在宿主内复制的病毒。
+English: The unicellular green alga has a chloroplast and carries out photosynthesis; it is not a virus replicating only inside a host."
+F5 Chp 1,radio,KedahTrial2023_Q24,A,B,C,D,D,Kedah Trial 2023/Picture24.png,"中文：细菌产生酶帮助分解原料上不需要的组织，应用于制革及纺织品加工。
+English: Bacteria produce enzymes that remove unwanted tissues from raw materials during leather and textile processing."
+F5 Chp 1,radio,KelantanTrial2023_Q23,A,B,C,D,A,Kelantan Trial 2023/Picture23.png,"中文：图示水绵可通过接合进行有性生殖，两个细胞的遗传物质结合。
+English: Spirogyra reproduces sexually by conjugation, combining genetic material from two cells."
+F5 Chp 1,radio,KelantanTrial2023_Q24,A,B,C,D,C,Kelantan Trial 2023/Picture24.png,"中文：M 为 pH 7、37°C，最接近课本中细菌适宜生长条件，繁殖较多使培养液最浑浊。
+English: Tube M has pH 7 and 37°C, favourable textbook conditions for bacterial growth, so it becomes most cloudy."
+F5 Chp 1,radio,MaahadJohor2023_Q23,A,B,C,D,B,Maahad Johor 2023/Picture23.png,"中文：青霉素是抗生素，适用于题目所述细菌感染；其余药物针对病毒、真菌或寄生虫。
+English: Penicillin is an antibiotic for bacterial infections; the other drugs target viruses, fungi or parasites."
+F5 Chp 1,radio,MaahadJohor2023_Q24,A,B,C,D,D,Maahad Johor 2023/Picture24.png,"中文：缺磷会影响根部、开花结果，叶片可能呈紫色，符合题述症状。
+English: Phosphorus deficiency impairs roots, flowering and fruiting, and may cause purple leaves."
+F5 Chp 1,radio,NegeriSembilan2023_Q23,A,B,C,D,A,Negeri Sembilan 2023/Picture23.png,"中文：按本题答案，酵母用于食物发酵，利用微生物活动改变原料并形成产品。旧图部分选项缺失，应补齐后核对图中的另一种食物。
+English: According to the supplied answer, yeast is used in food fermentation, where microbial activity transforms the ingredients. Some options are missing from the old image, so the other pictured food should be checked after restoring the crop."
+F5 Chp 1,radio,NegeriSembilan2023_Q24,A,B,C,D,D,Negeri Sembilan 2023/Picture24.png,"中文：A纸片含20%抗生素，B为10%，所以A的抗生素浓度较高，通常产生较大的无菌透明区；C蒸馏水是对照。
+English: Disc A contains 20% antibiotic while B contains 10%, so A has the higher concentration and usually produces a larger clear inhibition zone; distilled water at C is the control."
+F5 Chp 1,radio,PahangTrial2023_Q23,A,B,C,D,D,Pahang Trial 2023/Picture23.png,"中文：铀-235可发生核裂变，释放大量能量，用于加热水产生蒸汽并驱动发电机。
+English: Uranium-235 undergoes nuclear fission, releasing energy to heat water, produce steam and drive generators."
+F5 Chp 1,radio,PahangTrial2023_Q24,A,B,C,D,A,Pahang Trial 2023/Picture24.png,"中文：酵母发酵糖产生二氧化碳，气体使面团膨胀，所以用于制作面包。
+English: Yeast ferments sugar and releases carbon dioxide, which raises dough, so it is used in bread-making."
+F5 Chp 1,radio,Melaka2023_Q23,A,B,C,D,C,Melaka 2023/Picture23.png,"中文：电离辐射可损伤造血细胞的遗传物质，增加白血病等癌症风险。
+English: Ionising radiation can damage genetic material in blood-forming cells and increase the risk of leukaemia."
+F5 Chp 1,radio,Melaka2023_Q24,A,B,C,D,A,Melaka 2023/Picture24.png,"中文：酵母发酵糖产生酒精与二氧化碳，可用于食品和饮料制造。
+English: Yeast ferments sugar to alcohol and carbon dioxide and is used in food and drink production."
+F5 Chp 1,radio,Perak2023_Q23,A,B,C,D,B,Perak 2023/Picture23.png,"中文：抗菌剂antiseptic可用于活体皮肤，减少伤口微生物感染；消毒剂不是伤口清洗的同类用品。
+English: Antiseptics can be used on living skin to reduce wound infection; disinfectants are not the equivalent products for washing wounds."
+F5 Chp 1,radio,Perak2023_Q24,A,B,C,D,B,Perak 2023/Picture24.png,"中文：经常吃油炸、甜食和快餐，容易长期摄入过多能量并积累脂肪，增加肥胖风险。
+English: Frequent fried food, sweets and fast food can lead to sustained excess energy intake and fat accumulation, increasing obesity risk."
+F5 Chp 1,radio,Perlis2023_Q23,A,B,C,D,B,Perlis 2023/Picture23.png,"中文：加速度=(7−0)÷(2−0)=3.5 m/s²，等于速度时间图前两秒的斜率，因此选B。
+English: Acceleration = (7 − 0) ÷ (2 − 0) = 3.5 m/s², the slope of the graph over the first two seconds, giving B."
+F5 Chp 1,radio,Perlis2023_Q24,A,B,C,D,B,Perlis 2023/Picture24.png,"中文：雨伞突然停止时，水滴由于惯性继续原来的运动而飞离伞面，所以选B。
+English: When the umbrella stops suddenly, droplets continue their motion because of inertia and leave its surface, giving B."
+F5 Chp 1,radio,PutrajayaSet12023_Q23,A,B,C,D,C,Putrajaya Set 1 2023/Picture23.png,"中文：中国使用核电站发电，是本组选项中广泛使用核能发电的国家，因此选C。
+English: China operates nuclear power stations and is the listed country using nuclear energy extensively for electricity generation, giving C."
+F5 Chp 1,radio,PutrajayaSet12023_Q24,A,B,C,D,B,Putrajaya Set 1 2023/Picture24.png,"中文：变形虫伸出伪足包围并吞入食物，这种摄食过程称为吞噬作用phagocytosis。
+English: An amoeba extends pseudopodia around food and engulfs it; this feeding process is phagocytosis."
+F5 Chp 1,radio,PutrajayaSet22023_Q23,A,B,C,D,B,Putrajaya Set 2 2023/Picture23.png,"中文：核电运行时不燃烧化石燃料，直接温室气体及空气污染物排放较少，因此课本选择B较环保；仍需管理放射性废物。
+English: Nuclear power does not burn fossil fuel during operation and has lower direct greenhouse-gas and air-pollutant emissions, giving textbook B, environmentally friendlier; radioactive waste still needs management."
+F5 Chp 1,radio,PutrajayaSet22023_Q24,A,B,C,D,A,Putrajaya Set 2 2023/Picture24.png,"中文：P是酵母、S是霉菌，二者都是真菌；Q为细菌，R为变形虫，因此选A。
+English: P is yeast and S is mould, both fungi; Q is a bacterium and R an amoeba, giving A."
+F5 Chp 1,radio,SarawakSubisMiri2023_Q23,A,B,C,D,B,Sarawak Subis Miri 2023/Picture23.png,"中文：青霉素由Penicillium chrysogenum产生，应选C。现有B为Bifidobacteria，并非本题的青霉素生产菌。
+English: Penicillin is produced by Penicillium chrysogenum, giving C. Existing B, Bifidobacteria, is not the penicillin producer in this question."
+F5 Chp 1,radio,SarawakSubisMiri2023_Q24,A,B,C,D,C,Sarawak Subis Miri 2023/Picture24.png,"中文：脚癣为真菌病，所列克霉唑clotrimazole是抗真菌药，应选D；现有C胰岛素用于血糖调节。
+English: Athlete's foot is fungal; clotrimazole is the listed antifungal treatment, giving D. Existing C, insulin, regulates blood glucose instead."
+F5 Chp 1,radio,Selangor2023_Q23,A,B,C,D,B,Selangor 2023/Picture23.png,"中文：恢复图显示叶缘发褐坏死，较符合缺钾C；现有答案B是磷。缺磷通常与生长受阻和叶色暗绿或紫有关，这题图片与答案有疑点，保留B待核对。
+English: The restored image shows brown, necrotic leaf edges, more consistent with potassium deficiency C. Existing B is phosphorus, usually associated with stunted growth and dark-green or purplish leaves; B is retained with this image–answer discrepancy noted."
+F5 Chp 1,radio,Selangor2023_Q24,A,B,C,D,B,Selangor 2023/Picture24.png,"中文：有效管理土地可改善土壤肥力和利用效率，从而提高粮食生产的品质及数量，因此选B。
+English: Efficient land management improves soil fertility and use, helping increase the quality and quantity of food production, giving B."
+F5 Chp 1,radio,SelangorSet22023_Q23,A,B,C,D,A,Selangor Set 2 2023/Picture23.png,"中文：老叶中心呈黄色V形，符合缺氮；氮不足使叶绿素形成减少，叶片变黄及生长缓慢，因此选A。
+English: The older leaf has a yellow V-shaped central region, consistent with nitrogen deficiency. Insufficient nitrogen reduces chlorophyll formation, causing yellowing and slow growth, giving A."
+F5 Chp 1,radio,SelangorSet22023_Q24,A,B,C,D,B,Selangor Set 2 2023/Picture24.png,"中文：现代农业科技如机械化和高效种植方法可提高生产效率、粮食品质与数量，因此选B。
+English: Modern agricultural technology, including mechanisation and efficient cultivation, improves productivity, food quality and quantity, giving B."
+F5 Chp 1,radio,TerengganuMPP32023_Q23,A,B,C,D,D,Terengganu MPP3 2023/Picture23.png,"中文：磷有助于根系发育，缺磷会使根生长不良，因此X为磷D。
+English: Phosphorus supports root development; deficiency reduces root growth, so X is phosphorus, D."
+F5 Chp 1,radio,TerengganuMPP32023_Q24,A,B,C,D,A,Terengganu MPP3 2023/Picture24.png,"中文：杂交结合亲本P的抗病性和Q的高产量，培育同时高产及抗病的R，选A。
+English: Cross-breeding combines P's disease resistance with Q's high yield to produce R with both traits, giving A."
+F5 Chp 1,radio,SBP2023_Q23,A,B,C,D,D,SBP 2023/Picture23.png,"中文：真空中没有空气阻力，硬币与叶子以相同重力加速度下落，从相同高度同时释放会同时落地。
+English: In a vacuum there is no air resistance; the coin and leaf have the same gravitational acceleration and land together when released from the same height."
+F5 Chp 1,radio,SBP2023_Q24,A,B,C,D,A,SBP 2023/Picture24.png,"中文：装满沙的桶质量较大，惯性较大，更难改变其运动状态，因此选A。
+English: A bucket full of sand has greater mass and inertia, making its state of motion harder to change, giving A."

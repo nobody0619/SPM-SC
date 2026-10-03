@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang Trial 2023 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang Trial 2023 F4,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：护目镜能阻挡化学品飞溅，保护双眼，因此选A；普通眼镜和隐形眼镜不能代替实验护目镜。
+English: Goggles protect the eyes from chemical splashes, giving A; ordinary glasses and contact lenses do not replace laboratory goggles."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：防火毯覆盖燃烧的衣物，隔绝氧气，使火焰熄灭，因此选C。
+English: A fire blanket covers the burning clothing and cuts off its oxygen supply, extinguishing the flames, giving C."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：应先呼叫并轻拍肩部检查反应，再评估呼吸及决定是否进行CPR；答案D表达的是先检查反应。
+English: First call out and tap the shoulders to check responsiveness, then assess breathing and whether CPR is needed; D represents this initial responsiveness check."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：气道堵塞使脑部缺氧，若未及时解除可造成脑损伤甚至死亡，因此选B。
+English: An obstructed airway deprives the brain of oxygen and may cause brain damage or death if not relieved, giving B."
+,radio,F4 Chp 4,A,B,C,D,C,Picture5.png,"中文：血压计测量心脏收缩时的收缩压和舒张时的舒张压，因此选C。
+English: A blood-pressure monitor measures systolic pressure during heart contraction and diastolic pressure during relaxation, giving C."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：BMI=62.5÷1.60²≈24.4 kg/m²，按题目使用的BMI分类属于理想体重范围，选B。
+English: BMI = 62.5 ÷ 1.60² ≈ 24.4 kg/m², which falls within the desirable-weight category used in this question, giving B."
+,radio,F4 Chp 5,A,B,C,D,D,Picture7.png,"中文：固体有机废物在缺氧条件下分解会释放甲烷，图中应选A。现有答案D为一氧化碳，与此知识点不符，暂保留答案并注明疑点。
+English: Organic solid waste decomposing without oxygen releases methane, giving A in the image. Existing answer D is carbon monoxide and conflicts with this concept; it is retained pending review."
+,radio,F4 Chp 5,A,B,C,D,A,Picture8.png,"中文：把农业废料加工成堆肥可循环利用有机物，减少废物及化学肥料使用，符合农业领域绿色科技应用。
+English: Turning agricultural waste into compost recycles organic material and reduces waste and chemical-fertiliser use, applying green technology in agriculture."
+,radio,F4 Chp 6,A,B,C,D,D,Picture9.png,"中文：图中性染色体为XXY，即男性多了一条X染色体，是克氏综合征Klinefelter syndrome。
+English: The sex chromosomes are XXY, meaning a male has an extra X chromosome; this is Klinefelter syndrome."
+,radio,F4 Chp 6,A,B,C,D,A,Picture10.png,"中文：基因工程可把抗病基因引入作物，提高抗病能力并减少作物损失，是明确的益处。
+English: Genetic engineering can introduce disease-resistance genes into crops, improving resistance and reducing crop losses, a clear benefit."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：龟属于有内骨骼的动物，身体持续生长，典型生长曲线为S形；阶梯形曲线属于会蜕皮的动物。
+English: A turtle has an endoskeleton and grows continuously, producing a typical sigmoid growth curve; a staircase curve belongs to animals that moult."
+,radio,F4 Chp 8,A,B,C,D,B,Picture12.png,"中文：弯曲手臂时肱二头肌收缩，肱三头肌舒张，两者以拮抗方式控制动作，因此选B。
+English: When the arm bends, the biceps contracts and the triceps relaxes; they work antagonistically, giving B."
+,radio,F4 Chp 8,A,B,C,D,B,Picture13.png,"中文：图示颈部的甲状腺分泌甲状腺素thyroxine，调节身体代谢速率，因此选B。
+English: The thyroid gland in the neck secretes thyroxine, which regulates the body's metabolic rate, giving B."
+,radio,F4 Chp 8,A,B,C,D,D,Picture14.png,"中文：听到或看到不存在的事物称为幻觉，致幻剂hallucinogens会造成这类知觉改变。
+English: Hearing or seeing things that do not exist is hallucination, a perceptual effect caused by hallucinogens."
+,radio,F4 Chp 9,A,B,C,D,C,Picture15.png,"中文：K的质子数为10，电子排列2.8，最外层有8个电子，是稳定的八隅体排列，因此选C。
+English: K has proton number 10 and electron arrangement 2.8, with a stable outer octet, giving C."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：碳-14用于测定曾经属于生物的考古遗物年龄，通过剩余碳-14的放射性推算年代。
+English: Carbon-14 is used to date archaeological remains of once-living material by measuring the remaining radioactive carbon-14."
+,radio,F4 Chp 10,A,B,C,D,C,Picture17.png,"中文：钢是铁与少量碳形成的合金，C图显示较小碳原子分布在铁原子之间，阻碍原子层滑动。
+English: Steel is an alloy of iron with a small amount of carbon; C shows smaller carbon atoms between iron atoms, hindering the sliding of atomic layers."
+,radio,F4 Chp 10,A,B,C,D,B,Picture18.png,"中文：细菌产生的酸提供H⁺，中和橡胶粒子蛋白膜的负电荷，使粒子聚合并凝固，因此选B。
+English: Acids produced by bacteria supply H⁺, neutralising negative charges on the protein membranes around rubber particles and allowing coagulation, giving B."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：芦荟常用于舒缓晒后发红、疼痛的皮肤，符合题目中的传统药物用途，因此选A。
+English: Aloe vera is traditionally used to soothe red, painful sunburned skin, matching the situation in the question, giving A."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：切开的苹果接触空气中的氧，发生氧化而变褐，因此选D。
+English: The cut apple reacts with oxygen in the air and turns brown through oxidation, giving D."
+,radio,F4 Chp 12,A,B,C,D,C,Picture21.png,"中文：位移为速度时间图的有符号面积：30×2+½×1×30−½×2×30=45 m，因此选C。
+English: Displacement is the signed area under the velocity–time graph: 30 × 2 + ½ × 1 × 30 − ½ × 2 × 30 = 45 m, giving C."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：其他书本具有惯性，倾向保持静止，所以迅速抽出一本书时其余书本来不及明显移动。
+English: The other books have inertia and tend to remain at rest, so they move little when one book is pulled out quickly."

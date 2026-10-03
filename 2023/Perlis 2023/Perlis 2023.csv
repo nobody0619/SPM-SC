@@ -1,41 +1,81 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perlis 2023,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,A,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perlis 2023,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：培养基属于非尖锐的固体生物废物，应装入生物危害袋，经高压灭菌处理后按生物废物方式处置。
+English: Culture medium is non-sharp solid biological waste; it is bagged as biohazard waste, autoclaved and disposed of through the biological-waste system."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：衣物着火时使用防火毯覆盖，可隔绝氧气并扑灭火焰，因此选D。
+English: A fire blanket covers burning clothing and cuts off oxygen, extinguishing the fire, giving D."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：CPR胸外按压帮助维持血液循环，把氧输送到脑和其他重要器官，因此选D。
+English: CPR chest compressions help maintain blood circulation and deliver oxygen to the brain and other vital organs, giving D."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：独自哽塞时可握拳置于肚脐上方、肋骨下方，弯身施加向内上方的压力，帮助排出异物。
+English: When choking alone, place a clenched fist above the navel and below the ribs, then bend and apply inward-upward pressure to help expel the obstruction."
+,radio,F4 Chp 4,A,B,C,D,A,Picture5.png,"中文：题目问运动后测脉搏的错误做法，除了哪项。立即测量D才符合要求，休息后测量会改变结果；现有答案A与题目中的kecuali不符，待核对。
+English: The question asks which action is not an error when measuring pulse after running. Measuring immediately, D, matches the task; waiting until resting changes the result. Existing answer A conflicts with “except” and needs review."
+,radio,F4 Chp 4,A,B,C,D,C,Picture6.png,"中文：Anita的BMI为36.51，属肥胖，增加高血压及心血管疾病风险，所以C正确。
+English: Anita's BMI is 36.51, indicating obesity and increased risk of high blood pressure and cardiovascular disease, so C is correct."
+,radio,F4 Chp 5,A,B,C,D,C,Picture7.png,"中文：采用较清洁能源或提高效率的车辆能减少化石燃料消耗和温室气体排放，因此选C。
+English: A vehicle using cleaner energy or greater energy efficiency can reduce fossil-fuel use and greenhouse-gas emissions, giving C."
+,radio,F4 Chp 5,A,B,C,D,A,Picture8.png,"中文：交叉互换产生新的基因组合，增加同一物种个体之间的变异。答案A的“antara spesies”措辞不准确，应理解为物种内个体之间。
+English: Crossing over creates new gene combinations and variation among individuals of the same species. Answer A's wording “among species” is inaccurate; it should mean within a species."
+,radio,F4 Chp 6,A,B,C,D,B,Picture9.png,"中文：血友病由基因突变引起，血液缺乏正常凝血能力，受伤后出血不易停止，因此选B。
+English: Haemophilia is caused by a gene mutation that impairs normal blood clotting, so bleeding is difficult to stop, giving B."
+,radio,F4 Chp 6,A,B,C,D,A,Picture10.png,"中文：XᵇY×XᴮXᵇ产生XᴮXᵇ、XᵇXᵇ、XᴮY、XᵇY，色盲儿子与携带者女儿各占1/4，所以比例1:1。
+English: XᵇY × XᴮXᵇ produces XᴮXᵇ, XᵇXᵇ, XᴮY and XᵇY; a colour-blind son and carrier daughter each have probability 1/4, so the ratio is 1:1."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：连续变异的直方图呈连续分布，性状除了遗传，也受营养等环境因素影响，因此选B。
+English: Continuous variation forms a continuous histogram and is influenced by environmental factors such as nutrition as well as inheritance, giving B."
+,radio,F4 Chp 8,A,B,C,D,C,Picture12.png,"中文：图示骨盆带连接下肢，并支撑上半身重量，因此主要功能为支持体重。
+English: The pelvic girdle connects the lower limbs and supports the weight of the upper body, so its main listed function is supporting body weight."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：Q是无脊椎动物的内骨骼类别；海星虽没有脊柱，但有内部骨板，因此选D。
+English: Q is the endoskeleton category of invertebrates; a starfish has internal skeletal plates despite lacking a backbone, giving D."
+,radio,F4 Chp 8,A,B,C,D,C,Picture14.png,"中文：胰腺分泌胰岛素，帮助降低血糖；若移除胰腺，胰岛素不足会导致血糖升高。
+English: The pancreas secretes insulin to lower blood glucose; removing it causes insulin deficiency and raised blood glucose."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：长期过量饮酒可损伤肝、心脏和消化系统，引起肝硬化、心脏问题及胃溃疡，因此Y为酒精。
+English: Long-term excessive alcohol intake can damage the liver, heart and digestive system, causing cirrhosis, heart problems and stomach ulcers, so Y is alcohol."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：离子物质熔融后，正负离子能自由移动并传递电荷，所以可导电。
+English: When an ionic substance melts, its positive and negative ions can move freely and carry charge, so it conducts electricity."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：质子数18是氩，电子排列2.8.8，位于第3周期第18族，图中为S。
+English: Proton number 18 is argon, with electron arrangement 2.8.8 in period 3 and group 18, labelled S."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：钴-60释放的伽马射线能杀死食品中的微生物，延缓腐败而帮助保存食品。
+English: Gamma radiation from cobalt-60 kills microorganisms in food, delaying spoilage and aiding preservation."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：铜与锌的合金是黄铜loyang；铜与锡的合金才是青铜gangsa。
+English: The alloy of copper and zinc is brass, or loyang; copper with tin forms bronze, or gangsa."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：陶瓷耐磨、稳定且可制作外形类似牙齿的材料，因此课本列假牙为陶瓷应用。
+English: Ceramics are durable and stable and can be shaped to resemble teeth, so dentures are a textbook application of ceramics."
+,radio,F4 Chp 12,A,B,C,D,A,Picture21.png,"中文：长链分子被拆成较小单体，是解聚depolymerisation；聚合则是把单体连接成长链。
+English: Breaking a long molecular chain into smaller monomers is depolymerisation; polymerisation joins monomers into long chains."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：代谢发生在体内，反应过程可产生自由基；辐射、空气污染和紫外线属于外部因素。
+English: Metabolism occurs inside the body and can produce free radicals; radiation, air pollution and ultraviolet exposure are external factors."
+,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：加速度=(7−0)÷(2−0)=3.5 m/s²，等于速度时间图前两秒的斜率，因此选B。
+English: Acceleration = (7 − 0) ÷ (2 − 0) = 3.5 m/s², the slope of the graph over the first two seconds, giving B."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：雨伞突然停止时，水滴由于惯性继续原来的运动而飞离伞面，所以选B。
+English: When the umbrella stops suddenly, droplets continue their motion because of inertia and leave its surface, giving B."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：核泄漏可能造成放射性污染，使附近地区在辐射水平危险时无法安全居住，因此选B。
+English: A nuclear leak may cause radioactive contamination, making nearby areas unsafe to inhabit while radiation levels are hazardous, giving B."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：只能在活细胞内繁殖是病毒的重要特征，图D为病毒；酵母、变形虫和水绵不是病毒。
+English: Reproducing only inside living cells is a key viral characteristic; D shows a virus, unlike yeast, an amoeba and Spirogyra."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：答案B对应细菌性肺炎，抗生素可抑制或杀死致病细菌；带状疱疹及麻疹属于病毒病。
+English: Answer B refers to bacterial pneumonia, where antibiotics inhibit or kill the bacteria; shingles and measles are viral illnesses."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：总能量=20×15.04+10×8.27+30×0.34+10×0.50=398.7 kJ，因此选D。
+English: Total energy = 20 × 15.04 + 10 × 8.27 + 30 × 0.34 + 10 × 0.50 = 398.7 kJ, giving D."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：牛奶常通过巴氏杀菌，短时间加热后快速冷却，以减少病原微生物并延长保存时间。
+English: Milk commonly undergoes pasteurisation: brief heating followed by rapid cooling reduces pathogens and extends storage life."
+,radio,F5 Chp 4,A,B,C,D,D,Picture30.png,"中文：垃圾中的有机物缺氧分解产生甲烷；收集甲烷燃烧，可把其化学能用于发电。
+English: Organic waste decomposing without oxygen produces methane; collected methane can be burned to use its chemical energy for electricity generation."
+,radio,F5 Chp 5,A,B,C,D,A,Picture31.png,"中文：依本题答案A，微塑料沿食物链累积造成健康风险，课本列癌症为相关影响；不是导致臭氧减少或富营养化的主要机制。
+English: Following answer A, microplastics transferred along food chains pose health risks, with cancer listed as a related textbook effect; they are not the principal mechanism of ozone depletion or eutrophication."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：气体体积在140秒达到35 cm³并停止增加，平均速率=35÷140=0.25 cm³/s，不能用后面的等待时间180秒。
+English: Gas volume reaches 35 cm³ at 140 seconds and then stops increasing; average rate = 35 ÷ 140 = 0.25 cm³/s, excluding the later waiting period to 180 seconds."
+,radio,F5 Chp 6,A,B,C,D,C,Picture33.png,"中文：炸鸡含较多脂肪，长期过量摄取会增加动脉硬化、高血压和中风风险，因此选C。
+English: Fried chicken contains considerable fat; prolonged excessive intake increases the risks of arteriosclerosis, hypertension and stroke, giving C."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：顺序为灭菌Q→脱果S→消化R→榨取T→过滤P，所以选B。
+English: The sequence is sterilisation Q → threshing S → digestion R → extraction T → filtration P, giving B."
+,radio,F5 Chp 7,A,B,C,D,D,Picture35.png,"中文：稀盐酸用碳电极电解时，阴极H⁺放电产生氢；依课本稀溶液规则，阳极OH⁻优先放电产生氧，因此选D。
+English: With carbon electrodes in dilute hydrochloric acid, H⁺ is discharged at the cathode to form hydrogen; under the textbook dilute-solution rule, OH⁻ is preferentially discharged at the anode to form oxygen, giving D."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：镁与铜在所列金属对中电化学序列相距最远，产生最大的电位差，因此选D。
+English: Magnesium and copper have the greatest separation in the electrochemical series among the listed pairs, giving the largest potential difference and D."
+,radio,F5 Chp 8,A,B,C,D,A,Picture37.png,"中文：目镜把物镜形成的中间像再次放大，最终像为虚像，因此答案A抓住虚像和放大两项；但普通双凸透镜望远镜的最终像相对原物是倒立，选项“正立”有疑点。
+English: The eyepiece further magnifies the intermediate image and produces a virtual final image, matching those features in A; however, an ordinary two-convex-lens telescope gives an image inverted relative to the original object, so “upright” is questionable."
+,radio,F5 Chp 8,A,B,C,D,A,Picture38.png,"中文：Q处管道较窄，水流速度较高；按伯努利原理压力较低，所以竖管水位最低。
+English: The pipe is narrower at Q, so water flows faster; Bernoulli's principle gives lower pressure and therefore the lowest vertical water level."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：无人机上方B气流较快、压力较低，下方较高压力产生向上升力，因此低压位置为B。
+English: Air flows faster above the drone at B, giving lower pressure; higher pressure below produces upward lift, so B is the low-pressure region."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：轨道越高，卫星距地心越远，圆轨道所需速度越低，因此选C。
+English: A higher orbit places a satellite farther from Earth's centre and requires a lower circular-orbit speed, giving C."

@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 6,radio,KedahTrial2023_Q33,A,B,C,D,B,Kedah Trial 2023/Picture33.png
-F5 Chp 6,radio,KedahTrial2023_Q34,A,B,C,D,B,Kedah Trial 2023/Picture34.png
-F5 Chp 6,radio,KelantanTrial2023_Q33,A,B,C,D,D,Kelantan Trial 2023/Picture33.png
-F5 Chp 6,radio,KelantanTrial2023_Q34,A,B,C,D,D,Kelantan Trial 2023/Picture34.png
-F5 Chp 6,radio,MaahadJohor2023_Q33,A,B,C,D,B,Maahad Johor 2023/Picture33.png
-F5 Chp 6,radio,MaahadJohor2023_Q34,A,B,C,D,B,Maahad Johor 2023/Picture34.png
-F5 Chp 6,radio,NegeriSembilan2023_Q33,A,B,C,D,D,Negeri Sembilan 2023/Picture33.png
-F5 Chp 6,radio,NegeriSembilan2023_Q34,A,B,C,D,B,Negeri Sembilan 2023/Picture34.png
-F5 Chp 6,radio,PahangTrial2023_Q33,A,B,C,D,B,Pahang Trial 2023/Picture33.png
-F5 Chp 6,radio,PahangTrial2023_Q34,A,B,C,D,A,Pahang Trial 2023/Picture34.png
-F5 Chp 6,radio,Melaka2023_Q33,A,B,C,D,C,Melaka 2023/Picture33.png
-F5 Chp 6,radio,Melaka2023_Q34,A,B,C,D,D,Melaka 2023/Picture34.png
-F5 Chp 6,radio,Perak2023_Q33,A,B,C,D,C,Perak 2023/Picture33.png
-F5 Chp 6,radio,Perak2023_Q34,A,B,C,D,A,Perak 2023/Picture34.png
-F5 Chp 6,radio,Perlis2023_Q33,A,B,C,D,C,Perlis 2023/Picture33.png
-F5 Chp 6,radio,Perlis2023_Q34,A,B,C,D,B,Perlis 2023/Picture34.png
-F5 Chp 6,radio,PutrajayaSet12023_Q33,A,B,C,D,D,Putrajaya Set 1 2023/Picture33.png
-F5 Chp 6,radio,PutrajayaSet12023_Q34,A,B,C,D,A,Putrajaya Set 1 2023/Picture34.png
-F5 Chp 6,radio,PutrajayaSet22023_Q33,A,B,C,D,A,Putrajaya Set 2 2023/Picture33.png
-F5 Chp 6,radio,PutrajayaSet22023_Q34,A,B,C,D,A,Putrajaya Set 2 2023/Picture34.png
-F5 Chp 6,radio,SarawakSubisMiri2023_Q33,A,B,C,D,B,Sarawak Subis Miri 2023/Picture33.png
-F5 Chp 6,radio,SarawakSubisMiri2023_Q34,A,B,C,D,C,Sarawak Subis Miri 2023/Picture34.png
-F5 Chp 6,radio,Selangor2023_Q33,A,B,C,D,D,Selangor 2023/Picture33.png
-F5 Chp 6,radio,Selangor2023_Q34,A,B,C,D,C,Selangor 2023/Picture34.png
-F5 Chp 6,radio,SelangorSet22023_Q33,A,B,C,D,D,Selangor Set 2 2023/Picture33.png
-F5 Chp 6,radio,SelangorSet22023_Q34,A,B,C,D,A,Selangor Set 2 2023/Picture34.png
-F5 Chp 6,radio,TerengganuMPP32023_Q33,A,B,C,D,B,Terengganu MPP3 2023/Picture33.png
-F5 Chp 6,radio,TerengganuMPP32023_Q34,A,B,C,D,B,Terengganu MPP3 2023/Picture34.png
-F5 Chp 6,radio,SBP2023_Q33,A,B,C,D,D,SBP 2023/Picture33.png
-F5 Chp 6,radio,SBP2023_Q34,A,B,C,D,A,SBP 2023/Picture34.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 6,radio,KedahTrial2023_Q33,A,B,C,D,B,Kedah Trial 2023/Picture33.png,"中文：X 是供电装置；失效时无法提供电流，电解不能持续。电解池消耗电能，不是自行发电。
+English: X is the power supply; if it fails, no current is supplied and electrolysis stops. An electrolytic cell consumes electrical energy."
+F5 Chp 6,radio,KedahTrial2023_Q34,A,B,C,D,B,Kedah Trial 2023/Picture34.png,"中文：电子由铁流向 P，表示 P 比铁不活泼并作为正极；四种选项中铜符合。
+English: Electrons flow from iron to P, so P is less reactive and is the positive electrode; copper fits this requirement."
+F5 Chp 6,radio,KelantanTrial2023_Q33,A,B,C,D,D,Kelantan Trial 2023/Picture33.png,"中文：硫酸铜溶液含可移动离子，能导电，属于电解质；葡萄糖及乙醇溶液不提供此类离子。
+English: Copper(II) sulphate solution contains mobile ions and is an electrolyte; glucose and ethanol solutions do not provide such ions."
+F5 Chp 6,radio,KelantanTrial2023_Q34,A,B,C,D,D,Kelantan Trial 2023/Picture34.png,"中文：电絮凝中，铝离子、氢氧根和污染物结合形成絮体floc，便于把污染物分离，因此选D。
+English: In electrocoagulation, aluminium ions, hydroxide ions and pollutants combine into flocs, allowing pollutants to be separated, giving D."
+F5 Chp 6,radio,MaahadJohor2023_Q33,A,B,C,D,B,Maahad Johor 2023/Picture33.png,"中文：锌比铜活泼，作为负极失去电子并变成锌离子，所以锌电极逐渐溶解、质量减少。
+English: Zinc is more reactive than copper and loses electrons to form zinc ions, so its electrode dissolves and loses mass."
+F5 Chp 6,radio,MaahadJohor2023_Q34,A,B,C,D,B,Maahad Johor 2023/Picture34.png,"中文：物体在凸透镜焦距内，形成正立、放大的虚像；I、IV 正确。
+English: An object inside a convex lens's focal length forms an upright, enlarged virtual image; I and IV are correct."
+F5 Chp 6,radio,NegeriSembilan2023_Q33,A,B,C,D,D,Negeri Sembilan 2023/Picture33.png,"中文：依本题课本分类，长期摄取高脂快餐会增加胆固醇相关问题及胆结石风险，因此选D。
+English: In the textbook context of this question, prolonged consumption of fatty fast food increases cholesterol-related problems and the risk of gallstones, giving D."
+F5 Chp 6,radio,NegeriSembilan2023_Q34,A,B,C,D,B,Negeri Sembilan 2023/Picture34.png,"中文：制皂需要碱与油脂发生皂化。答案纸选B苦瓜汁，题目意图把它归为碱性材料；但实际苦瓜汁的酸碱度及浓度不能保证可替代氢氧化钠。
+English: Soap-making requires an alkali to react with fat in saponification. The supplied answer selects B, treating bitter-gourd juice as alkaline; its actual pH and concentration do not guarantee that it can replace sodium hydroxide."
+F5 Chp 6,radio,PahangTrial2023_Q33,A,B,C,D,B,Pahang Trial 2023/Picture33.png,"中文：Y指向棕榈果中央的果仁isirung/kernel；外面的硬层才是内果皮或果壳。
+English: Y points to the central kernel of the oil-palm fruit; the hard layer around it is the endocarp or shell."
+F5 Chp 6,radio,PahangTrial2023_Q34,A,B,C,D,A,Pahang Trial 2023/Picture34.png,"中文：电解槽利用外来的电能推动化学反应，所以能量转变是电能→化学能。
+English: An electrolytic cell uses an external electrical supply to drive a chemical reaction, so electrical energy becomes chemical energy."
+F5 Chp 6,radio,Melaka2023_Q33,A,B,C,D,C,Melaka 2023/Picture33.png,"中文：发酵液蒸馏得到较高浓度乙醇，可作为某些药物的溶剂。
+English: Distillation of fermented liquid yields more concentrated ethanol, which can serve as a solvent for medicines."
+F5 Chp 6,radio,Melaka2023_Q34,A,B,C,D,D,Melaka 2023/Picture34.png,"中文：酥油主要属于动物来源的饱和脂肪；题中其他选项是以不饱和脂肪为主的植物油。
+English: Ghee is rich in saturated animal fat; the other listed oils are predominantly unsaturated vegetable oils."
+F5 Chp 6,radio,Perak2023_Q33,A,B,C,D,C,Perak 2023/Picture33.png,"中文：棕榈油是由甘油和脂肪酸组成的脂肪，通常以甘油三酯形式存在，因此选C。
+English: Palm oil is fat made from glycerol and fatty acids, mainly as triglycerides, giving C."
+F5 Chp 6,radio,Perak2023_Q34,A,B,C,D,A,Perak 2023/Picture34.png,"中文：K应为饱和脂肪，本组选项应选C椰子油；鱼油主要含不饱和脂肪。现有答案A与图中的分类不符，保留并注明待核对。
+English: K represents saturated fat, for which C, coconut oil, is the appropriate listed example; fish oil mainly contains unsaturated fats. Existing answer A conflicts with the diagram and is retained for review."
+F5 Chp 6,radio,Perlis2023_Q33,A,B,C,D,C,Perlis 2023/Picture33.png,"中文：炸鸡含较多脂肪，长期过量摄取会增加动脉硬化、高血压和中风风险，因此选C。
+English: Fried chicken contains considerable fat; prolonged excessive intake increases the risks of arteriosclerosis, hypertension and stroke, giving C."
+F5 Chp 6,radio,Perlis2023_Q34,A,B,C,D,B,Perlis 2023/Picture34.png,"中文：顺序为灭菌Q→脱果S→消化R→榨取T→过滤P，所以选B。
+English: The sequence is sterilisation Q → threshing S → digestion R → extraction T → filtration P, giving B."
+F5 Chp 6,radio,PutrajayaSet12023_Q33,A,B,C,D,D,Putrajaya Set 1 2023/Picture33.png,"中文：氧化钒(V)是接触法催化剂，用于提高二氧化硫转变成三氧化硫的反应速率。
+English: Vanadium(V) oxide is the catalyst in the Contact process, increasing the rate of conversion of sulfur dioxide to sulfur trioxide."
+F5 Chp 6,radio,PutrajayaSet12023_Q34,A,B,C,D,A,Putrajaya Set 1 2023/Picture34.png,"中文：乙烷C₂H₆只有碳碳单键，是饱和烃；乙烯含双键，乙醇和乙酸还含氧。
+English: Ethane, C₂H₆, has only carbon–carbon single bonds and is a saturated hydrocarbon; ethene has a double bond, while ethanol and ethanoic acid contain oxygen."
+F5 Chp 6,radio,PutrajayaSet22023_Q33,A,B,C,D,A,Putrajaya Set 2 2023/Picture33.png,"中文：压力锅提高水的沸点，使烹煮温度更高、肉中的反应较快，因此能缩短烹煮时间。
+English: A pressure cooker raises water's boiling point, allowing a higher cooking temperature and faster reactions in the meat, shortening cooking time."
+F5 Chp 6,radio,PutrajayaSet22023_Q34,A,B,C,D,A,Putrajaya Set 2 2023/Picture34.png,"中文：蔗糖是含碳、氢、氧的有机化合物；金刚石是碳元素，二氧化碳为无机碳化合物。
+English: Sucrose is an organic compound containing carbon, hydrogen and oxygen; diamond is elemental carbon and carbon dioxide is inorganic."
+F5 Chp 6,radio,SarawakSubisMiri2023_Q33,A,B,C,D,B,Sarawak Subis Miri 2023/Picture33.png,"中文：醇的碳链越长，分子间吸引力通常越强、沸点越高，因此正确C。现有B说醇不溶于有机溶剂，不是正确的一般性质。
+English: As an alcohol's carbon chain grows, intermolecular attraction and boiling point generally increase, giving C. Existing B's statement that alcohol is insoluble in organic solvents is not generally correct."
+F5 Chp 6,radio,SarawakSubisMiri2023_Q34,A,B,C,D,C,Sarawak Subis Miri 2023/Picture34.png,"中文：动脉内脂肪沉积使管腔变窄，题目应选D减少脂肪摄入。现有C减少甜食不是本图最直接的选项。
+English: Fat deposits narrow the artery's lumen, so D, reducing fat intake, is the most direct listed response. Existing C, reducing sweets, is not the direct choice illustrated."
+F5 Chp 6,radio,Selangor2023_Q33,A,B,C,D,D,Selangor 2023/Picture33.png,"中文：维生素E和胡萝卜素具有抗氧化作用，能减慢氧化过程，帮助保护细胞。
+English: Vitamin E and carotene have antioxidant effects, slowing oxidation and helping protect cells."
+F5 Chp 6,radio,Selangor2023_Q34,A,B,C,D,C,Selangor 2023/Picture34.png,"中文：电解槽中接电源正极的P为阳极，接负极的Q为阴极，所以选C。
+English: In an electrolytic cell, P connected to the positive supply is the anode and Q connected to the negative supply is the cathode, giving C."
+F5 Chp 6,radio,SelangorSet22023_Q33,A,B,C,D,D,Selangor Set 2 2023/Picture33.png,"中文：Q括号明确标示肥皂的碳氢尾，它是疏水部分，溶于油脂并帮助除去油污，因此应选A。现有答案D“溶于石灰水”不符合该部分的功能，保留原答案并注明疑点。
+English: Q clearly brackets the hydrocarbon tail of soap. This hydrophobic part dissolves in grease and helps remove oily dirt, giving A. Existing D, dissolving in limewater, does not describe its function; the original answer is retained with this discrepancy noted."
+F5 Chp 6,radio,SelangorSet22023_Q34,A,B,C,D,A,Selangor Set 2 2023/Picture34.png,"中文：熔融溴化铅(II)有可自由移动的离子，是电解质，应选D；乙醇A为分子物质，不能依离子导电，现有答案需核对。
+English: Molten lead(II) bromide has mobile ions and is an electrolyte, giving D; ethanol, A, is molecular and does not conduct through such ions, so the existing key needs review."
+F5 Chp 6,radio,TerengganuMPP32023_Q33,A,B,C,D,B,Terengganu MPP3 2023/Picture33.png,"中文：铁勺作阴极，铜片作阳极，铜离子在铁勺表面接受电子沉积铜，是金属电镀。
+English: The iron spoon is the cathode and copper plate the anode; copper ions gain electrons and coat the spoon, which is electroplating."
+F5 Chp 6,radio,TerengganuMPP32023_Q34,A,B,C,D,B,Terengganu MPP3 2023/Picture34.png,"中文：蒸馏水可移动离子极少，导电能力很弱，不能像盐水或果汁提供有效电解质，因此选B。
+English: Distilled water has very few mobile ions and conducts poorly, unlike salt water or fruit juice as effective electrolytes, giving B."
+F5 Chp 6,radio,SBP2023_Q33,A,B,C,D,D,SBP 2023/Picture33.png,"中文：白垩主要为碳酸钙CaCO₃，是无机碳化合物；燃料和食用油主要属于有机物。
+English: Chalk is mainly calcium carbonate, CaCO₃, an inorganic carbon compound; fuels and cooking oils are mainly organic."
+F5 Chp 6,radio,SBP2023_Q34,A,B,C,D,A,SBP 2023/Picture34.png,"中文：乙醇易燃，不应直接用火焰加热；水浴提供较安全的间接加热，因此选A。
+English: Ethanol is flammable and should not be heated directly with a flame; a water bath provides safer indirect heating, giving A."

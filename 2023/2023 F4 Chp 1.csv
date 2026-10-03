@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 1,radio,KedahTrial2023_Q01,A,B,C,D,B,Kedah Trial 2023/Picture1.png
-F4 Chp 1,radio,KelantanTrial2023_Q01,A,B,C,D,B,Kelantan Trial 2023/Picture1.png
-F4 Chp 1,radio,MaahadJohor2023_Q01,A,B,C,D,B,Maahad Johor 2023/Picture1.png
-F4 Chp 1,radio,NegeriSembilan2023_Q01,A,B,C,D,D,Negeri Sembilan 2023/Picture1.png
-F4 Chp 1,radio,PahangTrial2023_Q01,A,B,C,D,A,Pahang Trial 2023/Picture1.png
-F4 Chp 1,radio,Melaka2023_Q01,A,B,C,D,B,Melaka 2023/Picture1.png
-F4 Chp 1,radio,Perak2023_Q01,A,B,C,D,B,Perak 2023/Picture1.png
-F4 Chp 1,radio,Perlis2023_Q01,A,B,C,D,C,Perlis 2023/Picture1.png
-F4 Chp 1,radio,PutrajayaSet12023_Q01,A,B,C,D,B,Putrajaya Set 1 2023/Picture1.png
-F4 Chp 1,radio,PutrajayaSet22023_Q01,A,B,C,D,B,Putrajaya Set 2 2023/Picture1.png
-F4 Chp 1,radio,SarawakSubisMiri2023_Q01,A,B,C,D,B,Sarawak Subis Miri 2023/Picture1.png
-F4 Chp 1,radio,Selangor2023_Q01,A,B,C,D,A,Selangor 2023/Picture1.png
-F4 Chp 1,radio,SelangorSet22023_Q01,A,B,C,D,A,Selangor Set 2 2023/Picture1.png
-F4 Chp 1,radio,TerengganuMPP32023_Q01,A,B,C,D,B,Terengganu MPP3 2023/Picture1.png
-F4 Chp 1,radio,SBP2023_Q01,A,B,C,D,C,SBP 2023/Picture1.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 1,radio,KedahTrial2023_Q01,A,B,C,D,B,Kedah Trial 2023/Picture1.png,"中文：活泼金属与水反应可能喷溅，护目镜保护眼睛，实验衣保护皮肤与衣物。
+English: Reactive metals may splash when reacting with water; goggles protect the eyes and a lab coat protects the body."
+F4 Chp 1,radio,KelantanTrial2023_Q01,A,B,C,D,B,Kelantan Trial 2023/Picture1.png,"中文：泡沫覆盖燃油表面，隔绝氧气，适合油类火灾；水可能使燃油扩散。
+English: Foam blankets the fuel and cuts off oxygen, making it suitable for oil fires; water may spread burning oil."
+F4 Chp 1,radio,MaahadJohor2023_Q01,A,B,C,D,B,Maahad Johor 2023/Picture1.png,"中文：E 类为电器火灾，电脑和熨斗属于通电设备，即 II、IV。
+English: Class E involves electrical equipment; computers and irons are II and IV."
+F4 Chp 1,radio,NegeriSembilan2023_Q01,A,B,C,D,D,Negeri Sembilan 2023/Picture1.png,"中文：甲烷属于可燃气体，干粉灭火器可扑灭这类小火，因此选D。
+English: Methane is a flammable gas, so a dry-powder extinguisher is suitable for this small fire, giving D."
+F4 Chp 1,radio,PahangTrial2023_Q01,A,B,C,D,A,Pahang Trial 2023/Picture1.png,"中文：护目镜能阻挡化学品飞溅，保护双眼，因此选A；普通眼镜和隐形眼镜不能代替实验护目镜。
+English: Goggles protect the eyes from chemical splashes, giving A; ordinary glasses and contact lenses do not replace laboratory goggles."
+F4 Chp 1,radio,Melaka2023_Q01,A,B,C,D,B,Melaka 2023/Picture1.png,"中文：课本规定合适液体废物 pH 5–9 可排入水槽；强酸、强碱及其他禁排废物须另处理。
+English: Suitable liquid waste with pH 5–9 may enter the sink under textbook rules; strong acids, alkalis and prohibited wastes require separate disposal."
+F4 Chp 1,radio,Perak2023_Q01,A,B,C,D,B,Perak 2023/Picture1.png,"中文：pH6在课本允许的pH5至9范围内，因此选B；前提是该废液没有其他有害、易反应或有机溶剂成分。
+English: pH 6 lies within the textbook's permitted pH 5–9 range, giving B, provided the waste has no other hazardous, reactive or organic-solvent components."
+F4 Chp 1,radio,Perlis2023_Q01,A,B,C,D,C,Perlis 2023/Picture1.png,"中文：培养基属于非尖锐的固体生物废物，应装入生物危害袋，经高压灭菌处理后按生物废物方式处置。
+English: Culture medium is non-sharp solid biological waste; it is bagged as biohazard waste, autoclaved and disposed of through the biological-waste system."
+F4 Chp 1,radio,PutrajayaSet12023_Q01,A,B,C,D,B,Putrajaya Set 1 2023/Picture1.png,"中文：实验动物尸体属于生物废物，应放入生物危害袋并冷冻保存，等待适当处置，因此选B。
+English: Dead laboratory animals are biological waste; place them in a biohazard bag and freeze them until appropriate disposal, giving B."
+F4 Chp 1,radio,PutrajayaSet22023_Q01,A,B,C,D,B,Putrajaya Set 2 2023/Picture1.png,"中文：课本允许排入水槽的普通废液pH范围为5至9，但不能含有其他危险或禁止排放的成分，因此选B。
+English: The textbook range for ordinary waste liquid allowed into a sink is pH 5–9, provided it contains no other hazardous or prohibited material, giving B."
+F4 Chp 1,radio,SarawakSubisMiri2023_Q01,A,B,C,D,B,Sarawak Subis Miri 2023/Picture1.png,"中文：化学品溅入眼睛应立即使用洗眼器冲洗，减少化学物与眼睛接触，因此选B。
+English: Immediately rinse a chemical splash from the eyes using the eyewash station to reduce contact with the chemical, giving B."
+F4 Chp 1,radio,Selangor2023_Q01,A,B,C,D,A,Selangor 2023/Picture1.png,"中文：油漆含有机成分和其他污染物，不能直接排入水槽，应按化学废物处理，因此选A。
+English: Oil paint contains organic material and other pollutants and must be treated as chemical waste rather than poured into the sink, giving A."
+F4 Chp 1,radio,SelangorSet22023_Q01,A,B,C,D,A,Selangor Set 2 2023/Picture1.png,"中文：油脂不溶于水，可能堵塞排水及造成污染，不能直接倒入水槽，因此选A。
+English: Grease is insoluble in water and can block drains and cause pollution, so it must not be poured into the sink, giving A."
+F4 Chp 1,radio,TerengganuMPP32023_Q01,A,B,C,D,B,Terengganu MPP3 2023/Picture1.png,"中文：ABC灭火器的课本优点之一是容易维护，并可用于多类火灾，因此选B。
+English: A textbook advantage of an ABC extinguisher is easy maintenance, alongside suitability for several fire classes, giving B."
+F4 Chp 1,radio,SBP2023_Q01,A,B,C,D,C,SBP 2023/Picture1.png,"中文：血液和血清属于液体生物废物，需通过高压灭菌消除微生物危害后再适当处置。
+English: Blood and serum are liquid biological waste and must be decontaminated by autoclaving before appropriate disposal."

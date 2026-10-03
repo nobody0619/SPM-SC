@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 4,radio,KedahTrial2023_Q29,A,B,C,D,A,Kedah Trial 2023/Picture29.png
-F5 Chp 4,radio,KedahTrial2023_Q30,A,B,C,D,C,Kedah Trial 2023/Picture30.png
-F5 Chp 4,radio,KelantanTrial2023_Q29,A,B,C,D,A,Kelantan Trial 2023/Picture29.png
-F5 Chp 4,radio,KelantanTrial2023_Q30,A,B,C,D,C,Kelantan Trial 2023/Picture30.png
-F5 Chp 4,radio,MaahadJohor2023_Q29,A,B,C,D,B,Maahad Johor 2023/Picture29.png
-F5 Chp 4,radio,MaahadJohor2023_Q30,A,B,C,D,B,Maahad Johor 2023/Picture30.png
-F5 Chp 4,radio,NegeriSembilan2023_Q29,A,B,C,D,C,Negeri Sembilan 2023/Picture29.png
-F5 Chp 4,radio,NegeriSembilan2023_Q30,A,B,C,D,D,Negeri Sembilan 2023/Picture30.png
-F5 Chp 4,radio,PahangTrial2023_Q29,A,B,C,D,B,Pahang Trial 2023/Picture29.png
-F5 Chp 4,radio,PahangTrial2023_Q30,A,B,C,D,C,Pahang Trial 2023/Picture30.png
-F5 Chp 4,radio,Melaka2023_Q29,A,B,C,D,A,Melaka 2023/Picture29.png
-F5 Chp 4,radio,Melaka2023_Q30,A,B,C,D,B,Melaka 2023/Picture30.png
-F5 Chp 4,radio,Perak2023_Q29,A,B,C,D,B,Perak 2023/Picture29.png
-F5 Chp 4,radio,Perak2023_Q30,A,B,C,D,A,Perak 2023/Picture30.png
-F5 Chp 4,radio,Perlis2023_Q29,A,B,C,D,B,Perlis 2023/Picture29.png
-F5 Chp 4,radio,Perlis2023_Q30,A,B,C,D,D,Perlis 2023/Picture30.png
-F5 Chp 4,radio,PutrajayaSet12023_Q29,A,B,C,D,D,Putrajaya Set 1 2023/Picture29.png
-F5 Chp 4,radio,PutrajayaSet12023_Q30,A,B,C,D,B,Putrajaya Set 1 2023/Picture30.png
-F5 Chp 4,radio,PutrajayaSet22023_Q29,A,B,C,D,A,Putrajaya Set 2 2023/Picture29.png
-F5 Chp 4,radio,PutrajayaSet22023_Q30,A,B,C,D,B,Putrajaya Set 2 2023/Picture30.png
-F5 Chp 4,radio,SarawakSubisMiri2023_Q29,A,B,C,D,A,Sarawak Subis Miri 2023/Picture29.png
-F5 Chp 4,radio,SarawakSubisMiri2023_Q30,A,B,C,D,D,Sarawak Subis Miri 2023/Picture30.png
-F5 Chp 4,radio,Selangor2023_Q29,A,B,C,D,A,Selangor 2023/Picture29.png
-F5 Chp 4,radio,Selangor2023_Q30,A,B,C,D,A,Selangor 2023/Picture30.png
-F5 Chp 4,radio,SelangorSet22023_Q29,A,B,C,D,B,Selangor Set 2 2023/Picture29.png
-F5 Chp 4,radio,SelangorSet22023_Q30,A,B,C,D,A,Selangor Set 2 2023/Picture30.png
-F5 Chp 4,radio,TerengganuMPP32023_Q29,A,B,C,D,C,Terengganu MPP3 2023/Picture29.png
-F5 Chp 4,radio,TerengganuMPP32023_Q30,A,B,C,D,C,Terengganu MPP3 2023/Picture30.png
-F5 Chp 4,radio,SBP2023_Q29,A,B,C,D,C,SBP 2023/Picture29.png
-F5 Chp 4,radio,SBP2023_Q30,A,B,C,D,B,SBP 2023/Picture30.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 4,radio,KedahTrial2023_Q29,A,B,C,D,A,Kedah Trial 2023/Picture29.png,"中文：提高酸的温度使粒子动能增加，发生更多有效碰撞，从而加快反应。
+English: Higher acid temperature increases particle kinetic energy and the frequency of effective collisions, increasing reaction rate."
+F5 Chp 4,radio,KedahTrial2023_Q30,A,B,C,D,C,Kedah Trial 2023/Picture30.png,"中文：哈伯法使用铁催化剂，加快氮和氢合成氨；五氧化二钒用于另一工业过程。
+English: The Haber process uses an iron catalyst to speed ammonia formation; vanadium(V) oxide is used in a different industrial process."
+F5 Chp 4,radio,KelantanTrial2023_Q29,A,B,C,D,A,Kelantan Trial 2023/Picture29.png,"中文：在选项比较中，呼吸作用以酶促反应迅速提供能量；生锈和发酵通常较慢。
+English: Among the choices, enzyme-controlled respiration releases usable energy rapidly; rusting and fermentation are typically slower."
+F5 Chp 4,radio,KelantanTrial2023_Q30,A,B,C,D,C,Kelantan Trial 2023/Picture30.png,"中文：450°C、常压及五氧化二钒催化剂是接触法的条件，最终产品为硫酸。
+English: 450°C, atmospheric pressure and vanadium(V) oxide identify the Contact process, whose final product is sulphuric acid."
+F5 Chp 4,radio,MaahadJohor2023_Q29,A,B,C,D,B,Maahad Johor 2023/Picture29.png,"中文：哈伯法使用约 450–550°C 和铁催化剂，I、IV 正确；并非常压或五氧化二钒催化剂。
+English: The Haber process uses about 450–550°C and an iron catalyst; I and IV are correct."
+F5 Chp 4,radio,MaahadJohor2023_Q30,A,B,C,D,B,Maahad Johor 2023/Picture30.png,"中文：结构有三粒碳且只有单键，是饱和烃丙烷 C3H8。
+English: The structure has three carbon atoms and only single bonds, identifying saturated propane, C3H8."
+F5 Chp 4,radio,NegeriSembilan2023_Q29,A,B,C,D,C,Negeri Sembilan 2023/Picture29.png,"中文：反应速率的主要因素是温度、催化剂、反应物颗粒大小和浓度，因此C列出的四项正确。
+English: The main factors affecting reaction rate are temperature, catalyst, reactant particle size and concentration, so C lists the correct four factors."
+F5 Chp 4,radio,NegeriSembilan2023_Q30,A,B,C,D,D,Negeri Sembilan 2023/Picture30.png,"中文：冰箱降低温度，使食物中的化学反应和微生物活动减慢，因此是反应速率概念的应用。
+English: A refrigerator lowers temperature and slows chemical reactions and microbial activity in food, applying the concept of reaction rate."
+F5 Chp 4,radio,PahangTrial2023_Q29,A,B,C,D,B,Pahang Trial 2023/Picture29.png,"中文：混合动力车、太阳能与生物柴油可减少部分化石燃料使用和污染物排放，从而改善空气质量。
+English: Hybrid cars, solar energy and biodiesel can reduce some fossil-fuel use and pollutant emissions, improving air quality."
+F5 Chp 4,radio,PahangTrial2023_Q30,A,B,C,D,C,Pahang Trial 2023/Picture30.png,"中文：反应物浓度增加，单位体积内粒子更多，有效碰撞频率提高，通常使反应加快，因此选C。
+English: Increasing reactant concentration places more particles in a given volume, increasing effective collisions and usually speeding up the reaction, giving C."
+F5 Chp 4,radio,Melaka2023_Q29,A,B,C,D,A,Melaka 2023/Picture29.png,"中文：泥球中的有效微生物可包含酵母，帮助处理有机污染物。
+English: Effective-microorganism mud balls may contain yeast that helps process organic pollutants."
+F5 Chp 4,radio,Melaka2023_Q30,A,B,C,D,B,Melaka 2023/Picture30.png,"中文：P 曲线初期较陡，反应较快，但终点气体量相同；催化剂提高速率而不增加总产量。
+English: P has a steeper initial curve but the same final gas volume; a catalyst increases rate without increasing total yield."
+F5 Chp 4,radio,Perak2023_Q29,A,B,C,D,B,Perak 2023/Picture29.png,"中文：燃烧木炭在短时间内发生并释放热，属于快反应；生锈、发酵和光合作用相对较慢。
+English: Charcoal combustion occurs over a short time and releases heat, making it a fast reaction compared with rusting, fermentation and photosynthesis."
+F5 Chp 4,radio,Perak2023_Q30,A,B,C,D,A,Perak 2023/Picture30.png,"中文：反应速率等于气体体积时间图的斜率；A处最陡，所以反应速率最高。
+English: Reaction rate is the slope of the gas-volume–time graph; the curve is steepest at A, so its rate is highest."
+F5 Chp 4,radio,Perlis2023_Q29,A,B,C,D,B,Perlis 2023/Picture29.png,"中文：牛奶常通过巴氏杀菌，短时间加热后快速冷却，以减少病原微生物并延长保存时间。
+English: Milk commonly undergoes pasteurisation: brief heating followed by rapid cooling reduces pathogens and extends storage life."
+F5 Chp 4,radio,Perlis2023_Q30,A,B,C,D,D,Perlis 2023/Picture30.png,"中文：垃圾中的有机物缺氧分解产生甲烷；收集甲烷燃烧，可把其化学能用于发电。
+English: Organic waste decomposing without oxygen produces methane; collected methane can be burned to use its chemical energy for electricity generation."
+F5 Chp 4,radio,PutrajayaSet12023_Q29,A,B,C,D,D,Putrajaya Set 1 2023/Picture29.png,"中文：升级再造把原有产品或废物变成品质更高或价值更大的产品，因此选D。
+English: Upcycling transforms an existing product or waste into a product of higher quality or value, giving D."
+F5 Chp 4,radio,PutrajayaSet12023_Q30,A,B,C,D,B,Putrajaya Set 1 2023/Picture30.png,"中文：猫头鹰捕食老鼠，饲养猫头鹰可利用天然天敌控制鼠害，属于生物防治。
+English: Owls prey on rats, so encouraging owls controls rat pests through natural predators, a form of biological control."
+F5 Chp 4,radio,PutrajayaSet22023_Q29,A,B,C,D,A,Putrajaya Set 2 2023/Picture29.png,"中文：重新植树恢复植被和栖息地，帮助固定土壤、吸收二氧化碳，是保护环境的措施。
+English: Reforestation restores vegetation and habitats, stabilises soil and absorbs carbon dioxide, contributing to environmental conservation."
+F5 Chp 4,radio,PutrajayaSet22023_Q30,A,B,C,D,B,Putrajaya Set 2 2023/Picture30.png,"中文：污水和漏油会污染水体、影响溶氧并损害水生生物，破坏水生栖息地，因此选B。
+English: Sewage and oil spills pollute water, affect oxygen availability and harm aquatic organisms, destroying aquatic habitats, giving B."
+F5 Chp 4,radio,SarawakSubisMiri2023_Q29,A,B,C,D,A,Sarawak Subis Miri 2023/Picture29.png,"中文：C河水只需20分钟使亚甲蓝褪色，最短时间表示耗氧最快、污染最严重，应选C；现有A河需30分钟，非最严重。
+English: River C decolourises methylene blue in 20 minutes, the shortest time and fastest oxygen depletion, indicating greatest pollution, so C; river A takes 30 minutes and is not the most polluted."
+F5 Chp 4,radio,SarawakSubisMiri2023_Q30,A,B,C,D,D,Sarawak Subis Miri 2023/Picture30.png,"中文：平均速率=镁带长度÷时间=20÷4=5.0 cm/min，应选A。现有答案D需核对，不能从这组数字得到其他速率。
+English: Average rate = magnesium length ÷ time = 20 ÷ 4 = 5.0 cm/min, giving A. Existing D requires review; the stated data do not yield another rate."
+F5 Chp 4,radio,Selangor2023_Q29,A,B,C,D,A,Selangor 2023/Picture29.png,"中文：钥匙上的铁锈表示生锈，是缓慢进行的氧化过程，因此现有A慢反应有道理；D也准确描述为生锈反应，题目分类存在重叠。
+English: Rust on the key indicates rusting, a slow oxidation process, so existing A, slow reaction, is reasonable; D also correctly names rusting, making the classifications overlap."
+F5 Chp 4,radio,Selangor2023_Q30,A,B,C,D,A,Selangor 2023/Picture30.png,"中文：铁粉在哈伯法中作催化剂，加快氮与氢生成氨的反应，本身不因反应而消耗。
+English: Iron powder is the Haber-process catalyst, accelerating ammonia formation from nitrogen and hydrogen without being consumed."
+F5 Chp 4,radio,SelangorSet22023_Q29,A,B,C,D,B,Selangor Set 2 2023/Picture29.png,"中文：庆祝活动的燃烧反应在短时间内发生、放热放光，属于快反应，因此选B。
+English: Combustion during the celebration occurs over a short time and releases heat and light, making it a fast reaction, giving B."
+F5 Chp 4,radio,SelangorSet22023_Q30,A,B,C,D,A,Selangor Set 2 2023/Picture30.png,"中文：氧化钒(V)在接触法中作催化剂，加快二氧化硫氧化成三氧化硫的反应，因此选A。
+English: Vanadium(V) oxide catalyses the Contact process, accelerating sulfur dioxide's oxidation to sulfur trioxide, giving A."
+F5 Chp 4,radio,TerengganuMPP32023_Q29,A,B,C,D,C,Terengganu MPP3 2023/Picture29.png,"中文：接触法生成的三氧化硫先制成发烟硫酸oleum，再与水反应生成硫酸，所以X为硫酸C。
+English: In the Contact process, sulfur trioxide forms oleum, which is then reacted with water to obtain sulfuric acid, so X is C."
+F5 Chp 4,radio,TerengganuMPP32023_Q30,A,B,C,D,C,Terengganu MPP3 2023/Picture30.png,"中文：醇充分燃烧时主要产生二氧化碳和水，燃烧较清洁、不会像某些燃料产生黑烟，因此选C。
+English: Complete alcohol combustion mainly produces carbon dioxide and water and burns more cleanly, without the smoky soot associated with some fuels, giving C."
+F5 Chp 4,radio,SBP2023_Q29,A,B,C,D,C,SBP 2023/Picture29.png,"中文：轮作可改变各季作物的营养需求，配合豆科作物还可增加土壤氮，帮助维持土壤肥力。
+English: Crop rotation varies nutrient demands between seasons; including legumes can also increase soil nitrogen, helping maintain fertility."
+F5 Chp 4,radio,SBP2023_Q30,A,B,C,D,B,SBP 2023/Picture30.png,"中文：动物尸体增加有机污染，微生物分解时消耗更多氧，使生化需氧量BOD上升。
+English: Animal carcasses increase organic pollution; decomposition consumes more oxygen and raises biochemical oxygen demand, BOD."

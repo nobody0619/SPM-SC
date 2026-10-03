@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya Set 2 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya Set 2 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：核电运行时不燃烧化石燃料，直接温室气体及空气污染物排放较少，因此课本选择B较环保；仍需管理放射性废物。
+English: Nuclear power does not burn fossil fuel during operation and has lower direct greenhouse-gas and air-pollutant emissions, giving textbook B, environmentally friendlier; radioactive waste still needs management."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：P是酵母、S是霉菌，二者都是真菌；Q为细菌，R为变形虫，因此选A。
+English: P is yeast and S is mould, both fungi; Q is a bacterium and R an amoeba, giving A."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：面包使用酵母发酵，产生二氧化碳使面团膨胀，因此P为酵母D。
+English: Bread uses yeast fermentation; released carbon dioxide raises the dough, so P is yeast, D."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：潮湿环境有利于细菌快速繁殖，湿衣服长时间未干会因微生物活动产生异味。
+English: High humidity favours bacterial growth, so clothes that remain damp can develop odours from microbial activity."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：P为反硝化，把硝酸盐转为氮气返回大气；Q为固氮，把大气氮转为可利用的含氮化合物，因此选B。
+English: P is denitrification, converting nitrates into atmospheric nitrogen; Q is nitrogen fixation, turning atmospheric nitrogen into usable nitrogen compounds, giving B."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：蔬果提供膳食纤维，帮助肠道蠕动并减少便秘，因此选A。
+English: Fruit and vegetables provide dietary fibre, supporting bowel movement and reducing constipation, giving A."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：重新植树恢复植被和栖息地，帮助固定土壤、吸收二氧化碳，是保护环境的措施。
+English: Reforestation restores vegetation and habitats, stabilises soil and absorbs carbon dioxide, contributing to environmental conservation."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：污水和漏油会污染水体、影响溶氧并损害水生生物，破坏水生栖息地，因此选B。
+English: Sewage and oil spills pollute water, affect oxygen availability and harm aquatic organisms, destroying aquatic habitats, giving B."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：碎木炭比大块木炭有更大的总表面积与氧气接触，因此燃烧较快，影响因素为颗粒大小。
+English: Charcoal flakes have a larger total surface area exposed to oxygen than chunks and burn faster; the factor is reactant particle size."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：氧化钒(V)作为接触法的催化剂，提供较低活化能的途径，提高反应速率。
+English: Vanadium(V) oxide is the Contact-process catalyst, providing a pathway with lower activation energy and increasing reaction rate."
+,radio,F5 Chp 6,A,B,C,D,A,Picture33.png,"中文：压力锅提高水的沸点，使烹煮温度更高、肉中的反应较快，因此能缩短烹煮时间。
+English: A pressure cooker raises water's boiling point, allowing a higher cooking temperature and faster reactions in the meat, shortening cooking time."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：蔗糖是含碳、氢、氧的有机化合物；金刚石是碳元素，二氧化碳为无机碳化合物。
+English: Sucrose is an organic compound containing carbon, hydrogen and oxygen; diamond is elemental carbon and carbon dioxide is inorganic."
+,radio,F5 Chp 7,A,B,C,D,C,Picture35.png,"中文：Z为亲水性的离子头，溶于水；Y为疏水碳氢尾，进入油脂，所以C正确。
+English: Z is the hydrophilic ionic head that interacts with water; Y is the hydrophobic hydrocarbon tail that enters grease, so C is correct."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：阳离子cation是带正电的离子，原子失去电子后形成，所以应选A。现有答案B写负离子，实际上是anion，暂保留并注明疑点。
+English: A cation is a positively charged ion formed by electron loss, so A is correct. Existing B says negative ion, which defines an anion, and is retained with this discrepancy noted."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：电池由化学电池构成，把化学能转为电能；电镀、金属提纯及电解提取使用的是电解槽。
+English: Batteries use chemical cells to convert chemical energy into electrical energy; electroplating, purification and electrolytic extraction use electrolytic cells instead."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：凹透镜对真实物体形成正立、虚且缩小的像，所以本题选C缩小。
+English: A concave lens forms an upright, virtual, diminished image of a real object, so C, diminished, is correct."
+,radio,F5 Chp 9,A,B,C,D,A,Picture39.png,"中文：本生灯喷嘴的气体快速流动，附近压力降低，使空气进入混合，是伯努利原理的应用。
+English: Fast gas flow at a Bunsen burner's nozzle lowers nearby pressure and draws air into the mixture, applying Bernoulli's principle."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：国际空间站可作为太空科学实验室，进行微重力等条件下的研究，因此选C。
+English: The International Space Station serves as a science laboratory for research under conditions such as microgravity, giving C."

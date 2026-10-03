@@ -1,601 +1,1201 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 1,radio,KedahTrial2023_Q01,A,B,C,D,B,Kedah Trial 2023/Picture1.png
-F4 Chp 1,radio,KelantanTrial2023_Q01,A,B,C,D,B,Kelantan Trial 2023/Picture1.png
-F4 Chp 1,radio,MaahadJohor2023_Q01,A,B,C,D,B,Maahad Johor 2023/Picture1.png
-F4 Chp 1,radio,NegeriSembilan2023_Q01,A,B,C,D,D,Negeri Sembilan 2023/Picture1.png
-F4 Chp 1,radio,PahangTrial2023_Q01,A,B,C,D,A,Pahang Trial 2023/Picture1.png
-F4 Chp 1,radio,Melaka2023_Q01,A,B,C,D,B,Melaka 2023/Picture1.png
-F4 Chp 1,radio,Perak2023_Q01,A,B,C,D,B,Perak 2023/Picture1.png
-F4 Chp 1,radio,Perlis2023_Q01,A,B,C,D,C,Perlis 2023/Picture1.png
-F4 Chp 1,radio,PutrajayaSet12023_Q01,A,B,C,D,B,Putrajaya Set 1 2023/Picture1.png
-F4 Chp 1,radio,PutrajayaSet22023_Q01,A,B,C,D,B,Putrajaya Set 2 2023/Picture1.png
-F4 Chp 1,radio,SarawakSubisMiri2023_Q01,A,B,C,D,B,Sarawak Subis Miri 2023/Picture1.png
-F4 Chp 1,radio,Selangor2023_Q01,A,B,C,D,A,Selangor 2023/Picture1.png
-F4 Chp 1,radio,SelangorSet22023_Q01,A,B,C,D,A,Selangor Set 2 2023/Picture1.png
-F4 Chp 1,radio,TerengganuMPP32023_Q01,A,B,C,D,B,Terengganu MPP3 2023/Picture1.png
-F4 Chp 1,radio,SBP2023_Q01,A,B,C,D,C,SBP 2023/Picture1.png
-F4 Chp 2,radio,KedahTrial2023_Q02,A,B,C,D,B,Kedah Trial 2023/Picture2.png
-F4 Chp 2,radio,KelantanTrial2023_Q02,A,B,C,D,C,Kelantan Trial 2023/Picture2.png
-F4 Chp 2,radio,MaahadJohor2023_Q02,A,B,C,D,D,Maahad Johor 2023/Picture2.png
-F4 Chp 2,radio,NegeriSembilan2023_Q02,A,B,C,D,A,Negeri Sembilan 2023/Picture2.png
-F4 Chp 2,radio,PahangTrial2023_Q02,A,B,C,D,C,Pahang Trial 2023/Picture2.png
-F4 Chp 2,radio,Melaka2023_Q02,A,B,C,D,D,Melaka 2023/Picture2.png
-F4 Chp 2,radio,Perak2023_Q02,A,B,C,D,D,Perak 2023/Picture2.png
-F4 Chp 2,radio,Perlis2023_Q02,A,B,C,D,D,Perlis 2023/Picture2.png
-F4 Chp 2,radio,PutrajayaSet12023_Q02,A,B,C,D,C,Putrajaya Set 1 2023/Picture2.png
-F4 Chp 2,radio,PutrajayaSet22023_Q02,A,B,C,D,D,Putrajaya Set 2 2023/Picture2.png
-F4 Chp 2,radio,SarawakSubisMiri2023_Q02,A,B,C,D,C,Sarawak Subis Miri 2023/Picture2.png
-F4 Chp 2,radio,Selangor2023_Q02,A,B,C,D,A,Selangor 2023/Picture2.png
-F4 Chp 2,radio,SelangorSet22023_Q02,A,B,C,D,B,Selangor Set 2 2023/Picture2.png
-F4 Chp 2,radio,TerengganuMPP32023_Q02,A,B,C,D,B,Terengganu MPP3 2023/Picture2.png
-F4 Chp 2,radio,SBP2023_Q02,A,B,C,D,D,SBP 2023/Picture2.png
-F4 Chp 3,radio,KedahTrial2023_Q03,A,B,C,D,D,Kedah Trial 2023/Picture3.png
-F4 Chp 3,radio,KedahTrial2023_Q04,A,B,C,D,C,Kedah Trial 2023/Picture4.png
-F4 Chp 3,radio,KelantanTrial2023_Q03,A,B,C,D,B,Kelantan Trial 2023/Picture3.png
-F4 Chp 3,radio,KelantanTrial2023_Q04,A,B,C,D,B,Kelantan Trial 2023/Picture4.png
-F4 Chp 3,radio,MaahadJohor2023_Q03,A,B,C,D,B,Maahad Johor 2023/Picture3.png
-F4 Chp 3,radio,MaahadJohor2023_Q04,A,B,C,D,C,Maahad Johor 2023/Picture4.png
-F4 Chp 3,radio,NegeriSembilan2023_Q03,A,B,C,D,C,Negeri Sembilan 2023/Picture3.png
-F4 Chp 3,radio,NegeriSembilan2023_Q04,A,B,C,D,A,Negeri Sembilan 2023/Picture4.png
-F4 Chp 3,radio,PahangTrial2023_Q03,A,B,C,D,D,Pahang Trial 2023/Picture3.png
-F4 Chp 3,radio,PahangTrial2023_Q04,A,B,C,D,B,Pahang Trial 2023/Picture4.png
-F4 Chp 3,radio,Melaka2023_Q03,A,B,C,D,D,Melaka 2023/Picture3.png
-F4 Chp 3,radio,Melaka2023_Q04,A,B,C,D,A,Melaka 2023/Picture4.png
-F4 Chp 3,radio,Perak2023_Q03,A,B,C,D,C,Perak 2023/Picture3.png
-F4 Chp 3,radio,Perak2023_Q04,A,B,C,D,D,Perak 2023/Picture4.png
-F4 Chp 3,radio,Perlis2023_Q03,A,B,C,D,D,Perlis 2023/Picture3.png
-F4 Chp 3,radio,Perlis2023_Q04,A,B,C,D,C,Perlis 2023/Picture4.png
-F4 Chp 3,radio,PutrajayaSet12023_Q03,A,B,C,D,A,Putrajaya Set 1 2023/Picture3.png
-F4 Chp 3,radio,PutrajayaSet12023_Q04,A,B,C,D,A,Putrajaya Set 1 2023/Picture4.png
-F4 Chp 3,radio,PutrajayaSet22023_Q03,A,B,C,D,C,Putrajaya Set 2 2023/Picture3.png
-F4 Chp 3,radio,PutrajayaSet22023_Q04,A,B,C,D,A,Putrajaya Set 2 2023/Picture4.png
-F4 Chp 3,radio,SarawakSubisMiri2023_Q03,A,B,C,D,A,Sarawak Subis Miri 2023/Picture3.png
-F4 Chp 3,radio,SarawakSubisMiri2023_Q04,A,B,C,D,A,Sarawak Subis Miri 2023/Picture4.png
-F4 Chp 3,radio,Selangor2023_Q03,A,B,C,D,D,Selangor 2023/Picture3.png
-F4 Chp 3,radio,Selangor2023_Q04,A,B,C,D,D,Selangor 2023/Picture4.png
-F4 Chp 3,radio,SelangorSet22023_Q03,A,B,C,D,D,Selangor Set 2 2023/Picture3.png
-F4 Chp 3,radio,SelangorSet22023_Q04,A,B,C,D,C,Selangor Set 2 2023/Picture4.png
-F4 Chp 3,radio,TerengganuMPP32023_Q03,A,B,C,D,A,Terengganu MPP3 2023/Picture3.png
-F4 Chp 3,radio,TerengganuMPP32023_Q04,A,B,C,D,D,Terengganu MPP3 2023/Picture4.png
-F4 Chp 3,radio,SBP2023_Q03,A,B,C,D,C,SBP 2023/Picture3.png
-F4 Chp 3,radio,SBP2023_Q04,A,B,C,D,C,SBP 2023/Picture4.png
-F4 Chp 4,radio,KedahTrial2023_Q05,A,B,C,D,D,Kedah Trial 2023/Picture5.png
-F4 Chp 4,radio,KedahTrial2023_Q06,A,B,C,D,C,Kedah Trial 2023/Picture6.png
-F4 Chp 4,radio,KelantanTrial2023_Q05,A,B,C,D,B,Kelantan Trial 2023/Picture5.png
-F4 Chp 4,radio,KelantanTrial2023_Q06,A,B,C,D,D,Kelantan Trial 2023/Picture6.png
-F4 Chp 4,radio,MaahadJohor2023_Q05,A,B,C,D,D,Maahad Johor 2023/Picture5.png
-F4 Chp 4,radio,MaahadJohor2023_Q06,A,B,C,D,C,Maahad Johor 2023/Picture6.png
-F4 Chp 4,radio,NegeriSembilan2023_Q05,A,B,C,D,B,Negeri Sembilan 2023/Picture5.png
-F4 Chp 4,radio,NegeriSembilan2023_Q06,A,B,C,D,D,Negeri Sembilan 2023/Picture6.png
-F4 Chp 4,radio,PahangTrial2023_Q05,A,B,C,D,C,Pahang Trial 2023/Picture5.png
-F4 Chp 4,radio,PahangTrial2023_Q06,A,B,C,D,B,Pahang Trial 2023/Picture6.png
-F4 Chp 4,radio,Melaka2023_Q05,A,B,C,D,D,Melaka 2023/Picture5.png
-F4 Chp 4,radio,Melaka2023_Q06,A,B,C,D,B,Melaka 2023/Picture6.png
-F4 Chp 4,radio,Perak2023_Q05,A,B,C,D,B,Perak 2023/Picture5.png
-F4 Chp 4,radio,Perak2023_Q06,A,B,C,D,B,Perak 2023/Picture6.png
-F4 Chp 4,radio,Perlis2023_Q05,A,B,C,D,A,Perlis 2023/Picture5.png
-F4 Chp 4,radio,Perlis2023_Q06,A,B,C,D,C,Perlis 2023/Picture6.png
-F4 Chp 4,radio,PutrajayaSet12023_Q05,A,B,C,D,A,Putrajaya Set 1 2023/Picture5.png
-F4 Chp 4,radio,PutrajayaSet12023_Q06,A,B,C,D,D,Putrajaya Set 1 2023/Picture6.png
-F4 Chp 4,radio,PutrajayaSet22023_Q05,A,B,C,D,D,Putrajaya Set 2 2023/Picture5.png
-F4 Chp 4,radio,PutrajayaSet22023_Q06,A,B,C,D,B,Putrajaya Set 2 2023/Picture6.png
-F4 Chp 4,radio,SarawakSubisMiri2023_Q05,A,B,C,D,D,Sarawak Subis Miri 2023/Picture5.png
-F4 Chp 4,radio,SarawakSubisMiri2023_Q06,A,B,C,D,B,Sarawak Subis Miri 2023/Picture6.png
-F4 Chp 4,radio,Selangor2023_Q05,A,B,C,D,D,Selangor 2023/Picture5.png
-F4 Chp 4,radio,Selangor2023_Q06,A,B,C,D,A,Selangor 2023/Picture6.png
-F4 Chp 4,radio,SelangorSet22023_Q05,A,B,C,D,C,Selangor Set 2 2023/Picture5.png
-F4 Chp 4,radio,SelangorSet22023_Q06,A,B,C,D,D,Selangor Set 2 2023/Picture6.png
-F4 Chp 4,radio,TerengganuMPP32023_Q05,A,B,C,D,C,Terengganu MPP3 2023/Picture5.png
-F4 Chp 4,radio,TerengganuMPP32023_Q06,A,B,C,D,A,Terengganu MPP3 2023/Picture6.png
-F4 Chp 4,radio,SBP2023_Q05,A,B,C,D,D,SBP 2023/Picture5.png
-F4 Chp 4,radio,SBP2023_Q06,A,B,C,D,B,SBP 2023/Picture6.png
-F4 Chp 5,radio,KedahTrial2023_Q07,A,B,C,D,B,Kedah Trial 2023/Picture7.png
-F4 Chp 5,radio,KedahTrial2023_Q08,A,B,C,D,B,Kedah Trial 2023/Picture8.png
-F4 Chp 5,radio,KelantanTrial2023_Q07,A,B,C,D,D,Kelantan Trial 2023/Picture7.png
-F4 Chp 5,radio,KelantanTrial2023_Q08,A,B,C,D,C,Kelantan Trial 2023/Picture8.png
-F4 Chp 5,radio,MaahadJohor2023_Q07,A,B,C,D,D,Maahad Johor 2023/Picture7.png
-F4 Chp 5,radio,MaahadJohor2023_Q08,A,B,C,D,C,Maahad Johor 2023/Picture8.png
-F4 Chp 5,radio,NegeriSembilan2023_Q07,A,B,C,D,A,Negeri Sembilan 2023/Picture7.png
-F4 Chp 5,radio,NegeriSembilan2023_Q08,A,B,C,D,B,Negeri Sembilan 2023/Picture8.png
-F4 Chp 5,radio,PahangTrial2023_Q07,A,B,C,D,D,Pahang Trial 2023/Picture7.png
-F4 Chp 5,radio,PahangTrial2023_Q08,A,B,C,D,A,Pahang Trial 2023/Picture8.png
-F4 Chp 5,radio,Melaka2023_Q07,A,B,C,D,B,Melaka 2023/Picture7.png
-F4 Chp 5,radio,Melaka2023_Q08,A,B,C,D,A,Melaka 2023/Picture8.png
-F4 Chp 5,radio,Perak2023_Q07,A,B,C,D,A,Perak 2023/Picture7.png
-F4 Chp 5,radio,Perak2023_Q08,A,B,C,D,D,Perak 2023/Picture8.png
-F4 Chp 5,radio,Perlis2023_Q07,A,B,C,D,C,Perlis 2023/Picture7.png
-F4 Chp 5,radio,Perlis2023_Q08,A,B,C,D,A,Perlis 2023/Picture8.png
-F4 Chp 5,radio,PutrajayaSet12023_Q07,A,B,C,D,C,Putrajaya Set 1 2023/Picture7.png
-F4 Chp 5,radio,PutrajayaSet12023_Q08,A,B,C,D,D,Putrajaya Set 1 2023/Picture8.png
-F4 Chp 5,radio,PutrajayaSet22023_Q07,A,B,C,D,C,Putrajaya Set 2 2023/Picture7.png
-F4 Chp 5,radio,PutrajayaSet22023_Q08,A,B,C,D,D,Putrajaya Set 2 2023/Picture8.png
-F4 Chp 5,radio,SarawakSubisMiri2023_Q07,A,B,C,D,C,Sarawak Subis Miri 2023/Picture7.png
-F4 Chp 5,radio,SarawakSubisMiri2023_Q08,A,B,C,D,D,Sarawak Subis Miri 2023/Picture8.png
-F4 Chp 5,radio,Selangor2023_Q07,A,B,C,D,B,Selangor 2023/Picture7.png
-F4 Chp 5,radio,Selangor2023_Q08,A,B,C,D,B,Selangor 2023/Picture8.png
-F4 Chp 5,radio,SelangorSet22023_Q07,A,B,C,D,D,Selangor Set 2 2023/Picture7.png
-F4 Chp 5,radio,SelangorSet22023_Q08,A,B,C,D,C,Selangor Set 2 2023/Picture8.png
-F4 Chp 5,radio,TerengganuMPP32023_Q07,A,B,C,D,A,Terengganu MPP3 2023/Picture7.png
-F4 Chp 5,radio,TerengganuMPP32023_Q08,A,B,C,D,D,Terengganu MPP3 2023/Picture8.png
-F4 Chp 5,radio,SBP2023_Q07,A,B,C,D,C,SBP 2023/Picture7.png
-F4 Chp 5,radio,SBP2023_Q08,A,B,C,D,D,SBP 2023/Picture8.png
-F4 Chp 6,radio,KedahTrial2023_Q09,A,B,C,D,B,Kedah Trial 2023/Picture9.png
-F4 Chp 6,radio,KedahTrial2023_Q10,A,B,C,D,D,Kedah Trial 2023/Picture10.png
-F4 Chp 6,radio,KelantanTrial2023_Q09,A,B,C,D,D,Kelantan Trial 2023/Picture9.png
-F4 Chp 6,radio,KelantanTrial2023_Q10,A,B,C,D,C,Kelantan Trial 2023/Picture10.png
-F4 Chp 6,radio,MaahadJohor2023_Q09,A,B,C,D,B,Maahad Johor 2023/Picture9.png
-F4 Chp 6,radio,MaahadJohor2023_Q10,A,B,C,D,B,Maahad Johor 2023/Picture10.png
-F4 Chp 6,radio,NegeriSembilan2023_Q09,A,B,C,D,D,Negeri Sembilan 2023/Picture9.png
-F4 Chp 6,radio,NegeriSembilan2023_Q10,A,B,C,D,C,Negeri Sembilan 2023/Picture10.png
-F4 Chp 6,radio,PahangTrial2023_Q09,A,B,C,D,D,Pahang Trial 2023/Picture9.png
-F4 Chp 6,radio,PahangTrial2023_Q10,A,B,C,D,A,Pahang Trial 2023/Picture10.png
-F4 Chp 6,radio,Melaka2023_Q09,A,B,C,D,C,Melaka 2023/Picture9.png
-F4 Chp 6,radio,Melaka2023_Q10,A,B,C,D,D,Melaka 2023/Picture10.png
-F4 Chp 6,radio,Perak2023_Q09,A,B,C,D,A,Perak 2023/Picture9.png
-F4 Chp 6,radio,Perak2023_Q10,A,B,C,D,D,Perak 2023/Picture10.png
-F4 Chp 6,radio,Perlis2023_Q09,A,B,C,D,B,Perlis 2023/Picture9.png
-F4 Chp 6,radio,Perlis2023_Q10,A,B,C,D,A,Perlis 2023/Picture10.png
-F4 Chp 6,radio,PutrajayaSet12023_Q09,A,B,C,D,B,Putrajaya Set 1 2023/Picture9.png
-F4 Chp 6,radio,PutrajayaSet12023_Q10,A,B,C,D,B,Putrajaya Set 1 2023/Picture10.png
-F4 Chp 6,radio,PutrajayaSet22023_Q09,A,B,C,D,B,Putrajaya Set 2 2023/Picture9.png
-F4 Chp 6,radio,PutrajayaSet22023_Q10,A,B,C,D,B,Putrajaya Set 2 2023/Picture10.png
-F4 Chp 6,radio,SarawakSubisMiri2023_Q09,A,B,C,D,A,Sarawak Subis Miri 2023/Picture9.png
-F4 Chp 6,radio,SarawakSubisMiri2023_Q10,A,B,C,D,B,Sarawak Subis Miri 2023/Picture10.png
-F4 Chp 6,radio,Selangor2023_Q09,A,B,C,D,D,Selangor 2023/Picture9.png
-F4 Chp 6,radio,Selangor2023_Q10,A,B,C,D,A,Selangor 2023/Picture10.png
-F4 Chp 6,radio,SelangorSet22023_Q09,A,B,C,D,A,Selangor Set 2 2023/Picture9.png
-F4 Chp 6,radio,SelangorSet22023_Q10,A,B,C,D,A,Selangor Set 2 2023/Picture10.png
-F4 Chp 6,radio,TerengganuMPP32023_Q09,A,B,C,D,A,Terengganu MPP3 2023/Picture9.png
-F4 Chp 6,radio,TerengganuMPP32023_Q10,A,B,C,D,C,Terengganu MPP3 2023/Picture10.png
-F4 Chp 6,radio,SBP2023_Q09,A,B,C,D,A,SBP 2023/Picture9.png
-F4 Chp 6,radio,SBP2023_Q10,A,B,C,D,B,SBP 2023/Picture10.png
-F4 Chp 7,radio,KedahTrial2023_Q11,A,B,C,D,D,Kedah Trial 2023/Picture11.png
-F4 Chp 7,radio,KelantanTrial2023_Q11,A,B,C,D,A,Kelantan Trial 2023/Picture11.png
-F4 Chp 7,radio,MaahadJohor2023_Q11,A,B,C,D,C,Maahad Johor 2023/Picture11.png
-F4 Chp 7,radio,NegeriSembilan2023_Q11,A,B,C,D,C,Negeri Sembilan 2023/Picture11.png
-F4 Chp 7,radio,PahangTrial2023_Q11,A,B,C,D,C,Pahang Trial 2023/Picture11.png
-F4 Chp 7,radio,Melaka2023_Q11,A,B,C,D,A,Melaka 2023/Picture11.png
-F4 Chp 7,radio,Perak2023_Q11,A,B,C,D,B,Perak 2023/Picture11.png
-F4 Chp 7,radio,Perlis2023_Q11,A,B,C,D,B,Perlis 2023/Picture11.png
-F4 Chp 7,radio,PutrajayaSet12023_Q11,A,B,C,D,B,Putrajaya Set 1 2023/Picture11.png
-F4 Chp 7,radio,PutrajayaSet22023_Q11,A,B,C,D,C,Putrajaya Set 2 2023/Picture11.png
-F4 Chp 7,radio,SarawakSubisMiri2023_Q11,A,B,C,D,C,Sarawak Subis Miri 2023/Picture11.png
-F4 Chp 7,radio,Selangor2023_Q11,A,B,C,D,A,Selangor 2023/Picture11.png
-F4 Chp 7,radio,SelangorSet22023_Q11,A,B,C,D,B,Selangor Set 2 2023/Picture11.png
-F4 Chp 7,radio,TerengganuMPP32023_Q11,A,B,C,D,D,Terengganu MPP3 2023/Picture11.png
-F4 Chp 7,radio,SBP2023_Q11,A,B,C,D,C,SBP 2023/Picture11.png
-F4 Chp 8,radio,KedahTrial2023_Q12,A,B,C,D,A,Kedah Trial 2023/Picture12.png
-F4 Chp 8,radio,KedahTrial2023_Q13,A,B,C,D,B,Kedah Trial 2023/Picture13.png
-F4 Chp 8,radio,KedahTrial2023_Q14,A,B,C,D,B,Kedah Trial 2023/Picture14.png
-F4 Chp 8,radio,KelantanTrial2023_Q12,A,B,C,D,D,Kelantan Trial 2023/Picture12.png
-F4 Chp 8,radio,KelantanTrial2023_Q13,A,B,C,D,B,Kelantan Trial 2023/Picture13.png
-F4 Chp 8,radio,KelantanTrial2023_Q14,A,B,C,D,A,Kelantan Trial 2023/Picture14.png
-F4 Chp 8,radio,MaahadJohor2023_Q12,A,B,C,D,D,Maahad Johor 2023/Picture12.png
-F4 Chp 8,radio,MaahadJohor2023_Q13,A,B,C,D,C,Maahad Johor 2023/Picture13.png
-F4 Chp 8,radio,MaahadJohor2023_Q14,A,B,C,D,B,Maahad Johor 2023/Picture14.png
-F4 Chp 8,radio,NegeriSembilan2023_Q12,A,B,C,D,D,Negeri Sembilan 2023/Picture12.png
-F4 Chp 8,radio,NegeriSembilan2023_Q13,A,B,C,D,C,Negeri Sembilan 2023/Picture13.png
-F4 Chp 8,radio,NegeriSembilan2023_Q14,A,B,C,D,B,Negeri Sembilan 2023/Picture14.png
-F4 Chp 8,radio,PahangTrial2023_Q12,A,B,C,D,B,Pahang Trial 2023/Picture12.png
-F4 Chp 8,radio,PahangTrial2023_Q13,A,B,C,D,B,Pahang Trial 2023/Picture13.png
-F4 Chp 8,radio,PahangTrial2023_Q14,A,B,C,D,D,Pahang Trial 2023/Picture14.png
-F4 Chp 8,radio,Melaka2023_Q12,A,B,C,D,A,Melaka 2023/Picture12.png
-F4 Chp 8,radio,Melaka2023_Q13,A,B,C,D,B,Melaka 2023/Picture13.png
-F4 Chp 8,radio,Melaka2023_Q14,A,B,C,D,C,Melaka 2023/Picture14.png
-F4 Chp 8,radio,Perak2023_Q12,A,B,C,D,C,Perak 2023/Picture12.png
-F4 Chp 8,radio,Perak2023_Q13,A,B,C,D,D,Perak 2023/Picture13.png
-F4 Chp 8,radio,Perak2023_Q14,A,B,C,D,B,Perak 2023/Picture14.png
-F4 Chp 8,radio,Perlis2023_Q12,A,B,C,D,C,Perlis 2023/Picture12.png
-F4 Chp 8,radio,Perlis2023_Q13,A,B,C,D,D,Perlis 2023/Picture13.png
-F4 Chp 8,radio,Perlis2023_Q14,A,B,C,D,C,Perlis 2023/Picture14.png
-F4 Chp 8,radio,PutrajayaSet12023_Q12,A,B,C,D,A,Putrajaya Set 1 2023/Picture12.png
-F4 Chp 8,radio,PutrajayaSet12023_Q13,A,B,C,D,D,Putrajaya Set 1 2023/Picture13.png
-F4 Chp 8,radio,PutrajayaSet12023_Q14,A,B,C,D,A,Putrajaya Set 1 2023/Picture14.png
-F4 Chp 8,radio,PutrajayaSet22023_Q12,A,B,C,D,B,Putrajaya Set 2 2023/Picture12.png
-F4 Chp 8,radio,PutrajayaSet22023_Q13,A,B,C,D,A,Putrajaya Set 2 2023/Picture13.png
-F4 Chp 8,radio,PutrajayaSet22023_Q14,A,B,C,D,B,Putrajaya Set 2 2023/Picture14.png
-F4 Chp 8,radio,SarawakSubisMiri2023_Q12,A,B,C,D,C,Sarawak Subis Miri 2023/Picture12.png
-F4 Chp 8,radio,SarawakSubisMiri2023_Q13,A,B,C,D,D,Sarawak Subis Miri 2023/Picture13.png
-F4 Chp 8,radio,SarawakSubisMiri2023_Q14,A,B,C,D,D,Sarawak Subis Miri 2023/Picture14.png
-F4 Chp 8,radio,Selangor2023_Q12,A,B,C,D,C,Selangor 2023/Picture12.png
-F4 Chp 8,radio,Selangor2023_Q13,A,B,C,D,A,Selangor 2023/Picture13.png
-F4 Chp 8,radio,Selangor2023_Q14,A,B,C,D,B,Selangor 2023/Picture14.png
-F4 Chp 8,radio,SelangorSet22023_Q12,A,B,C,D,D,Selangor Set 2 2023/Picture12.png
-F4 Chp 8,radio,SelangorSet22023_Q13,A,B,C,D,D,Selangor Set 2 2023/Picture13.png
-F4 Chp 8,radio,SelangorSet22023_Q14,A,B,C,D,B,Selangor Set 2 2023/Picture14.png
-F4 Chp 8,radio,TerengganuMPP32023_Q12,A,B,C,D,C,Terengganu MPP3 2023/Picture12.png
-F4 Chp 8,radio,TerengganuMPP32023_Q13,A,B,C,D,D,Terengganu MPP3 2023/Picture13.png
-F4 Chp 8,radio,TerengganuMPP32023_Q14,A,B,C,D,A,Terengganu MPP3 2023/Picture14.png
-F4 Chp 8,radio,SBP2023_Q12,A,B,C,D,D,SBP 2023/Picture12.png
-F4 Chp 8,radio,SBP2023_Q13,A,B,C,D,B,SBP 2023/Picture13.png
-F4 Chp 8,radio,SBP2023_Q14,A,B,C,D,D,SBP 2023/Picture14.png
-F4 Chp 9,radio,KedahTrial2023_Q15,A,B,C,D,C,Kedah Trial 2023/Picture15.png
-F4 Chp 9,radio,KedahTrial2023_Q16,A,B,C,D,A,Kedah Trial 2023/Picture16.png
-F4 Chp 9,radio,KelantanTrial2023_Q15,A,B,C,D,A,Kelantan Trial 2023/Picture15.png
-F4 Chp 9,radio,KelantanTrial2023_Q16,A,B,C,D,A,Kelantan Trial 2023/Picture16.png
-F4 Chp 9,radio,MaahadJohor2023_Q15,A,B,C,D,D,Maahad Johor 2023/Picture15.png
-F4 Chp 9,radio,MaahadJohor2023_Q16,A,B,C,D,A,Maahad Johor 2023/Picture16.png
-F4 Chp 9,radio,NegeriSembilan2023_Q15,A,B,C,D,C,Negeri Sembilan 2023/Picture15.png
-F4 Chp 9,radio,NegeriSembilan2023_Q16,A,B,C,D,C,Negeri Sembilan 2023/Picture16.png
-F4 Chp 9,radio,PahangTrial2023_Q15,A,B,C,D,C,Pahang Trial 2023/Picture15.png
-F4 Chp 9,radio,PahangTrial2023_Q16,A,B,C,D,D,Pahang Trial 2023/Picture16.png
-F4 Chp 9,radio,Melaka2023_Q15,A,B,C,D,B,Melaka 2023/Picture15.png
-F4 Chp 9,radio,Melaka2023_Q16,A,B,C,D,D,Melaka 2023/Picture16.png
-F4 Chp 9,radio,Perak2023_Q15,A,B,C,D,B,Perak 2023/Picture15.png
-F4 Chp 9,radio,Perak2023_Q16,A,B,C,D,D,Perak 2023/Picture16.png
-F4 Chp 9,radio,Perlis2023_Q15,A,B,C,D,B,Perlis 2023/Picture15.png
-F4 Chp 9,radio,Perlis2023_Q16,A,B,C,D,A,Perlis 2023/Picture16.png
-F4 Chp 9,radio,PutrajayaSet12023_Q15,A,B,C,D,C,Putrajaya Set 1 2023/Picture15.png
-F4 Chp 9,radio,PutrajayaSet12023_Q16,A,B,C,D,D,Putrajaya Set 1 2023/Picture16.png
-F4 Chp 9,radio,PutrajayaSet22023_Q15,A,B,C,D,B,Putrajaya Set 2 2023/Picture15.png
-F4 Chp 9,radio,PutrajayaSet22023_Q16,A,B,C,D,C,Putrajaya Set 2 2023/Picture16.png
-F4 Chp 9,radio,SarawakSubisMiri2023_Q15,A,B,C,D,B,Sarawak Subis Miri 2023/Picture15.png
-F4 Chp 9,radio,SarawakSubisMiri2023_Q16,A,B,C,D,B,Sarawak Subis Miri 2023/Picture16.png
-F4 Chp 9,radio,Selangor2023_Q15,A,B,C,D,C,Selangor 2023/Picture15.png
-F4 Chp 9,radio,Selangor2023_Q16,A,B,C,D,C,Selangor 2023/Picture16.png
-F4 Chp 9,radio,SelangorSet22023_Q15,A,B,C,D,B,Selangor Set 2 2023/Picture15.png
-F4 Chp 9,radio,SelangorSet22023_Q16,A,B,C,D,B,Selangor Set 2 2023/Picture16.png
-F4 Chp 9,radio,TerengganuMPP32023_Q15,A,B,C,D,D,Terengganu MPP3 2023/Picture15.png
-F4 Chp 9,radio,TerengganuMPP32023_Q16,A,B,C,D,C,Terengganu MPP3 2023/Picture16.png
-F4 Chp 9,radio,SBP2023_Q15,A,B,C,D,C,SBP 2023/Picture15.png
-F4 Chp 9,radio,SBP2023_Q16,A,B,C,D,D,SBP 2023/Picture16.png
-F4 Chp 10,radio,KedahTrial2023_Q17,A,B,C,D,D,Kedah Trial 2023/Picture17.png
-F4 Chp 10,radio,KedahTrial2023_Q18,A,B,C,D,C,Kedah Trial 2023/Picture18.png
-F4 Chp 10,radio,KelantanTrial2023_Q17,A,B,C,D,B,Kelantan Trial 2023/Picture17.png
-F4 Chp 10,radio,KelantanTrial2023_Q18,A,B,C,D,B,Kelantan Trial 2023/Picture18.png
-F4 Chp 10,radio,MaahadJohor2023_Q17,A,B,C,D,B,Maahad Johor 2023/Picture17.png
-F4 Chp 10,radio,MaahadJohor2023_Q18,A,B,C,D,C,Maahad Johor 2023/Picture18.png
-F4 Chp 10,radio,NegeriSembilan2023_Q17,A,B,C,D,D,Negeri Sembilan 2023/Picture17.png
-F4 Chp 10,radio,NegeriSembilan2023_Q18,A,B,C,D,B,Negeri Sembilan 2023/Picture18.png
-F4 Chp 10,radio,PahangTrial2023_Q17,A,B,C,D,C,Pahang Trial 2023/Picture17.png
-F4 Chp 10,radio,PahangTrial2023_Q18,A,B,C,D,B,Pahang Trial 2023/Picture18.png
-F4 Chp 10,radio,Melaka2023_Q17,A,B,C,D,A,Melaka 2023/Picture17.png
-F4 Chp 10,radio,Melaka2023_Q18,A,B,C,D,A,Melaka 2023/Picture18.png
-F4 Chp 10,radio,Perak2023_Q17,A,B,C,D,A,Perak 2023/Picture17.png
-F4 Chp 10,radio,Perak2023_Q18,A,B,C,D,B,Perak 2023/Picture18.png
-F4 Chp 10,radio,Perlis2023_Q17,A,B,C,D,D,Perlis 2023/Picture17.png
-F4 Chp 10,radio,Perlis2023_Q18,A,B,C,D,C,Perlis 2023/Picture18.png
-F4 Chp 10,radio,PutrajayaSet12023_Q17,A,B,C,D,A,Putrajaya Set 1 2023/Picture17.png
-F4 Chp 10,radio,PutrajayaSet12023_Q18,A,B,C,D,D,Putrajaya Set 1 2023/Picture18.png
-F4 Chp 10,radio,PutrajayaSet22023_Q17,A,B,C,D,A,Putrajaya Set 2 2023/Picture17.png
-F4 Chp 10,radio,PutrajayaSet22023_Q18,A,B,C,D,C,Putrajaya Set 2 2023/Picture18.png
-F4 Chp 10,radio,SarawakSubisMiri2023_Q17,A,B,C,D,A,Sarawak Subis Miri 2023/Picture17.png
-F4 Chp 10,radio,SarawakSubisMiri2023_Q18,A,B,C,D,D,Sarawak Subis Miri 2023/Picture18.png
-F4 Chp 10,radio,Selangor2023_Q17,A,B,C,D,B,Selangor 2023/Picture17.png
-F4 Chp 10,radio,Selangor2023_Q18,A,B,C,D,B,Selangor 2023/Picture18.png
-F4 Chp 10,radio,SelangorSet22023_Q17,A,B,C,D,D,Selangor Set 2 2023/Picture17.png
-F4 Chp 10,radio,SelangorSet22023_Q18,A,B,C,D,D,Selangor Set 2 2023/Picture18.png
-F4 Chp 10,radio,TerengganuMPP32023_Q17,A,B,C,D,A,Terengganu MPP3 2023/Picture17.png
-F4 Chp 10,radio,TerengganuMPP32023_Q18,A,B,C,D,B,Terengganu MPP3 2023/Picture18.png
-F4 Chp 10,radio,SBP2023_Q17,A,B,C,D,A,SBP 2023/Picture17.png
-F4 Chp 10,radio,SBP2023_Q18,A,B,C,D,D,SBP 2023/Picture18.png
-F4 Chp 11,radio,KedahTrial2023_Q19,A,B,C,D,B,Kedah Trial 2023/Picture19.png
-F4 Chp 11,radio,KedahTrial2023_Q20,A,B,C,D,D,Kedah Trial 2023/Picture20.png
-F4 Chp 11,radio,KelantanTrial2023_Q19,A,B,C,D,C,Kelantan Trial 2023/Picture19.png
-F4 Chp 11,radio,KelantanTrial2023_Q20,A,B,C,D,D,Kelantan Trial 2023/Picture20.png
-F4 Chp 11,radio,MaahadJohor2023_Q19,A,B,C,D,C,Maahad Johor 2023/Picture19.png
-F4 Chp 11,radio,MaahadJohor2023_Q20,A,B,C,D,C,Maahad Johor 2023/Picture20.png
-F4 Chp 11,radio,NegeriSembilan2023_Q19,A,B,C,D,A,Negeri Sembilan 2023/Picture19.png
-F4 Chp 11,radio,NegeriSembilan2023_Q20,A,B,C,D,B,Negeri Sembilan 2023/Picture20.png
-F4 Chp 11,radio,PahangTrial2023_Q19,A,B,C,D,A,Pahang Trial 2023/Picture19.png
-F4 Chp 11,radio,PahangTrial2023_Q20,A,B,C,D,D,Pahang Trial 2023/Picture20.png
-F4 Chp 11,radio,Melaka2023_Q19,A,B,C,D,A,Melaka 2023/Picture19.png
-F4 Chp 11,radio,Melaka2023_Q20,A,B,C,D,C,Melaka 2023/Picture20.png
-F4 Chp 11,radio,Perak2023_Q19,A,B,C,D,B,Perak 2023/Picture19.png
-F4 Chp 11,radio,Perak2023_Q20,A,B,C,D,B,Perak 2023/Picture20.png
-F4 Chp 11,radio,Perlis2023_Q19,A,B,C,D,A,Perlis 2023/Picture19.png
-F4 Chp 11,radio,Perlis2023_Q20,A,B,C,D,D,Perlis 2023/Picture20.png
-F4 Chp 11,radio,PutrajayaSet12023_Q19,A,B,C,D,C,Putrajaya Set 1 2023/Picture19.png
-F4 Chp 11,radio,PutrajayaSet12023_Q20,A,B,C,D,A,Putrajaya Set 1 2023/Picture20.png
-F4 Chp 11,radio,PutrajayaSet22023_Q19,A,B,C,D,C,Putrajaya Set 2 2023/Picture19.png
-F4 Chp 11,radio,PutrajayaSet22023_Q20,A,B,C,D,C,Putrajaya Set 2 2023/Picture20.png
-F4 Chp 11,radio,SarawakSubisMiri2023_Q19,A,B,C,D,C,Sarawak Subis Miri 2023/Picture19.png
-F4 Chp 11,radio,SarawakSubisMiri2023_Q20,A,B,C,D,D,Sarawak Subis Miri 2023/Picture20.png
-F4 Chp 11,radio,Selangor2023_Q19,A,B,C,D,C,Selangor 2023/Picture19.png
-F4 Chp 11,radio,Selangor2023_Q20,A,B,C,D,D,Selangor 2023/Picture20.png
-F4 Chp 11,radio,SelangorSet22023_Q19,A,B,C,D,B,Selangor Set 2 2023/Picture19.png
-F4 Chp 11,radio,SelangorSet22023_Q20,A,B,C,D,B,Selangor Set 2 2023/Picture20.png
-F4 Chp 11,radio,TerengganuMPP32023_Q19,A,B,C,D,C,Terengganu MPP3 2023/Picture19.png
-F4 Chp 11,radio,TerengganuMPP32023_Q20,A,B,C,D,D,Terengganu MPP3 2023/Picture20.png
-F4 Chp 11,radio,SBP2023_Q19,A,B,C,D,B,SBP 2023/Picture19.png
-F4 Chp 11,radio,SBP2023_Q20,A,B,C,D,B,SBP 2023/Picture20.png
-F4 Chp 12,radio,KedahTrial2023_Q21,A,B,C,D,B,Kedah Trial 2023/Picture21.png
-F4 Chp 12,radio,KedahTrial2023_Q22,A,B,C,D,D,Kedah Trial 2023/Picture22.png
-F4 Chp 12,radio,KelantanTrial2023_Q21,A,B,C,D,B,Kelantan Trial 2023/Picture21.png
-F4 Chp 12,radio,KelantanTrial2023_Q22,A,B,C,D,C,Kelantan Trial 2023/Picture22.png
-F4 Chp 12,radio,MaahadJohor2023_Q21,A,B,C,D,C,Maahad Johor 2023/Picture21.png
-F4 Chp 12,radio,MaahadJohor2023_Q22,A,B,C,D,D,Maahad Johor 2023/Picture22.png
-F4 Chp 12,radio,NegeriSembilan2023_Q21,A,B,C,D,A,Negeri Sembilan 2023/Picture21.png
-F4 Chp 12,radio,NegeriSembilan2023_Q22,A,B,C,D,B,Negeri Sembilan 2023/Picture22.png
-F4 Chp 12,radio,PahangTrial2023_Q21,A,B,C,D,C,Pahang Trial 2023/Picture21.png
-F4 Chp 12,radio,PahangTrial2023_Q22,A,B,C,D,A,Pahang Trial 2023/Picture22.png
-F4 Chp 12,radio,Melaka2023_Q21,A,B,C,D,B,Melaka 2023/Picture21.png
-F4 Chp 12,radio,Melaka2023_Q22,A,B,C,D,B,Melaka 2023/Picture22.png
-F4 Chp 12,radio,Perak2023_Q21,A,B,C,D,C,Perak 2023/Picture21.png
-F4 Chp 12,radio,Perak2023_Q22,A,B,C,D,A,Perak 2023/Picture22.png
-F4 Chp 12,radio,Perlis2023_Q21,A,B,C,D,A,Perlis 2023/Picture21.png
-F4 Chp 12,radio,Perlis2023_Q22,A,B,C,D,A,Perlis 2023/Picture22.png
-F4 Chp 12,radio,PutrajayaSet12023_Q21,A,B,C,D,B,Putrajaya Set 1 2023/Picture21.png
-F4 Chp 12,radio,PutrajayaSet12023_Q22,A,B,C,D,B,Putrajaya Set 1 2023/Picture22.png
-F4 Chp 12,radio,PutrajayaSet22023_Q21,A,B,C,D,B,Putrajaya Set 2 2023/Picture21.png
-F4 Chp 12,radio,PutrajayaSet22023_Q22,A,B,C,D,A,Putrajaya Set 2 2023/Picture22.png
-F4 Chp 12,radio,SarawakSubisMiri2023_Q21,A,B,C,D,D,Sarawak Subis Miri 2023/Picture21.png
-F4 Chp 12,radio,SarawakSubisMiri2023_Q22,A,B,C,D,A,Sarawak Subis Miri 2023/Picture22.png
-F4 Chp 12,radio,Selangor2023_Q21,A,B,C,D,D,Selangor 2023/Picture21.png
-F4 Chp 12,radio,Selangor2023_Q22,A,B,C,D,D,Selangor 2023/Picture22.png
-F4 Chp 12,radio,SelangorSet22023_Q21,A,B,C,D,C,Selangor Set 2 2023/Picture21.png
-F4 Chp 12,radio,SelangorSet22023_Q22,A,B,C,D,A,Selangor Set 2 2023/Picture22.png
-F4 Chp 12,radio,TerengganuMPP32023_Q21,A,B,C,D,B,Terengganu MPP3 2023/Picture21.png
-F4 Chp 12,radio,TerengganuMPP32023_Q22,A,B,C,D,D,Terengganu MPP3 2023/Picture22.png
-F4 Chp 12,radio,SBP2023_Q21,A,B,C,D,D,SBP 2023/Picture21.png
-F4 Chp 12,radio,SBP2023_Q22,A,B,C,D,B,SBP 2023/Picture22.png
-F5 Chp 1,radio,KedahTrial2023_Q23,A,B,C,D,C,Kedah Trial 2023/Picture23.png
-F5 Chp 1,radio,KedahTrial2023_Q24,A,B,C,D,D,Kedah Trial 2023/Picture24.png
-F5 Chp 1,radio,KelantanTrial2023_Q23,A,B,C,D,A,Kelantan Trial 2023/Picture23.png
-F5 Chp 1,radio,KelantanTrial2023_Q24,A,B,C,D,C,Kelantan Trial 2023/Picture24.png
-F5 Chp 1,radio,MaahadJohor2023_Q23,A,B,C,D,B,Maahad Johor 2023/Picture23.png
-F5 Chp 1,radio,MaahadJohor2023_Q24,A,B,C,D,D,Maahad Johor 2023/Picture24.png
-F5 Chp 1,radio,NegeriSembilan2023_Q23,A,B,C,D,A,Negeri Sembilan 2023/Picture23.png
-F5 Chp 1,radio,NegeriSembilan2023_Q24,A,B,C,D,D,Negeri Sembilan 2023/Picture24.png
-F5 Chp 1,radio,PahangTrial2023_Q23,A,B,C,D,D,Pahang Trial 2023/Picture23.png
-F5 Chp 1,radio,PahangTrial2023_Q24,A,B,C,D,A,Pahang Trial 2023/Picture24.png
-F5 Chp 1,radio,Melaka2023_Q23,A,B,C,D,C,Melaka 2023/Picture23.png
-F5 Chp 1,radio,Melaka2023_Q24,A,B,C,D,A,Melaka 2023/Picture24.png
-F5 Chp 1,radio,Perak2023_Q23,A,B,C,D,B,Perak 2023/Picture23.png
-F5 Chp 1,radio,Perak2023_Q24,A,B,C,D,B,Perak 2023/Picture24.png
-F5 Chp 1,radio,Perlis2023_Q23,A,B,C,D,B,Perlis 2023/Picture23.png
-F5 Chp 1,radio,Perlis2023_Q24,A,B,C,D,B,Perlis 2023/Picture24.png
-F5 Chp 1,radio,PutrajayaSet12023_Q23,A,B,C,D,C,Putrajaya Set 1 2023/Picture23.png
-F5 Chp 1,radio,PutrajayaSet12023_Q24,A,B,C,D,B,Putrajaya Set 1 2023/Picture24.png
-F5 Chp 1,radio,PutrajayaSet22023_Q23,A,B,C,D,B,Putrajaya Set 2 2023/Picture23.png
-F5 Chp 1,radio,PutrajayaSet22023_Q24,A,B,C,D,A,Putrajaya Set 2 2023/Picture24.png
-F5 Chp 1,radio,SarawakSubisMiri2023_Q23,A,B,C,D,B,Sarawak Subis Miri 2023/Picture23.png
-F5 Chp 1,radio,SarawakSubisMiri2023_Q24,A,B,C,D,C,Sarawak Subis Miri 2023/Picture24.png
-F5 Chp 1,radio,Selangor2023_Q23,A,B,C,D,B,Selangor 2023/Picture23.png
-F5 Chp 1,radio,Selangor2023_Q24,A,B,C,D,B,Selangor 2023/Picture24.png
-F5 Chp 1,radio,SelangorSet22023_Q23,A,B,C,D,A,Selangor Set 2 2023/Picture23.png
-F5 Chp 1,radio,SelangorSet22023_Q24,A,B,C,D,B,Selangor Set 2 2023/Picture24.png
-F5 Chp 1,radio,TerengganuMPP32023_Q23,A,B,C,D,D,Terengganu MPP3 2023/Picture23.png
-F5 Chp 1,radio,TerengganuMPP32023_Q24,A,B,C,D,A,Terengganu MPP3 2023/Picture24.png
-F5 Chp 1,radio,SBP2023_Q23,A,B,C,D,D,SBP 2023/Picture23.png
-F5 Chp 1,radio,SBP2023_Q24,A,B,C,D,A,SBP 2023/Picture24.png
-F5 Chp 2,radio,KedahTrial2023_Q25,A,B,C,D,B,Kedah Trial 2023/Picture25.png
-F5 Chp 2,radio,KedahTrial2023_Q26,A,B,C,D,B,Kedah Trial 2023/Picture26.png
-F5 Chp 2,radio,KelantanTrial2023_Q25,A,B,C,D,C,Kelantan Trial 2023/Picture25.png
-F5 Chp 2,radio,KelantanTrial2023_Q26,A,B,C,D,D,Kelantan Trial 2023/Picture26.png
-F5 Chp 2,radio,MaahadJohor2023_Q25,A,B,C,D,B,Maahad Johor 2023/Picture25.png
-F5 Chp 2,radio,MaahadJohor2023_Q26,A,B,C,D,C,Maahad Johor 2023/Picture26.png
-F5 Chp 2,radio,NegeriSembilan2023_Q25,A,B,C,D,A,Negeri Sembilan 2023/Picture25.png
-F5 Chp 2,radio,NegeriSembilan2023_Q26,A,B,C,D,A,Negeri Sembilan 2023/Picture26.png
-F5 Chp 2,radio,PahangTrial2023_Q25,A,B,C,D,B,Pahang Trial 2023/Picture25.png
-F5 Chp 2,radio,PahangTrial2023_Q26,A,B,C,D,D,Pahang Trial 2023/Picture26.png
-F5 Chp 2,radio,Melaka2023_Q25,A,B,C,D,B,Melaka 2023/Picture25.png
-F5 Chp 2,radio,Melaka2023_Q26,A,B,C,D,C,Melaka 2023/Picture26.png
-F5 Chp 2,radio,Perak2023_Q25,A,B,C,D,A,Perak 2023/Picture25.png
-F5 Chp 2,radio,Perak2023_Q26,A,B,C,D,D,Perak 2023/Picture26.png
-F5 Chp 2,radio,Perlis2023_Q25,A,B,C,D,B,Perlis 2023/Picture25.png
-F5 Chp 2,radio,Perlis2023_Q26,A,B,C,D,D,Perlis 2023/Picture26.png
-F5 Chp 2,radio,PutrajayaSet12023_Q25,A,B,C,D,B,Putrajaya Set 1 2023/Picture25.png
-F5 Chp 2,radio,PutrajayaSet12023_Q26,A,B,C,D,A,Putrajaya Set 1 2023/Picture26.png
-F5 Chp 2,radio,PutrajayaSet22023_Q25,A,B,C,D,D,Putrajaya Set 2 2023/Picture25.png
-F5 Chp 2,radio,PutrajayaSet22023_Q26,A,B,C,D,C,Putrajaya Set 2 2023/Picture26.png
-F5 Chp 2,radio,SarawakSubisMiri2023_Q25,A,B,C,D,D,Sarawak Subis Miri 2023/Picture25.png
-F5 Chp 2,radio,SarawakSubisMiri2023_Q26,A,B,C,D,B,Sarawak Subis Miri 2023/Picture26.png
-F5 Chp 2,radio,Selangor2023_Q25,A,B,C,D,C,Selangor 2023/Picture25.png
-F5 Chp 2,radio,Selangor2023_Q26,A,B,C,D,B,Selangor 2023/Picture26.png
-F5 Chp 2,radio,SelangorSet22023_Q25,A,B,C,D,D,Selangor Set 2 2023/Picture25.png
-F5 Chp 2,radio,SelangorSet22023_Q26,A,B,C,D,C,Selangor Set 2 2023/Picture26.png
-F5 Chp 2,radio,TerengganuMPP32023_Q25,A,B,C,D,B,Terengganu MPP3 2023/Picture25.png
-F5 Chp 2,radio,TerengganuMPP32023_Q26,A,B,C,D,A,Terengganu MPP3 2023/Picture26.png
-F5 Chp 2,radio,SBP2023_Q25,A,B,C,D,A,SBP 2023/Picture25.png
-F5 Chp 2,radio,SBP2023_Q26,A,B,C,D,B,SBP 2023/Picture26.png
-F5 Chp 3,radio,KedahTrial2023_Q27,A,B,C,D,B,Kedah Trial 2023/Picture27.png
-F5 Chp 3,radio,KedahTrial2023_Q28,A,B,C,D,A,Kedah Trial 2023/Picture28.png
-F5 Chp 3,radio,KelantanTrial2023_Q27,A,B,C,D,D,Kelantan Trial 2023/Picture27.png
-F5 Chp 3,radio,KelantanTrial2023_Q28,A,B,C,D,C,Kelantan Trial 2023/Picture28.png
-F5 Chp 3,radio,MaahadJohor2023_Q27,A,B,C,D,C,Maahad Johor 2023/Picture27.png
-F5 Chp 3,radio,MaahadJohor2023_Q28,A,B,C,D,D,Maahad Johor 2023/Picture28.png
-F5 Chp 3,radio,NegeriSembilan2023_Q27,A,B,C,D,B,Negeri Sembilan 2023/Picture27.png
-F5 Chp 3,radio,NegeriSembilan2023_Q28,A,B,C,D,A,Negeri Sembilan 2023/Picture28.png
-F5 Chp 3,radio,PahangTrial2023_Q27,A,B,C,D,D,Pahang Trial 2023/Picture27.png
-F5 Chp 3,radio,PahangTrial2023_Q28,A,B,C,D,A,Pahang Trial 2023/Picture28.png
-F5 Chp 3,radio,Melaka2023_Q27,A,B,C,D,C,Melaka 2023/Picture27.png
-F5 Chp 3,radio,Melaka2023_Q28,A,B,C,D,D,Melaka 2023/Picture28.png
-F5 Chp 3,radio,Perak2023_Q27,A,B,C,D,B,Perak 2023/Picture27.png
-F5 Chp 3,radio,Perak2023_Q28,A,B,C,D,D,Perak 2023/Picture28.png
-F5 Chp 3,radio,Perlis2023_Q27,A,B,C,D,B,Perlis 2023/Picture27.png
-F5 Chp 3,radio,Perlis2023_Q28,A,B,C,D,D,Perlis 2023/Picture28.png
-F5 Chp 3,radio,PutrajayaSet12023_Q27,A,B,C,D,D,Putrajaya Set 1 2023/Picture27.png
-F5 Chp 3,radio,PutrajayaSet12023_Q28,A,B,C,D,D,Putrajaya Set 1 2023/Picture28.png
-F5 Chp 3,radio,PutrajayaSet22023_Q27,A,B,C,D,B,Putrajaya Set 2 2023/Picture27.png
-F5 Chp 3,radio,PutrajayaSet22023_Q28,A,B,C,D,A,Putrajaya Set 2 2023/Picture28.png
-F5 Chp 3,radio,SarawakSubisMiri2023_Q27,A,B,C,D,A,Sarawak Subis Miri 2023/Picture27.png
-F5 Chp 3,radio,SarawakSubisMiri2023_Q28,A,B,C,D,C,Sarawak Subis Miri 2023/Picture28.png
-F5 Chp 3,radio,Selangor2023_Q27,A,B,C,D,A,Selangor 2023/Picture27.png
-F5 Chp 3,radio,Selangor2023_Q28,A,B,C,D,B,Selangor 2023/Picture28.png
-F5 Chp 3,radio,SelangorSet22023_Q27,A,B,C,D,C,Selangor Set 2 2023/Picture27.png
-F5 Chp 3,radio,SelangorSet22023_Q28,A,B,C,D,A,Selangor Set 2 2023/Picture28.png
-F5 Chp 3,radio,TerengganuMPP32023_Q27,A,B,C,D,C,Terengganu MPP3 2023/Picture27.png
-F5 Chp 3,radio,TerengganuMPP32023_Q28,A,B,C,D,B,Terengganu MPP3 2023/Picture28.png
-F5 Chp 3,radio,SBP2023_Q27,A,B,C,D,A,SBP 2023/Picture27.png
-F5 Chp 3,radio,SBP2023_Q28,A,B,C,D,A,SBP 2023/Picture28.png
-F5 Chp 4,radio,KedahTrial2023_Q29,A,B,C,D,A,Kedah Trial 2023/Picture29.png
-F5 Chp 4,radio,KedahTrial2023_Q30,A,B,C,D,C,Kedah Trial 2023/Picture30.png
-F5 Chp 4,radio,KelantanTrial2023_Q29,A,B,C,D,A,Kelantan Trial 2023/Picture29.png
-F5 Chp 4,radio,KelantanTrial2023_Q30,A,B,C,D,C,Kelantan Trial 2023/Picture30.png
-F5 Chp 4,radio,MaahadJohor2023_Q29,A,B,C,D,B,Maahad Johor 2023/Picture29.png
-F5 Chp 4,radio,MaahadJohor2023_Q30,A,B,C,D,B,Maahad Johor 2023/Picture30.png
-F5 Chp 4,radio,NegeriSembilan2023_Q29,A,B,C,D,C,Negeri Sembilan 2023/Picture29.png
-F5 Chp 4,radio,NegeriSembilan2023_Q30,A,B,C,D,D,Negeri Sembilan 2023/Picture30.png
-F5 Chp 4,radio,PahangTrial2023_Q29,A,B,C,D,B,Pahang Trial 2023/Picture29.png
-F5 Chp 4,radio,PahangTrial2023_Q30,A,B,C,D,C,Pahang Trial 2023/Picture30.png
-F5 Chp 4,radio,Melaka2023_Q29,A,B,C,D,A,Melaka 2023/Picture29.png
-F5 Chp 4,radio,Melaka2023_Q30,A,B,C,D,B,Melaka 2023/Picture30.png
-F5 Chp 4,radio,Perak2023_Q29,A,B,C,D,B,Perak 2023/Picture29.png
-F5 Chp 4,radio,Perak2023_Q30,A,B,C,D,A,Perak 2023/Picture30.png
-F5 Chp 4,radio,Perlis2023_Q29,A,B,C,D,B,Perlis 2023/Picture29.png
-F5 Chp 4,radio,Perlis2023_Q30,A,B,C,D,D,Perlis 2023/Picture30.png
-F5 Chp 4,radio,PutrajayaSet12023_Q29,A,B,C,D,D,Putrajaya Set 1 2023/Picture29.png
-F5 Chp 4,radio,PutrajayaSet12023_Q30,A,B,C,D,B,Putrajaya Set 1 2023/Picture30.png
-F5 Chp 4,radio,PutrajayaSet22023_Q29,A,B,C,D,A,Putrajaya Set 2 2023/Picture29.png
-F5 Chp 4,radio,PutrajayaSet22023_Q30,A,B,C,D,B,Putrajaya Set 2 2023/Picture30.png
-F5 Chp 4,radio,SarawakSubisMiri2023_Q29,A,B,C,D,A,Sarawak Subis Miri 2023/Picture29.png
-F5 Chp 4,radio,SarawakSubisMiri2023_Q30,A,B,C,D,D,Sarawak Subis Miri 2023/Picture30.png
-F5 Chp 4,radio,Selangor2023_Q29,A,B,C,D,A,Selangor 2023/Picture29.png
-F5 Chp 4,radio,Selangor2023_Q30,A,B,C,D,A,Selangor 2023/Picture30.png
-F5 Chp 4,radio,SelangorSet22023_Q29,A,B,C,D,B,Selangor Set 2 2023/Picture29.png
-F5 Chp 4,radio,SelangorSet22023_Q30,A,B,C,D,A,Selangor Set 2 2023/Picture30.png
-F5 Chp 4,radio,TerengganuMPP32023_Q29,A,B,C,D,C,Terengganu MPP3 2023/Picture29.png
-F5 Chp 4,radio,TerengganuMPP32023_Q30,A,B,C,D,C,Terengganu MPP3 2023/Picture30.png
-F5 Chp 4,radio,SBP2023_Q29,A,B,C,D,C,SBP 2023/Picture29.png
-F5 Chp 4,radio,SBP2023_Q30,A,B,C,D,B,SBP 2023/Picture30.png
-F5 Chp 5,radio,KedahTrial2023_Q31,A,B,C,D,C,Kedah Trial 2023/Picture31.png
-F5 Chp 5,radio,KedahTrial2023_Q32,A,B,C,D,D,Kedah Trial 2023/Picture32.png
-F5 Chp 5,radio,KelantanTrial2023_Q31,A,B,C,D,C,Kelantan Trial 2023/Picture31.png
-F5 Chp 5,radio,KelantanTrial2023_Q32,A,B,C,D,A,Kelantan Trial 2023/Picture32.png
-F5 Chp 5,radio,MaahadJohor2023_Q31,A,B,C,D,C,Maahad Johor 2023/Picture31.png
-F5 Chp 5,radio,MaahadJohor2023_Q32,A,B,C,D,B,Maahad Johor 2023/Picture32.png
-F5 Chp 5,radio,NegeriSembilan2023_Q31,A,B,C,D,B,Negeri Sembilan 2023/Picture31.png
-F5 Chp 5,radio,NegeriSembilan2023_Q32,A,B,C,D,A,Negeri Sembilan 2023/Picture32.png
-F5 Chp 5,radio,PahangTrial2023_Q31,A,B,C,D,C,Pahang Trial 2023/Picture31.png
-F5 Chp 5,radio,PahangTrial2023_Q32,A,B,C,D,D,Pahang Trial 2023/Picture32.png
-F5 Chp 5,radio,Melaka2023_Q31,A,B,C,D,A,Melaka 2023/Picture31.png
-F5 Chp 5,radio,Melaka2023_Q32,A,B,C,D,C,Melaka 2023/Picture32.png
-F5 Chp 5,radio,Perak2023_Q31,A,B,C,D,B,Perak 2023/Picture31.png
-F5 Chp 5,radio,Perak2023_Q32,A,B,C,D,D,Perak 2023/Picture32.png
-F5 Chp 5,radio,Perlis2023_Q31,A,B,C,D,A,Perlis 2023/Picture31.png
-F5 Chp 5,radio,Perlis2023_Q32,A,B,C,D,C,Perlis 2023/Picture32.png
-F5 Chp 5,radio,PutrajayaSet12023_Q31,A,B,C,D,C,Putrajaya Set 1 2023/Picture31.png
-F5 Chp 5,radio,PutrajayaSet12023_Q32,A,B,C,D,B,Putrajaya Set 1 2023/Picture32.png
-F5 Chp 5,radio,PutrajayaSet22023_Q31,A,B,C,D,B,Putrajaya Set 2 2023/Picture31.png
-F5 Chp 5,radio,PutrajayaSet22023_Q32,A,B,C,D,D,Putrajaya Set 2 2023/Picture32.png
-F5 Chp 5,radio,SarawakSubisMiri2023_Q31,A,B,C,D,A,Sarawak Subis Miri 2023/Picture31.png
-F5 Chp 5,radio,SarawakSubisMiri2023_Q32,A,B,C,D,C,Sarawak Subis Miri 2023/Picture32.png
-F5 Chp 5,radio,Selangor2023_Q31,A,B,C,D,C,Selangor 2023/Picture31.png
-F5 Chp 5,radio,Selangor2023_Q32,A,B,C,D,A,Selangor 2023/Picture32.png
-F5 Chp 5,radio,SelangorSet22023_Q31,A,B,C,D,C,Selangor Set 2 2023/Picture31.png
-F5 Chp 5,radio,SelangorSet22023_Q32,A,B,C,D,C,Selangor Set 2 2023/Picture32.png
-F5 Chp 5,radio,TerengganuMPP32023_Q31,A,B,C,D,D,Terengganu MPP3 2023/Picture31.png
-F5 Chp 5,radio,TerengganuMPP32023_Q32,A,B,C,D,C,Terengganu MPP3 2023/Picture32.png
-F5 Chp 5,radio,SBP2023_Q31,A,B,C,D,C,SBP 2023/Picture31.png
-F5 Chp 5,radio,SBP2023_Q32,A,B,C,D,B,SBP 2023/Picture32.png
-F5 Chp 6,radio,KedahTrial2023_Q33,A,B,C,D,B,Kedah Trial 2023/Picture33.png
-F5 Chp 6,radio,KedahTrial2023_Q34,A,B,C,D,B,Kedah Trial 2023/Picture34.png
-F5 Chp 6,radio,KelantanTrial2023_Q33,A,B,C,D,D,Kelantan Trial 2023/Picture33.png
-F5 Chp 6,radio,KelantanTrial2023_Q34,A,B,C,D,D,Kelantan Trial 2023/Picture34.png
-F5 Chp 6,radio,MaahadJohor2023_Q33,A,B,C,D,B,Maahad Johor 2023/Picture33.png
-F5 Chp 6,radio,MaahadJohor2023_Q34,A,B,C,D,B,Maahad Johor 2023/Picture34.png
-F5 Chp 6,radio,NegeriSembilan2023_Q33,A,B,C,D,D,Negeri Sembilan 2023/Picture33.png
-F5 Chp 6,radio,NegeriSembilan2023_Q34,A,B,C,D,B,Negeri Sembilan 2023/Picture34.png
-F5 Chp 6,radio,PahangTrial2023_Q33,A,B,C,D,B,Pahang Trial 2023/Picture33.png
-F5 Chp 6,radio,PahangTrial2023_Q34,A,B,C,D,A,Pahang Trial 2023/Picture34.png
-F5 Chp 6,radio,Melaka2023_Q33,A,B,C,D,C,Melaka 2023/Picture33.png
-F5 Chp 6,radio,Melaka2023_Q34,A,B,C,D,D,Melaka 2023/Picture34.png
-F5 Chp 6,radio,Perak2023_Q33,A,B,C,D,C,Perak 2023/Picture33.png
-F5 Chp 6,radio,Perak2023_Q34,A,B,C,D,A,Perak 2023/Picture34.png
-F5 Chp 6,radio,Perlis2023_Q33,A,B,C,D,C,Perlis 2023/Picture33.png
-F5 Chp 6,radio,Perlis2023_Q34,A,B,C,D,B,Perlis 2023/Picture34.png
-F5 Chp 6,radio,PutrajayaSet12023_Q33,A,B,C,D,D,Putrajaya Set 1 2023/Picture33.png
-F5 Chp 6,radio,PutrajayaSet12023_Q34,A,B,C,D,A,Putrajaya Set 1 2023/Picture34.png
-F5 Chp 6,radio,PutrajayaSet22023_Q33,A,B,C,D,A,Putrajaya Set 2 2023/Picture33.png
-F5 Chp 6,radio,PutrajayaSet22023_Q34,A,B,C,D,A,Putrajaya Set 2 2023/Picture34.png
-F5 Chp 6,radio,SarawakSubisMiri2023_Q33,A,B,C,D,B,Sarawak Subis Miri 2023/Picture33.png
-F5 Chp 6,radio,SarawakSubisMiri2023_Q34,A,B,C,D,C,Sarawak Subis Miri 2023/Picture34.png
-F5 Chp 6,radio,Selangor2023_Q33,A,B,C,D,D,Selangor 2023/Picture33.png
-F5 Chp 6,radio,Selangor2023_Q34,A,B,C,D,C,Selangor 2023/Picture34.png
-F5 Chp 6,radio,SelangorSet22023_Q33,A,B,C,D,D,Selangor Set 2 2023/Picture33.png
-F5 Chp 6,radio,SelangorSet22023_Q34,A,B,C,D,A,Selangor Set 2 2023/Picture34.png
-F5 Chp 6,radio,TerengganuMPP32023_Q33,A,B,C,D,B,Terengganu MPP3 2023/Picture33.png
-F5 Chp 6,radio,TerengganuMPP32023_Q34,A,B,C,D,B,Terengganu MPP3 2023/Picture34.png
-F5 Chp 6,radio,SBP2023_Q33,A,B,C,D,D,SBP 2023/Picture33.png
-F5 Chp 6,radio,SBP2023_Q34,A,B,C,D,A,SBP 2023/Picture34.png
-F5 Chp 7,radio,KedahTrial2023_Q35,A,B,C,D,C,Kedah Trial 2023/Picture35.png
-F5 Chp 7,radio,KedahTrial2023_Q36,A,B,C,D,D,Kedah Trial 2023/Picture36.png
-F5 Chp 7,radio,KelantanTrial2023_Q35,A,B,C,D,B,Kelantan Trial 2023/Picture35.png
-F5 Chp 7,radio,KelantanTrial2023_Q36,A,B,C,D,C,Kelantan Trial 2023/Picture36.png
-F5 Chp 7,radio,MaahadJohor2023_Q35,A,B,C,D,A,Maahad Johor 2023/Picture35.png
-F5 Chp 7,radio,MaahadJohor2023_Q36,A,B,C,D,C,Maahad Johor 2023/Picture36.png
-F5 Chp 7,radio,NegeriSembilan2023_Q35,A,B,C,D,D,Negeri Sembilan 2023/Picture35.png
-F5 Chp 7,radio,NegeriSembilan2023_Q36,A,B,C,D,D,Negeri Sembilan 2023/Picture36.png
-F5 Chp 7,radio,PahangTrial2023_Q35,A,B,C,D,D,Pahang Trial 2023/Picture35.png
-F5 Chp 7,radio,PahangTrial2023_Q36,A,B,C,D,B,Pahang Trial 2023/Picture36.png
-F5 Chp 7,radio,Melaka2023_Q35,A,B,C,D,D,Melaka 2023/Picture35.png
-F5 Chp 7,radio,Melaka2023_Q36,A,B,C,D,C,Melaka 2023/Picture36.png
-F5 Chp 7,radio,Perak2023_Q35,A,B,C,D,B,Perak 2023/Picture35.png
-F5 Chp 7,radio,Perak2023_Q36,A,B,C,D,D,Perak 2023/Picture36.png
-F5 Chp 7,radio,Perlis2023_Q35,A,B,C,D,D,Perlis 2023/Picture35.png
-F5 Chp 7,radio,Perlis2023_Q36,A,B,C,D,D,Perlis 2023/Picture36.png
-F5 Chp 7,radio,PutrajayaSet12023_Q35,A,B,C,D,B,Putrajaya Set 1 2023/Picture35.png
-F5 Chp 7,radio,PutrajayaSet12023_Q36,A,B,C,D,C,Putrajaya Set 1 2023/Picture36.png
-F5 Chp 7,radio,PutrajayaSet22023_Q35,A,B,C,D,C,Putrajaya Set 2 2023/Picture35.png
-F5 Chp 7,radio,PutrajayaSet22023_Q36,A,B,C,D,B,Putrajaya Set 2 2023/Picture36.png
-F5 Chp 7,radio,SarawakSubisMiri2023_Q35,A,B,C,D,A,Sarawak Subis Miri 2023/Picture35.png
-F5 Chp 7,radio,SarawakSubisMiri2023_Q36,A,B,C,D,B,Sarawak Subis Miri 2023/Picture36.png
-F5 Chp 7,radio,Selangor2023_Q35,A,B,C,D,C,Selangor 2023/Picture35.png
-F5 Chp 7,radio,Selangor2023_Q36,A,B,C,D,D,Selangor 2023/Picture36.png
-F5 Chp 7,radio,SelangorSet22023_Q35,A,B,C,D,C,Selangor Set 2 2023/Picture35.png
-F5 Chp 7,radio,SelangorSet22023_Q36,A,B,C,D,C,Selangor Set 2 2023/Picture36.png
-F5 Chp 7,radio,TerengganuMPP32023_Q35,A,B,C,D,B,Terengganu MPP3 2023/Picture35.png
-F5 Chp 7,radio,TerengganuMPP32023_Q36,A,B,C,D,D,Terengganu MPP3 2023/Picture36.png
-F5 Chp 7,radio,SBP2023_Q35,A,B,C,D,A,SBP 2023/Picture35.png
-F5 Chp 7,radio,SBP2023_Q36,A,B,C,D,C,SBP 2023/Picture36.png
-F5 Chp 8,radio,KedahTrial2023_Q37,A,B,C,D,A,Kedah Trial 2023/Picture37.png
-F5 Chp 8,radio,KedahTrial2023_Q38,A,B,C,D,B,Kedah Trial 2023/Picture38.png
-F5 Chp 8,radio,KelantanTrial2023_Q37,A,B,C,D,B,Kelantan Trial 2023/Picture37.png
-F5 Chp 8,radio,KelantanTrial2023_Q38,A,B,C,D,A,Kelantan Trial 2023/Picture38.png
-F5 Chp 8,radio,MaahadJohor2023_Q37,A,B,C,D,B,Maahad Johor 2023/Picture37.png
-F5 Chp 8,radio,MaahadJohor2023_Q38,A,B,C,D,D,Maahad Johor 2023/Picture38.png
-F5 Chp 8,radio,NegeriSembilan2023_Q37,A,B,C,D,C,Negeri Sembilan 2023/Picture37.png
-F5 Chp 8,radio,NegeriSembilan2023_Q38,A,B,C,D,B,Negeri Sembilan 2023/Picture38.png
-F5 Chp 8,radio,PahangTrial2023_Q37,A,B,C,D,C,Pahang Trial 2023/Picture37.png
-F5 Chp 8,radio,PahangTrial2023_Q38,A,B,C,D,A,Pahang Trial 2023/Picture38.png
-F5 Chp 8,radio,Melaka2023_Q37,A,B,C,D,B,Melaka 2023/Picture37.png
-F5 Chp 8,radio,Melaka2023_Q38,A,B,C,D,B,Melaka 2023/Picture38.png
-F5 Chp 8,radio,Perak2023_Q37,A,B,C,D,A,Perak 2023/Picture37.png
-F5 Chp 8,radio,Perak2023_Q38,A,B,C,D,C,Perak 2023/Picture38.png
-F5 Chp 8,radio,Perlis2023_Q37,A,B,C,D,A,Perlis 2023/Picture37.png
-F5 Chp 8,radio,Perlis2023_Q38,A,B,C,D,A,Perlis 2023/Picture38.png
-F5 Chp 8,radio,PutrajayaSet12023_Q37,A,B,C,D,A,Putrajaya Set 1 2023/Picture37.png
-F5 Chp 8,radio,PutrajayaSet12023_Q38,A,B,C,D,C,Putrajaya Set 1 2023/Picture38.png
-F5 Chp 8,radio,PutrajayaSet22023_Q37,A,B,C,D,B,Putrajaya Set 2 2023/Picture37.png
-F5 Chp 8,radio,PutrajayaSet22023_Q38,A,B,C,D,C,Putrajaya Set 2 2023/Picture38.png
-F5 Chp 8,radio,SarawakSubisMiri2023_Q37,A,B,C,D,C,Sarawak Subis Miri 2023/Picture37.png
-F5 Chp 8,radio,SarawakSubisMiri2023_Q38,A,B,C,D,D,Sarawak Subis Miri 2023/Picture38.png
-F5 Chp 8,radio,Selangor2023_Q37,A,B,C,D,D,Selangor 2023/Picture37.png
-F5 Chp 8,radio,Selangor2023_Q38,A,B,C,D,C,Selangor 2023/Picture38.png
-F5 Chp 8,radio,SelangorSet22023_Q37,A,B,C,D,C,Selangor Set 2 2023/Picture37.png
-F5 Chp 8,radio,SelangorSet22023_Q38,A,B,C,D,B,Selangor Set 2 2023/Picture38.png
-F5 Chp 8,radio,TerengganuMPP32023_Q37,A,B,C,D,A,Terengganu MPP3 2023/Picture37.png
-F5 Chp 8,radio,TerengganuMPP32023_Q38,A,B,C,D,C,Terengganu MPP3 2023/Picture38.png
-F5 Chp 8,radio,SBP2023_Q37,A,B,C,D,C,SBP 2023/Picture37.png
-F5 Chp 8,radio,SBP2023_Q38,A,B,C,D,B,SBP 2023/Picture38.png
-F5 Chp 9,radio,KedahTrial2023_Q39,A,B,C,D,B,Kedah Trial 2023/Picture39.png
-F5 Chp 9,radio,KedahTrial2023_Q40,A,B,C,D,C,Kedah Trial 2023/Picture40.png
-F5 Chp 9,radio,KelantanTrial2023_Q39,A,B,C,D,D,Kelantan Trial 2023/Picture39.png
-F5 Chp 9,radio,KelantanTrial2023_Q40,A,B,C,D,D,Kelantan Trial 2023/Picture40.png
-F5 Chp 9,radio,MaahadJohor2023_Q39,A,B,C,D,B,Maahad Johor 2023/Picture39.png
-F5 Chp 9,radio,MaahadJohor2023_Q40,A,B,C,D,D,Maahad Johor 2023/Picture40.png
-F5 Chp 9,radio,NegeriSembilan2023_Q39,A,B,C,D,C,Negeri Sembilan 2023/Picture39.png
-F5 Chp 9,radio,NegeriSembilan2023_Q40,A,B,C,D,B,Negeri Sembilan 2023/Picture40.png
-F5 Chp 9,radio,PahangTrial2023_Q39,A,B,C,D,B,Pahang Trial 2023/Picture39.png
-F5 Chp 9,radio,PahangTrial2023_Q40,A,B,C,D,C,Pahang Trial 2023/Picture40.png
-F5 Chp 9,radio,Melaka2023_Q39,A,B,C,D,C,Melaka 2023/Picture39.png
-F5 Chp 9,radio,Melaka2023_Q40,A,B,C,D,C,Melaka 2023/Picture40.png
-F5 Chp 9,radio,Perak2023_Q39,A,B,C,D,D,Perak 2023/Picture39.png
-F5 Chp 9,radio,Perak2023_Q40,A,B,C,D,D,Perak 2023/Picture40.png
-F5 Chp 9,radio,Perlis2023_Q39,A,B,C,D,B,Perlis 2023/Picture39.png
-F5 Chp 9,radio,Perlis2023_Q40,A,B,C,D,C,Perlis 2023/Picture40.png
-F5 Chp 9,radio,PutrajayaSet12023_Q39,A,B,C,D,D,Putrajaya Set 1 2023/Picture39.png
-F5 Chp 9,radio,PutrajayaSet12023_Q40,A,B,C,D,D,Putrajaya Set 1 2023/Picture40.png
-F5 Chp 9,radio,PutrajayaSet22023_Q39,A,B,C,D,A,Putrajaya Set 2 2023/Picture39.png
-F5 Chp 9,radio,PutrajayaSet22023_Q40,A,B,C,D,C,Putrajaya Set 2 2023/Picture40.png
-F5 Chp 9,radio,SarawakSubisMiri2023_Q39,A,B,C,D,B,Sarawak Subis Miri 2023/Picture39.png
-F5 Chp 9,radio,SarawakSubisMiri2023_Q40,A,B,C,D,A,Sarawak Subis Miri 2023/Picture40.png
-F5 Chp 9,radio,Selangor2023_Q39,A,B,C,D,C,Selangor 2023/Picture39.png
-F5 Chp 9,radio,Selangor2023_Q40,A,B,C,D,B,Selangor 2023/Picture40.png
-F5 Chp 9,radio,SelangorSet22023_Q39,A,B,C,D,B,Selangor Set 2 2023/Picture39.png
-F5 Chp 9,radio,SelangorSet22023_Q40,A,B,C,D,B,Selangor Set 2 2023/Picture40.png
-F5 Chp 9,radio,TerengganuMPP32023_Q39,A,B,C,D,D,Terengganu MPP3 2023/Picture39.png
-F5 Chp 9,radio,TerengganuMPP32023_Q40,A,B,C,D,C,Terengganu MPP3 2023/Picture40.png
-F5 Chp 9,radio,SBP2023_Q39,A,B,C,D,A,SBP 2023/Picture39.png
-F5 Chp 9,radio,SBP2023_Q40,A,B,C,D,A,SBP 2023/Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 1,radio,KedahTrial2023_Q01,A,B,C,D,B,Kedah Trial 2023/Picture1.png,"中文：活泼金属与水反应可能喷溅，护目镜保护眼睛，实验衣保护皮肤与衣物。
+English: Reactive metals may splash when reacting with water; goggles protect the eyes and a lab coat protects the body."
+F4 Chp 1,radio,KelantanTrial2023_Q01,A,B,C,D,B,Kelantan Trial 2023/Picture1.png,"中文：泡沫覆盖燃油表面，隔绝氧气，适合油类火灾；水可能使燃油扩散。
+English: Foam blankets the fuel and cuts off oxygen, making it suitable for oil fires; water may spread burning oil."
+F4 Chp 1,radio,MaahadJohor2023_Q01,A,B,C,D,B,Maahad Johor 2023/Picture1.png,"中文：E 类为电器火灾，电脑和熨斗属于通电设备，即 II、IV。
+English: Class E involves electrical equipment; computers and irons are II and IV."
+F4 Chp 1,radio,NegeriSembilan2023_Q01,A,B,C,D,D,Negeri Sembilan 2023/Picture1.png,"中文：甲烷属于可燃气体，干粉灭火器可扑灭这类小火，因此选D。
+English: Methane is a flammable gas, so a dry-powder extinguisher is suitable for this small fire, giving D."
+F4 Chp 1,radio,PahangTrial2023_Q01,A,B,C,D,A,Pahang Trial 2023/Picture1.png,"中文：护目镜能阻挡化学品飞溅，保护双眼，因此选A；普通眼镜和隐形眼镜不能代替实验护目镜。
+English: Goggles protect the eyes from chemical splashes, giving A; ordinary glasses and contact lenses do not replace laboratory goggles."
+F4 Chp 1,radio,Melaka2023_Q01,A,B,C,D,B,Melaka 2023/Picture1.png,"中文：课本规定合适液体废物 pH 5–9 可排入水槽；强酸、强碱及其他禁排废物须另处理。
+English: Suitable liquid waste with pH 5–9 may enter the sink under textbook rules; strong acids, alkalis and prohibited wastes require separate disposal."
+F4 Chp 1,radio,Perak2023_Q01,A,B,C,D,B,Perak 2023/Picture1.png,"中文：pH6在课本允许的pH5至9范围内，因此选B；前提是该废液没有其他有害、易反应或有机溶剂成分。
+English: pH 6 lies within the textbook's permitted pH 5–9 range, giving B, provided the waste has no other hazardous, reactive or organic-solvent components."
+F4 Chp 1,radio,Perlis2023_Q01,A,B,C,D,C,Perlis 2023/Picture1.png,"中文：培养基属于非尖锐的固体生物废物，应装入生物危害袋，经高压灭菌处理后按生物废物方式处置。
+English: Culture medium is non-sharp solid biological waste; it is bagged as biohazard waste, autoclaved and disposed of through the biological-waste system."
+F4 Chp 1,radio,PutrajayaSet12023_Q01,A,B,C,D,B,Putrajaya Set 1 2023/Picture1.png,"中文：实验动物尸体属于生物废物，应放入生物危害袋并冷冻保存，等待适当处置，因此选B。
+English: Dead laboratory animals are biological waste; place them in a biohazard bag and freeze them until appropriate disposal, giving B."
+F4 Chp 1,radio,PutrajayaSet22023_Q01,A,B,C,D,B,Putrajaya Set 2 2023/Picture1.png,"中文：课本允许排入水槽的普通废液pH范围为5至9，但不能含有其他危险或禁止排放的成分，因此选B。
+English: The textbook range for ordinary waste liquid allowed into a sink is pH 5–9, provided it contains no other hazardous or prohibited material, giving B."
+F4 Chp 1,radio,SarawakSubisMiri2023_Q01,A,B,C,D,B,Sarawak Subis Miri 2023/Picture1.png,"中文：化学品溅入眼睛应立即使用洗眼器冲洗，减少化学物与眼睛接触，因此选B。
+English: Immediately rinse a chemical splash from the eyes using the eyewash station to reduce contact with the chemical, giving B."
+F4 Chp 1,radio,Selangor2023_Q01,A,B,C,D,A,Selangor 2023/Picture1.png,"中文：油漆含有机成分和其他污染物，不能直接排入水槽，应按化学废物处理，因此选A。
+English: Oil paint contains organic material and other pollutants and must be treated as chemical waste rather than poured into the sink, giving A."
+F4 Chp 1,radio,SelangorSet22023_Q01,A,B,C,D,A,Selangor Set 2 2023/Picture1.png,"中文：油脂不溶于水，可能堵塞排水及造成污染，不能直接倒入水槽，因此选A。
+English: Grease is insoluble in water and can block drains and cause pollution, so it must not be poured into the sink, giving A."
+F4 Chp 1,radio,TerengganuMPP32023_Q01,A,B,C,D,B,Terengganu MPP3 2023/Picture1.png,"中文：ABC灭火器的课本优点之一是容易维护，并可用于多类火灾，因此选B。
+English: A textbook advantage of an ABC extinguisher is easy maintenance, alongside suitability for several fire classes, giving B."
+F4 Chp 1,radio,SBP2023_Q01,A,B,C,D,C,SBP 2023/Picture1.png,"中文：血液和血清属于液体生物废物，需通过高压灭菌消除微生物危害后再适当处置。
+English: Blood and serum are liquid biological waste and must be decontaminated by autoclaving before appropriate disposal."
+F4 Chp 2,radio,KedahTrial2023_Q02,A,B,C,D,B,Kedah Trial 2023/Picture2.png,"中文：按课本实验室规则，pH 5 至 9 的少量合适液体可排入水槽，因此 pH 6 的稀酸符合范围。
+English: Under textbook laboratory rules, suitable small liquid wastes with pH 5–9 may enter the sink; pH 6 is within this range."
+F4 Chp 2,radio,KelantanTrial2023_Q02,A,B,C,D,C,Kelantan Trial 2023/Picture2.png,"中文：先站在身后并稍微前倾 N，再环抱 O、把拳头放于肚脐上方 M，最后向内上方快速施压 P。
+English: The textbook sequence is N–O–M–P: stand behind, wrap the arms, position the fist and give upward thrusts."
+F4 Chp 2,radio,MaahadJohor2023_Q02,A,B,C,D,D,Maahad Johor 2023/Picture2.png,"中文：CPR 胸外按压以机械方式推动血液循环，把氧气送至脑和重要器官。
+English: CPR chest compressions manually maintain circulation and deliver oxygen to the brain and vital organs."
+F4 Chp 2,radio,NegeriSembilan2023_Q02,A,B,C,D,A,Negeri Sembilan 2023/Picture2.png,"中文：图示腹部快速向内上方施压，是海姆立克急救法，利用气流帮助排出堵塞气管的异物。
+English: The inward and upward abdominal thrusts shown are the Heimlich manoeuvre, which uses expelled air to dislodge an airway obstruction."
+F4 Chp 2,radio,PahangTrial2023_Q02,A,B,C,D,C,Pahang Trial 2023/Picture2.png,"中文：防火毯覆盖燃烧的衣物，隔绝氧气，使火焰熄灭，因此选C。
+English: A fire blanket covers the burning clothing and cuts off its oxygen supply, extinguishing the flames, giving C."
+F4 Chp 2,radio,Melaka2023_Q02,A,B,C,D,D,Melaka 2023/Picture2.png,"中文：自救式海姆立克法压迫腹部，增加胸腔和肺内压强，把阻塞物推出。
+English: Self-administered abdominal thrusts increase pressure in the chest and lungs to expel the obstruction."
+F4 Chp 2,radio,Perak2023_Q02,A,B,C,D,D,Perak 2023/Picture2.png,"中文：课本中干粉灭火器适用于各类火灾，其标签为蓝色，因此选D。
+English: In the textbook classification, dry-powder extinguishers cover the listed fire classes and have blue labels, giving D."
+F4 Chp 2,radio,Perlis2023_Q02,A,B,C,D,D,Perlis 2023/Picture2.png,"中文：衣物着火时使用防火毯覆盖，可隔绝氧气并扑灭火焰，因此选D。
+English: A fire blanket covers burning clothing and cuts off oxygen, extinguishing the fire, giving D."
+F4 Chp 2,radio,PutrajayaSet12023_Q02,A,B,C,D,C,Putrajaya Set 1 2023/Picture2.png,"中文：二氧化碳不导电且能隔绝氧气，适用于电器引发的火灾，因此选C。
+English: Carbon dioxide does not conduct electricity and excludes oxygen, making it suitable for electrical fires, giving C."
+F4 Chp 2,radio,PutrajayaSet22023_Q02,A,B,C,D,D,Putrajaya Set 2 2023/Picture2.png,"中文：燃烧的镁属于金属火灾，本题选D干粉；应使用适合金属火灾的干粉，而不是用水或二氧化碳。
+English: Burning magnesium is a metal fire, giving D, dry powder; the powder must be suitable for metal fires rather than water or carbon dioxide."
+F4 Chp 2,radio,SarawakSubisMiri2023_Q02,A,B,C,D,C,Sarawak Subis Miri 2023/Picture2.png,"中文：正确选项为D：胸外按压频率100至120次/分，双臂应伸直而非弯曲。现有答案C与正确姿势相反，需核对答案表。
+English: D is correct: chest compressions are performed at 100–120 per minute with straight rather than bent arms. Existing C contradicts correct posture and requires answer-table review."
+F4 Chp 2,radio,Selangor2023_Q02,A,B,C,D,A,Selangor 2023/Picture2.png,"中文：ABC灭火器可处理课本所列多类火灾，优点包括容易维护，所以选A。
+English: An ABC extinguisher covers several textbook fire classes and has the advantage of easy maintenance, giving A."
+F4 Chp 2,radio,SelangorSet22023_Q02,A,B,C,D,B,Selangor Set 2 2023/Picture2.png,"中文：防火毯覆盖火源后隔绝氧气，停止燃烧所需的氧供应，因此选B。
+English: A fire blanket covers the fire and blocks its oxygen supply, stopping combustion, giving B."
+F4 Chp 2,radio,TerengganuMPP32023_Q02,A,B,C,D,B,Terengganu MPP3 2023/Picture2.png,"中文：仍清醒、有心跳的食物哽塞者应按哽塞情况处理，并非直接进行CPR，因此选B；CPR针对无反应且无正常呼吸等情况。
+English: A conscious choking person with circulation needs appropriate choking first aid rather than immediate CPR, giving B; CPR is for conditions such as unresponsiveness with absent normal breathing."
+F4 Chp 2,radio,SBP2023_Q02,A,B,C,D,D,SBP 2023/Picture2.png,"中文：顺序为拔保险销R→瞄准火焰底部P→按下手柄S→左右扫射Q，因此选D。
+English: The sequence is pull the pin R → aim at the base P → squeeze the handle S → sweep side to side Q, giving D."
+F4 Chp 3,radio,KedahTrial2023_Q03,A,B,C,D,D,Kedah Trial 2023/Picture3.png,"中文：胸外按压过快会影响心脏充盈与有效供血，不能良好输送含氧血至脑；课本建议每分钟 100–120 次。
+English: Excessively fast compressions reduce effective circulation, so oxygenated blood is not supplied well to the brain; the textbook rate is 100–120 per minute."
+F4 Chp 3,radio,KedahTrial2023_Q04,A,B,C,D,C,Kedah Trial 2023/Picture4.png,"中文：Y 是临床温度计的缩口，可阻止水银迅速回流，方便读取最高体温。
+English: Y is the constriction, which prevents mercury flowing back immediately and allows the temperature to be read."
+F4 Chp 3,radio,KelantanTrial2023_Q03,A,B,C,D,B,Kelantan Trial 2023/Picture3.png,"中文：血压常用单位是毫米汞柱，符号 mmHg。
+English: Blood pressure is commonly expressed in millimetres of mercury, mmHg."
+F4 Chp 3,radio,KelantanTrial2023_Q04,A,B,C,D,B,Kelantan Trial 2023/Picture4.png,"中文：BMI=42÷1.4²=21.43 kg/m²，属于正常或理想体重范围。
+English: BMI = 42/1.4² = 21.43 kg/m², within the normal or desirable-weight range."
+F4 Chp 3,radio,MaahadJohor2023_Q03,A,B,C,D,B,Maahad Johor 2023/Picture3.png,"中文：身高 170 cm = 1.70 m；BMI = 70 ÷ 1.70² = 24.22，属于理想体重。
+English: 170 cm = 1.70 m; BMI = 70/1.70² = 24.22, within the desirable range."
+F4 Chp 3,radio,MaahadJohor2023_Q04,A,B,C,D,C,Maahad Johor 2023/Picture4.png,"中文：五星电器、太阳能及节能宣传均有助节约能源；不必要地开冷气反而浪费电。
+English: Five-star appliances, solar energy and energy-saving campaigns conserve energy; unnecessary air-conditioning wastes it."
+F4 Chp 3,radio,NegeriSembilan2023_Q03,A,B,C,D,C,Negeri Sembilan 2023/Picture3.png,"中文：体重过高会增加胰岛素阻抗和患糖尿病的风险，因此选C。
+English: Excess body mass increases the risk of insulin resistance and diabetes mellitus, giving C."
+F4 Chp 3,radio,NegeriSembilan2023_Q04,A,B,C,D,A,Negeri Sembilan 2023/Picture4.png,"中文：交通工具燃烧石油燃料会排放温室气体及造成酸雨的气体，所以这些问题属于交通领域。
+English: Vehicles burn petroleum fuels and release greenhouse gases and gases that cause acid rain, so these issues concern transportation."
+F4 Chp 3,radio,PahangTrial2023_Q03,A,B,C,D,D,Pahang Trial 2023/Picture3.png,"中文：应先呼叫并轻拍肩部检查反应，再评估呼吸及决定是否进行CPR；答案D表达的是先检查反应。
+English: First call out and tap the shoulders to check responsiveness, then assess breathing and whether CPR is needed; D represents this initial responsiveness check."
+F4 Chp 3,radio,PahangTrial2023_Q04,A,B,C,D,B,Pahang Trial 2023/Picture4.png,"中文：气道堵塞使脑部缺氧，若未及时解除可造成脑损伤甚至死亡，因此选B。
+English: An obstructed airway deprives the brain of oxygen and may cause brain damage or death if not relieved, giving B."
+F4 Chp 3,radio,Melaka2023_Q03,A,B,C,D,D,Melaka 2023/Picture3.png,"中文：图示血压计通过袖带测量收缩压和舒张压。
+English: The blood-pressure monitor uses a cuff to measure systolic and diastolic pressure."
+F4 Chp 3,radio,Melaka2023_Q04,A,B,C,D,A,Melaka 2023/Picture4.png,"中文：温泉表示地下热能可加热水，适合发展地热能。
+English: Hot springs indicate underground heat that can be used for geothermal energy."
+F4 Chp 3,radio,Perak2023_Q03,A,B,C,D,C,Perak 2023/Picture3.png,"中文：海姆立克法增加肺内压力，使空气迅速向外排出，帮助推出气道中的异物。
+English: The Heimlich manoeuvre increases pressure in the lungs, forcing air out to help expel an airway obstruction."
+F4 Chp 3,radio,Perak2023_Q04,A,B,C,D,D,Perak 2023/Picture4.png,"中文：体温计的缩窄处阻止水银立即回流，使取出体温计后仍能读取最高体温。
+English: The constriction prevents mercury from immediately flowing back, allowing the highest body temperature to be read after removing the thermometer."
+F4 Chp 3,radio,Perlis2023_Q03,A,B,C,D,D,Perlis 2023/Picture3.png,"中文：CPR胸外按压帮助维持血液循环，把氧输送到脑和其他重要器官，因此选D。
+English: CPR chest compressions help maintain blood circulation and deliver oxygen to the brain and other vital organs, giving D."
+F4 Chp 3,radio,Perlis2023_Q04,A,B,C,D,C,Perlis 2023/Picture4.png,"中文：独自哽塞时可握拳置于肚脐上方、肋骨下方，弯身施加向内上方的压力，帮助排出异物。
+English: When choking alone, place a clenched fist above the navel and below the ribs, then bend and apply inward-upward pressure to help expel the obstruction."
+F4 Chp 3,radio,PutrajayaSet12023_Q03,A,B,C,D,A,Putrajaya Set 1 2023/Picture3.png,"中文：本题成人CPR步骤为30次胸外按压后进行2次人工呼吸，持续循环直到专业救援接手或出现恢复迹象。
+English: The adult CPR sequence in this question is 30 chest compressions followed by two rescue breaths, repeated until professional help takes over or signs of recovery appear."
+F4 Chp 3,radio,PutrajayaSet12023_Q04,A,B,C,D,A,Putrajaya Set 1 2023/Picture4.png,"中文：CPR用于心脏骤停后的急救，以维持血流和供氧；它不能事先阻止心脏病发作，所以A不是其作用。
+English: CPR is emergency care after cardiac arrest to maintain blood flow and oxygen delivery; it does not prevent a heart attack beforehand, so A is not its function."
+F4 Chp 3,radio,PutrajayaSet22023_Q03,A,B,C,D,C,Putrajaya Set 2 2023/Picture3.png,"中文：雷击可能使心脏和呼吸停止，若伤者无反应且没有正常呼吸，可能需要CPR，因此选C。
+English: Lightning can stop the heart and breathing; an unresponsive victim without normal breathing may require CPR, giving C."
+F4 Chp 3,radio,PutrajayaSet22023_Q04,A,B,C,D,A,Putrajaya Set 2 2023/Picture4.png,"中文：腹部向内上方快速施压会增加肺内压力，推动空气排出并帮助清除气道异物。
+English: Rapid inward-upward abdominal thrusts increase lung pressure, forcing air out to help clear an airway obstruction."
+F4 Chp 3,radio,SarawakSubisMiri2023_Q03,A,B,C,D,A,Sarawak Subis Miri 2023/Picture3.png,"中文：为了公平比较不同活动后的脉搏，应保持各活动持续时间相同，因此选A。
+English: Keep the duration of each activity the same for a fair comparison of pulse rates after different activities, giving A."
+F4 Chp 3,radio,SarawakSubisMiri2023_Q04,A,B,C,D,A,Sarawak Subis Miri 2023/Picture4.png,"中文：Amira BMI20.1属理想体重，Fasha33.4属肥胖，因此应选C。现有A把BMI16.5的Fatin列为理想体重，不符合分类。
+English: Amira's BMI of 20.1 is desirable and Fasha's 33.4 is obese, giving C. Existing A incorrectly treats Fatin's BMI of 16.5 as desirable."
+F4 Chp 3,radio,Selangor2023_Q03,A,B,C,D,D,Selangor 2023/Picture3.png,"中文：心脏病发作若进一步导致心脏骤停、无反应且无正常呼吸，可能需要CPR，因此本题选D。
+English: A heart attack may lead to cardiac arrest with unresponsiveness and absent normal breathing, requiring CPR, so D is the intended answer."
+F4 Chp 3,radio,Selangor2023_Q04,A,B,C,D,D,Selangor 2023/Picture4.png,"中文：先确认读数低于35°C，放入嘴内2至3分钟，再取出读数；顺序为III→II→I。
+English: First ensure the reading is below 35°C, place the thermometer in the mouth for two to three minutes, then remove and read it: III → II → I."
+F4 Chp 3,radio,SelangorSet22023_Q03,A,B,C,D,D,Selangor Set 2 2023/Picture3.png,"中文：电击可能造成心脏骤停，若伤者无反应且无正常呼吸，可能需要CPR，因此选D。
+English: Electric shock can cause cardiac arrest; an unresponsive victim without normal breathing may require CPR, giving D."
+F4 Chp 3,radio,SelangorSet22023_Q04,A,B,C,D,C,Selangor Set 2 2023/Picture4.png,"中文：按本题步骤先涂凡士林III，再按指定深度插入II，等待提示音读数I，所以顺序III→II→I。
+English: The question's sequence is apply petroleum jelly III, insert to the specified depth II, then wait for the beep and read I: III → II → I."
+F4 Chp 3,radio,TerengganuMPP32023_Q03,A,B,C,D,A,Terengganu MPP3 2023/Picture3.png,"中文：BMI=50÷1.56²≈20.55，四舍五入为20.6 kg/m²，因此选A。
+English: BMI = 50 ÷ 1.56² ≈ 20.55, rounded to 20.6 kg/m², giving A."
+F4 Chp 3,radio,TerengganuMPP32023_Q04,A,B,C,D,D,Terengganu MPP3 2023/Picture4.png,"中文：题目问预防厨余浪费的方法，D按实际需要准备适量食物，可从源头减少剩余食物。堆肥和生物能源是废物产生后的处理方法。
+English: The question asks how to prevent food waste. D, preparing food according to need, reduces leftovers at the source. Composting and biomass energy treat waste after it has been produced."
+F4 Chp 3,radio,SBP2023_Q03,A,B,C,D,C,SBP 2023/Picture3.png,"中文：伤者恢复正常呼吸但仍无意识时，可置于侧卧复苏姿势，帮助保持气道通畅，因此选C。
+English: If the victim resumes normal breathing but remains unconscious, place them in the recovery position to help keep the airway open, giving C."
+F4 Chp 3,radio,SBP2023_Q04,A,B,C,D,C,SBP 2023/Picture4.png,"中文：向内上方的腹部施压增加肺内压力，让空气迅速排出以推走堵塞气道的异物。
+English: Inward-upward abdominal thrusts increase lung pressure and force air out to dislodge an airway obstruction."
+F4 Chp 4,radio,KedahTrial2023_Q05,A,B,C,D,D,Kedah Trial 2023/Picture5.png,"中文：BMI 26.58 位于 25.0–29.9，属于体重过重，尚未达到肥胖的 30 或以上。
+English: A BMI of 26.58 lies in the overweight range, 25.0–29.9, below the obesity threshold of 30."
+F4 Chp 4,radio,KedahTrial2023_Q06,A,B,C,D,C,Kedah Trial 2023/Picture6.png,"中文：能源效率标签帮助选择省电电器，减少耗电和能源资源使用。
+English: The energy-efficiency label helps users select appliances that consume less electricity and conserve energy resources."
+F4 Chp 4,radio,KelantanTrial2023_Q05,A,B,C,D,B,Kelantan Trial 2023/Picture5.png,"中文：把旧轮胎重新加工成可用材料或产品，可减少堆积与废物，优于焚烧或随意弃置。
+English: Reusing or recycling old tyres into useful products reduces waste and is preferable to burning or dumping them."
+F4 Chp 4,radio,KelantanTrial2023_Q06,A,B,C,D,D,Kelantan Trial 2023/Picture6.png,"中文：砍伐森林减少光合作用吸收二氧化碳，使更多温室气体留在大气中。
+English: Deforestation reduces photosynthetic carbon-dioxide uptake, leaving more greenhouse gas in the atmosphere."
+F4 Chp 4,radio,MaahadJohor2023_Q05,A,B,C,D,D,Maahad Johor 2023/Picture5.png,"中文：森林开垦减少树木吸收二氧化碳，并可能释放储存的碳，使碳足迹增加。
+English: Forest clearance reduces carbon-dioxide uptake and may release stored carbon, increasing the carbon footprint."
+F4 Chp 4,radio,MaahadJohor2023_Q06,A,B,C,D,C,Maahad Johor 2023/Picture6.png,"中文：正常父亲传正常 X 给所有女儿，因此女儿不会有两条带隐性色盲基因的 X；患病概率 0%。
+English: A normal father gives a normal X chromosome to every daughter, so none has two colour-blindness alleles; the risk is 0%."
+F4 Chp 4,radio,NegeriSembilan2023_Q05,A,B,C,D,B,Negeri Sembilan 2023/Picture5.png,"中文：绿色科技提高能源效率并减少化石燃料使用，从而减少温室气体排放和碳足迹。
+English: Green technology improves energy efficiency and reduces fossil-fuel use, thereby reducing greenhouse-gas emissions and the carbon footprint."
+F4 Chp 4,radio,NegeriSembilan2023_Q06,A,B,C,D,D,Negeri Sembilan 2023/Picture6.png,"中文：同源染色体的非姐妹染色单体交换片段，称为交叉互换，可产生新的基因组合。
+English: Exchange of segments between non-sister chromatids of homologous chromosomes is crossing over, producing new gene combinations."
+F4 Chp 4,radio,PahangTrial2023_Q05,A,B,C,D,C,Pahang Trial 2023/Picture5.png,"中文：血压计测量心脏收缩时的收缩压和舒张时的舒张压，因此选C。
+English: A blood-pressure monitor measures systolic pressure during heart contraction and diastolic pressure during relaxation, giving C."
+F4 Chp 4,radio,PahangTrial2023_Q06,A,B,C,D,B,Pahang Trial 2023/Picture6.png,"中文：BMI=62.5÷1.60²≈24.4 kg/m²，按题目使用的BMI分类属于理想体重范围，选B。
+English: BMI = 62.5 ÷ 1.60² ≈ 24.4 kg/m², which falls within the desirable-weight category used in this question, giving B."
+F4 Chp 4,radio,Melaka2023_Q05,A,B,C,D,D,Melaka 2023/Picture5.png,"中文：太阳能车辆利用可再生阳光，减少石油等化石燃料的消耗。
+English: Solar vehicles use renewable sunlight and reduce fossil-fuel consumption."
+F4 Chp 4,radio,Melaka2023_Q06,A,B,C,D,B,Melaka 2023/Picture6.png,"中文：开垦森林减少吸收二氧化碳的树木，增加大气中的温室气体。
+English: Forest clearance removes trees that absorb carbon dioxide, increasing atmospheric greenhouse gas."
+F4 Chp 4,radio,Perak2023_Q05,A,B,C,D,B,Perak 2023/Picture5.png,"中文：每10秒12次，换算为每分钟12×60÷10=72次，因此选B。
+English: Twelve beats in 10 seconds gives 12 × 60 ÷ 10 = 72 beats per minute, giving B."
+F4 Chp 4,radio,Perak2023_Q06,A,B,C,D,B,Perak 2023/Picture6.png,"中文：绿色科技是发展和应用能保护环境、减少资源消耗及污染的产品、设备和系统，因此选B。
+English: Green technology develops and applies products, equipment and systems that conserve the environment and reduce resource use and pollution, giving B."
+F4 Chp 4,radio,Perlis2023_Q05,A,B,C,D,A,Perlis 2023/Picture5.png,"中文：题目问运动后测脉搏的错误做法，除了哪项。立即测量D才符合要求，休息后测量会改变结果；现有答案A与题目中的kecuali不符，待核对。
+English: The question asks which action is not an error when measuring pulse after running. Measuring immediately, D, matches the task; waiting until resting changes the result. Existing answer A conflicts with “except” and needs review."
+F4 Chp 4,radio,Perlis2023_Q06,A,B,C,D,C,Perlis 2023/Picture6.png,"中文：Anita的BMI为36.51，属肥胖，增加高血压及心血管疾病风险，所以C正确。
+English: Anita's BMI is 36.51, indicating obesity and increased risk of high blood pressure and cardiovascular disease, so C is correct."
+F4 Chp 4,radio,PutrajayaSet12023_Q05,A,B,C,D,A,Putrajaya Set 1 2023/Picture5.png,"中文：120/80 mmHg在本题课本分类为正常血压，120为收缩压、80为舒张压，因此选A。
+English: In this textbook classification, 120/80 mmHg is normal blood pressure; 120 is systolic and 80 diastolic pressure, giving A."
+F4 Chp 4,radio,PutrajayaSet12023_Q06,A,B,C,D,D,Putrajaya Set 1 2023/Picture6.png,"中文：红外线体温计可对准额头并保持指定距离；题目给出5 cm，因此D是正确配对。
+English: An infrared thermometer is aimed at the forehead from the specified distance, 5 cm in this question, so D is the correct pairing."
+F4 Chp 4,radio,PutrajayaSet22023_Q05,A,B,C,D,D,Putrajaya Set 2 2023/Picture5.png,"中文：薄壁玻璃球使热量容易传入液体，温度计能较快响应微小温度变化，因此选D。
+English: A thin-walled bulb allows heat to reach the liquid readily, helping the thermometer respond to small temperature changes, giving D."
+F4 Chp 4,radio,PutrajayaSet22023_Q06,A,B,C,D,B,Putrajaya Set 2 2023/Picture6.png,"中文：1分20秒=80秒，脉搏率=100×60÷80=75次/分，因此选B。
+English: One minute 20 seconds is 80 seconds; pulse rate = 100 × 60 ÷ 80 = 75 beats per minute, giving B."
+F4 Chp 4,radio,SarawakSubisMiri2023_Q05,A,B,C,D,D,Sarawak Subis Miri 2023/Picture5.png,"中文：应在排放前处理工业污水，实际减少污染物，因此选A。现有D只检测污染物，监测本身不能消除污染。
+English: Treat industrial effluent before release to actually reduce pollutants, giving A. Existing D only tests pollution levels; monitoring alone does not remove pollution."
+F4 Chp 4,radio,SarawakSubisMiri2023_Q06,A,B,C,D,B,Sarawak Subis Miri 2023/Picture6.png,"中文：顺序为前期S→中期Q→后期R→末期及胞质分裂P，因此选B。
+English: The sequence is prophase S → metaphase Q → anaphase R → telophase and cytokinesis P, giving B."
+F4 Chp 4,radio,Selangor2023_Q05,A,B,C,D,D,Selangor 2023/Picture5.png,"中文：血压为192/116 mmHg，按本题课本分类属于第3级高血压，因此选D。
+English: The reading is 192/116 mmHg, classified as stage 3 hypertension in this textbook question, giving D."
+F4 Chp 4,radio,Selangor2023_Q06,A,B,C,D,A,Selangor 2023/Picture6.png,"中文：水可通过自然水循环持续补充，水力发电属于可再生能源；煤、石油和核燃料不属于此类。
+English: Water is replenished through the natural water cycle, making hydropower renewable; coal, petroleum and nuclear fuel are not in this category."
+F4 Chp 4,radio,SelangorSet22023_Q05,A,B,C,D,C,Selangor Set 2 2023/Picture5.png,"中文：血压为140/90 mmHg，按本题课本分类属于第1级高血压，因此选C。
+English: The blood pressure is 140/90 mmHg, classified as stage 1 hypertension in this textbook question, giving C."
+F4 Chp 4,radio,SelangorSet22023_Q06,A,B,C,D,D,Selangor Set 2 2023/Picture6.png,"中文：煤的形成需要极长时间，消耗后不能在短期内补充，属于不可再生能源。
+English: Coal takes an extremely long time to form and cannot be replenished quickly after use, making it non-renewable."
+F4 Chp 4,radio,TerengganuMPP32023_Q05,A,B,C,D,C,Terengganu MPP3 2023/Picture5.png,"中文：过量施用农业化学品可增加土壤酸度，影响土壤和植物，因此本题选择C。
+English: Excessive agricultural chemical use can increase soil acidity and affect soil and plants, giving C in this question."
+F4 Chp 4,radio,TerengganuMPP32023_Q06,A,B,C,D,A,Terengganu MPP3 2023/Picture6.png,"中文：Bb×BB的后代可以为BB或Bb，两者都能卷舌；本组选项只有A的BB与能卷舌配对正确。
+English: Bb × BB can produce BB or Bb, both able to roll the tongue; among the listed choices only A correctly pairs BB with tongue rolling."
+F4 Chp 4,radio,SBP2023_Q05,A,B,C,D,D,SBP 2023/Picture5.png,"中文：跑步需要肌肉获得更多氧和养分，心跳与脉搏会加快，因此D跑步者脉搏率最高。
+English: Running increases muscle demand for oxygen and nutrients, raising heart and pulse rates, so runner D has the highest pulse rate."
+F4 Chp 4,radio,SBP2023_Q06,A,B,C,D,B,SBP 2023/Picture6.png,"中文：BMI=37÷1.4²≈18.88 kg/m²，属于题设理想体重范围，对应B。
+English: BMI = 37 ÷ 1.4² ≈ 18.88 kg/m², within the question's desirable-weight range, matching B."
+F4 Chp 5,radio,KedahTrial2023_Q07,A,B,C,D,B,Kedah Trial 2023/Picture7.png,"中文：食物废料占最高的 44.5%；按家庭需求准备适量食物，可从源头减少浪费。
+English: Food waste is highest at 44.5%; preparing food according to household needs reduces waste at its source."
+F4 Chp 5,radio,KedahTrial2023_Q08,A,B,C,D,B,Kedah Trial 2023/Picture8.png,"中文：同源染色体交换片段是减数分裂的交叉互换，可产生新的基因组合。
+English: The exchange of segments between homologous chromosomes is crossing over, producing new gene combinations."
+F4 Chp 5,radio,KelantanTrial2023_Q07,A,B,C,D,D,Kelantan Trial 2023/Picture7.png,"中文：Mm × mm 产生一半 Mm 红花、一半 mm 黄花，符合 1:1 表型比例。
+English: Mm × mm produces 50% Mm red flowers and 50% mm yellow flowers, matching the 1:1 ratio."
+F4 Chp 5,radio,KelantanTrial2023_Q08,A,B,C,D,C,Kelantan Trial 2023/Picture8.png,"中文：遗传工程把具有所需性状的基因转入作物，可改善大小、耐贮性及抗病性。
+English: Genetic engineering transfers useful genes into crops to improve size, storage life and disease resistance."
+F4 Chp 5,radio,MaahadJohor2023_Q07,A,B,C,D,D,Maahad Johor 2023/Picture7.png,"中文：水母依靠体内液体形成静水骨骼；水蛭和蚯蚓使用相同支撑方式。
+English: Jellyfish use hydrostatic support from body fluids, as do leeches and earthworms."
+F4 Chp 5,radio,MaahadJohor2023_Q08,A,B,C,D,C,Maahad Johor 2023/Picture8.png,"中文：按题图与答案，儿童期男孩的增长较快；女孩青春期加速较早，不代表一直长至 20 岁。
+English: In the supplied graph and key, boys grow faster during childhood; girls have an earlier adolescent spurt but do not keep growing to age 20."
+F4 Chp 5,radio,NegeriSembilan2023_Q07,A,B,C,D,A,Negeri Sembilan 2023/Picture7.png,"中文：Bb×bb的后代为一半Bb黑毛、一半bb白毛，因此白毛概率为50%。
+English: Bb × bb produces half Bb black-furred and half bb white-furred offspring, so the probability of white fur is 50%."
+F4 Chp 5,radio,NegeriSembilan2023_Q08,A,B,C,D,B,Negeri Sembilan 2023/Picture8.png,"中文：A图为连续变异，个体差异不明显；B图为不连续变异，各类别之间差异明显，因此选B。
+English: Graph A shows continuous variation with gradual differences, while graph B shows discontinuous variation with distinct categories, giving B."
+F4 Chp 5,radio,PahangTrial2023_Q07,A,B,C,D,D,Pahang Trial 2023/Picture7.png,"中文：固体有机废物在缺氧条件下分解会释放甲烷，图中应选A。现有答案D为一氧化碳，与此知识点不符，暂保留答案并注明疑点。
+English: Organic solid waste decomposing without oxygen releases methane, giving A in the image. Existing answer D is carbon monoxide and conflicts with this concept; it is retained pending review."
+F4 Chp 5,radio,PahangTrial2023_Q08,A,B,C,D,A,Pahang Trial 2023/Picture8.png,"中文：把农业废料加工成堆肥可循环利用有机物，减少废物及化学肥料使用，符合农业领域绿色科技应用。
+English: Turning agricultural waste into compost recycles organic material and reduces waste and chemical-fertiliser use, applying green technology in agriculture."
+F4 Chp 5,radio,Melaka2023_Q07,A,B,C,D,B,Melaka 2023/Picture7.png,"中文：花药中产生花粉的母细胞进行减数分裂，形成单倍体细胞。
+English: Pollen mother cells in the anther undergo meiosis to form haploid cells."
+F4 Chp 5,radio,Melaka2023_Q08,A,B,C,D,A,Melaka 2023/Picture8.png,"中文：Bb × bb 产生一半 Bb 可卷舌、一半 bb 不可卷舌，比例 1:1。
+English: Bb × bb produces equal numbers of tongue-rolling Bb and non-rolling bb offspring, giving 1:1."
+F4 Chp 5,radio,Perak2023_Q07,A,B,C,D,A,Perak 2023/Picture7.png,"中文：控制伐木可保留植物根部对土壤的固定作用，减少土壤侵蚀及山体滑坡等灾害。
+English: Controlling logging preserves roots that hold soil in place, reducing erosion and disasters such as landslides."
+F4 Chp 5,radio,Perak2023_Q08,A,B,C,D,D,Perak 2023/Picture8.png,"中文：二氧化碳等温室气体增多，会吸收更多地球释放的红外辐射，使温室效应加强。
+English: More carbon dioxide and other greenhouse gases absorb more infrared radiation emitted by Earth, strengthening the greenhouse effect."
+F4 Chp 5,radio,Perlis2023_Q07,A,B,C,D,C,Perlis 2023/Picture7.png,"中文：采用较清洁能源或提高效率的车辆能减少化石燃料消耗和温室气体排放，因此选C。
+English: A vehicle using cleaner energy or greater energy efficiency can reduce fossil-fuel use and greenhouse-gas emissions, giving C."
+F4 Chp 5,radio,Perlis2023_Q08,A,B,C,D,A,Perlis 2023/Picture8.png,"中文：交叉互换产生新的基因组合，增加同一物种个体之间的变异。答案A的“antara spesies”措辞不准确，应理解为物种内个体之间。
+English: Crossing over creates new gene combinations and variation among individuals of the same species. Answer A's wording “among species” is inaccurate; it should mean within a species."
+F4 Chp 5,radio,PutrajayaSet12023_Q07,A,B,C,D,C,Putrajaya Set 1 2023/Picture7.png,"中文：未经处理的工业废物污染河流，可能含毒性物质并影响溶氧，使水生生物死亡。
+English: Untreated industrial waste pollutes rivers, potentially introducing toxic substances and affecting dissolved oxygen, causing aquatic organisms to die."
+F4 Chp 5,radio,PutrajayaSet12023_Q08,A,B,C,D,D,Putrajaya Set 1 2023/Picture8.png,"中文：混合动力车结合电动机与燃油发动机，在拥堵或低速行驶时可减少燃油消耗，因此选D。
+English: A hybrid vehicle combines an electric motor and fuel engine and can reduce fuel consumption during congested or low-speed travel, giving D."
+F4 Chp 5,radio,PutrajayaSet22023_Q07,A,B,C,D,C,Putrajaya Set 2 2023/Picture7.png,"中文：私人车辆每名乘客的燃油消耗和温室气体排放通常最高，因此在绿色交通层级中处于最不优先的顶部，选C。
+English: Private vehicles generally have the highest fuel use and greenhouse-gas emissions per passenger, placing them at the least-preferred top of the green-transport hierarchy, giving C."
+F4 Chp 5,radio,PutrajayaSet22023_Q08,A,B,C,D,D,Putrajaya Set 2 2023/Picture8.png,"中文：有机肥可减少化学肥料造成的污染，生物防治利用天敌控制害虫，避免继续增加农药污染，因此选D。
+English: Organic fertilisers reduce pollution from chemical fertilisers, while biological control uses natural enemies against pests and avoids adding pesticide pollution, giving D."
+F4 Chp 5,radio,SarawakSubisMiri2023_Q07,A,B,C,D,C,Sarawak Subis Miri 2023/Picture7.png,"中文：基因工程可使细菌生产胰岛素和酶，是医疗益处；题目把误用所致的遗传风险列为弊端，答案C依此配对。
+English: Genetic engineering can make bacteria produce insulin and enzymes, a medical benefit; this question pairs it with genetic risks from misuse as the stated disadvantage, giving C."
+F4 Chp 5,radio,SarawakSubisMiri2023_Q08,A,B,C,D,D,Sarawak Subis Miri 2023/Picture8.png,"中文：蟑螂有外骨骼，必须蜕皮后身体才能明显长大，因此生长曲线呈阶梯形。
+English: A cockroach has an exoskeleton and grows appreciably after moulting, producing a staircase growth curve."
+F4 Chp 5,radio,Selangor2023_Q07,A,B,C,D,B,Selangor 2023/Picture7.png,"中文：过量使用化学农药会污染环境，本题选择B有机杀虫剂，以较环保的方法控制害虫并减少化学污染。
+English: Excess chemical pesticide use pollutes the environment; B, organic pesticides, is the intended greener pest-control method for reducing chemical pollution."
+F4 Chp 5,radio,Selangor2023_Q08,A,B,C,D,B,Selangor 2023/Picture8.png,"中文：步行不需要燃烧交通燃料，交通过程没有直接尾气温室气体排放，因此位于绿色交通层级的优先位置。
+English: Walking burns no transport fuel and produces no direct vehicle-exhaust greenhouse emissions, placing it in the preferred part of the green-transport hierarchy."
+F4 Chp 5,radio,SelangorSet22023_Q07,A,B,C,D,D,Selangor Set 2 2023/Picture7.png,"中文：选择性伐木只砍伐选定树木，保留其他植被及根系，可减少栖息地破坏、土壤侵蚀和滑坡风险。
+English: Selective logging removes only selected trees and retains other vegetation and roots, reducing habitat loss, erosion and landslide risk."
+F4 Chp 5,radio,SelangorSet22023_Q08,A,B,C,D,C,Selangor Set 2 2023/Picture8.png,"中文：单人车辆每名乘客分担的燃油消耗及排放较高，不如公共交通、骑车和步行环保，因此选C。
+English: Single-occupant vehicles have higher fuel use and emissions per passenger and are less environmentally friendly than public transport, cycling and walking, giving C."
+F4 Chp 5,radio,TerengganuMPP32023_Q07,A,B,C,D,A,Terengganu MPP3 2023/Picture7.png,"中文：性别属于有明确类别的不连续变异；身高、体重及肤色在课本分类属于连续变异。
+English: Sex is a discontinuous variation with distinct categories; height, body mass and skin colour are continuous in the textbook classification."
+F4 Chp 5,radio,TerengganuMPP32023_Q08,A,B,C,D,D,Terengganu MPP3 2023/Picture8.png,"中文：蝎子是节肢动物，具有坚硬、表面带蜡的几丁质外骨骼，保护和支持身体。
+English: A scorpion is an arthropod with a hard, wax-covered chitinous exoskeleton that protects and supports the body."
+F4 Chp 5,radio,SBP2023_Q07,A,B,C,D,C,SBP 2023/Picture7.png,"中文：多一条常染色体可能造成唐氏综合征等染色体疾病，引起身体及智力发育问题，因此选C。
+English: An extra autosome may cause a chromosome disorder such as Down syndrome, with physical and intellectual developmental difficulties, giving C."
+F4 Chp 5,radio,SBP2023_Q08,A,B,C,D,D,SBP 2023/Picture8.png,"中文：把厨余变为能源和堆肥，既回收资源又减少填埋废物的环境影响，因此选D。
+English: Turning food waste into energy and compost recovers resources and reduces the environmental impact of landfill waste, giving D."
+F4 Chp 6,radio,KedahTrial2023_Q09,A,B,C,D,B,Kedah Trial 2023/Picture9.png,"中文：直方图呈连续范围和中间值，属于连续变异；身高是典型例子。
+English: The histogram shows a continuous range with intermediate values; height is an example of continuous variation."
+F4 Chp 6,radio,KedahTrial2023_Q10,A,B,C,D,D,Kedah Trial 2023/Picture10.png,"中文：长颈鹿把前脚分开，增大支撑底面积，弯下喝水时较稳定。
+English: Spreading the front legs enlarges the base of support and improves stability while the giraffe drinks."
+F4 Chp 6,radio,KelantanTrial2023_Q09,A,B,C,D,D,Kelantan Trial 2023/Picture9.png,"中文：水中浮力分担鲸的重量，使其身体能长得很大而不全靠骨骼支撑。
+English: Buoyancy supports part of a whale's weight, allowing a large body without relying entirely on the skeleton."
+F4 Chp 6,radio,KelantanTrial2023_Q10,A,B,C,D,C,Kelantan Trial 2023/Picture10.png,"中文：图中老年阶段不再增高，甚至出现负增长；C 表达身高增长停止，并不代表所有细胞活动停止。
+English: The graph shows no further height increase in old age and some decline; C refers to height growth, not all cellular activity."
+F4 Chp 6,radio,MaahadJohor2023_Q09,A,B,C,D,B,Maahad Johor 2023/Picture9.png,"中文：甲状腺素不足使代谢率降低，可能出现怕冷和体重增加。
+English: Insufficient thyroxine lowers metabolic rate and can cause cold intolerance and weight gain."
+F4 Chp 6,radio,MaahadJohor2023_Q10,A,B,C,D,B,Maahad Johor 2023/Picture10.png,"中文：氯胺酮在课本分类为致幻剂，可改变脑内冲动传递并引起幻觉。
+English: Ketamine is classified as a hallucinogen in the textbook and can alter brain signalling and cause hallucinations."
+F4 Chp 6,radio,NegeriSembilan2023_Q09,A,B,C,D,D,Negeri Sembilan 2023/Picture9.png,"中文：虾和蟹都有几丁质构成的坚硬外骨骼，可支持身体并保护内部器官。
+English: Prawns and crabs have hard chitinous exoskeletons that support the body and protect internal organs."
+F4 Chp 6,radio,NegeriSembilan2023_Q10,A,B,C,D,C,Negeri Sembilan 2023/Picture10.png,"中文：在13岁的位置，女性曲线高于男性曲线，表示该年龄女性较高，因此选C。
+English: At age 13, the female curve lies above the male curve, showing that females are taller at that age, giving C."
+F4 Chp 6,radio,PahangTrial2023_Q09,A,B,C,D,D,Pahang Trial 2023/Picture9.png,"中文：图中性染色体为XXY，即男性多了一条X染色体，是克氏综合征Klinefelter syndrome。
+English: The sex chromosomes are XXY, meaning a male has an extra X chromosome; this is Klinefelter syndrome."
+F4 Chp 6,radio,PahangTrial2023_Q10,A,B,C,D,A,Pahang Trial 2023/Picture10.png,"中文：基因工程可把抗病基因引入作物，提高抗病能力并减少作物损失，是明确的益处。
+English: Genetic engineering can introduce disease-resistance genes into crops, improving resistance and reducing crop losses, a clear benefit."
+F4 Chp 6,radio,Melaka2023_Q09,A,B,C,D,C,Melaka 2023/Picture9.png,"中文：抗药性基因若扩散至不希望存活的生物，可形成抗药性问题，因此是潜在弊端。
+English: Spread of resistance genes to unwanted organisms can create resistance problems, a potential disadvantage."
+F4 Chp 6,radio,Melaka2023_Q10,A,B,C,D,D,Melaka 2023/Picture10.png,"中文：螃蟹的硬外壳是外骨骼；蜥蜴及鲸为内骨骼。
+English: A crab's hard outer covering is an exoskeleton; lizards and whales have endoskeletons."
+F4 Chp 6,radio,Perak2023_Q09,A,B,C,D,A,Perak 2023/Picture9.png,"中文：Pp×Pp产生PP、Pp、Pp、pp，只有pp为白花，所以概率1/4=25%。
+English: Pp × Pp gives PP, Pp, Pp and pp; only pp produces white flowers, so the probability is 1/4 = 25%."
+F4 Chp 6,radio,Perak2023_Q10,A,B,C,D,D,Perak 2023/Picture10.png,"中文：依答案D，GMO是通过改变遗传物质而获得新性状的生物，可引入其他物种的基因；重组DNA技术是实现这种基因组合的方法。
+English: Following answer D, a GMO is an organism whose genetic material is altered to obtain new traits, including genes from other species; recombinant-DNA technology is the method used to combine those genes."
+F4 Chp 6,radio,Perlis2023_Q09,A,B,C,D,B,Perlis 2023/Picture9.png,"中文：血友病由基因突变引起，血液缺乏正常凝血能力，受伤后出血不易停止，因此选B。
+English: Haemophilia is caused by a gene mutation that impairs normal blood clotting, so bleeding is difficult to stop, giving B."
+F4 Chp 6,radio,Perlis2023_Q10,A,B,C,D,A,Perlis 2023/Picture10.png,"中文：XᵇY×XᴮXᵇ产生XᴮXᵇ、XᵇXᵇ、XᴮY、XᵇY，色盲儿子与携带者女儿各占1/4，所以比例1:1。
+English: XᵇY × XᴮXᵇ produces XᴮXᵇ, XᵇXᵇ, XᴮY and XᵇY; a colour-blind son and carrier daughter each have probability 1/4, so the ratio is 1:1."
+F4 Chp 6,radio,PutrajayaSet12023_Q09,A,B,C,D,B,Putrajaya Set 1 2023/Picture9.png,"中文：图示后期每一极有4条染色体，有丝分裂后每个子细胞得到4条，染色体数保持与原细胞相同。
+English: The anaphase diagram shows four chromosomes moving to each pole; each daughter cell receives four, maintaining the original chromosome number."
+F4 Chp 6,radio,PutrajayaSet12023_Q10,A,B,C,D,B,Putrajaya Set 1 2023/Picture10.png,"中文：B是把所需基因连接到载体DNA的步骤；若目标基因未正确加入，植物便无法表现抗病和较大的性状。
+English: B joins the desired gene to carrier DNA; if the target gene is not inserted correctly, the plant cannot express the intended disease resistance and larger size."
+F4 Chp 6,radio,PutrajayaSet22023_Q09,A,B,C,D,B,Putrajaya Set 2 2023/Picture9.png,"中文：核型只有一条X性染色体，即45,X，属于特纳综合征Turner syndrome，因此选B。
+English: The karyotype has only one X sex chromosome, 45,X, identifying Turner syndrome and B."
+F4 Chp 6,radio,PutrajayaSet22023_Q10,A,B,C,D,B,Putrajaya Set 2 2023/Picture10.png,"中文：血友病是X连锁隐性疾病，健康母亲可能为携带者，把隐性基因传给儿子，使他发病。
+English: Haemophilia is X-linked recessive; a healthy carrier mother can pass the recessive allele to her son, causing the disease."
+F4 Chp 6,radio,SarawakSubisMiri2023_Q09,A,B,C,D,A,Sarawak Subis Miri 2023/Picture9.png,"中文：骨关节炎使软骨磨损，骨端摩擦造成关节疼痛和运动困难，因此应选C。现有A为进食困难，不对应图示关节问题。
+English: Osteoarthritis wears down cartilage, causing friction, pain and difficulty moving, so C is appropriate. Existing A, difficulty eating, does not match the illustrated joint problem."
+F4 Chp 6,radio,SarawakSubisMiri2023_Q10,A,B,C,D,B,Sarawak Subis Miri 2023/Picture10.png,"中文：图示支柱根从茎基部向土壤生长，增加稳定性，玉米具有这类支持根，因此选B。
+English: The stilt roots shown grow from the lower stem into soil and increase stability; maize has such support roots, giving B."
+F4 Chp 6,radio,Selangor2023_Q09,A,B,C,D,D,Selangor 2023/Picture9.png,"中文：DNA由两条反向平行的多核苷酸链组成，形成双螺旋结构，因此X为DNA。
+English: DNA consists of two antiparallel polynucleotide chains forming a double helix, so X is DNA."
+F4 Chp 6,radio,Selangor2023_Q10,A,B,C,D,A,Selangor 2023/Picture10.png,"中文：Y来自b与B配子结合，为Bb；B是自由耳垂的显性基因，所以表现自由耳垂。
+English: Y forms from b and B gametes and is Bb; dominant B produces free earlobes."
+F4 Chp 6,radio,SelangorSet22023_Q09,A,B,C,D,A,Selangor Set 2 2023/Picture9.png,"中文：基因gene是遗传的基本单位，为DNA上的片段，控制个体性状，因此X为基因。
+English: A gene is the basic hereditary unit, a segment of DNA that determines a trait, so X is a gene."
+F4 Chp 6,radio,SelangorSet22023_Q10,A,B,C,D,A,Selangor Set 2 2023/Picture10.png,"中文：Y由B与b配子结合形成Bb，B显性，所以能卷舌，选A。
+English: Y forms from B and b gametes and is Bb; dominant B gives the ability to roll the tongue, so A."
+F4 Chp 6,radio,TerengganuMPP32023_Q09,A,B,C,D,A,Terengganu MPP3 2023/Picture9.png,"中文：生长曲线在婴幼儿P和青春期R最陡，表示这两个时期身高增长最快，因此选A。
+English: The growth curve is steepest during infancy P and adolescence R, indicating fastest height increase, giving A."
+F4 Chp 6,radio,TerengganuMPP32023_Q10,A,B,C,D,C,Terengganu MPP3 2023/Picture10.png,"中文：垂体pituitary gland称为主腺，其激素控制其他多种内分泌腺的活动。
+English: The pituitary is called the master gland because its hormones regulate several other endocrine glands."
+F4 Chp 6,radio,SBP2023_Q09,A,B,C,D,A,SBP 2023/Picture9.png,"中文：Y表示亲本形成配子的过程，是减数分裂，使每个配子只带一个等位基因。
+English: Y represents gamete formation by meiosis, so each gamete carries one allele of the gene."
+F4 Chp 6,radio,SBP2023_Q10,A,B,C,D,B,SBP 2023/Picture10.png,"中文：先切割DNA及质粒R，再把重组DNA加入细菌Q，让细菌繁殖生产胰岛素S，最后提取纯化P，选B。
+English: First cut DNA and plasmid R, introduce recombinant DNA into bacteria Q, grow them to produce insulin S, then extract and purify P, giving B."
+F4 Chp 7,radio,KedahTrial2023_Q11,A,B,C,D,D,Kedah Trial 2023/Picture11.png,"中文：M 指上臂后方的三头肌；屈肘时二头肌收缩，三头肌放松。
+English: M is the triceps at the back of the upper arm; it relaxes while the biceps contracts during elbow flexion."
+F4 Chp 7,radio,KelantanTrial2023_Q11,A,B,C,D,A,Kelantan Trial 2023/Picture11.png,"中文：紧急情况下肾上腺分泌肾上腺素，提高代谢及心跳，使身体准备应付危险。
+English: Adrenaline released during an emergency increases metabolism and heart rate to prepare the body for action."
+F4 Chp 7,radio,MaahadJohor2023_Q11,A,B,C,D,C,Maahad Johor 2023/Picture11.png,"中文：19 个质子的原子电子排列 2.8.8.1，失去一粒电子成为正离子，稳定排列为 2.8.8，即 C。
+English: An atom with 19 protons has arrangement 2.8.8.1; losing one electron forms a stable positive ion with 2.8.8."
+F4 Chp 7,radio,NegeriSembilan2023_Q11,A,B,C,D,C,Negeri Sembilan 2023/Picture11.png,"中文：安非他命和甲基安非他命属于兴奋剂，会加快神经冲动传递，提高神经系统活动。
+English: Amphetamine and methamphetamine are stimulants that accelerate nerve-impulse transmission and increase nervous-system activity."
+F4 Chp 7,radio,PahangTrial2023_Q11,A,B,C,D,C,Pahang Trial 2023/Picture11.png,"中文：龟属于有内骨骼的动物，身体持续生长，典型生长曲线为S形；阶梯形曲线属于会蜕皮的动物。
+English: A turtle has an endoskeleton and grows continuously, producing a typical sigmoid growth curve; a staircase curve belongs to animals that moult."
+F4 Chp 7,radio,Melaka2023_Q11,A,B,C,D,A,Melaka 2023/Picture11.png,"中文：骨科医生专门诊治骨折、骨骼或脊柱问题，并规划相关康复。
+English: An orthopaedic specialist diagnoses and treats fractures, bone and spinal disorders and associated rehabilitation."
+F4 Chp 7,radio,Perak2023_Q11,A,B,C,D,B,Perak 2023/Picture11.png,"中文：攀缘植物利用卷须等结构沿支架向上生长，以获得更多阳光进行光合作用。
+English: Climbing plants use structures such as tendrils to grow up supports and obtain more sunlight for photosynthesis."
+F4 Chp 7,radio,Perlis2023_Q11,A,B,C,D,B,Perlis 2023/Picture11.png,"中文：连续变异的直方图呈连续分布，性状除了遗传，也受营养等环境因素影响，因此选B。
+English: Continuous variation forms a continuous histogram and is influenced by environmental factors such as nutrition as well as inheritance, giving B."
+F4 Chp 7,radio,PutrajayaSet12023_Q11,A,B,C,D,B,Putrajaya Set 1 2023/Picture11.png,"中文：肌腱把肌肉连接到骨头，把肌肉收缩的拉力传到骨骼，帮助身体运动。
+English: Tendons connect muscles to bones and transmit the pulling force of muscle contraction to the skeleton, enabling movement."
+F4 Chp 7,radio,PutrajayaSet22023_Q11,A,B,C,D,C,Putrajaya Set 2 2023/Picture11.png,"中文：蚯蚓与水母以体内液体压力维持形状并配合肌肉运动，属于液压骨骼hydrostatic skeleton。
+English: Earthworms and jellyfish use internal fluid pressure to maintain shape and assist muscle movement, forming hydrostatic skeletons."
+F4 Chp 7,radio,SarawakSubisMiri2023_Q11,A,B,C,D,C,Sarawak Subis Miri 2023/Picture11.png,"中文：按SPM常考内容，B肾上腺的肾上腺素会升高血糖。现有答案C为胰腺；它也分泌升糖的胰高血糖素，但不能用降糖的胰岛素解释C，因此本题单一答案存在课程范围歧义。
+English: In the usual SPM treatment, adrenaline from adrenal gland B raises blood glucose. Existing C is the pancreas, which also secretes glucose-raising glucagon; insulin lowers glucose and cannot explain C, so the single answer is ambiguous in relation to syllabus scope."
+F4 Chp 7,radio,Selangor2023_Q11,A,B,C,D,A,Selangor 2023/Picture11.png,"中文：血友病影响凝血过程，受伤后血液不容易凝固，是选项A描述的症状。
+English: Haemophilia impairs blood clotting, so blood does not clot readily after injury, matching A."
+F4 Chp 7,radio,SelangorSet22023_Q11,A,B,C,D,B,Selangor Set 2 2023/Picture11.png,"中文：地中海贫血的红细胞常较小，应选A；镰刀形红细胞B属于镰状细胞贫血，现有答案B需核对。
+English: Thalassaemia commonly produces small red blood cells, giving A; sickle-shaped cells, B, belong to sickle-cell anaemia, so existing B needs review."
+F4 Chp 7,radio,TerengganuMPP32023_Q11,A,B,C,D,D,Terengganu MPP3 2023/Picture11.png,"中文：电子数2+8+8+1=19，中性原子质子数也是19；中子数=39−19=20，因此选D。
+English: Electron number = 2 + 8 + 8 + 1 = 19, so a neutral atom also has 19 protons; neutrons = 39 − 19 = 20, giving D."
+F4 Chp 7,radio,SBP2023_Q11,A,B,C,D,C,SBP 2023/Picture11.png,"中文：滑液不足会减少关节润滑，骨端摩擦增加，弯曲膝盖时容易疼痛，因此选C。
+English: Insufficient synovial fluid reduces joint lubrication and increases friction, causing pain when bending the knee, giving C."
+F4 Chp 8,radio,KedahTrial2023_Q12,A,B,C,D,A,Kedah Trial 2023/Picture12.png,"中文：A是位于肾脏上方的肾上腺，分泌肾上腺素，因此选A。
+English: A is the adrenal gland above the kidney, which secretes adrenaline, giving A."
+F4 Chp 8,radio,KedahTrial2023_Q13,A,B,C,D,B,Kedah Trial 2023/Picture13.png,"中文：巴比妥类是抑制剂，会减慢神经冲动传递，使使用者嗜睡和焦虑减轻。
+English: Barbiturates are depressants that slow nerve impulses and cause drowsiness and reduced anxiety."
+F4 Chp 8,radio,KedahTrial2023_Q14,A,B,C,D,B,Kedah Trial 2023/Picture14.png,"中文：质子数 = 39 − 20 = 19；电子排列 2.8.8.1，一粒价电子属第 1 族，四层电子属第 4 周期。
+English: Proton number = 39 − 20 = 19; arrangement 2.8.8.1 gives Group 1 and Period 4."
+F4 Chp 8,radio,KelantanTrial2023_Q12,A,B,C,D,D,Kelantan Trial 2023/Picture12.png,"中文：药物和酒精可抑制或减慢神经冲动传递，使反射反应变慢。
+English: Drugs and alcohol can inhibit or slow nerve-impulse transmission, delaying reflex responses."
+F4 Chp 8,radio,KelantanTrial2023_Q13,A,B,C,D,B,Kelantan Trial 2023/Picture13.png,"中文：钠的核子数 23、质子数 11，中子数 = 23 − 11 = 12。
+English: The neutron number of sodium is 23 − 11 = 12."
+F4 Chp 8,radio,KelantanTrial2023_Q14,A,B,C,D,A,Kelantan Trial 2023/Picture14.png,"中文：碳-14 可作为碳吸收的示踪物，也可用于估计含碳古物的年代。
+English: Carbon-14 can trace carbon uptake and estimate the age of carbon-containing artefacts."
+F4 Chp 8,radio,MaahadJohor2023_Q12,A,B,C,D,D,Maahad Johor 2023/Picture12.png,"中文：第 17 族为卤素，溴与氟是该族成员，即 II、III。
+English: Group 17 contains the halogens; bromine and fluorine are II and III."
+F4 Chp 8,radio,MaahadJohor2023_Q13,A,B,C,D,C,Maahad Johor 2023/Picture13.png,"中文：白镴 Pewter 由锡、铜和锑组成，故选 II、III、IV。
+English: Pewter is an alloy of tin, copper and antimony, corresponding to II, III and IV."
+F4 Chp 8,radio,MaahadJohor2023_Q14,A,B,C,D,B,Maahad Johor 2023/Picture14.png,"中文：甲酸中和胶乳粒子的电荷，使它们聚集并凝固；氨可防止胶乳凝固。
+English: Formic acid neutralises latex-particle charges and causes coagulation; ammonia prevents coagulation."
+F4 Chp 8,radio,NegeriSembilan2023_Q12,A,B,C,D,D,Negeri Sembilan 2023/Picture12.png,"中文：锌是由金属原子组成的原子物质；水和氧气属于分子物质，铁锈不是分子物质，因此D正确。
+English: Zinc is an atomic substance made of metal atoms; water and oxygen are molecular substances, and rust is not a molecular substance, so D is correct."
+F4 Chp 8,radio,NegeriSembilan2023_Q13,A,B,C,D,C,Negeri Sembilan 2023/Picture13.png,"中文：Ca²⁺有18个电子，排列为2.8.8；中性钙原子有20个电子，排列为2.8.8.2，所以有四个含电子的壳层。
+English: Ca²⁺ has 18 electrons arranged 2.8.8; a neutral calcium atom has 20 electrons arranged 2.8.8.2, so it has four occupied shells."
+F4 Chp 8,radio,NegeriSembilan2023_Q14,A,B,C,D,B,Negeri Sembilan 2023/Picture14.png,"中文：伽马射线照射可杀死导致腐败的微生物，使水果较耐储存，因此选B。
+English: Gamma irradiation kills microorganisms responsible for spoilage, helping fruit last longer, giving B."
+F4 Chp 8,radio,PahangTrial2023_Q12,A,B,C,D,B,Pahang Trial 2023/Picture12.png,"中文：弯曲手臂时肱二头肌收缩，肱三头肌舒张，两者以拮抗方式控制动作，因此选B。
+English: When the arm bends, the biceps contracts and the triceps relaxes; they work antagonistically, giving B."
+F4 Chp 8,radio,PahangTrial2023_Q13,A,B,C,D,B,Pahang Trial 2023/Picture13.png,"中文：图示颈部的甲状腺分泌甲状腺素thyroxine，调节身体代谢速率，因此选B。
+English: The thyroid gland in the neck secretes thyroxine, which regulates the body's metabolic rate, giving B."
+F4 Chp 8,radio,PahangTrial2023_Q14,A,B,C,D,D,Pahang Trial 2023/Picture14.png,"中文：听到或看到不存在的事物称为幻觉，致幻剂hallucinogens会造成这类知觉改变。
+English: Hearing or seeing things that do not exist is hallucination, a perceptual effect caused by hallucinogens."
+F4 Chp 8,radio,Melaka2023_Q12,A,B,C,D,A,Melaka 2023/Picture12.png,"中文：胰腺分泌胰岛素，帮助降低及调节血糖。
+English: The pancreas secretes insulin, which helps regulate and lower blood glucose."
+F4 Chp 8,radio,Melaka2023_Q13,A,B,C,D,B,Melaka 2023/Picture13.png,"中文：酒精首先影响脑部协调和判断，使反应速度、平衡及决策能力下降。
+English: Alcohol affects brain coordination and judgement, slowing reactions and impairing balance and decisions."
+F4 Chp 8,radio,Melaka2023_Q14,A,B,C,D,C,Melaka 2023/Picture14.png,"中文：金属失去电子、非金属得到电子，形成正负离子并以静电吸引结合。
+English: A metal transfers electrons to a non-metal, forming oppositely charged ions held by electrostatic attraction."
+F4 Chp 8,radio,Perak2023_Q12,A,B,C,D,C,Perak 2023/Picture12.png,"中文：碳水化合物消化后形成葡萄糖，控制摄入量有助于避免过多血糖负荷，因此本题选C。
+English: Carbohydrates are digested into glucose; controlling their intake helps avoid excessive glucose intake, giving C in this question."
+F4 Chp 8,radio,Perak2023_Q13,A,B,C,D,D,Perak 2023/Picture13.png,"中文：P和Q位于周期表右侧的非金属区域，M和N位于左侧金属区域，因此选D。
+English: P and Q lie in the non-metal region on the right of the periodic table, while M and N lie in the metal region on the left, giving D."
+F4 Chp 8,radio,Perak2023_Q14,A,B,C,D,B,Perak 2023/Picture14.png,"中文：钠-24可作为血液示踪剂；监测其辐射分布可找出血流受阻或血栓的位置。
+English: Sodium-24 acts as a blood tracer; monitoring its radiation distribution helps locate blocked blood flow or a clot."
+F4 Chp 8,radio,Perlis2023_Q12,A,B,C,D,C,Perlis 2023/Picture12.png,"中文：图示骨盆带连接下肢，并支撑上半身重量，因此主要功能为支持体重。
+English: The pelvic girdle connects the lower limbs and supports the weight of the upper body, so its main listed function is supporting body weight."
+F4 Chp 8,radio,Perlis2023_Q13,A,B,C,D,D,Perlis 2023/Picture13.png,"中文：Q是无脊椎动物的内骨骼类别；海星虽没有脊柱，但有内部骨板，因此选D。
+English: Q is the endoskeleton category of invertebrates; a starfish has internal skeletal plates despite lacking a backbone, giving D."
+F4 Chp 8,radio,Perlis2023_Q14,A,B,C,D,C,Perlis 2023/Picture14.png,"中文：胰腺分泌胰岛素，帮助降低血糖；若移除胰腺，胰岛素不足会导致血糖升高。
+English: The pancreas secretes insulin to lower blood glucose; removing it causes insulin deficiency and raised blood glucose."
+F4 Chp 8,radio,PutrajayaSet12023_Q12,A,B,C,D,A,Putrajaya Set 1 2023/Picture12.png,"中文：树干每年形成一圈年轮，图中有7圈，所以树龄为7年，选A。
+English: The trunk forms one growth ring per year; seven rings indicate seven years, giving A."
+F4 Chp 8,radio,PutrajayaSet12023_Q13,A,B,C,D,D,Putrajaya Set 1 2023/Picture13.png,"中文：胰腺是腹部横向延伸、呈叶状的腺体，图D对应胰腺；它分泌胰岛素等调节血糖的激素。
+English: The pancreas is an elongated, lobulated gland in the abdomen, represented by D; it secretes hormones such as insulin that regulate blood glucose."
+F4 Chp 8,radio,PutrajayaSet12023_Q14,A,B,C,D,A,Putrajaya Set 1 2023/Picture14.png,"中文：图中男子产生幻觉；氯胺酮ketamine在本题分类会引起这类知觉改变，因此选A。
+English: The man is hallucinating; ketamine can cause this perceptual disturbance in the classification used by this question, giving A."
+F4 Chp 8,radio,PutrajayaSet22023_Q12,A,B,C,D,B,Putrajaya Set 2 2023/Picture12.png,"中文：空心玻璃管J代表鸟类的中空骨骼，中空骨能在较轻重量下提供支持，因此选B鸟。
+English: Hollow glass tube J represents a bird's hollow bones, which provide support at low weight, giving bird B."
+F4 Chp 8,radio,PutrajayaSet22023_Q13,A,B,C,D,A,Putrajaya Set 2 2023/Picture13.png,"中文：脑部的垂体pituitary gland被称为主腺，因为其激素控制多种其他内分泌腺的活动，图中为A。
+English: The pituitary gland in the brain is the master gland because its hormones control several other endocrine glands; it is A in the diagram."
+F4 Chp 8,radio,PutrajayaSet22023_Q14,A,B,C,D,B,Putrajaya Set 2 2023/Picture14.png,"中文：甲状腺素不足使代谢速率下降而怕冷，分泌过多可与眼球突出有关，因此X为thyroxine。
+English: Too little thyroxine lowers metabolic rate and causes intolerance to cold; excess secretion can be associated with protruding eyes, so X is thyroxine."
+F4 Chp 8,radio,SarawakSubisMiri2023_Q12,A,B,C,D,C,Sarawak Subis Miri 2023/Picture12.png,"中文：镇静剂降低神经系统活动，因此“增加神经系统活动”A才是不属于镇静剂作用的选项。现有C减少压力实际上是其作用，需核对。
+English: Depressants reduce nervous-system activity, so A, increasing that activity, is the exception. Existing C, reducing stress, is an effect and requires review."
+F4 Chp 8,radio,SarawakSubisMiri2023_Q13,A,B,C,D,D,Sarawak Subis Miri 2023/Picture13.png,"中文：食盐由Na⁺和Cl⁻等离子组成，应选B；水由分子组成，所以现有D不正确。
+English: Salt consists of ions such as Na⁺ and Cl⁻, giving B; water consists of molecules, so existing D is incorrect."
+F4 Chp 8,radio,SarawakSubisMiri2023_Q14,A,B,C,D,D,Sarawak Subis Miri 2023/Picture14.png,"中文：Q质子数3排列2.1，R质子数11排列2.8.1，都有一个价电子、化学性质相似，应选C。现有D把P的5个价电子与R的1个视为相同，错误。
+English: Q, proton number 3, is 2.1 and R, number 11, is 2.8.1; both have one valence electron and similar chemical properties, giving C. Existing D wrongly equates P's five valence electrons with R's one."
+F4 Chp 8,radio,Selangor2023_Q12,A,B,C,D,C,Selangor 2023/Picture12.png,"中文：健康餐盘把食物分为四分之一谷物、四分之一蛋白质、一半蔬果，有助于控制份量并保持营养均衡。
+English: The healthy plate divides food into a quarter grains, a quarter protein and half fruit and vegetables, helping portion control and nutritional balance."
+F4 Chp 8,radio,Selangor2023_Q13,A,B,C,D,A,Selangor 2023/Picture13.png,"中文：肱三头肌参与肘部铰链关节运动；心肌不是该关节肌肉，桡骨是骨，韧带不是肌肉。
+English: The triceps participates in elbow hinge-joint movement; cardiac muscle does not, the radius is a bone and a ligament is not a muscle."
+F4 Chp 8,radio,Selangor2023_Q14,A,B,C,D,B,Selangor 2023/Picture14.png,"中文：胰腺分泌胰岛素，帮助降低并调节血糖，因此选B。
+English: The pancreas secretes insulin to lower and regulate blood glucose, giving B."
+F4 Chp 8,radio,SelangorSet22023_Q12,A,B,C,D,D,Selangor Set 2 2023/Picture12.png,"中文：钙与维生素D支持骨骼发育，维生素D帮助钙吸收，因此本题选D；身高还受遗传等因素影响。
+English: Calcium and vitamin D support bone development, and vitamin D aids calcium absorption, giving D in this question; height also depends on factors such as inheritance."
+F4 Chp 8,radio,SelangorSet22023_Q13,A,B,C,D,D,Selangor Set 2 2023/Picture13.png,"中文：X指向关节腔内的滑液，能润滑关节并减少骨端摩擦，因此选D。
+English: X points to synovial fluid in the joint cavity, which lubricates the joint and reduces friction between bone ends, giving D."
+F4 Chp 8,radio,SelangorSet22023_Q14,A,B,C,D,B,Selangor Set 2 2023/Picture14.png,"中文：卵巢分泌雌激素oestrogen，促进女性第二性征并参与调节生殖周期，因此选B。
+English: The ovaries secrete oestrogen, supporting female secondary sexual characteristics and regulating the reproductive cycle, giving B."
+F4 Chp 8,radio,TerengganuMPP32023_Q12,A,B,C,D,C,Terengganu MPP3 2023/Picture12.png,"中文：按本题课本知识，碳-14用于测定曾为生物的遗存年龄，因此选C。
+English: In this textbook question, carbon-14 dates remains of once-living material, giving C."
+F4 Chp 8,radio,TerengganuMPP32023_Q13,A,B,C,D,D,Terengganu MPP3 2023/Picture13.png,"中文：铅玻璃折射率高，能明显折射和色散光，适合制作光学棱镜，因此选D。
+English: Lead glass has a high refractive index and refracts and disperses light strongly, making it suitable for optical prisms, giving D."
+F4 Chp 8,radio,TerengganuMPP32023_Q14,A,B,C,D,A,Terengganu MPP3 2023/Picture14.png,"中文：塑料袋等聚乙烯产品由乙烯单体聚合形成，因此单体为etena，选A。
+English: Polyethene products such as plastic bags are formed by polymerising ethene monomers, giving etena, A."
+F4 Chp 8,radio,SBP2023_Q12,A,B,C,D,D,SBP 2023/Picture12.png,"中文：指纹类型属于不连续变异，有不同类别而没有连续中间等级，因此选D。
+English: Fingerprint patterns are discontinuous variation, forming distinct categories without a continuous range of intermediate values, giving D."
+F4 Chp 8,radio,SBP2023_Q13,A,B,C,D,B,SBP 2023/Picture13.png,"中文：水中的浮力向上支持动物体重，使水生脊椎动物游泳时无需完全由骨骼承受重量。
+English: Upward buoyancy supports an aquatic vertebrate's weight while swimming, so its skeleton need not bear the full weight."
+F4 Chp 8,radio,SBP2023_Q14,A,B,C,D,D,SBP 2023/Picture14.png,"中文：成年人分泌过多生长激素，会使手、脸及下颌等部位增大，形成肢端肥大症acromegaly。
+English: Excess growth hormone in an adult enlarges the hands, facial features and jaw, producing acromegaly."
+F4 Chp 9,radio,KedahTrial2023_Q15,A,B,C,D,C,Kedah Trial 2023/Picture15.png,"中文：X 与 Y 的质子数同为 11，但核子数为 24 和 23，因此是同位素。
+English: X and Y have the same proton number, 11, but different nucleon numbers, 24 and 23, so they are isotopes."
+F4 Chp 9,radio,KedahTrial2023_Q16,A,B,C,D,A,Kedah Trial 2023/Picture16.png,"中文：酸使胶乳粒子失去相互排斥的电荷，粒子聚集而凝固；碱则可延迟凝固。
+English: Acid neutralises the charges on latex particles, allowing them to aggregate and coagulate; alkali delays coagulation."
+F4 Chp 9,radio,KelantanTrial2023_Q15,A,B,C,D,A,Kelantan Trial 2023/Picture15.png,"中文：聚乙烯是轻、柔韧且防水的塑料，常用于塑料袋或薄膜。原答案 A 的产品图不清楚，与常见用途难以核对，暂保留原答案。
+English: Polythene is light, flexible and waterproof, commonly used for bags and films. Product A is unclear and difficult to match to this use; the original key is retained."
+F4 Chp 9,radio,KelantanTrial2023_Q16,A,B,C,D,A,Kelantan Trial 2023/Picture16.png,"中文：合金化把铁与其他元素结合，可改善硬度和耐腐蚀性，例如不锈钢。
+English: Alloying iron with other elements can improve hardness and corrosion resistance, as in stainless steel."
+F4 Chp 9,radio,MaahadJohor2023_Q15,A,B,C,D,D,Maahad Johor 2023/Picture15.png,"中文：传统疗法并不必然更快或更有效，因此 D 的绝对说法错误。
+English: Traditional treatment is not necessarily faster or more effective, so the absolute claim in D is false."
+F4 Chp 9,radio,MaahadJohor2023_Q16,A,B,C,D,A,Maahad Johor 2023/Picture16.png,"中文：番茄富含抗氧化物番茄红素 Lycopene；胡萝卜主要以 β-胡萝卜素著称。
+English: Tomatoes are rich in the antioxidant lycopene; carrots are better known for beta-carotene."
+F4 Chp 9,radio,NegeriSembilan2023_Q15,A,B,C,D,C,Negeri Sembilan 2023/Picture15.png,"中文：实验室玻璃器皿使用硼硅酸盐玻璃，因其耐热且热膨胀小，不易因温度变化而破裂。
+English: Laboratory glassware uses borosilicate glass because it resists heat and expands little, reducing cracking during temperature changes."
+F4 Chp 9,radio,NegeriSembilan2023_Q16,A,B,C,D,C,Negeri Sembilan 2023/Picture16.png,"中文：硫化时硫在橡胶分子链之间形成交联，使橡胶更坚韧、耐热和耐磨，因此轮胎使用寿命更长，选C。
+English: Sulfur forms cross-links between rubber chains during vulcanisation, improving strength, heat resistance and durability; tyres therefore last longer, giving C."
+F4 Chp 9,radio,PahangTrial2023_Q15,A,B,C,D,C,Pahang Trial 2023/Picture15.png,"中文：K的质子数为10，电子排列2.8，最外层有8个电子，是稳定的八隅体排列，因此选C。
+English: K has proton number 10 and electron arrangement 2.8, with a stable outer octet, giving C."
+F4 Chp 9,radio,PahangTrial2023_Q16,A,B,C,D,D,Pahang Trial 2023/Picture16.png,"中文：碳-14用于测定曾经属于生物的考古遗物年龄，通过剩余碳-14的放射性推算年代。
+English: Carbon-14 is used to date archaeological remains of once-living material by measuring the remaining radioactive carbon-14."
+F4 Chp 9,radio,Melaka2023_Q15,A,B,C,D,B,Melaka 2023/Picture15.png,"中文：R 与 U 质子数同为 11，核子数分别 23、24，是同位素。
+English: R and U both have 11 protons but nucleon numbers 23 and 24, so they are isotopes."
+F4 Chp 9,radio,Melaka2023_Q16,A,B,C,D,D,Melaka 2023/Picture16.png,"中文：萨克斯管常用黄铜，组成是铜 K 与锌 L。
+English: Brass used for instruments such as saxophones consists of copper K and zinc L."
+F4 Chp 9,radio,Perak2023_Q15,A,B,C,D,B,Perak 2023/Picture15.png,"中文：钠钙玻璃熔点较低、容易成形，常用于普通瓶罐和窗玻璃，因此选B。
+English: Soda-lime glass has a relatively low melting point and is easy to shape, making it suitable for ordinary bottles and windows, giving B."
+F4 Chp 9,radio,Perak2023_Q16,A,B,C,D,D,Perak 2023/Picture16.png,"中文：辐射和烟雾可产生自由基，损伤细胞；依本题所列选项，肾衰竭D属于这种损伤可能造成的健康问题。
+English: Radiation and cigarette smoke can generate free radicals that damage cells; among the listed options, kidney failure, D, is the health problem associated with such damage in this question."
+F4 Chp 9,radio,Perlis2023_Q15,A,B,C,D,B,Perlis 2023/Picture15.png,"中文：长期过量饮酒可损伤肝、心脏和消化系统，引起肝硬化、心脏问题及胃溃疡，因此Y为酒精。
+English: Long-term excessive alcohol intake can damage the liver, heart and digestive system, causing cirrhosis, heart problems and stomach ulcers, so Y is alcohol."
+F4 Chp 9,radio,Perlis2023_Q16,A,B,C,D,A,Perlis 2023/Picture16.png,"中文：离子物质熔融后，正负离子能自由移动并传递电荷，所以可导电。
+English: When an ionic substance melts, its positive and negative ions can move freely and carry charge, so it conducts electricity."
+F4 Chp 9,radio,PutrajayaSet12023_Q15,A,B,C,D,C,Putrajaya Set 1 2023/Picture15.png,"中文：T与U处于周期表同一横行，即同一周期，具有相同数量的已占据电子壳层，选C。
+English: T and U are on the same horizontal row, or period, and have the same number of occupied electron shells, giving C."
+F4 Chp 9,radio,PutrajayaSet12023_Q16,A,B,C,D,D,Putrajaya Set 1 2023/Picture16.png,"中文：同位素质子数相同，碳-X也有6个质子；核子数=质子+中子=6+6=12。
+English: Isotopes have the same proton number, so carbon-X also has six protons; nucleon number = protons + neutrons = 6 + 6 = 12."
+F4 Chp 9,radio,PutrajayaSet22023_Q15,A,B,C,D,B,Putrajaya Set 2 2023/Picture15.png,"中文：原子的基本亚原子粒子为质子、中子和电子；核子是质子与中子的统称，并非另一种独立粒子。
+English: The basic subatomic particles are protons, neutrons and electrons; nucleons collectively mean protons and neutrons, not an additional particle type."
+F4 Chp 9,radio,PutrajayaSet22023_Q16,A,B,C,D,C,Putrajaya Set 2 2023/Picture16.png,"中文：铅是金属，由金属原子构成，属于原子物质，因此选C。
+English: Lead is a metal composed of metal atoms and is classified as an atomic substance, giving C."
+F4 Chp 9,radio,SarawakSubisMiri2023_Q15,A,B,C,D,B,Sarawak Subis Miri 2023/Picture15.png,"中文：陶瓷坚硬且对化学物较稳定，能承受咀嚼并不易与口腔物质反应，适合制作假牙。
+English: Ceramics are hard and chemically inert, resisting chewing wear and reactions in the mouth, making them suitable for dentures."
+F4 Chp 9,radio,SarawakSubisMiri2023_Q16,A,B,C,D,B,Sarawak Subis Miri 2023/Picture16.png,"中文：硫在橡胶聚合物链间形成交联，提高耐用性，所以应选C。现有B说断开单体间的键，与硫化原理相反。
+English: Sulfur forms cross-links between rubber polymer chains and improves durability, giving C. Existing B says it breaks bonds between monomers, contrary to vulcanisation."
+F4 Chp 9,radio,Selangor2023_Q15,A,B,C,D,C,Selangor 2023/Picture15.png,"中文：图中粒子以数个原子结合成一个独立单位，即分子，因此属于分子物质。
+English: Each illustrated particle is a separate unit of bonded atoms, a molecule, so the substance is molecular."
+F4 Chp 9,radio,Selangor2023_Q16,A,B,C,D,C,Selangor 2023/Picture16.png,"中文：课本中陶瓷的主要成分为硅酸铝aluminium silicate，因此选C。
+English: The main component of ceramics in the textbook is aluminium silicate, giving C."
+F4 Chp 9,radio,SelangorSet22023_Q15,A,B,C,D,B,Selangor Set 2 2023/Picture15.png,"中文：图示粒子为独立原子，没有几个原子结合的分子单位，所以属于原子物质。
+English: The illustrated particles are individual atoms rather than bonded molecular units, so this is an atomic substance."
+F4 Chp 9,radio,SelangorSet22023_Q16,A,B,C,D,B,Selangor Set 2 2023/Picture16.png,"中文：玻璃的主要原料是二氧化硅silicon dioxide，因此选B。
+English: The main raw material of glass is silicon dioxide, giving B."
+F4 Chp 9,radio,TerengganuMPP32023_Q15,A,B,C,D,D,Terengganu MPP3 2023/Picture15.png,"中文：本题课本所指补充医学通常采用按摩、针灸等非手术方式，不涉及外科手术和缝合，因此选D。
+English: The textbook's complementary medicine uses approaches such as massage and acupuncture rather than surgical operations and stitching, giving D."
+F4 Chp 9,radio,TerengganuMPP32023_Q16,A,B,C,D,C,Terengganu MPP3 2023/Picture16.png,"中文：阿司匹林和同类图示药物属于止痛药analgesics，用于减轻疼痛，因此选C。
+English: Aspirin and the similar pictured medicine are analgesics used to relieve pain, giving C."
+F4 Chp 9,radio,SBP2023_Q15,A,B,C,D,C,SBP 2023/Picture15.png,"中文：金属失去电子形成阳离子，非金属接受电子形成阴离子，二者形成离子化合物，因此选C。
+English: A metal loses electrons to form cations and a non-metal gains electrons to form anions, producing an ionic compound, giving C."
+F4 Chp 9,radio,SBP2023_Q16,A,B,C,D,D,SBP 2023/Picture16.png,"中文：LSD属于致幻剂，能导致看到不存在的事物等幻觉，因此选D。
+English: LSD is a hallucinogen that can cause perceptions of things that are not present, giving D."
+F4 Chp 10,radio,KedahTrial2023_Q17,A,B,C,D,D,Kedah Trial 2023/Picture17.png,"中文：辅助疗法可配合其他医疗方式，并考虑其他医疗人员意见，不是以手术为主要特点。
+English: Complementary medicine may be used alongside other care and considers the views of other medical practitioners."
+F4 Chp 10,radio,KedahTrial2023_Q18,A,B,C,D,C,Kedah Trial 2023/Picture18.png,"中文：P 为伤害细胞的自由基；炎症是产生自由基的内部因素，辐射和烟雾是外部因素。
+English: P represents free radicals; inflammation is an internal source, whereas radiation and cigarette smoke are external factors."
+F4 Chp 10,radio,KelantanTrial2023_Q17,A,B,C,D,B,Kelantan Trial 2023/Picture17.png,"中文：止痛药 Analgesics 缓解疼痛；抗生素主要针对细菌感染。
+English: Analgesics relieve pain, whereas antibiotics primarily treat bacterial infections."
+F4 Chp 10,radio,KelantanTrial2023_Q18,A,B,C,D,B,Kelantan Trial 2023/Picture18.png,"中文：青柠汁含抗氧化物及酸，可抑制切开苹果的氧化褐变。
+English: Lime juice contains antioxidants and acid that inhibit oxidative browning of cut apples."
+F4 Chp 10,radio,MaahadJohor2023_Q17,A,B,C,D,B,Maahad Johor 2023/Picture17.png,"中文：本题要求按医生规定完成抗生素疗程，不能只在有症状时自行停用。
+English: The intended answer is to complete the antibiotic course as prescribed rather than taking it only when symptoms occur."
+F4 Chp 10,radio,MaahadJohor2023_Q18,A,B,C,D,C,Maahad Johor 2023/Picture18.png,"中文：自由落体只考虑重力作用，忽略阻碍运动的空气阻力。
+English: Free fall involves gravity alone, with air resistance neglected."
+F4 Chp 10,radio,NegeriSembilan2023_Q17,A,B,C,D,D,Negeri Sembilan 2023/Picture17.png,"中文：代谢和炎症发生在体内，会产生自由基；烟雾、阳光和外来辐射属于外部因素，因此选D。
+English: Metabolism and inflammation occur inside the body and generate free radicals; smoke, sunlight and external radiation are external factors, giving D."
+F4 Chp 10,radio,NegeriSembilan2023_Q18,A,B,C,D,B,Negeri Sembilan 2023/Picture18.png,"中文：活性成分是产生保健或治疗作用的成分；延长保存期限通常是防腐剂的作用。现有答案B需核对，不能把活性成分与防腐剂混同。
+English: Active ingredients provide a health or therapeutic effect, whereas preservatives generally extend shelf life. Existing answer B needs review; active ingredients should not be confused with preservatives."
+F4 Chp 10,radio,PahangTrial2023_Q17,A,B,C,D,C,Pahang Trial 2023/Picture17.png,"中文：钢是铁与少量碳形成的合金，C图显示较小碳原子分布在铁原子之间，阻碍原子层滑动。
+English: Steel is an alloy of iron with a small amount of carbon; C shows smaller carbon atoms between iron atoms, hindering the sliding of atomic layers."
+F4 Chp 10,radio,PahangTrial2023_Q18,A,B,C,D,B,Pahang Trial 2023/Picture18.png,"中文：细菌产生的酸提供H⁺，中和橡胶粒子蛋白膜的负电荷，使粒子聚合并凝固，因此选B。
+English: Acids produced by bacteria supply H⁺, neutralising negative charges on the protein membranes around rubber particles and allowing coagulation, giving B."
+F4 Chp 10,radio,Melaka2023_Q17,A,B,C,D,A,Melaka 2023/Picture17.png,"中文：硫在橡胶链之间形成交联，硫化后橡胶更强韧和耐热。
+English: Sulphur forms cross-links between rubber chains; vulcanisation improves strength and heat resistance."
+F4 Chp 10,radio,Melaka2023_Q18,A,B,C,D,A,Melaka 2023/Picture18.png,"中文：原答案 A 指规律运动，课本把健康生活方式视为保护身体的方法；但避免紫外线等其他选项也可减少自由基诱因，题目并非唯一明确答案。
+English: The original key A treats regular exercise as a healthy protective habit; avoiding UV and other listed exposures can also reduce free-radical triggers, so the item is not uniquely clear."
+F4 Chp 10,radio,Perak2023_Q17,A,B,C,D,A,Perak 2023/Picture17.png,"中文：保健产品的活性成分用于产生特定保健作用，如预防疾病；防腐剂才主要负责延长保存期限。
+English: Active ingredients provide specific health effects, such as disease prevention; preservatives primarily extend shelf life."
+F4 Chp 10,radio,Perak2023_Q18,A,B,C,D,B,Perak 2023/Picture18.png,"中文：相同时间内的各段纸带长度相等，表示移动距离相同，速度保持不变，因此选B匀速。
+English: Equal tape lengths in equal time intervals show equal distances travelled and therefore uniform velocity, giving B."
+F4 Chp 10,radio,Perlis2023_Q17,A,B,C,D,D,Perlis 2023/Picture17.png,"中文：质子数18是氩，电子排列2.8.8，位于第3周期第18族，图中为S。
+English: Proton number 18 is argon, with electron arrangement 2.8.8 in period 3 and group 18, labelled S."
+F4 Chp 10,radio,Perlis2023_Q18,A,B,C,D,C,Perlis 2023/Picture18.png,"中文：钴-60释放的伽马射线能杀死食品中的微生物，延缓腐败而帮助保存食品。
+English: Gamma radiation from cobalt-60 kills microorganisms in food, delaying spoilage and aiding preservation."
+F4 Chp 10,radio,PutrajayaSet12023_Q17,A,B,C,D,A,Putrajaya Set 1 2023/Picture17.png,"中文：锡、铜和锑组成锡镴pewter，表面光亮且抗腐蚀，可制作相框等装饰品，因此选A。
+English: Tin, copper and antimony form pewter, which is shiny and corrosion-resistant and is used for decorative items such as photo frames, giving A."
+F4 Chp 10,radio,PutrajayaSet12023_Q18,A,B,C,D,D,Putrajaya Set 1 2023/Picture18.png,"中文：硫用于硫化橡胶，在聚合物链之间形成交联，提高强度、弹性和耐热性。
+English: Sulfur is used to vulcanise rubber, forming cross-links between polymer chains and improving strength, elasticity and heat resistance."
+F4 Chp 10,radio,PutrajayaSet22023_Q17,A,B,C,D,A,Putrajaya Set 2 2023/Picture17.png,"中文：玻璃的主要成分是二氧化硅silica，因此本题选择A玻璃。
+English: Silica, silicon dioxide, is the main component of glass, so the intended answer is A."
+F4 Chp 10,radio,PutrajayaSet22023_Q18,A,B,C,D,C,Putrajaya Set 2 2023/Picture18.png,"中文：氨溶液呈碱性，能中和细菌产生的酸，维持橡胶粒子负电荷相互排斥，防止乳胶凝固。
+English: Alkaline ammonia solution neutralises acids produced by bacteria and maintains repulsion between negatively charged rubber particles, preventing latex coagulation."
+F4 Chp 10,radio,SarawakSubisMiri2023_Q17,A,B,C,D,A,Sarawak Subis Miri 2023/Picture17.png,"中文：脚癣由真菌感染造成，不是自由基的主要作用，因此在“不是”题中选A。
+English: Athlete's foot is caused by fungal infection rather than the main effects of free radicals, so it is the exception, A."
+F4 Chp 10,radio,SarawakSubisMiri2023_Q18,A,B,C,D,D,Sarawak Subis Miri 2023/Picture18.png,"中文：依课本，黄瓜和洋葱提供抗氧化成分，可帮助中和烧烤过程中产生的自由基，因此选D。
+English: In the textbook context, cucumber and onion provide antioxidants that help neutralise free radicals produced during grilling, giving D."
+F4 Chp 10,radio,Selangor2023_Q17,A,B,C,D,B,Selangor 2023/Picture17.png,"中文：代谢产生的X为自由基，过多可损伤DNA及细胞，加速皮肤老化和皱纹形成，因此选B。
+English: X represents free radicals generated by metabolism; excess can damage DNA and cells and accelerate skin ageing and wrinkles, giving B."
+F4 Chp 10,radio,Selangor2023_Q18,A,B,C,D,B,Selangor 2023/Picture18.png,"中文：JK在100 m位置为水平线，位移不变，斜率为0，所以速度0 m/s，选B。
+English: JK is horizontal at 100 m, so displacement is constant and slope zero; velocity is 0 m/s, giving B."
+F4 Chp 10,radio,SelangorSet22023_Q17,A,B,C,D,D,Selangor Set 2 2023/Picture17.png,"中文：代谢产生的X为自由基，过多会造成细胞氧化损伤，包括本题D的肾脏损伤。
+English: X represents free radicals produced by metabolism; excess causes oxidative cell damage, including kidney damage in option D."
+F4 Chp 10,radio,SelangorSet22023_Q18,A,B,C,D,D,Selangor Set 2 2023/Picture18.png,"中文：返程从K的7分钟、100 m到L的11分钟、0 m，速度=(0−100)÷[(11−7)×60]=−0.4167≈−0.42 m/s，因此选D。负号表示向家的方向。
+English: The return journey goes from K at 7 min and 100 m to L at 11 min and 0 m. Velocity = (0−100)/[(11−7)×60] = −0.4167 ≈ −0.42 m/s, giving D. The negative sign indicates motion towards home."
+F4 Chp 10,radio,TerengganuMPP32023_Q17,A,B,C,D,A,Terengganu MPP3 2023/Picture17.png,"中文：真空自由落体只受重力，物体具有相同重力加速度；空气中阻力会使实际下落加速度不同。A的“重力加速度不同”应理解为合力造成的下落加速度不同。
+English: Free fall in a vacuum involves gravity alone and the same gravitational acceleration; air resistance can change actual falling acceleration. A's phrase “different gravitational acceleration” should mean different net falling acceleration."
+F4 Chp 10,radio,TerengganuMPP32023_Q18,A,B,C,D,B,Terengganu MPP3 2023/Picture18.png,"中文：惯性天平利用振动特性测量质量，不依赖物体重量，适用于太空微重力环境。
+English: An inertial balance measures mass through oscillation rather than weight, making it suitable for microgravity in space."
+F4 Chp 10,radio,SBP2023_Q17,A,B,C,D,A,SBP 2023/Picture17.png,"中文：钴-60释放伽马射线，可用于放射治疗以破坏癌细胞，因此选A。
+English: Cobalt-60 emits gamma radiation used in radiotherapy to destroy cancer cells, giving A."
+F4 Chp 10,radio,SBP2023_Q18,A,B,C,D,D,SBP 2023/Picture18.png,"中文：质子数20的中性原子有20个电子，按壳层排列为2.8.8.2，因此选D。
+English: A neutral atom with proton number 20 has 20 electrons arranged 2.8.8.2, giving D."
+F4 Chp 11,radio,KedahTrial2023_Q19,A,B,C,D,B,Kedah Trial 2023/Picture19.png,"中文：位移时间图斜率表示速度；OP斜率50÷2=25 m/s且恒定，PQ为水平线、速度0，因此选B。
+English: The slope of a displacement–time graph gives velocity; OP has constant slope 50/2 = 25 m/s, while horizontal PQ has zero velocity, giving B."
+F4 Chp 11,radio,KedahTrial2023_Q20,A,B,C,D,D,Kedah Trial 2023/Picture20.png,"中文：同速度下，较大质量有较大惯性，较难停下；B 的惯性较大，因此其质量比 A 大。
+English: At the same speed, greater mass gives greater inertia and makes stopping harder; vehicle B therefore has greater mass than A."
+F4 Chp 11,radio,KelantanTrial2023_Q19,A,B,C,D,C,Kelantan Trial 2023/Picture19.png,"中文：自由落体指物体只受重力作用，忽略空气阻力，不是同时受重力和空气阻力。
+English: Free fall means motion under gravity alone, with air resistance neglected."
+F4 Chp 11,radio,KelantanTrial2023_Q20,A,B,C,D,D,Kelantan Trial 2023/Picture20.png,"中文：50 Hz打点器每间隔0.02 s；30 cm横跨10个间隔，时间0.20 s，所以速度=30÷0.20=150 cm/s，选D。
+English: At 50 Hz each interval is 0.02 s; 30 cm spans 10 intervals taking 0.20 s, so speed = 30/0.20 = 150 cm/s, giving D."
+F4 Chp 11,radio,MaahadJohor2023_Q19,A,B,C,D,C,Maahad Johor 2023/Picture19.png,"中文：大原子核吸收中子后裂成较小核，放出更多中子和大量能量，可产生链式反应。
+English: A heavy nucleus absorbs a neutron and splits, releasing energy and further neutrons that can sustain a chain reaction."
+F4 Chp 11,radio,MaahadJohor2023_Q20,A,B,C,D,C,Maahad Johor 2023/Picture20.png,"中文：石墨慢化剂减慢中子；硼控制棒则吸收中子以控制反应。
+English: The graphite moderator slows neutrons; boron control rods absorb neutrons to regulate the reaction."
+F4 Chp 11,radio,NegeriSembilan2023_Q19,A,B,C,D,A,Negeri Sembilan 2023/Picture19.png,"中文：速度=距离÷时间=100÷20=5 m/s，因此真实第19题应选A。
+English: Speed = distance ÷ time = 100 ÷ 20 = 5 m/s, so the actual Q19 gives A."
+F4 Chp 11,radio,NegeriSembilan2023_Q20,A,B,C,D,B,Negeri Sembilan 2023/Picture20.png,"中文：降落伞增加空气阻力，使物资较慢降落，降低撞击损坏的风险，因此真实第20题选B。
+English: A parachute increases air resistance and slows the supplies' descent, reducing impact damage, so the actual Q20 gives B."
+F4 Chp 11,radio,PahangTrial2023_Q19,A,B,C,D,A,Pahang Trial 2023/Picture19.png,"中文：芦荟常用于舒缓晒后发红、疼痛的皮肤，符合题目中的传统药物用途，因此选A。
+English: Aloe vera is traditionally used to soothe red, painful sunburned skin, matching the situation in the question, giving A."
+F4 Chp 11,radio,PahangTrial2023_Q20,A,B,C,D,D,Pahang Trial 2023/Picture20.png,"中文：切开的苹果接触空气中的氧，发生氧化而变褐，因此选D。
+English: The cut apple reacts with oxygen in the air and turns brown through oxidation, giving D."
+F4 Chp 11,radio,Melaka2023_Q19,A,B,C,D,A,Melaka 2023/Picture19.png,"中文：活性成分是产生产品主要生理作用的成分，题中强调预防疾病的作用。
+English: An active ingredient produces a product's principal physiological effect, including the disease-prevention role intended here."
+F4 Chp 11,radio,Melaka2023_Q20,A,B,C,D,C,Melaka 2023/Picture20.png,"中文：加速度 = (60 − 30) ÷ 20 = 1.5 m/s²。
+English: Acceleration = (60 − 30)/20 = 1.5 m/s²."
+F4 Chp 11,radio,Perak2023_Q19,A,B,C,D,B,Perak 2023/Picture19.png,"中文：M车在12至16秒的位移时间图为水平线，斜率为0，即速度为0，表示静止。
+English: Car M's displacement–time graph is horizontal from 12 to 16 seconds; its slope and velocity are zero, so the car is at rest."
+F4 Chp 11,radio,Perak2023_Q20,A,B,C,D,B,Perak 2023/Picture20.png,"中文：油轮质量很大，惯性也很大，倾向保持原来的运动状态，所以关掉引擎后仍继续前进。
+English: A tanker has a large mass and therefore large inertia, tending to maintain its motion even after the engine is switched off."
+F4 Chp 11,radio,Perlis2023_Q19,A,B,C,D,A,Perlis 2023/Picture19.png,"中文：铜与锌的合金是黄铜loyang；铜与锡的合金才是青铜gangsa。
+English: The alloy of copper and zinc is brass, or loyang; copper with tin forms bronze, or gangsa."
+F4 Chp 11,radio,Perlis2023_Q20,A,B,C,D,D,Perlis 2023/Picture20.png,"中文：陶瓷耐磨、稳定且可制作外形类似牙齿的材料，因此课本列假牙为陶瓷应用。
+English: Ceramics are durable and stable and can be shaped to resemble teeth, so dentures are a textbook application of ceramics."
+F4 Chp 11,radio,PutrajayaSet12023_Q19,A,B,C,D,C,Putrajaya Set 1 2023/Picture19.png,"中文：柠檬汁含抗氧化成分如维生素C，且呈酸性，能减慢切开水果的褐变氧化过程。
+English: Lemon juice contains antioxidants such as vitamin C and is acidic, helping slow oxidative browning of cut fruit."
+F4 Chp 11,radio,PutrajayaSet12023_Q20,A,B,C,D,A,Putrajaya Set 1 2023/Picture20.png,"中文：阿司匹林主要是止痛药，不是本题列出的食物抗氧化剂，所以在“除了”题中选A。
+English: Aspirin is primarily an analgesic rather than one of the food antioxidants listed here, so it is the exception, A."
+F4 Chp 11,radio,PutrajayaSet22023_Q19,A,B,C,D,C,Putrajaya Set 2 2023/Picture19.png,"中文：抗生素用于杀死细菌或抑制细菌生长，治疗细菌感染，不能作为治疗病毒感染的同类药物。
+English: Antibiotics kill bacteria or inhibit bacterial growth to treat bacterial infections; they are not equivalent treatments for viral infections."
+F4 Chp 11,radio,PutrajayaSet22023_Q20,A,B,C,D,C,Putrajaya Set 2 2023/Picture20.png,"中文：选择保健产品时应优先考虑安全性及不良反应，而非只看低价或是否含合成物质，因此本题选C。
+English: Safety and adverse effects take priority when choosing a health product rather than price alone or whether ingredients are synthetic, giving C in this question."
+F4 Chp 11,radio,SarawakSubisMiri2023_Q19,A,B,C,D,C,Sarawak Subis Miri 2023/Picture19.png,"中文：15秒时图线位于10 m/s的水平段，应选A。现有答案C为20 m/s，与图读数不符。
+English: At 15 seconds the graph is on the horizontal section at 10 m/s, giving A. Existing C, 20 m/s, disagrees with the graph."
+F4 Chp 11,radio,SarawakSubisMiri2023_Q20,A,B,C,D,D,Sarawak Subis Miri 2023/Picture20.png,"中文：真空中没有空气阻力，羽毛和硬币有相同重力加速度，同时落地，应选C。现有D说羽毛先落，不符合实验。
+English: Without air resistance in a vacuum, the feather and coin have the same gravitational acceleration and land together, giving C. Existing D wrongly says the feather lands first."
+F4 Chp 11,radio,Selangor2023_Q19,A,B,C,D,C,Selangor 2023/Picture19.png,"中文：质量的国际单位制基本单位是千克kg；牛顿是力的单位。
+English: The SI base unit of mass is the kilogram, kg; the newton measures force."
+F4 Chp 11,radio,Selangor2023_Q20,A,B,C,D,D,Selangor 2023/Picture20.png,"中文：核电能够持续提供大量电能，适合人口多、用电需求高的国家，因此本题选D。
+English: Nuclear power can supply large amounts of electricity continuously, suiting countries with large populations and high demand, giving D."
+F4 Chp 11,radio,SelangorSet22023_Q19,A,B,C,D,B,Selangor Set 2 2023/Picture19.png,"中文：质量是物体所含物质的量，与位置改变无关；重量则是重力大小，因此选B。
+English: Mass is the quantity of matter in an object and does not depend on location; weight is the gravitational force, giving B."
+F4 Chp 11,radio,SelangorSet22023_Q20,A,B,C,D,B,Selangor Set 2 2023/Picture20.png,"中文：核电运行时不燃烧化石燃料，直接二氧化碳排放较低，因此本题选B。
+English: Nuclear power does not burn fossil fuels during operation and has low direct carbon-dioxide emissions, giving B."
+F4 Chp 11,radio,TerengganuMPP32023_Q19,A,B,C,D,C,Terengganu MPP3 2023/Picture19.png,"中文：放射性废物可长期释放电离辐射，若处理不当会损害健康，因此选C。
+English: Radioactive waste may emit ionising radiation for long periods and harm health if poorly managed, giving C."
+F4 Chp 11,radio,TerengganuMPP32023_Q20,A,B,C,D,D,Terengganu MPP3 2023/Picture20.png,"中文：核裂变是重核分裂成较轻核，核聚变是轻核结合成较重核，因此D配对正确。
+English: Fission splits a heavy nucleus into lighter nuclei, while fusion combines light nuclei into a heavier one, so D is correct."
+F4 Chp 11,radio,SBP2023_Q19,A,B,C,D,B,SBP 2023/Picture19.png,"中文：不同大小的原子破坏金属原子层规则排列，阻碍滑动，所以合金通常比纯金属更硬、更耐用。
+English: Different-sized atoms disturb regular metal layers and hinder sliding, so alloys are generally harder and more durable than pure metals."
+F4 Chp 11,radio,SBP2023_Q20,A,B,C,D,B,SBP 2023/Picture20.png,"中文：聚合把小单体连成长链大分子，可形成较坚固的材料，因此题目选B提高强度。
+English: Polymerisation joins small monomers into long-chain molecules and can form stronger materials, giving B in this question."
+F4 Chp 12,radio,KedahTrial2023_Q21,A,B,C,D,B,Kedah Trial 2023/Picture21.png,"中文：铀核裂变释放能量和中子，中子引发更多裂变，持续链式反应可释放大量能量。
+English: Fission releases energy and neutrons that cause further fission, so a sustained chain reaction releases a large amount of energy."
+F4 Chp 12,radio,KedahTrial2023_Q22,A,B,C,D,D,Kedah Trial 2023/Picture22.png,"中文：核能可替代部分煤、石油和天然气发电，减少对化石燃料的依赖，但仍须处理放射性废料。
+English: Nuclear power replaces some fossil-fuel generation and reduces dependence on fossil fuels, although radioactive waste still requires management."
+F4 Chp 12,radio,KelantanTrial2023_Q21,A,B,C,D,B,Kelantan Trial 2023/Picture21.png,"中文：太阳及其他恒星内部，轻核结合成较重核并释放能量，是核聚变的自然例子。
+English: The Sun and other stars release energy by fusion, in which light nuclei combine into heavier nuclei."
+F4 Chp 12,radio,KelantanTrial2023_Q22,A,B,C,D,C,Kelantan Trial 2023/Picture22.png,"中文：石墨慢化剂减慢高速中子，使中子更容易被铀核吸收并引发后续裂变。
+English: A graphite moderator slows fast neutrons so they can more readily cause further uranium fission."
+F4 Chp 12,radio,MaahadJohor2023_Q21,A,B,C,D,C,Maahad Johor 2023/Picture21.png,"中文：题目描述病毒，病毒依赖宿主细胞复制，抗生素不能治疗病毒感染，所以 C 不正确。
+English: The description identifies a virus, which replicates in host cells; antibiotics do not treat viral infections, so C is false."
+F4 Chp 12,radio,MaahadJohor2023_Q22,A,B,C,D,D,Maahad Johor 2023/Picture22.png,"中文：Nitrobacter 帮助土壤硝化作用，Bifidobacteria 可作有益微生物应用于畜牧，故 III、IV。
+English: Nitrobacter supports soil nitrification, while Bifidobacteria is used as a beneficial microorganism in livestock; III and IV are intended."
+F4 Chp 12,radio,NegeriSembilan2023_Q21,A,B,C,D,A,Negeri Sembilan 2023/Picture21.png,"中文：图中铀-235原子核被中子撞击后分裂成较小原子核并释放能量，这是核裂变，选A。
+English: Uranium-235 splits into smaller nuclei and releases energy after absorbing a neutron; this is nuclear fission, giving A."
+F4 Chp 12,radio,NegeriSembilan2023_Q22,A,B,C,D,B,Negeri Sembilan 2023/Picture22.png,"中文：核试验释放的电离辐射会损伤细胞和遗传物质，可导致癌症及胎儿缺陷，因此选B。
+English: Ionising radiation from nuclear tests damages cells and genetic material and may cause cancer and fetal defects, giving B."
+F4 Chp 12,radio,PahangTrial2023_Q21,A,B,C,D,C,Pahang Trial 2023/Picture21.png,"中文：位移为速度时间图的有符号面积：30×2+½×1×30−½×2×30=45 m，因此选C。
+English: Displacement is the signed area under the velocity–time graph: 30 × 2 + ½ × 1 × 30 − ½ × 2 × 30 = 45 m, giving C."
+F4 Chp 12,radio,PahangTrial2023_Q22,A,B,C,D,A,Pahang Trial 2023/Picture22.png,"中文：其他书本具有惯性，倾向保持静止，所以迅速抽出一本书时其余书本来不及明显移动。
+English: The other books have inertia and tend to remain at rest, so they move little when one book is pulled out quickly."
+F4 Chp 12,radio,Melaka2023_Q21,A,B,C,D,B,Melaka 2023/Picture21.png,"中文：硬币因惯性倾向保持静止，卡纸迅速抽走后，硬币在重力作用下落入杯中。
+English: The coin tends to remain at rest through inertia; after the card is removed, gravity makes it fall into the glass."
+F4 Chp 12,radio,Melaka2023_Q22,A,B,C,D,B,Melaka 2023/Picture22.png,"中文：铀-235 吸收中子后分裂成较小核并放出能量与中子，是核裂变。
+English: Uranium-235 absorbs a neutron and splits into smaller nuclei, releasing energy and neutrons: nuclear fission."
+F4 Chp 12,radio,Perak2023_Q21,A,B,C,D,C,Perak 2023/Picture21.png,"中文：少量核燃料可释放大量能量，核能发电具有高能量输出，因此选C；核燃料并非可再生资源。
+English: A small amount of nuclear fuel releases a large amount of energy, giving high energy output and C; nuclear fuel is not renewable."
+F4 Chp 12,radio,Perak2023_Q22,A,B,C,D,A,Perak 2023/Picture22.png,"中文：W指冷却回路，冷却剂吸收反应堆产生的热，并把热传送到热交换器，因此选A。
+English: W indicates the cooling circuit; coolant absorbs heat from the reactor and carries it to the heat exchanger, giving A."
+F4 Chp 12,radio,Perlis2023_Q21,A,B,C,D,A,Perlis 2023/Picture21.png,"中文：长链分子被拆成较小单体，是解聚depolymerisation；聚合则是把单体连接成长链。
+English: Breaking a long molecular chain into smaller monomers is depolymerisation; polymerisation joins monomers into long chains."
+F4 Chp 12,radio,Perlis2023_Q22,A,B,C,D,A,Perlis 2023/Picture22.png,"中文：代谢发生在体内，反应过程可产生自由基；辐射、空气污染和紫外线属于外部因素。
+English: Metabolism occurs inside the body and can produce free radicals; radiation, air pollution and ultraviolet exposure are external factors."
+F4 Chp 12,radio,PutrajayaSet12023_Q21,A,B,C,D,B,Putrajaya Set 1 2023/Picture21.png,"中文：负速度表示朝所定义正方向的反方向运动，不代表速度一定减小或正在减速，因此选B。
+English: Negative velocity indicates motion opposite to the defined positive direction; it does not necessarily mean decreasing speed or deceleration, giving B."
+F4 Chp 12,radio,PutrajayaSet12023_Q22,A,B,C,D,B,Putrajaya Set 1 2023/Picture22.png,"中文：速度=位移时间图斜率=(8−4)÷(5−3)=2 m/s，因此选B。
+English: Velocity is the slope of the displacement–time graph: (8 − 4) ÷ (5 − 3) = 2 m/s, giving B."
+F4 Chp 12,radio,PutrajayaSet22023_Q21,A,B,C,D,B,Putrajaya Set 2 2023/Picture21.png,"中文：巴士突然减速时，乘客身体因惯性仍倾向保持向前运动，所以向前倒。
+English: When the bus suddenly slows, the passenger's body tends to continue moving forward because of inertia and falls forward."
+F4 Chp 12,radio,PutrajayaSet22023_Q22,A,B,C,D,A,Putrajaya Set 2 2023/Picture22.png,"中文：20分钟=1200秒，加速度=(60−30)÷1200=0.025 m/s²，因此选A。
+English: Twenty minutes is 1200 seconds; acceleration = (60 − 30) ÷ 1200 = 0.025 m/s², giving A."
+F4 Chp 12,radio,SarawakSubisMiri2023_Q21,A,B,C,D,D,Sarawak Subis Miri 2023/Picture21.png,"中文：油轮质量大、惯性大，倾向维持原来运动，所以正确选项A；现有D势能不能解释持续运动。
+English: The tanker's large mass gives large inertia, so it tends to maintain motion, giving A; existing D, potential energy, does not explain this behaviour."
+F4 Chp 12,radio,SarawakSubisMiri2023_Q22,A,B,C,D,A,Sarawak Subis Miri 2023/Picture22.png,"中文：核电站需要水作为冷却介质，所以应靠近水源，选D。现有A声称污染高于石油，不能说明选址要求。
+English: A nuclear power station needs cooling water and should be near a water source, giving D. Existing A's claim about greater pollution than petroleum does not state this siting requirement."
+F4 Chp 12,radio,Selangor2023_Q21,A,B,C,D,D,Selangor 2023/Picture21.png,"中文：水绵Spirogyra含叶绿素，可光合作用，属于藻类；变形虫和草履虫属于原生动物。
+English: Spirogyra contains chlorophyll and photosynthesises, making it an alga; amoebae and Paramecium are protozoa."
+F4 Chp 12,radio,Selangor2023_Q22,A,B,C,D,D,Selangor 2023/Picture22.png,"中文：分解细菌把死亡生物中的有机氮转为铵化合物，这个过程属于氨化。
+English: Decomposing bacteria convert organic nitrogen in dead organisms into ammonium compounds through ammonification."
+F4 Chp 12,radio,SelangorSet22023_Q21,A,B,C,D,C,Selangor Set 2 2023/Picture21.png,"中文：草履虫Paramecium是单细胞原生动物，不属于细菌、藻类或真菌，因此选C。
+English: Paramecium is a unicellular protozoan rather than a bacterium, alga or fungus, giving C."
+F4 Chp 12,radio,SelangorSet22023_Q22,A,B,C,D,A,Selangor Set 2 2023/Picture22.png,"中文：依课本，病毒可通过减毒或灭活等方式用于制造疫苗，让免疫系统形成保护反应，因此选A。
+English: In the textbook, viruses can be attenuated or inactivated for vaccines that stimulate protective immune responses, giving A."
+F4 Chp 12,radio,TerengganuMPP32023_Q21,A,B,C,D,B,Terengganu MPP3 2023/Picture21.png,"中文：图中有孢子囊和菌丝，是霉菌Mucor，而非单细胞酵母、细菌或原生动物。
+English: The diagram shows sporangia and hyphae, identifying the mould Mucor rather than yeast, bacteria or protozoa."
+F4 Chp 12,radio,TerengganuMPP32023_Q22,A,B,C,D,D,Terengganu MPP3 2023/Picture22.png,"中文：课本中生态酶把油脂分解成较小分子，减少排水堵塞；传统化学清洁剂会产生泡沫，D依此配对。
+English: In the textbook, ecoenzymes break fats into smaller molecules that reduce drain blockage, while conventional chemical cleaners produce foam, matching D."
+F4 Chp 12,radio,SBP2023_Q21,A,B,C,D,D,SBP 2023/Picture21.png,"中文：柑橘含维生素C等抗氧化成分，帮助减少氧化损伤并维持皮肤胶原功能，因此选D。
+English: Citrus fruit provides antioxidants such as vitamin C, helping reduce oxidative damage and support skin collagen, giving D."
+F4 Chp 12,radio,SBP2023_Q22,A,B,C,D,B,SBP 2023/Picture22.png,"中文：速度时间图下的有符号面积等于位移，单位m/s×s=m，因此选B。
+English: The signed area under a velocity–time graph is displacement, with units m/s × s = m, giving B."
+F5 Chp 1,radio,KedahTrial2023_Q23,A,B,C,D,C,Kedah Trial 2023/Picture23.png,"中文：图示为有叶绿体的单细胞绿藻，可进行光合作用，不是只在宿主内复制的病毒。
+English: The unicellular green alga has a chloroplast and carries out photosynthesis; it is not a virus replicating only inside a host."
+F5 Chp 1,radio,KedahTrial2023_Q24,A,B,C,D,D,Kedah Trial 2023/Picture24.png,"中文：细菌产生酶帮助分解原料上不需要的组织，应用于制革及纺织品加工。
+English: Bacteria produce enzymes that remove unwanted tissues from raw materials during leather and textile processing."
+F5 Chp 1,radio,KelantanTrial2023_Q23,A,B,C,D,A,Kelantan Trial 2023/Picture23.png,"中文：图示水绵可通过接合进行有性生殖，两个细胞的遗传物质结合。
+English: Spirogyra reproduces sexually by conjugation, combining genetic material from two cells."
+F5 Chp 1,radio,KelantanTrial2023_Q24,A,B,C,D,C,Kelantan Trial 2023/Picture24.png,"中文：M 为 pH 7、37°C，最接近课本中细菌适宜生长条件，繁殖较多使培养液最浑浊。
+English: Tube M has pH 7 and 37°C, favourable textbook conditions for bacterial growth, so it becomes most cloudy."
+F5 Chp 1,radio,MaahadJohor2023_Q23,A,B,C,D,B,Maahad Johor 2023/Picture23.png,"中文：青霉素是抗生素，适用于题目所述细菌感染；其余药物针对病毒、真菌或寄生虫。
+English: Penicillin is an antibiotic for bacterial infections; the other drugs target viruses, fungi or parasites."
+F5 Chp 1,radio,MaahadJohor2023_Q24,A,B,C,D,D,Maahad Johor 2023/Picture24.png,"中文：缺磷会影响根部、开花结果，叶片可能呈紫色，符合题述症状。
+English: Phosphorus deficiency impairs roots, flowering and fruiting, and may cause purple leaves."
+F5 Chp 1,radio,NegeriSembilan2023_Q23,A,B,C,D,A,Negeri Sembilan 2023/Picture23.png,"中文：按本题答案，酵母用于食物发酵，利用微生物活动改变原料并形成产品。旧图部分选项缺失，应补齐后核对图中的另一种食物。
+English: According to the supplied answer, yeast is used in food fermentation, where microbial activity transforms the ingredients. Some options are missing from the old image, so the other pictured food should be checked after restoring the crop."
+F5 Chp 1,radio,NegeriSembilan2023_Q24,A,B,C,D,D,Negeri Sembilan 2023/Picture24.png,"中文：A纸片含20%抗生素，B为10%，所以A的抗生素浓度较高，通常产生较大的无菌透明区；C蒸馏水是对照。
+English: Disc A contains 20% antibiotic while B contains 10%, so A has the higher concentration and usually produces a larger clear inhibition zone; distilled water at C is the control."
+F5 Chp 1,radio,PahangTrial2023_Q23,A,B,C,D,D,Pahang Trial 2023/Picture23.png,"中文：铀-235可发生核裂变，释放大量能量，用于加热水产生蒸汽并驱动发电机。
+English: Uranium-235 undergoes nuclear fission, releasing energy to heat water, produce steam and drive generators."
+F5 Chp 1,radio,PahangTrial2023_Q24,A,B,C,D,A,Pahang Trial 2023/Picture24.png,"中文：酵母发酵糖产生二氧化碳，气体使面团膨胀，所以用于制作面包。
+English: Yeast ferments sugar and releases carbon dioxide, which raises dough, so it is used in bread-making."
+F5 Chp 1,radio,Melaka2023_Q23,A,B,C,D,C,Melaka 2023/Picture23.png,"中文：电离辐射可损伤造血细胞的遗传物质，增加白血病等癌症风险。
+English: Ionising radiation can damage genetic material in blood-forming cells and increase the risk of leukaemia."
+F5 Chp 1,radio,Melaka2023_Q24,A,B,C,D,A,Melaka 2023/Picture24.png,"中文：酵母发酵糖产生酒精与二氧化碳，可用于食品和饮料制造。
+English: Yeast ferments sugar to alcohol and carbon dioxide and is used in food and drink production."
+F5 Chp 1,radio,Perak2023_Q23,A,B,C,D,B,Perak 2023/Picture23.png,"中文：抗菌剂antiseptic可用于活体皮肤，减少伤口微生物感染；消毒剂不是伤口清洗的同类用品。
+English: Antiseptics can be used on living skin to reduce wound infection; disinfectants are not the equivalent products for washing wounds."
+F5 Chp 1,radio,Perak2023_Q24,A,B,C,D,B,Perak 2023/Picture24.png,"中文：经常吃油炸、甜食和快餐，容易长期摄入过多能量并积累脂肪，增加肥胖风险。
+English: Frequent fried food, sweets and fast food can lead to sustained excess energy intake and fat accumulation, increasing obesity risk."
+F5 Chp 1,radio,Perlis2023_Q23,A,B,C,D,B,Perlis 2023/Picture23.png,"中文：加速度=(7−0)÷(2−0)=3.5 m/s²，等于速度时间图前两秒的斜率，因此选B。
+English: Acceleration = (7 − 0) ÷ (2 − 0) = 3.5 m/s², the slope of the graph over the first two seconds, giving B."
+F5 Chp 1,radio,Perlis2023_Q24,A,B,C,D,B,Perlis 2023/Picture24.png,"中文：雨伞突然停止时，水滴由于惯性继续原来的运动而飞离伞面，所以选B。
+English: When the umbrella stops suddenly, droplets continue their motion because of inertia and leave its surface, giving B."
+F5 Chp 1,radio,PutrajayaSet12023_Q23,A,B,C,D,C,Putrajaya Set 1 2023/Picture23.png,"中文：中国使用核电站发电，是本组选项中广泛使用核能发电的国家，因此选C。
+English: China operates nuclear power stations and is the listed country using nuclear energy extensively for electricity generation, giving C."
+F5 Chp 1,radio,PutrajayaSet12023_Q24,A,B,C,D,B,Putrajaya Set 1 2023/Picture24.png,"中文：变形虫伸出伪足包围并吞入食物，这种摄食过程称为吞噬作用phagocytosis。
+English: An amoeba extends pseudopodia around food and engulfs it; this feeding process is phagocytosis."
+F5 Chp 1,radio,PutrajayaSet22023_Q23,A,B,C,D,B,Putrajaya Set 2 2023/Picture23.png,"中文：核电运行时不燃烧化石燃料，直接温室气体及空气污染物排放较少，因此课本选择B较环保；仍需管理放射性废物。
+English: Nuclear power does not burn fossil fuel during operation and has lower direct greenhouse-gas and air-pollutant emissions, giving textbook B, environmentally friendlier; radioactive waste still needs management."
+F5 Chp 1,radio,PutrajayaSet22023_Q24,A,B,C,D,A,Putrajaya Set 2 2023/Picture24.png,"中文：P是酵母、S是霉菌，二者都是真菌；Q为细菌，R为变形虫，因此选A。
+English: P is yeast and S is mould, both fungi; Q is a bacterium and R an amoeba, giving A."
+F5 Chp 1,radio,SarawakSubisMiri2023_Q23,A,B,C,D,B,Sarawak Subis Miri 2023/Picture23.png,"中文：青霉素由Penicillium chrysogenum产生，应选C。现有B为Bifidobacteria，并非本题的青霉素生产菌。
+English: Penicillin is produced by Penicillium chrysogenum, giving C. Existing B, Bifidobacteria, is not the penicillin producer in this question."
+F5 Chp 1,radio,SarawakSubisMiri2023_Q24,A,B,C,D,C,Sarawak Subis Miri 2023/Picture24.png,"中文：脚癣为真菌病，所列克霉唑clotrimazole是抗真菌药，应选D；现有C胰岛素用于血糖调节。
+English: Athlete's foot is fungal; clotrimazole is the listed antifungal treatment, giving D. Existing C, insulin, regulates blood glucose instead."
+F5 Chp 1,radio,Selangor2023_Q23,A,B,C,D,B,Selangor 2023/Picture23.png,"中文：恢复图显示叶缘发褐坏死，较符合缺钾C；现有答案B是磷。缺磷通常与生长受阻和叶色暗绿或紫有关，这题图片与答案有疑点，保留B待核对。
+English: The restored image shows brown, necrotic leaf edges, more consistent with potassium deficiency C. Existing B is phosphorus, usually associated with stunted growth and dark-green or purplish leaves; B is retained with this image–answer discrepancy noted."
+F5 Chp 1,radio,Selangor2023_Q24,A,B,C,D,B,Selangor 2023/Picture24.png,"中文：有效管理土地可改善土壤肥力和利用效率，从而提高粮食生产的品质及数量，因此选B。
+English: Efficient land management improves soil fertility and use, helping increase the quality and quantity of food production, giving B."
+F5 Chp 1,radio,SelangorSet22023_Q23,A,B,C,D,A,Selangor Set 2 2023/Picture23.png,"中文：老叶中心呈黄色V形，符合缺氮；氮不足使叶绿素形成减少，叶片变黄及生长缓慢，因此选A。
+English: The older leaf has a yellow V-shaped central region, consistent with nitrogen deficiency. Insufficient nitrogen reduces chlorophyll formation, causing yellowing and slow growth, giving A."
+F5 Chp 1,radio,SelangorSet22023_Q24,A,B,C,D,B,Selangor Set 2 2023/Picture24.png,"中文：现代农业科技如机械化和高效种植方法可提高生产效率、粮食品质与数量，因此选B。
+English: Modern agricultural technology, including mechanisation and efficient cultivation, improves productivity, food quality and quantity, giving B."
+F5 Chp 1,radio,TerengganuMPP32023_Q23,A,B,C,D,D,Terengganu MPP3 2023/Picture23.png,"中文：磷有助于根系发育，缺磷会使根生长不良，因此X为磷D。
+English: Phosphorus supports root development; deficiency reduces root growth, so X is phosphorus, D."
+F5 Chp 1,radio,TerengganuMPP32023_Q24,A,B,C,D,A,Terengganu MPP3 2023/Picture24.png,"中文：杂交结合亲本P的抗病性和Q的高产量，培育同时高产及抗病的R，选A。
+English: Cross-breeding combines P's disease resistance with Q's high yield to produce R with both traits, giving A."
+F5 Chp 1,radio,SBP2023_Q23,A,B,C,D,D,SBP 2023/Picture23.png,"中文：真空中没有空气阻力，硬币与叶子以相同重力加速度下落，从相同高度同时释放会同时落地。
+English: In a vacuum there is no air resistance; the coin and leaf have the same gravitational acceleration and land together when released from the same height."
+F5 Chp 1,radio,SBP2023_Q24,A,B,C,D,A,SBP 2023/Picture24.png,"中文：装满沙的桶质量较大，惯性较大，更难改变其运动状态，因此选A。
+English: A bucket full of sand has greater mass and inertia, making its state of motion harder to change, giving A."
+F5 Chp 2,radio,KedahTrial2023_Q25,A,B,C,D,B,Kedah Trial 2023/Picture25.png,"中文：K 是铵化合物转为亚硝酸盐的硝化作用；堆肥利用微生物处理有机废物，再把养分循环回土壤。
+English: K is nitrification from ammonium to nitrite; composting uses microorganisms to recycle organic waste and return nutrients to soil."
+F5 Chp 2,radio,KedahTrial2023_Q26,A,B,C,D,B,Kedah Trial 2023/Picture26.png,"中文：调味剂的作用是提升食物味道；MSG 增强鲜味，不主要用于增色或加甜。
+English: Flavourings improve taste; MSG enhances savoury flavour rather than colouring or sweetening food."
+F5 Chp 2,radio,KelantanTrial2023_Q25,A,B,C,D,C,Kelantan Trial 2023/Picture25.png,"中文：温升 = 60 − 28 = 32°C；热量值 = 4.2 × 20 × 32 ÷ (0.5 × 1,000) = 5.376 kJ/g。
+English: Temperature rise = 32°C; calorific value = 4.2 × 20 × 32/(0.5 × 1,000) = 5.376 kJ/g."
+F5 Chp 2,radio,KelantanTrial2023_Q26,A,B,C,D,D,Kelantan Trial 2023/Picture26.png,"中文：按本题答案，过量食用某些甜味剂可引起过敏、皮疹及皮肤瘙痒，故选 D。
+English: According to the intended textbook answer, excessive use of certain sweeteners can cause allergic reactions, rashes and itchy skin."
+F5 Chp 2,radio,MaahadJohor2023_Q25,A,B,C,D,B,Maahad Johor 2023/Picture25.png,"中文：总能量 = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ。
+English: Total energy = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ."
+F5 Chp 2,radio,MaahadJohor2023_Q26,A,B,C,D,C,Maahad Johor 2023/Picture26.png,"中文：把旧水瓶再用作花盆延长产品寿命、减少废物，产生正面的碳手印。
+English: Reusing a bottle as a flowerpot extends its life and reduces waste, creating a positive carbon handprint."
+F5 Chp 2,radio,NegeriSembilan2023_Q25,A,B,C,D,A,Negeri Sembilan 2023/Picture25.png,"中文：健康餐盘的一半Q放蔬果，四分之一P放米饭等碳水化合物，四分之一R放鱼等蛋白质，因此选A。
+English: Half the healthy plate, Q, is fruit and vegetables; quarter P is rice or other carbohydrates and quarter R is fish or other protein, giving A."
+F5 Chp 2,radio,NegeriSembilan2023_Q26,A,B,C,D,A,Negeri Sembilan 2023/Picture26.png,"中文：应先查看面包的有效期限，过期食物可能发生微生物污染或腐败而导致腹痛，因此选A。
+English: Check the bread's expiry date first, since expired food may be contaminated or spoiled and cause stomach discomfort, giving A."
+F5 Chp 2,radio,PahangTrial2023_Q25,A,B,C,D,B,Pahang Trial 2023/Picture25.png,"中文：抗菌剂antiseptic可用于皮肤等活体表面；消毒剂disinfectant主要用于非生命物体表面。
+English: Antiseptics can be used on living surfaces such as skin, whereas disinfectants are mainly used on non-living surfaces."
+F5 Chp 2,radio,PahangTrial2023_Q26,A,B,C,D,D,Pahang Trial 2023/Picture26.png,"中文：磷是植物大量需要的宏量营养元素；锌、硼和铜属于只需少量的微量营养元素。
+English: Phosphorus is a macronutrient required by plants in large quantities; zinc, boron and copper are micronutrients needed only in small amounts."
+F5 Chp 2,radio,Melaka2023_Q25,A,B,C,D,B,Melaka 2023/Picture25.png,"中文：香港脚是由真菌引起，因此题目所选治疗类别为抗真菌药。
+English: Athlete's foot is caused by fungi, so the intended treatment category is an antifungal."
+F5 Chp 2,radio,Melaka2023_Q26,A,B,C,D,C,Melaka 2023/Picture26.png,"中文：C 总能量 = 20 × 15.5 + 30 × 10.5 + 300 × 2.6 = 1,405 kJ，比其余组合高。
+English: Set C provides 20 × 15.5 + 30 × 10.5 + 300 × 2.6 = 1,405 kJ, the highest total."
+F5 Chp 2,radio,Perak2023_Q25,A,B,C,D,A,Perak 2023/Picture25.png,"中文：J为硝化细菌，把铵化合物转变为亚硝酸盐再形成硝酸盐，增加土壤中植物可吸收的硝酸盐。
+English: J represents nitrifying bacteria, which convert ammonium compounds into nitrites and then nitrates, increasing plant-available nitrate in the soil."
+F5 Chp 2,radio,Perak2023_Q26,A,B,C,D,D,Perak 2023/Picture26.png,"中文：Belimbing Bintang Mas是优良杨桃品种，种植这种高品质品种属于采用优良品种的例子。
+English: Belimbing Bintang Mas is a quality starfruit variety; growing it is an example of using an improved breed or variety."
+F5 Chp 2,radio,Perlis2023_Q25,A,B,C,D,B,Perlis 2023/Picture25.png,"中文：核泄漏可能造成放射性污染，使附近地区在辐射水平危险时无法安全居住，因此选B。
+English: A nuclear leak may cause radioactive contamination, making nearby areas unsafe to inhabit while radiation levels are hazardous, giving B."
+F5 Chp 2,radio,Perlis2023_Q26,A,B,C,D,D,Perlis 2023/Picture26.png,"中文：只能在活细胞内繁殖是病毒的重要特征，图D为病毒；酵母、变形虫和水绵不是病毒。
+English: Reproducing only inside living cells is a key viral characteristic; D shows a virus, unlike yeast, an amoeba and Spirogyra."
+F5 Chp 2,radio,PutrajayaSet12023_Q25,A,B,C,D,B,Putrajaya Set 1 2023/Picture25.png,"中文：需要用力刷洗并非清洁剂的优点，因此选B；依课本，生态酶能分解油脂，帮助清洁并减少废物。
+English: Needing vigorous scrubbing is not an advantage of a cleaner, giving B; in the textbook, ecoenzymes break down fats and help cleaning while reducing waste."
+F5 Chp 2,radio,PutrajayaSet12023_Q26,A,B,C,D,A,Putrajaya Set 1 2023/Picture26.png,"中文：抗生素用于细菌感染，本题选择细菌性肺炎A；Covid-19和流感为病毒病，癣属于真菌感染。
+English: Antibiotics treat bacterial infections, giving bacterial pneumonia, A; Covid-19 and influenza are viral, while ringworm is fungal."
+F5 Chp 2,radio,PutrajayaSet22023_Q25,A,B,C,D,D,Putrajaya Set 2 2023/Picture25.png,"中文：面包使用酵母发酵，产生二氧化碳使面团膨胀，因此P为酵母D。
+English: Bread uses yeast fermentation; released carbon dioxide raises the dough, so P is yeast, D."
+F5 Chp 2,radio,PutrajayaSet22023_Q26,A,B,C,D,C,Putrajaya Set 2 2023/Picture26.png,"中文：潮湿环境有利于细菌快速繁殖，湿衣服长时间未干会因微生物活动产生异味。
+English: High humidity favours bacterial growth, so clothes that remain damp can develop odours from microbial activity."
+F5 Chp 2,radio,SarawakSubisMiri2023_Q25,A,B,C,D,D,Sarawak Subis Miri 2023/Picture25.png,"中文：能量=20×10.12+10×6.59+10×30.0=568.3 kJ，因此选D。
+English: Energy = 20 × 10.12 + 10 × 6.59 + 10 × 30.0 = 568.3 kJ, giving D."
+F5 Chp 2,radio,SarawakSubisMiri2023_Q26,A,B,C,D,B,Sarawak Subis Miri 2023/Picture26.png,"中文：闪电把大气氮转为含氮化合物，随雨水形成土壤硝酸盐，因此应选A。现有B硝化菌把铵转为硝酸盐，不能直接利用大气氮。
+English: Lightning converts atmospheric nitrogen into nitrogen compounds that reach soil as nitrates through rain, giving A. Existing B, nitrifying bacteria, converts ammonium rather than directly using atmospheric nitrogen."
+F5 Chp 2,radio,Selangor2023_Q25,A,B,C,D,C,Selangor 2023/Picture25.png,"中文：冷冻降低温度，抑制微生物活动及腐败反应，适用于运输期间保持鱼的新鲜度。
+English: Freezing lowers temperature and inhibits microbial activity and spoilage, helping preserve fish freshness during transport."
+F5 Chp 2,radio,Selangor2023_Q26,A,B,C,D,B,Selangor 2023/Picture26.png,"中文：保健食品可能价格较高，这是使用和选择这类产品时要考虑的问题，因此本题选B。
+English: Health foods can be expensive, an issue to consider when choosing and using such products, giving B in this question."
+F5 Chp 2,radio,SelangorSet22023_Q25,A,B,C,D,D,Selangor Set 2 2023/Picture25.png,"中文：真空包装排除空气，减少氧化及部分微生物活动，答案D依此选择用于榴莲果肉；仍须配合适当温度管理。
+English: Vacuum packaging removes air and reduces oxidation and some microbial activity, explaining D for durian flesh; suitable temperature control remains necessary."
+F5 Chp 2,radio,SelangorSet22023_Q26,A,B,C,D,C,Selangor Set 2 2023/Picture26.png,"中文：不同人的年龄、体况及需求不同，补充剂合适剂量也不同，因此不能把同一剂量当成适合所有人。
+English: People differ in age, health and needs, so supplement dosage requirements vary and one dose is not suitable for everyone."
+F5 Chp 2,radio,TerengganuMPP32023_Q25,A,B,C,D,B,Terengganu MPP3 2023/Picture25.png,"中文：没有日期标示，消费者可能食用已腐败或受污染的食品，增加食物中毒风险。
+English: Without date marking, consumers may eat spoiled or contaminated food, increasing food-poisoning risk."
+F5 Chp 2,radio,TerengganuMPP32023_Q26,A,B,C,D,A,Terengganu MPP3 2023/Picture26.png,"中文：过量农药残留进入土壤，造成土壤污染，所以A的污染类型与原因配对正确。
+English: Excess pesticide residues enter soil and cause soil pollution, so A correctly pairs the pollution type and cause."
+F5 Chp 2,radio,SBP2023_Q25,A,B,C,D,A,SBP 2023/Picture25.png,"中文：两个较轻原子核结合成较重原子核并释放能量，称为核聚变fusion。
+English: Two light nuclei combining into a heavier nucleus and releasing energy is nuclear fusion."
+F5 Chp 2,radio,SBP2023_Q26,A,B,C,D,B,SBP 2023/Picture26.png,"中文：图中发酵食品依靠真菌活动制成，因此选B；酵母本身也属于真菌。
+English: The pictured fermented product is made using fungal activity, giving B; yeast itself belongs to the fungi."
+F5 Chp 3,radio,KedahTrial2023_Q27,A,B,C,D,B,Kedah Trial 2023/Picture27.png,"中文：开发森林破坏吸收二氧化碳的树木，并可能增加排放，是负面碳足迹活动。
+English: Forest clearance removes carbon-absorbing trees and may increase emissions, contributing negatively to the carbon footprint."
+F5 Chp 3,radio,KedahTrial2023_Q28,A,B,C,D,A,Kedah Trial 2023/Picture28.png,"中文：小球藻通过光合作用吸收二氧化碳，有助把温室气体从环境移除，属负排放技术应用。
+English: Chlorella absorbs carbon dioxide through photosynthesis, helping remove greenhouse gas in negative-emission technology."
+F5 Chp 3,radio,KelantanTrial2023_Q27,A,B,C,D,D,Kelantan Trial 2023/Picture27.png,"中文：燃油机动车燃烧化石燃料并排放二氧化碳，增加碳足迹。
+English: Fuel-powered motor vehicles burn fossil fuels and release carbon dioxide, increasing the carbon footprint."
+F5 Chp 3,radio,KelantanTrial2023_Q28,A,B,C,D,C,Kelantan Trial 2023/Picture28.png,"中文：工厂污染造成酸雨，令水体酸化，可伤害并导致水生生物死亡。
+English: Industrial emissions cause acid rain that acidifies water and can kill aquatic organisms."
+F5 Chp 3,radio,MaahadJohor2023_Q27,A,B,C,D,C,Maahad Johor 2023/Picture27.png,"中文：沟渠水只需 10 分钟褪色，表示微生物最快耗氧、BOD 最高，因此污染最严重。
+English: Drain water decolourises in 10 minutes, indicating the fastest oxygen use and highest BOD, so it is most polluted."
+F5 Chp 3,radio,MaahadJohor2023_Q28,A,B,C,D,D,Maahad Johor 2023/Picture28.png,"中文：平均反应速率 = 镁带消耗长度 ÷ 时间 = 10 ÷ 4 = 2.5 cm/min。
+English: Average rate = magnesium length consumed/time = 10/4 = 2.5 cm/min."
+F5 Chp 3,radio,NegeriSembilan2023_Q27,A,B,C,D,B,Negeri Sembilan 2023/Picture27.png,"中文：亚甲蓝用于比较水污染程度；有机污染越严重，微生物耗氧越快，蓝色通常越快消失。
+English: Methylene blue is used to compare water pollution: greater organic pollution causes faster microbial oxygen consumption and usually faster decolourisation."
+F5 Chp 3,radio,NegeriSembilan2023_Q28,A,B,C,D,A,Negeri Sembilan 2023/Picture28.png,"中文：微藻进行光合作用，吸收二氧化碳并产生有机物和氧气，可应用于负排放科技以移除二氧化碳。
+English: Microalgae photosynthesise, absorbing carbon dioxide and producing organic matter and oxygen; this can be used in negative-emission technology to remove carbon dioxide."
+F5 Chp 3,radio,PahangTrial2023_Q27,A,B,C,D,D,Pahang Trial 2023/Picture27.png,"中文：拖拉机与机械收割机能提高耕作和收割效率，减少时间及劳动需求，属于提高稻米生产的现代农业技术。
+English: Tractors and mechanical harvesters improve cultivation and harvesting efficiency and reduce labour and time, applying modern technology to paddy production."
+F5 Chp 3,radio,PahangTrial2023_Q28,A,B,C,D,A,Pahang Trial 2023/Picture28.png,"中文：森林火灾可自然发生，释放烟尘及气体造成空气污染；其余选项都是人类工业或交通活动。
+English: Forest fires can occur naturally and release smoke and gases that pollute the air; the other choices are human industrial or transport activities."
+F5 Chp 3,radio,Melaka2023_Q27,A,B,C,D,C,Melaka 2023/Picture27.png,"中文：磷促进根部生长；缺磷的幼苗会出现根系生长不良。
+English: Phosphorus supports root development, so phosphorus deficiency causes poor root growth."
+F5 Chp 3,radio,Melaka2023_Q28,A,B,C,D,D,Melaka 2023/Picture28.png,"中文：硼酸是人工化学品，符合本题的人工防腐剂分类；这只是题目辨认，不代表允许或适合用于食品。
+English: Boric acid is a synthetic chemical matching the item's artificial-preservative category; this does not mean it is permitted or suitable for food use."
+F5 Chp 3,radio,Perak2023_Q27,A,B,C,D,B,Perak 2023/Picture27.png,"中文：活动在29.11.2023，B的最佳食用日期为1.12.2023，晚于活动日期；其他三包的日期已经到期或早于活动。
+English: The event is on 29 November 2023; B has a best-before date of 1 December 2023, later than the event, unlike the other three packages."
+F5 Chp 3,radio,Perak2023_Q28,A,B,C,D,D,Perak 2023/Picture28.png,"中文：应带走塑料并交付回收，避免在自然环境留下垃圾或燃烧塑料产生污染。
+English: Take the plastic home for recycling, preventing litter in the natural environment and pollution from burning it."
+F5 Chp 3,radio,Perlis2023_Q27,A,B,C,D,B,Perlis 2023/Picture27.png,"中文：答案B对应细菌性肺炎，抗生素可抑制或杀死致病细菌；带状疱疹及麻疹属于病毒病。
+English: Answer B refers to bacterial pneumonia, where antibiotics inhibit or kill the bacteria; shingles and measles are viral illnesses."
+F5 Chp 3,radio,Perlis2023_Q28,A,B,C,D,D,Perlis 2023/Picture28.png,"中文：总能量=20×15.04+10×8.27+30×0.34+10×0.50=398.7 kJ，因此选D。
+English: Total energy = 20 × 15.04 + 10 × 8.27 + 30 × 0.34 + 10 × 0.50 = 398.7 kJ, giving D."
+F5 Chp 3,radio,PutrajayaSet12023_Q27,A,B,C,D,D,Putrajaya Set 1 2023/Picture27.png,"中文：维生素D帮助钙吸收，缺乏会使儿童骨骼软弱并出现佝偻病和弯腿，因此选D。
+English: Vitamin D supports calcium absorption; deficiency weakens children's bones and causes rickets with bowed legs, giving D."
+F5 Chp 3,radio,PutrajayaSet12023_Q28,A,B,C,D,D,Putrajaya Set 1 2023/Picture28.png,"中文：每天总摄入=1200+2000+1500=4700 kJ，高于题设2500 kJ，长期过量会积累脂肪并增加肥胖风险。
+English: Daily intake = 1200 + 2000 + 1500 = 4700 kJ, above the stated 2500 kJ; sustained excess intake causes fat accumulation and increased obesity risk."
+F5 Chp 3,radio,PutrajayaSet22023_Q27,A,B,C,D,B,Putrajaya Set 2 2023/Picture27.png,"中文：P为反硝化，把硝酸盐转为氮气返回大气；Q为固氮，把大气氮转为可利用的含氮化合物，因此选B。
+English: P is denitrification, converting nitrates into atmospheric nitrogen; Q is nitrogen fixation, turning atmospheric nitrogen into usable nitrogen compounds, giving B."
+F5 Chp 3,radio,PutrajayaSet22023_Q28,A,B,C,D,A,Putrajaya Set 2 2023/Picture28.png,"中文：蔬果提供膳食纤维，帮助肠道蠕动并减少便秘，因此选A。
+English: Fruit and vegetables provide dietary fibre, supporting bowel movement and reducing constipation, giving A."
+F5 Chp 3,radio,SarawakSubisMiri2023_Q27,A,B,C,D,A,Sarawak Subis Miri 2023/Picture27.png,"中文：罐藏把食物装入罐中并高温高压处理，以杀死微生物及孢子，因此应选C。现有A描述的是辐射保存法。
+English: Canning seals food in cans and uses high-temperature, high-pressure processing to kill microorganisms and spores, giving C. Existing A describes irradiation."
+F5 Chp 3,radio,SarawakSubisMiri2023_Q28,A,B,C,D,C,Sarawak Subis Miri 2023/Picture28.png,"中文：伐林减少吸收二氧化碳，工业和燃烧燃料释放废气，都与空气污染相关，应选B。现有C土壤污染不符合所列原因。
+English: Deforestation reduces carbon-dioxide uptake while industry and fuel combustion emit gases; these relate to air pollution, giving B. Existing C, soil pollution, does not match the listed causes."
+F5 Chp 3,radio,Selangor2023_Q27,A,B,C,D,A,Selangor 2023/Picture27.png,"中文：日用电量：LED0.009×5=0.045、荧光灯0.020×4=0.080、CFL0.006×10=0.060、卤素0.018×7=0.126 kWh。LED最低，按题设排放0.045×39÷50=0.0351 g。
+English: Daily use is LED 0.009 × 5 = 0.045, fluorescent 0.020 × 4 = 0.080, CFL 0.006 × 10 = 0.060 and halogen 0.018 × 7 = 0.126 kWh. LED is lowest, giving stated emissions 0.045 × 39/50 = 0.0351 g."
+F5 Chp 3,radio,Selangor2023_Q28,A,B,C,D,B,Selangor 2023/Picture28.png,"中文：洗涤剂废水进入河流会造成水污染，B的类型与原因配对正确；漏油并不是热污染。
+English: Detergent waste entering rivers causes water pollution, so B correctly pairs pollution and cause; an oil spill is not thermal pollution."
+F5 Chp 3,radio,SelangorSet22023_Q27,A,B,C,D,C,Selangor Set 2 2023/Picture27.png,"中文：各灯日用电量分别LED0.045、荧光0.080、卤素0.060、CFL0.126 kWh。CFL最高，排放0.126×39÷50=0.09828 g，选C。
+English: Daily electricity use is LED 0.045, fluorescent 0.080, halogen 0.060 and CFL 0.126 kWh. CFL is highest, with stated emissions 0.126 × 39/50 = 0.09828 g, giving C."
+F5 Chp 3,radio,SelangorSet22023_Q28,A,B,C,D,A,Selangor Set 2 2023/Picture28.png,"中文：伐林减少植被遮阴与蒸腾散热，可增加当地温度，按本题分类与热污染配对，因此选A。
+English: Deforestation reduces shading and cooling by transpiration and can raise local temperature; this is paired with thermal pollution in the question, giving A."
+F5 Chp 3,radio,TerengganuMPP32023_Q27,A,B,C,D,C,Terengganu MPP3 2023/Picture27.png,"中文：农业肥料流入水体增加硝酸盐和磷酸盐，促使藻类大量生长并引发富营养化，因此X为C。
+English: Agricultural fertiliser runoff adds nitrates and phosphates to water, stimulating algal growth and eutrophication, so X is C."
+F5 Chp 3,radio,TerengganuMPP32023_Q28,A,B,C,D,B,Terengganu MPP3 2023/Picture28.png,"中文：本题标准速率因素包括颗粒大小、温度和浓度；单独改变反应物质量并非同类独立速率因素，因此选B。
+English: The standard rate factors here include particle size, temperature and concentration; reactant mass alone is not the same kind of independent rate factor, giving B."
+F5 Chp 3,radio,SBP2023_Q27,A,B,C,D,A,SBP 2023/Picture27.png,"中文：维生素D不足影响钙吸收，导致儿童骨骼软弱的佝偻病rickets，因此选A。
+English: Vitamin D deficiency impairs calcium absorption and causes rickets, which weakens children's bones, giving A."
+F5 Chp 3,radio,SBP2023_Q28,A,B,C,D,A,SBP 2023/Picture28.png,"中文：叶面出现褐斑是题目中的缺钾症状，应补充钾肥，因此选A。
+English: Brown leaf spots indicate potassium deficiency in this question, so potassium fertiliser should be supplied, giving A."
+F5 Chp 4,radio,KedahTrial2023_Q29,A,B,C,D,A,Kedah Trial 2023/Picture29.png,"中文：提高酸的温度使粒子动能增加，发生更多有效碰撞，从而加快反应。
+English: Higher acid temperature increases particle kinetic energy and the frequency of effective collisions, increasing reaction rate."
+F5 Chp 4,radio,KedahTrial2023_Q30,A,B,C,D,C,Kedah Trial 2023/Picture30.png,"中文：哈伯法使用铁催化剂，加快氮和氢合成氨；五氧化二钒用于另一工业过程。
+English: The Haber process uses an iron catalyst to speed ammonia formation; vanadium(V) oxide is used in a different industrial process."
+F5 Chp 4,radio,KelantanTrial2023_Q29,A,B,C,D,A,Kelantan Trial 2023/Picture29.png,"中文：在选项比较中，呼吸作用以酶促反应迅速提供能量；生锈和发酵通常较慢。
+English: Among the choices, enzyme-controlled respiration releases usable energy rapidly; rusting and fermentation are typically slower."
+F5 Chp 4,radio,KelantanTrial2023_Q30,A,B,C,D,C,Kelantan Trial 2023/Picture30.png,"中文：450°C、常压及五氧化二钒催化剂是接触法的条件，最终产品为硫酸。
+English: 450°C, atmospheric pressure and vanadium(V) oxide identify the Contact process, whose final product is sulphuric acid."
+F5 Chp 4,radio,MaahadJohor2023_Q29,A,B,C,D,B,Maahad Johor 2023/Picture29.png,"中文：哈伯法使用约 450–550°C 和铁催化剂，I、IV 正确；并非常压或五氧化二钒催化剂。
+English: The Haber process uses about 450–550°C and an iron catalyst; I and IV are correct."
+F5 Chp 4,radio,MaahadJohor2023_Q30,A,B,C,D,B,Maahad Johor 2023/Picture30.png,"中文：结构有三粒碳且只有单键，是饱和烃丙烷 C3H8。
+English: The structure has three carbon atoms and only single bonds, identifying saturated propane, C3H8."
+F5 Chp 4,radio,NegeriSembilan2023_Q29,A,B,C,D,C,Negeri Sembilan 2023/Picture29.png,"中文：反应速率的主要因素是温度、催化剂、反应物颗粒大小和浓度，因此C列出的四项正确。
+English: The main factors affecting reaction rate are temperature, catalyst, reactant particle size and concentration, so C lists the correct four factors."
+F5 Chp 4,radio,NegeriSembilan2023_Q30,A,B,C,D,D,Negeri Sembilan 2023/Picture30.png,"中文：冰箱降低温度，使食物中的化学反应和微生物活动减慢，因此是反应速率概念的应用。
+English: A refrigerator lowers temperature and slows chemical reactions and microbial activity in food, applying the concept of reaction rate."
+F5 Chp 4,radio,PahangTrial2023_Q29,A,B,C,D,B,Pahang Trial 2023/Picture29.png,"中文：混合动力车、太阳能与生物柴油可减少部分化石燃料使用和污染物排放，从而改善空气质量。
+English: Hybrid cars, solar energy and biodiesel can reduce some fossil-fuel use and pollutant emissions, improving air quality."
+F5 Chp 4,radio,PahangTrial2023_Q30,A,B,C,D,C,Pahang Trial 2023/Picture30.png,"中文：反应物浓度增加，单位体积内粒子更多，有效碰撞频率提高，通常使反应加快，因此选C。
+English: Increasing reactant concentration places more particles in a given volume, increasing effective collisions and usually speeding up the reaction, giving C."
+F5 Chp 4,radio,Melaka2023_Q29,A,B,C,D,A,Melaka 2023/Picture29.png,"中文：泥球中的有效微生物可包含酵母，帮助处理有机污染物。
+English: Effective-microorganism mud balls may contain yeast that helps process organic pollutants."
+F5 Chp 4,radio,Melaka2023_Q30,A,B,C,D,B,Melaka 2023/Picture30.png,"中文：P 曲线初期较陡，反应较快，但终点气体量相同；催化剂提高速率而不增加总产量。
+English: P has a steeper initial curve but the same final gas volume; a catalyst increases rate without increasing total yield."
+F5 Chp 4,radio,Perak2023_Q29,A,B,C,D,B,Perak 2023/Picture29.png,"中文：燃烧木炭在短时间内发生并释放热，属于快反应；生锈、发酵和光合作用相对较慢。
+English: Charcoal combustion occurs over a short time and releases heat, making it a fast reaction compared with rusting, fermentation and photosynthesis."
+F5 Chp 4,radio,Perak2023_Q30,A,B,C,D,A,Perak 2023/Picture30.png,"中文：反应速率等于气体体积时间图的斜率；A处最陡，所以反应速率最高。
+English: Reaction rate is the slope of the gas-volume–time graph; the curve is steepest at A, so its rate is highest."
+F5 Chp 4,radio,Perlis2023_Q29,A,B,C,D,B,Perlis 2023/Picture29.png,"中文：牛奶常通过巴氏杀菌，短时间加热后快速冷却，以减少病原微生物并延长保存时间。
+English: Milk commonly undergoes pasteurisation: brief heating followed by rapid cooling reduces pathogens and extends storage life."
+F5 Chp 4,radio,Perlis2023_Q30,A,B,C,D,D,Perlis 2023/Picture30.png,"中文：垃圾中的有机物缺氧分解产生甲烷；收集甲烷燃烧，可把其化学能用于发电。
+English: Organic waste decomposing without oxygen produces methane; collected methane can be burned to use its chemical energy for electricity generation."
+F5 Chp 4,radio,PutrajayaSet12023_Q29,A,B,C,D,D,Putrajaya Set 1 2023/Picture29.png,"中文：升级再造把原有产品或废物变成品质更高或价值更大的产品，因此选D。
+English: Upcycling transforms an existing product or waste into a product of higher quality or value, giving D."
+F5 Chp 4,radio,PutrajayaSet12023_Q30,A,B,C,D,B,Putrajaya Set 1 2023/Picture30.png,"中文：猫头鹰捕食老鼠，饲养猫头鹰可利用天然天敌控制鼠害，属于生物防治。
+English: Owls prey on rats, so encouraging owls controls rat pests through natural predators, a form of biological control."
+F5 Chp 4,radio,PutrajayaSet22023_Q29,A,B,C,D,A,Putrajaya Set 2 2023/Picture29.png,"中文：重新植树恢复植被和栖息地，帮助固定土壤、吸收二氧化碳，是保护环境的措施。
+English: Reforestation restores vegetation and habitats, stabilises soil and absorbs carbon dioxide, contributing to environmental conservation."
+F5 Chp 4,radio,PutrajayaSet22023_Q30,A,B,C,D,B,Putrajaya Set 2 2023/Picture30.png,"中文：污水和漏油会污染水体、影响溶氧并损害水生生物，破坏水生栖息地，因此选B。
+English: Sewage and oil spills pollute water, affect oxygen availability and harm aquatic organisms, destroying aquatic habitats, giving B."
+F5 Chp 4,radio,SarawakSubisMiri2023_Q29,A,B,C,D,A,Sarawak Subis Miri 2023/Picture29.png,"中文：C河水只需20分钟使亚甲蓝褪色，最短时间表示耗氧最快、污染最严重，应选C；现有A河需30分钟，非最严重。
+English: River C decolourises methylene blue in 20 minutes, the shortest time and fastest oxygen depletion, indicating greatest pollution, so C; river A takes 30 minutes and is not the most polluted."
+F5 Chp 4,radio,SarawakSubisMiri2023_Q30,A,B,C,D,D,Sarawak Subis Miri 2023/Picture30.png,"中文：平均速率=镁带长度÷时间=20÷4=5.0 cm/min，应选A。现有答案D需核对，不能从这组数字得到其他速率。
+English: Average rate = magnesium length ÷ time = 20 ÷ 4 = 5.0 cm/min, giving A. Existing D requires review; the stated data do not yield another rate."
+F5 Chp 4,radio,Selangor2023_Q29,A,B,C,D,A,Selangor 2023/Picture29.png,"中文：钥匙上的铁锈表示生锈，是缓慢进行的氧化过程，因此现有A慢反应有道理；D也准确描述为生锈反应，题目分类存在重叠。
+English: Rust on the key indicates rusting, a slow oxidation process, so existing A, slow reaction, is reasonable; D also correctly names rusting, making the classifications overlap."
+F5 Chp 4,radio,Selangor2023_Q30,A,B,C,D,A,Selangor 2023/Picture30.png,"中文：铁粉在哈伯法中作催化剂，加快氮与氢生成氨的反应，本身不因反应而消耗。
+English: Iron powder is the Haber-process catalyst, accelerating ammonia formation from nitrogen and hydrogen without being consumed."
+F5 Chp 4,radio,SelangorSet22023_Q29,A,B,C,D,B,Selangor Set 2 2023/Picture29.png,"中文：庆祝活动的燃烧反应在短时间内发生、放热放光，属于快反应，因此选B。
+English: Combustion during the celebration occurs over a short time and releases heat and light, making it a fast reaction, giving B."
+F5 Chp 4,radio,SelangorSet22023_Q30,A,B,C,D,A,Selangor Set 2 2023/Picture30.png,"中文：氧化钒(V)在接触法中作催化剂，加快二氧化硫氧化成三氧化硫的反应，因此选A。
+English: Vanadium(V) oxide catalyses the Contact process, accelerating sulfur dioxide's oxidation to sulfur trioxide, giving A."
+F5 Chp 4,radio,TerengganuMPP32023_Q29,A,B,C,D,C,Terengganu MPP3 2023/Picture29.png,"中文：接触法生成的三氧化硫先制成发烟硫酸oleum，再与水反应生成硫酸，所以X为硫酸C。
+English: In the Contact process, sulfur trioxide forms oleum, which is then reacted with water to obtain sulfuric acid, so X is C."
+F5 Chp 4,radio,TerengganuMPP32023_Q30,A,B,C,D,C,Terengganu MPP3 2023/Picture30.png,"中文：醇充分燃烧时主要产生二氧化碳和水，燃烧较清洁、不会像某些燃料产生黑烟，因此选C。
+English: Complete alcohol combustion mainly produces carbon dioxide and water and burns more cleanly, without the smoky soot associated with some fuels, giving C."
+F5 Chp 4,radio,SBP2023_Q29,A,B,C,D,C,SBP 2023/Picture29.png,"中文：轮作可改变各季作物的营养需求，配合豆科作物还可增加土壤氮，帮助维持土壤肥力。
+English: Crop rotation varies nutrient demands between seasons; including legumes can also increase soil nitrogen, helping maintain fertility."
+F5 Chp 4,radio,SBP2023_Q30,A,B,C,D,B,SBP 2023/Picture30.png,"中文：动物尸体增加有机污染，微生物分解时消耗更多氧，使生化需氧量BOD上升。
+English: Animal carcasses increase organic pollution; decomposition consumes more oxygen and raises biochemical oxygen demand, BOD."
+F5 Chp 5,radio,KedahTrial2023_Q31,A,B,C,D,C,Kedah Trial 2023/Picture31.png,"中文：酒精燃烧产生蓝色火焰，通常不冒黑烟和形成烟炱，符合图中的观察。
+English: Alcohol burns with a blue flame and little soot, matching the observation."
+F5 Chp 5,radio,KedahTrial2023_Q32,A,B,C,D,D,Kedah Trial 2023/Picture32.png,"中文：按 SPM 课本选项比较，植物油如棕油是替代牛油等动物脂肪的选择，因此 D 为预期答案。
+English: Within the SPM textbook comparison, vegetable oil such as palm oil is the intended alternative to animal fats such as butter, so D is expected."
+F5 Chp 5,radio,KelantanTrial2023_Q31,A,B,C,D,C,Kelantan Trial 2023/Picture31.png,"中文：CnH2n 是烯烃通式，对应 A 的乙烯 Etena；C 的乙醇含氧，并非烃。现有答案纸记 C，与题目内容不符。
+English: CnH2n is the general formula of alkenes, matching ethene in A. Ethanol in C contains oxygen and is not a hydrocarbon; the original key C conflicts with the question."
+F5 Chp 5,radio,KelantanTrial2023_Q32,A,B,C,D,A,Kelantan Trial 2023/Picture32.png,"中文：饱和脂肪摄入过多可促进动脉脂质沉积并缩小管腔，减少摄入有助改善风险。
+English: Excess saturated fat promotes fatty deposits that narrow arteries; reducing intake helps address this risk."
+F5 Chp 5,radio,MaahadJohor2023_Q31,A,B,C,D,C,Maahad Johor 2023/Picture31.png,"中文：所讨论的酒精在室温为液体；碳链越长，水溶性通常越低，故 II、IV。
+English: The alcohols considered are liquids at room temperature, and water solubility decreases with longer carbon chains; II and IV are correct."
+F5 Chp 5,radio,MaahadJohor2023_Q32,A,B,C,D,B,Maahad Johor 2023/Picture32.png,"中文：熔融氯化钠的离子能自由移动而导电，是电解质；固态盐的离子不能自由移动。
+English: Molten sodium chloride conducts through mobile ions and is an electrolyte; its solid ions cannot move freely."
+F5 Chp 5,radio,NegeriSembilan2023_Q31,A,B,C,D,B,Negeri Sembilan 2023/Picture31.png,"中文：哈伯法按1份氮气与3份氢气反应：N₂+3H₂→2NH₃，使用铁催化剂，所以K为氮、L为氢、M为铁。
+English: The Haber process uses one part nitrogen to three parts hydrogen: N₂ + 3H₂ → 2NH₃, with iron as catalyst; K is nitrogen, L hydrogen and M iron."
+F5 Chp 5,radio,NegeriSembilan2023_Q32,A,B,C,D,A,Negeri Sembilan 2023/Picture32.png,"中文：图示为丙烷C₃H₈，只含碳碳单键，属于饱和烃的烷烃系列，符合CnH₂n+₂。
+English: The structure is propane, C₃H₈, containing only carbon–carbon single bonds; it belongs to the saturated alkane series, CnH₂n+₂."
+F5 Chp 5,radio,PahangTrial2023_Q31,A,B,C,D,C,Pahang Trial 2023/Picture31.png,"中文：冰箱降低温度，减慢微生物活动及造成腐败的反应，使食物保存较久。
+English: A refrigerator lowers temperature, slowing microbial activity and spoilage reactions so food lasts longer."
+F5 Chp 5,radio,PahangTrial2023_Q32,A,B,C,D,D,Pahang Trial 2023/Picture32.png,"中文：乙烷C₂H₆和乙烯C₂H₄都含两个碳原子；前者为烷烃，后者为烯烃，因此共同点为D。
+English: Ethane, C₂H₆, and ethene, C₂H₄, both contain two carbon atoms; one is an alkane and the other an alkene, so their shared feature is D."
+F5 Chp 5,radio,Melaka2023_Q31,A,B,C,D,A,Melaka 2023/Picture31.png,"中文：X 为接触法催化剂，提供较低活化能的反应途径，加快反应。
+English: X is the Contact-process catalyst, providing a lower-activation-energy pathway and increasing reaction rate."
+F5 Chp 5,radio,Melaka2023_Q32,A,B,C,D,C,Melaka 2023/Picture32.png,"中文：结构含三粒碳且只有单键，为丙烷 C3H8。
+English: Three carbon atoms joined by single bonds identify propane, C3H8."
+F5 Chp 5,radio,Perak2023_Q31,A,B,C,D,B,Perak 2023/Picture31.png,"中文：石油主要由有机碳化合物中的碳氢化合物组成；二氧化碳属于无机碳化合物，金刚石只是碳元素。
+English: Petroleum mainly contains hydrocarbons, which are organic carbon compounds; carbon dioxide is inorganic and diamond is elemental carbon."
+F5 Chp 5,radio,Perak2023_Q32,A,B,C,D,D,Perak 2023/Picture32.png,"中文：酵母在缺氧情况下发酵葡萄糖，生成乙醇及二氧化碳，所以X是乙醇。
+English: Yeast ferments glucose without oxygen, producing ethanol and carbon dioxide, so X is ethanol."
+F5 Chp 5,radio,Perlis2023_Q31,A,B,C,D,A,Perlis 2023/Picture31.png,"中文：依本题答案A，微塑料沿食物链累积造成健康风险，课本列癌症为相关影响；不是导致臭氧减少或富营养化的主要机制。
+English: Following answer A, microplastics transferred along food chains pose health risks, with cancer listed as a related textbook effect; they are not the principal mechanism of ozone depletion or eutrophication."
+F5 Chp 5,radio,Perlis2023_Q32,A,B,C,D,C,Perlis 2023/Picture32.png,"中文：气体体积在140秒达到35 cm³并停止增加，平均速率=35÷140=0.25 cm³/s，不能用后面的等待时间180秒。
+English: Gas volume reaches 35 cm³ at 140 seconds and then stops increasing; average rate = 35 ÷ 140 = 0.25 cm³/s, excluding the later waiting period to 180 seconds."
+F5 Chp 5,radio,PutrajayaSet12023_Q31,A,B,C,D,C,Putrajaya Set 1 2023/Picture31.png,"中文：木炭燃烧在短时间内明显发生并释放热，是所列过程中的快反应。
+English: Charcoal combustion occurs visibly over a short time and releases heat, making it the fast reaction among those listed."
+F5 Chp 5,radio,PutrajayaSet12023_Q32,A,B,C,D,B,Putrajaya Set 1 2023/Picture32.png,"中文：N₂+3H₂→2NH₃，所以哈伯法氮气与氢气的比例为1:3。
+English: N₂ + 3H₂ → 2NH₃, so the nitrogen-to-hydrogen ratio in the Haber process is 1:3."
+F5 Chp 5,radio,PutrajayaSet22023_Q31,A,B,C,D,B,Putrajaya Set 2 2023/Picture31.png,"中文：碎木炭比大块木炭有更大的总表面积与氧气接触，因此燃烧较快，影响因素为颗粒大小。
+English: Charcoal flakes have a larger total surface area exposed to oxygen than chunks and burn faster; the factor is reactant particle size."
+F5 Chp 5,radio,PutrajayaSet22023_Q32,A,B,C,D,D,Putrajaya Set 2 2023/Picture32.png,"中文：氧化钒(V)作为接触法的催化剂，提供较低活化能的途径，提高反应速率。
+English: Vanadium(V) oxide is the Contact-process catalyst, providing a pathway with lower activation energy and increasing reaction rate."
+F5 Chp 5,radio,SarawakSubisMiri2023_Q31,A,B,C,D,A,Sarawak Subis Miri 2023/Picture31.png,"中文：接触法使用氧化钒(V)催化剂，应选B；铁粉A用于哈伯法而非接触法。
+English: The Contact process uses vanadium(V) oxide, giving B; iron powder, A, is the Haber-process catalyst."
+F5 Chp 5,radio,SarawakSubisMiri2023_Q32,A,B,C,D,C,Sarawak Subis Miri 2023/Picture32.png,"中文：题干通式印成CnH₂n+n，存在笔误。若原意为CnH₂n，C丙烯与戊烯正确；若为CnH₂n+₂，则应选D丁烷与己烷，需核对原意。
+English: The printed formula CnH₂n+n is a typo. If CnH₂n is intended, C, propene and pentene, is correct; if CnH₂n+₂ is intended, D, butane and hexane, is correct. The intended formula needs checking."
+F5 Chp 5,radio,Selangor2023_Q31,A,B,C,D,C,Selangor 2023/Picture31.png,"中文：光合作用吸收空气中的二氧化碳并把碳固定到有机物中，因此可减少空气中过多二氧化碳。
+English: Photosynthesis absorbs atmospheric carbon dioxide and fixes its carbon into organic matter, removing excess carbon dioxide from the air."
+F5 Chp 5,radio,Selangor2023_Q32,A,B,C,D,A,Selangor 2023/Picture32.png,"中文：碳氢化合物的定义是只含碳与氢两种元素，因此选A。
+English: A hydrocarbon contains only carbon and hydrogen, giving A."
+F5 Chp 5,radio,SelangorSet22023_Q31,A,B,C,D,C,Selangor Set 2 2023/Picture31.png,"中文：石灰石主要为碳酸钙，二氧化碳也是无机碳化合物，因此C这两项正确。
+English: Limestone is mainly calcium carbonate, and carbon dioxide is also inorganic, so both examples in C are correct."
+F5 Chp 5,radio,SelangorSet22023_Q32,A,B,C,D,C,Selangor Set 2 2023/Picture32.png,"中文：石油各组分沸点不同，可用分馏fractional distillation分离成不同馏分，因此选C。
+English: Petroleum components have different boiling points and are separated into fractions by fractional distillation, giving C."
+F5 Chp 5,radio,TerengganuMPP32023_Q31,A,B,C,D,D,Terengganu MPP3 2023/Picture31.png,"中文：胆固醇沉积使动脉管腔变窄、血流阻力增加，可增加高血压风险，因此选D。
+English: Cholesterol deposits narrow the arterial lumen and increase resistance to blood flow, raising hypertension risk, giving D."
+F5 Chp 5,radio,TerengganuMPP32023_Q32,A,B,C,D,C,Terengganu MPP3 2023/Picture32.png,"中文：按本题课本分类，棕榈仁isirung用于生产较高品质的棕榈仁油，因此选C。
+English: In this textbook classification, the kernel, isirung, produces the higher-quality palm-kernel oil, giving C."
+F5 Chp 5,radio,SBP2023_Q31,A,B,C,D,C,SBP 2023/Picture31.png,"中文：微藻通过光合作用吸收二氧化碳，将碳固定在有机物中，因此可用于负排放科技。
+English: Microalgae absorb carbon dioxide through photosynthesis and fix its carbon into organic matter, supporting negative-emission technology."
+F5 Chp 5,radio,SBP2023_Q32,A,B,C,D,B,SBP 2023/Picture32.png,"中文：提高气体压力会使气体粒子更密集，提高碰撞频率；压力是特别针对气体反应的速率因素。
+English: Increasing gas pressure packs particles more closely and raises collision frequency; pressure is a rate factor specifically important for gaseous reactants."
+F5 Chp 6,radio,KedahTrial2023_Q33,A,B,C,D,B,Kedah Trial 2023/Picture33.png,"中文：X 是供电装置；失效时无法提供电流，电解不能持续。电解池消耗电能，不是自行发电。
+English: X is the power supply; if it fails, no current is supplied and electrolysis stops. An electrolytic cell consumes electrical energy."
+F5 Chp 6,radio,KedahTrial2023_Q34,A,B,C,D,B,Kedah Trial 2023/Picture34.png,"中文：电子由铁流向 P，表示 P 比铁不活泼并作为正极；四种选项中铜符合。
+English: Electrons flow from iron to P, so P is less reactive and is the positive electrode; copper fits this requirement."
+F5 Chp 6,radio,KelantanTrial2023_Q33,A,B,C,D,D,Kelantan Trial 2023/Picture33.png,"中文：硫酸铜溶液含可移动离子，能导电，属于电解质；葡萄糖及乙醇溶液不提供此类离子。
+English: Copper(II) sulphate solution contains mobile ions and is an electrolyte; glucose and ethanol solutions do not provide such ions."
+F5 Chp 6,radio,KelantanTrial2023_Q34,A,B,C,D,D,Kelantan Trial 2023/Picture34.png,"中文：电絮凝中，铝离子、氢氧根和污染物结合形成絮体floc，便于把污染物分离，因此选D。
+English: In electrocoagulation, aluminium ions, hydroxide ions and pollutants combine into flocs, allowing pollutants to be separated, giving D."
+F5 Chp 6,radio,MaahadJohor2023_Q33,A,B,C,D,B,Maahad Johor 2023/Picture33.png,"中文：锌比铜活泼，作为负极失去电子并变成锌离子，所以锌电极逐渐溶解、质量减少。
+English: Zinc is more reactive than copper and loses electrons to form zinc ions, so its electrode dissolves and loses mass."
+F5 Chp 6,radio,MaahadJohor2023_Q34,A,B,C,D,B,Maahad Johor 2023/Picture34.png,"中文：物体在凸透镜焦距内，形成正立、放大的虚像；I、IV 正确。
+English: An object inside a convex lens's focal length forms an upright, enlarged virtual image; I and IV are correct."
+F5 Chp 6,radio,NegeriSembilan2023_Q33,A,B,C,D,D,Negeri Sembilan 2023/Picture33.png,"中文：依本题课本分类，长期摄取高脂快餐会增加胆固醇相关问题及胆结石风险，因此选D。
+English: In the textbook context of this question, prolonged consumption of fatty fast food increases cholesterol-related problems and the risk of gallstones, giving D."
+F5 Chp 6,radio,NegeriSembilan2023_Q34,A,B,C,D,B,Negeri Sembilan 2023/Picture34.png,"中文：制皂需要碱与油脂发生皂化。答案纸选B苦瓜汁，题目意图把它归为碱性材料；但实际苦瓜汁的酸碱度及浓度不能保证可替代氢氧化钠。
+English: Soap-making requires an alkali to react with fat in saponification. The supplied answer selects B, treating bitter-gourd juice as alkaline; its actual pH and concentration do not guarantee that it can replace sodium hydroxide."
+F5 Chp 6,radio,PahangTrial2023_Q33,A,B,C,D,B,Pahang Trial 2023/Picture33.png,"中文：Y指向棕榈果中央的果仁isirung/kernel；外面的硬层才是内果皮或果壳。
+English: Y points to the central kernel of the oil-palm fruit; the hard layer around it is the endocarp or shell."
+F5 Chp 6,radio,PahangTrial2023_Q34,A,B,C,D,A,Pahang Trial 2023/Picture34.png,"中文：电解槽利用外来的电能推动化学反应，所以能量转变是电能→化学能。
+English: An electrolytic cell uses an external electrical supply to drive a chemical reaction, so electrical energy becomes chemical energy."
+F5 Chp 6,radio,Melaka2023_Q33,A,B,C,D,C,Melaka 2023/Picture33.png,"中文：发酵液蒸馏得到较高浓度乙醇，可作为某些药物的溶剂。
+English: Distillation of fermented liquid yields more concentrated ethanol, which can serve as a solvent for medicines."
+F5 Chp 6,radio,Melaka2023_Q34,A,B,C,D,D,Melaka 2023/Picture34.png,"中文：酥油主要属于动物来源的饱和脂肪；题中其他选项是以不饱和脂肪为主的植物油。
+English: Ghee is rich in saturated animal fat; the other listed oils are predominantly unsaturated vegetable oils."
+F5 Chp 6,radio,Perak2023_Q33,A,B,C,D,C,Perak 2023/Picture33.png,"中文：棕榈油是由甘油和脂肪酸组成的脂肪，通常以甘油三酯形式存在，因此选C。
+English: Palm oil is fat made from glycerol and fatty acids, mainly as triglycerides, giving C."
+F5 Chp 6,radio,Perak2023_Q34,A,B,C,D,A,Perak 2023/Picture34.png,"中文：K应为饱和脂肪，本组选项应选C椰子油；鱼油主要含不饱和脂肪。现有答案A与图中的分类不符，保留并注明待核对。
+English: K represents saturated fat, for which C, coconut oil, is the appropriate listed example; fish oil mainly contains unsaturated fats. Existing answer A conflicts with the diagram and is retained for review."
+F5 Chp 6,radio,Perlis2023_Q33,A,B,C,D,C,Perlis 2023/Picture33.png,"中文：炸鸡含较多脂肪，长期过量摄取会增加动脉硬化、高血压和中风风险，因此选C。
+English: Fried chicken contains considerable fat; prolonged excessive intake increases the risks of arteriosclerosis, hypertension and stroke, giving C."
+F5 Chp 6,radio,Perlis2023_Q34,A,B,C,D,B,Perlis 2023/Picture34.png,"中文：顺序为灭菌Q→脱果S→消化R→榨取T→过滤P，所以选B。
+English: The sequence is sterilisation Q → threshing S → digestion R → extraction T → filtration P, giving B."
+F5 Chp 6,radio,PutrajayaSet12023_Q33,A,B,C,D,D,Putrajaya Set 1 2023/Picture33.png,"中文：氧化钒(V)是接触法催化剂，用于提高二氧化硫转变成三氧化硫的反应速率。
+English: Vanadium(V) oxide is the catalyst in the Contact process, increasing the rate of conversion of sulfur dioxide to sulfur trioxide."
+F5 Chp 6,radio,PutrajayaSet12023_Q34,A,B,C,D,A,Putrajaya Set 1 2023/Picture34.png,"中文：乙烷C₂H₆只有碳碳单键，是饱和烃；乙烯含双键，乙醇和乙酸还含氧。
+English: Ethane, C₂H₆, has only carbon–carbon single bonds and is a saturated hydrocarbon; ethene has a double bond, while ethanol and ethanoic acid contain oxygen."
+F5 Chp 6,radio,PutrajayaSet22023_Q33,A,B,C,D,A,Putrajaya Set 2 2023/Picture33.png,"中文：压力锅提高水的沸点，使烹煮温度更高、肉中的反应较快，因此能缩短烹煮时间。
+English: A pressure cooker raises water's boiling point, allowing a higher cooking temperature and faster reactions in the meat, shortening cooking time."
+F5 Chp 6,radio,PutrajayaSet22023_Q34,A,B,C,D,A,Putrajaya Set 2 2023/Picture34.png,"中文：蔗糖是含碳、氢、氧的有机化合物；金刚石是碳元素，二氧化碳为无机碳化合物。
+English: Sucrose is an organic compound containing carbon, hydrogen and oxygen; diamond is elemental carbon and carbon dioxide is inorganic."
+F5 Chp 6,radio,SarawakSubisMiri2023_Q33,A,B,C,D,B,Sarawak Subis Miri 2023/Picture33.png,"中文：醇的碳链越长，分子间吸引力通常越强、沸点越高，因此正确C。现有B说醇不溶于有机溶剂，不是正确的一般性质。
+English: As an alcohol's carbon chain grows, intermolecular attraction and boiling point generally increase, giving C. Existing B's statement that alcohol is insoluble in organic solvents is not generally correct."
+F5 Chp 6,radio,SarawakSubisMiri2023_Q34,A,B,C,D,C,Sarawak Subis Miri 2023/Picture34.png,"中文：动脉内脂肪沉积使管腔变窄，题目应选D减少脂肪摄入。现有C减少甜食不是本图最直接的选项。
+English: Fat deposits narrow the artery's lumen, so D, reducing fat intake, is the most direct listed response. Existing C, reducing sweets, is not the direct choice illustrated."
+F5 Chp 6,radio,Selangor2023_Q33,A,B,C,D,D,Selangor 2023/Picture33.png,"中文：维生素E和胡萝卜素具有抗氧化作用，能减慢氧化过程，帮助保护细胞。
+English: Vitamin E and carotene have antioxidant effects, slowing oxidation and helping protect cells."
+F5 Chp 6,radio,Selangor2023_Q34,A,B,C,D,C,Selangor 2023/Picture34.png,"中文：电解槽中接电源正极的P为阳极，接负极的Q为阴极，所以选C。
+English: In an electrolytic cell, P connected to the positive supply is the anode and Q connected to the negative supply is the cathode, giving C."
+F5 Chp 6,radio,SelangorSet22023_Q33,A,B,C,D,D,Selangor Set 2 2023/Picture33.png,"中文：Q括号明确标示肥皂的碳氢尾，它是疏水部分，溶于油脂并帮助除去油污，因此应选A。现有答案D“溶于石灰水”不符合该部分的功能，保留原答案并注明疑点。
+English: Q clearly brackets the hydrocarbon tail of soap. This hydrophobic part dissolves in grease and helps remove oily dirt, giving A. Existing D, dissolving in limewater, does not describe its function; the original answer is retained with this discrepancy noted."
+F5 Chp 6,radio,SelangorSet22023_Q34,A,B,C,D,A,Selangor Set 2 2023/Picture34.png,"中文：熔融溴化铅(II)有可自由移动的离子，是电解质，应选D；乙醇A为分子物质，不能依离子导电，现有答案需核对。
+English: Molten lead(II) bromide has mobile ions and is an electrolyte, giving D; ethanol, A, is molecular and does not conduct through such ions, so the existing key needs review."
+F5 Chp 6,radio,TerengganuMPP32023_Q33,A,B,C,D,B,Terengganu MPP3 2023/Picture33.png,"中文：铁勺作阴极，铜片作阳极，铜离子在铁勺表面接受电子沉积铜，是金属电镀。
+English: The iron spoon is the cathode and copper plate the anode; copper ions gain electrons and coat the spoon, which is electroplating."
+F5 Chp 6,radio,TerengganuMPP32023_Q34,A,B,C,D,B,Terengganu MPP3 2023/Picture34.png,"中文：蒸馏水可移动离子极少，导电能力很弱，不能像盐水或果汁提供有效电解质，因此选B。
+English: Distilled water has very few mobile ions and conducts poorly, unlike salt water or fruit juice as effective electrolytes, giving B."
+F5 Chp 6,radio,SBP2023_Q33,A,B,C,D,D,SBP 2023/Picture33.png,"中文：白垩主要为碳酸钙CaCO₃，是无机碳化合物；燃料和食用油主要属于有机物。
+English: Chalk is mainly calcium carbonate, CaCO₃, an inorganic carbon compound; fuels and cooking oils are mainly organic."
+F5 Chp 6,radio,SBP2023_Q34,A,B,C,D,A,SBP 2023/Picture34.png,"中文：乙醇易燃，不应直接用火焰加热；水浴提供较安全的间接加热，因此选A。
+English: Ethanol is flammable and should not be heated directly with a flame; a water bath provides safer indirect heating, giving A."
+F5 Chp 7,radio,KedahTrial2023_Q35,A,B,C,D,C,Kedah Trial 2023/Picture35.png,"中文：凸透镜物距为两倍焦距时形成等大实像；u = 2f = 2 × 5 = 10 cm。
+English: A convex lens produces an equal-sized real image at u = 2f = 2 × 5 = 10 cm."
+F5 Chp 7,radio,KedahTrial2023_Q36,A,B,C,D,D,Kedah Trial 2023/Picture36.png,"中文：凹透镜使平行光发散，可用在眼镜中矫正近视，使光线重新聚焦在视网膜上。
+English: A concave lens diverges light and is used in spectacles to correct short-sightedness."
+F5 Chp 7,radio,KelantanTrial2023_Q35,A,B,C,D,B,Kelantan Trial 2023/Picture35.png,"中文：焦距是透镜光学中心至焦点的距离。
+English: Focal length is the distance between a lens's optical centre and its focal point."
+F5 Chp 7,radio,KelantanTrial2023_Q36,A,B,C,D,C,Kelantan Trial 2023/Picture36.png,"中文：放大镜把物体放在凸透镜焦点以内，形成正立、放大的虚像。
+English: A magnifying glass forms an upright, enlarged virtual image when the object is inside the convex lens's focal length."
+F5 Chp 7,radio,MaahadJohor2023_Q35,A,B,C,D,A,Maahad Johor 2023/Picture35.png,"中文：显微镜最终供眼睛观看的像是虚像；并非用来观察远处物体。
+English: The final image viewed through a microscope is virtual; microscopes are not intended for distant objects."
+F5 Chp 7,radio,MaahadJohor2023_Q36,A,B,C,D,C,Maahad Johor 2023/Picture36.png,"中文：机翼翼型利用流速越大、压强越低的伯努利原理形成升力；液压设备使用帕斯卡原理。
+English: An aerofoil uses Bernoulli's relation between faster flow and lower pressure; hydraulic devices use Pascal's principle."
+F5 Chp 7,radio,NegeriSembilan2023_Q35,A,B,C,D,D,Negeri Sembilan 2023/Picture35.png,"中文：离子在电化学序列中的位置影响其被放电的难易程度，从而影响电解产物，因此选D。
+English: An ion's position in the electrochemical series affects how readily it is discharged and therefore influences the products of electrolysis, giving D."
+F5 Chp 7,radio,NegeriSembilan2023_Q36,A,B,C,D,D,Negeri Sembilan 2023/Picture36.png,"中文：铜与铝在所列金属对中电化学序列距离最大，因此产生最大的电位差；电子从较活泼的铝经外电路流向铜，选D。
+English: Copper and aluminium have the greatest separation in the electrochemical series among the listed pairs, giving the largest potential difference; electrons flow externally from the more reactive aluminium to copper, so D."
+F5 Chp 7,radio,PahangTrial2023_Q35,A,B,C,D,D,Pahang Trial 2023/Picture35.png,"中文：Y上形成铜沉积，表示它接受电子；较活泼的X失去电子，电子经外电路由X流向Y，因此选D。
+English: Copper is deposited on Y, showing that electrons are received there; more reactive X loses electrons, which flow externally from X to Y, giving D."
+F5 Chp 7,radio,PahangTrial2023_Q36,A,B,C,D,B,Pahang Trial 2023/Picture36.png,"中文：复印时要得到等大的实像，物体应在凸透镜2F处，即B；像在另一侧2F，倒立且与物体同大。
+English: To obtain a real, same-sized image for copying, place the object at 2F, position B; the inverted image forms at 2F on the other side."
+F5 Chp 7,radio,Melaka2023_Q35,A,B,C,D,D,Melaka 2023/Picture35.png,"中文：氯化钠溶液含自由移动的钠离子和氯离子，可作为电解质导电。
+English: Sodium chloride solution contains mobile sodium and chloride ions that conduct electricity."
+F5 Chp 7,radio,Melaka2023_Q36,A,B,C,D,C,Melaka 2023/Picture36.png,"中文：镁与铜在电化学序列相距最远，产生较大电势差，预期偏转最大，应为 D。原答案 C 的铅与题意不符。
+English: Magnesium and copper are furthest apart in the electrochemical series and give the greatest potential difference, so D is expected; original key C, lead, conflicts."
+F5 Chp 7,radio,Perak2023_Q35,A,B,C,D,B,Perak 2023/Picture35.png,"中文：硫酸根SO₄²⁻带负电，是硫酸铜溶液中的阴离子；Cu²⁺和H⁺带正电，是阳离子。
+English: The sulfate ion, SO₄²⁻, is negatively charged and is an anion in copper sulfate solution; Cu²⁺ and H⁺ are cations."
+F5 Chp 7,radio,Perak2023_Q36,A,B,C,D,D,Perak 2023/Picture36.png,"中文：固定镁电极时，银与镁在电化学序列距离最大，因此用银替代锌可得到最高电压。
+English: With magnesium fixed, silver has the greatest separation from it in the electrochemical series, so replacing zinc with silver gives the highest voltage."
+F5 Chp 7,radio,Perlis2023_Q35,A,B,C,D,D,Perlis 2023/Picture35.png,"中文：稀盐酸用碳电极电解时，阴极H⁺放电产生氢；依课本稀溶液规则，阳极OH⁻优先放电产生氧，因此选D。
+English: With carbon electrodes in dilute hydrochloric acid, H⁺ is discharged at the cathode to form hydrogen; under the textbook dilute-solution rule, OH⁻ is preferentially discharged at the anode to form oxygen, giving D."
+F5 Chp 7,radio,Perlis2023_Q36,A,B,C,D,D,Perlis 2023/Picture36.png,"中文：镁与铜在所列金属对中电化学序列相距最远，产生最大的电位差，因此选D。
+English: Magnesium and copper have the greatest separation in the electrochemical series among the listed pairs, giving the largest potential difference and D."
+F5 Chp 7,radio,PutrajayaSet12023_Q35,A,B,C,D,B,Putrajaya Set 1 2023/Picture35.png,"中文：Q的饱和脂肪比例低于一半，表示含较多不饱和脂肪，其碳链有碳碳双键，因此选B。
+English: Q contains less than half saturated fat, indicating substantial unsaturated fat with carbon–carbon double bonds, giving B."
+F5 Chp 7,radio,PutrajayaSet12023_Q36,A,B,C,D,C,Putrajaya Set 1 2023/Picture36.png,"中文：化学电池利用自发化学反应产生电流，把化学能转变为电能，因此选C。
+English: A chemical cell uses a spontaneous chemical reaction to produce current, converting chemical energy into electrical energy, giving C."
+F5 Chp 7,radio,PutrajayaSet22023_Q35,A,B,C,D,C,Putrajaya Set 2 2023/Picture35.png,"中文：Z为亲水性的离子头，溶于水；Y为疏水碳氢尾，进入油脂，所以C正确。
+English: Z is the hydrophilic ionic head that interacts with water; Y is the hydrophobic hydrocarbon tail that enters grease, so C is correct."
+F5 Chp 7,radio,PutrajayaSet22023_Q36,A,B,C,D,B,Putrajaya Set 2 2023/Picture36.png,"中文：阳离子cation是带正电的离子，原子失去电子后形成，所以应选A。现有答案B写负离子，实际上是anion，暂保留并注明疑点。
+English: A cation is a positively charged ion formed by electron loss, so A is correct. Existing B says negative ion, which defines an anion, and is retained with this discrepancy noted."
+F5 Chp 7,radio,SarawakSubisMiri2023_Q35,A,B,C,D,A,Sarawak Subis Miri 2023/Picture35.png,"中文：正确清洁顺序为刷洗M→亲水头入水及疏水尾入油P→包围污垢O→随水离开N，应选C。现有A把污垢离开放在包围之前，顺序不合理。
+English: The sequence is scrubbing M → head in water and tail in grease P → surrounding dirt O → removal N, giving C. Existing A places removal before surrounding the dirt."
+F5 Chp 7,radio,SarawakSubisMiri2023_Q36,A,B,C,D,B,Sarawak Subis Miri 2023/Picture36.png,"中文：Y在负极产生，为氢气；可用点燃木条检验，产生爆鸣声，应选C。现有B石灰水用于检验二氧化碳。
+English: Y is produced at the negative electrode and is hydrogen; a lighted splint gives a squeaky pop, so C. Existing B, limewater, tests carbon dioxide."
+F5 Chp 7,radio,Selangor2023_Q35,A,B,C,D,C,Selangor 2023/Picture35.png,"中文：锌在负极失去电子，X接受电子为正极，所列比锌不活泼的铜符合条件，因此选C。
+English: Zinc loses electrons at the negative terminal; X receives electrons at the positive terminal, so copper, less reactive than zinc, is C."
+F5 Chp 7,radio,Selangor2023_Q36,A,B,C,D,D,Selangor 2023/Picture36.png,"中文：焦距10 cm，物距45 cm大于2f=20 cm，凸透镜形成位于f与2f之间的实、倒立、缩小像。
+English: Focal length is 10 cm and object distance 45 cm exceeds 2f = 20 cm; the convex lens forms a real, inverted, diminished image between f and 2f."
+F5 Chp 7,radio,SelangorSet22023_Q35,A,B,C,D,C,Selangor Set 2 2023/Picture35.png,"中文：Y是负极并把电子供给铁，所以必须比铁活泼；所列锌A符合，银C比铁不活泼。现有答案C与电子方向不符。
+English: Y is the negative terminal supplying electrons to iron and must be more reactive; zinc, A, fits, whereas silver, C, is less reactive than iron. Existing C conflicts with the electron direction."
+F5 Chp 7,radio,SelangorSet22023_Q36,A,B,C,D,C,Selangor Set 2 2023/Picture36.png,"中文：焦距15 cm，物距25 cm在f与2f=30 cm之间，凸透镜产生实、倒立、放大的像，因此选C。
+English: The focal length is 15 cm and object distance 25 cm lies between f and 2f = 30 cm, producing a real, inverted, magnified image, giving C."
+F5 Chp 7,radio,TerengganuMPP32023_Q35,A,B,C,D,B,Terengganu MPP3 2023/Picture35.png,"中文：物体在凸透镜f与2f之间时，产生实、倒立、放大的像，选B；在2f则为同大的实倒像。
+English: An object between f and 2f of a convex lens forms a real, inverted, magnified image, giving B; at 2f the real inverted image is the same size."
+F5 Chp 7,radio,TerengganuMPP32023_Q36,A,B,C,D,D,Terengganu MPP3 2023/Picture36.png,"中文：显微镜总放大率=目镜5×物镜40=200倍，因此选D。
+English: Total microscope magnification = eyepiece 5 × objective 40 = 200 times, giving D."
+F5 Chp 7,radio,SBP2023_Q35,A,B,C,D,A,SBP 2023/Picture35.png,"中文：熔融溴化铅(II)含Pb²⁺阳离子和Br⁻阴离子，因此选A。
+English: Molten lead(II) bromide contains Pb²⁺ cations and Br⁻ anions, giving A."
+F5 Chp 7,radio,SBP2023_Q36,A,B,C,D,C,SBP 2023/Picture36.png,"中文：镁较活泼，在负极失去电子变为Mg²⁺进入溶液，所以镁片逐渐溶解，选C。
+English: More reactive magnesium loses electrons at the negative electrode to become Mg²⁺ in solution, so the plate gradually dissolves, giving C."
+F5 Chp 8,radio,KedahTrial2023_Q37,A,B,C,D,A,Kedah Trial 2023/Picture37.png,"中文：伯努利原理指出，流速较低处压强较高，流速较高处压强较低，因此 A 正确。
+English: Bernoulli's principle states that slower-moving fluid has higher pressure and faster-moving fluid has lower pressure."
+F5 Chp 8,radio,KedahTrial2023_Q38,A,B,C,D,B,Kedah Trial 2023/Picture38.png,"中文：液体传递相同压强：F/0.01 = 10,000/2，所以 F = 50 N。
+English: Equal pressure gives F/0.01 = 10,000/2, so F = 50 N."
+F5 Chp 8,radio,KelantanTrial2023_Q37,A,B,C,D,B,Kelantan Trial 2023/Picture37.png,"中文：螺旋桨上方B的气流较快、压力较低，下方较高压力产生向上的升力，因此最低压力位置为B。
+English: Air moves faster above the blade at B, giving lower pressure; higher pressure below produces lift, so B has the lowest pressure."
+F5 Chp 8,radio,KelantanTrial2023_Q38,A,B,C,D,A,Kelantan Trial 2023/Picture38.png,"中文：帕斯卡原理：F/2 = 500/100，因此小活塞所需力为 10 N。
+English: Pascal's principle gives F/2 = 500/100, so the required force is 10 N."
+F5 Chp 8,radio,MaahadJohor2023_Q37,A,B,C,D,B,Maahad Johor 2023/Picture37.png,"中文：相同压强：F/0.01 = 1,000/1，得 F = 10 N。
+English: Equal pressure gives F/0.01 = 1,000/1, so F = 10 N."
+F5 Chp 8,radio,MaahadJohor2023_Q38,A,B,C,D,D,Maahad Johor 2023/Picture38.png,"中文：2 号管水位最低表示当地压强最低；狭窄处流速最高，因此选 D。
+English: The lowest water level at tube 2 means lowest pressure, caused by the highest fluid speed in the narrow section."
+F5 Chp 8,radio,NegeriSembilan2023_Q37,A,B,C,D,C,Negeri Sembilan 2023/Picture37.png,"中文：物体在凸透镜与焦点之间，折射光线的反向延长线形成正立、虚且放大的像，因此选C。
+English: An object between a convex lens and its focal point forms an upright, virtual, enlarged image where the backward extensions of refracted rays meet, giving C."
+F5 Chp 8,radio,NegeriSembilan2023_Q38,A,B,C,D,B,Negeri Sembilan 2023/Picture38.png,"中文：答案B给出X水位K、Z水位L，表示X压力高于Z。注意图中X和Z管径相近；理想无损模型会给出相近压力，这份题目的答案须理解为包含沿流动方向的压力损失。
+English: Answer B gives level K at X and L at Z, indicating higher pressure at X. Their diameters appear similar, so an ideal loss-free model would predict similar pressures; the supplied answer requires pressure loss along the flow to be considered."
+F5 Chp 8,radio,PahangTrial2023_Q37,A,B,C,D,C,Pahang Trial 2023/Picture37.png,"中文：显微镜的物镜最靠近标本，位于镜筒下方的转盘处，图中为C。
+English: The objective lens is closest to the specimen, on the revolving nosepiece below the microscope tube, labelled C."
+F5 Chp 8,radio,PahangTrial2023_Q38,A,B,C,D,A,Pahang Trial 2023/Picture38.png,"中文：翼上方Q气流较快、压力较低；下方S气流较慢、压力较高，产生向上的升力，因此选A。
+English: Air flows faster at Q above the wing, giving lower pressure; pressure is higher at S below, producing upward lift, so A."
+F5 Chp 8,radio,Melaka2023_Q37,A,B,C,D,B,Melaka 2023/Picture37.png,"中文：图示凹透镜形成正立、缩小的虚像，选项 C 正确；原答案 B 的倒像不符合凹透镜成像。
+English: A concave lens forms an upright, diminished virtual image, matching C; the original key B, inverted, is inconsistent."
+F5 Chp 8,radio,Melaka2023_Q38,A,B,C,D,B,Melaka 2023/Picture38.png,"中文：总放大率 = 物镜放大率 × 目镜放大率；物镜 = 832 ÷ 16 = 52 倍。
+English: Objective magnification = total magnification/eyepiece magnification = 832/16 = 52 times."
+F5 Chp 8,radio,Perak2023_Q37,A,B,C,D,A,Perak 2023/Picture37.png,"中文：望远镜物镜要较长焦距T=55 cm，目镜用较短焦距R=8 cm；正常调整镜距为55+8=63 cm，因此选A。
+English: The telescope uses long-focus objective T, 55 cm, and short-focus eyepiece R, 8 cm; normal-adjustment separation is 55 + 8 = 63 cm, giving A."
+F5 Chp 8,radio,Perak2023_Q38,A,B,C,D,C,Perak 2023/Picture38.png,"中文：放大镜为凸透镜，物体位于焦距内时形成正立、虚且放大的像，因此选C。
+English: A magnifying glass is a convex lens; an object within its focal length forms an upright, virtual, magnified image, giving C."
+F5 Chp 8,radio,Perlis2023_Q37,A,B,C,D,A,Perlis 2023/Picture37.png,"中文：目镜把物镜形成的中间像再次放大，最终像为虚像，因此答案A抓住虚像和放大两项；但普通双凸透镜望远镜的最终像相对原物是倒立，选项“正立”有疑点。
+English: The eyepiece further magnifies the intermediate image and produces a virtual final image, matching those features in A; however, an ordinary two-convex-lens telescope gives an image inverted relative to the original object, so “upright” is questionable."
+F5 Chp 8,radio,Perlis2023_Q38,A,B,C,D,A,Perlis 2023/Picture38.png,"中文：Q处管道较窄，水流速度较高；按伯努利原理压力较低，所以竖管水位最低。
+English: The pipe is narrower at Q, so water flows faster; Bernoulli's principle gives lower pressure and therefore the lowest vertical water level."
+F5 Chp 8,radio,PutrajayaSet12023_Q37,A,B,C,D,A,Putrajaya Set 1 2023/Picture37.png,"中文：液态电解质中的离子可以自由移动，携带电荷并移向电极，因此必须为熔融或溶液状态。
+English: Ions in liquid electrolytes can move freely, carry charge and travel to electrodes, so the electrolyte must be molten or in solution."
+F5 Chp 8,radio,PutrajayaSet12023_Q38,A,B,C,D,C,Putrajaya Set 1 2023/Picture38.png,"中文：平行于主轴的光线经过凸透镜后应在另一侧焦点F汇聚，图C符合这项规则。
+English: Rays parallel to the principal axis converge at focal point F on the other side of a convex lens, as correctly shown in C."
+F5 Chp 8,radio,PutrajayaSet22023_Q37,A,B,C,D,B,Putrajaya Set 2 2023/Picture37.png,"中文：电池由化学电池构成，把化学能转为电能；电镀、金属提纯及电解提取使用的是电解槽。
+English: Batteries use chemical cells to convert chemical energy into electrical energy; electroplating, purification and electrolytic extraction use electrolytic cells instead."
+F5 Chp 8,radio,PutrajayaSet22023_Q38,A,B,C,D,C,Putrajaya Set 2 2023/Picture38.png,"中文：凹透镜对真实物体形成正立、虚且缩小的像，所以本题选C缩小。
+English: A concave lens forms an upright, virtual, diminished image of a real object, so C, diminished, is correct."
+F5 Chp 8,radio,SarawakSubisMiri2023_Q37,A,B,C,D,C,Sarawak Subis Miri 2023/Picture37.png,"中文：平行主轴的光线通过凸透镜后向焦点会聚，穿过光心的光线不偏折。现有C画成发散，不符合凸透镜规则，需核对答案表。
+English: A ray parallel to the principal axis converges towards the focal point after a convex lens, while one through the optical centre remains straight. Existing C shows divergence and does not follow these rules."
+F5 Chp 8,radio,SarawakSubisMiri2023_Q38,A,B,C,D,D,Sarawak Subis Miri 2023/Picture38.png,"中文：放大镜在物体处于焦距内时形成虚、正立、放大的像，应选B。现有D写实、正立、放大，不符合放大镜成像。
+English: A magnifying glass forms a virtual, upright, enlarged image when the object is inside its focal length, giving B. Existing D says real, upright and enlarged, which is incorrect."
+F5 Chp 8,radio,Selangor2023_Q37,A,B,C,D,D,Selangor 2023/Picture37.png,"中文：较短焦距的镜头提供较宽视角，能在同一距离拍到更大的范围，因此选D。
+English: A shorter-focal-length lens gives a wider field of view and captures more of a scene at the same distance, giving D."
+F5 Chp 8,radio,Selangor2023_Q38,A,B,C,D,C,Selangor 2023/Picture38.png,"中文：按帕斯卡原理50÷5=F÷10，所以输出力F=100 N，选C。
+English: By Pascal's principle, 50/5 = F/10, so output force F = 100 N, giving C."
+F5 Chp 8,radio,SelangorSet22023_Q37,A,B,C,D,C,Selangor Set 2 2023/Picture37.png,"中文：较短焦距镜头提供较宽视角，可拍摄较大范围，因此选C。
+English: A shorter-focal-length lens provides a wider field of view and captures a larger scene, giving C."
+F5 Chp 8,radio,SelangorSet22023_Q38,A,B,C,D,B,Selangor Set 2 2023/Picture38.png,"中文：帕斯卡原理150÷15=F÷35，得F=350 N，应选C。现有B250 N与题设面积和作用力不符。
+English: Pascal's principle gives 150/15 = F/35, so F = 350 N, answer C. Existing B, 250 N, disagrees with the stated areas and force."
+F5 Chp 8,radio,TerengganuMPP32023_Q37,A,B,C,D,A,Terengganu MPP3 2023/Picture37.png,"中文：牙科椅液压升降利用帕斯卡原理，密闭液体把施加压力传到大活塞以抬升椅子。
+English: A dental chair's hydraulic lift uses Pascal's principle, transmitting pressure through confined liquid to a larger piston to raise the chair."
+F5 Chp 8,radio,TerengganuMPP32023_Q38,A,B,C,D,C,Terengganu MPP3 2023/Picture38.png,"中文：输入压力=60÷2=30 N/cm²，输出力=30×40=1200 N，因此选C。
+English: Input pressure = 60/2 = 30 N/cm²; output force = 30 × 40 = 1200 N, giving C."
+F5 Chp 8,radio,SBP2023_Q37,A,B,C,D,C,SBP 2023/Picture37.png,"中文：封闭系统不能与外界交换物质，但仍可交换能量，因此选C。
+English: A closed system does not exchange matter with its surroundings, although it can exchange energy, giving C."
+F5 Chp 8,radio,SBP2023_Q38,A,B,C,D,B,SBP 2023/Picture38.png,"中文：焦距是透镜光心到平行光汇聚焦点的距离，图中为B，不是透镜前方或焦点后的距离。
+English: Focal length is the distance from the lens's optical centre to where parallel rays converge, labelled B, not the distance before the lens or beyond the focus."
+F5 Chp 9,radio,KedahTrial2023_Q39,A,B,C,D,B,Kedah Trial 2023/Picture39.png,"中文：X 是轨道上最靠近地球的位置，称为近地点 Perigee；最远处为远地点。
+English: X is the point nearest Earth, called perigee; the farthest point is apogee."
+F5 Chp 9,radio,KedahTrial2023_Q40,A,B,C,D,C,Kedah Trial 2023/Picture40.png,"中文：Google Maps 利用 GPS 确定用户位置并提供路线导航。
+English: Google Maps uses GPS to locate users and provide route navigation."
+F5 Chp 9,radio,KelantanTrial2023_Q39,A,B,C,D,D,Kelantan Trial 2023/Picture39.png,"中文：课本把 2,000–35,780 km 的高度列为中地球轨道 MEO，对应 A；原答案 D 为 HEO，与该高度范围不符。
+English: The textbook altitude 2,000–35,780 km identifies medium Earth orbit, MEO, in A; the original key D labels HEO and does not match the range."
+F5 Chp 9,radio,KelantanTrial2023_Q40,A,B,C,D,D,Kelantan Trial 2023/Picture40.png,"中文：国际空间站提供微重力环境，让科学家研究生物、材料及其他科学现象。
+English: The ISS provides a microgravity environment for scientific studies of organisms, materials and other phenomena."
+F5 Chp 9,radio,MaahadJohor2023_Q39,A,B,C,D,B,Maahad Johor 2023/Picture39.png,"中文：列车旁空气流速高、压强低，可产生把人拉向列车的危险，须站在黄线后。
+English: Fast air beside a moving train has lower pressure and may pull a person toward the train, explaining the safety line."
+F5 Chp 9,radio,MaahadJohor2023_Q40,A,B,C,D,D,Maahad Johor 2023/Picture40.png,"中文：至少四颗卫星可协助确定三维位置并修正接收机时间误差，提高 GPS 定位准确性。
+English: At least four satellites help determine a three-dimensional position and correct receiver timing error for accurate GPS positioning."
+F5 Chp 9,radio,NegeriSembilan2023_Q39,A,B,C,D,C,Negeri Sembilan 2023/Picture39.png,"中文：椭圆轨道中卫星最接近地球的位置称为近地点perigee；最远的位置称为远地点apogee。
+English: The point nearest Earth in an elliptical satellite orbit is the perigee; the farthest point is the apogee."
+F5 Chp 9,radio,NegeriSembilan2023_Q40,A,B,C,D,B,Negeri Sembilan 2023/Picture40.png,"中文：导航应用利用定位及路线资料估算行程时间和到达目的地的时间，因此选B。
+English: Navigation applications use location and route information to estimate travel time and arrival time at the destination, giving B."
+F5 Chp 9,radio,PahangTrial2023_Q39,A,B,C,D,B,Pahang Trial 2023/Picture39.png,"中文：卫星轨道可呈圆形或椭圆形，因此选B；螺旋形不是本题所指的稳定轨道形状。
+English: Satellite orbits can be circular or elliptical, giving B; a spiral is not the stable orbital shape meant here."
+F5 Chp 9,radio,PahangTrial2023_Q40,A,B,C,D,C,Pahang Trial 2023/Picture40.png,"中文：GPS追踪器可提供车辆的位置资料，从而追踪被盗车辆的移动，比只用无线电或追赶更有效。
+English: A GPS tracker provides the vehicle's location, allowing its movement to be followed more effectively than radio contact or pursuit alone."
+F5 Chp 9,radio,Melaka2023_Q39,A,B,C,D,C,Melaka 2023/Picture39.png,"中文：面积比不变时，输出力与输入力成正比；输入 10 N 到 20 N，输出由 200 N 到 400 N。
+English: With a fixed area ratio, output force is proportional to input force; doubling 10 N to 20 N doubles 200 N to 400 N."
+F5 Chp 9,radio,Melaka2023_Q40,A,B,C,D,C,Melaka 2023/Picture40.png,"中文：第一坐标是纬度；负纬度表示位于赤道以南，即南半球。
+English: The first coordinate is latitude; a negative latitude indicates the southern hemisphere."
+F5 Chp 9,radio,Perak2023_Q39,A,B,C,D,D,Perak 2023/Picture39.png,"中文：K的竖管水柱高于M，表示K压力较高；L处管径较小，流速较快、压力较低，因此D正确。
+English: The water column at K is higher than at M, indicating higher pressure at K; narrow section L has faster flow and lower pressure, so D is correct."
+F5 Chp 9,radio,Perak2023_Q40,A,B,C,D,D,Perak 2023/Picture40.png,"中文：十进制度=6+12÷60+42.05÷3600≈6.211681°N，因此选D。
+English: Decimal degrees = 6 + 12 ÷ 60 + 42.05 ÷ 3600 ≈ 6.211681°N, giving D."
+F5 Chp 9,radio,Perlis2023_Q39,A,B,C,D,B,Perlis 2023/Picture39.png,"中文：无人机上方B气流较快、压力较低，下方较高压力产生向上升力，因此低压位置为B。
+English: Air flows faster above the drone at B, giving lower pressure; higher pressure below produces upward lift, so B is the low-pressure region."
+F5 Chp 9,radio,Perlis2023_Q40,A,B,C,D,C,Perlis 2023/Picture40.png,"中文：轨道越高，卫星距地心越远，圆轨道所需速度越低，因此选C。
+English: A higher orbit places a satellite farther from Earth's centre and requires a lower circular-orbit speed, giving C."
+F5 Chp 9,radio,PutrajayaSet12023_Q39,A,B,C,D,D,Putrajaya Set 1 2023/Picture39.png,"中文：液压起重机利用帕斯卡原理，密闭液体把压力传到较大活塞，产生较大举升力，因此选D。
+English: A hydraulic crane uses Pascal's principle to transmit pressure through confined liquid to a larger piston, producing a greater lifting force, giving D."
+F5 Chp 9,radio,PutrajayaSet12023_Q40,A,B,C,D,D,Putrajaya Set 1 2023/Picture40.png,"中文：圆形且位于赤道平面、倾角0°的轨道符合地球静止轨道的特点，因此选D。
+English: A circular orbit in the equatorial plane with 0° inclination matches the features of a geostationary orbit, giving D."
+F5 Chp 9,radio,PutrajayaSet22023_Q39,A,B,C,D,A,Putrajaya Set 2 2023/Picture39.png,"中文：本生灯喷嘴的气体快速流动，附近压力降低，使空气进入混合，是伯努利原理的应用。
+English: Fast gas flow at a Bunsen burner's nozzle lowers nearby pressure and draws air into the mixture, applying Bernoulli's principle."
+F5 Chp 9,radio,PutrajayaSet22023_Q40,A,B,C,D,C,Putrajaya Set 2 2023/Picture40.png,"中文：国际空间站可作为太空科学实验室，进行微重力等条件下的研究，因此选C。
+English: The International Space Station serves as a science laboratory for research under conditions such as microgravity, giving C."
+F5 Chp 9,radio,SarawakSubisMiri2023_Q39,A,B,C,D,B,Sarawak Subis Miri 2023/Picture39.png,"中文：按帕斯卡原理F÷0.05=3000÷1.5，得F=100 N，因此选B。
+English: By Pascal's principle, F/0.05 = 3000/1.5, so F = 100 N, giving B."
+F5 Chp 9,radio,SarawakSubisMiri2023_Q40,A,B,C,D,A,Sarawak Subis Miri 2023/Picture40.png,"中文：W为椭圆轨道上离地球最远的位置，称为远地点apogee，因此选A。
+English: W is the point farthest from Earth on the elliptical orbit, called the apogee, giving A."
+F5 Chp 9,radio,Selangor2023_Q39,A,B,C,D,C,Selangor 2023/Picture39.png,"中文：X指向最接近地球的蓝色虚线轨道，是低地球轨道LEO，选C。
+English: X points to the blue dashed orbit closest to Earth, the low Earth orbit, LEO, giving C."
+F5 Chp 9,radio,Selangor2023_Q40,A,B,C,D,B,Selangor 2023/Picture40.png,"中文：GPS由控制部分、太空部分和用户部分组成，分别负责监控、卫星信号和接收定位，因此选B。
+English: GPS consists of control, space and user segments for monitoring, satellite signals and positioning receivers, giving B."
+F5 Chp 9,radio,SelangorSet22023_Q39,A,B,C,D,B,Selangor Set 2 2023/Picture39.png,"中文：X指向长椭圆形的红色虚线轨道，本题将其标示为高地球轨道HEO，因此选B。
+English: X points to the elongated red dashed orbit, identified in this question as high Earth orbit, HEO, giving B."
+F5 Chp 9,radio,SelangorSet22023_Q40,A,B,C,D,B,Selangor Set 2 2023/Picture40.png,"中文：GPS提供位置和时间资料，可在各种天气下使用，因此选B；天气资料不是GPS本身定位功能。
+English: GPS provides location and time information in all weather conditions, giving B; weather information is not its positioning function."
+F5 Chp 9,radio,TerengganuMPP32023_Q39,A,B,C,D,D,Terengganu MPP3 2023/Picture39.png,"中文：在题目默认可比的卫星条件下，较低圆轨道速度对应较高轨道及较弱引力，U速度11100 km/h最低，所以选D。
+English: Under the question's comparable-satellite assumption, lower circular-orbit speed indicates a higher orbit and weaker gravity; U is slowest at 11100 km/h, giving D."
+F5 Chp 9,radio,TerengganuMPP32023_Q40,A,B,C,D,C,Terengganu MPP3 2023/Picture40.png,"中文：GPS提供位置资料，结合导航应用可找到客户送餐地点，因此选C。
+English: GPS provides location information, allowing a navigation application to find the customer's delivery point, giving C."
+F5 Chp 9,radio,SBP2023_Q39,A,B,C,D,A,SBP 2023/Picture39.png,"中文：液压系统内的压力由施加在小活塞上的力与面积决定，并通过液体传递，因此选A。
+English: Pressure in a hydraulic system is set by the force and area at the small piston and transmitted through the liquid, giving A."
+F5 Chp 9,radio,SBP2023_Q40,A,B,C,D,A,SBP 2023/Picture40.png,"中文：卫星轨道可呈圆形或椭圆形，因此选A。
+English: Satellite orbits can be circular or elliptical, giving A."

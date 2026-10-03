@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Sarawak Subis Miri 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,C,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,A,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Sarawak Subis Miri 2023 F5,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：青霉素由Penicillium chrysogenum产生，应选C。现有B为Bifidobacteria，并非本题的青霉素生产菌。
+English: Penicillin is produced by Penicillium chrysogenum, giving C. Existing B, Bifidobacteria, is not the penicillin producer in this question."
+,radio,F5 Chp 1,A,B,C,D,C,Picture24.png,"中文：脚癣为真菌病，所列克霉唑clotrimazole是抗真菌药，应选D；现有C胰岛素用于血糖调节。
+English: Athlete's foot is fungal; clotrimazole is the listed antifungal treatment, giving D. Existing C, insulin, regulates blood glucose instead."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：能量=20×10.12+10×6.59+10×30.0=568.3 kJ，因此选D。
+English: Energy = 20 × 10.12 + 10 × 6.59 + 10 × 30.0 = 568.3 kJ, giving D."
+,radio,F5 Chp 2,A,B,C,D,B,Picture26.png,"中文：闪电把大气氮转为含氮化合物，随雨水形成土壤硝酸盐，因此应选A。现有B硝化菌把铵转为硝酸盐，不能直接利用大气氮。
+English: Lightning converts atmospheric nitrogen into nitrogen compounds that reach soil as nitrates through rain, giving A. Existing B, nitrifying bacteria, converts ammonium rather than directly using atmospheric nitrogen."
+,radio,F5 Chp 3,A,B,C,D,A,Picture27.png,"中文：罐藏把食物装入罐中并高温高压处理，以杀死微生物及孢子，因此应选C。现有A描述的是辐射保存法。
+English: Canning seals food in cans and uses high-temperature, high-pressure processing to kill microorganisms and spores, giving C. Existing A describes irradiation."
+,radio,F5 Chp 3,A,B,C,D,C,Picture28.png,"中文：伐林减少吸收二氧化碳，工业和燃烧燃料释放废气，都与空气污染相关，应选B。现有C土壤污染不符合所列原因。
+English: Deforestation reduces carbon-dioxide uptake while industry and fuel combustion emit gases; these relate to air pollution, giving B. Existing C, soil pollution, does not match the listed causes."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：C河水只需20分钟使亚甲蓝褪色，最短时间表示耗氧最快、污染最严重，应选C；现有A河需30分钟，非最严重。
+English: River C decolourises methylene blue in 20 minutes, the shortest time and fastest oxygen depletion, indicating greatest pollution, so C; river A takes 30 minutes and is not the most polluted."
+,radio,F5 Chp 4,A,B,C,D,D,Picture30.png,"中文：平均速率=镁带长度÷时间=20÷4=5.0 cm/min，应选A。现有答案D需核对，不能从这组数字得到其他速率。
+English: Average rate = magnesium length ÷ time = 20 ÷ 4 = 5.0 cm/min, giving A. Existing D requires review; the stated data do not yield another rate."
+,radio,F5 Chp 5,A,B,C,D,A,Picture31.png,"中文：接触法使用氧化钒(V)催化剂，应选B；铁粉A用于哈伯法而非接触法。
+English: The Contact process uses vanadium(V) oxide, giving B; iron powder, A, is the Haber-process catalyst."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：题干通式印成CnH₂n+n，存在笔误。若原意为CnH₂n，C丙烯与戊烯正确；若为CnH₂n+₂，则应选D丁烷与己烷，需核对原意。
+English: The printed formula CnH₂n+n is a typo. If CnH₂n is intended, C, propene and pentene, is correct; if CnH₂n+₂ is intended, D, butane and hexane, is correct. The intended formula needs checking."
+,radio,F5 Chp 6,A,B,C,D,B,Picture33.png,"中文：醇的碳链越长，分子间吸引力通常越强、沸点越高，因此正确C。现有B说醇不溶于有机溶剂，不是正确的一般性质。
+English: As an alcohol's carbon chain grows, intermolecular attraction and boiling point generally increase, giving C. Existing B's statement that alcohol is insoluble in organic solvents is not generally correct."
+,radio,F5 Chp 6,A,B,C,D,C,Picture34.png,"中文：动脉内脂肪沉积使管腔变窄，题目应选D减少脂肪摄入。现有C减少甜食不是本图最直接的选项。
+English: Fat deposits narrow the artery's lumen, so D, reducing fat intake, is the most direct listed response. Existing C, reducing sweets, is not the direct choice illustrated."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：正确清洁顺序为刷洗M→亲水头入水及疏水尾入油P→包围污垢O→随水离开N，应选C。现有A把污垢离开放在包围之前，顺序不合理。
+English: The sequence is scrubbing M → head in water and tail in grease P → surrounding dirt O → removal N, giving C. Existing A places removal before surrounding the dirt."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：Y在负极产生，为氢气；可用点燃木条检验，产生爆鸣声，应选C。现有B石灰水用于检验二氧化碳。
+English: Y is produced at the negative electrode and is hydrogen; a lighted splint gives a squeaky pop, so C. Existing B, limewater, tests carbon dioxide."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：平行主轴的光线通过凸透镜后向焦点会聚，穿过光心的光线不偏折。现有C画成发散，不符合凸透镜规则，需核对答案表。
+English: A ray parallel to the principal axis converges towards the focal point after a convex lens, while one through the optical centre remains straight. Existing C shows divergence and does not follow these rules."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：放大镜在物体处于焦距内时形成虚、正立、放大的像，应选B。现有D写实、正立、放大，不符合放大镜成像。
+English: A magnifying glass forms a virtual, upright, enlarged image when the object is inside its focal length, giving B. Existing D says real, upright and enlarged, which is incorrect."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：按帕斯卡原理F÷0.05=3000÷1.5，得F=100 N，因此选B。
+English: By Pascal's principle, F/0.05 = 3000/1.5, so F = 100 N, giving B."
+,radio,F5 Chp 9,A,B,C,D,A,Picture40.png,"中文：W为椭圆轨道上离地球最远的位置，称为远地点apogee，因此选A。
+English: W is the point farthest from Earth on the elliptical orbit, called the apogee, giving A."

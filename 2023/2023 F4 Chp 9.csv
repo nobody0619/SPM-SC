@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 9,radio,KedahTrial2023_Q15,A,B,C,D,C,Kedah Trial 2023/Picture15.png
-F4 Chp 9,radio,KedahTrial2023_Q16,A,B,C,D,A,Kedah Trial 2023/Picture16.png
-F4 Chp 9,radio,KelantanTrial2023_Q15,A,B,C,D,A,Kelantan Trial 2023/Picture15.png
-F4 Chp 9,radio,KelantanTrial2023_Q16,A,B,C,D,A,Kelantan Trial 2023/Picture16.png
-F4 Chp 9,radio,MaahadJohor2023_Q15,A,B,C,D,D,Maahad Johor 2023/Picture15.png
-F4 Chp 9,radio,MaahadJohor2023_Q16,A,B,C,D,A,Maahad Johor 2023/Picture16.png
-F4 Chp 9,radio,NegeriSembilan2023_Q15,A,B,C,D,C,Negeri Sembilan 2023/Picture15.png
-F4 Chp 9,radio,NegeriSembilan2023_Q16,A,B,C,D,C,Negeri Sembilan 2023/Picture16.png
-F4 Chp 9,radio,PahangTrial2023_Q15,A,B,C,D,C,Pahang Trial 2023/Picture15.png
-F4 Chp 9,radio,PahangTrial2023_Q16,A,B,C,D,D,Pahang Trial 2023/Picture16.png
-F4 Chp 9,radio,Melaka2023_Q15,A,B,C,D,B,Melaka 2023/Picture15.png
-F4 Chp 9,radio,Melaka2023_Q16,A,B,C,D,D,Melaka 2023/Picture16.png
-F4 Chp 9,radio,Perak2023_Q15,A,B,C,D,B,Perak 2023/Picture15.png
-F4 Chp 9,radio,Perak2023_Q16,A,B,C,D,D,Perak 2023/Picture16.png
-F4 Chp 9,radio,Perlis2023_Q15,A,B,C,D,B,Perlis 2023/Picture15.png
-F4 Chp 9,radio,Perlis2023_Q16,A,B,C,D,A,Perlis 2023/Picture16.png
-F4 Chp 9,radio,PutrajayaSet12023_Q15,A,B,C,D,C,Putrajaya Set 1 2023/Picture15.png
-F4 Chp 9,radio,PutrajayaSet12023_Q16,A,B,C,D,D,Putrajaya Set 1 2023/Picture16.png
-F4 Chp 9,radio,PutrajayaSet22023_Q15,A,B,C,D,B,Putrajaya Set 2 2023/Picture15.png
-F4 Chp 9,radio,PutrajayaSet22023_Q16,A,B,C,D,C,Putrajaya Set 2 2023/Picture16.png
-F4 Chp 9,radio,SarawakSubisMiri2023_Q15,A,B,C,D,B,Sarawak Subis Miri 2023/Picture15.png
-F4 Chp 9,radio,SarawakSubisMiri2023_Q16,A,B,C,D,B,Sarawak Subis Miri 2023/Picture16.png
-F4 Chp 9,radio,Selangor2023_Q15,A,B,C,D,C,Selangor 2023/Picture15.png
-F4 Chp 9,radio,Selangor2023_Q16,A,B,C,D,C,Selangor 2023/Picture16.png
-F4 Chp 9,radio,SelangorSet22023_Q15,A,B,C,D,B,Selangor Set 2 2023/Picture15.png
-F4 Chp 9,radio,SelangorSet22023_Q16,A,B,C,D,B,Selangor Set 2 2023/Picture16.png
-F4 Chp 9,radio,TerengganuMPP32023_Q15,A,B,C,D,D,Terengganu MPP3 2023/Picture15.png
-F4 Chp 9,radio,TerengganuMPP32023_Q16,A,B,C,D,C,Terengganu MPP3 2023/Picture16.png
-F4 Chp 9,radio,SBP2023_Q15,A,B,C,D,C,SBP 2023/Picture15.png
-F4 Chp 9,radio,SBP2023_Q16,A,B,C,D,D,SBP 2023/Picture16.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 9,radio,KedahTrial2023_Q15,A,B,C,D,C,Kedah Trial 2023/Picture15.png,"中文：X 与 Y 的质子数同为 11，但核子数为 24 和 23，因此是同位素。
+English: X and Y have the same proton number, 11, but different nucleon numbers, 24 and 23, so they are isotopes."
+F4 Chp 9,radio,KedahTrial2023_Q16,A,B,C,D,A,Kedah Trial 2023/Picture16.png,"中文：酸使胶乳粒子失去相互排斥的电荷，粒子聚集而凝固；碱则可延迟凝固。
+English: Acid neutralises the charges on latex particles, allowing them to aggregate and coagulate; alkali delays coagulation."
+F4 Chp 9,radio,KelantanTrial2023_Q15,A,B,C,D,A,Kelantan Trial 2023/Picture15.png,"中文：聚乙烯是轻、柔韧且防水的塑料，常用于塑料袋或薄膜。原答案 A 的产品图不清楚，与常见用途难以核对，暂保留原答案。
+English: Polythene is light, flexible and waterproof, commonly used for bags and films. Product A is unclear and difficult to match to this use; the original key is retained."
+F4 Chp 9,radio,KelantanTrial2023_Q16,A,B,C,D,A,Kelantan Trial 2023/Picture16.png,"中文：合金化把铁与其他元素结合，可改善硬度和耐腐蚀性，例如不锈钢。
+English: Alloying iron with other elements can improve hardness and corrosion resistance, as in stainless steel."
+F4 Chp 9,radio,MaahadJohor2023_Q15,A,B,C,D,D,Maahad Johor 2023/Picture15.png,"中文：传统疗法并不必然更快或更有效，因此 D 的绝对说法错误。
+English: Traditional treatment is not necessarily faster or more effective, so the absolute claim in D is false."
+F4 Chp 9,radio,MaahadJohor2023_Q16,A,B,C,D,A,Maahad Johor 2023/Picture16.png,"中文：番茄富含抗氧化物番茄红素 Lycopene；胡萝卜主要以 β-胡萝卜素著称。
+English: Tomatoes are rich in the antioxidant lycopene; carrots are better known for beta-carotene."
+F4 Chp 9,radio,NegeriSembilan2023_Q15,A,B,C,D,C,Negeri Sembilan 2023/Picture15.png,"中文：实验室玻璃器皿使用硼硅酸盐玻璃，因其耐热且热膨胀小，不易因温度变化而破裂。
+English: Laboratory glassware uses borosilicate glass because it resists heat and expands little, reducing cracking during temperature changes."
+F4 Chp 9,radio,NegeriSembilan2023_Q16,A,B,C,D,C,Negeri Sembilan 2023/Picture16.png,"中文：硫化时硫在橡胶分子链之间形成交联，使橡胶更坚韧、耐热和耐磨，因此轮胎使用寿命更长，选C。
+English: Sulfur forms cross-links between rubber chains during vulcanisation, improving strength, heat resistance and durability; tyres therefore last longer, giving C."
+F4 Chp 9,radio,PahangTrial2023_Q15,A,B,C,D,C,Pahang Trial 2023/Picture15.png,"中文：K的质子数为10，电子排列2.8，最外层有8个电子，是稳定的八隅体排列，因此选C。
+English: K has proton number 10 and electron arrangement 2.8, with a stable outer octet, giving C."
+F4 Chp 9,radio,PahangTrial2023_Q16,A,B,C,D,D,Pahang Trial 2023/Picture16.png,"中文：碳-14用于测定曾经属于生物的考古遗物年龄，通过剩余碳-14的放射性推算年代。
+English: Carbon-14 is used to date archaeological remains of once-living material by measuring the remaining radioactive carbon-14."
+F4 Chp 9,radio,Melaka2023_Q15,A,B,C,D,B,Melaka 2023/Picture15.png,"中文：R 与 U 质子数同为 11，核子数分别 23、24，是同位素。
+English: R and U both have 11 protons but nucleon numbers 23 and 24, so they are isotopes."
+F4 Chp 9,radio,Melaka2023_Q16,A,B,C,D,D,Melaka 2023/Picture16.png,"中文：萨克斯管常用黄铜，组成是铜 K 与锌 L。
+English: Brass used for instruments such as saxophones consists of copper K and zinc L."
+F4 Chp 9,radio,Perak2023_Q15,A,B,C,D,B,Perak 2023/Picture15.png,"中文：钠钙玻璃熔点较低、容易成形，常用于普通瓶罐和窗玻璃，因此选B。
+English: Soda-lime glass has a relatively low melting point and is easy to shape, making it suitable for ordinary bottles and windows, giving B."
+F4 Chp 9,radio,Perak2023_Q16,A,B,C,D,D,Perak 2023/Picture16.png,"中文：辐射和烟雾可产生自由基，损伤细胞；依本题所列选项，肾衰竭D属于这种损伤可能造成的健康问题。
+English: Radiation and cigarette smoke can generate free radicals that damage cells; among the listed options, kidney failure, D, is the health problem associated with such damage in this question."
+F4 Chp 9,radio,Perlis2023_Q15,A,B,C,D,B,Perlis 2023/Picture15.png,"中文：长期过量饮酒可损伤肝、心脏和消化系统，引起肝硬化、心脏问题及胃溃疡，因此Y为酒精。
+English: Long-term excessive alcohol intake can damage the liver, heart and digestive system, causing cirrhosis, heart problems and stomach ulcers, so Y is alcohol."
+F4 Chp 9,radio,Perlis2023_Q16,A,B,C,D,A,Perlis 2023/Picture16.png,"中文：离子物质熔融后，正负离子能自由移动并传递电荷，所以可导电。
+English: When an ionic substance melts, its positive and negative ions can move freely and carry charge, so it conducts electricity."
+F4 Chp 9,radio,PutrajayaSet12023_Q15,A,B,C,D,C,Putrajaya Set 1 2023/Picture15.png,"中文：T与U处于周期表同一横行，即同一周期，具有相同数量的已占据电子壳层，选C。
+English: T and U are on the same horizontal row, or period, and have the same number of occupied electron shells, giving C."
+F4 Chp 9,radio,PutrajayaSet12023_Q16,A,B,C,D,D,Putrajaya Set 1 2023/Picture16.png,"中文：同位素质子数相同，碳-X也有6个质子；核子数=质子+中子=6+6=12。
+English: Isotopes have the same proton number, so carbon-X also has six protons; nucleon number = protons + neutrons = 6 + 6 = 12."
+F4 Chp 9,radio,PutrajayaSet22023_Q15,A,B,C,D,B,Putrajaya Set 2 2023/Picture15.png,"中文：原子的基本亚原子粒子为质子、中子和电子；核子是质子与中子的统称，并非另一种独立粒子。
+English: The basic subatomic particles are protons, neutrons and electrons; nucleons collectively mean protons and neutrons, not an additional particle type."
+F4 Chp 9,radio,PutrajayaSet22023_Q16,A,B,C,D,C,Putrajaya Set 2 2023/Picture16.png,"中文：铅是金属，由金属原子构成，属于原子物质，因此选C。
+English: Lead is a metal composed of metal atoms and is classified as an atomic substance, giving C."
+F4 Chp 9,radio,SarawakSubisMiri2023_Q15,A,B,C,D,B,Sarawak Subis Miri 2023/Picture15.png,"中文：陶瓷坚硬且对化学物较稳定，能承受咀嚼并不易与口腔物质反应，适合制作假牙。
+English: Ceramics are hard and chemically inert, resisting chewing wear and reactions in the mouth, making them suitable for dentures."
+F4 Chp 9,radio,SarawakSubisMiri2023_Q16,A,B,C,D,B,Sarawak Subis Miri 2023/Picture16.png,"中文：硫在橡胶聚合物链间形成交联，提高耐用性，所以应选C。现有B说断开单体间的键，与硫化原理相反。
+English: Sulfur forms cross-links between rubber polymer chains and improves durability, giving C. Existing B says it breaks bonds between monomers, contrary to vulcanisation."
+F4 Chp 9,radio,Selangor2023_Q15,A,B,C,D,C,Selangor 2023/Picture15.png,"中文：图中粒子以数个原子结合成一个独立单位，即分子，因此属于分子物质。
+English: Each illustrated particle is a separate unit of bonded atoms, a molecule, so the substance is molecular."
+F4 Chp 9,radio,Selangor2023_Q16,A,B,C,D,C,Selangor 2023/Picture16.png,"中文：课本中陶瓷的主要成分为硅酸铝aluminium silicate，因此选C。
+English: The main component of ceramics in the textbook is aluminium silicate, giving C."
+F4 Chp 9,radio,SelangorSet22023_Q15,A,B,C,D,B,Selangor Set 2 2023/Picture15.png,"中文：图示粒子为独立原子，没有几个原子结合的分子单位，所以属于原子物质。
+English: The illustrated particles are individual atoms rather than bonded molecular units, so this is an atomic substance."
+F4 Chp 9,radio,SelangorSet22023_Q16,A,B,C,D,B,Selangor Set 2 2023/Picture16.png,"中文：玻璃的主要原料是二氧化硅silicon dioxide，因此选B。
+English: The main raw material of glass is silicon dioxide, giving B."
+F4 Chp 9,radio,TerengganuMPP32023_Q15,A,B,C,D,D,Terengganu MPP3 2023/Picture15.png,"中文：本题课本所指补充医学通常采用按摩、针灸等非手术方式，不涉及外科手术和缝合，因此选D。
+English: The textbook's complementary medicine uses approaches such as massage and acupuncture rather than surgical operations and stitching, giving D."
+F4 Chp 9,radio,TerengganuMPP32023_Q16,A,B,C,D,C,Terengganu MPP3 2023/Picture16.png,"中文：阿司匹林和同类图示药物属于止痛药analgesics，用于减轻疼痛，因此选C。
+English: Aspirin and the similar pictured medicine are analgesics used to relieve pain, giving C."
+F4 Chp 9,radio,SBP2023_Q15,A,B,C,D,C,SBP 2023/Picture15.png,"中文：金属失去电子形成阳离子，非金属接受电子形成阴离子，二者形成离子化合物，因此选C。
+English: A metal loses electrons to form cations and a non-metal gains electrons to form anions, producing an ionic compound, giving C."
+F4 Chp 9,radio,SBP2023_Q16,A,B,C,D,D,SBP 2023/Picture16.png,"中文：LSD属于致幻剂，能导致看到不存在的事物等幻觉，因此选D。
+English: LSD is a hallucinogen that can cause perceptions of things that are not present, giving D."

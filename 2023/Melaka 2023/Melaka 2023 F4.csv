@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Melaka 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,A,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,A,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Melaka 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：课本规定合适液体废物 pH 5–9 可排入水槽；强酸、强碱及其他禁排废物须另处理。
+English: Suitable liquid waste with pH 5–9 may enter the sink under textbook rules; strong acids, alkalis and prohibited wastes require separate disposal."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：自救式海姆立克法压迫腹部，增加胸腔和肺内压强，把阻塞物推出。
+English: Self-administered abdominal thrusts increase pressure in the chest and lungs to expel the obstruction."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：图示血压计通过袖带测量收缩压和舒张压。
+English: The blood-pressure monitor uses a cuff to measure systolic and diastolic pressure."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：温泉表示地下热能可加热水，适合发展地热能。
+English: Hot springs indicate underground heat that can be used for geothermal energy."
+,radio,F4 Chp 4,A,B,C,D,D,Picture5.png,"中文：太阳能车辆利用可再生阳光，减少石油等化石燃料的消耗。
+English: Solar vehicles use renewable sunlight and reduce fossil-fuel consumption."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：开垦森林减少吸收二氧化碳的树木，增加大气中的温室气体。
+English: Forest clearance removes trees that absorb carbon dioxide, increasing atmospheric greenhouse gas."
+,radio,F4 Chp 5,A,B,C,D,B,Picture7.png,"中文：花药中产生花粉的母细胞进行减数分裂，形成单倍体细胞。
+English: Pollen mother cells in the anther undergo meiosis to form haploid cells."
+,radio,F4 Chp 5,A,B,C,D,A,Picture8.png,"中文：Bb × bb 产生一半 Bb 可卷舌、一半 bb 不可卷舌，比例 1:1。
+English: Bb × bb produces equal numbers of tongue-rolling Bb and non-rolling bb offspring, giving 1:1."
+,radio,F4 Chp 6,A,B,C,D,C,Picture9.png,"中文：抗药性基因若扩散至不希望存活的生物，可形成抗药性问题，因此是潜在弊端。
+English: Spread of resistance genes to unwanted organisms can create resistance problems, a potential disadvantage."
+,radio,F4 Chp 6,A,B,C,D,D,Picture10.png,"中文：螃蟹的硬外壳是外骨骼；蜥蜴及鲸为内骨骼。
+English: A crab's hard outer covering is an exoskeleton; lizards and whales have endoskeletons."
+,radio,F4 Chp 7,A,B,C,D,A,Picture11.png,"中文：骨科医生专门诊治骨折、骨骼或脊柱问题，并规划相关康复。
+English: An orthopaedic specialist diagnoses and treats fractures, bone and spinal disorders and associated rehabilitation."
+,radio,F4 Chp 8,A,B,C,D,A,Picture12.png,"中文：胰腺分泌胰岛素，帮助降低及调节血糖。
+English: The pancreas secretes insulin, which helps regulate and lower blood glucose."
+,radio,F4 Chp 8,A,B,C,D,B,Picture13.png,"中文：酒精首先影响脑部协调和判断，使反应速度、平衡及决策能力下降。
+English: Alcohol affects brain coordination and judgement, slowing reactions and impairing balance and decisions."
+,radio,F4 Chp 8,A,B,C,D,C,Picture14.png,"中文：金属失去电子、非金属得到电子，形成正负离子并以静电吸引结合。
+English: A metal transfers electrons to a non-metal, forming oppositely charged ions held by electrostatic attraction."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：R 与 U 质子数同为 11，核子数分别 23、24，是同位素。
+English: R and U both have 11 protons but nucleon numbers 23 and 24, so they are isotopes."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：萨克斯管常用黄铜，组成是铜 K 与锌 L。
+English: Brass used for instruments such as saxophones consists of copper K and zinc L."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：硫在橡胶链之间形成交联，硫化后橡胶更强韧和耐热。
+English: Sulphur forms cross-links between rubber chains; vulcanisation improves strength and heat resistance."
+,radio,F4 Chp 10,A,B,C,D,A,Picture18.png,"中文：原答案 A 指规律运动，课本把健康生活方式视为保护身体的方法；但避免紫外线等其他选项也可减少自由基诱因，题目并非唯一明确答案。
+English: The original key A treats regular exercise as a healthy protective habit; avoiding UV and other listed exposures can also reduce free-radical triggers, so the item is not uniquely clear."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：活性成分是产生产品主要生理作用的成分，题中强调预防疾病的作用。
+English: An active ingredient produces a product's principal physiological effect, including the disease-prevention role intended here."
+,radio,F4 Chp 11,A,B,C,D,C,Picture20.png,"中文：加速度 = (60 − 30) ÷ 20 = 1.5 m/s²。
+English: Acceleration = (60 − 30)/20 = 1.5 m/s²."
+,radio,F4 Chp 12,A,B,C,D,B,Picture21.png,"中文：硬币因惯性倾向保持静止，卡纸迅速抽走后，硬币在重力作用下落入杯中。
+English: The coin tends to remain at rest through inertia; after the card is removed, gravity makes it fall into the glass."
+,radio,F4 Chp 12,A,B,C,D,B,Picture22.png,"中文：铀-235 吸收中子后分裂成较小核并放出能量与中子，是核裂变。
+English: Uranium-235 absorbs a neutron and splits into smaller nuclei, releasing energy and neutrons: nuclear fission."

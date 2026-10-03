@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang Trial 2023 F5,radio,F5 Chp 1,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang Trial 2023 F5,radio,F5 Chp 1,A,B,C,D,D,Picture23.png,"中文：铀-235可发生核裂变，释放大量能量，用于加热水产生蒸汽并驱动发电机。
+English: Uranium-235 undergoes nuclear fission, releasing energy to heat water, produce steam and drive generators."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：酵母发酵糖产生二氧化碳，气体使面团膨胀，所以用于制作面包。
+English: Yeast ferments sugar and releases carbon dioxide, which raises dough, so it is used in bread-making."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：抗菌剂antiseptic可用于皮肤等活体表面；消毒剂disinfectant主要用于非生命物体表面。
+English: Antiseptics can be used on living surfaces such as skin, whereas disinfectants are mainly used on non-living surfaces."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：磷是植物大量需要的宏量营养元素；锌、硼和铜属于只需少量的微量营养元素。
+English: Phosphorus is a macronutrient required by plants in large quantities; zinc, boron and copper are micronutrients needed only in small amounts."
+,radio,F5 Chp 3,A,B,C,D,D,Picture27.png,"中文：拖拉机与机械收割机能提高耕作和收割效率，减少时间及劳动需求，属于提高稻米生产的现代农业技术。
+English: Tractors and mechanical harvesters improve cultivation and harvesting efficiency and reduce labour and time, applying modern technology to paddy production."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：森林火灾可自然发生，释放烟尘及气体造成空气污染；其余选项都是人类工业或交通活动。
+English: Forest fires can occur naturally and release smoke and gases that pollute the air; the other choices are human industrial or transport activities."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：混合动力车、太阳能与生物柴油可减少部分化石燃料使用和污染物排放，从而改善空气质量。
+English: Hybrid cars, solar energy and biodiesel can reduce some fossil-fuel use and pollutant emissions, improving air quality."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：反应物浓度增加，单位体积内粒子更多，有效碰撞频率提高，通常使反应加快，因此选C。
+English: Increasing reactant concentration places more particles in a given volume, increasing effective collisions and usually speeding up the reaction, giving C."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：冰箱降低温度，减慢微生物活动及造成腐败的反应，使食物保存较久。
+English: A refrigerator lowers temperature, slowing microbial activity and spoilage reactions so food lasts longer."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：乙烷C₂H₆和乙烯C₂H₄都含两个碳原子；前者为烷烃，后者为烯烃，因此共同点为D。
+English: Ethane, C₂H₆, and ethene, C₂H₄, both contain two carbon atoms; one is an alkane and the other an alkene, so their shared feature is D."
+,radio,F5 Chp 6,A,B,C,D,B,Picture33.png,"中文：Y指向棕榈果中央的果仁isirung/kernel；外面的硬层才是内果皮或果壳。
+English: Y points to the central kernel of the oil-palm fruit; the hard layer around it is the endocarp or shell."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：电解槽利用外来的电能推动化学反应，所以能量转变是电能→化学能。
+English: An electrolytic cell uses an external electrical supply to drive a chemical reaction, so electrical energy becomes chemical energy."
+,radio,F5 Chp 7,A,B,C,D,D,Picture35.png,"中文：Y上形成铜沉积，表示它接受电子；较活泼的X失去电子，电子经外电路由X流向Y，因此选D。
+English: Copper is deposited on Y, showing that electrons are received there; more reactive X loses electrons, which flow externally from X to Y, giving D."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：复印时要得到等大的实像，物体应在凸透镜2F处，即B；像在另一侧2F，倒立且与物体同大。
+English: To obtain a real, same-sized image for copying, place the object at 2F, position B; the inverted image forms at 2F on the other side."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：显微镜的物镜最靠近标本，位于镜筒下方的转盘处，图中为C。
+English: The objective lens is closest to the specimen, on the revolving nosepiece below the microscope tube, labelled C."
+,radio,F5 Chp 8,A,B,C,D,A,Picture38.png,"中文：翼上方Q气流较快、压力较低；下方S气流较慢、压力较高，产生向上的升力，因此选A。
+English: Air flows faster at Q above the wing, giving lower pressure; pressure is higher at S below, producing upward lift, so A."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：卫星轨道可呈圆形或椭圆形，因此选B；螺旋形不是本题所指的稳定轨道形状。
+English: Satellite orbits can be circular or elliptical, giving B; a spiral is not the stable orbital shape meant here."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS追踪器可提供车辆的位置资料，从而追踪被盗车辆的移动，比只用无线电或追赶更有效。
+English: A GPS tracker provides the vehicle's location, allowing its movement to be followed more effectively than radio contact or pursuit alone."

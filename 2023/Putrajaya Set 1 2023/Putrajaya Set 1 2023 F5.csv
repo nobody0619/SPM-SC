@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Putrajaya Set 1 2023 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Putrajaya Set 1 2023 F5,radio,F5 Chp 1,A,B,C,D,C,Picture23.png,"中文：中国使用核电站发电，是本组选项中广泛使用核能发电的国家，因此选C。
+English: China operates nuclear power stations and is the listed country using nuclear energy extensively for electricity generation, giving C."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：变形虫伸出伪足包围并吞入食物，这种摄食过程称为吞噬作用phagocytosis。
+English: An amoeba extends pseudopodia around food and engulfs it; this feeding process is phagocytosis."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：需要用力刷洗并非清洁剂的优点，因此选B；依课本，生态酶能分解油脂，帮助清洁并减少废物。
+English: Needing vigorous scrubbing is not an advantage of a cleaner, giving B; in the textbook, ecoenzymes break down fats and help cleaning while reducing waste."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：抗生素用于细菌感染，本题选择细菌性肺炎A；Covid-19和流感为病毒病，癣属于真菌感染。
+English: Antibiotics treat bacterial infections, giving bacterial pneumonia, A; Covid-19 and influenza are viral, while ringworm is fungal."
+,radio,F5 Chp 3,A,B,C,D,D,Picture27.png,"中文：维生素D帮助钙吸收，缺乏会使儿童骨骼软弱并出现佝偻病和弯腿，因此选D。
+English: Vitamin D supports calcium absorption; deficiency weakens children's bones and causes rickets with bowed legs, giving D."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：每天总摄入=1200+2000+1500=4700 kJ，高于题设2500 kJ，长期过量会积累脂肪并增加肥胖风险。
+English: Daily intake = 1200 + 2000 + 1500 = 4700 kJ, above the stated 2500 kJ; sustained excess intake causes fat accumulation and increased obesity risk."
+,radio,F5 Chp 4,A,B,C,D,D,Picture29.png,"中文：升级再造把原有产品或废物变成品质更高或价值更大的产品，因此选D。
+English: Upcycling transforms an existing product or waste into a product of higher quality or value, giving D."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：猫头鹰捕食老鼠，饲养猫头鹰可利用天然天敌控制鼠害，属于生物防治。
+English: Owls prey on rats, so encouraging owls controls rat pests through natural predators, a form of biological control."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：木炭燃烧在短时间内明显发生并释放热，是所列过程中的快反应。
+English: Charcoal combustion occurs visibly over a short time and releases heat, making it the fast reaction among those listed."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：N₂+3H₂→2NH₃，所以哈伯法氮气与氢气的比例为1:3。
+English: N₂ + 3H₂ → 2NH₃, so the nitrogen-to-hydrogen ratio in the Haber process is 1:3."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：氧化钒(V)是接触法催化剂，用于提高二氧化硫转变成三氧化硫的反应速率。
+English: Vanadium(V) oxide is the catalyst in the Contact process, increasing the rate of conversion of sulfur dioxide to sulfur trioxide."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：乙烷C₂H₆只有碳碳单键，是饱和烃；乙烯含双键，乙醇和乙酸还含氧。
+English: Ethane, C₂H₆, has only carbon–carbon single bonds and is a saturated hydrocarbon; ethene has a double bond, while ethanol and ethanoic acid contain oxygen."
+,radio,F5 Chp 7,A,B,C,D,B,Picture35.png,"中文：Q的饱和脂肪比例低于一半，表示含较多不饱和脂肪，其碳链有碳碳双键，因此选B。
+English: Q contains less than half saturated fat, indicating substantial unsaturated fat with carbon–carbon double bonds, giving B."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：化学电池利用自发化学反应产生电流，把化学能转变为电能，因此选C。
+English: A chemical cell uses a spontaneous chemical reaction to produce current, converting chemical energy into electrical energy, giving C."
+,radio,F5 Chp 8,A,B,C,D,A,Picture37.png,"中文：液态电解质中的离子可以自由移动，携带电荷并移向电极，因此必须为熔融或溶液状态。
+English: Ions in liquid electrolytes can move freely, carry charge and travel to electrodes, so the electrolyte must be molten or in solution."
+,radio,F5 Chp 8,A,B,C,D,C,Picture38.png,"中文：平行于主轴的光线经过凸透镜后应在另一侧焦点F汇聚，图C符合这项规则。
+English: Rays parallel to the principal axis converge at focal point F on the other side of a convex lens, as correctly shown in C."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：液压起重机利用帕斯卡原理，密闭液体把压力传到较大活塞，产生较大举升力，因此选D。
+English: A hydraulic crane uses Pascal's principle to transmit pressure through confined liquid to a larger piston, producing a greater lifting force, giving D."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：圆形且位于赤道平面、倾角0°的轨道符合地球静止轨道的特点，因此选D。
+English: A circular orbit in the equatorial plane with 0° inclination matches the features of a geostationary orbit, giving D."

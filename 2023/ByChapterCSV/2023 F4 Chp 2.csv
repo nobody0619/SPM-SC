@@ -1,16 +1,31 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 2,radio,KedahTrial2023_Q02,A,B,C,D,B,Kedah Trial 2023/Picture2.png
-F4 Chp 2,radio,KelantanTrial2023_Q02,A,B,C,D,C,Kelantan Trial 2023/Picture2.png
-F4 Chp 2,radio,MaahadJohor2023_Q02,A,B,C,D,D,Maahad Johor 2023/Picture2.png
-F4 Chp 2,radio,NegeriSembilan2023_Q02,A,B,C,D,A,Negeri Sembilan 2023/Picture2.png
-F4 Chp 2,radio,PahangTrial2023_Q02,A,B,C,D,C,Pahang Trial 2023/Picture2.png
-F4 Chp 2,radio,Melaka2023_Q02,A,B,C,D,D,Melaka 2023/Picture2.png
-F4 Chp 2,radio,Perak2023_Q02,A,B,C,D,D,Perak 2023/Picture2.png
-F4 Chp 2,radio,Perlis2023_Q02,A,B,C,D,D,Perlis 2023/Picture2.png
-F4 Chp 2,radio,PutrajayaSet12023_Q02,A,B,C,D,C,Putrajaya Set 1 2023/Picture2.png
-F4 Chp 2,radio,PutrajayaSet22023_Q02,A,B,C,D,D,Putrajaya Set 2 2023/Picture2.png
-F4 Chp 2,radio,SarawakSubisMiri2023_Q02,A,B,C,D,C,Sarawak Subis Miri 2023/Picture2.png
-F4 Chp 2,radio,Selangor2023_Q02,A,B,C,D,A,Selangor 2023/Picture2.png
-F4 Chp 2,radio,SelangorSet22023_Q02,A,B,C,D,B,Selangor Set 2 2023/Picture2.png
-F4 Chp 2,radio,TerengganuMPP32023_Q02,A,B,C,D,B,Terengganu MPP3 2023/Picture2.png
-F4 Chp 2,radio,SBP2023_Q02,A,B,C,D,D,SBP 2023/Picture2.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 2,radio,KedahTrial2023_Q02,A,B,C,D,B,Kedah Trial 2023/Picture2.png,"中文：按课本实验室规则，pH 5 至 9 的少量合适液体可排入水槽，因此 pH 6 的稀酸符合范围。
+English: Under textbook laboratory rules, suitable small liquid wastes with pH 5–9 may enter the sink; pH 6 is within this range."
+F4 Chp 2,radio,KelantanTrial2023_Q02,A,B,C,D,C,Kelantan Trial 2023/Picture2.png,"中文：先站在身后并稍微前倾 N，再环抱 O、把拳头放于肚脐上方 M，最后向内上方快速施压 P。
+English: The textbook sequence is N–O–M–P: stand behind, wrap the arms, position the fist and give upward thrusts."
+F4 Chp 2,radio,MaahadJohor2023_Q02,A,B,C,D,D,Maahad Johor 2023/Picture2.png,"中文：CPR 胸外按压以机械方式推动血液循环，把氧气送至脑和重要器官。
+English: CPR chest compressions manually maintain circulation and deliver oxygen to the brain and vital organs."
+F4 Chp 2,radio,NegeriSembilan2023_Q02,A,B,C,D,A,Negeri Sembilan 2023/Picture2.png,"中文：图示腹部快速向内上方施压，是海姆立克急救法，利用气流帮助排出堵塞气管的异物。
+English: The inward and upward abdominal thrusts shown are the Heimlich manoeuvre, which uses expelled air to dislodge an airway obstruction."
+F4 Chp 2,radio,PahangTrial2023_Q02,A,B,C,D,C,Pahang Trial 2023/Picture2.png,"中文：防火毯覆盖燃烧的衣物，隔绝氧气，使火焰熄灭，因此选C。
+English: A fire blanket covers the burning clothing and cuts off its oxygen supply, extinguishing the flames, giving C."
+F4 Chp 2,radio,Melaka2023_Q02,A,B,C,D,D,Melaka 2023/Picture2.png,"中文：自救式海姆立克法压迫腹部，增加胸腔和肺内压强，把阻塞物推出。
+English: Self-administered abdominal thrusts increase pressure in the chest and lungs to expel the obstruction."
+F4 Chp 2,radio,Perak2023_Q02,A,B,C,D,D,Perak 2023/Picture2.png,"中文：课本中干粉灭火器适用于各类火灾，其标签为蓝色，因此选D。
+English: In the textbook classification, dry-powder extinguishers cover the listed fire classes and have blue labels, giving D."
+F4 Chp 2,radio,Perlis2023_Q02,A,B,C,D,D,Perlis 2023/Picture2.png,"中文：衣物着火时使用防火毯覆盖，可隔绝氧气并扑灭火焰，因此选D。
+English: A fire blanket covers burning clothing and cuts off oxygen, extinguishing the fire, giving D."
+F4 Chp 2,radio,PutrajayaSet12023_Q02,A,B,C,D,C,Putrajaya Set 1 2023/Picture2.png,"中文：二氧化碳不导电且能隔绝氧气，适用于电器引发的火灾，因此选C。
+English: Carbon dioxide does not conduct electricity and excludes oxygen, making it suitable for electrical fires, giving C."
+F4 Chp 2,radio,PutrajayaSet22023_Q02,A,B,C,D,D,Putrajaya Set 2 2023/Picture2.png,"中文：燃烧的镁属于金属火灾，本题选D干粉；应使用适合金属火灾的干粉，而不是用水或二氧化碳。
+English: Burning magnesium is a metal fire, giving D, dry powder; the powder must be suitable for metal fires rather than water or carbon dioxide."
+F4 Chp 2,radio,SarawakSubisMiri2023_Q02,A,B,C,D,C,Sarawak Subis Miri 2023/Picture2.png,"中文：正确选项为D：胸外按压频率100至120次/分，双臂应伸直而非弯曲。现有答案C与正确姿势相反，需核对答案表。
+English: D is correct: chest compressions are performed at 100–120 per minute with straight rather than bent arms. Existing C contradicts correct posture and requires answer-table review."
+F4 Chp 2,radio,Selangor2023_Q02,A,B,C,D,A,Selangor 2023/Picture2.png,"中文：ABC灭火器可处理课本所列多类火灾，优点包括容易维护，所以选A。
+English: An ABC extinguisher covers several textbook fire classes and has the advantage of easy maintenance, giving A."
+F4 Chp 2,radio,SelangorSet22023_Q02,A,B,C,D,B,Selangor Set 2 2023/Picture2.png,"中文：防火毯覆盖火源后隔绝氧气，停止燃烧所需的氧供应，因此选B。
+English: A fire blanket covers the fire and blocks its oxygen supply, stopping combustion, giving B."
+F4 Chp 2,radio,TerengganuMPP32023_Q02,A,B,C,D,B,Terengganu MPP3 2023/Picture2.png,"中文：仍清醒、有心跳的食物哽塞者应按哽塞情况处理，并非直接进行CPR，因此选B；CPR针对无反应且无正常呼吸等情况。
+English: A conscious choking person with circulation needs appropriate choking first aid rather than immediate CPR, giving B; CPR is for conditions such as unresponsiveness with absent normal breathing."
+F4 Chp 2,radio,SBP2023_Q02,A,B,C,D,D,SBP 2023/Picture2.png,"中文：顺序为拔保险销R→瞄准火焰底部P→按下手柄S→左右扫射Q，因此选D。
+English: The sequence is pull the pin R → aim at the base P → squeeze the handle S → sweep side to side Q, giving D."

@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 7,radio,KedahTrial2023_Q35,A,B,C,D,C,Kedah Trial 2023/Picture35.png
-F5 Chp 7,radio,KedahTrial2023_Q36,A,B,C,D,D,Kedah Trial 2023/Picture36.png
-F5 Chp 7,radio,KelantanTrial2023_Q35,A,B,C,D,B,Kelantan Trial 2023/Picture35.png
-F5 Chp 7,radio,KelantanTrial2023_Q36,A,B,C,D,C,Kelantan Trial 2023/Picture36.png
-F5 Chp 7,radio,MaahadJohor2023_Q35,A,B,C,D,A,Maahad Johor 2023/Picture35.png
-F5 Chp 7,radio,MaahadJohor2023_Q36,A,B,C,D,C,Maahad Johor 2023/Picture36.png
-F5 Chp 7,radio,NegeriSembilan2023_Q35,A,B,C,D,D,Negeri Sembilan 2023/Picture35.png
-F5 Chp 7,radio,NegeriSembilan2023_Q36,A,B,C,D,D,Negeri Sembilan 2023/Picture36.png
-F5 Chp 7,radio,PahangTrial2023_Q35,A,B,C,D,D,Pahang Trial 2023/Picture35.png
-F5 Chp 7,radio,PahangTrial2023_Q36,A,B,C,D,B,Pahang Trial 2023/Picture36.png
-F5 Chp 7,radio,Melaka2023_Q35,A,B,C,D,D,Melaka 2023/Picture35.png
-F5 Chp 7,radio,Melaka2023_Q36,A,B,C,D,C,Melaka 2023/Picture36.png
-F5 Chp 7,radio,Perak2023_Q35,A,B,C,D,B,Perak 2023/Picture35.png
-F5 Chp 7,radio,Perak2023_Q36,A,B,C,D,D,Perak 2023/Picture36.png
-F5 Chp 7,radio,Perlis2023_Q35,A,B,C,D,D,Perlis 2023/Picture35.png
-F5 Chp 7,radio,Perlis2023_Q36,A,B,C,D,D,Perlis 2023/Picture36.png
-F5 Chp 7,radio,PutrajayaSet12023_Q35,A,B,C,D,B,Putrajaya Set 1 2023/Picture35.png
-F5 Chp 7,radio,PutrajayaSet12023_Q36,A,B,C,D,C,Putrajaya Set 1 2023/Picture36.png
-F5 Chp 7,radio,PutrajayaSet22023_Q35,A,B,C,D,C,Putrajaya Set 2 2023/Picture35.png
-F5 Chp 7,radio,PutrajayaSet22023_Q36,A,B,C,D,B,Putrajaya Set 2 2023/Picture36.png
-F5 Chp 7,radio,SarawakSubisMiri2023_Q35,A,B,C,D,A,Sarawak Subis Miri 2023/Picture35.png
-F5 Chp 7,radio,SarawakSubisMiri2023_Q36,A,B,C,D,B,Sarawak Subis Miri 2023/Picture36.png
-F5 Chp 7,radio,Selangor2023_Q35,A,B,C,D,C,Selangor 2023/Picture35.png
-F5 Chp 7,radio,Selangor2023_Q36,A,B,C,D,D,Selangor 2023/Picture36.png
-F5 Chp 7,radio,SelangorSet22023_Q35,A,B,C,D,C,Selangor Set 2 2023/Picture35.png
-F5 Chp 7,radio,SelangorSet22023_Q36,A,B,C,D,C,Selangor Set 2 2023/Picture36.png
-F5 Chp 7,radio,TerengganuMPP32023_Q35,A,B,C,D,B,Terengganu MPP3 2023/Picture35.png
-F5 Chp 7,radio,TerengganuMPP32023_Q36,A,B,C,D,D,Terengganu MPP3 2023/Picture36.png
-F5 Chp 7,radio,SBP2023_Q35,A,B,C,D,A,SBP 2023/Picture35.png
-F5 Chp 7,radio,SBP2023_Q36,A,B,C,D,C,SBP 2023/Picture36.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 7,radio,KedahTrial2023_Q35,A,B,C,D,C,Kedah Trial 2023/Picture35.png,"中文：凸透镜物距为两倍焦距时形成等大实像；u = 2f = 2 × 5 = 10 cm。
+English: A convex lens produces an equal-sized real image at u = 2f = 2 × 5 = 10 cm."
+F5 Chp 7,radio,KedahTrial2023_Q36,A,B,C,D,D,Kedah Trial 2023/Picture36.png,"中文：凹透镜使平行光发散，可用在眼镜中矫正近视，使光线重新聚焦在视网膜上。
+English: A concave lens diverges light and is used in spectacles to correct short-sightedness."
+F5 Chp 7,radio,KelantanTrial2023_Q35,A,B,C,D,B,Kelantan Trial 2023/Picture35.png,"中文：焦距是透镜光学中心至焦点的距离。
+English: Focal length is the distance between a lens's optical centre and its focal point."
+F5 Chp 7,radio,KelantanTrial2023_Q36,A,B,C,D,C,Kelantan Trial 2023/Picture36.png,"中文：放大镜把物体放在凸透镜焦点以内，形成正立、放大的虚像。
+English: A magnifying glass forms an upright, enlarged virtual image when the object is inside the convex lens's focal length."
+F5 Chp 7,radio,MaahadJohor2023_Q35,A,B,C,D,A,Maahad Johor 2023/Picture35.png,"中文：显微镜最终供眼睛观看的像是虚像；并非用来观察远处物体。
+English: The final image viewed through a microscope is virtual; microscopes are not intended for distant objects."
+F5 Chp 7,radio,MaahadJohor2023_Q36,A,B,C,D,C,Maahad Johor 2023/Picture36.png,"中文：机翼翼型利用流速越大、压强越低的伯努利原理形成升力；液压设备使用帕斯卡原理。
+English: An aerofoil uses Bernoulli's relation between faster flow and lower pressure; hydraulic devices use Pascal's principle."
+F5 Chp 7,radio,NegeriSembilan2023_Q35,A,B,C,D,D,Negeri Sembilan 2023/Picture35.png,"中文：离子在电化学序列中的位置影响其被放电的难易程度，从而影响电解产物，因此选D。
+English: An ion's position in the electrochemical series affects how readily it is discharged and therefore influences the products of electrolysis, giving D."
+F5 Chp 7,radio,NegeriSembilan2023_Q36,A,B,C,D,D,Negeri Sembilan 2023/Picture36.png,"中文：铜与铝在所列金属对中电化学序列距离最大，因此产生最大的电位差；电子从较活泼的铝经外电路流向铜，选D。
+English: Copper and aluminium have the greatest separation in the electrochemical series among the listed pairs, giving the largest potential difference; electrons flow externally from the more reactive aluminium to copper, so D."
+F5 Chp 7,radio,PahangTrial2023_Q35,A,B,C,D,D,Pahang Trial 2023/Picture35.png,"中文：Y上形成铜沉积，表示它接受电子；较活泼的X失去电子，电子经外电路由X流向Y，因此选D。
+English: Copper is deposited on Y, showing that electrons are received there; more reactive X loses electrons, which flow externally from X to Y, giving D."
+F5 Chp 7,radio,PahangTrial2023_Q36,A,B,C,D,B,Pahang Trial 2023/Picture36.png,"中文：复印时要得到等大的实像，物体应在凸透镜2F处，即B；像在另一侧2F，倒立且与物体同大。
+English: To obtain a real, same-sized image for copying, place the object at 2F, position B; the inverted image forms at 2F on the other side."
+F5 Chp 7,radio,Melaka2023_Q35,A,B,C,D,D,Melaka 2023/Picture35.png,"中文：氯化钠溶液含自由移动的钠离子和氯离子，可作为电解质导电。
+English: Sodium chloride solution contains mobile sodium and chloride ions that conduct electricity."
+F5 Chp 7,radio,Melaka2023_Q36,A,B,C,D,C,Melaka 2023/Picture36.png,"中文：镁与铜在电化学序列相距最远，产生较大电势差，预期偏转最大，应为 D。原答案 C 的铅与题意不符。
+English: Magnesium and copper are furthest apart in the electrochemical series and give the greatest potential difference, so D is expected; original key C, lead, conflicts."
+F5 Chp 7,radio,Perak2023_Q35,A,B,C,D,B,Perak 2023/Picture35.png,"中文：硫酸根SO₄²⁻带负电，是硫酸铜溶液中的阴离子；Cu²⁺和H⁺带正电，是阳离子。
+English: The sulfate ion, SO₄²⁻, is negatively charged and is an anion in copper sulfate solution; Cu²⁺ and H⁺ are cations."
+F5 Chp 7,radio,Perak2023_Q36,A,B,C,D,D,Perak 2023/Picture36.png,"中文：固定镁电极时，银与镁在电化学序列距离最大，因此用银替代锌可得到最高电压。
+English: With magnesium fixed, silver has the greatest separation from it in the electrochemical series, so replacing zinc with silver gives the highest voltage."
+F5 Chp 7,radio,Perlis2023_Q35,A,B,C,D,D,Perlis 2023/Picture35.png,"中文：稀盐酸用碳电极电解时，阴极H⁺放电产生氢；依课本稀溶液规则，阳极OH⁻优先放电产生氧，因此选D。
+English: With carbon electrodes in dilute hydrochloric acid, H⁺ is discharged at the cathode to form hydrogen; under the textbook dilute-solution rule, OH⁻ is preferentially discharged at the anode to form oxygen, giving D."
+F5 Chp 7,radio,Perlis2023_Q36,A,B,C,D,D,Perlis 2023/Picture36.png,"中文：镁与铜在所列金属对中电化学序列相距最远，产生最大的电位差，因此选D。
+English: Magnesium and copper have the greatest separation in the electrochemical series among the listed pairs, giving the largest potential difference and D."
+F5 Chp 7,radio,PutrajayaSet12023_Q35,A,B,C,D,B,Putrajaya Set 1 2023/Picture35.png,"中文：Q的饱和脂肪比例低于一半，表示含较多不饱和脂肪，其碳链有碳碳双键，因此选B。
+English: Q contains less than half saturated fat, indicating substantial unsaturated fat with carbon–carbon double bonds, giving B."
+F5 Chp 7,radio,PutrajayaSet12023_Q36,A,B,C,D,C,Putrajaya Set 1 2023/Picture36.png,"中文：化学电池利用自发化学反应产生电流，把化学能转变为电能，因此选C。
+English: A chemical cell uses a spontaneous chemical reaction to produce current, converting chemical energy into electrical energy, giving C."
+F5 Chp 7,radio,PutrajayaSet22023_Q35,A,B,C,D,C,Putrajaya Set 2 2023/Picture35.png,"中文：Z为亲水性的离子头，溶于水；Y为疏水碳氢尾，进入油脂，所以C正确。
+English: Z is the hydrophilic ionic head that interacts with water; Y is the hydrophobic hydrocarbon tail that enters grease, so C is correct."
+F5 Chp 7,radio,PutrajayaSet22023_Q36,A,B,C,D,B,Putrajaya Set 2 2023/Picture36.png,"中文：阳离子cation是带正电的离子，原子失去电子后形成，所以应选A。现有答案B写负离子，实际上是anion，暂保留并注明疑点。
+English: A cation is a positively charged ion formed by electron loss, so A is correct. Existing B says negative ion, which defines an anion, and is retained with this discrepancy noted."
+F5 Chp 7,radio,SarawakSubisMiri2023_Q35,A,B,C,D,A,Sarawak Subis Miri 2023/Picture35.png,"中文：正确清洁顺序为刷洗M→亲水头入水及疏水尾入油P→包围污垢O→随水离开N，应选C。现有A把污垢离开放在包围之前，顺序不合理。
+English: The sequence is scrubbing M → head in water and tail in grease P → surrounding dirt O → removal N, giving C. Existing A places removal before surrounding the dirt."
+F5 Chp 7,radio,SarawakSubisMiri2023_Q36,A,B,C,D,B,Sarawak Subis Miri 2023/Picture36.png,"中文：Y在负极产生，为氢气；可用点燃木条检验，产生爆鸣声，应选C。现有B石灰水用于检验二氧化碳。
+English: Y is produced at the negative electrode and is hydrogen; a lighted splint gives a squeaky pop, so C. Existing B, limewater, tests carbon dioxide."
+F5 Chp 7,radio,Selangor2023_Q35,A,B,C,D,C,Selangor 2023/Picture35.png,"中文：锌在负极失去电子，X接受电子为正极，所列比锌不活泼的铜符合条件，因此选C。
+English: Zinc loses electrons at the negative terminal; X receives electrons at the positive terminal, so copper, less reactive than zinc, is C."
+F5 Chp 7,radio,Selangor2023_Q36,A,B,C,D,D,Selangor 2023/Picture36.png,"中文：焦距10 cm，物距45 cm大于2f=20 cm，凸透镜形成位于f与2f之间的实、倒立、缩小像。
+English: Focal length is 10 cm and object distance 45 cm exceeds 2f = 20 cm; the convex lens forms a real, inverted, diminished image between f and 2f."
+F5 Chp 7,radio,SelangorSet22023_Q35,A,B,C,D,C,Selangor Set 2 2023/Picture35.png,"中文：Y是负极并把电子供给铁，所以必须比铁活泼；所列锌A符合，银C比铁不活泼。现有答案C与电子方向不符。
+English: Y is the negative terminal supplying electrons to iron and must be more reactive; zinc, A, fits, whereas silver, C, is less reactive than iron. Existing C conflicts with the electron direction."
+F5 Chp 7,radio,SelangorSet22023_Q36,A,B,C,D,C,Selangor Set 2 2023/Picture36.png,"中文：焦距15 cm，物距25 cm在f与2f=30 cm之间，凸透镜产生实、倒立、放大的像，因此选C。
+English: The focal length is 15 cm and object distance 25 cm lies between f and 2f = 30 cm, producing a real, inverted, magnified image, giving C."
+F5 Chp 7,radio,TerengganuMPP32023_Q35,A,B,C,D,B,Terengganu MPP3 2023/Picture35.png,"中文：物体在凸透镜f与2f之间时，产生实、倒立、放大的像，选B；在2f则为同大的实倒像。
+English: An object between f and 2f of a convex lens forms a real, inverted, magnified image, giving B; at 2f the real inverted image is the same size."
+F5 Chp 7,radio,TerengganuMPP32023_Q36,A,B,C,D,D,Terengganu MPP3 2023/Picture36.png,"中文：显微镜总放大率=目镜5×物镜40=200倍，因此选D。
+English: Total microscope magnification = eyepiece 5 × objective 40 = 200 times, giving D."
+F5 Chp 7,radio,SBP2023_Q35,A,B,C,D,A,SBP 2023/Picture35.png,"中文：熔融溴化铅(II)含Pb²⁺阳离子和Br⁻阴离子，因此选A。
+English: Molten lead(II) bromide contains Pb²⁺ cations and Br⁻ anions, giving A."
+F5 Chp 7,radio,SBP2023_Q36,A,B,C,D,C,SBP 2023/Picture36.png,"中文：镁较活泼，在负极失去电子变为Mg²⁺进入溶液，所以镁片逐渐溶解，选C。
+English: More reactive magnesium loses electrons at the negative electrode to become Mg²⁺ in solution, so the plate gradually dissolves, giving C."

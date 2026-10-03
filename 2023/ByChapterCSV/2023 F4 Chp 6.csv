@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 6,radio,KedahTrial2023_Q09,A,B,C,D,B,Kedah Trial 2023/Picture9.png
-F4 Chp 6,radio,KedahTrial2023_Q10,A,B,C,D,D,Kedah Trial 2023/Picture10.png
-F4 Chp 6,radio,KelantanTrial2023_Q09,A,B,C,D,D,Kelantan Trial 2023/Picture9.png
-F4 Chp 6,radio,KelantanTrial2023_Q10,A,B,C,D,C,Kelantan Trial 2023/Picture10.png
-F4 Chp 6,radio,MaahadJohor2023_Q09,A,B,C,D,B,Maahad Johor 2023/Picture9.png
-F4 Chp 6,radio,MaahadJohor2023_Q10,A,B,C,D,B,Maahad Johor 2023/Picture10.png
-F4 Chp 6,radio,NegeriSembilan2023_Q09,A,B,C,D,D,Negeri Sembilan 2023/Picture9.png
-F4 Chp 6,radio,NegeriSembilan2023_Q10,A,B,C,D,C,Negeri Sembilan 2023/Picture10.png
-F4 Chp 6,radio,PahangTrial2023_Q09,A,B,C,D,D,Pahang Trial 2023/Picture9.png
-F4 Chp 6,radio,PahangTrial2023_Q10,A,B,C,D,A,Pahang Trial 2023/Picture10.png
-F4 Chp 6,radio,Melaka2023_Q09,A,B,C,D,C,Melaka 2023/Picture9.png
-F4 Chp 6,radio,Melaka2023_Q10,A,B,C,D,D,Melaka 2023/Picture10.png
-F4 Chp 6,radio,Perak2023_Q09,A,B,C,D,A,Perak 2023/Picture9.png
-F4 Chp 6,radio,Perak2023_Q10,A,B,C,D,D,Perak 2023/Picture10.png
-F4 Chp 6,radio,Perlis2023_Q09,A,B,C,D,B,Perlis 2023/Picture9.png
-F4 Chp 6,radio,Perlis2023_Q10,A,B,C,D,A,Perlis 2023/Picture10.png
-F4 Chp 6,radio,PutrajayaSet12023_Q09,A,B,C,D,B,Putrajaya Set 1 2023/Picture9.png
-F4 Chp 6,radio,PutrajayaSet12023_Q10,A,B,C,D,B,Putrajaya Set 1 2023/Picture10.png
-F4 Chp 6,radio,PutrajayaSet22023_Q09,A,B,C,D,B,Putrajaya Set 2 2023/Picture9.png
-F4 Chp 6,radio,PutrajayaSet22023_Q10,A,B,C,D,B,Putrajaya Set 2 2023/Picture10.png
-F4 Chp 6,radio,SarawakSubisMiri2023_Q09,A,B,C,D,A,Sarawak Subis Miri 2023/Picture9.png
-F4 Chp 6,radio,SarawakSubisMiri2023_Q10,A,B,C,D,B,Sarawak Subis Miri 2023/Picture10.png
-F4 Chp 6,radio,Selangor2023_Q09,A,B,C,D,D,Selangor 2023/Picture9.png
-F4 Chp 6,radio,Selangor2023_Q10,A,B,C,D,A,Selangor 2023/Picture10.png
-F4 Chp 6,radio,SelangorSet22023_Q09,A,B,C,D,A,Selangor Set 2 2023/Picture9.png
-F4 Chp 6,radio,SelangorSet22023_Q10,A,B,C,D,A,Selangor Set 2 2023/Picture10.png
-F4 Chp 6,radio,TerengganuMPP32023_Q09,A,B,C,D,A,Terengganu MPP3 2023/Picture9.png
-F4 Chp 6,radio,TerengganuMPP32023_Q10,A,B,C,D,C,Terengganu MPP3 2023/Picture10.png
-F4 Chp 6,radio,SBP2023_Q09,A,B,C,D,A,SBP 2023/Picture9.png
-F4 Chp 6,radio,SBP2023_Q10,A,B,C,D,B,SBP 2023/Picture10.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 6,radio,KedahTrial2023_Q09,A,B,C,D,B,Kedah Trial 2023/Picture9.png,"中文：直方图呈连续范围和中间值，属于连续变异；身高是典型例子。
+English: The histogram shows a continuous range with intermediate values; height is an example of continuous variation."
+F4 Chp 6,radio,KedahTrial2023_Q10,A,B,C,D,D,Kedah Trial 2023/Picture10.png,"中文：长颈鹿把前脚分开，增大支撑底面积，弯下喝水时较稳定。
+English: Spreading the front legs enlarges the base of support and improves stability while the giraffe drinks."
+F4 Chp 6,radio,KelantanTrial2023_Q09,A,B,C,D,D,Kelantan Trial 2023/Picture9.png,"中文：水中浮力分担鲸的重量，使其身体能长得很大而不全靠骨骼支撑。
+English: Buoyancy supports part of a whale's weight, allowing a large body without relying entirely on the skeleton."
+F4 Chp 6,radio,KelantanTrial2023_Q10,A,B,C,D,C,Kelantan Trial 2023/Picture10.png,"中文：图中老年阶段不再增高，甚至出现负增长；C 表达身高增长停止，并不代表所有细胞活动停止。
+English: The graph shows no further height increase in old age and some decline; C refers to height growth, not all cellular activity."
+F4 Chp 6,radio,MaahadJohor2023_Q09,A,B,C,D,B,Maahad Johor 2023/Picture9.png,"中文：甲状腺素不足使代谢率降低，可能出现怕冷和体重增加。
+English: Insufficient thyroxine lowers metabolic rate and can cause cold intolerance and weight gain."
+F4 Chp 6,radio,MaahadJohor2023_Q10,A,B,C,D,B,Maahad Johor 2023/Picture10.png,"中文：氯胺酮在课本分类为致幻剂，可改变脑内冲动传递并引起幻觉。
+English: Ketamine is classified as a hallucinogen in the textbook and can alter brain signalling and cause hallucinations."
+F4 Chp 6,radio,NegeriSembilan2023_Q09,A,B,C,D,D,Negeri Sembilan 2023/Picture9.png,"中文：虾和蟹都有几丁质构成的坚硬外骨骼，可支持身体并保护内部器官。
+English: Prawns and crabs have hard chitinous exoskeletons that support the body and protect internal organs."
+F4 Chp 6,radio,NegeriSembilan2023_Q10,A,B,C,D,C,Negeri Sembilan 2023/Picture10.png,"中文：在13岁的位置，女性曲线高于男性曲线，表示该年龄女性较高，因此选C。
+English: At age 13, the female curve lies above the male curve, showing that females are taller at that age, giving C."
+F4 Chp 6,radio,PahangTrial2023_Q09,A,B,C,D,D,Pahang Trial 2023/Picture9.png,"中文：图中性染色体为XXY，即男性多了一条X染色体，是克氏综合征Klinefelter syndrome。
+English: The sex chromosomes are XXY, meaning a male has an extra X chromosome; this is Klinefelter syndrome."
+F4 Chp 6,radio,PahangTrial2023_Q10,A,B,C,D,A,Pahang Trial 2023/Picture10.png,"中文：基因工程可把抗病基因引入作物，提高抗病能力并减少作物损失，是明确的益处。
+English: Genetic engineering can introduce disease-resistance genes into crops, improving resistance and reducing crop losses, a clear benefit."
+F4 Chp 6,radio,Melaka2023_Q09,A,B,C,D,C,Melaka 2023/Picture9.png,"中文：抗药性基因若扩散至不希望存活的生物，可形成抗药性问题，因此是潜在弊端。
+English: Spread of resistance genes to unwanted organisms can create resistance problems, a potential disadvantage."
+F4 Chp 6,radio,Melaka2023_Q10,A,B,C,D,D,Melaka 2023/Picture10.png,"中文：螃蟹的硬外壳是外骨骼；蜥蜴及鲸为内骨骼。
+English: A crab's hard outer covering is an exoskeleton; lizards and whales have endoskeletons."
+F4 Chp 6,radio,Perak2023_Q09,A,B,C,D,A,Perak 2023/Picture9.png,"中文：Pp×Pp产生PP、Pp、Pp、pp，只有pp为白花，所以概率1/4=25%。
+English: Pp × Pp gives PP, Pp, Pp and pp; only pp produces white flowers, so the probability is 1/4 = 25%."
+F4 Chp 6,radio,Perak2023_Q10,A,B,C,D,D,Perak 2023/Picture10.png,"中文：依答案D，GMO是通过改变遗传物质而获得新性状的生物，可引入其他物种的基因；重组DNA技术是实现这种基因组合的方法。
+English: Following answer D, a GMO is an organism whose genetic material is altered to obtain new traits, including genes from other species; recombinant-DNA technology is the method used to combine those genes."
+F4 Chp 6,radio,Perlis2023_Q09,A,B,C,D,B,Perlis 2023/Picture9.png,"中文：血友病由基因突变引起，血液缺乏正常凝血能力，受伤后出血不易停止，因此选B。
+English: Haemophilia is caused by a gene mutation that impairs normal blood clotting, so bleeding is difficult to stop, giving B."
+F4 Chp 6,radio,Perlis2023_Q10,A,B,C,D,A,Perlis 2023/Picture10.png,"中文：XᵇY×XᴮXᵇ产生XᴮXᵇ、XᵇXᵇ、XᴮY、XᵇY，色盲儿子与携带者女儿各占1/4，所以比例1:1。
+English: XᵇY × XᴮXᵇ produces XᴮXᵇ, XᵇXᵇ, XᴮY and XᵇY; a colour-blind son and carrier daughter each have probability 1/4, so the ratio is 1:1."
+F4 Chp 6,radio,PutrajayaSet12023_Q09,A,B,C,D,B,Putrajaya Set 1 2023/Picture9.png,"中文：图示后期每一极有4条染色体，有丝分裂后每个子细胞得到4条，染色体数保持与原细胞相同。
+English: The anaphase diagram shows four chromosomes moving to each pole; each daughter cell receives four, maintaining the original chromosome number."
+F4 Chp 6,radio,PutrajayaSet12023_Q10,A,B,C,D,B,Putrajaya Set 1 2023/Picture10.png,"中文：B是把所需基因连接到载体DNA的步骤；若目标基因未正确加入，植物便无法表现抗病和较大的性状。
+English: B joins the desired gene to carrier DNA; if the target gene is not inserted correctly, the plant cannot express the intended disease resistance and larger size."
+F4 Chp 6,radio,PutrajayaSet22023_Q09,A,B,C,D,B,Putrajaya Set 2 2023/Picture9.png,"中文：核型只有一条X性染色体，即45,X，属于特纳综合征Turner syndrome，因此选B。
+English: The karyotype has only one X sex chromosome, 45,X, identifying Turner syndrome and B."
+F4 Chp 6,radio,PutrajayaSet22023_Q10,A,B,C,D,B,Putrajaya Set 2 2023/Picture10.png,"中文：血友病是X连锁隐性疾病，健康母亲可能为携带者，把隐性基因传给儿子，使他发病。
+English: Haemophilia is X-linked recessive; a healthy carrier mother can pass the recessive allele to her son, causing the disease."
+F4 Chp 6,radio,SarawakSubisMiri2023_Q09,A,B,C,D,A,Sarawak Subis Miri 2023/Picture9.png,"中文：骨关节炎使软骨磨损，骨端摩擦造成关节疼痛和运动困难，因此应选C。现有A为进食困难，不对应图示关节问题。
+English: Osteoarthritis wears down cartilage, causing friction, pain and difficulty moving, so C is appropriate. Existing A, difficulty eating, does not match the illustrated joint problem."
+F4 Chp 6,radio,SarawakSubisMiri2023_Q10,A,B,C,D,B,Sarawak Subis Miri 2023/Picture10.png,"中文：图示支柱根从茎基部向土壤生长，增加稳定性，玉米具有这类支持根，因此选B。
+English: The stilt roots shown grow from the lower stem into soil and increase stability; maize has such support roots, giving B."
+F4 Chp 6,radio,Selangor2023_Q09,A,B,C,D,D,Selangor 2023/Picture9.png,"中文：DNA由两条反向平行的多核苷酸链组成，形成双螺旋结构，因此X为DNA。
+English: DNA consists of two antiparallel polynucleotide chains forming a double helix, so X is DNA."
+F4 Chp 6,radio,Selangor2023_Q10,A,B,C,D,A,Selangor 2023/Picture10.png,"中文：Y来自b与B配子结合，为Bb；B是自由耳垂的显性基因，所以表现自由耳垂。
+English: Y forms from b and B gametes and is Bb; dominant B produces free earlobes."
+F4 Chp 6,radio,SelangorSet22023_Q09,A,B,C,D,A,Selangor Set 2 2023/Picture9.png,"中文：基因gene是遗传的基本单位，为DNA上的片段，控制个体性状，因此X为基因。
+English: A gene is the basic hereditary unit, a segment of DNA that determines a trait, so X is a gene."
+F4 Chp 6,radio,SelangorSet22023_Q10,A,B,C,D,A,Selangor Set 2 2023/Picture10.png,"中文：Y由B与b配子结合形成Bb，B显性，所以能卷舌，选A。
+English: Y forms from B and b gametes and is Bb; dominant B gives the ability to roll the tongue, so A."
+F4 Chp 6,radio,TerengganuMPP32023_Q09,A,B,C,D,A,Terengganu MPP3 2023/Picture9.png,"中文：生长曲线在婴幼儿P和青春期R最陡，表示这两个时期身高增长最快，因此选A。
+English: The growth curve is steepest during infancy P and adolescence R, indicating fastest height increase, giving A."
+F4 Chp 6,radio,TerengganuMPP32023_Q10,A,B,C,D,C,Terengganu MPP3 2023/Picture10.png,"中文：垂体pituitary gland称为主腺，其激素控制其他多种内分泌腺的活动。
+English: The pituitary is called the master gland because its hormones regulate several other endocrine glands."
+F4 Chp 6,radio,SBP2023_Q09,A,B,C,D,A,SBP 2023/Picture9.png,"中文：Y表示亲本形成配子的过程，是减数分裂，使每个配子只带一个等位基因。
+English: Y represents gamete formation by meiosis, so each gamete carries one allele of the gene."
+F4 Chp 6,radio,SBP2023_Q10,A,B,C,D,B,SBP 2023/Picture10.png,"中文：先切割DNA及质粒R，再把重组DNA加入细菌Q，让细菌繁殖生产胰岛素S，最后提取纯化P，选B。
+English: First cut DNA and plasmid R, introduce recombinant DNA into bacteria Q, grow them to produce insulin S, then extract and purify P, giving B."

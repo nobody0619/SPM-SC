@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 5,radio,KedahTrial2023_Q07,A,B,C,D,B,Kedah Trial 2023/Picture7.png
-F4 Chp 5,radio,KedahTrial2023_Q08,A,B,C,D,B,Kedah Trial 2023/Picture8.png
-F4 Chp 5,radio,KelantanTrial2023_Q07,A,B,C,D,D,Kelantan Trial 2023/Picture7.png
-F4 Chp 5,radio,KelantanTrial2023_Q08,A,B,C,D,C,Kelantan Trial 2023/Picture8.png
-F4 Chp 5,radio,MaahadJohor2023_Q07,A,B,C,D,D,Maahad Johor 2023/Picture7.png
-F4 Chp 5,radio,MaahadJohor2023_Q08,A,B,C,D,C,Maahad Johor 2023/Picture8.png
-F4 Chp 5,radio,NegeriSembilan2023_Q07,A,B,C,D,A,Negeri Sembilan 2023/Picture7.png
-F4 Chp 5,radio,NegeriSembilan2023_Q08,A,B,C,D,B,Negeri Sembilan 2023/Picture8.png
-F4 Chp 5,radio,PahangTrial2023_Q07,A,B,C,D,D,Pahang Trial 2023/Picture7.png
-F4 Chp 5,radio,PahangTrial2023_Q08,A,B,C,D,A,Pahang Trial 2023/Picture8.png
-F4 Chp 5,radio,Melaka2023_Q07,A,B,C,D,B,Melaka 2023/Picture7.png
-F4 Chp 5,radio,Melaka2023_Q08,A,B,C,D,A,Melaka 2023/Picture8.png
-F4 Chp 5,radio,Perak2023_Q07,A,B,C,D,A,Perak 2023/Picture7.png
-F4 Chp 5,radio,Perak2023_Q08,A,B,C,D,D,Perak 2023/Picture8.png
-F4 Chp 5,radio,Perlis2023_Q07,A,B,C,D,C,Perlis 2023/Picture7.png
-F4 Chp 5,radio,Perlis2023_Q08,A,B,C,D,A,Perlis 2023/Picture8.png
-F4 Chp 5,radio,PutrajayaSet12023_Q07,A,B,C,D,C,Putrajaya Set 1 2023/Picture7.png
-F4 Chp 5,radio,PutrajayaSet12023_Q08,A,B,C,D,D,Putrajaya Set 1 2023/Picture8.png
-F4 Chp 5,radio,PutrajayaSet22023_Q07,A,B,C,D,C,Putrajaya Set 2 2023/Picture7.png
-F4 Chp 5,radio,PutrajayaSet22023_Q08,A,B,C,D,D,Putrajaya Set 2 2023/Picture8.png
-F4 Chp 5,radio,SarawakSubisMiri2023_Q07,A,B,C,D,C,Sarawak Subis Miri 2023/Picture7.png
-F4 Chp 5,radio,SarawakSubisMiri2023_Q08,A,B,C,D,D,Sarawak Subis Miri 2023/Picture8.png
-F4 Chp 5,radio,Selangor2023_Q07,A,B,C,D,B,Selangor 2023/Picture7.png
-F4 Chp 5,radio,Selangor2023_Q08,A,B,C,D,B,Selangor 2023/Picture8.png
-F4 Chp 5,radio,SelangorSet22023_Q07,A,B,C,D,D,Selangor Set 2 2023/Picture7.png
-F4 Chp 5,radio,SelangorSet22023_Q08,A,B,C,D,C,Selangor Set 2 2023/Picture8.png
-F4 Chp 5,radio,TerengganuMPP32023_Q07,A,B,C,D,A,Terengganu MPP3 2023/Picture7.png
-F4 Chp 5,radio,TerengganuMPP32023_Q08,A,B,C,D,D,Terengganu MPP3 2023/Picture8.png
-F4 Chp 5,radio,SBP2023_Q07,A,B,C,D,C,SBP 2023/Picture7.png
-F4 Chp 5,radio,SBP2023_Q08,A,B,C,D,D,SBP 2023/Picture8.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 5,radio,KedahTrial2023_Q07,A,B,C,D,B,Kedah Trial 2023/Picture7.png,"中文：食物废料占最高的 44.5%；按家庭需求准备适量食物，可从源头减少浪费。
+English: Food waste is highest at 44.5%; preparing food according to household needs reduces waste at its source."
+F4 Chp 5,radio,KedahTrial2023_Q08,A,B,C,D,B,Kedah Trial 2023/Picture8.png,"中文：同源染色体交换片段是减数分裂的交叉互换，可产生新的基因组合。
+English: The exchange of segments between homologous chromosomes is crossing over, producing new gene combinations."
+F4 Chp 5,radio,KelantanTrial2023_Q07,A,B,C,D,D,Kelantan Trial 2023/Picture7.png,"中文：Mm × mm 产生一半 Mm 红花、一半 mm 黄花，符合 1:1 表型比例。
+English: Mm × mm produces 50% Mm red flowers and 50% mm yellow flowers, matching the 1:1 ratio."
+F4 Chp 5,radio,KelantanTrial2023_Q08,A,B,C,D,C,Kelantan Trial 2023/Picture8.png,"中文：遗传工程把具有所需性状的基因转入作物，可改善大小、耐贮性及抗病性。
+English: Genetic engineering transfers useful genes into crops to improve size, storage life and disease resistance."
+F4 Chp 5,radio,MaahadJohor2023_Q07,A,B,C,D,D,Maahad Johor 2023/Picture7.png,"中文：水母依靠体内液体形成静水骨骼；水蛭和蚯蚓使用相同支撑方式。
+English: Jellyfish use hydrostatic support from body fluids, as do leeches and earthworms."
+F4 Chp 5,radio,MaahadJohor2023_Q08,A,B,C,D,C,Maahad Johor 2023/Picture8.png,"中文：按题图与答案，儿童期男孩的增长较快；女孩青春期加速较早，不代表一直长至 20 岁。
+English: In the supplied graph and key, boys grow faster during childhood; girls have an earlier adolescent spurt but do not keep growing to age 20."
+F4 Chp 5,radio,NegeriSembilan2023_Q07,A,B,C,D,A,Negeri Sembilan 2023/Picture7.png,"中文：Bb×bb的后代为一半Bb黑毛、一半bb白毛，因此白毛概率为50%。
+English: Bb × bb produces half Bb black-furred and half bb white-furred offspring, so the probability of white fur is 50%."
+F4 Chp 5,radio,NegeriSembilan2023_Q08,A,B,C,D,B,Negeri Sembilan 2023/Picture8.png,"中文：A图为连续变异，个体差异不明显；B图为不连续变异，各类别之间差异明显，因此选B。
+English: Graph A shows continuous variation with gradual differences, while graph B shows discontinuous variation with distinct categories, giving B."
+F4 Chp 5,radio,PahangTrial2023_Q07,A,B,C,D,D,Pahang Trial 2023/Picture7.png,"中文：固体有机废物在缺氧条件下分解会释放甲烷，图中应选A。现有答案D为一氧化碳，与此知识点不符，暂保留答案并注明疑点。
+English: Organic solid waste decomposing without oxygen releases methane, giving A in the image. Existing answer D is carbon monoxide and conflicts with this concept; it is retained pending review."
+F4 Chp 5,radio,PahangTrial2023_Q08,A,B,C,D,A,Pahang Trial 2023/Picture8.png,"中文：把农业废料加工成堆肥可循环利用有机物，减少废物及化学肥料使用，符合农业领域绿色科技应用。
+English: Turning agricultural waste into compost recycles organic material and reduces waste and chemical-fertiliser use, applying green technology in agriculture."
+F4 Chp 5,radio,Melaka2023_Q07,A,B,C,D,B,Melaka 2023/Picture7.png,"中文：花药中产生花粉的母细胞进行减数分裂，形成单倍体细胞。
+English: Pollen mother cells in the anther undergo meiosis to form haploid cells."
+F4 Chp 5,radio,Melaka2023_Q08,A,B,C,D,A,Melaka 2023/Picture8.png,"中文：Bb × bb 产生一半 Bb 可卷舌、一半 bb 不可卷舌，比例 1:1。
+English: Bb × bb produces equal numbers of tongue-rolling Bb and non-rolling bb offspring, giving 1:1."
+F4 Chp 5,radio,Perak2023_Q07,A,B,C,D,A,Perak 2023/Picture7.png,"中文：控制伐木可保留植物根部对土壤的固定作用，减少土壤侵蚀及山体滑坡等灾害。
+English: Controlling logging preserves roots that hold soil in place, reducing erosion and disasters such as landslides."
+F4 Chp 5,radio,Perak2023_Q08,A,B,C,D,D,Perak 2023/Picture8.png,"中文：二氧化碳等温室气体增多，会吸收更多地球释放的红外辐射，使温室效应加强。
+English: More carbon dioxide and other greenhouse gases absorb more infrared radiation emitted by Earth, strengthening the greenhouse effect."
+F4 Chp 5,radio,Perlis2023_Q07,A,B,C,D,C,Perlis 2023/Picture7.png,"中文：采用较清洁能源或提高效率的车辆能减少化石燃料消耗和温室气体排放，因此选C。
+English: A vehicle using cleaner energy or greater energy efficiency can reduce fossil-fuel use and greenhouse-gas emissions, giving C."
+F4 Chp 5,radio,Perlis2023_Q08,A,B,C,D,A,Perlis 2023/Picture8.png,"中文：交叉互换产生新的基因组合，增加同一物种个体之间的变异。答案A的“antara spesies”措辞不准确，应理解为物种内个体之间。
+English: Crossing over creates new gene combinations and variation among individuals of the same species. Answer A's wording “among species” is inaccurate; it should mean within a species."
+F4 Chp 5,radio,PutrajayaSet12023_Q07,A,B,C,D,C,Putrajaya Set 1 2023/Picture7.png,"中文：未经处理的工业废物污染河流，可能含毒性物质并影响溶氧，使水生生物死亡。
+English: Untreated industrial waste pollutes rivers, potentially introducing toxic substances and affecting dissolved oxygen, causing aquatic organisms to die."
+F4 Chp 5,radio,PutrajayaSet12023_Q08,A,B,C,D,D,Putrajaya Set 1 2023/Picture8.png,"中文：混合动力车结合电动机与燃油发动机，在拥堵或低速行驶时可减少燃油消耗，因此选D。
+English: A hybrid vehicle combines an electric motor and fuel engine and can reduce fuel consumption during congested or low-speed travel, giving D."
+F4 Chp 5,radio,PutrajayaSet22023_Q07,A,B,C,D,C,Putrajaya Set 2 2023/Picture7.png,"中文：私人车辆每名乘客的燃油消耗和温室气体排放通常最高，因此在绿色交通层级中处于最不优先的顶部，选C。
+English: Private vehicles generally have the highest fuel use and greenhouse-gas emissions per passenger, placing them at the least-preferred top of the green-transport hierarchy, giving C."
+F4 Chp 5,radio,PutrajayaSet22023_Q08,A,B,C,D,D,Putrajaya Set 2 2023/Picture8.png,"中文：有机肥可减少化学肥料造成的污染，生物防治利用天敌控制害虫，避免继续增加农药污染，因此选D。
+English: Organic fertilisers reduce pollution from chemical fertilisers, while biological control uses natural enemies against pests and avoids adding pesticide pollution, giving D."
+F4 Chp 5,radio,SarawakSubisMiri2023_Q07,A,B,C,D,C,Sarawak Subis Miri 2023/Picture7.png,"中文：基因工程可使细菌生产胰岛素和酶，是医疗益处；题目把误用所致的遗传风险列为弊端，答案C依此配对。
+English: Genetic engineering can make bacteria produce insulin and enzymes, a medical benefit; this question pairs it with genetic risks from misuse as the stated disadvantage, giving C."
+F4 Chp 5,radio,SarawakSubisMiri2023_Q08,A,B,C,D,D,Sarawak Subis Miri 2023/Picture8.png,"中文：蟑螂有外骨骼，必须蜕皮后身体才能明显长大，因此生长曲线呈阶梯形。
+English: A cockroach has an exoskeleton and grows appreciably after moulting, producing a staircase growth curve."
+F4 Chp 5,radio,Selangor2023_Q07,A,B,C,D,B,Selangor 2023/Picture7.png,"中文：过量使用化学农药会污染环境，本题选择B有机杀虫剂，以较环保的方法控制害虫并减少化学污染。
+English: Excess chemical pesticide use pollutes the environment; B, organic pesticides, is the intended greener pest-control method for reducing chemical pollution."
+F4 Chp 5,radio,Selangor2023_Q08,A,B,C,D,B,Selangor 2023/Picture8.png,"中文：步行不需要燃烧交通燃料，交通过程没有直接尾气温室气体排放，因此位于绿色交通层级的优先位置。
+English: Walking burns no transport fuel and produces no direct vehicle-exhaust greenhouse emissions, placing it in the preferred part of the green-transport hierarchy."
+F4 Chp 5,radio,SelangorSet22023_Q07,A,B,C,D,D,Selangor Set 2 2023/Picture7.png,"中文：选择性伐木只砍伐选定树木，保留其他植被及根系，可减少栖息地破坏、土壤侵蚀和滑坡风险。
+English: Selective logging removes only selected trees and retains other vegetation and roots, reducing habitat loss, erosion and landslide risk."
+F4 Chp 5,radio,SelangorSet22023_Q08,A,B,C,D,C,Selangor Set 2 2023/Picture8.png,"中文：单人车辆每名乘客分担的燃油消耗及排放较高，不如公共交通、骑车和步行环保，因此选C。
+English: Single-occupant vehicles have higher fuel use and emissions per passenger and are less environmentally friendly than public transport, cycling and walking, giving C."
+F4 Chp 5,radio,TerengganuMPP32023_Q07,A,B,C,D,A,Terengganu MPP3 2023/Picture7.png,"中文：性别属于有明确类别的不连续变异；身高、体重及肤色在课本分类属于连续变异。
+English: Sex is a discontinuous variation with distinct categories; height, body mass and skin colour are continuous in the textbook classification."
+F4 Chp 5,radio,TerengganuMPP32023_Q08,A,B,C,D,D,Terengganu MPP3 2023/Picture8.png,"中文：蝎子是节肢动物，具有坚硬、表面带蜡的几丁质外骨骼，保护和支持身体。
+English: A scorpion is an arthropod with a hard, wax-covered chitinous exoskeleton that protects and supports the body."
+F4 Chp 5,radio,SBP2023_Q07,A,B,C,D,C,SBP 2023/Picture7.png,"中文：多一条常染色体可能造成唐氏综合征等染色体疾病，引起身体及智力发育问题，因此选C。
+English: An extra autosome may cause a chromosome disorder such as Down syndrome, with physical and intellectual developmental difficulties, giving C."
+F4 Chp 5,radio,SBP2023_Q08,A,B,C,D,D,SBP 2023/Picture8.png,"中文：把厨余变为能源和堆肥，既回收资源又减少填埋废物的环境影响，因此选D。
+English: Turning food waste into energy and compost recovers resources and reduces the environmental impact of landfill waste, giving D."

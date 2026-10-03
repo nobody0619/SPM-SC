@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Negeri Sembilan 2023 F4,radio,F4 Chp 1,A,B,C,D,D,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,A,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,A,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,B,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,C,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Negeri Sembilan 2023 F4,radio,F4 Chp 1,A,B,C,D,D,Picture1.png,"中文：甲烷属于可燃气体，干粉灭火器可扑灭这类小火，因此选D。
+English: Methane is a flammable gas, so a dry-powder extinguisher is suitable for this small fire, giving D."
+,radio,F4 Chp 2,A,B,C,D,A,Picture2.png,"中文：图示腹部快速向内上方施压，是海姆立克急救法，利用气流帮助排出堵塞气管的异物。
+English: The inward and upward abdominal thrusts shown are the Heimlich manoeuvre, which uses expelled air to dislodge an airway obstruction."
+,radio,F4 Chp 3,A,B,C,D,C,Picture3.png,"中文：体重过高会增加胰岛素阻抗和患糖尿病的风险，因此选C。
+English: Excess body mass increases the risk of insulin resistance and diabetes mellitus, giving C."
+,radio,F4 Chp 3,A,B,C,D,A,Picture4.png,"中文：交通工具燃烧石油燃料会排放温室气体及造成酸雨的气体，所以这些问题属于交通领域。
+English: Vehicles burn petroleum fuels and release greenhouse gases and gases that cause acid rain, so these issues concern transportation."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：绿色科技提高能源效率并减少化石燃料使用，从而减少温室气体排放和碳足迹。
+English: Green technology improves energy efficiency and reduces fossil-fuel use, thereby reducing greenhouse-gas emissions and the carbon footprint."
+,radio,F4 Chp 4,A,B,C,D,D,Picture6.png,"中文：同源染色体的非姐妹染色单体交换片段，称为交叉互换，可产生新的基因组合。
+English: Exchange of segments between non-sister chromatids of homologous chromosomes is crossing over, producing new gene combinations."
+,radio,F4 Chp 5,A,B,C,D,A,Picture7.png,"中文：Bb×bb的后代为一半Bb黑毛、一半bb白毛，因此白毛概率为50%。
+English: Bb × bb produces half Bb black-furred and half bb white-furred offspring, so the probability of white fur is 50%."
+,radio,F4 Chp 5,A,B,C,D,B,Picture8.png,"中文：A图为连续变异，个体差异不明显；B图为不连续变异，各类别之间差异明显，因此选B。
+English: Graph A shows continuous variation with gradual differences, while graph B shows discontinuous variation with distinct categories, giving B."
+,radio,F4 Chp 6,A,B,C,D,D,Picture9.png,"中文：虾和蟹都有几丁质构成的坚硬外骨骼，可支持身体并保护内部器官。
+English: Prawns and crabs have hard chitinous exoskeletons that support the body and protect internal organs."
+,radio,F4 Chp 6,A,B,C,D,C,Picture10.png,"中文：在13岁的位置，女性曲线高于男性曲线，表示该年龄女性较高，因此选C。
+English: At age 13, the female curve lies above the male curve, showing that females are taller at that age, giving C."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：安非他命和甲基安非他命属于兴奋剂，会加快神经冲动传递，提高神经系统活动。
+English: Amphetamine and methamphetamine are stimulants that accelerate nerve-impulse transmission and increase nervous-system activity."
+,radio,F4 Chp 8,A,B,C,D,D,Picture12.png,"中文：锌是由金属原子组成的原子物质；水和氧气属于分子物质，铁锈不是分子物质，因此D正确。
+English: Zinc is an atomic substance made of metal atoms; water and oxygen are molecular substances, and rust is not a molecular substance, so D is correct."
+,radio,F4 Chp 8,A,B,C,D,C,Picture13.png,"中文：Ca²⁺有18个电子，排列为2.8.8；中性钙原子有20个电子，排列为2.8.8.2，所以有四个含电子的壳层。
+English: Ca²⁺ has 18 electrons arranged 2.8.8; a neutral calcium atom has 20 electrons arranged 2.8.8.2, so it has four occupied shells."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：伽马射线照射可杀死导致腐败的微生物，使水果较耐储存，因此选B。
+English: Gamma irradiation kills microorganisms responsible for spoilage, helping fruit last longer, giving B."
+,radio,F4 Chp 9,A,B,C,D,C,Picture15.png,"中文：实验室玻璃器皿使用硼硅酸盐玻璃，因其耐热且热膨胀小，不易因温度变化而破裂。
+English: Laboratory glassware uses borosilicate glass because it resists heat and expands little, reducing cracking during temperature changes."
+,radio,F4 Chp 9,A,B,C,D,C,Picture16.png,"中文：硫化时硫在橡胶分子链之间形成交联，使橡胶更坚韧、耐热和耐磨，因此轮胎使用寿命更长，选C。
+English: Sulfur forms cross-links between rubber chains during vulcanisation, improving strength, heat resistance and durability; tyres therefore last longer, giving C."
+,radio,F4 Chp 10,A,B,C,D,D,Picture17.png,"中文：代谢和炎症发生在体内，会产生自由基；烟雾、阳光和外来辐射属于外部因素，因此选D。
+English: Metabolism and inflammation occur inside the body and generate free radicals; smoke, sunlight and external radiation are external factors, giving D."
+,radio,F4 Chp 10,A,B,C,D,B,Picture18.png,"中文：活性成分是产生保健或治疗作用的成分；延长保存期限通常是防腐剂的作用。现有答案B需核对，不能把活性成分与防腐剂混同。
+English: Active ingredients provide a health or therapeutic effect, whereas preservatives generally extend shelf life. Existing answer B needs review; active ingredients should not be confused with preservatives."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：速度=距离÷时间=100÷20=5 m/s，因此真实第19题应选A。
+English: Speed = distance ÷ time = 100 ÷ 20 = 5 m/s, so the actual Q19 gives A."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：降落伞增加空气阻力，使物资较慢降落，降低撞击损坏的风险，因此真实第20题选B。
+English: A parachute increases air resistance and slows the supplies' descent, reducing impact damage, so the actual Q20 gives B."
+,radio,F4 Chp 12,A,B,C,D,A,Picture21.png,"中文：图中铀-235原子核被中子撞击后分裂成较小原子核并释放能量，这是核裂变，选A。
+English: Uranium-235 splits into smaller nuclei and releases energy after absorbing a neutron; this is nuclear fission, giving A."
+,radio,F4 Chp 12,A,B,C,D,B,Picture22.png,"中文：核试验释放的电离辐射会损伤细胞和遗传物质，可导致癌症及胎儿缺陷，因此选B。
+English: Ionising radiation from nuclear tests damages cells and genetic material and may cause cancer and fetal defects, giving B."

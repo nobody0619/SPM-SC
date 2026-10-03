@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Selangor Set 2 2023 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Selangor Set 2 2023 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png,"中文：老叶中心呈黄色V形，符合缺氮；氮不足使叶绿素形成减少，叶片变黄及生长缓慢，因此选A。
+English: The older leaf has a yellow V-shaped central region, consistent with nitrogen deficiency. Insufficient nitrogen reduces chlorophyll formation, causing yellowing and slow growth, giving A."
+,radio,F5 Chp 1,A,B,C,D,B,Picture24.png,"中文：现代农业科技如机械化和高效种植方法可提高生产效率、粮食品质与数量，因此选B。
+English: Modern agricultural technology, including mechanisation and efficient cultivation, improves productivity, food quality and quantity, giving B."
+,radio,F5 Chp 2,A,B,C,D,D,Picture25.png,"中文：真空包装排除空气，减少氧化及部分微生物活动，答案D依此选择用于榴莲果肉；仍须配合适当温度管理。
+English: Vacuum packaging removes air and reduces oxidation and some microbial activity, explaining D for durian flesh; suitable temperature control remains necessary."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：不同人的年龄、体况及需求不同，补充剂合适剂量也不同，因此不能把同一剂量当成适合所有人。
+English: People differ in age, health and needs, so supplement dosage requirements vary and one dose is not suitable for everyone."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：各灯日用电量分别LED0.045、荧光0.080、卤素0.060、CFL0.126 kWh。CFL最高，排放0.126×39÷50=0.09828 g，选C。
+English: Daily electricity use is LED 0.045, fluorescent 0.080, halogen 0.060 and CFL 0.126 kWh. CFL is highest, with stated emissions 0.126 × 39/50 = 0.09828 g, giving C."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：伐林减少植被遮阴与蒸腾散热，可增加当地温度，按本题分类与热污染配对，因此选A。
+English: Deforestation reduces shading and cooling by transpiration and can raise local temperature; this is paired with thermal pollution in the question, giving A."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：庆祝活动的燃烧反应在短时间内发生、放热放光，属于快反应，因此选B。
+English: Combustion during the celebration occurs over a short time and releases heat and light, making it a fast reaction, giving B."
+,radio,F5 Chp 4,A,B,C,D,A,Picture30.png,"中文：氧化钒(V)在接触法中作催化剂，加快二氧化硫氧化成三氧化硫的反应，因此选A。
+English: Vanadium(V) oxide catalyses the Contact process, accelerating sulfur dioxide's oxidation to sulfur trioxide, giving A."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：石灰石主要为碳酸钙，二氧化碳也是无机碳化合物，因此C这两项正确。
+English: Limestone is mainly calcium carbonate, and carbon dioxide is also inorganic, so both examples in C are correct."
+,radio,F5 Chp 5,A,B,C,D,C,Picture32.png,"中文：石油各组分沸点不同，可用分馏fractional distillation分离成不同馏分，因此选C。
+English: Petroleum components have different boiling points and are separated into fractions by fractional distillation, giving C."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：Q括号明确标示肥皂的碳氢尾，它是疏水部分，溶于油脂并帮助除去油污，因此应选A。现有答案D“溶于石灰水”不符合该部分的功能，保留原答案并注明疑点。
+English: Q clearly brackets the hydrocarbon tail of soap. This hydrophobic part dissolves in grease and helps remove oily dirt, giving A. Existing D, dissolving in limewater, does not describe its function; the original answer is retained with this discrepancy noted."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：熔融溴化铅(II)有可自由移动的离子，是电解质，应选D；乙醇A为分子物质，不能依离子导电，现有答案需核对。
+English: Molten lead(II) bromide has mobile ions and is an electrolyte, giving D; ethanol, A, is molecular and does not conduct through such ions, so the existing key needs review."
+,radio,F5 Chp 7,A,B,C,D,C,Picture35.png,"中文：Y是负极并把电子供给铁，所以必须比铁活泼；所列锌A符合，银C比铁不活泼。现有答案C与电子方向不符。
+English: Y is the negative terminal supplying electrons to iron and must be more reactive; zinc, A, fits, whereas silver, C, is less reactive than iron. Existing C conflicts with the electron direction."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：焦距15 cm，物距25 cm在f与2f=30 cm之间，凸透镜产生实、倒立、放大的像，因此选C。
+English: The focal length is 15 cm and object distance 25 cm lies between f and 2f = 30 cm, producing a real, inverted, magnified image, giving C."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：较短焦距镜头提供较宽视角，可拍摄较大范围，因此选C。
+English: A shorter-focal-length lens provides a wider field of view and captures a larger scene, giving C."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：帕斯卡原理150÷15=F÷35，得F=350 N，应选C。现有B250 N与题设面积和作用力不符。
+English: Pascal's principle gives 150/15 = F/35, so F = 350 N, answer C. Existing B, 250 N, disagrees with the stated areas and force."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：X指向长椭圆形的红色虚线轨道，本题将其标示为高地球轨道HEO，因此选B。
+English: X points to the elongated red dashed orbit, identified in this question as high Earth orbit, HEO, giving B."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：GPS提供位置和时间资料，可在各种天气下使用，因此选B；天气资料不是GPS本身定位功能。
+English: GPS provides location and time information in all weather conditions, giving B; weather information is not its positioning function."

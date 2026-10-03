@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-SBP 2023 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,D,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,B,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+SBP 2023 F4,radio,F4 Chp 1,A,B,C,D,C,Picture1.png,"中文：血液和血清属于液体生物废物，需通过高压灭菌消除微生物危害后再适当处置。
+English: Blood and serum are liquid biological waste and must be decontaminated by autoclaving before appropriate disposal."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：顺序为拔保险销R→瞄准火焰底部P→按下手柄S→左右扫射Q，因此选D。
+English: The sequence is pull the pin R → aim at the base P → squeeze the handle S → sweep side to side Q, giving D."
+,radio,F4 Chp 3,A,B,C,D,C,Picture3.png,"中文：伤者恢复正常呼吸但仍无意识时，可置于侧卧复苏姿势，帮助保持气道通畅，因此选C。
+English: If the victim resumes normal breathing but remains unconscious, place them in the recovery position to help keep the airway open, giving C."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：向内上方的腹部施压增加肺内压力，让空气迅速排出以推走堵塞气道的异物。
+English: Inward-upward abdominal thrusts increase lung pressure and force air out to dislodge an airway obstruction."
+,radio,F4 Chp 4,A,B,C,D,D,Picture5.png,"中文：跑步需要肌肉获得更多氧和养分，心跳与脉搏会加快，因此D跑步者脉搏率最高。
+English: Running increases muscle demand for oxygen and nutrients, raising heart and pulse rates, so runner D has the highest pulse rate."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：BMI=37÷1.4²≈18.88 kg/m²，属于题设理想体重范围，对应B。
+English: BMI = 37 ÷ 1.4² ≈ 18.88 kg/m², within the question's desirable-weight range, matching B."
+,radio,F4 Chp 5,A,B,C,D,C,Picture7.png,"中文：多一条常染色体可能造成唐氏综合征等染色体疾病，引起身体及智力发育问题，因此选C。
+English: An extra autosome may cause a chromosome disorder such as Down syndrome, with physical and intellectual developmental difficulties, giving C."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：把厨余变为能源和堆肥，既回收资源又减少填埋废物的环境影响，因此选D。
+English: Turning food waste into energy and compost recovers resources and reduces the environmental impact of landfill waste, giving D."
+,radio,F4 Chp 6,A,B,C,D,A,Picture9.png,"中文：Y表示亲本形成配子的过程，是减数分裂，使每个配子只带一个等位基因。
+English: Y represents gamete formation by meiosis, so each gamete carries one allele of the gene."
+,radio,F4 Chp 6,A,B,C,D,B,Picture10.png,"中文：先切割DNA及质粒R，再把重组DNA加入细菌Q，让细菌繁殖生产胰岛素S，最后提取纯化P，选B。
+English: First cut DNA and plasmid R, introduce recombinant DNA into bacteria Q, grow them to produce insulin S, then extract and purify P, giving B."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：滑液不足会减少关节润滑，骨端摩擦增加，弯曲膝盖时容易疼痛，因此选C。
+English: Insufficient synovial fluid reduces joint lubrication and increases friction, causing pain when bending the knee, giving C."
+,radio,F4 Chp 8,A,B,C,D,D,Picture12.png,"中文：指纹类型属于不连续变异，有不同类别而没有连续中间等级，因此选D。
+English: Fingerprint patterns are discontinuous variation, forming distinct categories without a continuous range of intermediate values, giving D."
+,radio,F4 Chp 8,A,B,C,D,B,Picture13.png,"中文：水中的浮力向上支持动物体重，使水生脊椎动物游泳时无需完全由骨骼承受重量。
+English: Upward buoyancy supports an aquatic vertebrate's weight while swimming, so its skeleton need not bear the full weight."
+,radio,F4 Chp 8,A,B,C,D,D,Picture14.png,"中文：成年人分泌过多生长激素，会使手、脸及下颌等部位增大，形成肢端肥大症acromegaly。
+English: Excess growth hormone in an adult enlarges the hands, facial features and jaw, producing acromegaly."
+,radio,F4 Chp 9,A,B,C,D,C,Picture15.png,"中文：金属失去电子形成阳离子，非金属接受电子形成阴离子，二者形成离子化合物，因此选C。
+English: A metal loses electrons to form cations and a non-metal gains electrons to form anions, producing an ionic compound, giving C."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：LSD属于致幻剂，能导致看到不存在的事物等幻觉，因此选D。
+English: LSD is a hallucinogen that can cause perceptions of things that are not present, giving D."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：钴-60释放伽马射线，可用于放射治疗以破坏癌细胞，因此选A。
+English: Cobalt-60 emits gamma radiation used in radiotherapy to destroy cancer cells, giving A."
+,radio,F4 Chp 10,A,B,C,D,D,Picture18.png,"中文：质子数20的中性原子有20个电子，按壳层排列为2.8.8.2，因此选D。
+English: A neutral atom with proton number 20 has 20 electrons arranged 2.8.8.2, giving D."
+,radio,F4 Chp 11,A,B,C,D,B,Picture19.png,"中文：不同大小的原子破坏金属原子层规则排列，阻碍滑动，所以合金通常比纯金属更硬、更耐用。
+English: Different-sized atoms disturb regular metal layers and hinder sliding, so alloys are generally harder and more durable than pure metals."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：聚合把小单体连成长链大分子，可形成较坚固的材料，因此题目选B提高强度。
+English: Polymerisation joins small monomers into long-chain molecules and can form stronger materials, giving B in this question."
+,radio,F4 Chp 12,A,B,C,D,D,Picture21.png,"中文：柑橘含维生素C等抗氧化成分，帮助减少氧化损伤并维持皮肤胶原功能，因此选D。
+English: Citrus fruit provides antioxidants such as vitamin C, helping reduce oxidative damage and support skin collagen, giving D."
+,radio,F4 Chp 12,A,B,C,D,B,Picture22.png,"中文：速度时间图下的有符号面积等于位移，单位m/s×s=m，因此选B。
+English: The signed area under a velocity–time graph is displacement, with units m/s × s = m, giving B."

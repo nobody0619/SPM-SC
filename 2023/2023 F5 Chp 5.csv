@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 5,radio,KedahTrial2023_Q31,A,B,C,D,C,Kedah Trial 2023/Picture31.png
-F5 Chp 5,radio,KedahTrial2023_Q32,A,B,C,D,D,Kedah Trial 2023/Picture32.png
-F5 Chp 5,radio,KelantanTrial2023_Q31,A,B,C,D,C,Kelantan Trial 2023/Picture31.png
-F5 Chp 5,radio,KelantanTrial2023_Q32,A,B,C,D,A,Kelantan Trial 2023/Picture32.png
-F5 Chp 5,radio,MaahadJohor2023_Q31,A,B,C,D,C,Maahad Johor 2023/Picture31.png
-F5 Chp 5,radio,MaahadJohor2023_Q32,A,B,C,D,B,Maahad Johor 2023/Picture32.png
-F5 Chp 5,radio,NegeriSembilan2023_Q31,A,B,C,D,B,Negeri Sembilan 2023/Picture31.png
-F5 Chp 5,radio,NegeriSembilan2023_Q32,A,B,C,D,A,Negeri Sembilan 2023/Picture32.png
-F5 Chp 5,radio,PahangTrial2023_Q31,A,B,C,D,C,Pahang Trial 2023/Picture31.png
-F5 Chp 5,radio,PahangTrial2023_Q32,A,B,C,D,D,Pahang Trial 2023/Picture32.png
-F5 Chp 5,radio,Melaka2023_Q31,A,B,C,D,A,Melaka 2023/Picture31.png
-F5 Chp 5,radio,Melaka2023_Q32,A,B,C,D,C,Melaka 2023/Picture32.png
-F5 Chp 5,radio,Perak2023_Q31,A,B,C,D,B,Perak 2023/Picture31.png
-F5 Chp 5,radio,Perak2023_Q32,A,B,C,D,D,Perak 2023/Picture32.png
-F5 Chp 5,radio,Perlis2023_Q31,A,B,C,D,A,Perlis 2023/Picture31.png
-F5 Chp 5,radio,Perlis2023_Q32,A,B,C,D,C,Perlis 2023/Picture32.png
-F5 Chp 5,radio,PutrajayaSet12023_Q31,A,B,C,D,C,Putrajaya Set 1 2023/Picture31.png
-F5 Chp 5,radio,PutrajayaSet12023_Q32,A,B,C,D,B,Putrajaya Set 1 2023/Picture32.png
-F5 Chp 5,radio,PutrajayaSet22023_Q31,A,B,C,D,B,Putrajaya Set 2 2023/Picture31.png
-F5 Chp 5,radio,PutrajayaSet22023_Q32,A,B,C,D,D,Putrajaya Set 2 2023/Picture32.png
-F5 Chp 5,radio,SarawakSubisMiri2023_Q31,A,B,C,D,A,Sarawak Subis Miri 2023/Picture31.png
-F5 Chp 5,radio,SarawakSubisMiri2023_Q32,A,B,C,D,C,Sarawak Subis Miri 2023/Picture32.png
-F5 Chp 5,radio,Selangor2023_Q31,A,B,C,D,C,Selangor 2023/Picture31.png
-F5 Chp 5,radio,Selangor2023_Q32,A,B,C,D,A,Selangor 2023/Picture32.png
-F5 Chp 5,radio,SelangorSet22023_Q31,A,B,C,D,C,Selangor Set 2 2023/Picture31.png
-F5 Chp 5,radio,SelangorSet22023_Q32,A,B,C,D,C,Selangor Set 2 2023/Picture32.png
-F5 Chp 5,radio,TerengganuMPP32023_Q31,A,B,C,D,D,Terengganu MPP3 2023/Picture31.png
-F5 Chp 5,radio,TerengganuMPP32023_Q32,A,B,C,D,C,Terengganu MPP3 2023/Picture32.png
-F5 Chp 5,radio,SBP2023_Q31,A,B,C,D,C,SBP 2023/Picture31.png
-F5 Chp 5,radio,SBP2023_Q32,A,B,C,D,B,SBP 2023/Picture32.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 5,radio,KedahTrial2023_Q31,A,B,C,D,C,Kedah Trial 2023/Picture31.png,"中文：酒精燃烧产生蓝色火焰，通常不冒黑烟和形成烟炱，符合图中的观察。
+English: Alcohol burns with a blue flame and little soot, matching the observation."
+F5 Chp 5,radio,KedahTrial2023_Q32,A,B,C,D,D,Kedah Trial 2023/Picture32.png,"中文：按 SPM 课本选项比较，植物油如棕油是替代牛油等动物脂肪的选择，因此 D 为预期答案。
+English: Within the SPM textbook comparison, vegetable oil such as palm oil is the intended alternative to animal fats such as butter, so D is expected."
+F5 Chp 5,radio,KelantanTrial2023_Q31,A,B,C,D,C,Kelantan Trial 2023/Picture31.png,"中文：CnH2n 是烯烃通式，对应 A 的乙烯 Etena；C 的乙醇含氧，并非烃。现有答案纸记 C，与题目内容不符。
+English: CnH2n is the general formula of alkenes, matching ethene in A. Ethanol in C contains oxygen and is not a hydrocarbon; the original key C conflicts with the question."
+F5 Chp 5,radio,KelantanTrial2023_Q32,A,B,C,D,A,Kelantan Trial 2023/Picture32.png,"中文：饱和脂肪摄入过多可促进动脉脂质沉积并缩小管腔，减少摄入有助改善风险。
+English: Excess saturated fat promotes fatty deposits that narrow arteries; reducing intake helps address this risk."
+F5 Chp 5,radio,MaahadJohor2023_Q31,A,B,C,D,C,Maahad Johor 2023/Picture31.png,"中文：所讨论的酒精在室温为液体；碳链越长，水溶性通常越低，故 II、IV。
+English: The alcohols considered are liquids at room temperature, and water solubility decreases with longer carbon chains; II and IV are correct."
+F5 Chp 5,radio,MaahadJohor2023_Q32,A,B,C,D,B,Maahad Johor 2023/Picture32.png,"中文：熔融氯化钠的离子能自由移动而导电，是电解质；固态盐的离子不能自由移动。
+English: Molten sodium chloride conducts through mobile ions and is an electrolyte; its solid ions cannot move freely."
+F5 Chp 5,radio,NegeriSembilan2023_Q31,A,B,C,D,B,Negeri Sembilan 2023/Picture31.png,"中文：哈伯法按1份氮气与3份氢气反应：N₂+3H₂→2NH₃，使用铁催化剂，所以K为氮、L为氢、M为铁。
+English: The Haber process uses one part nitrogen to three parts hydrogen: N₂ + 3H₂ → 2NH₃, with iron as catalyst; K is nitrogen, L hydrogen and M iron."
+F5 Chp 5,radio,NegeriSembilan2023_Q32,A,B,C,D,A,Negeri Sembilan 2023/Picture32.png,"中文：图示为丙烷C₃H₈，只含碳碳单键，属于饱和烃的烷烃系列，符合CnH₂n+₂。
+English: The structure is propane, C₃H₈, containing only carbon–carbon single bonds; it belongs to the saturated alkane series, CnH₂n+₂."
+F5 Chp 5,radio,PahangTrial2023_Q31,A,B,C,D,C,Pahang Trial 2023/Picture31.png,"中文：冰箱降低温度，减慢微生物活动及造成腐败的反应，使食物保存较久。
+English: A refrigerator lowers temperature, slowing microbial activity and spoilage reactions so food lasts longer."
+F5 Chp 5,radio,PahangTrial2023_Q32,A,B,C,D,D,Pahang Trial 2023/Picture32.png,"中文：乙烷C₂H₆和乙烯C₂H₄都含两个碳原子；前者为烷烃，后者为烯烃，因此共同点为D。
+English: Ethane, C₂H₆, and ethene, C₂H₄, both contain two carbon atoms; one is an alkane and the other an alkene, so their shared feature is D."
+F5 Chp 5,radio,Melaka2023_Q31,A,B,C,D,A,Melaka 2023/Picture31.png,"中文：X 为接触法催化剂，提供较低活化能的反应途径，加快反应。
+English: X is the Contact-process catalyst, providing a lower-activation-energy pathway and increasing reaction rate."
+F5 Chp 5,radio,Melaka2023_Q32,A,B,C,D,C,Melaka 2023/Picture32.png,"中文：结构含三粒碳且只有单键，为丙烷 C3H8。
+English: Three carbon atoms joined by single bonds identify propane, C3H8."
+F5 Chp 5,radio,Perak2023_Q31,A,B,C,D,B,Perak 2023/Picture31.png,"中文：石油主要由有机碳化合物中的碳氢化合物组成；二氧化碳属于无机碳化合物，金刚石只是碳元素。
+English: Petroleum mainly contains hydrocarbons, which are organic carbon compounds; carbon dioxide is inorganic and diamond is elemental carbon."
+F5 Chp 5,radio,Perak2023_Q32,A,B,C,D,D,Perak 2023/Picture32.png,"中文：酵母在缺氧情况下发酵葡萄糖，生成乙醇及二氧化碳，所以X是乙醇。
+English: Yeast ferments glucose without oxygen, producing ethanol and carbon dioxide, so X is ethanol."
+F5 Chp 5,radio,Perlis2023_Q31,A,B,C,D,A,Perlis 2023/Picture31.png,"中文：依本题答案A，微塑料沿食物链累积造成健康风险，课本列癌症为相关影响；不是导致臭氧减少或富营养化的主要机制。
+English: Following answer A, microplastics transferred along food chains pose health risks, with cancer listed as a related textbook effect; they are not the principal mechanism of ozone depletion or eutrophication."
+F5 Chp 5,radio,Perlis2023_Q32,A,B,C,D,C,Perlis 2023/Picture32.png,"中文：气体体积在140秒达到35 cm³并停止增加，平均速率=35÷140=0.25 cm³/s，不能用后面的等待时间180秒。
+English: Gas volume reaches 35 cm³ at 140 seconds and then stops increasing; average rate = 35 ÷ 140 = 0.25 cm³/s, excluding the later waiting period to 180 seconds."
+F5 Chp 5,radio,PutrajayaSet12023_Q31,A,B,C,D,C,Putrajaya Set 1 2023/Picture31.png,"中文：木炭燃烧在短时间内明显发生并释放热，是所列过程中的快反应。
+English: Charcoal combustion occurs visibly over a short time and releases heat, making it the fast reaction among those listed."
+F5 Chp 5,radio,PutrajayaSet12023_Q32,A,B,C,D,B,Putrajaya Set 1 2023/Picture32.png,"中文：N₂+3H₂→2NH₃，所以哈伯法氮气与氢气的比例为1:3。
+English: N₂ + 3H₂ → 2NH₃, so the nitrogen-to-hydrogen ratio in the Haber process is 1:3."
+F5 Chp 5,radio,PutrajayaSet22023_Q31,A,B,C,D,B,Putrajaya Set 2 2023/Picture31.png,"中文：碎木炭比大块木炭有更大的总表面积与氧气接触，因此燃烧较快，影响因素为颗粒大小。
+English: Charcoal flakes have a larger total surface area exposed to oxygen than chunks and burn faster; the factor is reactant particle size."
+F5 Chp 5,radio,PutrajayaSet22023_Q32,A,B,C,D,D,Putrajaya Set 2 2023/Picture32.png,"中文：氧化钒(V)作为接触法的催化剂，提供较低活化能的途径，提高反应速率。
+English: Vanadium(V) oxide is the Contact-process catalyst, providing a pathway with lower activation energy and increasing reaction rate."
+F5 Chp 5,radio,SarawakSubisMiri2023_Q31,A,B,C,D,A,Sarawak Subis Miri 2023/Picture31.png,"中文：接触法使用氧化钒(V)催化剂，应选B；铁粉A用于哈伯法而非接触法。
+English: The Contact process uses vanadium(V) oxide, giving B; iron powder, A, is the Haber-process catalyst."
+F5 Chp 5,radio,SarawakSubisMiri2023_Q32,A,B,C,D,C,Sarawak Subis Miri 2023/Picture32.png,"中文：题干通式印成CnH₂n+n，存在笔误。若原意为CnH₂n，C丙烯与戊烯正确；若为CnH₂n+₂，则应选D丁烷与己烷，需核对原意。
+English: The printed formula CnH₂n+n is a typo. If CnH₂n is intended, C, propene and pentene, is correct; if CnH₂n+₂ is intended, D, butane and hexane, is correct. The intended formula needs checking."
+F5 Chp 5,radio,Selangor2023_Q31,A,B,C,D,C,Selangor 2023/Picture31.png,"中文：光合作用吸收空气中的二氧化碳并把碳固定到有机物中，因此可减少空气中过多二氧化碳。
+English: Photosynthesis absorbs atmospheric carbon dioxide and fixes its carbon into organic matter, removing excess carbon dioxide from the air."
+F5 Chp 5,radio,Selangor2023_Q32,A,B,C,D,A,Selangor 2023/Picture32.png,"中文：碳氢化合物的定义是只含碳与氢两种元素，因此选A。
+English: A hydrocarbon contains only carbon and hydrogen, giving A."
+F5 Chp 5,radio,SelangorSet22023_Q31,A,B,C,D,C,Selangor Set 2 2023/Picture31.png,"中文：石灰石主要为碳酸钙，二氧化碳也是无机碳化合物，因此C这两项正确。
+English: Limestone is mainly calcium carbonate, and carbon dioxide is also inorganic, so both examples in C are correct."
+F5 Chp 5,radio,SelangorSet22023_Q32,A,B,C,D,C,Selangor Set 2 2023/Picture32.png,"中文：石油各组分沸点不同，可用分馏fractional distillation分离成不同馏分，因此选C。
+English: Petroleum components have different boiling points and are separated into fractions by fractional distillation, giving C."
+F5 Chp 5,radio,TerengganuMPP32023_Q31,A,B,C,D,D,Terengganu MPP3 2023/Picture31.png,"中文：胆固醇沉积使动脉管腔变窄、血流阻力增加，可增加高血压风险，因此选D。
+English: Cholesterol deposits narrow the arterial lumen and increase resistance to blood flow, raising hypertension risk, giving D."
+F5 Chp 5,radio,TerengganuMPP32023_Q32,A,B,C,D,C,Terengganu MPP3 2023/Picture32.png,"中文：按本题课本分类，棕榈仁isirung用于生产较高品质的棕榈仁油，因此选C。
+English: In this textbook classification, the kernel, isirung, produces the higher-quality palm-kernel oil, giving C."
+F5 Chp 5,radio,SBP2023_Q31,A,B,C,D,C,SBP 2023/Picture31.png,"中文：微藻通过光合作用吸收二氧化碳，将碳固定在有机物中，因此可用于负排放科技。
+English: Microalgae absorb carbon dioxide through photosynthesis and fix its carbon into organic matter, supporting negative-emission technology."
+F5 Chp 5,radio,SBP2023_Q32,A,B,C,D,B,SBP 2023/Picture32.png,"中文：提高气体压力会使气体粒子更密集，提高碰撞频率；压力是特别针对气体反应的速率因素。
+English: Increasing gas pressure packs particles more closely and raises collision frequency; pressure is a rate factor specifically important for gaseous reactants."

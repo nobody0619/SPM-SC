@@ -1,23 +1,45 @@
-﻿title,type,question,A,B,C,D,answer,image
-Perak 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,B,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,B,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,A,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,B,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Perak 2023 F4,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：pH6在课本允许的pH5至9范围内，因此选B；前提是该废液没有其他有害、易反应或有机溶剂成分。
+English: pH 6 lies within the textbook's permitted pH 5–9 range, giving B, provided the waste has no other hazardous, reactive or organic-solvent components."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：课本中干粉灭火器适用于各类火灾，其标签为蓝色，因此选D。
+English: In the textbook classification, dry-powder extinguishers cover the listed fire classes and have blue labels, giving D."
+,radio,F4 Chp 3,A,B,C,D,C,Picture3.png,"中文：海姆立克法增加肺内压力，使空气迅速向外排出，帮助推出气道中的异物。
+English: The Heimlich manoeuvre increases pressure in the lungs, forcing air out to help expel an airway obstruction."
+,radio,F4 Chp 3,A,B,C,D,D,Picture4.png,"中文：体温计的缩窄处阻止水银立即回流，使取出体温计后仍能读取最高体温。
+English: The constriction prevents mercury from immediately flowing back, allowing the highest body temperature to be read after removing the thermometer."
+,radio,F4 Chp 4,A,B,C,D,B,Picture5.png,"中文：每10秒12次，换算为每分钟12×60÷10=72次，因此选B。
+English: Twelve beats in 10 seconds gives 12 × 60 ÷ 10 = 72 beats per minute, giving B."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：绿色科技是发展和应用能保护环境、减少资源消耗及污染的产品、设备和系统，因此选B。
+English: Green technology develops and applies products, equipment and systems that conserve the environment and reduce resource use and pollution, giving B."
+,radio,F4 Chp 5,A,B,C,D,A,Picture7.png,"中文：控制伐木可保留植物根部对土壤的固定作用，减少土壤侵蚀及山体滑坡等灾害。
+English: Controlling logging preserves roots that hold soil in place, reducing erosion and disasters such as landslides."
+,radio,F4 Chp 5,A,B,C,D,D,Picture8.png,"中文：二氧化碳等温室气体增多，会吸收更多地球释放的红外辐射，使温室效应加强。
+English: More carbon dioxide and other greenhouse gases absorb more infrared radiation emitted by Earth, strengthening the greenhouse effect."
+,radio,F4 Chp 6,A,B,C,D,A,Picture9.png,"中文：Pp×Pp产生PP、Pp、Pp、pp，只有pp为白花，所以概率1/4=25%。
+English: Pp × Pp gives PP, Pp, Pp and pp; only pp produces white flowers, so the probability is 1/4 = 25%."
+,radio,F4 Chp 6,A,B,C,D,D,Picture10.png,"中文：依答案D，GMO是通过改变遗传物质而获得新性状的生物，可引入其他物种的基因；重组DNA技术是实现这种基因组合的方法。
+English: Following answer D, a GMO is an organism whose genetic material is altered to obtain new traits, including genes from other species; recombinant-DNA technology is the method used to combine those genes."
+,radio,F4 Chp 7,A,B,C,D,B,Picture11.png,"中文：攀缘植物利用卷须等结构沿支架向上生长，以获得更多阳光进行光合作用。
+English: Climbing plants use structures such as tendrils to grow up supports and obtain more sunlight for photosynthesis."
+,radio,F4 Chp 8,A,B,C,D,C,Picture12.png,"中文：碳水化合物消化后形成葡萄糖，控制摄入量有助于避免过多血糖负荷，因此本题选C。
+English: Carbohydrates are digested into glucose; controlling their intake helps avoid excessive glucose intake, giving C in this question."
+,radio,F4 Chp 8,A,B,C,D,D,Picture13.png,"中文：P和Q位于周期表右侧的非金属区域，M和N位于左侧金属区域，因此选D。
+English: P and Q lie in the non-metal region on the right of the periodic table, while M and N lie in the metal region on the left, giving D."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：钠-24可作为血液示踪剂；监测其辐射分布可找出血流受阻或血栓的位置。
+English: Sodium-24 acts as a blood tracer; monitoring its radiation distribution helps locate blocked blood flow or a clot."
+,radio,F4 Chp 9,A,B,C,D,B,Picture15.png,"中文：钠钙玻璃熔点较低、容易成形，常用于普通瓶罐和窗玻璃，因此选B。
+English: Soda-lime glass has a relatively low melting point and is easy to shape, making it suitable for ordinary bottles and windows, giving B."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：辐射和烟雾可产生自由基，损伤细胞；依本题所列选项，肾衰竭D属于这种损伤可能造成的健康问题。
+English: Radiation and cigarette smoke can generate free radicals that damage cells; among the listed options, kidney failure, D, is the health problem associated with such damage in this question."
+,radio,F4 Chp 10,A,B,C,D,A,Picture17.png,"中文：保健产品的活性成分用于产生特定保健作用，如预防疾病；防腐剂才主要负责延长保存期限。
+English: Active ingredients provide specific health effects, such as disease prevention; preservatives primarily extend shelf life."
+,radio,F4 Chp 10,A,B,C,D,B,Picture18.png,"中文：相同时间内的各段纸带长度相等，表示移动距离相同，速度保持不变，因此选B匀速。
+English: Equal tape lengths in equal time intervals show equal distances travelled and therefore uniform velocity, giving B."
+,radio,F4 Chp 11,A,B,C,D,B,Picture19.png,"中文：M车在12至16秒的位移时间图为水平线，斜率为0，即速度为0，表示静止。
+English: Car M's displacement–time graph is horizontal from 12 to 16 seconds; its slope and velocity are zero, so the car is at rest."
+,radio,F4 Chp 11,A,B,C,D,B,Picture20.png,"中文：油轮质量很大，惯性也很大，倾向保持原来的运动状态，所以关掉引擎后仍继续前进。
+English: A tanker has a large mass and therefore large inertia, tending to maintain its motion even after the engine is switched off."
+,radio,F4 Chp 12,A,B,C,D,C,Picture21.png,"中文：少量核燃料可释放大量能量，核能发电具有高能量输出，因此选C；核燃料并非可再生资源。
+English: A small amount of nuclear fuel releases a large amount of energy, giving high energy output and C; nuclear fuel is not renewable."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：W指冷却回路，冷却剂吸收反应堆产生的热，并把热传送到热交换器，因此选A。
+English: W indicates the cooling circuit; coolant absorbs heat from the reactor and carries it to the heat exchanger, giving A."

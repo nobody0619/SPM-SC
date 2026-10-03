@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Negeri Sembilan 2023 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,A,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,B,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,D,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Negeri Sembilan 2023 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png,"中文：按本题答案，酵母用于食物发酵，利用微生物活动改变原料并形成产品。旧图部分选项缺失，应补齐后核对图中的另一种食物。
+English: According to the supplied answer, yeast is used in food fermentation, where microbial activity transforms the ingredients. Some options are missing from the old image, so the other pictured food should be checked after restoring the crop."
+,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：A纸片含20%抗生素，B为10%，所以A的抗生素浓度较高，通常产生较大的无菌透明区；C蒸馏水是对照。
+English: Disc A contains 20% antibiotic while B contains 10%, so A has the higher concentration and usually produces a larger clear inhibition zone; distilled water at C is the control."
+,radio,F5 Chp 2,A,B,C,D,A,Picture25.png,"中文：健康餐盘的一半Q放蔬果，四分之一P放米饭等碳水化合物，四分之一R放鱼等蛋白质，因此选A。
+English: Half the healthy plate, Q, is fruit and vegetables; quarter P is rice or other carbohydrates and quarter R is fish or other protein, giving A."
+,radio,F5 Chp 2,A,B,C,D,A,Picture26.png,"中文：应先查看面包的有效期限，过期食物可能发生微生物污染或腐败而导致腹痛，因此选A。
+English: Check the bread's expiry date first, since expired food may be contaminated or spoiled and cause stomach discomfort, giving A."
+,radio,F5 Chp 3,A,B,C,D,B,Picture27.png,"中文：亚甲蓝用于比较水污染程度；有机污染越严重，微生物耗氧越快，蓝色通常越快消失。
+English: Methylene blue is used to compare water pollution: greater organic pollution causes faster microbial oxygen consumption and usually faster decolourisation."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：微藻进行光合作用，吸收二氧化碳并产生有机物和氧气，可应用于负排放科技以移除二氧化碳。
+English: Microalgae photosynthesise, absorbing carbon dioxide and producing organic matter and oxygen; this can be used in negative-emission technology to remove carbon dioxide."
+,radio,F5 Chp 4,A,B,C,D,C,Picture29.png,"中文：反应速率的主要因素是温度、催化剂、反应物颗粒大小和浓度，因此C列出的四项正确。
+English: The main factors affecting reaction rate are temperature, catalyst, reactant particle size and concentration, so C lists the correct four factors."
+,radio,F5 Chp 4,A,B,C,D,D,Picture30.png,"中文：冰箱降低温度，使食物中的化学反应和微生物活动减慢，因此是反应速率概念的应用。
+English: A refrigerator lowers temperature and slows chemical reactions and microbial activity in food, applying the concept of reaction rate."
+,radio,F5 Chp 5,A,B,C,D,B,Picture31.png,"中文：哈伯法按1份氮气与3份氢气反应：N₂+3H₂→2NH₃，使用铁催化剂，所以K为氮、L为氢、M为铁。
+English: The Haber process uses one part nitrogen to three parts hydrogen: N₂ + 3H₂ → 2NH₃, with iron as catalyst; K is nitrogen, L hydrogen and M iron."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：图示为丙烷C₃H₈，只含碳碳单键，属于饱和烃的烷烃系列，符合CnH₂n+₂。
+English: The structure is propane, C₃H₈, containing only carbon–carbon single bonds; it belongs to the saturated alkane series, CnH₂n+₂."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：依本题课本分类，长期摄取高脂快餐会增加胆固醇相关问题及胆结石风险，因此选D。
+English: In the textbook context of this question, prolonged consumption of fatty fast food increases cholesterol-related problems and the risk of gallstones, giving D."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：制皂需要碱与油脂发生皂化。答案纸选B苦瓜汁，题目意图把它归为碱性材料；但实际苦瓜汁的酸碱度及浓度不能保证可替代氢氧化钠。
+English: Soap-making requires an alkali to react with fat in saponification. The supplied answer selects B, treating bitter-gourd juice as alkaline; its actual pH and concentration do not guarantee that it can replace sodium hydroxide."
+,radio,F5 Chp 7,A,B,C,D,D,Picture35.png,"中文：离子在电化学序列中的位置影响其被放电的难易程度，从而影响电解产物，因此选D。
+English: An ion's position in the electrochemical series affects how readily it is discharged and therefore influences the products of electrolysis, giving D."
+,radio,F5 Chp 7,A,B,C,D,D,Picture36.png,"中文：铜与铝在所列金属对中电化学序列距离最大，因此产生最大的电位差；电子从较活泼的铝经外电路流向铜，选D。
+English: Copper and aluminium have the greatest separation in the electrochemical series among the listed pairs, giving the largest potential difference; electrons flow externally from the more reactive aluminium to copper, so D."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：物体在凸透镜与焦点之间，折射光线的反向延长线形成正立、虚且放大的像，因此选C。
+English: An object between a convex lens and its focal point forms an upright, virtual, enlarged image where the backward extensions of refracted rays meet, giving C."
+,radio,F5 Chp 8,A,B,C,D,B,Picture38.png,"中文：答案B给出X水位K、Z水位L，表示X压力高于Z。注意图中X和Z管径相近；理想无损模型会给出相近压力，这份题目的答案须理解为包含沿流动方向的压力损失。
+English: Answer B gives level K at X and L at Z, indicating higher pressure at X. Their diameters appear similar, so an ideal loss-free model would predict similar pressures; the supplied answer requires pressure loss along the flow to be considered."
+,radio,F5 Chp 9,A,B,C,D,C,Picture39.png,"中文：椭圆轨道中卫星最接近地球的位置称为近地点perigee；最远的位置称为远地点apogee。
+English: The point nearest Earth in an elliptical satellite orbit is the perigee; the farthest point is the apogee."
+,radio,F5 Chp 9,A,B,C,D,B,Picture40.png,"中文：导航应用利用定位及路线资料估算行程时间和到达目的地的时间，因此选B。
+English: Navigation applications use location and route information to estimate travel time and arrival time at the destination, giving B."

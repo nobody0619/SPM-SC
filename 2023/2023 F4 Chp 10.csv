@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F4 Chp 10,radio,KedahTrial2023_Q17,A,B,C,D,D,Kedah Trial 2023/Picture17.png
-F4 Chp 10,radio,KedahTrial2023_Q18,A,B,C,D,C,Kedah Trial 2023/Picture18.png
-F4 Chp 10,radio,KelantanTrial2023_Q17,A,B,C,D,B,Kelantan Trial 2023/Picture17.png
-F4 Chp 10,radio,KelantanTrial2023_Q18,A,B,C,D,B,Kelantan Trial 2023/Picture18.png
-F4 Chp 10,radio,MaahadJohor2023_Q17,A,B,C,D,B,Maahad Johor 2023/Picture17.png
-F4 Chp 10,radio,MaahadJohor2023_Q18,A,B,C,D,C,Maahad Johor 2023/Picture18.png
-F4 Chp 10,radio,NegeriSembilan2023_Q17,A,B,C,D,D,Negeri Sembilan 2023/Picture17.png
-F4 Chp 10,radio,NegeriSembilan2023_Q18,A,B,C,D,B,Negeri Sembilan 2023/Picture18.png
-F4 Chp 10,radio,PahangTrial2023_Q17,A,B,C,D,C,Pahang Trial 2023/Picture17.png
-F4 Chp 10,radio,PahangTrial2023_Q18,A,B,C,D,B,Pahang Trial 2023/Picture18.png
-F4 Chp 10,radio,Melaka2023_Q17,A,B,C,D,A,Melaka 2023/Picture17.png
-F4 Chp 10,radio,Melaka2023_Q18,A,B,C,D,A,Melaka 2023/Picture18.png
-F4 Chp 10,radio,Perak2023_Q17,A,B,C,D,A,Perak 2023/Picture17.png
-F4 Chp 10,radio,Perak2023_Q18,A,B,C,D,B,Perak 2023/Picture18.png
-F4 Chp 10,radio,Perlis2023_Q17,A,B,C,D,D,Perlis 2023/Picture17.png
-F4 Chp 10,radio,Perlis2023_Q18,A,B,C,D,C,Perlis 2023/Picture18.png
-F4 Chp 10,radio,PutrajayaSet12023_Q17,A,B,C,D,A,Putrajaya Set 1 2023/Picture17.png
-F4 Chp 10,radio,PutrajayaSet12023_Q18,A,B,C,D,D,Putrajaya Set 1 2023/Picture18.png
-F4 Chp 10,radio,PutrajayaSet22023_Q17,A,B,C,D,A,Putrajaya Set 2 2023/Picture17.png
-F4 Chp 10,radio,PutrajayaSet22023_Q18,A,B,C,D,C,Putrajaya Set 2 2023/Picture18.png
-F4 Chp 10,radio,SarawakSubisMiri2023_Q17,A,B,C,D,A,Sarawak Subis Miri 2023/Picture17.png
-F4 Chp 10,radio,SarawakSubisMiri2023_Q18,A,B,C,D,D,Sarawak Subis Miri 2023/Picture18.png
-F4 Chp 10,radio,Selangor2023_Q17,A,B,C,D,B,Selangor 2023/Picture17.png
-F4 Chp 10,radio,Selangor2023_Q18,A,B,C,D,B,Selangor 2023/Picture18.png
-F4 Chp 10,radio,SelangorSet22023_Q17,A,B,C,D,D,Selangor Set 2 2023/Picture17.png
-F4 Chp 10,radio,SelangorSet22023_Q18,A,B,C,D,D,Selangor Set 2 2023/Picture18.png
-F4 Chp 10,radio,TerengganuMPP32023_Q17,A,B,C,D,A,Terengganu MPP3 2023/Picture17.png
-F4 Chp 10,radio,TerengganuMPP32023_Q18,A,B,C,D,B,Terengganu MPP3 2023/Picture18.png
-F4 Chp 10,radio,SBP2023_Q17,A,B,C,D,A,SBP 2023/Picture17.png
-F4 Chp 10,radio,SBP2023_Q18,A,B,C,D,D,SBP 2023/Picture18.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 10,radio,KedahTrial2023_Q17,A,B,C,D,D,Kedah Trial 2023/Picture17.png,"中文：辅助疗法可配合其他医疗方式，并考虑其他医疗人员意见，不是以手术为主要特点。
+English: Complementary medicine may be used alongside other care and considers the views of other medical practitioners."
+F4 Chp 10,radio,KedahTrial2023_Q18,A,B,C,D,C,Kedah Trial 2023/Picture18.png,"中文：P 为伤害细胞的自由基；炎症是产生自由基的内部因素，辐射和烟雾是外部因素。
+English: P represents free radicals; inflammation is an internal source, whereas radiation and cigarette smoke are external factors."
+F4 Chp 10,radio,KelantanTrial2023_Q17,A,B,C,D,B,Kelantan Trial 2023/Picture17.png,"中文：止痛药 Analgesics 缓解疼痛；抗生素主要针对细菌感染。
+English: Analgesics relieve pain, whereas antibiotics primarily treat bacterial infections."
+F4 Chp 10,radio,KelantanTrial2023_Q18,A,B,C,D,B,Kelantan Trial 2023/Picture18.png,"中文：青柠汁含抗氧化物及酸，可抑制切开苹果的氧化褐变。
+English: Lime juice contains antioxidants and acid that inhibit oxidative browning of cut apples."
+F4 Chp 10,radio,MaahadJohor2023_Q17,A,B,C,D,B,Maahad Johor 2023/Picture17.png,"中文：本题要求按医生规定完成抗生素疗程，不能只在有症状时自行停用。
+English: The intended answer is to complete the antibiotic course as prescribed rather than taking it only when symptoms occur."
+F4 Chp 10,radio,MaahadJohor2023_Q18,A,B,C,D,C,Maahad Johor 2023/Picture18.png,"中文：自由落体只考虑重力作用，忽略阻碍运动的空气阻力。
+English: Free fall involves gravity alone, with air resistance neglected."
+F4 Chp 10,radio,NegeriSembilan2023_Q17,A,B,C,D,D,Negeri Sembilan 2023/Picture17.png,"中文：代谢和炎症发生在体内，会产生自由基；烟雾、阳光和外来辐射属于外部因素，因此选D。
+English: Metabolism and inflammation occur inside the body and generate free radicals; smoke, sunlight and external radiation are external factors, giving D."
+F4 Chp 10,radio,NegeriSembilan2023_Q18,A,B,C,D,B,Negeri Sembilan 2023/Picture18.png,"中文：活性成分是产生保健或治疗作用的成分；延长保存期限通常是防腐剂的作用。现有答案B需核对，不能把活性成分与防腐剂混同。
+English: Active ingredients provide a health or therapeutic effect, whereas preservatives generally extend shelf life. Existing answer B needs review; active ingredients should not be confused with preservatives."
+F4 Chp 10,radio,PahangTrial2023_Q17,A,B,C,D,C,Pahang Trial 2023/Picture17.png,"中文：钢是铁与少量碳形成的合金，C图显示较小碳原子分布在铁原子之间，阻碍原子层滑动。
+English: Steel is an alloy of iron with a small amount of carbon; C shows smaller carbon atoms between iron atoms, hindering the sliding of atomic layers."
+F4 Chp 10,radio,PahangTrial2023_Q18,A,B,C,D,B,Pahang Trial 2023/Picture18.png,"中文：细菌产生的酸提供H⁺，中和橡胶粒子蛋白膜的负电荷，使粒子聚合并凝固，因此选B。
+English: Acids produced by bacteria supply H⁺, neutralising negative charges on the protein membranes around rubber particles and allowing coagulation, giving B."
+F4 Chp 10,radio,Melaka2023_Q17,A,B,C,D,A,Melaka 2023/Picture17.png,"中文：硫在橡胶链之间形成交联，硫化后橡胶更强韧和耐热。
+English: Sulphur forms cross-links between rubber chains; vulcanisation improves strength and heat resistance."
+F4 Chp 10,radio,Melaka2023_Q18,A,B,C,D,A,Melaka 2023/Picture18.png,"中文：原答案 A 指规律运动，课本把健康生活方式视为保护身体的方法；但避免紫外线等其他选项也可减少自由基诱因，题目并非唯一明确答案。
+English: The original key A treats regular exercise as a healthy protective habit; avoiding UV and other listed exposures can also reduce free-radical triggers, so the item is not uniquely clear."
+F4 Chp 10,radio,Perak2023_Q17,A,B,C,D,A,Perak 2023/Picture17.png,"中文：保健产品的活性成分用于产生特定保健作用，如预防疾病；防腐剂才主要负责延长保存期限。
+English: Active ingredients provide specific health effects, such as disease prevention; preservatives primarily extend shelf life."
+F4 Chp 10,radio,Perak2023_Q18,A,B,C,D,B,Perak 2023/Picture18.png,"中文：相同时间内的各段纸带长度相等，表示移动距离相同，速度保持不变，因此选B匀速。
+English: Equal tape lengths in equal time intervals show equal distances travelled and therefore uniform velocity, giving B."
+F4 Chp 10,radio,Perlis2023_Q17,A,B,C,D,D,Perlis 2023/Picture17.png,"中文：质子数18是氩，电子排列2.8.8，位于第3周期第18族，图中为S。
+English: Proton number 18 is argon, with electron arrangement 2.8.8 in period 3 and group 18, labelled S."
+F4 Chp 10,radio,Perlis2023_Q18,A,B,C,D,C,Perlis 2023/Picture18.png,"中文：钴-60释放的伽马射线能杀死食品中的微生物，延缓腐败而帮助保存食品。
+English: Gamma radiation from cobalt-60 kills microorganisms in food, delaying spoilage and aiding preservation."
+F4 Chp 10,radio,PutrajayaSet12023_Q17,A,B,C,D,A,Putrajaya Set 1 2023/Picture17.png,"中文：锡、铜和锑组成锡镴pewter，表面光亮且抗腐蚀，可制作相框等装饰品，因此选A。
+English: Tin, copper and antimony form pewter, which is shiny and corrosion-resistant and is used for decorative items such as photo frames, giving A."
+F4 Chp 10,radio,PutrajayaSet12023_Q18,A,B,C,D,D,Putrajaya Set 1 2023/Picture18.png,"中文：硫用于硫化橡胶，在聚合物链之间形成交联，提高强度、弹性和耐热性。
+English: Sulfur is used to vulcanise rubber, forming cross-links between polymer chains and improving strength, elasticity and heat resistance."
+F4 Chp 10,radio,PutrajayaSet22023_Q17,A,B,C,D,A,Putrajaya Set 2 2023/Picture17.png,"中文：玻璃的主要成分是二氧化硅silica，因此本题选择A玻璃。
+English: Silica, silicon dioxide, is the main component of glass, so the intended answer is A."
+F4 Chp 10,radio,PutrajayaSet22023_Q18,A,B,C,D,C,Putrajaya Set 2 2023/Picture18.png,"中文：氨溶液呈碱性，能中和细菌产生的酸，维持橡胶粒子负电荷相互排斥，防止乳胶凝固。
+English: Alkaline ammonia solution neutralises acids produced by bacteria and maintains repulsion between negatively charged rubber particles, preventing latex coagulation."
+F4 Chp 10,radio,SarawakSubisMiri2023_Q17,A,B,C,D,A,Sarawak Subis Miri 2023/Picture17.png,"中文：脚癣由真菌感染造成，不是自由基的主要作用，因此在“不是”题中选A。
+English: Athlete's foot is caused by fungal infection rather than the main effects of free radicals, so it is the exception, A."
+F4 Chp 10,radio,SarawakSubisMiri2023_Q18,A,B,C,D,D,Sarawak Subis Miri 2023/Picture18.png,"中文：依课本，黄瓜和洋葱提供抗氧化成分，可帮助中和烧烤过程中产生的自由基，因此选D。
+English: In the textbook context, cucumber and onion provide antioxidants that help neutralise free radicals produced during grilling, giving D."
+F4 Chp 10,radio,Selangor2023_Q17,A,B,C,D,B,Selangor 2023/Picture17.png,"中文：代谢产生的X为自由基，过多可损伤DNA及细胞，加速皮肤老化和皱纹形成，因此选B。
+English: X represents free radicals generated by metabolism; excess can damage DNA and cells and accelerate skin ageing and wrinkles, giving B."
+F4 Chp 10,radio,Selangor2023_Q18,A,B,C,D,B,Selangor 2023/Picture18.png,"中文：JK在100 m位置为水平线，位移不变，斜率为0，所以速度0 m/s，选B。
+English: JK is horizontal at 100 m, so displacement is constant and slope zero; velocity is 0 m/s, giving B."
+F4 Chp 10,radio,SelangorSet22023_Q17,A,B,C,D,D,Selangor Set 2 2023/Picture17.png,"中文：代谢产生的X为自由基，过多会造成细胞氧化损伤，包括本题D的肾脏损伤。
+English: X represents free radicals produced by metabolism; excess causes oxidative cell damage, including kidney damage in option D."
+F4 Chp 10,radio,SelangorSet22023_Q18,A,B,C,D,D,Selangor Set 2 2023/Picture18.png,"中文：返程从K的7分钟、100 m到L的11分钟、0 m，速度=(0−100)÷[(11−7)×60]=−0.4167≈−0.42 m/s，因此选D。负号表示向家的方向。
+English: The return journey goes from K at 7 min and 100 m to L at 11 min and 0 m. Velocity = (0−100)/[(11−7)×60] = −0.4167 ≈ −0.42 m/s, giving D. The negative sign indicates motion towards home."
+F4 Chp 10,radio,TerengganuMPP32023_Q17,A,B,C,D,A,Terengganu MPP3 2023/Picture17.png,"中文：真空自由落体只受重力，物体具有相同重力加速度；空气中阻力会使实际下落加速度不同。A的“重力加速度不同”应理解为合力造成的下落加速度不同。
+English: Free fall in a vacuum involves gravity alone and the same gravitational acceleration; air resistance can change actual falling acceleration. A's phrase “different gravitational acceleration” should mean different net falling acceleration."
+F4 Chp 10,radio,TerengganuMPP32023_Q18,A,B,C,D,B,Terengganu MPP3 2023/Picture18.png,"中文：惯性天平利用振动特性测量质量，不依赖物体重量，适用于太空微重力环境。
+English: An inertial balance measures mass through oscillation rather than weight, making it suitable for microgravity in space."
+F4 Chp 10,radio,SBP2023_Q17,A,B,C,D,A,SBP 2023/Picture17.png,"中文：钴-60释放伽马射线，可用于放射治疗以破坏癌细胞，因此选A。
+English: Cobalt-60 emits gamma radiation used in radiotherapy to destroy cancer cells, giving A."
+F4 Chp 10,radio,SBP2023_Q18,A,B,C,D,D,SBP 2023/Picture18.png,"中文：质子数20的中性原子有20个电子，按壳层排列为2.8.8.2，因此选D。
+English: A neutral atom with proton number 20 has 20 electrons arranged 2.8.8.2, giving D."

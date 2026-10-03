@@ -1,41 +1,81 @@
-﻿title,type,question,A,B,C,D,answer,image
-Pahang Trial 2023,radio,F4 Chp 1,A,B,C,D,A,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,C,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,D,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,B,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,A,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,D,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,A,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,C,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,A,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,D,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,A,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,A,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,A,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,D,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,A,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,D,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,C,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,C,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Pahang Trial 2023,radio,F4 Chp 1,A,B,C,D,A,Picture1.png,"中文：护目镜能阻挡化学品飞溅，保护双眼，因此选A；普通眼镜和隐形眼镜不能代替实验护目镜。
+English: Goggles protect the eyes from chemical splashes, giving A; ordinary glasses and contact lenses do not replace laboratory goggles."
+,radio,F4 Chp 2,A,B,C,D,C,Picture2.png,"中文：防火毯覆盖燃烧的衣物，隔绝氧气，使火焰熄灭，因此选C。
+English: A fire blanket covers the burning clothing and cuts off its oxygen supply, extinguishing the flames, giving C."
+,radio,F4 Chp 3,A,B,C,D,D,Picture3.png,"中文：应先呼叫并轻拍肩部检查反应，再评估呼吸及决定是否进行CPR；答案D表达的是先检查反应。
+English: First call out and tap the shoulders to check responsiveness, then assess breathing and whether CPR is needed; D represents this initial responsiveness check."
+,radio,F4 Chp 3,A,B,C,D,B,Picture4.png,"中文：气道堵塞使脑部缺氧，若未及时解除可造成脑损伤甚至死亡，因此选B。
+English: An obstructed airway deprives the brain of oxygen and may cause brain damage or death if not relieved, giving B."
+,radio,F4 Chp 4,A,B,C,D,C,Picture5.png,"中文：血压计测量心脏收缩时的收缩压和舒张时的舒张压，因此选C。
+English: A blood-pressure monitor measures systolic pressure during heart contraction and diastolic pressure during relaxation, giving C."
+,radio,F4 Chp 4,A,B,C,D,B,Picture6.png,"中文：BMI=62.5÷1.60²≈24.4 kg/m²，按题目使用的BMI分类属于理想体重范围，选B。
+English: BMI = 62.5 ÷ 1.60² ≈ 24.4 kg/m², which falls within the desirable-weight category used in this question, giving B."
+,radio,F4 Chp 5,A,B,C,D,D,Picture7.png,"中文：固体有机废物在缺氧条件下分解会释放甲烷，图中应选A。现有答案D为一氧化碳，与此知识点不符，暂保留答案并注明疑点。
+English: Organic solid waste decomposing without oxygen releases methane, giving A in the image. Existing answer D is carbon monoxide and conflicts with this concept; it is retained pending review."
+,radio,F4 Chp 5,A,B,C,D,A,Picture8.png,"中文：把农业废料加工成堆肥可循环利用有机物，减少废物及化学肥料使用，符合农业领域绿色科技应用。
+English: Turning agricultural waste into compost recycles organic material and reduces waste and chemical-fertiliser use, applying green technology in agriculture."
+,radio,F4 Chp 6,A,B,C,D,D,Picture9.png,"中文：图中性染色体为XXY，即男性多了一条X染色体，是克氏综合征Klinefelter syndrome。
+English: The sex chromosomes are XXY, meaning a male has an extra X chromosome; this is Klinefelter syndrome."
+,radio,F4 Chp 6,A,B,C,D,A,Picture10.png,"中文：基因工程可把抗病基因引入作物，提高抗病能力并减少作物损失，是明确的益处。
+English: Genetic engineering can introduce disease-resistance genes into crops, improving resistance and reducing crop losses, a clear benefit."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：龟属于有内骨骼的动物，身体持续生长，典型生长曲线为S形；阶梯形曲线属于会蜕皮的动物。
+English: A turtle has an endoskeleton and grows continuously, producing a typical sigmoid growth curve; a staircase curve belongs to animals that moult."
+,radio,F4 Chp 8,A,B,C,D,B,Picture12.png,"中文：弯曲手臂时肱二头肌收缩，肱三头肌舒张，两者以拮抗方式控制动作，因此选B。
+English: When the arm bends, the biceps contracts and the triceps relaxes; they work antagonistically, giving B."
+,radio,F4 Chp 8,A,B,C,D,B,Picture13.png,"中文：图示颈部的甲状腺分泌甲状腺素thyroxine，调节身体代谢速率，因此选B。
+English: The thyroid gland in the neck secretes thyroxine, which regulates the body's metabolic rate, giving B."
+,radio,F4 Chp 8,A,B,C,D,D,Picture14.png,"中文：听到或看到不存在的事物称为幻觉，致幻剂hallucinogens会造成这类知觉改变。
+English: Hearing or seeing things that do not exist is hallucination, a perceptual effect caused by hallucinogens."
+,radio,F4 Chp 9,A,B,C,D,C,Picture15.png,"中文：K的质子数为10，电子排列2.8，最外层有8个电子，是稳定的八隅体排列，因此选C。
+English: K has proton number 10 and electron arrangement 2.8, with a stable outer octet, giving C."
+,radio,F4 Chp 9,A,B,C,D,D,Picture16.png,"中文：碳-14用于测定曾经属于生物的考古遗物年龄，通过剩余碳-14的放射性推算年代。
+English: Carbon-14 is used to date archaeological remains of once-living material by measuring the remaining radioactive carbon-14."
+,radio,F4 Chp 10,A,B,C,D,C,Picture17.png,"中文：钢是铁与少量碳形成的合金，C图显示较小碳原子分布在铁原子之间，阻碍原子层滑动。
+English: Steel is an alloy of iron with a small amount of carbon; C shows smaller carbon atoms between iron atoms, hindering the sliding of atomic layers."
+,radio,F4 Chp 10,A,B,C,D,B,Picture18.png,"中文：细菌产生的酸提供H⁺，中和橡胶粒子蛋白膜的负电荷，使粒子聚合并凝固，因此选B。
+English: Acids produced by bacteria supply H⁺, neutralising negative charges on the protein membranes around rubber particles and allowing coagulation, giving B."
+,radio,F4 Chp 11,A,B,C,D,A,Picture19.png,"中文：芦荟常用于舒缓晒后发红、疼痛的皮肤，符合题目中的传统药物用途，因此选A。
+English: Aloe vera is traditionally used to soothe red, painful sunburned skin, matching the situation in the question, giving A."
+,radio,F4 Chp 11,A,B,C,D,D,Picture20.png,"中文：切开的苹果接触空气中的氧，发生氧化而变褐，因此选D。
+English: The cut apple reacts with oxygen in the air and turns brown through oxidation, giving D."
+,radio,F4 Chp 12,A,B,C,D,C,Picture21.png,"中文：位移为速度时间图的有符号面积：30×2+½×1×30−½×2×30=45 m，因此选C。
+English: Displacement is the signed area under the velocity–time graph: 30 × 2 + ½ × 1 × 30 − ½ × 2 × 30 = 45 m, giving C."
+,radio,F4 Chp 12,A,B,C,D,A,Picture22.png,"中文：其他书本具有惯性，倾向保持静止，所以迅速抽出一本书时其余书本来不及明显移动。
+English: The other books have inertia and tend to remain at rest, so they move little when one book is pulled out quickly."
+,radio,F5 Chp 1,A,B,C,D,D,Picture23.png,"中文：铀-235可发生核裂变，释放大量能量，用于加热水产生蒸汽并驱动发电机。
+English: Uranium-235 undergoes nuclear fission, releasing energy to heat water, produce steam and drive generators."
+,radio,F5 Chp 1,A,B,C,D,A,Picture24.png,"中文：酵母发酵糖产生二氧化碳，气体使面团膨胀，所以用于制作面包。
+English: Yeast ferments sugar and releases carbon dioxide, which raises dough, so it is used in bread-making."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：抗菌剂antiseptic可用于皮肤等活体表面；消毒剂disinfectant主要用于非生命物体表面。
+English: Antiseptics can be used on living surfaces such as skin, whereas disinfectants are mainly used on non-living surfaces."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：磷是植物大量需要的宏量营养元素；锌、硼和铜属于只需少量的微量营养元素。
+English: Phosphorus is a macronutrient required by plants in large quantities; zinc, boron and copper are micronutrients needed only in small amounts."
+,radio,F5 Chp 3,A,B,C,D,D,Picture27.png,"中文：拖拉机与机械收割机能提高耕作和收割效率，减少时间及劳动需求，属于提高稻米生产的现代农业技术。
+English: Tractors and mechanical harvesters improve cultivation and harvesting efficiency and reduce labour and time, applying modern technology to paddy production."
+,radio,F5 Chp 3,A,B,C,D,A,Picture28.png,"中文：森林火灾可自然发生，释放烟尘及气体造成空气污染；其余选项都是人类工业或交通活动。
+English: Forest fires can occur naturally and release smoke and gases that pollute the air; the other choices are human industrial or transport activities."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：混合动力车、太阳能与生物柴油可减少部分化石燃料使用和污染物排放，从而改善空气质量。
+English: Hybrid cars, solar energy and biodiesel can reduce some fossil-fuel use and pollutant emissions, improving air quality."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：反应物浓度增加，单位体积内粒子更多，有效碰撞频率提高，通常使反应加快，因此选C。
+English: Increasing reactant concentration places more particles in a given volume, increasing effective collisions and usually speeding up the reaction, giving C."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：冰箱降低温度，减慢微生物活动及造成腐败的反应，使食物保存较久。
+English: A refrigerator lowers temperature, slowing microbial activity and spoilage reactions so food lasts longer."
+,radio,F5 Chp 5,A,B,C,D,D,Picture32.png,"中文：乙烷C₂H₆和乙烯C₂H₄都含两个碳原子；前者为烷烃，后者为烯烃，因此共同点为D。
+English: Ethane, C₂H₆, and ethene, C₂H₄, both contain two carbon atoms; one is an alkane and the other an alkene, so their shared feature is D."
+,radio,F5 Chp 6,A,B,C,D,B,Picture33.png,"中文：Y指向棕榈果中央的果仁isirung/kernel；外面的硬层才是内果皮或果壳。
+English: Y points to the central kernel of the oil-palm fruit; the hard layer around it is the endocarp or shell."
+,radio,F5 Chp 6,A,B,C,D,A,Picture34.png,"中文：电解槽利用外来的电能推动化学反应，所以能量转变是电能→化学能。
+English: An electrolytic cell uses an external electrical supply to drive a chemical reaction, so electrical energy becomes chemical energy."
+,radio,F5 Chp 7,A,B,C,D,D,Picture35.png,"中文：Y上形成铜沉积，表示它接受电子；较活泼的X失去电子，电子经外电路由X流向Y，因此选D。
+English: Copper is deposited on Y, showing that electrons are received there; more reactive X loses electrons, which flow externally from X to Y, giving D."
+,radio,F5 Chp 7,A,B,C,D,B,Picture36.png,"中文：复印时要得到等大的实像，物体应在凸透镜2F处，即B；像在另一侧2F，倒立且与物体同大。
+English: To obtain a real, same-sized image for copying, place the object at 2F, position B; the inverted image forms at 2F on the other side."
+,radio,F5 Chp 8,A,B,C,D,C,Picture37.png,"中文：显微镜的物镜最靠近标本，位于镜筒下方的转盘处，图中为C。
+English: The objective lens is closest to the specimen, on the revolving nosepiece below the microscope tube, labelled C."
+,radio,F5 Chp 8,A,B,C,D,A,Picture38.png,"中文：翼上方Q气流较快、压力较低；下方S气流较慢、压力较高，产生向上的升力，因此选A。
+English: Air flows faster at Q above the wing, giving lower pressure; pressure is higher at S below, producing upward lift, so A."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：卫星轨道可呈圆形或椭圆形，因此选B；螺旋形不是本题所指的稳定轨道形状。
+English: Satellite orbits can be circular or elliptical, giving B; a spiral is not the stable orbital shape meant here."
+,radio,F5 Chp 9,A,B,C,D,C,Picture40.png,"中文：GPS追踪器可提供车辆的位置资料，从而追踪被盗车辆的移动，比只用无线电或追赶更有效。
+English: A GPS tracker provides the vehicle's location, allowing its movement to be followed more effectively than radio contact or pursuit alone."

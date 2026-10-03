@@ -1,41 +1,81 @@
-﻿title,type,question,A,B,C,D,answer,image
-Maahad Johor 2023,radio,F4 Chp 1,A,B,C,D,B,Picture1.png
-,radio,F4 Chp 2,A,B,C,D,D,Picture2.png
-,radio,F4 Chp 3,A,B,C,D,B,Picture3.png
-,radio,F4 Chp 3,A,B,C,D,C,Picture4.png
-,radio,F4 Chp 4,A,B,C,D,D,Picture5.png
-,radio,F4 Chp 4,A,B,C,D,C,Picture6.png
-,radio,F4 Chp 5,A,B,C,D,D,Picture7.png
-,radio,F4 Chp 5,A,B,C,D,C,Picture8.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture9.png
-,radio,F4 Chp 6,A,B,C,D,B,Picture10.png
-,radio,F4 Chp 7,A,B,C,D,C,Picture11.png
-,radio,F4 Chp 8,A,B,C,D,D,Picture12.png
-,radio,F4 Chp 8,A,B,C,D,C,Picture13.png
-,radio,F4 Chp 8,A,B,C,D,B,Picture14.png
-,radio,F4 Chp 9,A,B,C,D,D,Picture15.png
-,radio,F4 Chp 9,A,B,C,D,A,Picture16.png
-,radio,F4 Chp 10,A,B,C,D,B,Picture17.png
-,radio,F4 Chp 10,A,B,C,D,C,Picture18.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture19.png
-,radio,F4 Chp 11,A,B,C,D,C,Picture20.png
-,radio,F4 Chp 12,A,B,C,D,C,Picture21.png
-,radio,F4 Chp 12,A,B,C,D,D,Picture22.png
-,radio,F5 Chp 1,A,B,C,D,B,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,D,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,B,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,B,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,B,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,B,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,A,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,D,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,B,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Maahad Johor 2023,radio,F4 Chp 1,A,B,C,D,B,Picture1.png,"中文：E 类为电器火灾，电脑和熨斗属于通电设备，即 II、IV。
+English: Class E involves electrical equipment; computers and irons are II and IV."
+,radio,F4 Chp 2,A,B,C,D,D,Picture2.png,"中文：CPR 胸外按压以机械方式推动血液循环，把氧气送至脑和重要器官。
+English: CPR chest compressions manually maintain circulation and deliver oxygen to the brain and vital organs."
+,radio,F4 Chp 3,A,B,C,D,B,Picture3.png,"中文：身高 170 cm = 1.70 m；BMI = 70 ÷ 1.70² = 24.22，属于理想体重。
+English: 170 cm = 1.70 m; BMI = 70/1.70² = 24.22, within the desirable range."
+,radio,F4 Chp 3,A,B,C,D,C,Picture4.png,"中文：五星电器、太阳能及节能宣传均有助节约能源；不必要地开冷气反而浪费电。
+English: Five-star appliances, solar energy and energy-saving campaigns conserve energy; unnecessary air-conditioning wastes it."
+,radio,F4 Chp 4,A,B,C,D,D,Picture5.png,"中文：森林开垦减少树木吸收二氧化碳，并可能释放储存的碳，使碳足迹增加。
+English: Forest clearance reduces carbon-dioxide uptake and may release stored carbon, increasing the carbon footprint."
+,radio,F4 Chp 4,A,B,C,D,C,Picture6.png,"中文：正常父亲传正常 X 给所有女儿，因此女儿不会有两条带隐性色盲基因的 X；患病概率 0%。
+English: A normal father gives a normal X chromosome to every daughter, so none has two colour-blindness alleles; the risk is 0%."
+,radio,F4 Chp 5,A,B,C,D,D,Picture7.png,"中文：水母依靠体内液体形成静水骨骼；水蛭和蚯蚓使用相同支撑方式。
+English: Jellyfish use hydrostatic support from body fluids, as do leeches and earthworms."
+,radio,F4 Chp 5,A,B,C,D,C,Picture8.png,"中文：按题图与答案，儿童期男孩的增长较快；女孩青春期加速较早，不代表一直长至 20 岁。
+English: In the supplied graph and key, boys grow faster during childhood; girls have an earlier adolescent spurt but do not keep growing to age 20."
+,radio,F4 Chp 6,A,B,C,D,B,Picture9.png,"中文：甲状腺素不足使代谢率降低，可能出现怕冷和体重增加。
+English: Insufficient thyroxine lowers metabolic rate and can cause cold intolerance and weight gain."
+,radio,F4 Chp 6,A,B,C,D,B,Picture10.png,"中文：氯胺酮在课本分类为致幻剂，可改变脑内冲动传递并引起幻觉。
+English: Ketamine is classified as a hallucinogen in the textbook and can alter brain signalling and cause hallucinations."
+,radio,F4 Chp 7,A,B,C,D,C,Picture11.png,"中文：19 个质子的原子电子排列 2.8.8.1，失去一粒电子成为正离子，稳定排列为 2.8.8，即 C。
+English: An atom with 19 protons has arrangement 2.8.8.1; losing one electron forms a stable positive ion with 2.8.8."
+,radio,F4 Chp 8,A,B,C,D,D,Picture12.png,"中文：第 17 族为卤素，溴与氟是该族成员，即 II、III。
+English: Group 17 contains the halogens; bromine and fluorine are II and III."
+,radio,F4 Chp 8,A,B,C,D,C,Picture13.png,"中文：白镴 Pewter 由锡、铜和锑组成，故选 II、III、IV。
+English: Pewter is an alloy of tin, copper and antimony, corresponding to II, III and IV."
+,radio,F4 Chp 8,A,B,C,D,B,Picture14.png,"中文：甲酸中和胶乳粒子的电荷，使它们聚集并凝固；氨可防止胶乳凝固。
+English: Formic acid neutralises latex-particle charges and causes coagulation; ammonia prevents coagulation."
+,radio,F4 Chp 9,A,B,C,D,D,Picture15.png,"中文：传统疗法并不必然更快或更有效，因此 D 的绝对说法错误。
+English: Traditional treatment is not necessarily faster or more effective, so the absolute claim in D is false."
+,radio,F4 Chp 9,A,B,C,D,A,Picture16.png,"中文：番茄富含抗氧化物番茄红素 Lycopene；胡萝卜主要以 β-胡萝卜素著称。
+English: Tomatoes are rich in the antioxidant lycopene; carrots are better known for beta-carotene."
+,radio,F4 Chp 10,A,B,C,D,B,Picture17.png,"中文：本题要求按医生规定完成抗生素疗程，不能只在有症状时自行停用。
+English: The intended answer is to complete the antibiotic course as prescribed rather than taking it only when symptoms occur."
+,radio,F4 Chp 10,A,B,C,D,C,Picture18.png,"中文：自由落体只考虑重力作用，忽略阻碍运动的空气阻力。
+English: Free fall involves gravity alone, with air resistance neglected."
+,radio,F4 Chp 11,A,B,C,D,C,Picture19.png,"中文：大原子核吸收中子后裂成较小核，放出更多中子和大量能量，可产生链式反应。
+English: A heavy nucleus absorbs a neutron and splits, releasing energy and further neutrons that can sustain a chain reaction."
+,radio,F4 Chp 11,A,B,C,D,C,Picture20.png,"中文：石墨慢化剂减慢中子；硼控制棒则吸收中子以控制反应。
+English: The graphite moderator slows neutrons; boron control rods absorb neutrons to regulate the reaction."
+,radio,F4 Chp 12,A,B,C,D,C,Picture21.png,"中文：题目描述病毒，病毒依赖宿主细胞复制，抗生素不能治疗病毒感染，所以 C 不正确。
+English: The description identifies a virus, which replicates in host cells; antibiotics do not treat viral infections, so C is false."
+,radio,F4 Chp 12,A,B,C,D,D,Picture22.png,"中文：Nitrobacter 帮助土壤硝化作用，Bifidobacteria 可作有益微生物应用于畜牧，故 III、IV。
+English: Nitrobacter supports soil nitrification, while Bifidobacteria is used as a beneficial microorganism in livestock; III and IV are intended."
+,radio,F5 Chp 1,A,B,C,D,B,Picture23.png,"中文：青霉素是抗生素，适用于题目所述细菌感染；其余药物针对病毒、真菌或寄生虫。
+English: Penicillin is an antibiotic for bacterial infections; the other drugs target viruses, fungi or parasites."
+,radio,F5 Chp 1,A,B,C,D,D,Picture24.png,"中文：缺磷会影响根部、开花结果，叶片可能呈紫色，符合题述症状。
+English: Phosphorus deficiency impairs roots, flowering and fruiting, and may cause purple leaves."
+,radio,F5 Chp 2,A,B,C,D,B,Picture25.png,"中文：总能量 = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ。
+English: Total energy = 100 × 15 + 35 × 11 + 10 × 2 = 1,905 kJ."
+,radio,F5 Chp 2,A,B,C,D,C,Picture26.png,"中文：把旧水瓶再用作花盆延长产品寿命、减少废物，产生正面的碳手印。
+English: Reusing a bottle as a flowerpot extends its life and reduces waste, creating a positive carbon handprint."
+,radio,F5 Chp 3,A,B,C,D,C,Picture27.png,"中文：沟渠水只需 10 分钟褪色，表示微生物最快耗氧、BOD 最高，因此污染最严重。
+English: Drain water decolourises in 10 minutes, indicating the fastest oxygen use and highest BOD, so it is most polluted."
+,radio,F5 Chp 3,A,B,C,D,D,Picture28.png,"中文：平均反应速率 = 镁带消耗长度 ÷ 时间 = 10 ÷ 4 = 2.5 cm/min。
+English: Average rate = magnesium length consumed/time = 10/4 = 2.5 cm/min."
+,radio,F5 Chp 4,A,B,C,D,B,Picture29.png,"中文：哈伯法使用约 450–550°C 和铁催化剂，I、IV 正确；并非常压或五氧化二钒催化剂。
+English: The Haber process uses about 450–550°C and an iron catalyst; I and IV are correct."
+,radio,F5 Chp 4,A,B,C,D,B,Picture30.png,"中文：结构有三粒碳且只有单键，是饱和烃丙烷 C3H8。
+English: The structure has three carbon atoms and only single bonds, identifying saturated propane, C3H8."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：所讨论的酒精在室温为液体；碳链越长，水溶性通常越低，故 II、IV。
+English: The alcohols considered are liquids at room temperature, and water solubility decreases with longer carbon chains; II and IV are correct."
+,radio,F5 Chp 5,A,B,C,D,B,Picture32.png,"中文：熔融氯化钠的离子能自由移动而导电，是电解质；固态盐的离子不能自由移动。
+English: Molten sodium chloride conducts through mobile ions and is an electrolyte; its solid ions cannot move freely."
+,radio,F5 Chp 6,A,B,C,D,B,Picture33.png,"中文：锌比铜活泼，作为负极失去电子并变成锌离子，所以锌电极逐渐溶解、质量减少。
+English: Zinc is more reactive than copper and loses electrons to form zinc ions, so its electrode dissolves and loses mass."
+,radio,F5 Chp 6,A,B,C,D,B,Picture34.png,"中文：物体在凸透镜焦距内，形成正立、放大的虚像；I、IV 正确。
+English: An object inside a convex lens's focal length forms an upright, enlarged virtual image; I and IV are correct."
+,radio,F5 Chp 7,A,B,C,D,A,Picture35.png,"中文：显微镜最终供眼睛观看的像是虚像；并非用来观察远处物体。
+English: The final image viewed through a microscope is virtual; microscopes are not intended for distant objects."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：机翼翼型利用流速越大、压强越低的伯努利原理形成升力；液压设备使用帕斯卡原理。
+English: An aerofoil uses Bernoulli's relation between faster flow and lower pressure; hydraulic devices use Pascal's principle."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：相同压强：F/0.01 = 1,000/1，得 F = 10 N。
+English: Equal pressure gives F/0.01 = 1,000/1, so F = 10 N."
+,radio,F5 Chp 8,A,B,C,D,D,Picture38.png,"中文：2 号管水位最低表示当地压强最低；狭窄处流速最高，因此选 D。
+English: The lowest water level at tube 2 means lowest pressure, caused by the highest fluid speed in the narrow section."
+,radio,F5 Chp 9,A,B,C,D,B,Picture39.png,"中文：列车旁空气流速高、压强低，可产生把人拉向列车的危险，须站在黄线后。
+English: Fast air beside a moving train has lower pressure and may pull a person toward the train, explaining the safety line."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：至少四颗卫星可协助确定三维位置并修正接收机时间误差，提高 GPS 定位准确性。
+English: At least four satellites help determine a three-dimensional position and correct receiver timing error for accurate GPS positioning."

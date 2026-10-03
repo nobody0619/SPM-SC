@@ -1,31 +1,61 @@
-﻿title,type,question,A,B,C,D,answer,image
-F5 Chp 9,radio,KedahTrial2023_Q39,A,B,C,D,B,Kedah Trial 2023/Picture39.png
-F5 Chp 9,radio,KedahTrial2023_Q40,A,B,C,D,C,Kedah Trial 2023/Picture40.png
-F5 Chp 9,radio,KelantanTrial2023_Q39,A,B,C,D,D,Kelantan Trial 2023/Picture39.png
-F5 Chp 9,radio,KelantanTrial2023_Q40,A,B,C,D,D,Kelantan Trial 2023/Picture40.png
-F5 Chp 9,radio,MaahadJohor2023_Q39,A,B,C,D,B,Maahad Johor 2023/Picture39.png
-F5 Chp 9,radio,MaahadJohor2023_Q40,A,B,C,D,D,Maahad Johor 2023/Picture40.png
-F5 Chp 9,radio,NegeriSembilan2023_Q39,A,B,C,D,C,Negeri Sembilan 2023/Picture39.png
-F5 Chp 9,radio,NegeriSembilan2023_Q40,A,B,C,D,B,Negeri Sembilan 2023/Picture40.png
-F5 Chp 9,radio,PahangTrial2023_Q39,A,B,C,D,B,Pahang Trial 2023/Picture39.png
-F5 Chp 9,radio,PahangTrial2023_Q40,A,B,C,D,C,Pahang Trial 2023/Picture40.png
-F5 Chp 9,radio,Melaka2023_Q39,A,B,C,D,C,Melaka 2023/Picture39.png
-F5 Chp 9,radio,Melaka2023_Q40,A,B,C,D,C,Melaka 2023/Picture40.png
-F5 Chp 9,radio,Perak2023_Q39,A,B,C,D,D,Perak 2023/Picture39.png
-F5 Chp 9,radio,Perak2023_Q40,A,B,C,D,D,Perak 2023/Picture40.png
-F5 Chp 9,radio,Perlis2023_Q39,A,B,C,D,B,Perlis 2023/Picture39.png
-F5 Chp 9,radio,Perlis2023_Q40,A,B,C,D,C,Perlis 2023/Picture40.png
-F5 Chp 9,radio,PutrajayaSet12023_Q39,A,B,C,D,D,Putrajaya Set 1 2023/Picture39.png
-F5 Chp 9,radio,PutrajayaSet12023_Q40,A,B,C,D,D,Putrajaya Set 1 2023/Picture40.png
-F5 Chp 9,radio,PutrajayaSet22023_Q39,A,B,C,D,A,Putrajaya Set 2 2023/Picture39.png
-F5 Chp 9,radio,PutrajayaSet22023_Q40,A,B,C,D,C,Putrajaya Set 2 2023/Picture40.png
-F5 Chp 9,radio,SarawakSubisMiri2023_Q39,A,B,C,D,B,Sarawak Subis Miri 2023/Picture39.png
-F5 Chp 9,radio,SarawakSubisMiri2023_Q40,A,B,C,D,A,Sarawak Subis Miri 2023/Picture40.png
-F5 Chp 9,radio,Selangor2023_Q39,A,B,C,D,C,Selangor 2023/Picture39.png
-F5 Chp 9,radio,Selangor2023_Q40,A,B,C,D,B,Selangor 2023/Picture40.png
-F5 Chp 9,radio,SelangorSet22023_Q39,A,B,C,D,B,Selangor Set 2 2023/Picture39.png
-F5 Chp 9,radio,SelangorSet22023_Q40,A,B,C,D,B,Selangor Set 2 2023/Picture40.png
-F5 Chp 9,radio,TerengganuMPP32023_Q39,A,B,C,D,D,Terengganu MPP3 2023/Picture39.png
-F5 Chp 9,radio,TerengganuMPP32023_Q40,A,B,C,D,C,Terengganu MPP3 2023/Picture40.png
-F5 Chp 9,radio,SBP2023_Q39,A,B,C,D,A,SBP 2023/Picture39.png
-F5 Chp 9,radio,SBP2023_Q40,A,B,C,D,A,SBP 2023/Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 9,radio,KedahTrial2023_Q39,A,B,C,D,B,Kedah Trial 2023/Picture39.png,"中文：X 是轨道上最靠近地球的位置，称为近地点 Perigee；最远处为远地点。
+English: X is the point nearest Earth, called perigee; the farthest point is apogee."
+F5 Chp 9,radio,KedahTrial2023_Q40,A,B,C,D,C,Kedah Trial 2023/Picture40.png,"中文：Google Maps 利用 GPS 确定用户位置并提供路线导航。
+English: Google Maps uses GPS to locate users and provide route navigation."
+F5 Chp 9,radio,KelantanTrial2023_Q39,A,B,C,D,D,Kelantan Trial 2023/Picture39.png,"中文：课本把 2,000–35,780 km 的高度列为中地球轨道 MEO，对应 A；原答案 D 为 HEO，与该高度范围不符。
+English: The textbook altitude 2,000–35,780 km identifies medium Earth orbit, MEO, in A; the original key D labels HEO and does not match the range."
+F5 Chp 9,radio,KelantanTrial2023_Q40,A,B,C,D,D,Kelantan Trial 2023/Picture40.png,"中文：国际空间站提供微重力环境，让科学家研究生物、材料及其他科学现象。
+English: The ISS provides a microgravity environment for scientific studies of organisms, materials and other phenomena."
+F5 Chp 9,radio,MaahadJohor2023_Q39,A,B,C,D,B,Maahad Johor 2023/Picture39.png,"中文：列车旁空气流速高、压强低，可产生把人拉向列车的危险，须站在黄线后。
+English: Fast air beside a moving train has lower pressure and may pull a person toward the train, explaining the safety line."
+F5 Chp 9,radio,MaahadJohor2023_Q40,A,B,C,D,D,Maahad Johor 2023/Picture40.png,"中文：至少四颗卫星可协助确定三维位置并修正接收机时间误差，提高 GPS 定位准确性。
+English: At least four satellites help determine a three-dimensional position and correct receiver timing error for accurate GPS positioning."
+F5 Chp 9,radio,NegeriSembilan2023_Q39,A,B,C,D,C,Negeri Sembilan 2023/Picture39.png,"中文：椭圆轨道中卫星最接近地球的位置称为近地点perigee；最远的位置称为远地点apogee。
+English: The point nearest Earth in an elliptical satellite orbit is the perigee; the farthest point is the apogee."
+F5 Chp 9,radio,NegeriSembilan2023_Q40,A,B,C,D,B,Negeri Sembilan 2023/Picture40.png,"中文：导航应用利用定位及路线资料估算行程时间和到达目的地的时间，因此选B。
+English: Navigation applications use location and route information to estimate travel time and arrival time at the destination, giving B."
+F5 Chp 9,radio,PahangTrial2023_Q39,A,B,C,D,B,Pahang Trial 2023/Picture39.png,"中文：卫星轨道可呈圆形或椭圆形，因此选B；螺旋形不是本题所指的稳定轨道形状。
+English: Satellite orbits can be circular or elliptical, giving B; a spiral is not the stable orbital shape meant here."
+F5 Chp 9,radio,PahangTrial2023_Q40,A,B,C,D,C,Pahang Trial 2023/Picture40.png,"中文：GPS追踪器可提供车辆的位置资料，从而追踪被盗车辆的移动，比只用无线电或追赶更有效。
+English: A GPS tracker provides the vehicle's location, allowing its movement to be followed more effectively than radio contact or pursuit alone."
+F5 Chp 9,radio,Melaka2023_Q39,A,B,C,D,C,Melaka 2023/Picture39.png,"中文：面积比不变时，输出力与输入力成正比；输入 10 N 到 20 N，输出由 200 N 到 400 N。
+English: With a fixed area ratio, output force is proportional to input force; doubling 10 N to 20 N doubles 200 N to 400 N."
+F5 Chp 9,radio,Melaka2023_Q40,A,B,C,D,C,Melaka 2023/Picture40.png,"中文：第一坐标是纬度；负纬度表示位于赤道以南，即南半球。
+English: The first coordinate is latitude; a negative latitude indicates the southern hemisphere."
+F5 Chp 9,radio,Perak2023_Q39,A,B,C,D,D,Perak 2023/Picture39.png,"中文：K的竖管水柱高于M，表示K压力较高；L处管径较小，流速较快、压力较低，因此D正确。
+English: The water column at K is higher than at M, indicating higher pressure at K; narrow section L has faster flow and lower pressure, so D is correct."
+F5 Chp 9,radio,Perak2023_Q40,A,B,C,D,D,Perak 2023/Picture40.png,"中文：十进制度=6+12÷60+42.05÷3600≈6.211681°N，因此选D。
+English: Decimal degrees = 6 + 12 ÷ 60 + 42.05 ÷ 3600 ≈ 6.211681°N, giving D."
+F5 Chp 9,radio,Perlis2023_Q39,A,B,C,D,B,Perlis 2023/Picture39.png,"中文：无人机上方B气流较快、压力较低，下方较高压力产生向上升力，因此低压位置为B。
+English: Air flows faster above the drone at B, giving lower pressure; higher pressure below produces upward lift, so B is the low-pressure region."
+F5 Chp 9,radio,Perlis2023_Q40,A,B,C,D,C,Perlis 2023/Picture40.png,"中文：轨道越高，卫星距地心越远，圆轨道所需速度越低，因此选C。
+English: A higher orbit places a satellite farther from Earth's centre and requires a lower circular-orbit speed, giving C."
+F5 Chp 9,radio,PutrajayaSet12023_Q39,A,B,C,D,D,Putrajaya Set 1 2023/Picture39.png,"中文：液压起重机利用帕斯卡原理，密闭液体把压力传到较大活塞，产生较大举升力，因此选D。
+English: A hydraulic crane uses Pascal's principle to transmit pressure through confined liquid to a larger piston, producing a greater lifting force, giving D."
+F5 Chp 9,radio,PutrajayaSet12023_Q40,A,B,C,D,D,Putrajaya Set 1 2023/Picture40.png,"中文：圆形且位于赤道平面、倾角0°的轨道符合地球静止轨道的特点，因此选D。
+English: A circular orbit in the equatorial plane with 0° inclination matches the features of a geostationary orbit, giving D."
+F5 Chp 9,radio,PutrajayaSet22023_Q39,A,B,C,D,A,Putrajaya Set 2 2023/Picture39.png,"中文：本生灯喷嘴的气体快速流动，附近压力降低，使空气进入混合，是伯努利原理的应用。
+English: Fast gas flow at a Bunsen burner's nozzle lowers nearby pressure and draws air into the mixture, applying Bernoulli's principle."
+F5 Chp 9,radio,PutrajayaSet22023_Q40,A,B,C,D,C,Putrajaya Set 2 2023/Picture40.png,"中文：国际空间站可作为太空科学实验室，进行微重力等条件下的研究，因此选C。
+English: The International Space Station serves as a science laboratory for research under conditions such as microgravity, giving C."
+F5 Chp 9,radio,SarawakSubisMiri2023_Q39,A,B,C,D,B,Sarawak Subis Miri 2023/Picture39.png,"中文：按帕斯卡原理F÷0.05=3000÷1.5，得F=100 N，因此选B。
+English: By Pascal's principle, F/0.05 = 3000/1.5, so F = 100 N, giving B."
+F5 Chp 9,radio,SarawakSubisMiri2023_Q40,A,B,C,D,A,Sarawak Subis Miri 2023/Picture40.png,"中文：W为椭圆轨道上离地球最远的位置，称为远地点apogee，因此选A。
+English: W is the point farthest from Earth on the elliptical orbit, called the apogee, giving A."
+F5 Chp 9,radio,Selangor2023_Q39,A,B,C,D,C,Selangor 2023/Picture39.png,"中文：X指向最接近地球的蓝色虚线轨道，是低地球轨道LEO，选C。
+English: X points to the blue dashed orbit closest to Earth, the low Earth orbit, LEO, giving C."
+F5 Chp 9,radio,Selangor2023_Q40,A,B,C,D,B,Selangor 2023/Picture40.png,"中文：GPS由控制部分、太空部分和用户部分组成，分别负责监控、卫星信号和接收定位，因此选B。
+English: GPS consists of control, space and user segments for monitoring, satellite signals and positioning receivers, giving B."
+F5 Chp 9,radio,SelangorSet22023_Q39,A,B,C,D,B,Selangor Set 2 2023/Picture39.png,"中文：X指向长椭圆形的红色虚线轨道，本题将其标示为高地球轨道HEO，因此选B。
+English: X points to the elongated red dashed orbit, identified in this question as high Earth orbit, HEO, giving B."
+F5 Chp 9,radio,SelangorSet22023_Q40,A,B,C,D,B,Selangor Set 2 2023/Picture40.png,"中文：GPS提供位置和时间资料，可在各种天气下使用，因此选B；天气资料不是GPS本身定位功能。
+English: GPS provides location and time information in all weather conditions, giving B; weather information is not its positioning function."
+F5 Chp 9,radio,TerengganuMPP32023_Q39,A,B,C,D,D,Terengganu MPP3 2023/Picture39.png,"中文：在题目默认可比的卫星条件下，较低圆轨道速度对应较高轨道及较弱引力，U速度11100 km/h最低，所以选D。
+English: Under the question's comparable-satellite assumption, lower circular-orbit speed indicates a higher orbit and weaker gravity; U is slowest at 11100 km/h, giving D."
+F5 Chp 9,radio,TerengganuMPP32023_Q40,A,B,C,D,C,Terengganu MPP3 2023/Picture40.png,"中文：GPS提供位置资料，结合导航应用可找到客户送餐地点，因此选C。
+English: GPS provides location information, allowing a navigation application to find the customer's delivery point, giving C."
+F5 Chp 9,radio,SBP2023_Q39,A,B,C,D,A,SBP 2023/Picture39.png,"中文：液压系统内的压力由施加在小活塞上的力与面积决定，并通过液体传递，因此选A。
+English: Pressure in a hydraulic system is set by the force and area at the small piston and transmitted through the liquid, giving A."
+F5 Chp 9,radio,SBP2023_Q40,A,B,C,D,A,SBP 2023/Picture40.png,"中文：卫星轨道可呈圆形或椭圆形，因此选A。
+English: Satellite orbits can be circular or elliptical, giving A."

@@ -1,19 +1,37 @@
-﻿title,type,question,A,B,C,D,answer,image
-Kelantan Trial 2023 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png
-,radio,F5 Chp 1,A,B,C,D,C,Picture24.png
-,radio,F5 Chp 2,A,B,C,D,C,Picture25.png
-,radio,F5 Chp 2,A,B,C,D,D,Picture26.png
-,radio,F5 Chp 3,A,B,C,D,D,Picture27.png
-,radio,F5 Chp 3,A,B,C,D,C,Picture28.png
-,radio,F5 Chp 4,A,B,C,D,A,Picture29.png
-,radio,F5 Chp 4,A,B,C,D,C,Picture30.png
-,radio,F5 Chp 5,A,B,C,D,C,Picture31.png
-,radio,F5 Chp 5,A,B,C,D,A,Picture32.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture33.png
-,radio,F5 Chp 6,A,B,C,D,D,Picture34.png
-,radio,F5 Chp 7,A,B,C,D,B,Picture35.png
-,radio,F5 Chp 7,A,B,C,D,C,Picture36.png
-,radio,F5 Chp 8,A,B,C,D,B,Picture37.png
-,radio,F5 Chp 8,A,B,C,D,A,Picture38.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture39.png
-,radio,F5 Chp 9,A,B,C,D,D,Picture40.png
+﻿title,type,question,A,B,C,D,answer,image,explanation
+Kelantan Trial 2023 F5,radio,F5 Chp 1,A,B,C,D,A,Picture23.png,"中文：图示水绵可通过接合进行有性生殖，两个细胞的遗传物质结合。
+English: Spirogyra reproduces sexually by conjugation, combining genetic material from two cells."
+,radio,F5 Chp 1,A,B,C,D,C,Picture24.png,"中文：M 为 pH 7、37°C，最接近课本中细菌适宜生长条件，繁殖较多使培养液最浑浊。
+English: Tube M has pH 7 and 37°C, favourable textbook conditions for bacterial growth, so it becomes most cloudy."
+,radio,F5 Chp 2,A,B,C,D,C,Picture25.png,"中文：温升 = 60 − 28 = 32°C；热量值 = 4.2 × 20 × 32 ÷ (0.5 × 1,000) = 5.376 kJ/g。
+English: Temperature rise = 32°C; calorific value = 4.2 × 20 × 32/(0.5 × 1,000) = 5.376 kJ/g."
+,radio,F5 Chp 2,A,B,C,D,D,Picture26.png,"中文：按本题答案，过量食用某些甜味剂可引起过敏、皮疹及皮肤瘙痒，故选 D。
+English: According to the intended textbook answer, excessive use of certain sweeteners can cause allergic reactions, rashes and itchy skin."
+,radio,F5 Chp 3,A,B,C,D,D,Picture27.png,"中文：燃油机动车燃烧化石燃料并排放二氧化碳，增加碳足迹。
+English: Fuel-powered motor vehicles burn fossil fuels and release carbon dioxide, increasing the carbon footprint."
+,radio,F5 Chp 3,A,B,C,D,C,Picture28.png,"中文：工厂污染造成酸雨，令水体酸化，可伤害并导致水生生物死亡。
+English: Industrial emissions cause acid rain that acidifies water and can kill aquatic organisms."
+,radio,F5 Chp 4,A,B,C,D,A,Picture29.png,"中文：在选项比较中，呼吸作用以酶促反应迅速提供能量；生锈和发酵通常较慢。
+English: Among the choices, enzyme-controlled respiration releases usable energy rapidly; rusting and fermentation are typically slower."
+,radio,F5 Chp 4,A,B,C,D,C,Picture30.png,"中文：450°C、常压及五氧化二钒催化剂是接触法的条件，最终产品为硫酸。
+English: 450°C, atmospheric pressure and vanadium(V) oxide identify the Contact process, whose final product is sulphuric acid."
+,radio,F5 Chp 5,A,B,C,D,C,Picture31.png,"中文：CnH2n 是烯烃通式，对应 A 的乙烯 Etena；C 的乙醇含氧，并非烃。现有答案纸记 C，与题目内容不符。
+English: CnH2n is the general formula of alkenes, matching ethene in A. Ethanol in C contains oxygen and is not a hydrocarbon; the original key C conflicts with the question."
+,radio,F5 Chp 5,A,B,C,D,A,Picture32.png,"中文：饱和脂肪摄入过多可促进动脉脂质沉积并缩小管腔，减少摄入有助改善风险。
+English: Excess saturated fat promotes fatty deposits that narrow arteries; reducing intake helps address this risk."
+,radio,F5 Chp 6,A,B,C,D,D,Picture33.png,"中文：硫酸铜溶液含可移动离子，能导电，属于电解质；葡萄糖及乙醇溶液不提供此类离子。
+English: Copper(II) sulphate solution contains mobile ions and is an electrolyte; glucose and ethanol solutions do not provide such ions."
+,radio,F5 Chp 6,A,B,C,D,D,Picture34.png,"中文：电絮凝中，铝离子、氢氧根和污染物结合形成絮体floc，便于把污染物分离，因此选D。
+English: In electrocoagulation, aluminium ions, hydroxide ions and pollutants combine into flocs, allowing pollutants to be separated, giving D."
+,radio,F5 Chp 7,A,B,C,D,B,Picture35.png,"中文：焦距是透镜光学中心至焦点的距离。
+English: Focal length is the distance between a lens's optical centre and its focal point."
+,radio,F5 Chp 7,A,B,C,D,C,Picture36.png,"中文：放大镜把物体放在凸透镜焦点以内，形成正立、放大的虚像。
+English: A magnifying glass forms an upright, enlarged virtual image when the object is inside the convex lens's focal length."
+,radio,F5 Chp 8,A,B,C,D,B,Picture37.png,"中文：螺旋桨上方B的气流较快、压力较低，下方较高压力产生向上的升力，因此最低压力位置为B。
+English: Air moves faster above the blade at B, giving lower pressure; higher pressure below produces lift, so B has the lowest pressure."
+,radio,F5 Chp 8,A,B,C,D,A,Picture38.png,"中文：帕斯卡原理：F/2 = 500/100，因此小活塞所需力为 10 N。
+English: Pascal's principle gives F/2 = 500/100, so the required force is 10 N."
+,radio,F5 Chp 9,A,B,C,D,D,Picture39.png,"中文：课本把 2,000–35,780 km 的高度列为中地球轨道 MEO，对应 A；原答案 D 为 HEO，与该高度范围不符。
+English: The textbook altitude 2,000–35,780 km identifies medium Earth orbit, MEO, in A; the original key D labels HEO and does not match the range."
+,radio,F5 Chp 9,A,B,C,D,D,Picture40.png,"中文：国际空间站提供微重力环境，让科学家研究生物、材料及其他科学现象。
+English: The ISS provides a microgravity environment for scientific studies of organisms, materials and other phenomena."
