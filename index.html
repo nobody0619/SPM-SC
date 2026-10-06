@@ -986,7 +986,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let correctStreak=0, wrongStreak=0;
   const MAX_OPTS=15;
 
-  const PASSWORDS_CSV = 'Passwords.csv';
+  // Password validation is performed by the subject Apps Script.
 
   document.getElementById('startBtn').onclick = attemptLogin;
   document.getElementById('my-results-btn').onclick = openResults;
@@ -1245,98 +1245,71 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  function attemptLogin(){
-  const nm = document.getElementById('username').value.trim();
-  const pw = document.getElementById('password').value;
-  if(!nm || !pw){
-    alert('请输入姓名与密码 / Please enter both name and password.');
-    return;
-  }
-  // 把真正的读取逻辑交给带重试的函数
-  loadPasswordsAndLogin(nm, pw, 0);
-}
-// 尝试读取 Passwords.csv 并登入，最多重试 3 次
-function loadPasswordsAndLogin(nm, pw, attempt){
-  Papa.parse(PASSWORDS_CSV + '?nocache=' + Date.now(), {
-    download: true,
-    header: true,
-    skipEmptyLines: true,
-    complete: async (res) => {
-      const rowsRaw = res.data || [];
-      // 统一小写 key
-      const rows = rowsRaw.map(r => {
-        const o = {};
-        Object.entries(r).forEach(([k,v])=>{
-          o[String(k).trim().toLowerCase()] =
-            typeof v === 'string' ? v.trim() : v;
-        });
-        return o;
-      });
-
-      // 万一刚更新完 GitHub，读到空表，就再试几次
-      if(rows.length === 0 && attempt < 3){
-        console.warn('Passwords.csv 为空，1 秒后重试，第', attempt+1, '次');
-        setTimeout(() => loadPasswordsAndLogin(nm, pw, attempt + 1), 1000);
+  async function attemptLogin(){
+    const nm = document.getElementById('username').value.trim();
+    const pw = document.getElementById('password').value;
+    if(!nm || !pw){
+      alert('请输入姓名与密码 / Please enter both name and password.');
+      return;
+    }
+    try {
+      const result = await verifyLoginWithServer(nm, pw);
+      if(!result.ok){
+        alert(result.expired ? '账号已过期 / Account expired.' : (result.message || '姓名或密码不正确 / Name or password incorrect.'));
         return;
       }
-
-      const nameKey = 'name';
-      const passKey = 'password';
-
-      // 通用试用密码（* 那一行）
-      const uwpRow = rows.find(r => r[nameKey] === '*');
-      const uwpPassword = uwpRow ? (uwpRow[passKey] || '') : '';
-
-      // 通用密码：试用 5 分钟
-      if(uwpPassword && pw === uwpPassword){
+      if(result.trial){
         if(universalRemainingMs() <= 0) setUniversalStart(Date.now());
         usedUniversal = true;
         accountExpiryRaw = '';
         accountExpiryDate = null;
         accountExpiryLabel = '试用账号 / Trial';
         updateSessionTimer();
-        user = nm;
-        await afterLogin();
-        return;
+      } else {
+        clearUniversalStart();
+        usedUniversal = false;
+        showSessionTimer(false);
+        accountExpiryRaw = result.expires || '';
+        accountExpiryDate = parseExpiryDate(accountExpiryRaw);
+        accountExpiryLabel = accountExpiryRaw || '永久 / Permanent';
       }
-
-      // 正常用户密码
-      const match = rows.find(r =>
-        String(r[nameKey] || '').toLowerCase() === nm.toLowerCase() &&
-        String(r[passKey] || '') === pw
-      );
-
-      if(!match){
-        alert('姓名或密码不正确 / Name or password incorrect.');
-        return;
-      }
-
-      const expiryRaw = match['expires'] || match['expiry'] || match['end'] || match['enddate'] || match['validuntil'] || '';
-      const expiryDate = parseExpiryDate(expiryRaw);
-      if(expiryRaw && expiryDate && Date.now() > expiryDate.getTime()){
-        alert(`账号已过期 (${expiryRaw})\nAccount expired.`);
-        return;
-      }
-
-      clearUniversalStart();
-      usedUniversal = false;
-      showSessionTimer(false);
-      accountExpiryRaw = expiryRaw || '';
-      accountExpiryDate = expiryDate || null;
-      accountExpiryLabel = expiryRaw ? expiryRaw : '永久 / Permanent';
       user = nm;
       await afterLogin();
-    },
-    error: () => {
-      if (attempt < 3) {
-        console.warn('读取 Passwords.csv 出错，1 秒后重试，第', attempt+1, '次');
-        setTimeout(() => loadPasswordsAndLogin(nm, pw, attempt + 1), 1000);
-      } else {
-        alert('无法读取 Passwords.csv，请确认文件存在且可公开访问。\nCannot load Passwords.csv, please check access.');
-      }
+    } catch (err) {
+      console.error(err);
+      alert('无法连接登录服务，请稍后再试。\nUnable to contact the login service. Please try again.');
     }
-  });
-}
+  }
+
+  function verifyLoginWithServer(name, password){
+    return new Promise((resolve, reject) => {
+      const nonce = Array.from(crypto.getRandomValues(new Uint8Array(18)), b => b.toString(16).padStart(2, '0')).join('');
+      const frameName = 'login_' + nonce;
+      const frame = document.createElement('iframe');
+      frame.name = frameName;
+      frame.style.display = 'none';
+      const form = document.createElement('form');
+      form.method = 'POST';
+      form.action = SCRIPT_URL;
+      form.target = frameName;
+      form.style.display = 'none';
+      const fields = { action: 'auth_login', name, password, nonce };
+      for(const [key, value] of Object.entries(fields)){
+        const input = document.createElement('input');
+        input.type = 'hidden'; input.name = key; input.value = value;
+        form.appendChild(input);
+      }
+      const cleanup = () => { window.removeEventListener('message', onMessage); form.remove(); frame.remove(); clearTimeout(timer); };
+      const onMessage = event => {
+        if(event.source !== frame.contentWindow || !event.data || event.data.type !== 'kee-quiz-login' || event.data.nonce !== nonce) return;
+        cleanup(); resolve(event.data);
+      };
+      const timer = setTimeout(() => { cleanup(); reject(new Error('Login request timed out')); }, 20000);
+      window.addEventListener('message', onMessage);
+      document.body.append(frame, form);
+      form.submit();
+    });
+  }
 
 
   async function afterLogin(){
