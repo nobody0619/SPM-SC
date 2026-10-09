@@ -805,6 +805,10 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ===== 钱包 Wallet（云端 + 本地显示） ===== */
   const walletDisplay = document.getElementById('wallet-display');
   const convertBtn    = document.getElementById('convert-revive-btn');
+  let accountDataLoading=false;
+  let initialAccountDataReady=Promise.resolve();
+  let loginInFlight=false;
+  let chapterStartPending=false;
   let wallet = { shards:0, revives:0, level:1, xp:0, totalXp:0 };
   let accountExpiryRaw = '';
   let accountExpiryDate = null;
@@ -852,6 +856,7 @@ document.addEventListener('DOMContentLoaded', () => {
       `碎片 Shards: ${wallet.shards} ｜ 复活 Revives: ${wallet.revives}`;
     document.getElementById('expiry-line').textContent = formatExpiryLine();
     convertBtn.style.display = user ? 'inline-flex' : 'none';
+    convertBtn.disabled = accountDataLoading;
   }
 
   // 读取钱包：对接 Apps Script 的 action=wallet-get
@@ -859,9 +864,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(!user) return;
     try{
       const url = `${SCRIPT_URL}?action=wallet-get&name=${encodeURIComponent(user)}`;
-      const res = await fetch(url);
-      if(!res.ok) throw new Error('wallet http');
-      const data = await res.json();
+      const data = await fetchLoginData_(url);
       const w = data.data || data || {};
       wallet.shards  = Number(w.shards  || 0);
       wallet.revives = Number(w.revives || 0);
@@ -894,7 +897,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 兑换复活卡：50 碎片 → 1 复活卡
-  convertBtn.onclick = () => {
+  convertBtn.onclick = async () => {
+    await initialAccountDataReady;
     if(!user) return alert('请先登录 / Please log in first.');
     if(wallet.shards < REVIVE_COST){
       alert(`碎片不足：需要 ${REVIVE_COST} 才能兑换 1 张复活卡。\nNot enough shards: need ${REVIVE_COST} to convert 1 revive.`);
@@ -1057,9 +1061,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(!user) return [];
     try{
       const url = `${SCRIPT_URL}?action=wrongbook-list&subject=${encodeURIComponent(SUBJECT_PREFIX)}&name=${encodeURIComponent(user)}&nocache=${Date.now()}`;
-      const res = await fetch(url);
-      if(!res.ok) throw new Error('wrongbook-list http');
-      const data = await res.json();
+      const data = await fetchLoginData_(url);
       const list = (data.data || data.items || []).map(item => ({
         id: item.id,
         chapter: item.chapter || '未分类 / Others',
@@ -1204,6 +1206,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function openWrongBook(){
+    await initialAccountDataReady;
     guardUniversalWindowOrThrow();
     await refreshWrongBookFromCloud();
     updateWrongBookUI();
@@ -1212,6 +1215,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function startWrongBookPractice(chapterName){
+    await initialAccountDataReady;
     guardUniversalWindowOrThrow();
     if(!wrongBookLoadedFromCloud) await refreshWrongBookFromCloud();
     const allList = loadWrongBook();
@@ -1246,12 +1250,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   async function attemptLogin(){
+    if(loginInFlight) return;
     const nm = document.getElementById('username').value.trim();
     const pw = document.getElementById('password').value;
     if(!nm || !pw){
       alert('请输入姓名与密码 / Please enter both name and password.');
       return;
     }
+    loginInFlight=true;
+    const button=document.getElementById('startBtn');
+    const originalLabel=button.textContent;
+    button.disabled=true;
+    button.textContent='正在验证 / Signing in…';
     try {
       const result = await verifyLoginWithServer(nm, pw);
       if(!result.ok){
@@ -1278,6 +1288,10 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (err) {
       console.error(err);
       alert('无法连接登录服务，请稍后再试。\nUnable to contact the login service. Please try again.');
+    } finally {
+      loginInFlight=false;
+      button.disabled=false;
+      button.textContent=originalLabel;
     }
   }
 
@@ -1313,17 +1327,63 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   async function afterLogin(){
-    await fetchCloudResultsFor(user);
     loadLocalResults();
-    await loadWallet();
-    await refreshWrongBookFromCloud();
+    accountDataLoading = true;
     updateWalletUI();
     updateWrongBookUI();
     document.getElementById('my-results-btn').style.display='inline-block';
     document.getElementById('back-to-chapters-btn').style.display='inline-block';
     document.getElementById('welcome').style.display='none';
+    const menu = document.getElementById('menu');
+    menu.innerHTML='<h2>正在载入章节 / Loading chapters…</h2>';
+    menu.style.display='block';
+    let status = document.getElementById('account-load-status');
+    if(!status){
+      status = document.createElement('p');
+      status.id='account-load-status';
+      status.className='muted';
+      status.setAttribute('role','status');
+      menu.before(status);
+    }
+    status.hidden=false;
+    status.textContent='已登入，正在同步学习资料 / Signed in, syncing learning data…';
+
+    // Load independent data together; quiz play waits for wallet/wrong-book state.
+    initialAccountDataReady = Promise.allSettled([
+      loadWallet(), refreshWrongBookFromCloud()
+    ]).then(()=>{
+      accountDataLoading=false;
+      updateWalletUI();
+      updateWrongBookUI();
+      status.hidden=true;
+    });
+    fetchCloudResultsFor(user).then(refreshChapterProgressBadges_).catch(console.warn);
     loadChapters();
-    setTimeout(()=>document.getElementById('menu').scrollIntoView({behavior:'smooth'}),50);
+    setTimeout(()=>menu.scrollIntoView({behavior:'smooth'}),50);
+  }
+
+  function refreshChapterProgressBadges_(){
+    const bestMap=buildBestPercentMap();
+    document.querySelectorAll('#menu button[data-chapter]').forEach(btn=>{
+      const badge=btn.querySelector('.chapter-progress');
+      if(!badge) return;
+      const best=bestPercentForChapter(btn.dataset.chapter,bestMap);
+      badge.className='badge chapter-progress ' + (best!=null?'badge-green':'badge-gray');
+      badge.textContent=best!=null ? `最高准确率 Best: ${best}%` : '未做 / Not attempted';
+      btn.classList.toggle('pill-done',best!=null && best>=70);
+    });
+  }
+
+  async function fetchLoginData_(url){
+    const controller=new AbortController();
+    const timer=setTimeout(()=>controller.abort(),15000);
+    try{
+      const response=await fetch(url,{signal:controller.signal});
+      if(!response.ok) throw new Error('Account data HTTP ' + response.status);
+      return await response.json();
+    }finally{
+      clearTimeout(timer);
+    }
   }
 
   function guardUniversalWindowOrThrow(){
@@ -1442,6 +1502,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const menuYearOpenState = new Map();
 
+  const chapterCountQueue_=[];
+  let chapterCountActive_=0;
+  function queueVisibleChapterCounts_(){
+    document.querySelectorAll('#menu .year-group[open] button[data-chapter]').forEach(btn=>{
+      const badge=btn.querySelector('.chapter-count');
+      const chap=btn.dataset.chapter;
+      if(!badge || badge.dataset.queued) return;
+      if(chapterQuestionCache[chap]!=null){
+        badge.textContent=`共 ${chapterQuestionCache[chap]} 题`;
+        return;
+      }
+      badge.dataset.queued='true';
+      chapterCountQueue_.push({chap,badge});
+    });
+    pumpChapterCounts_();
+  }
+  function pumpChapterCounts_(){
+    while(chapterCountActive_<4 && chapterCountQueue_.length){
+      const item=chapterCountQueue_.shift();
+      if(!item.badge.isConnected) continue;
+      chapterCountActive_++;
+      Promise.resolve().then(()=>fetchChapterQuestionCount(item.chap)).then(total=>{
+        item.badge.textContent=`共 ${total} 题`;
+      }).catch(()=>{item.badge.textContent='题数暂不可用';}).finally(()=>{
+        chapterCountActive_--;
+        pumpChapterCounts_();
+      });
+    }
+  }
+
   function renderMenu(){
     const menu=document.getElementById('menu');
     menu.querySelectorAll('.year-group').forEach(section=>{
@@ -1481,10 +1571,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const makeChapterButton=(chap)=>{
       const btn=document.createElement('button');
       btn.className='pill ' + getChapterTypeClass(chap);
+      btn.dataset.chapter=chap;
       btn.textContent=chap;
 
       const countBadge=document.createElement('span');
-      countBadge.className='badge badge-gray';
+      countBadge.className='badge badge-gray chapter-count';
       countBadge.textContent='题数 ...';
       btn.appendChild(countBadge);
 
@@ -1498,11 +1589,8 @@ document.addEventListener('DOMContentLoaded', () => {
         badge.className='badge badge-gray';
         badge.textContent='未做 / Not attempted';
       }
+      badge.classList.add('chapter-progress');
       btn.appendChild(badge);
-
-      fetchChapterQuestionCount(chap).then(total=>{
-        countBadge.textContent = `共 ${total} 题`;
-      });
 
       btn.onclick=()=>{ guardUniversalWindowOrThrow(); startChapter(chap); };
       return btn;
@@ -1520,10 +1608,13 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.type='button';
       btn.className='year-action';
       btn.textContent=label;
-      btn.onclick=()=>menu.querySelectorAll('.year-group').forEach(section=>{
-        section.open=open;
-        menuYearOpenState.set(Number(section.dataset.year),open);
-      });
+      btn.onclick=()=>{
+        menu.querySelectorAll('.year-group').forEach(section=>{
+          section.open=open;
+          menuYearOpenState.set(Number(section.dataset.year),open);
+        });
+        queueVisibleChapterCounts_();
+      };
       actions.appendChild(btn);
     });
     toolbar.appendChild(actions);
@@ -1547,6 +1638,7 @@ document.addEventListener('DOMContentLoaded', () => {
       section.open=menuYearOpenState.has(y) ? menuYearOpenState.get(y) : y===years[0];
       section.addEventListener('toggle',()=>{
         if(section.isConnected) menuYearOpenState.set(y,section.open);
+        if(section.open) queueVisibleChapterCounts_();
       });
       const summary=document.createElement('summary');
       summary.className='year-summary';
@@ -1590,9 +1682,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     menu.style.display='block';
+    queueVisibleChapterCounts_();
   }
 
-  function startChapter(chap){
+  async function startChapter(chap){
+    if(chapterStartPending) return;
+    chapterStartPending=true;
+    try{ await initialAccountDataReady; }
+    finally{ chapterStartPending=false; }
+    guardUniversalWindowOrThrow();
     isWrongBookPractice = false;
     currentChapter=chap;
     score=0; correct=0; wrong=0;
