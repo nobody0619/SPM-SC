@@ -863,7 +863,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function loadWallet(){
     if(!user) return;
     try{
-      const url = `${SCRIPT_URL}?action=wallet-get&name=${encodeURIComponent(user)}`;
+      const url = `${SCRIPT_URL}?action=wallet-get&name=${encodeURIComponent(user)}&nocache=${Date.now()}`;
       const data = await fetchLoginData_(url);
       const w = data.data || data || {};
       wallet.shards  = Number(w.shards  || 0);
@@ -1378,7 +1378,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const controller=new AbortController();
     const timer=setTimeout(()=>controller.abort(),15000);
     try{
-      const response=await fetch(url,{signal:controller.signal});
+      const response=await fetch(url,{signal:controller.signal,cache:'no-store'});
       if(!response.ok) throw new Error('Account data HTTP ' + response.status);
       return await response.json();
     }finally{
