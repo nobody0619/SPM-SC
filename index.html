@@ -1427,7 +1427,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return rawChapter;
   }
 
-  const QUIZ_DATA_VERSION='20261003-sc-2023-2025-explanations';
+  const QUIZ_DATA_VERSION='20261009-sc-image-paths';
   function versionedQuizUrl(value){
     try{
       const url=new URL(value,window.location.href);
@@ -1715,6 +1715,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // Chapter exports use both year-relative and CSV-relative image paths.
+  function resolveQuestionImage(image,baseDir){
+    const path=String(image||'').trim().replace(/\\/g,'/');
+    let base=new URL(baseDir||'.',window.location.href);
+    if(/\/ByChapterCSV\/$/i.test(base.pathname) &&
+       !/^(?:\.\.?\/|\/|[a-z][a-z\d+.-]*:)/i.test(path)){
+      base=new URL('../',base);
+    }
+    return new URL(path,base).href;
+  }
+
   document.getElementById('mode-picker').addEventListener('click', (e) => {
     if(e.target && e.target.id === 'mode-picker'){
       document.getElementById('mode-picker').style.display='none';
@@ -1920,9 +1931,7 @@ document.addEventListener('DOMContentLoaded', () => {
     div.innerHTML=`<p><strong>${safeQ}</strong></p>`;
 
     if(q.image){
-      let src=(q.image||'').toString().trim();
-      if(!/^https?:\/\//i.test(src) && !/^data:/i.test(src))
-        src=(q.__baseDir||'')+src.replace(/^\.\//,'');
+      const src=resolveQuestionImage(q.image,q.__baseDir);
       const img=document.createElement('img');
       img.className='question-image';
       img.alt='question image';
