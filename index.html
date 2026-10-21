@@ -98,9 +98,12 @@
     #topbar{
       position:relative; z-index:50;
       display:flex; align-items:center; justify-content:space-between;
-      gap:12px; margin:12px 0;
+      gap:12px; margin:12px 0; flex-wrap:wrap;
     }
     .nav-left,.nav-right{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    #account-login{ display:flex; align-items:center; gap:5px; flex-wrap:wrap; }
+    #account-login input{ width:110px; max-width:36vw; margin:0; }
+    #account-status{ font-size:12px; }
     .pill-btn{
       border:0; background:#111; color:#fff;
       padding:8px 12px; border-radius:999px;
@@ -519,7 +522,13 @@
   <div id="topbar">
     <div class="nav-left">
       <button id="back-to-chapters-btn" class="pill-btn primary">🏠 回到章节选择 / Back to Chapters</button>
-      <div id="session-timer">会话剩余 / Session left: <span id="session-remaining">05:00</span></div>
+      <div id="session-timer">免费体验剩余 / Free trial: <span id="session-remaining">05:00</span></div>
+      <div id="account-login">
+        <input type="text" id="username" placeholder="姓名 / Name" autocomplete="username" aria-label="姓名 / Name"/>
+        <input type="password" id="password" placeholder="密码 / Password" autocomplete="current-password" aria-label="密码 / Password"/>
+        <button id="startBtn" type="button" class="pill-btn">登入 / Log In</button>
+      </div>
+      <span id="account-status" class="muted" hidden></span>
     </div>
     <div class="nav-right">
       <label class="theme-select-wrap" title="更换背景颜色 / Change background color">
@@ -570,8 +579,8 @@
         </div>
       </div>
     </div>
-    <div class="rules-box">
-      <b>🎮 计分 &amp; 复活规则 Scoring &amp; Revive Rules</b>
+    <details class="rules-box">
+      <summary><b>🎮 计分 &amp; 复活规则 Scoring &amp; Revive Rules</b></summary>
       <ul>
 <li>第一次答对 First try correct：
   <b>+2 分 / +2 points ＋ 1 碎片 shard</b>
@@ -594,20 +603,10 @@
         <li>使用复活卡时：这题算作答对，但<b>不再额外送碎片或连对奖励</b>。  
             When a revive is used, this question counts as correct, but <b>no extra shards or combo bonus</b>.</li>
       </ul>
-    </div>
+    </details>
   </section>
 
-  <div id="welcome">
-    <h2>请输入姓名与密码 / Enter Your Name &amp; Password</h2>
-    <input type="text" id="username" placeholder="姓名 / Name"/>
-    <input type="password" id="password" placeholder="密码 / Password"/>
-    <button id="startBtn" type="button" class="pill-btn">登录 / Log In</button>
-    <div class="muted" style="margin-top:8px;">
-      免费试用密码：<b>testing</b>（5 分钟 5 minutes）；
-      2000题练习每月只需 RM10 / 2000 practice questions monthly only RM10
-      购买请联系：纪老师 016-7312519。
-    </div>
-  </div>
+  <div id="welcome" style="display:none;"></div>
 
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
 
@@ -632,6 +631,17 @@
       <div id="mode-picker-actions" class="mode-actions"></div>
       <div style="margin-top:10px;">
         <button id="mode-picker-cancel" class="pill-btn light">取消 / Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="trial-expired" class="overlay" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="trial-expired-title">
+    <div class="overlay-card">
+      <h2 id="trial-expired-title">5 分钟免费体验已结束 / Free trial ended</h2>
+      <p>想无限使用全部题目，请联系纪老师开通账号。<br/>For unlimited access, contact Mr Kee to activate an account.</p>
+      <div class="mode-actions">
+        <a id="trial-contact" class="pill-btn primary" href="https://wa.me/60167312519" target="_blank" rel="noopener">💬 WhatsApp 联系开通 / Contact</a>
+        <button id="trial-login" class="pill-btn light" type="button">已有账号，登入 / Log in</button>
       </div>
     </div>
   </div>
@@ -749,13 +759,14 @@ document.addEventListener('DOMContentLoaded', () => {
     encodeURIComponent(`Hi Mr Kee, I'd like to ask about ${abbr} P1 Booster.`);
   document.getElementById('wa-fab').href = waUrl;
   document.getElementById('wa-link').href = waUrl;
+  document.getElementById('trial-contact').href = waUrl;
 
-  /* ===== 登录/会话（试用5分钟） ===== */
+  /* ===== 登录/会话（访客直接试用5分钟） ===== */
   let user = '', usedUniversal = false;
   const UWP_WINDOW_MS = 5 * 60 * 1000;
-  function setUniversalStart(ts){ localStorage.setItem('uwpStart', String(ts)); }
-  function getUniversalStart(){ const v=localStorage.getItem('uwpStart'); return v? Number(v):0; }
-  function clearUniversalStart(){ localStorage.removeItem('uwpStart'); }
+  const AUTO_TRIAL_KEY='kee_quiz_auto_trial_start';
+  function setUniversalStart(ts){ localStorage.setItem(AUTO_TRIAL_KEY, String(ts)); }
+  function getUniversalStart(){ const v=localStorage.getItem(AUTO_TRIAL_KEY); return v? Number(v):0; }
   function universalRemainingMs(){
     const s=getUniversalStart(); if(!s) return 0;
     const r=UWP_WINDOW_MS-(Date.now()-s); return r>0?r:0;
@@ -763,22 +774,42 @@ document.addEventListener('DOMContentLoaded', () => {
   function showSessionTimer(b){
     document.getElementById('session-timer').style.display = b?'block':'none';
   }
+  let trialLoginPending=false;
+  function showTrialExpired(force=false){
+    if(!usedUniversal) return;
+    if(trialLoginPending && !force) return;
+    trialLoginPending=false;
+    document.getElementById('mode-picker').style.display='none';
+    document.getElementById('quiz').style.display='none';
+    document.getElementById('finish').style.display='none';
+    document.getElementById('results').style.display='none';
+    document.getElementById('menu').style.display='block';
+    document.getElementById('trial-expired').style.display='flex';
+  }
   function updateSessionTimer(){
     if(!usedUniversal){ showSessionTimer(false); updateWalletUI(); return; }
     const rem=universalRemainingMs();
     if(rem<=0){
-      showSessionTimer(false);
-      alert('会话已到期，请重新登录。\nSession expired, please log in again.');
-      location.reload();
+      document.getElementById('session-remaining').textContent='00:00';
+      showSessionTimer(true);
+      showTrialExpired();
+      updateWalletUI();
       return;
     }
-    const mm=Math.floor(rem/60000);
-    const ss=Math.floor((rem%60000)/1000).toString().padStart(2,'0');
-    document.getElementById('session-remaining').textContent=`${mm}:${ss}`;
+    const wholeSeconds=Math.ceil(rem/1000);
+    const mm=Math.floor(wholeSeconds/60);
+    const ss=(wholeSeconds%60).toString().padStart(2,'0');
+    document.getElementById('session-remaining').textContent=`${String(mm).padStart(2,'0')}:${ss}`;
     showSessionTimer(true);
     updateWalletUI();
   }
   setInterval(updateSessionTimer, 500);
+  document.getElementById('trial-login').onclick=()=>{
+    trialLoginPending=true;
+    document.getElementById('trial-expired').style.display='none';
+    document.getElementById('username').focus();
+    window.scrollTo({top:0,behavior:'smooth'});
+  };
 
   /* ===== 音效 ===== */
   let audioOn = true, audioCtx;
@@ -1269,14 +1300,16 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
       if(result.trial){
-        if(universalRemainingMs() <= 0) setUniversalStart(Date.now());
+        if(universalRemainingMs() <= 0){
+          showTrialExpired(true);
+          return;
+        }
         usedUniversal = true;
         accountExpiryRaw = '';
         accountExpiryDate = null;
         accountExpiryLabel = '试用账号 / Trial';
         updateSessionTimer();
       } else {
-        clearUniversalStart();
         usedUniversal = false;
         showSessionTimer(false);
         accountExpiryRaw = result.expires || '';
@@ -1284,6 +1317,12 @@ document.addEventListener('DOMContentLoaded', () => {
         accountExpiryLabel = accountExpiryRaw || '永久 / Permanent';
       }
       user = nm;
+      trialLoginPending=false;
+      document.getElementById('trial-expired').style.display='none';
+      document.getElementById('account-login').style.display='none';
+      const accountStatus=document.getElementById('account-status');
+      accountStatus.hidden=false;
+      accountStatus.textContent=`已登入 / Signed in: ${nm}`;
       await afterLogin();
     } catch (err) {
       console.error(err);
@@ -1327,6 +1366,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   async function afterLogin(){
+    // Start the account session from the menu; guest quiz rewards stay separate.
+    sessionShardDelta=0;
+    sessionReviveDelta=0;
+    queue=[];
+    document.getElementById('quiz').style.display='none';
+    document.getElementById('finish').style.display='none';
+    document.getElementById('results').style.display='none';
+    document.getElementById('mode-picker').style.display='none';
+    document.getElementById('wrongbook').style.display='none';
     loadLocalResults();
     accountDataLoading = true;
     updateWalletUI();
@@ -1358,7 +1406,8 @@ document.addEventListener('DOMContentLoaded', () => {
       status.hidden=true;
     });
     fetchCloudResultsFor(user).then(refreshChapterProgressBadges_).catch(console.warn);
-    loadChapters();
+    if(chapters.length) renderMenu();
+    else loadChapters();
     setTimeout(()=>menu.scrollIntoView({behavior:'smooth'}),50);
   }
 
@@ -1389,9 +1438,8 @@ document.addEventListener('DOMContentLoaded', () => {
   function guardUniversalWindowOrThrow(){
     if(!usedUniversal) return;
     if(universalRemainingMs()<=0){
-      alert('会话已到期，请重新登录。\nSession expired, please log in again.');
-      location.reload();
-      throw new Error('Session expired');
+      showTrialExpired(true);
+      throw new Error('Trial expired');
     }
   }
 
@@ -1440,7 +1488,6 @@ document.addEventListener('DOMContentLoaded', () => {
     Papa.parse(versionedQuizUrl('Chapters.csv'),{
       download:true,header:true,skipEmptyLines:true,
       complete(res){
-        guardUniversalWindowOrThrow();
         chapters=(res.data||[]).map(raw=>{
           const r={};
           Object.entries(raw).forEach(([k,v])=>{
@@ -1635,7 +1682,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const section=document.createElement('details');
       section.className='year-group';
       section.dataset.year=String(y);
-      section.open=menuYearOpenState.has(y) ? menuYearOpenState.get(y) : y===years[0];
+      section.open=menuYearOpenState.has(y) ? menuYearOpenState.get(y) : false;
       section.addEventListener('toggle',()=>{
         if(section.isConnected) menuYearOpenState.set(y,section.open);
         if(section.open) queueVisibleChapterCounts_();
@@ -2159,7 +2206,7 @@ if (!isC && !usedRevive) {
     }
 
     document.getElementById('finish-msg').textContent=
-      `恭喜 ${user}，你学会这个章节了！ / Well done, ${user}!`;
+      `恭喜 ${user||'访客'}，你学会这个章节了！ / Well done, ${user||'Guest'}!`;
     document.getElementById('stats').innerHTML =
       `准确率 Accuracy：<b>${percent}%</b>　|　`+
       `分数 Score：${score}　|　`+
@@ -2176,16 +2223,17 @@ if (!isC && !usedRevive) {
     form.correct.value = correct;
     form.wrong.value   = wrong;
     form.time.value    = Math.floor((Date.now()-chapterStart)/1000);
-    form.submit();
-
-    saveLocalResult({
-      quizId: form.quizId.value,
-      quizIdPure: currentChapter,
-      name:user,
-      score, correct, wrong,
-      time: form.time.value,
-      timestamp: new Date().toISOString()
-    });
+    if(user){
+      form.submit();
+      saveLocalResult({
+        quizId: form.quizId.value,
+        quizIdPure: currentChapter,
+        name:user,
+        score, correct, wrong,
+        time: form.time.value,
+        timestamp: new Date().toISOString()
+      });
+    }
 
     updateWrongBookUI();
     launchConfetti(120,1000);
@@ -2294,8 +2342,15 @@ if (!isC && !usedRevive) {
     }
     setTimeout(()=>{ c.innerHTML=''; }, duration+1200);
   }
+  // Guests can choose a paper immediately, without waiting for login services.
+  const previousTrialStart=getUniversalStart();
+  if(!previousTrialStart || previousTrialStart>Date.now()) setUniversalStart(Date.now());
+  usedUniversal=true;
+  updateSessionTimer();
+  document.getElementById('menu').innerHTML='<h2>正在载入章节 / Loading chapters…</h2>';
+  document.getElementById('menu').style.display='block';
+  loadChapters();
 });
 </script>
 </body>
 </html>
-
