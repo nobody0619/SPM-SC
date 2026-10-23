@@ -531,21 +531,157 @@
     .guided-note{padding:12px;background:var(--soft-panel);border-radius:12px;line-height:1.6;}
     .access-offer p{line-height:1.65;}
     @media(max-width:640px){.access-offer{padding:18px 14px;margin:12px 0}.access-benefits{grid-template-columns:1fr}.offer-actions .pill-btn{max-width:100%;white-space:normal;}}
+    /* Clear homepage hierarchy, shared by all three subjects. */
+    *{box-sizing:border-box;}
+    body{max-width:1160px;padding:0 24px 32px;}
+    body::before,body::after{display:none;}
+    a.pill-btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center;}
+    .pill-btn{min-height:40px;line-height:1.4;font-weight:600;box-shadow:none;}
+    .pill-btn.primary{background:#0b6e62;color:#fff;}
+    .pill-btn.light{background:var(--soft-panel);color:var(--fg);border:1px solid var(--border);}
+    .pill-btn:focus-visible,summary:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #38bdf8;outline-offset:3px;}
+    [hidden]{display:none!important;}
+    .site-header{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:22px 0 16px;text-align:left;}
+    .site-identity{display:flex;align-items:center;gap:12px;min-width:0;}
+    .site-identity .brand-icon{width:42px;height:42px;border-radius:12px;flex-shrink:0;font-size:14px;background:#0b6e62;box-shadow:none;}
+    .site-identity h1{font-size:20px;line-height:1.3;margin:0;}
+    .site-identity p{font-size:12px;color:var(--muted);margin:4px 0 0;}
+    #session-timer{padding:9px 12px;background:var(--soft-panel);color:var(--fg);border:1px solid var(--border);box-shadow:none;font-size:12px;white-space:nowrap;opacity:1;}
+    #session-remaining{font-weight:800;font-variant-numeric:tabular-nums;font-size:15px;margin-left:4px;}
+    #topbar{margin:0 0 22px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--card-bg);gap:12px;align-items:center;}
+    .nav-left{flex:1;gap:10px;min-width:0;}
+    #topbar{display:flex;flex-wrap:wrap;}
+    #welcome.member-login{display:flex;align-items:center;justify-content:flex-start;gap:14px;margin:0;padding:0;border:0;border-radius:0;background:transparent;text-align:left;}
+    .login-label{font-size:13px;font-weight:700;white-space:nowrap;}
+    .login-label small{display:block;font-size:11px;color:var(--muted);font-weight:400;margin-top:2px;}
+    #account-login{display:flex;gap:8px;flex-wrap:nowrap;}
+    #account-login input{width:138px;max-width:none;min-width:0;margin:0;height:40px;font-size:13px;}
+    #account-login button{white-space:nowrap;}
+    .study-settings{position:relative;text-align:left;font-size:13px;}
+    .study-settings>summary{cursor:pointer;padding:8px;color:var(--muted);list-style-position:inside;}
+    .study-settings[open]{flex-basis:100%;width:100%;}
+    .study-settings .nav-right{padding:12px 0 0;gap:10px;}
+    #topbar #wallet-display{display:none;}
+    .member-active #topbar #wallet-display{display:block;}
+    .member-note{display:none;color:var(--muted);font-size:13px;}
+    .member-active .member-note{display:inline;}
+    .access-offer{margin:0 0 28px;padding:0;border:1px solid var(--border);border-radius:18px;background:var(--card-bg);box-shadow:none;text-align:left;overflow:hidden;}
+    .offer-main{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;padding:30px;align-items:center;}
+    .offer-copy .eyebrow{font-size:12px;font-weight:700;color:#0b6e62;letter-spacing:1px;margin:0 0 12px;}
+    .offer-copy h2{font-size:clamp(26px,3vw,35px);line-height:1.4;margin:0 0 14px;letter-spacing:-.5px;}
+    .offer-copy>p:not(.eyebrow){font-size:14px;color:var(--muted);line-height:1.8;margin:0;max-width:460px;}
+    .access-benefits{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:18px 0 0;list-style:none;}
+    .access-benefits li{border:1px solid var(--border);padding:6px 10px;border-radius:7px;font-size:12px;background:var(--soft-panel);line-height:1.4;}
+    .trial-route{padding:22px;border:1px solid var(--border);border-radius:14px;background:var(--soft-panel);}
+    .trial-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+    .trial-heading h3{font-size:18px;margin:0;line-height:1.4;}
+    .trial-heading>span{font-size:11px;color:var(--muted);white-space:nowrap;}
+    .trial-steps{display:flex;gap:12px;flex-wrap:wrap;padding:0;margin:14px 0 18px;list-style:none;font-size:12px;color:var(--muted);}
+    .trial-steps b{display:inline-grid;place-items:center;width:19px;height:19px;border:1px solid var(--border);border-radius:50%;margin-right:4px;background:var(--card-bg);color:var(--fg);font-size:10px;}
+    .trial-start-row{display:grid;grid-template-columns:110px minmax(0,1fr);gap:10px;align-items:end;}
+    .trial-start-row label{display:flex;flex-direction:column;align-items:stretch;font-size:11px;color:var(--muted);gap:6px;}
+    #guided-form{margin:0;width:100%;height:44px;font-size:14px;border:1px solid var(--border);border-radius:9px;background:var(--input-bg);}
+    #guided-start{width:100%;height:44px;border-radius:9px;font-size:14px;}
+    #browse-papers{width:100%;margin-top:10px;background:transparent;color:var(--fg);border:1px solid var(--border);border-radius:9px;font-size:12px;}
+    #guided-status{font-size:12px;color:var(--muted);line-height:1.5;margin:12px 0 0;min-height:18px;}
+    .trial-clock-note{font-size:11px!important;color:var(--muted);margin:6px 0 0!important;}
+    .membership-strip{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 30px;border-top:1px solid var(--border);background:var(--soft-panel);}
+    .membership-strip h3{font-size:14px;margin:0 0 6px;}
+    .membership-strip p{font-size:12px;line-height:1.6;color:var(--muted);margin:0;max-width:600px;}
+    .membership-action{display:flex;align-items:center;gap:16px;flex-shrink:0;}
+    .access-price{margin:0;white-space:nowrap;font-size:23px;font-weight:800;line-height:1.2;}
+    .access-price small{display:block;font-size:11px;font-weight:400;color:var(--muted);margin-top:5px;}
+    #offer-contact{border-radius:9px;font-size:12px;padding:11px 14px;white-space:nowrap;background:var(--card-bg);border:1px solid var(--border);color:var(--fg);}
+    #menu{margin:0 0 24px;text-align:left;}
+    #menu>h2{font-size:20px;margin:0 0 8px;}
+    .menu-subtitle{font-size:12px;color:var(--muted);font-weight:400;margin-left:8px;}
+    .year-toolbar{gap:10px;margin:12px 0 16px;}
+    .year-toolbar p{font-size:12px;}
+    .year-action{padding:8px 10px;font-size:12px;}
+    .year-group{margin:10px 0;border-radius:12px;}
+    .year-summary{border-radius:12px;padding:15px 18px;}
+    .year-summary-title{font-size:19px;}
+    .year-content{padding:0 18px 16px;}
+    .year-content h3{font-size:16px;margin:22px 0 12px;}
+    .year-content .group{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:8px 0 16px;}
+    .year-content .group h4{grid-column:1/-1;margin:4px 0;font-size:13px;color:var(--muted);}
+    .year-content .pill{display:grid;grid-template-columns:auto 1fr;gap:8px;margin:0;padding:12px 14px;width:100%;min-width:0;border-radius:10px;text-align:left;line-height:1.4;}
+    .chapter-label{grid-column:1/-1;font-weight:600;overflow-wrap:anywhere;}
+    .year-content .chapter-count{justify-self:start;}
+    .year-content .chapter-progress{justify-self:end;max-width:100%;white-space:normal;font-size:11px;}
+    .practice-rules{padding:14px 16px;border:1px solid var(--border);border-radius:12px;font-size:12px;text-align:left;margin:20px 0;color:var(--muted);background:var(--card-bg);}
+    .practice-rules summary{cursor:pointer;font-weight:600;}
+    .practice-rules ul{padding-left:20px;line-height:1.7;}
+    .wa-fab{display:none;}
+    footer{font-size:12px;line-height:1.8;margin:26px 0 14px;color:var(--muted);}
+    .privacy-note{font-size:11px;color:var(--muted);}
+    .overlay{box-sizing:border-box;overflow-y:auto;}
+    .overlay-card{max-width:100%;}
+    body.theme-dark .offer-copy .eyebrow{color:#5eead4;}
+    @media(max-width:760px){
+      body{padding:0 14px 22px;}
+      .site-header{padding:16px 0 12px;gap:8px;}
+      .site-identity{gap:9px;}
+      .site-identity .brand-icon{width:36px;height:36px;border-radius:10px;font-size:12px;}
+      .site-identity h1{font-size:16px;}
+      .site-identity p{font-size:10px;}
+      #session-timer{padding:7px 8px;font-size:10px;}
+      #session-remaining{font-size:13px;}
+      #topbar{padding:12px;margin-bottom:16px;gap:8px;}
+      .nav-left{width:100%;flex-basis:100%;}
+      #welcome.member-login{width:100%;gap:8px;flex-direction:column;align-items:stretch;}
+      .login-label{font-size:12px;display:flex;align-items:center;gap:6px;}
+      .login-label small{margin:0;font-size:10px;}
+      #account-login{width:100%;gap:6px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;}
+      #account-login input{width:100%;font-size:12px;padding:8px;}
+      #account-login button{font-size:12px;padding:8px 10px;}
+      .study-settings>summary{font-size:11px;padding:3px 0;}
+      .offer-main{grid-template-columns:1fr;gap:20px;padding:20px;}
+      .offer-copy h2{font-size:27px;margin-bottom:10px;}
+      .offer-copy .eyebrow{margin-bottom:9px;font-size:11px;}
+      .offer-copy>p:not(.eyebrow){font-size:13px;}
+      .access-benefits{margin-top:12px;gap:6px;}
+      .access-benefits li{font-size:11px;padding:5px 8px;}
+      .trial-route{padding:16px;}
+      .trial-heading h3{font-size:17px;}
+      .trial-steps{gap:9px;font-size:11px;margin:12px 0 16px;}
+      .trial-start-row{grid-template-columns:96px minmax(0,1fr);gap:8px;}
+      .membership-strip{padding:17px 20px;align-items:stretch;flex-direction:column;gap:14px;}
+      .membership-action{justify-content:space-between;gap:10px;}
+      .access-price{font-size:22px;}
+      .access-offer{margin-bottom:24px;border-radius:14px;}
+      #menu>h2{font-size:19px;}
+      .menu-subtitle{display:block;margin:4px 0 0;}
+      .year-actions{gap:6px;}
+      .year-toolbar{align-items:flex-start;}
+      .year-content{padding:0 10px 10px;}
+      .year-content .group{grid-template-columns:1fr;gap:8px;}
+      .year-content .pill{padding:11px 12px;}
+      .year-summary{padding:13px 12px;gap:8px;}
+      .year-summary-title{font-size:18px;}
+      .year-summary-count,.year-summary-action{font-size:11px;}
+      #quiz,#finish,#results,#wrongbook{margin:14px 0;}
+      .question{padding:14px 12px;}
+    }
+    @media(max-width:360px){body{padding:0 10px 18px}.offer-main{padding:16px}.trial-route{padding:12px}.trial-start-row{grid-template-columns:84px minmax(0,1fr)}#guided-start{font-size:12px}.site-identity h1{font-size:14px}.site-identity p{font-size:9px}.membership-strip{padding:16px}.trial-steps{gap:6px;font-size:10px}}
+
   </style>
 </head>
 <body>
+  <header class="site-header">
+    <div class="site-identity"><div class="brand-icon" id="brand-icon">SC</div><div><h1 id="brand-title">SPM Science · Paper 1</h1><p>Mr Kee · Form 4 / Form 5</p></div></div>
+    <div id="session-timer">体验剩余 <span id="session-remaining">05:00</span></div>
+  </header>
   <div id="topbar">
     <div class="nav-left">
-      <button id="back-to-chapters-btn" class="pill-btn primary">🏠 回到章节选择 / Back to Chapters</button>
-      <div id="session-timer">免费体验剩余 / Free trial: <span id="session-remaining">05:00</span></div>
-      <div id="account-login">
-        <input type="text" id="username" placeholder="姓名 / Name" autocomplete="username" aria-label="姓名 / Name"/>
-        <input type="password" id="password" placeholder="密码 / Password" autocomplete="current-password" aria-label="密码 / Password"/>
-        <button id="startBtn" type="button" class="pill-btn">登入 / Log In</button>
+      <button id="back-to-chapters-btn" class="pill-btn primary">← 选择题库</button>
+      <div id="welcome" class="member-login">
+        <span class="login-label">已有账号登入 <small>Member login</small></span>
+        <div id="account-login"><input type="text" id="username" placeholder="账号 / Name" aria-label="姓名 / Name" autocomplete="username"><input type="password" id="password" placeholder="密码 / Password" aria-label="密码 / Password" autocomplete="current-password"><button id="startBtn" type="button" class="pill-btn">登入</button></div>
       </div>
-      <span id="account-status" class="muted" hidden></span>
+      <span id="account-status" class="muted" hidden></span><span class="member-note">已登入，可以选择章节开始练习。</span>
     </div>
-    <div class="nav-right">
+    <details id="study-tools" class="study-settings"><summary>学习工具与显示设置</summary><div class="nav-right">
       <label class="theme-select-wrap" title="更换背景颜色 / Change background color">
         🎨 背景
         <select id="theme-select">
@@ -569,61 +705,27 @@
       </button>
       <button id="my-results-btn" class="pill-btn light">📊 我的成绩 / My Results</button>
       <button id="wrongbook-btn" class="pill-btn light" style="display:none;">📘 错题本 / Wrong Book (0)</button>
-      <button id="sound-toggle" class="pill-btn" title="开关音效 / Toggle sound">🔊 音效已开 / Sound ON</button>
-    </div>
+      <button id="sound-toggle" class="pill-btn" title="开关音效 / Toggle sound">🔊 音效已开 / Sound ON</button></div></details>
   </div>
   <div id="confetti"></div>
 
   <section id="access-offer" class="access-offer" aria-labelledby="access-title">
-    <h2 id="access-title">SPM Science Paper 1：找出弱点，按章节练懂</h2>
-    <p>不用到处找试卷。选择F4或F5章节练习，提交答案后查看解释，再把错题练熟。</p>
-    <p class="access-price">单科 RM10／一个月</p>
-    <div class="offer-actions"><a id="offer-contact" class="pill-btn primary" href="https://wa.me/60167312519" target="_blank" rel="noopener">WhatsApp开通 · RM10／月</a></div>
-    <div class="trial-route">
-      <strong>第一次来？先用5分钟试试看</strong>
-      <p>选年级 → 练第一章10题 → 提交后看解释。体验从进入网站开始计时，不需要账号。</p>
-      <div class="offer-actions">
-        <label for="guided-form">我要练 <select id="guided-form"><option value="4">Form 4</option><option value="5">Form 5</option></select></label>
-        <button id="guided-start" type="button" class="pill-btn primary" disabled>开始10题体验</button>
-        <button id="browse-papers" type="button" class="pill-btn light">自己选择章节／州卷</button>
+    <div class="offer-main">
+      <div class="offer-copy"><p class="eyebrow">SPM备考 · 按自己的节奏练习</p><h2 id="access-title">按章节练习，<br>把错题练懂。</h2><p>F4／F5章节练习与州属试卷，配合中文＋英文解释。先找出不熟悉的内容，再集中练习。</p><ul class="access-benefits"><li>章节分类</li><li>州属试卷</li><li>双语解释</li><li>错题重练</li></ul></div>
+      <div class="trial-route">
+        <div class="trial-heading"><h3>免费体验5分钟</h3><span>无需账号</span></div>
+        <ol class="trial-steps"><li><b>1</b>选年级</li><li><b>2</b>练10题</li><li><b>3</b>看解释</li></ol>
+        <div class="trial-start-row"><label for="guided-form">选择年级<select id="guided-form"><option value="4">Form 4</option><option value="5">Form 5</option></select></label><button id="guided-start" type="button" class="pill-btn primary" disabled>开始10题体验 →</button></div>
+        <button id="browse-papers" type="button" class="pill-btn light">或自己选择章节／州卷</button>
+        <p id="guided-status" role="status" aria-live="polite">正在载入章节…</p><p class="trial-clock-note">从进入网站开始计时，倒计时显示在页面上方。</p>
       </div>
-      <p id="guided-status" role="status" aria-live="polite">正在载入章节…</p>
-      <p class="muted">已有账号？在页面上方登入，即可按账号有效期使用。</p>
     </div>
-    <ul class="access-benefits">
-      <li><strong>按章节补弱点</strong>F4／F5分类，集中练习不熟悉的内容。</li>
-      <li><strong>各州试卷实战</strong>使用网站内已收录的年份和州属Paper 1题库。</li>
-      <li><strong>看懂为什么</strong>提供中文＋英文解释，配合错题重练和学习记录。</li>
-    </ul>
-    <p>开通后，一个月内可不限次数使用本科网站已收录的题库、章节练习、错题本及成绩记录。联系Mr Kee付款后获取账号；使用期限以账号显示为准。</p>
-    <p class="muted">匿名使用统计仅记录操作步骤，不记录姓名、密码或作答内容。</p>
+    <div class="membership-strip"><div><h3>想继续练习？开通本科完整使用权限</h3><p>使用已收录题库、解释、错题本及成绩记录。联系Mr Kee付款后获取账号，有效期一个月。</p></div><div class="membership-action"><div class="access-price">RM10<small>单科 · 一个月</small></div><a id="offer-contact" class="pill-btn" href="https://wa.me/60167312519" target="_blank" rel="noopener">WhatsApp开通 ↗</a></div></div>
   </section>
 
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
 
-  <section class="hero">
-    <div class="brand">
-      <div class="brand-icon" id="brand-icon">SUB</div>
-      <div>
-        <h1 class="brand-title" id="brand-title">
-          SPM P1 超强训练器 / <b id="brand-boost">P1 Booster</b>
-        </h1>
-        <p class="brand-sub">
-          按章节精练 × 州属试卷实战 × 错题二次回刷 × 成绩自动上传  
-          Chapter drilling × State papers × Wrong questions repeat twice × Auto result upload
-        </p>
-        <div class="tag-row">
-          <span class="tag hot">Form 4 / Form 5</span>
-          <span class="tag hot">Chapter &amp; State Papers</span>
-          <span class="tag hot">Repeat wrong twice</span>
-          <span class="tag hot">Leaderboard Ready</span>
-          <span class="tag hot">Revive &amp; Shards System</span>
-        </div>
-      </div>
-    </div>
-    <details class="rules-box">
-      <summary><b>🎮 计分 &amp; 复活规则 Scoring &amp; Revive Rules</b></summary>
-      <ul>
+  <details class="practice-rules"><summary>计分与错题复习规则 / Practice rules</summary><ul>
 <li>第一次答对 First try correct：
   <b>+2 分 / +2 points ＋ 1 碎片 shard</b>
 </li>
@@ -644,11 +746,7 @@
         <li>每个章节最多使用 2 次复活卡。Max 2 revives per chapter.</li>
         <li>使用复活卡时：这题算作答对，但<b>不再额外送碎片或连对奖励</b>。  
             When a revive is used, this question counts as correct, but <b>no extra shards or combo bonus</b>.</li>
-      </ul>
-    </details>
-  </section>
-
-  <div id="welcome" style="display:none;"></div>
+      </ul></details>
 
   <div id="wrongbook" class="wrongbook-panel">
     <div class="wrongbook-head">
@@ -727,6 +825,7 @@
     💬 WhatsApp
   </a>
   <footer>
+    <p class="privacy-note">匿名使用统计仅记录操作步骤，不记录姓名、密码或作答内容。</p>
     如有任何疑问，请联系纪老师 016-7312519，或直接
     <a id="wa-link" href="https://wa.me/60167312519?text=Mr%20Kee%EF%BC%8C%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%88%91%E6%83%B3%E5%BC%80%E9%80%9A%20Science%20Paper%201%20%E7%BD%91%E7%AB%99%E7%9A%84%E4%B8%80%E4%B8%AA%E6%9C%88%E4%BD%BF%E7%94%A8%E6%9D%83%E9%99%90%EF%BC%8C%E8%B4%B9%E7%94%A8%20RM10%E3%80%82%E8%AF%B7%E9%97%AE%E5%A6%82%E4%BD%95%E4%BB%98%E6%AC%BE%EF%BC%9F" target="_blank" rel="noopener">
       一键打开 WhatsApp / Open WhatsApp
@@ -794,7 +893,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const [abbr, fullName] = SUBJECT_MAP[SUBJECT_PREFIX] || [SUBJECT_PREFIX, SUBJECT_PREFIX];
   document.getElementById('brand-icon').textContent = abbr;
   document.getElementById('brand-title').innerHTML =
-    `SPM ${abbr} Paper 1 超强训练器 / <b id="brand-boost">${abbr} P1 Booster</b>`;
+    `SPM ${fullName} · Paper 1`;
 
   const waUrl =
     `https://wa.me/60167312519?text=`+
@@ -1494,6 +1593,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   async function afterLogin(){
+    document.body.classList.toggle('member-active',!usedUniversal);
+    document.getElementById('study-tools').open=!usedUniversal;
     trackQuizStep('login_success');
     document.getElementById('access-offer').hidden=!usedUniversal;
     // Start the account session from the menu; guest quiz rewards stay separate.
@@ -1716,7 +1817,7 @@ document.addEventListener('DOMContentLoaded', () => {
     menu.querySelectorAll('.year-group').forEach(section=>{
       menuYearOpenState.set(Number(section.dataset.year),section.open);
     });
-    menu.innerHTML='<h2>请选择章节 / Select Chapter</h2>';
+    menu.innerHTML='<h2>选择练习内容 <span class="menu-subtitle">Chapters &amp; state papers</span></h2>';
 
     const years = Array.from(new Set(Object.keys(grouped)
       .map(getChapterYear)
@@ -1751,7 +1852,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const btn=document.createElement('button');
       btn.className='pill ' + getChapterTypeClass(chap);
       btn.dataset.chapter=chap;
-      btn.textContent=chap;
+      const chapterLabel=document.createElement('span');
+      chapterLabel.className='chapter-label';
+      chapterLabel.textContent=chap;
+      btn.appendChild(chapterLabel);
 
       const countBadge=document.createElement('span');
       countBadge.className='badge badge-gray chapter-count';
