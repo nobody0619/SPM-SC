@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>纪老师 SPM P1 超强训练器 / SPM P1 Booster</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <script src="analytics-config.js?v=20261023"></script>
   <style>
     :root{
       --black:#111; --fg:#111; --bg:#fff; --muted:#555;
@@ -516,6 +517,20 @@
     body.theme-dark img{ border-color:#475569; }
 
 
+
+    .access-offer{max-width:1100px;margin:18px auto;padding:24px;border:1px solid var(--border);border-radius:20px;background:var(--hero-bg);box-shadow:var(--shadow);}
+    .access-offer h2{margin:0 0 10px;font-size:clamp(23px,4vw,32px);line-height:1.35;}
+    .access-price{font-size:22px;font-weight:800;margin:12px 0;}
+    .access-benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0;padding:0;list-style:none;}
+    .access-benefits li{padding:14px;background:var(--soft-panel);border-radius:12px;line-height:1.6;}
+    .access-benefits strong{display:block;}
+    .trial-route{padding-top:16px;border-top:1px solid var(--border);}
+    .trial-route label{display:inline-flex;align-items:center;gap:8px;}
+    .offer-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0;}
+    .offer-actions select{padding:10px;border-radius:9px;background:var(--input-bg);color:var(--fg);border:1px solid var(--border);}
+    .guided-note{padding:12px;background:var(--soft-panel);border-radius:12px;line-height:1.6;}
+    .access-offer p{line-height:1.65;}
+    @media(max-width:640px){.access-offer{padding:18px 14px;margin:12px 0}.access-benefits{grid-template-columns:1fr}.offer-actions .pill-btn{max-width:100%;white-space:normal;}}
   </style>
 </head>
 <body>
@@ -558,6 +573,31 @@
     </div>
   </div>
   <div id="confetti"></div>
+
+  <section id="access-offer" class="access-offer" aria-labelledby="access-title">
+    <h2 id="access-title">SPM Science Paper 1：找出弱点，按章节练懂</h2>
+    <p>不用到处找试卷。选择F4或F5章节练习，提交答案后查看解释，再把错题练熟。</p>
+    <p class="access-price">单科 RM10／一个月</p>
+    <div class="offer-actions"><a id="offer-contact" class="pill-btn primary" href="https://wa.me/60167312519" target="_blank" rel="noopener">WhatsApp开通 · RM10／月</a></div>
+    <div class="trial-route">
+      <strong>第一次来？先用5分钟试试看</strong>
+      <p>选年级 → 练第一章10题 → 提交后看解释。体验从进入网站开始计时，不需要账号。</p>
+      <div class="offer-actions">
+        <label for="guided-form">我要练 <select id="guided-form"><option value="4">Form 4</option><option value="5">Form 5</option></select></label>
+        <button id="guided-start" type="button" class="pill-btn primary" disabled>开始10题体验</button>
+        <button id="browse-papers" type="button" class="pill-btn light">自己选择章节／州卷</button>
+      </div>
+      <p id="guided-status" role="status" aria-live="polite">正在载入章节…</p>
+      <p class="muted">已有账号？在页面上方登入，即可按账号有效期使用。</p>
+    </div>
+    <ul class="access-benefits">
+      <li><strong>按章节补弱点</strong>F4／F5分类，集中练习不熟悉的内容。</li>
+      <li><strong>各州试卷实战</strong>使用网站内已收录的年份和州属Paper 1题库。</li>
+      <li><strong>看懂为什么</strong>提供中文＋英文解释，配合错题重练和学习记录。</li>
+    </ul>
+    <p>开通后，一个月内可不限次数使用本科网站已收录的题库、章节练习、错题本及成绩记录。联系Mr Kee付款后获取账号；使用期限以账号显示为准。</p>
+    <p class="muted">匿名使用统计仅记录操作步骤，不记录姓名、密码或作答内容。</p>
+  </section>
 
   <div id="menu"><h2>请选择章节 / Select Chapter</h2></div>
 
@@ -638,7 +678,7 @@
   <div id="trial-expired" class="overlay" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="trial-expired-title">
     <div class="overlay-card">
       <h2 id="trial-expired-title">5 分钟免费体验已结束 / Free trial ended</h2>
-      <p>想无限使用全部题目，请联系纪老师开通账号。<br/>For unlimited access, contact Mr Kee to activate an account.</p>
+      <p>本科网站一个月RM10，开通后可在有效期内不限次数练习。<br>想无限使用全部题目，请联系纪老师开通账号。<br/>For unlimited access, contact Mr Kee to activate an account.</p>
       <div class="mode-actions">
         <a id="trial-contact" class="pill-btn primary" href="https://wa.me/60167312519?text=Mr%20Kee%EF%BC%8C%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%88%91%E6%83%B3%E5%BC%80%E9%80%9A%20Science%20Paper%201%20%E7%BD%91%E7%AB%99%E7%9A%84%E4%B8%80%E4%B8%AA%E6%9C%88%E4%BD%BF%E7%94%A8%E6%9D%83%E9%99%90%EF%BC%8C%E8%B4%B9%E7%94%A8%20RM10%E3%80%82%E8%AF%B7%E9%97%AE%E5%A6%82%E4%BD%95%E4%BB%98%E6%AC%BE%EF%BC%9F" target="_blank" rel="noopener">💬 WhatsApp 联系开通 / Contact</a>
         <button id="trial-login" class="pill-btn light" type="button">已有账号，登入 / Log in</button>
@@ -648,6 +688,7 @@
 
   <div id="quiz">
     <h3 id="quiz-title"></h3>
+    <p id="guided-practice-note" class="guided-note" hidden></p>
     <div id="score">得分 Score: 0</div>
     <div id="remaining">剩余题目 Remaining: 0</div>
     <div id="streak"></div>
@@ -660,6 +701,7 @@
   <div id="finish">
     <h3 id="finish-msg"></h3>
     <p id="stats"></p>
+    <p id="finish-offer" class="guided-note" hidden>想继续按章节练习？本科网站一个月RM10。<br><a id="finish-contact" class="pill-btn primary" href="https://wa.me/60167312519" target="_blank" rel="noopener">WhatsApp联系Mr Kee开通</a></p>
     <div id="controls"></div>
   </div>
 
@@ -763,6 +805,90 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== 登录/会话（访客直接试用5分钟） ===== */
   let user = '', usedUniversal = false;
+  /* Anonymous conversion steps; never include names, passwords or answers. */
+  const funnelSeen = new Set();
+  let funnelStage = 'site_visit';
+  const analyticsId = String(window.KEE_GA4_ID || '').trim();
+  const analyticsEnabled = /^G-[A-Z0-9]+$/.test(analyticsId);
+  window.dataLayer = window.dataLayer || [];
+  function quizGtag(){ window.dataLayer.push(arguments); }
+  if(analyticsEnabled){
+    quizGtag('js', new Date());
+    quizGtag('config', analyticsId, {
+      page_location: location.origin + location.pathname,
+      page_title: 'SPM ' + SUBJECT_PREFIX + ' Paper 1',
+      page_referrer: document.referrer ? new URL(document.referrer).origin : '',
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      send_page_view: true
+    });
+    const tag=document.createElement('script');
+    tag.async=true;
+    tag.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(analyticsId);
+    document.head.appendChild(tag);
+  }
+  function trackQuizStep(event, extra={}, once=false){
+    if(once && funnelSeen.has(event)) return;
+    funnelSeen.add(event);
+    if(event!=='visit_end') funnelStage=event;
+    const params={subject:SUBJECT_PREFIX, audience:usedUniversal?'guest':'member', ...extra};
+    // Short-lived browser diagnostics only. Central reports require a GA4 ID.
+    try{
+      const key='kee_funnel_'+SUBJECT_PREFIX;
+      const entries=JSON.parse(sessionStorage.getItem(key)||'[]');
+      entries.push({event, ...params});
+      sessionStorage.setItem(key,JSON.stringify(entries.slice(-100)));
+    }catch{}
+    if(analyticsEnabled) quizGtag('event',event,{...params,transport_type:'beacon'});
+  }
+  window.addEventListener('pagehide',()=>trackQuizStep('visit_end',{last_step:funnelStage}));
+  document.addEventListener('click',e=>{
+    const link=e.target.closest('a[href]');
+    if(link && /^https:\/\/wa\.me\//.test(link.href)){
+      trackQuizStep('contact_click',{entry_point:link.id||'contact'});
+    }
+  },true);
+  let guidedRequested=false;
+  let guidedActive=false;
+  function resetGuidedRequest(){
+    guidedRequested=false;
+    document.getElementById('guided-start').disabled=false;
+  }
+  document.getElementById('guided-start').onclick=async()=>{
+    if(guidedRequested || chapterStartPending) return;
+    if(usedUniversal && universalRemainingMs()<=0){showTrialExpired();return;}
+    const button=document.getElementById('guided-start');
+    const status=document.getElementById('guided-status');
+    const form=document.getElementById('guided-form').value;
+    const candidates=Object.keys(grouped).filter(chap=>{
+      const row=grouped[chap][0];
+      return String(row.group||'').toLowerCase()==='chapter' &&
+        new RegExp('F'+form+'\\b','i').test(chap);
+    }).sort((a,b)=>{
+      const year=c=>Number(grouped[c][0].displayYear)||getChapterYear(c)||0;
+      const bab=c=>Number((c.match(/(?:Bab|Chp|Chapter)\s*(\d+)/i)||[])[1])||999;
+      return year(b)-year(a) || bab(a)-bab(b) || a.localeCompare(b);
+    });
+    if(!candidates.length){status.textContent='章节仍在载入，请稍后再试。';return;}
+    guidedRequested=true;button.disabled=true;
+    status.textContent='正在准备 '+candidates[0]+' 的10题练习…';
+    trackQuizStep('guided_trial_click',{form:'F'+form});
+    try{await startChapter(candidates[0]);}catch{
+      resetGuidedRequest();status.textContent='暂时无法开始，请稍后重试。';
+    }
+  };
+  document.getElementById('browse-papers').onclick=()=>{
+    trackQuizStep('browse_papers');
+    document.getElementById('menu').scrollIntoView({behavior:'smooth',block:'start'});
+  };
+  document.getElementById('offer-contact').href=waUrl;
+  document.getElementById('finish-contact').href=waUrl;
+  function updateGuidedNote(){
+    const note=document.getElementById('guided-practice-note');
+    note.hidden=!guidedActive;
+    note.textContent='体验路线：先答题 → 提交后看解释 → 练习错题。5分钟倒计时照常继续。';
+  }
+
   const UWP_WINDOW_MS = 5 * 60 * 1000;
   const AUTO_TRIAL_KEY='kee_quiz_auto_trial_start';
   function setUniversalStart(ts){ localStorage.setItem(AUTO_TRIAL_KEY, String(ts)); }
@@ -784,6 +910,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('finish').style.display='none';
     document.getElementById('results').style.display='none';
     document.getElementById('menu').style.display='block';
+    trackQuizStep('trial_expired',{},true);
     document.getElementById('trial-expired').style.display='flex';
   }
   function updateSessionTimer(){
@@ -1036,6 +1163,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   function backToMenu(){
+    document.getElementById('access-offer').hidden=!usedUniversal;
     document.getElementById('results').style.display='none';
     document.getElementById('quiz').style.display='none';
     document.getElementById('finish').style.display='none';
@@ -1366,6 +1494,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   async function afterLogin(){
+    trackQuizStep('login_success');
+    document.getElementById('access-offer').hidden=!usedUniversal;
     // Start the account session from the menu; guest quiz rewards stay separate.
     sessionShardDelta=0;
     sessionReviveDelta=0;
@@ -1513,6 +1643,8 @@ document.addEventListener('DOMContentLoaded', () => {
           (grouped[c]||(grouped[c]=[])).push(r);
         });
         renderMenu();
+        document.getElementById('guided-start').disabled=false;
+        document.getElementById('guided-status').textContent='准备好了，选年级后即可开始。';
       }
     });
   }
@@ -1781,6 +1913,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   function openModePicker(total){
+    if(guidedRequested){
+      resetGuidedRequest();
+      guidedActive=true;
+      document.getElementById('guided-status').textContent='10题已准备好，提交后记得看解释。';
+      chooseQuestionMode(Math.min(10,total));
+      document.getElementById('quiz').scrollIntoView({behavior:'smooth',block:'start'});
+      return;
+    }
+    guidedActive=false;
     const overlay = document.getElementById('mode-picker');
     const actions = document.getElementById('mode-picker-actions');
     document.getElementById('mode-picker-title').textContent = currentChapter;
@@ -1815,6 +1956,9 @@ document.addEventListener('DOMContentLoaded', () => {
       selected = shuffle([...qs]).slice(0, Math.min(Number(count), qs.length));
     }
     activeQuestionTotal = selected.length;
+    trackQuizStep('quiz_started',{practice_mode:guidedActive?'guided':'free', question_count:selected.length});
+    document.getElementById('access-offer').hidden=true;
+    updateGuidedNote();
     qs = selected.map(q=> ({...q, attempt:0}));
     queue = shuffle([...qs]);
     document.getElementById('quiz-title').textContent =
@@ -1845,6 +1989,9 @@ document.addEventListener('DOMContentLoaded', () => {
     Promise.all(tasks).then(list=>{
       const allRows=list.flat();
       if(!allRows.length){
+        resetGuidedRequest();
+        document.getElementById('guided-status').textContent='题库暂时无法读取，请稍后重试或自由选其他章节。';
+        trackQuizStep('quiz_load_error');
         alert('无法读取题库 CSV，请检查链接与访问权限。\nCannot load question CSV.');
         renderMenu(); return;
       }
@@ -2040,6 +2187,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
+      trackQuizStep('first_answer',{},true);
       let isC=false;
       const ansStr=(q.answer||'').toString();
       if(qType==='text'){
@@ -2142,6 +2290,7 @@ Do you want to use 1 revive to count this question as correct?`;
       if(explanationText){
         explanationEl.textContent=explanationText;
         explanationEl.hidden=false;
+        trackQuizStep('explanation_viewed',{},true);
       }
 
       updateUI(delta);
@@ -2186,6 +2335,8 @@ if (!isC && !usedRevive) {
   }
 
   function finishChapter(){
+    trackQuizStep('quiz_completed',{practice_mode:guidedActive?'guided':'free'});
+    document.getElementById('finish-offer').hidden=!usedUniversal;
     document.getElementById('quiz').style.display='none';
     document.getElementById('finish').style.display='block';
 
@@ -2346,6 +2497,7 @@ if (!isC && !usedRevive) {
   const previousTrialStart=getUniversalStart();
   if(!previousTrialStart || previousTrialStart>Date.now()) setUniversalStart(Date.now());
   usedUniversal=true;
+  trackQuizStep('site_visit',{},true);
   updateSessionTimer();
   document.getElementById('menu').innerHTML='<h2>正在载入章节 / Loading chapters…</h2>';
   document.getElementById('menu').style.display='block';
