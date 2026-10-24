@@ -713,11 +713,11 @@
     <div class="offer-main">
       <div class="offer-copy"><p class="eyebrow">SPM备考 · 按自己的节奏练习</p><h2 id="access-title">按章节练习，<br>把错题练懂。</h2><p>F4／F5章节练习与州属试卷，配合中文＋英文解释。先找出不熟悉的内容，再集中练习。</p><ul class="access-benefits"><li>章节分类</li><li>州属试卷</li><li>双语解释</li><li>错题重练</li></ul></div>
       <div class="trial-route">
-        <div class="trial-heading"><h3>免费体验5分钟</h3><span>无需账号</span></div>
+        <div class="trial-heading"><h3>每天免费体验5分钟</h3><span>无需账号</span></div>
         <ol class="trial-steps"><li><b>1</b>选年级</li><li><b>2</b>练10题</li><li><b>3</b>看解释</li></ol>
         <div class="trial-start-row"><label for="guided-form">选择年级<select id="guided-form"><option value="4">Form 4</option><option value="5">Form 5</option></select></label><button id="guided-start" type="button" class="pill-btn primary" disabled>开始10题体验 →</button></div>
         <button id="browse-papers" type="button" class="pill-btn light">或自己选择章节／州卷</button>
-        <p id="guided-status" role="status" aria-live="polite">正在载入章节…</p><p class="trial-clock-note">从进入网站开始计时，倒计时显示在页面上方。</p>
+        <p id="guided-status" role="status" aria-live="polite">正在载入章节…</p><p class="trial-clock-note">每天首次进入网站开始计时，马来西亚时间午夜重置。</p>
       </div>
     </div>
     <div class="membership-strip"><div><h3>想继续练习？开通本科完整使用权限</h3><p>使用已收录题库、解释、错题本及成绩记录。联系Mr Kee付款后获取账号，有效期一个月。</p></div><div class="membership-action"><div class="access-price">RM10<small>单科 · 一个月</small></div><a id="offer-contact" class="pill-btn" href="https://wa.me/60167312519" target="_blank" rel="noopener">WhatsApp开通 ↗</a></div></div>
@@ -775,7 +775,8 @@
 
   <div id="trial-expired" class="overlay" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="trial-expired-title">
     <div class="overlay-card">
-      <h2 id="trial-expired-title">5 分钟免费体验已结束 / Free trial ended</h2>
+      <h2 id="trial-expired-title">今天的5分钟体验已用完 / Daily trial ended</h2>
+      <p>每天可免费体验5分钟，马来西亚时间午夜重置。明天欢迎再来练习！<br>Enjoy 5 free minutes daily. Resets at midnight Malaysia time.</p>
       <p>本科网站一个月RM10，开通后可在有效期内不限次数练习。<br>想无限使用全部题目，请联系纪老师开通账号。<br/>For unlimited access, contact Mr Kee to activate an account.</p>
       <div class="mode-actions">
         <a id="trial-contact" class="pill-btn primary" href="https://wa.me/60167312519?text=Mr%20Kee%EF%BC%8C%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%88%91%E6%83%B3%E5%BC%80%E9%80%9A%20Science%20Paper%201%20%E7%BD%91%E7%AB%99%E7%9A%84%E4%B8%80%E4%B8%AA%E6%9C%88%E4%BD%BF%E7%94%A8%E6%9D%83%E9%99%90%EF%BC%8C%E8%B4%B9%E7%94%A8%20RM10%E3%80%82%E8%AF%B7%E9%97%AE%E5%A6%82%E4%BD%95%E4%BB%98%E6%AC%BE%EF%BC%9F" target="_blank" rel="noopener">💬 WhatsApp 联系开通 / Contact</a>
@@ -991,7 +992,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const UWP_WINDOW_MS = 5 * 60 * 1000;
   const AUTO_TRIAL_KEY='kee_quiz_auto_trial_start';
   function setUniversalStart(ts){ localStorage.setItem(AUTO_TRIAL_KEY, String(ts)); }
-  function getUniversalStart(){ const v=localStorage.getItem(AUTO_TRIAL_KEY); return v? Number(v):0; }
+  // Calendar days follow Malaysia time, independent of the device timezone.
+  function trialDay(ts){ return new Date(ts + 8 * 60 * 60 * 1000).toISOString().slice(0,10); }
+  function getUniversalStart(){
+    const now=Date.now();
+    const start=Number(localStorage.getItem(AUTO_TRIAL_KEY));
+    if(!Number.isFinite(start) || start<=0 || start>now || trialDay(start)!==trialDay(now)){
+      setUniversalStart(now);
+      return now;
+    }
+    return start;
+  }
   function universalRemainingMs(){
     const s=getUniversalStart(); if(!s) return 0;
     const r=UWP_WINDOW_MS-(Date.now()-s); return r>0?r:0;
@@ -1022,6 +1033,7 @@ document.addEventListener('DOMContentLoaded', () => {
       updateWalletUI();
       return;
     }
+    document.getElementById('trial-expired').style.display='none';
     const wholeSeconds=Math.ceil(rem/1000);
     const mm=Math.floor(wholeSeconds/60);
     const ss=(wholeSeconds%60).toString().padStart(2,'0');
