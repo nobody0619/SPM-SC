@@ -543,6 +543,8 @@
     [hidden]{display:none!important;}
     .site-header{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:22px 0 16px;text-align:left;}
     .site-identity{display:flex;align-items:center;gap:12px;min-width:0;}
+    .site-home{appearance:none;border:0;background:transparent;color:inherit;padding:0;text-align:left;cursor:pointer;}
+    .site-home:hover{opacity:.82;}
     .site-identity .brand-icon{width:42px;height:42px;border-radius:12px;flex-shrink:0;font-size:14px;background:#0b6e62;box-shadow:none;}
     .site-identity h1{font-size:20px;line-height:1.3;margin:0;}
     .site-identity p{font-size:12px;color:var(--muted);margin:4px 0 0;}
@@ -669,7 +671,7 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="site-identity"><div class="brand-icon" id="brand-icon">SC</div><div><h1 id="brand-title">SPM Science · Paper 1</h1><p>Mr Kee · Form 4 / Form 5</p></div></div>
+    <button id="site-home" class="site-identity site-home" type="button" aria-label="返回题库首页"><div class="brand-icon" id="brand-icon">SC</div><span><h1 id="brand-title">SPM Science · Paper 1</h1><p>Mr Kee · Form 4 / Form 5</p></span></button>
     <div id="session-timer">体验剩余 <span id="session-remaining">05:00</span></div>
   </header>
   <div id="topbar">
@@ -905,6 +907,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== 登录/会话（访客直接试用5分钟） ===== */
   let user = '', usedUniversal = false;
+  let accountTrialUntil = 0;
   /* Anonymous conversion steps; never include names, passwords or answers. */
   const funnelSeen = new Set();
   let funnelStage = 'site_visit';
@@ -1004,6 +1007,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return start;
   }
   function universalRemainingMs(){
+    if(accountTrialUntil) return Math.max(0,accountTrialUntil-Date.now());
     const s=getUniversalStart(); if(!s) return 0;
     const r=UWP_WINDOW_MS-(Date.now()-s); return r>0?r:0;
   }
@@ -1013,6 +1017,12 @@ document.addEventListener('DOMContentLoaded', () => {
   let trialLoginPending=false;
   function showTrialExpired(force=false){
     if(!usedUniversal) return;
+    if(accountTrialUntil){
+      const title=document.getElementById('trial-expired-title');
+      title.textContent='限时通行已结束 / Temporary pass expired';
+      const note=title.nextElementSibling;
+      if(note) note.innerHTML='此通行码的使用时间已结束。如需继续练习，请联系纪老师。<br>This access code has expired. Contact Mr Kee to continue.';
+    }
     if(trialLoginPending && !force) return;
     trialLoginPending=false;
     document.getElementById('mode-picker').style.display='none';
@@ -1268,6 +1278,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('hide-wrongbook-btn').onclick = () => { document.getElementById('wrongbook').style.display='none'; };
   document.getElementById('back-to-menu').onclick = backToMenu;
   document.getElementById('back-to-chapters-btn').onclick = backToMenu;
+  document.getElementById('site-home').onclick = backToMenu;
   document.getElementById('mode-picker-cancel').onclick = () => {
     document.getElementById('mode-picker').style.display='none';
     document.getElementById('menu').style.display='block';
@@ -1539,17 +1550,19 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
       if(result.trial){
+        usedUniversal = true;
+        accountTrialUntil = Number(result.trialUntil || 0);
         if(universalRemainingMs() <= 0){
           showTrialExpired(true);
           return;
         }
-        usedUniversal = true;
         accountExpiryRaw = '';
         accountExpiryDate = null;
         accountExpiryLabel = '试用账号 / Trial';
         updateSessionTimer();
       } else {
         usedUniversal = false;
+        accountTrialUntil = 0;
         showSessionTimer(false);
         accountExpiryRaw = result.expires || '';
         accountExpiryDate = parseExpiryDate(accountExpiryRaw);
@@ -1680,6 +1693,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function guardUniversalWindowOrThrow(){
     if(!usedUniversal) return;
+    if(accountTrialUntil){
+      const title=document.getElementById('trial-expired-title');
+      title.textContent='限时通行已结束 / Temporary pass expired';
+      const note=title.nextElementSibling;
+      if(note) note.innerHTML='此通行码的使用时间已结束。如需继续练习，请联系纪老师。<br>This access code has expired. Contact Mr Kee to continue.';
+    }
     if(universalRemainingMs()<=0){
       showTrialExpired(true);
       throw new Error('Trial expired');
@@ -2622,3 +2641,6 @@ if (!isC && !usedRevive) {
 </script>
 </body>
 </html>
+
+
+
