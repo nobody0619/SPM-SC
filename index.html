@@ -1546,7 +1546,7 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const result = await verifyLoginWithServer(nm, pw);
       if(!result.ok){
-        alert(result.expired ? '账号已过期 / Account expired.' : (result.message || '姓名或密码不正确 / Name or password incorrect.'));
+        alert(result.message || (result.expired ? '账号已过期 / Account expired.' : '姓名或密码不正确 / Name or password incorrect.'));
         return;
       }
       if(result.trial){
@@ -1598,7 +1598,7 @@ document.addEventListener('DOMContentLoaded', () => {
       form.action = SCRIPT_URL;
       form.target = frameName;
       form.style.display = 'none';
-      const fields = { action: 'auth_login', name, password, nonce };
+      const fields = { action: 'auth_login', name, password, nonce, deviceId: getTrialDeviceId() };
       for(const [key, value] of Object.entries(fields)){
         const input = document.createElement('input');
         input.type = 'hidden'; input.name = key; input.value = value;
@@ -1614,6 +1614,20 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.append(frame, form);
       form.submit();
     });
+  }
+
+  function getTrialDeviceId(){
+    const key='kee_quiz_trial_device_v1';
+    try {
+      let id=localStorage.getItem(key) || '';
+      if(!/^[a-f0-9]{32}$/i.test(id)){
+        id=Array.from(crypto.getRandomValues(new Uint8Array(16)), b => b.toString(16).padStart(2, '0')).join('');
+        localStorage.setItem(key,id);
+      }
+      return id;
+    } catch(err) {
+      return '';
+    }
   }
 
 
