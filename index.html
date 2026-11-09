@@ -683,6 +683,7 @@
       </div>
       <span id="account-status" class="muted" hidden></span><span class="member-note">已登入，可以选择章节开始练习。</span>
     </div>
+    <button id="sound-toggle" class="pill-btn" title="开关音效 / Toggle sound">🔊 音效已开 / Sound ON</button>
     <details id="study-tools" class="study-settings"><summary>学习工具与显示设置</summary><div class="nav-right">
       <label class="theme-select-wrap" title="更换背景颜色 / Change background color">
         🎨 背景
@@ -707,7 +708,7 @@
       </button>
       <button id="my-results-btn" class="pill-btn light">📊 我的成绩 / My Results</button>
       <button id="wrongbook-btn" class="pill-btn light" style="display:none;">📘 错题本 / Wrong Book (0)</button>
-      <button id="sound-toggle" class="pill-btn" title="开关音效 / Toggle sound">🔊 音效已开 / Sound ON</button></div></details>
+      </div></details>
   </div>
   <div id="confetti"></div>
 
@@ -1061,12 +1062,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== 音效 ===== */
   let audioOn = true, audioCtx;
+  try { audioOn = localStorage.getItem('kee_quiz_sound') !== 'off'; } catch (_) {}
   const sndBtn = document.getElementById('sound-toggle');
+  function updateSoundButton(){
+    sndBtn.classList.toggle('muted', !audioOn);
+    sndBtn.setAttribute('aria-pressed', String(!audioOn));
+    sndBtn.textContent = audioOn ? '🔊 静音 / Mute' : '🔇 开启声音 / Sound on';
+  }
   sndBtn.onclick = () => {
     audioOn = !audioOn;
-    sndBtn.classList.toggle('muted', !audioOn);
-    sndBtn.textContent = audioOn ? '🔊 音效已开 / Sound ON' : '🔈 音效已关 / Sound OFF';
+    try { localStorage.setItem('kee_quiz_sound', audioOn ? 'on' : 'off'); } catch (_) {}
+    updateSoundButton();
   };
+  updateSoundButton();
   function ensureCtx(){ if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
   function beep(freq=880, dur=0.14, type='sine', gain=0.06){
     if(!audioOn) return;
