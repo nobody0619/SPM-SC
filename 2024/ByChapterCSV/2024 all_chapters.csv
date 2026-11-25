@@ -307,7 +307,7 @@ F4 Chp 5,radio,Melaka2024_Q06,A,B,C,D,C,Melaka 2024/Picture6.png,"中文：血�
 English: Blood groups have distinct categories A, B, AB and O without intermediate groups, so they are discontinuous variation."
 F4 Chp 5,radio,NegeriSembilan2024_Q06,A,B,C,D,C,Negeri Sembilan 2024/Picture6.png,"中文：唐氏综合征多一条 21 号常染色体，男性体细胞为 45 条常染色体 + XY，共 47 条。
 English: Down syndrome has an extra chromosome 21; a male body cell has 45 autosomes + XY, totalling 47 chromosomes."
-F4 Chp 5,radio,Kedah2024_Q07,A,B,C,D,D,Kedah 2024/Picture7.png,"中文：图中植物油用于制造生物柴油；动物脂肪同样含油脂，可作为替代原料。
+F4 Chp 4,radio,Kedah2024_Q07,A,B,C,D,D,Kedah 2024/Picture7.png,"中文：图中植物油用于制造生物柴油；动物脂肪同样含油脂，可作为替代原料。
 English: Vegetable oil is used to make biodiesel; animal fat also contains fats and can serve as an alternative feedstock."
 F4 Chp 5,radio,NegeriSembilan2024_Q07,A,B,C,D,B,Negeri Sembilan 2024/Picture7.png,"中文：原答案 B 指核型分析检查胎儿染色体异常。须注意血友病是基因突变，单靠核型不能确定血友病；题目把一般染色体检查与该疾病混用。
 English: The key B refers to karyotyping for fetal chromosome abnormalities. Haemophilia is a gene mutation, so karyotyping alone cannot determine haemophilia; the question mixes general chromosome testing with this condition."
@@ -513,8 +513,6 @@ F4 Chp 9,radio,SelangorSet22024_Q16,A,B,C,D,D,Selangor Set 2 2024/Picture16.png,
 English: Brass is an alloy of copper and zinc; iron, copper and antimony are elements."
 F4 Chp 9,radio,NegeriSembilan2024_Q17,A,B,C,D,A,Negeri Sembilan 2024/Picture17.png,"中文：在题目的酸碱中和模型中，醋呈酸性，可中和碱性刺液。
 English: In the question's acid–base model, acidic vinegar neutralises the alkaline sting substance."
-F4 Chp 9,radio,NegeriSembilan2024_Q17,A,B,C,D,A,Negeri Sembilan 2024/Picture17.png,"中文：在题目的酸碱中和模型中，醋呈酸性，可中和碱性刺液。
-English: In the question's acid–base model, acidic vinegar neutralises the alkaline sting substance."
 F4 Chp 9,radio,Perak2024_Q17,A,B,C,D,D,Perak 2024/Picture17.png,"中文：陶瓷主要原料是黏土，含铝硅酸盐，因此选 D。
 English: Ceramics are mainly made from clay containing aluminium silicate, so D is correct."
 F4 Chp 9,radio,Kelantan2024_Q18,A,B,C,D,B,Kelantan 2024/Picture18.png,"中文：按答案及实验室用玻璃概念，硼硅玻璃能耐热和耐化学侵蚀，常用于实验器材。
@@ -643,7 +641,7 @@ F5 Chp 2,radio,Smka2024_Q27,A,B,C,D,B,SMKA 2024/Picture27.png,"中文：B 的甜
 English: B shows sugary desserts, doughnuts and chocolate; prolonged excessive intake increases obesity and diabetes risk, matching the question's dietary focus."
 F5 Chp 2,radio,Kedah2024_Q28,A,B,C,D,D,Kedah 2024/Picture28.png,"中文：图示营养液循环的水耕系统，营养液可重复利用，因此减少肥料浪费。
 English: The hydroponic system recirculates nutrient solution, reducing fertiliser wastage."
-F5 Chp 2,radio,Kelantan2024_Q28,A,B,C,D,A,Kelantan 2024/Picture28.png,"中文：过量肥料流入水体带来硝酸盐和磷酸盐，促进藻类大量繁殖，造成富营养化。
+F5 Chp 3,radio,Kelantan2024_Q28,A,B,C,D,A,Kelantan 2024/Picture28.png,"中文：过量肥料流入水体带来硝酸盐和磷酸盐，促进藻类大量繁殖，造成富营养化。
 English: Excess fertiliser supplies nitrates and phosphates to water, causing algal blooms and eutrophication."
 F5 Chp 2,radio,KelantanYik2024_Q28,A,B,C,D,B,Kelantan YIK 2024/Picture28.png,"中文：原答案 B 写亚硝酸盐转成铵，但图中 J 箭头实际由铵指向亚硝酸盐，是硝化作用，之后形成硝酸盐。B 方向颠倒；A 增加土壤硝酸盐较符合其整体作用。
 English: The key B says nitrite becomes ammonium, but arrow J shows ammonium becoming nitrite during nitrification, followed by nitrate formation. B reverses the process; A better describes its overall contribution to soil nitrate."
@@ -693,9 +691,9 @@ F5 Chp 3,radio,PenangSet22024_Q29,A,B,C,D,B,Penang Set 2 2024/Picture29.png,"中
 English: Five stars indicate high energy efficiency: the appliance uses less electricity to provide the same function."
 F5 Chp 3,radio,Perak2024_Q29,A,B,C,D,B,Perak 2024/Picture29.png,"中文：把饮料罐升级再造成其他有用途的产品，可减少废弃物和污染。
 English: Upcycling drink cans into other useful products reduces waste and pollution."
-F5 Chp 3,radio,SelangorSet12024_Q29,A,B,C,D,B,Selangor Set 1 2024/Picture29.png,"中文：植物利用光能把二氧化碳和水转变为葡萄糖和氧气，这是光合作用。
+F5 Chp 4,radio,SelangorSet12024_Q29,A,B,C,D,B,Selangor Set 1 2024/Picture29.png,"中文：植物利用光能把二氧化碳和水转变为葡萄糖和氧气，这是光合作用。
 English: Plants use light energy to convert carbon dioxide and water into glucose and oxygen; this is photosynthesis."
-F5 Chp 3,radio,SelangorSet22024_Q29,A,B,C,D,B,Selangor Set 2 2024/Picture29.png,"中文：节庆烟花是快速燃烧反应，在短时间释放热和光。
+F5 Chp 4,radio,SelangorSet22024_Q29,A,B,C,D,B,Selangor Set 2 2024/Picture29.png,"中文：节庆烟花是快速燃烧反应，在短时间释放热和光。
 English: Festival fireworks involve rapid combustion, releasing heat and light in a short time."
 F5 Chp 3,radio,Kedah2024_Q30,A,B,C,D,C,Kedah 2024/Picture30.png,"中文：污染水含较多可分解废物，微生物消耗更多氧气，所以生化需氧量 BOD 较高。
 English: Polluted water contains more decomposable waste, so microorganisms consume more oxygen and the BOD is higher."
