@@ -167,7 +167,7 @@ F4 Chp 4,radio,Selangor2026_Q07,A,B,C,D,C,../Selangor 2026/Picture7.png,"中文�
 English: Replanting trees restores forest cover and habitats and absorbs carbon dioxide through photosynthesis. Therefore C addresses the issue."
 F4 Chp 4,radio,N92026_Q08,A,B,C,D,C,../N9 2026/Picture8.png,"中文：R对应公共交通，它把多人集中运输，通常可降低每人能源消耗和排放。
 English: R represents public transport, which carries many people together and generally reduces energy use and emissions per passenger."
-F4 Chp 4,radio,Putrajaya2026_Q08,A,B,C,D,D,../Putrajaya 2026/Picture8.png,"中文：碳足迹量化活动产生的温室气体排放，通常用CO₂当量表示；D是本题的简化定义。
+F5 Chp 3,radio,Putrajaya2026_Q08,A,B,C,D,D,../Putrajaya 2026/Picture8.png,"中文：碳足迹量化活动产生的温室气体排放，通常用CO₂当量表示；D是本题的简化定义。
 English: A carbon footprint measures emissions from activities, usually as CO₂ equivalents; D gives the simplified definition used here."
 F4 Chp 4,radio,Sarawak2026_Q08,A,B,C,D,D,../Sarawak 2026/Picture8.png,"中文：适量使用有机肥能供应养分并减少过量化学肥料造成的污染，因此选D。无论哪类肥料，过量使用都可能造成养分流失和水体富营养化。
 English: Using suitable amounts of organic fertiliser supplies nutrients while reducing excessive chemical-fertiliser use, supporting D. Any fertiliser used excessively can contribute to runoff and eutrophication."
@@ -239,7 +239,7 @@ F4 Chp 5,radio,Putrajaya2026_Q11,A,B,C,D,D,../Putrajaya 2026/Picture11.png,"中�
 English: Genetic research can develop higher-yielding, better-quality or disease-resistant crops and livestock, improving agricultural products."
 F4 Chp 5,radio,Selangor2026_Q11,A,B,C,D,D,../Selangor 2026/Picture11.png,"中文：重组DNA技术使用限制酶在特定位置切开DNA，再将所需片段连接到载体中，因此选D。
 English: Recombinant DNA technology uses restriction enzymes to cut DNA at specific sites before inserting the required fragment into a vector. Therefore D is correct."
-F4 Chp 5,radio,Sbp2026_Q35,A,B,C,D,C,../SBP 2026/Picture35.png,"中文：题图所指的胎儿酒精综合征与怀孕期间饮酒有关，酒精可影响胎儿的脑部和身体发育。因此选C。
+F5 Chp 5,radio,Sbp2026_Q35,A,B,C,D,C,../SBP 2026/Picture35.png,"中文：题图所指的胎儿酒精综合征与怀孕期间饮酒有关，酒精可影响胎儿的脑部和身体发育。因此选C。
 English: The pictured fetal alcohol syndrome is associated with alcohol exposure during pregnancy, which can affect brain and physical development. Therefore C is correct."
 F4 Chp 6,radio,Kedah2026_Q08,A,B,C,D,B,../Kedah 2026/Picture8.png,"中文：蛇是脊椎动物，骨骼位于体内，属于内骨骼而非外骨骼或静水骨骼。
 English: A snake is a vertebrate with an internal skeleton, so it has an endoskeleton."
@@ -251,7 +251,7 @@ F4 Chp 6,radio,Melaka2026_Q09,A,B,C,D,B,../Melaka 2026/Picture9.png,"中文：�
 English: When the arm bends, biceps N contracts and triceps M relaxes; these antagonistic muscles control the movement."
 F4 Chp 6,radio,Kelantan2026_Q10,A,B,C,D,D,../Kelantan 2026/Picture10.png,"中文：通气组织有大量充气空隙，降低植物组织平均密度并提供浮力，帮助叶片浮在水面。
 English: Air-filled spaces in aerenchyma reduce tissue density and provide buoyancy, helping leaves float on water."
-F4 Chp 6,radio,Kl2026_Q10,A,B,C,D,D,../KL 2026/Picture10.png,"中文：身高有许多中间数值，属于连续变异；群体数据通常以近似钟形分布表示。
+F4 Chp 5,radio,Kl2026_Q10,A,B,C,D,D,../KL 2026/Picture10.png,"中文：身高有许多中间数值，属于连续变异；群体数据通常以近似钟形分布表示。
 English: Height has many intermediate values and shows continuous variation, commonly represented by a bell-shaped distribution."
 F4 Chp 6,radio,Melaka2026_Q10,A,B,C,D,D,../Melaka 2026/Picture10.png,"中文：图中卷须绕住支撑物，帮助柔软的攀缘植物向上生长。
 English: The tendril coils around a support, helping the soft climbing plant grow upwards."
@@ -425,7 +425,7 @@ F4 Chp 9,radio,Putrajaya2026_Q19,A,B,C,D,C,../Putrajaya 2026/Picture19.png,"中�
 English: Heating rubber with sulfur vulcanises it, forming cross-links that improve hardness, heat resistance and durability of soles."
 F4 Chp 9,radio,Sbp2026_Q19,A,B,C,D,C,../SBP 2026/Picture19.png,"中文：硫化使橡胶分子链之间形成硫交联，限制分子链滑动，使橡胶更坚硬、耐热且耐用。因此选C。
 English: Vulcanisation forms sulphur cross-links between rubber chains, restricting their movement and making rubber harder, more heat-resistant and more durable. Therefore C is correct."
-F4 Chp 9,radio,Sbp2026_Q33,A,B,C,D,D,../SBP 2026/Picture33.png,"中文：压力锅提高锅内压力，使水的沸点升高，食物可在较高温度下烹煮，相关反应更快。因此Q的烹煮速率较高，选D。
+F5 Chp 4,radio,Sbp2026_Q33,A,B,C,D,D,../SBP 2026/Picture33.png,"中文：压力锅提高锅内压力，使水的沸点升高，食物可在较高温度下烹煮，相关反应更快。因此Q的烹煮速率较高，选D。
 English: A pressure cooker raises pressure and the boiling point of water, allowing cooking at a higher temperature. The relevant reactions proceed faster in Q, so D is correct."
 F4 Chp 10,radio,Penang2026_Q15,A,B,C,D,A,../Penang 2026/Picture15.png,"中文：发炎发生在体内，可促进自由基产生；烟雾和紫外线属于外部因素。
 English: Inflammation occurs inside the body and can generate free radicals; smoke and ultraviolet radiation are external factors."
@@ -473,7 +473,7 @@ F4 Chp 10,radio,Sbp2026_Q20,A,B,C,D,A,../SBP 2026/Picture20.png,"中文：阿司
 English: Aspirin has analgesic and anti-inflammatory effects, so A fits this question. Antibiotics target bacterial infections, while amphetamines are stimulants."
 F4 Chp 10,radio,Putrajaya2026_Q21,A,B,C,D,D,../Putrajaya 2026/Picture21.png,"中文：自由基可与DNA反应、破坏其结构；抗氧化物则有助于中和自由基。
 English: Free radicals can react with and damage DNA; antioxidants help neutralise free radicals."
-F4 Chp 10,radio,Sbp2026_Q21,A,B,C,D,D,../SBP 2026/Picture21.png,"中文：本题强调酵素清洁剂有助于分解污垢中的有机物，使油污较容易清除，减少用力刷洗的需要，所以选D。实际效果会随配方和污垢而不同。
+F5 Chp 1,radio,Sbp2026_Q21,A,B,C,D,D,../SBP 2026/Picture21.png,"中文：本题强调酵素清洁剂有助于分解污垢中的有机物，使油污较容易清除，减少用力刷洗的需要，所以选D。实际效果会随配方和污垢而不同。
 English: The question emphasises that enzyme cleaners help break down organic components of dirt, making grease easier to remove and reducing vigorous scrubbing. This supports D; actual effectiveness varies."
 F4 Chp 10,radio,Sbp2026_Q22,A,B,C,D,A,../SBP 2026/Picture22.png,"中文：柠檬汁的酸性和抗氧化成分可减慢切开苹果的酶促氧化褐变，所以选A。褐变来自受损组织接触氧气后的反应。
 English: Lemon juice provides acidity and antioxidants that slow enzymatic browning in a cut apple, so A is correct. Browning begins when damaged tissues react with oxygen."
@@ -741,7 +741,7 @@ F5 Chp 3,radio,N92026_Q30,A,B,C,D,D,../N9 2026/Picture30.png,"中文：EM 泥球
 English: EM mud balls need to remain suitably moist. Keeping them out of sunlight prevents rapid drying and helps maintain microbial activity."
 F5 Chp 3,radio,Perak2026_Q30,A,B,C,D,C,../Perak 2026/Picture30.png,"中文：纸类废物占比从 20% 降到 8%，与线上考试和电子书减少用纸的趋势相符。
 English: The paper-waste share falls from 20% to 8%, consistent with online exams and e-books reducing paper use."
-F5 Chp 3,radio,Sarawak2026_Q30,A,B,C,D,D,../Sarawak 2026/Picture30.png,"中文：光合作用吸收二氧化碳；呼吸作用和燃烧会释放二氧化碳，因此光合作用能降低大气含量。
+F5 Chp 5,radio,Sarawak2026_Q30,A,B,C,D,D,../Sarawak 2026/Picture30.png,"中文：光合作用吸收二氧化碳；呼吸作用和燃烧会释放二氧化碳，因此光合作用能降低大气含量。
 English: Photosynthesis takes in CO₂, while respiration and burning release it; photosynthesis therefore reduces atmospheric carbon dioxide."
 F5 Chp 3,radio,Sbp2026_Q30,A,B,C,D,A,../SBP 2026/Picture30.png,"中文：高 BOD 表示分解有机物需要大量氧气。藻类及有机物增加会加强分解耗氧，所以此题对应选项 A。
 English: A high BOD means decomposition of organic matter needs much oxygen. More algae and organic matter increase oxygen demand, matching option A here."
@@ -751,7 +751,7 @@ F5 Chp 3,radio,Putrajaya2026_Q31,A,B,C,D,B,../Putrajaya 2026/Picture31.png,"中�
 English: The carbon footprint of fossil-fuel burning is mainly from carbon dioxide emissions; methane, CFCs and nitrogen dioxide are not the primary gas asked for."
 F5 Chp 3,radio,Sbp2026_Q31,A,B,C,D,B,../SBP 2026/Picture31.png,"中文：海洋施肥促进微藻生长，微藻通过光合作用吸收二氧化碳，是题目所列的负排放技术。
 English: Ocean fertilisation promotes microalgal growth; the algae absorb CO₂ through photosynthesis, making it the negative-emission technology listed."
-F5 Chp 3,radio,Terengganu2026_Q31,A,B,C,D,C,../Terengganu 2026/Picture31.png,"中文：光合作用吸收大气中的二氧化碳，所以它会降低空气中的二氧化碳含量。
+F5 Chp 5,radio,Terengganu2026_Q31,A,B,C,D,C,../Terengganu 2026/Picture31.png,"中文：光合作用吸收大气中的二氧化碳，所以它会降低空气中的二氧化碳含量。
 English: Photosynthesis absorbs carbon dioxide from the atmosphere, reducing its concentration in the air."
 F5 Chp 3,radio,Putrajaya2026_Q32,A,B,C,D,C,../Putrajaya 2026/Picture32.png,"中文：堆肥把可分解的食物废物转成有机肥料，回收养分并减少送往填埋场的垃圾。
 English: Composting turns biodegradable food waste into organic fertiliser, returning nutrients and reducing landfill waste."

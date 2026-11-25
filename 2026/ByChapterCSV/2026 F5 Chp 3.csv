@@ -1,4 +1,6 @@
 ﻿title,type,question,A,B,C,D,answer,image,explanation
+F5 Chp 3,radio,Putrajaya2026_Q08,A,B,C,D,D,../Putrajaya 2026/Picture8.png,"中文：碳足迹量化活动产生的温室气体排放，通常用CO₂当量表示；D是本题的简化定义。
+English: A carbon footprint measures emissions from activities, usually as CO₂ equivalents; D gives the simplified definition used here."
 F5 Chp 3,radio,Kedah2026_Q25,A,B,C,D,D,../Kedah 2026/Picture25.png,"中文：把旧塑料瓶改作花盆是重复利用，减少废弃物和新材料需求，属于带来正面减碳影响的碳手印行动。
 English: Reusing a plastic bottle as a planter cuts waste and demand for new materials, a positive carbon-handprint action."
 F5 Chp 3,radio,Kedah2026_Q26,A,B,C,D,A,../Kedah 2026/Picture26.png,"中文：在水流较慢处分批投放 EM 泥球，可延长有益微生物与污水接触的时间，让分解有机污染物更有效。
@@ -41,8 +43,6 @@ F5 Chp 3,radio,N92026_Q30,A,B,C,D,D,../N9 2026/Picture30.png,"中文：EM 泥球
 English: EM mud balls need to remain suitably moist. Keeping them out of sunlight prevents rapid drying and helps maintain microbial activity."
 F5 Chp 3,radio,Perak2026_Q30,A,B,C,D,C,../Perak 2026/Picture30.png,"中文：纸类废物占比从 20% 降到 8%，与线上考试和电子书减少用纸的趋势相符。
 English: The paper-waste share falls from 20% to 8%, consistent with online exams and e-books reducing paper use."
-F5 Chp 3,radio,Sarawak2026_Q30,A,B,C,D,D,../Sarawak 2026/Picture30.png,"中文：光合作用吸收二氧化碳；呼吸作用和燃烧会释放二氧化碳，因此光合作用能降低大气含量。
-English: Photosynthesis takes in CO₂, while respiration and burning release it; photosynthesis therefore reduces atmospheric carbon dioxide."
 F5 Chp 3,radio,Sbp2026_Q30,A,B,C,D,A,../SBP 2026/Picture30.png,"中文：高 BOD 表示分解有机物需要大量氧气。藻类及有机物增加会加强分解耗氧，所以此题对应选项 A。
 English: A high BOD means decomposition of organic matter needs much oxygen. More algae and organic matter increase oxygen demand, matching option A here."
 F5 Chp 3,radio,Kl2026_Q31,A,B,C,D,B,../KL 2026/Picture31.png,"中文：BOD 是微生物分解有机污染物所需的氧量；BOD 高代表有机污染负荷较大，不表示水中氧气多或水质好。
@@ -51,7 +51,5 @@ F5 Chp 3,radio,Putrajaya2026_Q31,A,B,C,D,B,../Putrajaya 2026/Picture31.png,"中�
 English: The carbon footprint of fossil-fuel burning is mainly from carbon dioxide emissions; methane, CFCs and nitrogen dioxide are not the primary gas asked for."
 F5 Chp 3,radio,Sbp2026_Q31,A,B,C,D,B,../SBP 2026/Picture31.png,"中文：海洋施肥促进微藻生长，微藻通过光合作用吸收二氧化碳，是题目所列的负排放技术。
 English: Ocean fertilisation promotes microalgal growth; the algae absorb CO₂ through photosynthesis, making it the negative-emission technology listed."
-F5 Chp 3,radio,Terengganu2026_Q31,A,B,C,D,C,../Terengganu 2026/Picture31.png,"中文：光合作用吸收大气中的二氧化碳，所以它会降低空气中的二氧化碳含量。
-English: Photosynthesis absorbs carbon dioxide from the atmosphere, reducing its concentration in the air."
 F5 Chp 3,radio,Putrajaya2026_Q32,A,B,C,D,C,../Putrajaya 2026/Picture32.png,"中文：堆肥把可分解的食物废物转成有机肥料，回收养分并减少送往填埋场的垃圾。
 English: Composting turns biodegradable food waste into organic fertiliser, returning nutrients and reducing landfill waste."
