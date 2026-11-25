@@ -1,4 +1,16 @@
 ﻿title,type,question,A,B,C,D,answer,image,explanation
+F4 Chp 11,radio,MaahadJohor2023_Q18,A,B,C,D,C,Maahad Johor 2023/Picture18.png,"中文：自由落体只考虑重力作用，忽略阻碍运动的空气阻力。
+English: Free fall involves gravity alone, with air resistance neglected."
+F4 Chp 11,radio,Perak2023_Q18,A,B,C,D,B,Perak 2023/Picture18.png,"中文：相同时间内的各段纸带长度相等，表示移动距离相同，速度保持不变，因此选B匀速。
+English: Equal tape lengths in equal time intervals show equal distances travelled and therefore uniform velocity, giving B."
+F4 Chp 11,radio,Selangor2023_Q18,A,B,C,D,B,Selangor 2023/Picture18.png,"中文：JK在100 m位置为水平线，位移不变，斜率为0，所以速度0 m/s，选B。
+English: JK is horizontal at 100 m, so displacement is constant and slope zero; velocity is 0 m/s, giving B."
+F4 Chp 11,radio,SelangorSet22023_Q18,A,B,C,D,D,Selangor Set 2 2023/Picture18.png,"中文：返程从K的7分钟、100 m到L的11分钟、0 m，速度=(0−100)÷[(11−7)×60]=−0.4167≈−0.42 m/s，因此选D。负号表示向家的方向。
+English: The return journey goes from K at 7 min and 100 m to L at 11 min and 0 m. Velocity = (0−100)/[(11−7)×60] = −0.4167 ≈ −0.42 m/s, giving D. The negative sign indicates motion towards home."
+F4 Chp 11,radio,TerengganuMPP32023_Q17,A,B,C,D,A,Terengganu MPP3 2023/Picture17.png,"中文：真空自由落体只受重力，物体具有相同重力加速度；空气中阻力会使实际下落加速度不同。A的“重力加速度不同”应理解为合力造成的下落加速度不同。
+English: Free fall in a vacuum involves gravity alone and the same gravitational acceleration; air resistance can change actual falling acceleration. A's phrase “different gravitational acceleration” should mean different net falling acceleration."
+F4 Chp 11,radio,TerengganuMPP32023_Q18,A,B,C,D,B,Terengganu MPP3 2023/Picture18.png,"中文：惯性天平利用振动特性测量质量，不依赖物体重量，适用于太空微重力环境。
+English: An inertial balance measures mass through oscillation rather than weight, making it suitable for microgravity in space."
 F4 Chp 11,radio,KedahTrial2023_Q19,A,B,C,D,B,Kedah Trial 2023/Picture19.png,"中文：位移时间图斜率表示速度；OP斜率50÷2=25 m/s且恒定，PQ为水平线、速度0，因此选B。
 English: The slope of a displacement–time graph gives velocity; OP has constant slope 50/2 = 25 m/s, while horizontal PQ has zero velocity, giving B."
 F4 Chp 11,radio,KedahTrial2023_Q20,A,B,C,D,D,Kedah Trial 2023/Picture20.png,"中文：同速度下，较大质量有较大惯性，较难停下；B 的惯性较大，因此其质量比 A 大。
@@ -7,55 +19,47 @@ F4 Chp 11,radio,KelantanTrial2023_Q19,A,B,C,D,C,Kelantan Trial 2023/Picture19.pn
 English: Free fall means motion under gravity alone, with air resistance neglected."
 F4 Chp 11,radio,KelantanTrial2023_Q20,A,B,C,D,D,Kelantan Trial 2023/Picture20.png,"中文：50 Hz打点器每间隔0.02 s；30 cm横跨10个间隔，时间0.20 s，所以速度=30÷0.20=150 cm/s，选D。
 English: At 50 Hz each interval is 0.02 s; 30 cm spans 10 intervals taking 0.20 s, so speed = 30/0.20 = 150 cm/s, giving D."
-F4 Chp 11,radio,MaahadJohor2023_Q19,A,B,C,D,C,Maahad Johor 2023/Picture19.png,"中文：大原子核吸收中子后裂成较小核，放出更多中子和大量能量，可产生链式反应。
-English: A heavy nucleus absorbs a neutron and splits, releasing energy and further neutrons that can sustain a chain reaction."
-F4 Chp 11,radio,MaahadJohor2023_Q20,A,B,C,D,C,Maahad Johor 2023/Picture20.png,"中文：石墨慢化剂减慢中子；硼控制棒则吸收中子以控制反应。
-English: The graphite moderator slows neutrons; boron control rods absorb neutrons to regulate the reaction."
 F4 Chp 11,radio,NegeriSembilan2023_Q19,A,B,C,D,A,Negeri Sembilan 2023/Picture19.png,"中文：速度=距离÷时间=100÷20=5 m/s，因此真实第19题应选A。
 English: Speed = distance ÷ time = 100 ÷ 20 = 5 m/s, so the actual Q19 gives A."
 F4 Chp 11,radio,NegeriSembilan2023_Q20,A,B,C,D,B,Negeri Sembilan 2023/Picture20.png,"中文：降落伞增加空气阻力，使物资较慢降落，降低撞击损坏的风险，因此真实第20题选B。
 English: A parachute increases air resistance and slows the supplies' descent, reducing impact damage, so the actual Q20 gives B."
-F4 Chp 11,radio,PahangTrial2023_Q19,A,B,C,D,A,Pahang Trial 2023/Picture19.png,"中文：芦荟常用于舒缓晒后发红、疼痛的皮肤，符合题目中的传统药物用途，因此选A。
-English: Aloe vera is traditionally used to soothe red, painful sunburned skin, matching the situation in the question, giving A."
-F4 Chp 11,radio,PahangTrial2023_Q20,A,B,C,D,D,Pahang Trial 2023/Picture20.png,"中文：切开的苹果接触空气中的氧，发生氧化而变褐，因此选D。
-English: The cut apple reacts with oxygen in the air and turns brown through oxidation, giving D."
-F4 Chp 11,radio,Melaka2023_Q19,A,B,C,D,A,Melaka 2023/Picture19.png,"中文：活性成分是产生产品主要生理作用的成分，题中强调预防疾病的作用。
-English: An active ingredient produces a product's principal physiological effect, including the disease-prevention role intended here."
 F4 Chp 11,radio,Melaka2023_Q20,A,B,C,D,C,Melaka 2023/Picture20.png,"中文：加速度 = (60 − 30) ÷ 20 = 1.5 m/s²。
 English: Acceleration = (60 − 30)/20 = 1.5 m/s²."
 F4 Chp 11,radio,Perak2023_Q19,A,B,C,D,B,Perak 2023/Picture19.png,"中文：M车在12至16秒的位移时间图为水平线，斜率为0，即速度为0，表示静止。
 English: Car M's displacement–time graph is horizontal from 12 to 16 seconds; its slope and velocity are zero, so the car is at rest."
 F4 Chp 11,radio,Perak2023_Q20,A,B,C,D,B,Perak 2023/Picture20.png,"中文：油轮质量很大，惯性也很大，倾向保持原来的运动状态，所以关掉引擎后仍继续前进。
 English: A tanker has a large mass and therefore large inertia, tending to maintain its motion even after the engine is switched off."
-F4 Chp 11,radio,Perlis2023_Q19,A,B,C,D,A,Perlis 2023/Picture19.png,"中文：铜与锌的合金是黄铜loyang；铜与锡的合金才是青铜gangsa。
-English: The alloy of copper and zinc is brass, or loyang; copper with tin forms bronze, or gangsa."
-F4 Chp 11,radio,Perlis2023_Q20,A,B,C,D,D,Perlis 2023/Picture20.png,"中文：陶瓷耐磨、稳定且可制作外形类似牙齿的材料，因此课本列假牙为陶瓷应用。
-English: Ceramics are durable and stable and can be shaped to resemble teeth, so dentures are a textbook application of ceramics."
-F4 Chp 11,radio,PutrajayaSet12023_Q19,A,B,C,D,C,Putrajaya Set 1 2023/Picture19.png,"中文：柠檬汁含抗氧化成分如维生素C，且呈酸性，能减慢切开水果的褐变氧化过程。
-English: Lemon juice contains antioxidants such as vitamin C and is acidic, helping slow oxidative browning of cut fruit."
-F4 Chp 11,radio,PutrajayaSet12023_Q20,A,B,C,D,A,Putrajaya Set 1 2023/Picture20.png,"中文：阿司匹林主要是止痛药，不是本题列出的食物抗氧化剂，所以在“除了”题中选A。
-English: Aspirin is primarily an analgesic rather than one of the food antioxidants listed here, so it is the exception, A."
-F4 Chp 11,radio,PutrajayaSet22023_Q19,A,B,C,D,C,Putrajaya Set 2 2023/Picture19.png,"中文：抗生素用于杀死细菌或抑制细菌生长，治疗细菌感染，不能作为治疗病毒感染的同类药物。
-English: Antibiotics kill bacteria or inhibit bacterial growth to treat bacterial infections; they are not equivalent treatments for viral infections."
-F4 Chp 11,radio,PutrajayaSet22023_Q20,A,B,C,D,C,Putrajaya Set 2 2023/Picture20.png,"中文：选择保健产品时应优先考虑安全性及不良反应，而非只看低价或是否含合成物质，因此本题选C。
-English: Safety and adverse effects take priority when choosing a health product rather than price alone or whether ingredients are synthetic, giving C in this question."
 F4 Chp 11,radio,SarawakSubisMiri2023_Q19,A,B,C,D,C,Sarawak Subis Miri 2023/Picture19.png,"中文：15秒时图线位于10 m/s的水平段，应选A。现有答案C为20 m/s，与图读数不符。
 English: At 15 seconds the graph is on the horizontal section at 10 m/s, giving A. Existing C, 20 m/s, disagrees with the graph."
 F4 Chp 11,radio,SarawakSubisMiri2023_Q20,A,B,C,D,D,Sarawak Subis Miri 2023/Picture20.png,"中文：真空中没有空气阻力，羽毛和硬币有相同重力加速度，同时落地，应选C。现有D说羽毛先落，不符合实验。
 English: Without air resistance in a vacuum, the feather and coin have the same gravitational acceleration and land together, giving C. Existing D wrongly says the feather lands first."
 F4 Chp 11,radio,Selangor2023_Q19,A,B,C,D,C,Selangor 2023/Picture19.png,"中文：质量的国际单位制基本单位是千克kg；牛顿是力的单位。
 English: The SI base unit of mass is the kilogram, kg; the newton measures force."
-F4 Chp 11,radio,Selangor2023_Q20,A,B,C,D,D,Selangor 2023/Picture20.png,"中文：核电能够持续提供大量电能，适合人口多、用电需求高的国家，因此本题选D。
-English: Nuclear power can supply large amounts of electricity continuously, suiting countries with large populations and high demand, giving D."
 F4 Chp 11,radio,SelangorSet22023_Q19,A,B,C,D,B,Selangor Set 2 2023/Picture19.png,"中文：质量是物体所含物质的量，与位置改变无关；重量则是重力大小，因此选B。
 English: Mass is the quantity of matter in an object and does not depend on location; weight is the gravitational force, giving B."
-F4 Chp 11,radio,SelangorSet22023_Q20,A,B,C,D,B,Selangor Set 2 2023/Picture20.png,"中文：核电运行时不燃烧化石燃料，直接二氧化碳排放较低，因此本题选B。
-English: Nuclear power does not burn fossil fuels during operation and has low direct carbon-dioxide emissions, giving B."
-F4 Chp 11,radio,TerengganuMPP32023_Q19,A,B,C,D,C,Terengganu MPP3 2023/Picture19.png,"中文：放射性废物可长期释放电离辐射，若处理不当会损害健康，因此选C。
-English: Radioactive waste may emit ionising radiation for long periods and harm health if poorly managed, giving C."
-F4 Chp 11,radio,TerengganuMPP32023_Q20,A,B,C,D,D,Terengganu MPP3 2023/Picture20.png,"中文：核裂变是重核分裂成较轻核，核聚变是轻核结合成较重核，因此D配对正确。
-English: Fission splits a heavy nucleus into lighter nuclei, while fusion combines light nuclei into a heavier one, so D is correct."
-F4 Chp 11,radio,SBP2023_Q19,A,B,C,D,B,SBP 2023/Picture19.png,"中文：不同大小的原子破坏金属原子层规则排列，阻碍滑动，所以合金通常比纯金属更硬、更耐用。
-English: Different-sized atoms disturb regular metal layers and hinder sliding, so alloys are generally harder and more durable than pure metals."
-F4 Chp 11,radio,SBP2023_Q20,A,B,C,D,B,SBP 2023/Picture20.png,"中文：聚合把小单体连成长链大分子，可形成较坚固的材料，因此题目选B提高强度。
-English: Polymerisation joins small monomers into long-chain molecules and can form stronger materials, giving B in this question."
+F4 Chp 11,radio,PahangTrial2023_Q21,A,B,C,D,C,Pahang Trial 2023/Picture21.png,"中文：位移为速度时间图的有符号面积：30×2+½×1×30−½×2×30=45 m，因此选C。
+English: Displacement is the signed area under the velocity–time graph: 30 × 2 + ½ × 1 × 30 − ½ × 2 × 30 = 45 m, giving C."
+F4 Chp 11,radio,PahangTrial2023_Q22,A,B,C,D,A,Pahang Trial 2023/Picture22.png,"中文：其他书本具有惯性，倾向保持静止，所以迅速抽出一本书时其余书本来不及明显移动。
+English: The other books have inertia and tend to remain at rest, so they move little when one book is pulled out quickly."
+F4 Chp 11,radio,Melaka2023_Q21,A,B,C,D,B,Melaka 2023/Picture21.png,"中文：硬币因惯性倾向保持静止，卡纸迅速抽走后，硬币在重力作用下落入杯中。
+English: The coin tends to remain at rest through inertia; after the card is removed, gravity makes it fall into the glass."
+F4 Chp 11,radio,PutrajayaSet12023_Q21,A,B,C,D,B,Putrajaya Set 1 2023/Picture21.png,"中文：负速度表示朝所定义正方向的反方向运动，不代表速度一定减小或正在减速，因此选B。
+English: Negative velocity indicates motion opposite to the defined positive direction; it does not necessarily mean decreasing speed or deceleration, giving B."
+F4 Chp 11,radio,PutrajayaSet12023_Q22,A,B,C,D,B,Putrajaya Set 1 2023/Picture22.png,"中文：速度=位移时间图斜率=(8−4)÷(5−3)=2 m/s，因此选B。
+English: Velocity is the slope of the displacement–time graph: (8 − 4) ÷ (5 − 3) = 2 m/s, giving B."
+F4 Chp 11,radio,PutrajayaSet22023_Q21,A,B,C,D,B,Putrajaya Set 2 2023/Picture21.png,"中文：巴士突然减速时，乘客身体因惯性仍倾向保持向前运动，所以向前倒。
+English: When the bus suddenly slows, the passenger's body tends to continue moving forward because of inertia and falls forward."
+F4 Chp 11,radio,PutrajayaSet22023_Q22,A,B,C,D,A,Putrajaya Set 2 2023/Picture22.png,"中文：20分钟=1200秒，加速度=(60−30)÷1200=0.025 m/s²，因此选A。
+English: Twenty minutes is 1200 seconds; acceleration = (60 − 30) ÷ 1200 = 0.025 m/s², giving A."
+F4 Chp 11,radio,SarawakSubisMiri2023_Q21,A,B,C,D,D,Sarawak Subis Miri 2023/Picture21.png,"中文：油轮质量大、惯性大，倾向维持原来运动，所以正确选项A；现有D势能不能解释持续运动。
+English: The tanker's large mass gives large inertia, so it tends to maintain motion, giving A; existing D, potential energy, does not explain this behaviour."
+F4 Chp 11,radio,SBP2023_Q22,A,B,C,D,B,SBP 2023/Picture22.png,"中文：速度时间图下的有符号面积等于位移，单位m/s×s=m，因此选B。
+English: The signed area under a velocity–time graph is displacement, with units m/s × s = m, giving B."
+F4 Chp 11,radio,Perlis2023_Q23,A,B,C,D,B,Perlis 2023/Picture23.png,"中文：加速度=(7−0)÷(2−0)=3.5 m/s²，等于速度时间图前两秒的斜率，因此选B。
+English: Acceleration = (7 − 0) ÷ (2 − 0) = 3.5 m/s², the slope of the graph over the first two seconds, giving B."
+F4 Chp 11,radio,Perlis2023_Q24,A,B,C,D,B,Perlis 2023/Picture24.png,"中文：雨伞突然停止时，水滴由于惯性继续原来的运动而飞离伞面，所以选B。
+English: When the umbrella stops suddenly, droplets continue their motion because of inertia and leave its surface, giving B."
+F4 Chp 11,radio,SBP2023_Q23,A,B,C,D,D,SBP 2023/Picture23.png,"中文：真空中没有空气阻力，硬币与叶子以相同重力加速度下落，从相同高度同时释放会同时落地。
+English: In a vacuum there is no air resistance; the coin and leaf have the same gravitational acceleration and land together when released from the same height."
+F4 Chp 11,radio,SBP2023_Q24,A,B,C,D,A,SBP 2023/Picture24.png,"中文：装满沙的桶质量较大，惯性较大，更难改变其运动状态，因此选A。
+English: A bucket full of sand has greater mass and inertia, making its state of motion harder to change, giving A."
